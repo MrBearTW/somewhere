@@ -13,7 +13,7 @@ Service provider(有車的人)
 Mach macker(UBER)  
 Settlement(成交)  
 --  
-Old cloud(中研院)  
+Old cloud(中研院資料庫)  
 New cloud(IOTA)  
   
-大型企業簡化內部成本
+大型企業簡化內部成本，減少對SWIFT之類的依賴  
