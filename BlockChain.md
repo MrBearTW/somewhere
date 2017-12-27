@@ -1,4 +1,15 @@
-2017/12/21 【TechTalk】區塊鏈就醬用：案例與應用分享
+# 2017/12/27 【創業趨勢講堂系列】FINTECH#2_ICO與虛擬貨幣趨勢
+https://www.accupass.com/event/1712150207071812495330  
+  
+比特幣1M 1  
+萊特幣8M 8倍  
+  
+賣賣價差
+有15分鐘的閉鎖期
+
+明年將推出MAX交易所功能，類似期貨交易，需先交類似保證金
+
+# 2017/12/21 【TechTalk】區塊鏈就醬用：案例與應用分享
 http://learning.ithome.com.tw/course/Y47KMU3gjBQiPk6
 
 今日沒有明牌，買賣幣請找別人  
