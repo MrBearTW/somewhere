@@ -1,3 +1,7 @@
+# 2017/12/29 政大資管系「金融科技、人工智慧物聯、區塊鍊工作坊」
+https://www.facebook.com/events/1510699422379463/
+
+
 # 2017/12/27 【創業趨勢講堂系列】FINTECH#2_ICO與虛擬貨幣趨勢
 https://www.accupass.com/event/1712150207071812495330  
   
