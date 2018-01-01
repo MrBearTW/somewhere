@@ -8,3 +8,11 @@ https://www.facebook.com/events/2016338851804371/
 自作專案  
 協作專案
 期末專案
+
+### Android
+Google  
+安博盒子  
+
+### iOS
+規格統一  
+消費能力  
