@@ -68,7 +68,7 @@ Kubelet
 Pod:A group of co-located containers(one or more)  
 一個Pod可以擁有很多個container  
 Replica set   
-Kubeadm 類似 dockerswarm  
+Kubeadm 類似 Docker Swarm  
 ### 13:40 ~ 14:20 李孟澤(NUTC) & 白凱仁(inwinSTACK)【How to integrate Kubernetes in OpenStack: You need to know these project】
 Kolla 封裝open stack的套件  
 OpenStack-Helm  

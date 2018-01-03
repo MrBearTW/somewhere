@@ -12,7 +12,11 @@ https://www.facebook.com/events/2016338851804371/
 ### Android
 Google  
 安博盒子  
+---
+不能買iPhone  
 
 ### iOS
 規格統一  
 消費能力  
+---
+要多買一台Macbook
