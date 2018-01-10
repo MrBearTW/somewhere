@@ -1,3 +1,16 @@
+# Augmented Reality prototype with IoT and ML API’s 
+https://gcpugtw.kktix.cc/events/meetup20180110  
+機器學習  
+機器其實不知道他在學什麼
+Google deepmind how to walk
+搜尋出特定照片或相反製造出來
+
+pygame套件來投影
+IOT core  Protocal:MQTT
+cloud data studio
+
+
+
 # Webduino
 2017/12/8 Webduino+Google 物聯網實作工作坊  
   
