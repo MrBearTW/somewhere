@@ -1,3 +1,16 @@
+# GCPUG Taiwan Meetup #34
+
+「用 Drone 打造自動化測試部署流程」
+
+Drone
+Plugin
+
+「CI / CD / Automation 你還沒準備好？」
+Continuous Integration/delivery
+Ifttt
+
+
+
 # Augmented Reality prototype with IoT and ML API’s 
 https://gcpugtw.kktix.cc/events/meetup20180110  
 機器學習  
