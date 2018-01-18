@@ -1,11 +1,14 @@
 # GCPUG Taiwan Meetup #34
 
 「用 Drone 打造自動化測試部署流程」
-
+https://youtu.be/SkTte8RmVMM  
 Drone
 Plugin
 
 「CI / CD / Automation 你還沒準備好？」
+https://www.facebook.com/groups/GCPUG.TW/permalink/2015542065371321/  
+https://www.facebook.com/chengfan.chen/posts/1876528699026620  
+
 Continuous Integration/delivery
 Ifttt
 
