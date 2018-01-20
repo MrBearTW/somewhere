@@ -1,7 +1,9 @@
 # GCPUG Taiwan Meetup #34
 
 「用 Drone 打造自動化測試部署流程」
+https://www.facebook.com/appleboy46/posts/10156128540834250  
 https://youtu.be/SkTte8RmVMM  
+https://www.facebook.com/groups/GCPUG.TW/permalink/2015541518704709/  
 Drone
 Plugin
 
