@@ -1,5 +1,19 @@
 # Qtum
-https://www.inside.com.tw/2018/01/16/qtum-taiwan-meetup  
+https://www.inside.com.tw/2018/01/16/qtum-taiwan-meetup  
+
+綠能幣
+http://www.energolabs.com/#/. 
+   
+影片VEVUE
+https://www.vevue.com  
+  
+https://token.io
+  
+Playcoin  
+  
+DAEX交易所  
+http://daex.io  
+
 
 # 2017/12/29 政大資管系「金融科技、人工智慧物聯、區塊鍊工作坊」
 https://www.facebook.com/events/1510699422379463/
