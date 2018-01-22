@@ -1,3 +1,18 @@
+# Taipei Ethereum Meetup Monthly Meetup 2018-02
+https://www.meetup.com/Taipei-Ethereum-Meetup/events/246635906/?gj=co2&rv=co2&_xtd=gatlbWFpbF9jbGlja9oAJGNhMWVkY2EyLWU4MmUtNGVlNS1hMWI2LTBlZmIyMmI2YjYzOQ  
+  
+## Simple Smart Contract Control System: a system perspective on operating Ethereum smart contracts (basic tutorial)
+by Alison Lin  
+https://github.com/EtherTW/talks/issues/9  
+  
+## A quick walkthrough of cryptokitties smart contract code  
+by Racheal Pai  
+https://github.com/EtherTW/talks/issues/7  
+
+## ICO: The Good, The Bad and The Ugly  
+by Yao Hu @yaochunghu  
+https://github.com/EtherTW/talks/issues/10  
+  
 # Qtum
 https://www.inside.com.tw/2018/01/16/qtum-taiwan-meetup  
 
