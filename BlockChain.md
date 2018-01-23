@@ -17,8 +17,8 @@ https://github.com/EtherTW/talks/issues/10
 https://www.inside.com.tw/2018/01/16/qtum-taiwan-meetup  
 
 綠能幣
-http://www.energolabs.com/#/. 
-   
+http://www.energolabs.com/#/ 
+  
 影片VEVUE
 https://www.vevue.com  
   
