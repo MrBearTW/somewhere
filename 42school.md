@@ -1,6 +1,9 @@
 # 相關新聞
 https://flipedu.parenting.com.tw/article/4324  
 
+https://www.twreporter.org/a/france-innovation-education-school-42  
+  
+
 # meeting with 42 is set for Jan 10 2018 at 18:42
 Disrupting Engineering Education  
 
