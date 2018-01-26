@@ -17,5 +17,18 @@ apiKey記得要換掉
 
 分析文件範例  
 https://gallery.cortanaintelligence.com/Experiment/ecaa60e30c19443e9313f53155bc4367  
+視覺辨識範例  
+https://docs.microsoft.com/en-us/azure/machine-learning/preview/scenario-image-classification-using-cntk  
+
+
+Azure Machine Learning Studio 功能的概觀圖  
+https://docs.microsoft.com/zh-tw/azure/machine-learning/studio/studio-overview-diagram  
+選擇模型  
+https://docs.microsoft.com/zh-tw/azure/machine-learning/studio/algorithm-cheat-sheet  
+模型比較  
+https://docs.microsoft.com/zh-tw/azure/machine-learning/studio/algorithm-choice  
+  
+Azure Machine Learning Workbench  
+
 
 # 第一堂課
