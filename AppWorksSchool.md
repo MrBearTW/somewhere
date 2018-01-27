@@ -1,3 +1,7 @@
+# 2018/01/19 
+https://goo.gl/WXcteV
+https://goo.gl/hxznmp
+
 # 2017/12/26 從 0 開始學程式，非本科系的軟體轉職心路
 https://www.facebook.com/events/2016338851804371/  
   
