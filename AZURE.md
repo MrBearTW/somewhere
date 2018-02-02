@@ -1,5 +1,6 @@
+# 第二堂課 2018/02/09
 
-# 魚客松  
+# 魚客松   
 
 https://paper.dropbox.com/doc/MVlAwmpg0OnZOnH0Nm4rv
 
@@ -31,5 +32,6 @@ https://docs.microsoft.com/zh-tw/azure/machine-learning/studio/algorithm-choice
 Azure Machine Learning Workbench  
 
 
-# 第一堂課
+# 第一堂課 2018/01/19
 teacher.sysetcom
+https://onedrive.live.com/?authkey=%21AFWXtU22ttgWJtQ&id=259366EE7BCC0505%2165974&cid=259366EE7BCC0505
