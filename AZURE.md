@@ -1,4 +1,4 @@
-# 第二堂課 2018/02/09
+# 第二堂課 2018/02/09 IT Friday: Azure for IT Pro 三堂課_ 第二堂： 運用雲端技術輕鬆管理企業混合雲環境
 
 # 魚客松   
 
@@ -32,6 +32,6 @@ https://docs.microsoft.com/zh-tw/azure/machine-learning/studio/algorithm-choice
 Azure Machine Learning Workbench  
 
 
-# 第一堂課 2018/01/19
+# 第一堂課 2018/01/19 IT Friday: Azure for IT Pro 三堂課 _ 第一堂：了解Azure IaaS架構及VM 駕馭術
 teacher.sysetcom
 https://onedrive.live.com/?authkey=%21AFWXtU22ttgWJtQ&id=259366EE7BCC0505%2165974&cid=259366EE7BCC0505
