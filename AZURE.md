@@ -1,13 +1,11 @@
 # 第二堂課 2018/02/09 IT Friday: Azure for IT Pro 三堂課_ 第二堂： 運用雲端技術輕鬆管理企業混合雲環境
 
 # 魚客松   
-
+今日相關投影片連結  
 https://paper.dropbox.com/doc/MVlAwmpg0OnZOnH0Nm4rv
-
-
+  
 https://docs.google.com/presentation/d/1MZT2bw28VZLykNEf8MZ_Kv7Za1XUmzpP7NUS5lL7_HI/edit#slide=id.g2f2a5b508c_0_0  
-
-
+  
 根據論壇資歷來分析賣場的輿情分析  
 
 
