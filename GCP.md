@@ -18,6 +18,9 @@ Ifttt
 
 # Augmented Reality prototype with IoT and ML API’s 
 https://gcpugtw.kktix.cc/events/meetup20180110  
+  
+https://drive.google.com/file/d/1E5pgNIhENUN2pFaTYug5IPB2vI9k2hud/view  
+  
 機器學習  
 機器其實不知道他在學什麼
 Google deepmind how to walk
