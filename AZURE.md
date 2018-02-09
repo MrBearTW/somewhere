@@ -1,4 +1,19 @@
 # 第二堂課 2018/02/09 IT Friday: Azure for IT Pro 三堂課_ 第二堂： 運用雲端技術輕鬆管理企業混合雲環境
+ASOM Azure Security and Operations Management  
+目前是preview版  
+以前叫做OMS Operation Management Studio  
+SCOM=System Center Operation Manager  
+Log Analytics  
+錄影檔案https://wwww.instantly/s/PUxQV  
+
+DDOS保護  
+  
+ASR = Azure Site Recovery  
+可以先寫好復原計畫  
+一鍵複寫一鍵復原  
+網域控制站DC不能複寫  
+
+Honolulu  
 
 # 魚客松   
 今日相關投影片連結  

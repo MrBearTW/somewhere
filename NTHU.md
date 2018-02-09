@@ -1,4 +1,6 @@
 # 2018/01/30 Machine Learning & Deep Learning - a tutorial
+https://drive.google.com/file/d/1TWqlFVpbGeA-r2zQJT9Iq5oWr9c36U7I/view  
+  
 算導數  
 Steepest descent  
 Gradient descent  
