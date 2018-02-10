@@ -4,7 +4,7 @@ ASOM Azure Security and Operations Management
 以前叫做OMS Operation Management Studio  
 SCOM=System Center Operation Manager  
 Log Analytics  
-錄影檔案https://wwww.instantly/s/PUxQV  
+錄影檔案https://www.instantly/s/PUxQV  
 
 DDOS保護  
   
