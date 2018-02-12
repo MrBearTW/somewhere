@@ -1,3 +1,7 @@
+# 微軟文件編輯
+https://docs.microsoft.com/en-us/style-guide/welcome/  
+  
+
 # 第二堂課 2018/02/09 IT Friday: Azure for IT Pro 三堂課_ 第二堂： 運用雲端技術輕鬆管理企業混合雲環境
 ASOM Azure Security and Operations Management  
 目前是preview版  
