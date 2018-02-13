@@ -12,3 +12,10 @@ Softmax
 Concat/Normailze  
 
 Mac電腦 XQuartz可以畫UML  
+  
+Android NN api 支援不多  
+Operation和Operands  
+  
+TOCO  
+Flat buffer  
+Interpreter  
