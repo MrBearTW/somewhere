@@ -1,3 +1,6 @@
+# 不可錯過的五堂虛擬貨幣與區塊鏈線上免費課程
+https://www.facebook.com/fininnotw/photos/a.1896654433990090.1073741829.1475924836063054/2006640192991513/?type=3
+
 # Taipei Ethereum Meetup Monthly Meetup 2018-02
 https://www.meetup.com/Taipei-Ethereum-Meetup/events/246635906/?gj=co2&rv=co2&_xtd=gatlbWFpbF9jbGlja9oAJGNhMWVkY2EyLWU4MmUtNGVlNS1hMWI2LTBlZmIyMmI2YjYzOQ  
   
