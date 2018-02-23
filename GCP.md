@@ -1,3 +1,6 @@
+# Practice makes perfect: the Professional Data Engineer Practice Exam is now live  
+https://cloud.google.com/blog/big-data/2018/02/practice-makes-perfect-the-professional-data-engineer-practice-exam-is-now-live?authuser=0  
+
 # GCPUG Taiwan Meetup #34
 
 「用 Drone 打造自動化測試部署流程」
