@@ -5,3 +5,8 @@ https://youtu.be/yhTzUH1I_TI
 
 C 語言基礎 》》如何建立 C 程式  
 https://youtu.be/fJ2iq1Ye5MU  
+
+
+GCC  
+Codeblocks  
+Xcode  
