@@ -1,0 +1,17 @@
+<!--Form-->
+
+
+<!-- Search history-->
+<div class="w-100 mb-3 border border-info rounded" style="height:80;overflow:scroll">
+    <ul>{% for record in search_history %}
+        <li>
+            <b>{{ record.q}}</b>: {% if record.title %}
+            <a href="https://www.kkbox.com/tw/tc/playlist/{{record.id}}" target="_blank">
+                {{record.title}}
+            </a>
+            {{% else %}}
+            <span>Found nothing...</span>
+        </li>
+
+    </ul>
+</div>
