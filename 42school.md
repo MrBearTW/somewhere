@@ -28,5 +28,8 @@ peer-to-peer correction
 早餐4鎂
 午餐晚餐6鎂
 
-玩加州20件事
-http://womany.net/read/article/4624
+玩加州20件事  
+http://womany.net/read/article/4624  
+  
+42前輩  
+https://www.cakeresume.com/26129f-468deb-b543c6  
