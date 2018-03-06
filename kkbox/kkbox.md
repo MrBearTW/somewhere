@@ -13,3 +13,7 @@ territory 參數是什麼？
 https://docs-zhtw.kkbox.codes/docs/q-a  
   
 python3 -m virtualenv ./???
+
+
+----------
+https://drive.google.com/file/d/1nUtPuZIg-jwSo4wygX_fZUF2wcSNZZjS/view  
