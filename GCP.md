@@ -1,3 +1,7 @@
+#機器學習速成班
+https://developers.google.com/machine-learning/crash-course/  
+
+
 # Practice makes perfect: the Professional Data Engineer Practice Exam is now live  
 https://cloud.google.com/blog/big-data/2018/02/practice-makes-perfect-the-professional-data-engineer-practice-exam-is-now-live?authuser=0  
 
