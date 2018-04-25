@@ -1,3 +1,36 @@
+# 2018/04/26 
+##  Continue Deploy at Google Kubernetes Engine
+cloud shell Home裡面的資料不會消失  
+  
+https://github.com/peihsinsu/demoweb  
+  
+External DNS  
+整合CLOUDFLARE  
+不要兩個指定同一個外掛  
+    
+clusterbinding.yaml  
+  
+container builder
+https://github.com/GoogleCloudPlatform/cloud-builders
+  
+bitbucket  
+  
+可以做到多版本同時在線  
+
+
+## Use Google cloud trace with opencensus
+集雅科技  徵才中  
+  
+gcloud-python  
+  
+Open Census  
+https://opencensus.io  
+  
+## Kubeflow on Google Kubernetes Engine
+GKE > 1.9版  
+
+
+
 #機器學習速成班
 https://developers.google.com/machine-learning/crash-course/  
 
