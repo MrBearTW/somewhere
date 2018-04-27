@@ -22,9 +22,9 @@ peer-to-peer correction
  October 22 – November 16, 2018
 
 3/10 10:10 @SFO
-1/22 ㄒㄧㄣˋㄐㄧㄢˋ On Mar 12 2018 at 08:42  
+1/22 信件 On Mar 12 2018 at 08:42  
 
-2/18宿舍GET
+2/18 宿舍GET
 
 早餐4鎂
 午餐晚餐6鎂

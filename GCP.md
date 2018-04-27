@@ -1,5 +1,6 @@
 # 2018/04/26 
 ##  Continue Deploy at Google Kubernetes Engine
+https://www.facebook.com/groups/GCPUG.TW/permalink/2065796520345875/  
 cloud shell Home裡面的資料不會消失  
   
 https://github.com/peihsinsu/demoweb  
@@ -19,6 +20,7 @@ bitbucket
 
 
 ## Use Google cloud trace with opencensus
+https://www.facebook.com/groups/GCPUG.TW/permalink/2065796813679179/  
 集雅科技  徵才中  
   
 gcloud-python  
@@ -27,6 +29,7 @@ Open Census
 https://opencensus.io  
   
 ## Kubeflow on Google Kubernetes Engine
+https://www.facebook.com/groups/GCPUG.TW/permalink/2065797483679112/  
 GKE > 1.9版  
 
 
