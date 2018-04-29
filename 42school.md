@@ -34,3 +34,6 @@ http://womany.net/read/article/4624
   
 42前輩  
 https://www.cakeresume.com/26129f-468deb-b543c6  
+
+前輩心得
+http://nainteirukitsune.blogspot.tw/2017/12/42-silicon-valley-piscine.html
