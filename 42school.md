@@ -37,3 +37,16 @@ https://www.cakeresume.com/26129f-468deb-b543c6
 
 前輩心得
 http://nainteirukitsune.blogspot.tw/2017/12/42-silicon-valley-piscine.html
+
+PTT  
+│ 文章代碼(AID): #1JdwKQwP (Soft_Job) [ptt.cc] [閒聊] Ecole 42 法國軟體學? │
+│ 文章網址: https://www.ptt.cc/bbs/Soft_Job/M.1402971418.A.E99.html        │
+│ 這一篇文章值 30 Ptt幣
+
+│ 文章代碼(AID): #1QGQKsHz (Soft_Job) [ptt.cc] [請益] School 42            │
+│ 文章網址: https://www.ptt.cc/bbs/Soft_Job/M.1514251574.A.47D.html        │
+│ 這一篇文章值 2 Ptt幣
+  
+│ 文章代碼(AID): #1QO8AJh3 (Soft_Job) [ptt.cc] Re: [請益] School 42        │
+│ 文章網址: https://www.ptt.cc/bbs/Soft_Job/M.1516274323.A.AC3.html        │
+│ 這一篇文章值 1 Ptt幣   
