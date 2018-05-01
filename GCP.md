@@ -1,4 +1,7 @@
-# 2018/04/26 
+# 2108/05/08 GDG Taipei #45 - Google I/O Extended 2018 Taipei Live Party
+
+
+# 2018/04/26 GCPUG.TW Meetup #36
 ##  Continue Deploy at Google Kubernetes Engine
 https://www.facebook.com/groups/GCPUG.TW/permalink/2065796520345875/  
 cloud shell Home裡面的資料不會消失  
