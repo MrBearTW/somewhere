@@ -4,7 +4,9 @@
 線上講義  
 Day1a: https://ppt.cc/fTBv8x  
 Day1b: https://ppt.cc/fhAErx  
-  
+
+config.xml盡量都用英文  
+
 模板網站  
 https://themeforest.net/category/site-templates/mobile  
 https://themeforest.net  
