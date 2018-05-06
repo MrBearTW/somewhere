@@ -50,3 +50,7 @@ PTT
 │ 文章代碼(AID): #1QO8AJh3 (Soft_Job) [ptt.cc] Re: [請益] School 42        │
 │ 文章網址: https://www.ptt.cc/bbs/Soft_Job/M.1516274323.A.AC3.html        │
 │ 這一篇文章值 1 Ptt幣   
+
+C學習資源
+宅瑟夫
+https://www.facebook.com/JservFans/posts/1485023238290672
