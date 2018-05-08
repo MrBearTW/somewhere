@@ -1,5 +1,24 @@
 # 2108/05/08 GDG Taipei #45 - Google I/O Extended 2018 Taipei Live Party
-
+fitz愛有氧  
+http://www.fitzchannel.com  
+遊戲化，社群挑戰機制  
+  
+cloudmile
+estimators  
+  
+kotlin  
+https://kotlinlang.org  
+https://blog.kotlin-academy.com/effective-java-in-kotlin-item-1-consider-static-factory-methods-instead-of-constructors-8d0d7b5814b2  
+https://medium.com/capital-one-developers/coroutines-and-rxjava-an-asynchronicity-comparison-part-1-asynchronous-programming-e726a925342a  
+  
+Android P  
+很多權限開始被收斂  
+Android KTX  
+https  
+識別碼  
+google allo  
+瀏海cutout  
+https://developer.android.com/preview/  
 
 # 2018/04/26 GCPUG.TW Meetup #36
 ##  Continue Deploy at Google Kubernetes Engine
