@@ -1,4 +1,4 @@
-# 2108/05/08 GDG Taipei #45 - Google I/O Extended 2018 Taipei Live Party
+# 2108/05/08 GDG Taipei #45 - 
 fitz愛有氧  
 http://www.fitzchannel.com  
 遊戲化，社群挑戰機制  
@@ -12,6 +12,7 @@ https://blog.kotlin-academy.com/effective-java-in-kotlin-item-1-consider-static-
 https://medium.com/capital-one-developers/coroutines-and-rxjava-an-asynchronicity-comparison-part-1-asynchronous-programming-e726a925342a  
   
 Android P  
+https://www.slideshare.net/ssuser8674c1/kotlin-in-practice  
 很多權限開始被收斂  
 Android KTX  
 https  
@@ -19,6 +20,37 @@ https
 google allo  
 瀏海cutout  
 https://developer.android.com/preview/  
+  
+# Google I/O Extended 2018 Taipei Live Party
+https://events.google.com/io/  
+Gmail可以用TAB鍵  
+拍照直接變成PDF  
+色彩黑白  
+TPU 3.0  
+6種新聲音  
+mutiplele  
+pretty please  
+starbucks  
+代替定位  
+digital wellbeging 
+自動登入付費帳號並顯示搜尋結果  
+
+## Android P
+自動調節電量
+自動調節亮度
+ML Kit  
+轉90度控制鍵  
+APP timer  
+
+## map
+找停車位  
+機車  
+your match  
+投票功能  
+
+# WAYMO
+
+
 
 # 2018/04/26 GCPUG.TW Meetup #36
 ##  Continue Deploy at Google Kubernetes Engine
