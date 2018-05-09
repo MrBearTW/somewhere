@@ -47,10 +47,12 @@ APP timer
 機車  
 your match  
 投票功能  
-
+  
 # WAYMO
-
-
+1.不合理駕駛預測的防備=看到停紅燈的車有微微動一下，預測可能會闖紅燈，自駕車就會自己慢下來  
+2.極端氣候下的資訊處理=像是下雪的環境要怎麼去除掉漫天大雪的干擾  
+3.
+  
 
 # 2018/04/26 GCPUG.TW Meetup #36
 ##  Continue Deploy at Google Kubernetes Engine
