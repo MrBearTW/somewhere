@@ -54,3 +54,8 @@ PTT
 C學習資源
 宅瑟夫
 https://www.facebook.com/JservFans/posts/1485023238290672
+
+
+https://www.facebook.com/42SiliconValley/  
+https://www.instagram.com/42siliconvalley/  
+https://twitter.com/42siliconvalley  
