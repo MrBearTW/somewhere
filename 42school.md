@@ -59,3 +59,6 @@ https://www.facebook.com/JservFans/posts/1485023238290672
 https://www.facebook.com/42SiliconValley/  
 https://www.instagram.com/42siliconvalley/  
 https://twitter.com/42siliconvalley  
+
+
+https://www.42.us.org/student-survival-kit/  
