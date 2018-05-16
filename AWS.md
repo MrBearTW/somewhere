@@ -1,3 +1,19 @@
+# 2018/05/16 CLBC AWS 人工智慧與機器學習實作工作坊
+https://github.com/jhenweihuang/ml-workshop  
+
+polley
+https://aws.amazon.com/tw/polly/  
+
+
+Amazon Lex  
+https://aws.amazon.com/tw/lex/  
+
+Rekognition API
+臉部辨識
+C-SPAN名人臉孔辨識  
+
+
+
 # 2018/1/26魚客松
 Data>store>process>store>analyze>answer
 
