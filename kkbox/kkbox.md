@@ -1,7 +1,10 @@
 # 2018/05/17 KKBOX Innovation Chat #22 (台北場) 與 AI 共譜新篇章：熱門歌曲預測與 NLP 大哉問
-GBDT  
-
-歐拉密 olami
+GBDT推薦效果較隨金森林好    
+  
+威盛公司出品  
+歐拉密 olami  
+可辨識台灣國語  
+網頁有示範文件  
 https://tw.olami.ai/open/website/apiandsolution/speech_understanding
 
 # 	20180307
