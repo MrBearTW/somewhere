@@ -3,6 +3,11 @@
 
 https://www.swipe.to/3839gx
 
+下載NPM  
+https://nodejs.org/en/  
+  
+doalogflow  
+
 https://www.facebook.com/groups/chatbot.tw/permalink/991142257730816/
 
 
