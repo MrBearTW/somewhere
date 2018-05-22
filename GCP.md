@@ -1,4 +1,27 @@
-# 2108/05/08 GDG Taipei #45 - 
+# 2018/05/22 GCPUG.TW meetup #37
+## Google Cloud Platform Certifications - Cloud Architect 考試心得告白
+
+記得帶護照  
+冷氣很強  
+官網case study  
+4倍難  
+  
+產品限制 Cloud SQL單台的儲存上限是？ Coldline的限制是什麼？
+情境題 讀熟每一個case study 並理解其服務對應
+架構題 GAE GKE BQ 前面/後面的串接 log放BQ好還是GCS好  
+移轉題 從IDC移轉到GCP，本地資料處理對應到GCP的哪個data產品  
+監控題 Stackdriver的功能 agent及應用情境請詳讀  
+網路和管理題 GCP專案 subnet的建立 VPC
+權限與管理題 如IAM G-Suite與GCP間的權限設定  
+CICD的實作題 CI/CD config mgmt deployment canary / blue-green  
+
+
+flutter
+android things  
+
+
+
+# 2018/05/08 GDG Taipei #45 - 
 fitz愛有氧  
 http://www.fitzchannel.com  
 遊戲化，社群挑戰機制  
