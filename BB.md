@@ -42,6 +42,8 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
 
 ## 轉寫程式
 
+找文文問一下
+
 免費課程
 轉職APP工程師    
 5/25前要交申請  
@@ -49,6 +51,14 @@ https://www.facebook.com/AppWorksSchool/posts/1608575209249419
 
 標題Fw: [心得] 文組生轉工程師攻略  
 https://www.ptt.cc/bbs/CareerPlan/M.1518675344.A.A64.html  
+
+五個月成為 JavaScript 工程師的完整攻略，每個月要幹嘛都寫出來讓你照著做！  
+https://buzzorange.com/techorange/2018/01/04/learn-coding-in-5-months/  
+
+(英文)30天學會javascript  
+https://javascript30.com  
+(英文)Learn to code for free  
+https://www.freecodecamp.org
   
 文組轉職經驗  
 https://buzzorange.com/techorange/2018/02/23/ptt-how-to-be-programmer/
