@@ -1,3 +1,11 @@
+# AQI智慧燈體驗工作坊
+
+上課資源  
+https://drive.google.com/drive/folders/1mH-4rjaPDOBEZANIVzxm_2YlqTJISXmu  
+
+wifi密碼 makerinn
+
+
 # 2018/5/5,12 APP程式設計
 相關資料 https://onedrive.live.com/?authkey=%21AKsJ04K7dIEbWv4&id=8CA03E6F50275F19%211108512&cid=8CA03E6F50275F19  
   

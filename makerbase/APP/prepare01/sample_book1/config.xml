@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+		xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id	    = "tw.nojob.mrbeartw.firstebook"
+		versionCode = "1" 
+		version     = "0.1.0" >
+ 
+	<name>我的第一本電子書</name>
+ 
+	<description>
+		makerbase first ebook
+	</description>
+ 
+	<author href="網址" email="信箱">
+		mrbeartw
+	</author>
+	
+	<icon src="book.png" />
+	
+	<!-- current version of PhoneGap -->
+	
+	<preference name='phonegap-version' value='cli-6.5.0' />
+	
+	<!-- 設定畫面固定為水平(landscape)、垂直(portrait) -->
+	<preference name="orientation" value="portrait" />
+
+	<!-- 加入其它plugin設定 -->
+	
+</widget>
