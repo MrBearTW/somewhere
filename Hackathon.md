@@ -1,3 +1,12 @@
+# 2018/06/01 智慧科技應用大賽：台北說明會
+Prism
+Pixel變動成為熱點
+哈利波特的魔術地圖
+Horton 鞋子辨識
+商湯科技
+竹間ai語音
+面試ai人資ai
+
 # [2018 Fishackathon魚客松賽前訓練] Tech Talk : IBM_利用 IBM Cloud 建構雲端區塊鏈應用系統
 https://www.ibm.com/cloud-computing/bluemix/zh-hant
 ## 吳志忠 / Tommy Wu, IBM雲端技術架構師。專長於雲端與物聯網的創新運用，他將IBM Cloud 結合最新的認知技術Watson，開發出多種AI的應用場景，讓Robot/聊天機器人結合LINE或FB，成為我們的行動小助理，充份的展現了IBM在認知運算與人工智慧的強大能力。  
