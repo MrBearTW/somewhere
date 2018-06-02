@@ -1,0 +1,64 @@
+var CHANNEL_ACCESS_TOKEN = 'your token';
+
+/***********************************************************************處理Line server傳進來訊息，再送出訊息到用戶端***********************************************************************************************/
+function doPost(e) {
+
+  var events = JSON.parse(e.postData.contents).events[0];  //event事件
+  var reply_token = events.replyToken;
+  var json = JSON.parse(e.postData.contents);
+  
+  
+  var SpreadSheet = SpreadsheetApp.openById("open id"); //sheet 網址
+  var Sheet1 = SpreadSheet.getSheetByName("工作表1"); 
+  var Sheet2 = SpreadSheet.getSheetByName("工作表2"); 
+  var LastRow1 = Sheet1.getLastRow();
+  var LastRow2 = Sheet2.getLastRow();
+  var payload;
+  var userid=events.source.userId;
+
+ switch(json.events[0].type){
+     
+ case 'message':    
+    var data1 =events.message.text;
+    if(data1.search("小明")!=-1){
+      var c =data1.slice(data1.indexOf("小明"),100);
+      messages = [ {'type': 'text', 'text': c}];
+     payload = { 
+          'to': 'friends id',
+          'messages' : messages
+         }
+    
+    }
+    
+  break;
+ case 'follow':
+    Sheet2.getRange( LastRow2+1,1).setValue(userid);
+    messages = [ {'type': 'text', 'text': "加入好友成功囉!"}]; 
+    
+ break;
+}
+
+  
+ 
+  if (typeof reply_token === 'undefined') 
+    return;
+  
+  var url = 'https://api.line.me/v2/bot/message/push';
+  
+  var header = {
+    'Content-Type': 'application/json; charset=UTF-8',
+    'Authorization': 'Bearer ' + CHANNEL_ACCESS_TOKEN,
+  }
+
+   
+  var options = {
+    'headers': header,
+    'method': 'post',
+    'payload': JSON.stringify(payload)
+  }
+  
+  UrlFetchApp.fetch(url, options);
+  
+  return ContentService.createTextOutput(JSON.stringify({'content': 'post ok'})).setMimeType(ContentService.MimeType.JSON);
+
+}

@@ -1,4 +1,14 @@
 # Line BOT之阿福管家
+上課資料  
+https://drive.google.com/drive/folders/1BLhboPKvKEMZpHO5bUwuZ7a3FNQYFRY9  
+
+LINE後台  
+https://developers.line.me/en/  
+API reference    
+https://developers.line.me/en/docs/messaging-api/reference/#send-reply-message  
+
+範例三  
+push 選定單一ID回覆訊息  
 
 # AQI智慧燈體驗工作坊
 

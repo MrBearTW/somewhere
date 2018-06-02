@@ -1,0 +1,57 @@
+var CHANNEL_ACCESS_TOKEN = 'your token';
+
+/***********************************************************************處理Line server傳進來訊息，再送出訊息到用戶端***********************************************************************************************/
+function doPost(e) {
+
+  var events = JSON.parse(e.postData.contents).events[0];  //event事件
+  var reply_token = events.replyToken;
+  var json = JSON.parse(e.postData.contents);
+  
+  
+  var SpreadSheet = SpreadsheetApp.openById("open id"); //sheet 網址
+  var Sheet1 = SpreadSheet.getSheetByName("工作表1"); //已經下的訂單
+  var LastRow1 = Sheet1.getLastRow();
+
+  
+
+ switch(json.events[0].type){
+
+ case 'message':    
+   var data1 =events.message.text;
+
+          Sheet1.getRange( LastRow1+1,1).setValue(data1);
+          messages = [ {'type': 'text', 'text': "資料儲存成功!"}]; 
+          
+    
+   break;
+}
+
+  
+  
+
+  if (typeof reply_token === 'undefined') 
+    return;
+  
+  var url = 'https://api.line.me/v2/bot/message/reply';
+  
+  var header = {
+    'Content-Type': 'application/json; charset=UTF-8',
+    'Authorization': 'Bearer ' + CHANNEL_ACCESS_TOKEN,
+  }
+
+  var payload = { 
+    'replyToken': reply_token,
+    'messages' : messages
+  }
+   
+  var options = {
+    'headers': header,
+    'method': 'post',
+    'payload': JSON.stringify(payload)
+  }
+  
+  UrlFetchApp.fetch(url, options);
+  
+  return ContentService.createTextOutput(JSON.stringify({'content': 'post ok'})).setMimeType(ContentService.MimeType.JSON);
+
+}

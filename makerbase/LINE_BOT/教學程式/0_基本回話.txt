@@ -1,0 +1,43 @@
+var CHANNEL_ACCESS_TOKEN = 'your token';
+
+/***********************************************************************處理Line server傳進來訊息，再送出訊息到用戶端***********************************************************************************************/
+function doPost(e) {
+
+  var events = JSON.parse(e.postData.contents).events[0];  //event事件
+  var reply_token = events.replyToken;
+  var json = JSON.parse(e.postData.contents);
+
+  
+ switch(json.events[0].type){
+ 
+ case 'message':    
+           messages = [ {'type': 'text', 'text': events.message.text}];  
+  break;
+}
+
+  if (typeof reply_token === 'undefined') 
+    return;
+  
+  var url = 'https://api.line.me/v2/bot/message/reply';
+  
+  var header = {
+    'Content-Type': 'application/json; charset=UTF-8',
+    'Authorization': 'Bearer ' + CHANNEL_ACCESS_TOKEN,
+  }
+
+  var payload = { 
+    'replyToken': reply_token,
+    'messages' : messages
+  }
+   
+  var options = {
+    'headers': header,
+    'method': 'post',
+    'payload': JSON.stringify(payload)
+  }
+  
+  UrlFetchApp.fetch(url, options);
+
+  return ContentService.createTextOutput(JSON.stringify({'content': 'post ok'})).setMimeType(ContentService.MimeType.JSON);
+
+}
