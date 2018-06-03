@@ -6,6 +6,11 @@ LINE後台
 https://developers.line.me/en/  
 API reference    
 https://developers.line.me/en/docs/messaging-api/reference/#send-reply-message  
+Line@方案介紹  
+https://at.line.me/tw/plan  
+
+
+部屬的時候要選新增  
 
 範例三  
 push 選定單一ID回覆訊息  
