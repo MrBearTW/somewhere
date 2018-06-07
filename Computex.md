@@ -14,6 +14,10 @@
 政府單位桃園科技部什麼的
 比利時荷蘭法國韓國各有一區(新聞是寫13國)
 
+# 2018/06/06 NVIDIA MAX-Q Gamer's Party
+可以遊戲中截圖
+而且可以潔360度的圖
+
 # 2018/06/06 2018 Microsoft Keynote@Computex  
 Azure Sphere MCUs  
 聯發科  
