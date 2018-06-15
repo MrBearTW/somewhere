@@ -1,8 +1,20 @@
 # 6/20 . 6/27 物聯網智慧家居開發及設計實作-IOT智慧開關
 
+
 # 06月15,22日(五) Arduino創客入門及應用
+https://slides.com/shinjia/makerbase-20180615/fullscreen?token=Y62_G6Po#/  
+陳信嘉老師  
 
+工具 >開發版  
+序列阜要對  
+類比的接腳不用特別指定  
 
+analog要用板子左下的那一些A0~5的輸出入  
+
+一個資料夾內有兩個檔案的時候compile的時候會一起，可能會出現變數衝突
+  
+6/22  
+https://slides.com/shinjia/makerbase-20180622/fullscreen?token=L1b8T9bW#/  
 
 # Line BOT之阿福管家
 上課資料  
@@ -30,6 +42,7 @@ wifi密碼 makerinn
 
 
 # 2018/5/5,12 APP程式設計
+陳信嘉老師  
 相關資料 https://onedrive.live.com/?authkey=%21AKsJ04K7dIEbWv4&id=8CA03E6F50275F19%211108512&cid=8CA03E6F50275F19  
   
 線上講義  
