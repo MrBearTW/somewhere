@@ -1,9 +1,19 @@
 import requests
+
 import pyquery
+
 import time
+
 
 def crawl_page(url):
 
+    print(url)
+
+    response = requests.get(url)
+
+    d = pyquery.PyQuery(response.text)
+
+    title = d('article.ndArticle_leftColumn h1')
 
     print(title.text())
 
