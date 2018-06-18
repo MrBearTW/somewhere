@@ -2,7 +2,7 @@ https://docs.google.com/document/d/1DnaR5pFhq3FOQrw1Nnr3_EKXuFDQ_gJAfXhJocNy0lg/
 
 爬蟲就是模擬人跟網頁交互動作的行為  
 
-Java單引號是字元  
+Java中單引號是字元  
 
 python yahoo.py > stock.txt
 
