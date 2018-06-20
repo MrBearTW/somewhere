@@ -1,0 +1,7 @@
+ausername
+apassword
+cd doc/realterm
+binary
+mput temp_graph.png
+quit
+

@@ -1,5 +1,11 @@
 # 6/20 . 6/27 物聯網智慧家居開發及設計實作-IOT智慧開關
+上課資料  
+https://drive.google.com/uc?id=1uUWgIYYSVQ59Lro2sWWCitpEyaipfBnR&export=download  
 
+焊接參考  
+https://drive.google.com/file/d/1dXh33SB7hnQAdOobnKkJTqcmnditOGoO/view
+
+三切雙路開關
 
 # 06月15,22日(五) Arduino創客入門及應用
 https://slides.com/shinjia/makerbase-20180615/fullscreen?token=Y62_G6Po#/  
