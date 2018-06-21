@@ -5,6 +5,12 @@ https://drive.google.com/uc?id=1uUWgIYYSVQ59Lro2sWWCitpEyaipfBnR&export=download
 焊接參考  
 https://drive.google.com/file/d/1dXh33SB7hnQAdOobnKkJTqcmnditOGoO/view
 
+工業安全用電執照  
+家中110伏特，通過0.7安培就會GG  
+
+先檢查Arduino  
+再檢查wifi  
+
 三切雙路開關
 
 # 06月15,22日(五) Arduino創客入門及應用
