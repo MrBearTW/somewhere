@@ -28,6 +28,14 @@ analog要用板子左下的那一些A0~5的輸出入
 6/22  
 https://slides.com/shinjia/makerbase-20180622/fullscreen?token=L1b8T9bW#/  
 
+上課實例
+https://hackmd.io/s/ryovoaKWX
+
+參考賣家  
+http://class.ruten.com.tw/user/index00.php?s=yuhhann_online
+
+Arduino Lilypad常用在服裝等軟的材料上面  
+  
 # Line BOT之阿福管家
 上課資料  
 https://drive.google.com/drive/folders/1BLhboPKvKEMZpHO5bUwuZ7a3FNQYFRY9  
