@@ -15,8 +15,6 @@ http://autumn20150912.blogspot.tw/
 https://ga-dev-tools.appspot.com/campaign-url-builder/  
 中文盡量不用 大小寫不分 造冊管理  
 
-
-
 account帳戶  公司  100  
 property資源  網站  50  
 view資料檢視  部門  25  
@@ -70,8 +68,9 @@ GATC GA追蹤碼
 
 pagespeed 
 
-一般來說轉換率超過1%就很棒棒了  
+購物網站一般來說轉換率超過1%就很棒棒了  
 
+LINE主要兩種流量來源
 群發
 動態牆
 
