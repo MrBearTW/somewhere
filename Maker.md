@@ -53,7 +53,7 @@ https://at.line.me/tw/plan
 範例三  
 push 選定單一ID回覆訊息  
 
-3列ㄨㄞ 外
+3D列印可以印出外殼
 
 # AQI智慧燈體驗工作坊
 
