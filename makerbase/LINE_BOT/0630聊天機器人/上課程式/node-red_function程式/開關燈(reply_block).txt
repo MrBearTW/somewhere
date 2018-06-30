@@ -1,0 +1,29 @@
+var message={};
+var led_control={};
+var data=msg.payload.events[0].message.text;
+if(data.search("開")!=-1){ 
+	if(data.search("燈")!=-1){
+	message=[ { “type”: “text”, “text”: “燈開啟” } ] 	     	led_control.payload=1; //LED控制訊息
+  }
+}
+else if(data.search("關")!=-1){
+	 if(data.search("燈")!=-1){
+	 message=[ { “type”: “text”, “text”: “燈關閉” } ] 	     	 led_control.payload=0; //LED控制訊息
+  }
+}
+var post_request = {    
+   "headers": { 
+            "content-type": "application/json; charset=UTF-8 ",
+            "Authorization": " Bearer " + "{Channel Access Token}"    
+     },
+    "payload": {        
+	"replyToken": msg.payload.events[0].replyToken,       
+	 "messages": [  
+                          {                
+		"type": "text",    
+ 		"text": message
+                          } 
+                     ]    
+            }
+};
+return [led_control,post_request];

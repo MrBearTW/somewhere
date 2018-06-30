@@ -1,0 +1,21 @@
+var message={};
+var su_control={};
+var data=msg.payload.events[0].message.text;
+if(data.search("開")!=-1){ 
+if(data.search("保全")!=-1){ 
+message=[ { "type": "text", "text": "已開啟保全!" } ] 
+su_control.payload=1; }
+}
+else if(data.search("關")!=-1){
+ if(data.search("保全")!=-1){ 
+message=[ { "type": "text", "text": "已關閉保全!" } ] 
+su_control.payload=0; }
+ }
+var post_request = { 
+"headers": { "content-type": "application/json; charset=UTF-8",
+ "Authorization": " Bearer " + "{YOUR TOKEN}" },
+ "payload": { "replyToken": msg.payload.events[0].replyToken,
+ "messages": message 
+}
+};
+return [su_control,post_request];

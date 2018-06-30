@@ -1,0 +1,16 @@
+var post_request = {    
+      "headers": {        
+             "content-type": "application/json; charset=UTF-8",
+              "Authorization": " Bearer " + "{Channel Access Token}"    
+                },    
+        "payload": {        
+	        "to": "UserId",        
+	         "messages": [            
+		{                
+		   "type": "text",         
+                                       "text": msg.payload            
+   		}        
+                        ]    
+              }
+};
+return post_request;

@@ -1,0 +1,15 @@
+var message={};
+var th_control={};
+var data=msg.payload.events[0].message.text;
+ if(data.search("溫度")!=-1||data.search("濕度")!=-1){ 
+  th_control.payload=1; //溫溼度觸發訊息
+ }
+var post_request = { 
+"headers": { "content-type": "application/json; charset=UTF-8",
+ "Authorization": " Bearer " + "{Channel Access Token}" },
+ "payload": { 
+"replyToken": msg.payload.events[0].replyToken,
+ "messages": message 
+}
+};
+return [th_control,post_request];

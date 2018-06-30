@@ -1,0 +1,15 @@
+var post_request = {
+ "headers": { "content-type": "application/json; charset=UTF-8", 
+"Authorization": " Bearer " + "{Channel Access Token}" }, 
+"payload": { 
+"to":  "your userid", 
+"messages": [ 
+{ 
+"type": "text", 
+"text": "目前的環境\n溫度:"+msg.payload.temp+
+"℃\n濕度:"+msg.payload.humid+"%" 
+} 
+] 
+}
+};
+return post_request;

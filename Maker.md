@@ -57,6 +57,16 @@ push 選定單一ID回覆訊息
   
 node-red-dashboard記得要裝  
 
+拉三個http function debug
+
+
+LineAPI介面
+Webhook 那裡增加下面這一行，去頭https加尾/line
+https://nodered-pro2-1a4cdsk4.herokuapp.com/line
+
+
+
+
 
 # AQI智慧燈體驗工作坊
 
