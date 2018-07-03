@@ -1,4 +1,16 @@
 # 2018/07/03 人工智慧系列 機器學習研討會
+bakerhughes  
+body report
+cognex vidi
+工地安全稽核  
+
+lableme
+https://github.com/wkentaro/labelme  
+
+https://ngc.nvidia.com  
+  
+  
+
 
 # 微軟文件編輯
 https://docs.microsoft.com/en-us/style-guide/welcome/  

@@ -1,4 +1,8 @@
 # 2018/6/24 Google Analytics-網路分析操作課
+購物網站比較有用  
+用blogger很方便  
+可以自己設定連結來分類丟出去的網址  
+
 Google Analytics (分析) 官方網站  
 https://www.google.com.tw/intl/zh-TW/analytics/  
   
