@@ -1,8 +1,9 @@
 # 2018/6/24 Google Analytics-網路分析操作課
 購物網站比較有用  
-用blogger很方便  
+用blogger很方便，插一個ID就可以用了  
 可以自己設定連結來分類丟出去的網址  
-
+不能用在FB粉絲頁  
+  
 Google Analytics (分析) 官方網站  
 https://www.google.com.tw/intl/zh-TW/analytics/  
   
@@ -18,11 +19,11 @@ http://autumn20150912.blogspot.tw/
 網址產生器 URL Builder  
 https://ga-dev-tools.appspot.com/campaign-url-builder/  
 中文盡量不用 大小寫不分 造冊管理  
-
+  
 account帳戶  公司  100  
 property資源  網站  50  
 view資料檢視  部門  25  
-
+  
 管理使用者 新增刪除使用者/變更權限  
 編輯 新增刪除修改  
 協作 共用設定  

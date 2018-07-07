@@ -8,9 +8,6 @@ lableme
 https://github.com/wkentaro/labelme  
 
 https://ngc.nvidia.com  
-  
-  
-
 
 # 微軟文件編輯
 https://docs.microsoft.com/en-us/style-guide/welcome/  
