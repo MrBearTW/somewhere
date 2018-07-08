@@ -1,3 +1,5 @@
+# MLDM Monday | 影像識別運用在PIXNET - 黑客松圖片生成填空技術解密
+
 # Data Science from data driven to deep learning
 2017/12/10 資策會
 FB https://www.facebook.com/Tw.R.User/videos/948393558647146/
