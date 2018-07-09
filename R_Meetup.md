@@ -1,4 +1,5 @@
 # MLDM Monday | 影像識別運用在PIXNET - 黑客松圖片生成填空技術解密
+免費GPU google colab  
 
 # Data Science from data driven to deep learning
 2017/12/10 資策會
