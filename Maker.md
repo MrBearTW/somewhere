@@ -1,3 +1,5 @@
+# 第五屆 PIXNET HACKATHON「 IoT 軟硬整合技能」專題 Ｗorkshop
+
 # 6/20 . 6/27 物聯網智慧家居開發及設計實作-IOT智慧開關
 上課資料  
 https://drive.google.com/uc?id=1uUWgIYYSVQ59Lro2sWWCitpEyaipfBnR&export=download  
