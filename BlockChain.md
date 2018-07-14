@@ -1,4 +1,39 @@
 # 2018/07/14,15 自己的礦場自己開 : 區塊鏈so easy
+比特幣  
+帳本300G
+每一秒4~7筆的交易  
+分岔  
+PoW algorithm 是 HashCash
+老牌礦場  
+密碼學 HASH RSA  
+有三種手續費  
+價格上漲原因1.數量有限  
+交易所抽10%
+wallet.dat的檔案，複製貼上蓋掉之後重新開啟程式就會讀取原有的錢包  
+H110 BTC
+B750 mining expert
+FPGA Field Programmable Gate Array
+ASIC
+ASIC>FPGA>GPU>CPU
+
+乙太幣  
+每秒上百到上千筆交易  
+  
+公有鏈
+私有鏈
+聯盟鏈  
+  
+Hyperledger  
+EEA
+r3
+
+看比特幣現在狀況
+https://www.blockchain.com/en/explore  
+  
+DEMO  
+https://anders.com/blockchain
+
+
 
 # 創。趨勢 #1 改變世界的區塊鏈
 https://www.facebook.com/events/789858281218622/  
