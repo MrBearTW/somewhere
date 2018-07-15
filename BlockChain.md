@@ -18,6 +18,8 @@ ASIC>FPGA>GPU>CPU
 
 乙太幣  
 每秒上百到上千筆交易  
+乙太坊簡中技術文件
+https://yeasy.gitbooks.io/blockchain_guide/content/
   
 公有鏈
 私有鏈
@@ -32,6 +34,73 @@ https://www.blockchain.com/en/explore
   
 DEMO  
 https://anders.com/blockchain
+
+上課資料
+https://drive.google.com/drive/folders/14raAU6xYMIc2FHZDn2bJniIWbT2LrPkI
+
+顯卡挖礦效能排名
+https://miningchamp.com
+
+助教的錢包
+https://www.f2pool.com/eth/0xeadDca48eE1cD31468c0d1aC6C96E7906D39b2Ff
+
+bitmark的Medium
+https://medium.com/bitmark-inc-中文部落格
+
+挖礦機器記得安中NVIDIA CUDA Toolkit
+
+不是爬蟲！IBM AI 輿情平台「Watson Analytics for Social Media」繁中上線
+https://www.inside.com.tw/2017/09/21/ibm-watson-analytics-for-social-media
+比特幣入門（錢包地址接收、發送與基本概念）
+https://medium.com/@YasuoYuHao/比特幣入門-錢包地址接收-發送與基本概念-a3b951a216be
+比特幣挖礦的背後 -- SHA 與雜湊現金
+http://www.codedata.com.tw/social-coding/hashcash/
+白話的 Hash Table 簡介
+https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/
+用 JavaScript 學習資料結構和演算法：字典（Dictionary）和雜湊表（Hash Table）篇
+https://blog.kdchang.cc/2016/09/23/javascript-data-structure-algorithm-dictionary-hash-table/
+非小號
+https://www.feixiaohao.com
+Hash Table：Intro(簡介)
+http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html
+
+
+用ANACONDA
+依序
+blockchain_transaction.p
+blockchain_block.py
+驗證(HASHCASH)
+blockchain_pow_poc.py
+blockchain_pow.py
+
+沒有去中心化效果的
+blockchain_alpha.py
+---
+full_chain()
+{'chain': [{'index': 1, 'time': 1531634206.4679992, 'transaction': [], 'proof': 100, 'previous_hash': '1'}], 'length': 1}
+
+new_transaction('A','B',100)
+{'message': 'Transaction will be added to Block 2'}
+
+full_chain()
+{'chain': [{'index': 1, 'time': 1531634206.4679992, 'transaction': [], 'proof': 100, 'previous_hash': '1'}], 'length': 1}
+
+print(blockchain.current_transaction)
+[{'sender': 'A', 'receiver': 'B', 'money': 100}]
+
+mine()
+{'message': 'New Block!', 'index': 2, 'transaction': [{'sender': 'A', 'receiver': 'B', 'money': 100}, {'sender': '0', 'receiver': '824808f5c4b94ed187e86b335f74e19c', 'money': 1}], 'proof': 34535, 'previous_hash': 'da2c4b3ac9d7839140e6cc069571582d28f0aaf5484d0cf2d24f5ebe74deb217'}
+
+blockchain.last_block
+Out[19]: 
+{'index': 2,
+ 'previous_hash': 'da2c4b3ac9d7839140e6cc069571582d28f0aaf5484d0cf2d24f5ebe74deb217',
+ 'proof': 34535,
+ 'time': 1531634471.4443567,
+ 'transaction': [{'money': 100, 'receiver': 'B', 'sender': 'A'},
+  {'money': 1, 'receiver': '824808f5c4b94ed187e86b335f74e19c', 'sender': '0'}]}
+---
+
 
 
 
