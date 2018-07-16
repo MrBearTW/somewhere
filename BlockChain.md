@@ -2,7 +2,7 @@
 比特幣  
 帳本300G
 每一秒4~7筆的交易  
-分岔  
+分岔   
 PoW algorithm 是 HashCash
 老牌礦場  
 密碼學 HASH RSA  

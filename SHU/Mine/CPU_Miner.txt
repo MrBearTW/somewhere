@@ -1,0 +1,2 @@
+CPUMiner-Multi
+https://github.com/tpruvot/cpuminer-multi
