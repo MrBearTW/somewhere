@@ -1,3 +1,15 @@
+# 2018/07/17 第五屆 PIXNET HACKATHON「 IoT 軟硬整合技能」專題 Ｗorkshop 
+https://github.com/pixnet/2018-pixnet-hackathon  
+
+建議用resberry 那一包來開發
+
+模型靈敏度  
+麥克風靈敏度  
+  
+用edge端做模型運算要注意的事情
+不建議在Google AIY kit上面跑librosa (librosa在x86的環境跑得比較好)
+建議在Google AIY kit上面跑c base的處理套件(例如obio)
+
 # 2018/06/01 智慧科技應用大賽：台北說明會
 Prism
 Pixel變動成為熱點
