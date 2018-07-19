@@ -1,4 +1,57 @@
-# 創業五趴存活的十塊文案金磚 唐崇達 Dakuo 高雄市數位內容創意中心
+# 2018/07/19 焦點分析商業模式
+設計一門好生意：自己動手，Step-by-step畫出未來新商機  
+http://www.books.com.tw/products/0010758378  
+獲利世代：自己動手，畫出你的商業模式  
+http://www.books.com.tw/products/0010567254?loc=P_asb_002  
+一個人的獲利模式：用這張圖，探索你未來要走的路  
+http://www.books.com.tw/products/0010756794?loc=P_asb_001  
+
+
+多邊平台 FB Uber 104
+Value position 顧客期待從你的產品服務中得到的利益與結果
+談感覺不是規格
+有一些價值只是基本門票拿出來強調並不一定加分
+早餐奶昔的競爭對手是香蕉甜甜圈巧克力棒貝果，不是漢堡王的奶昔
+所以有得來速，縮小吸管，變的更黏稠
+我們不用解決所有問題或滿足所有需求
+有多少種方式和TA互動
+如果你是客戶會怎麼做
+客戶的世界不只關注和你生意有關的事
+生意要成功時機很重要
+不同背景的人對經營環境分析有不同的視角
+一季做一次環境分析
+團隊章程，創業前先討論
+願景的形成，對團隊的決策會造成影響
+
+缺乏行動的願景只是在做夢
+Vision without action is just a dream 
+缺乏願景的行動只是浪費時間
+Action without vision just passes the time
+有行動的願景是可以改變世界
+Vision with action can change the word 
+
+趨勢視覺化可以避免策略盲點
+邀請不同專業共同討論商業模式的機會與威脅
+規律整理定期討論檢視即可
+明確願景利於建立重要決策的原則
+
+No business plan survives first contact with a customer
+
+要做prototype
+盡早找出最脆弱的部分
+盡早經過市場驗證
+
+是去探索不是去說服
+當今最大的憂慮在於想用昨天的工具解決今天的問題
+Fall in love with the problem not you solutions 
+
+工具書技巧找藍色方法找黃色案例找紅色
+異業聯盟有沒有增加新的價值主張，抱團取暖？互相利用？市場需要嗎？多少人需要？
+創業沒有人幫你打分數，請誠實一點
+大圖開始用+-?來檢查有沒有做到
+
+
+# 2018/07/18 創業五趴存活的十塊文案金磚 唐崇達 Dakuo 高雄市數位內容創意中心
 加盟
 低價
 模糊 hTC
