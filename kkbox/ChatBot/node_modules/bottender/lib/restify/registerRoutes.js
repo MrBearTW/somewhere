@@ -1,0 +1,70 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _shortid = _interopRequireDefault(require("shortid"));
+
+var _connectNgrok = _interopRequireDefault(require("../connectNgrok"));
+
+var _createMiddleware = _interopRequireDefault(require("./createMiddleware"));
+
+var _verifyLineSignature = _interopRequireDefault(require("./verifyLineSignature"));
+
+var _verifyMessengerSignature = _interopRequireDefault(require("./verifyMessengerSignature"));
+
+var _verifyMessengerWebhook = _interopRequireDefault(require("./verifyMessengerWebhook"));
+
+var _verifySlackSignature = _interopRequireDefault(require("./verifySlackSignature"));
+
+var _verifySlackWebhook = _interopRequireDefault(require("./verifySlackWebhook"));
+
+var _verifyViberSignature = _interopRequireDefault(require("./verifyViberSignature"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function registerRoutes(server, bot, config = {}) {
+  const path = config.path || '/';
+  let verifyToken;
+  const middleware = config.webhookMiddleware ? [config.webhookMiddleware] : [];
+
+  if (bot.connector.platform === 'messenger') {
+    verifyToken = config.verifyToken || bot.connector.verifyToken || _shortid.default.generate();
+    server.get(path, (0, _verifyMessengerWebhook.default)({
+      verifyToken
+    }));
+    middleware.unshift((0, _verifyMessengerSignature.default)(bot));
+  } else if (bot.connector.platform === 'slack') {
+    middleware.unshift((0, _verifySlackWebhook.default)(bot));
+    middleware.unshift((0, _verifySlackSignature.default)(bot));
+  } else if (bot.connector.platform === 'line') {
+    middleware.unshift((0, _verifyLineSignature.default)(bot));
+  } else if (bot.connector.platform === 'viber') {
+    middleware.unshift((0, _verifyViberSignature.default)(bot));
+  }
+
+  server.post(path, ...middleware, (0, _createMiddleware.default)(bot));
+
+  const _listen = server.listen.bind(server);
+
+  server.listen = (...args) => {
+    _listen(...args);
+
+    if (config.ngrok) {
+      (0, _connectNgrok.default)(args[0], (err, url) => {
+        console.log(`webhook url: ${url}${path}`);
+      });
+    }
+
+    if (bot.connector.platform === 'messenger') {
+      console.log(`verify token: ${verifyToken}`);
+    }
+  };
+
+  return server;
+}
+
+var _default = registerRoutes;
+exports.default = _default;

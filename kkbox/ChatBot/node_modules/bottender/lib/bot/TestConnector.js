@@ -1,0 +1,90 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _TestContext = _interopRequireDefault(require("../context/TestContext"));
+
+var _TestEvent = _interopRequireDefault(require("../context/TestEvent"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+const testClient = {
+  calls: [],
+
+  callMethod(name, args) {
+    this.calls.push({
+      name,
+      args
+    });
+  },
+
+  mockReset() {
+    this.calls = [];
+  }
+
+};
+
+class TestConnector {
+  constructor({
+    client,
+    fallbackMethods
+  } = {}) {
+    _defineProperty(this, "_client", void 0);
+
+    _defineProperty(this, "_fallbackMethods", void 0);
+
+    this._client = client || testClient;
+    this._fallbackMethods = fallbackMethods || false;
+  }
+
+  get platform() {
+    return 'test';
+  }
+
+  get client() {
+    return this._client;
+  }
+
+  getUniqueSessionKey() {
+    return '1';
+  }
+
+  async updateSession(session) {
+    if (!session.user) {
+      session.user = {
+        id: '1',
+        name: 'you',
+        _updatedAt: new Date().toISOString()
+      };
+    }
+
+    Object.freeze(session.user);
+    Object.defineProperty(session, 'user', {
+      configurable: false,
+      enumerable: true,
+      writable: false,
+      value: session.user
+    });
+  }
+
+  mapRequestToEvents(body) {
+    return [new _TestEvent.default(body)];
+  }
+
+  createContext(params) {
+    return new _TestContext.default(_objectSpread({}, params, {
+      client: this._client,
+      fallbackMethods: this._fallbackMethods
+    }));
+  }
+
+}
+
+exports.default = TestConnector;

@@ -1,0 +1,16 @@
+{
+  "name": "integration-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@kkbox/kkbox-js-sdk": "^1.3.3",
+    "axios": "^0.18.0",
+    "bottender": "0.14.34",
+    "md5": "^2.2.1",
+    "nodemon": "1.17.5"
+  }
+}
