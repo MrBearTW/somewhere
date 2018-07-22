@@ -6,6 +6,7 @@ Vincent Chiang @
 
 Slide @ http://bit.ly/2Nqw4tW
 github @ http://bit.ly/2uz7wY4
+Medium @ https://medium.com/@zaoldyeck9970  
 # 2018/05/17 KKBOX Innovation Chat #22 (台北場) 與 AI 共譜新篇章：熱門歌曲預測與 NLP 大哉問
 GBDT推薦效果較隨金森林好    
   
