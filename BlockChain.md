@@ -100,7 +100,8 @@ Out[19]:
  'transaction': [{'money': 100, 'receiver': 'B', 'sender': 'A'},
   {'money': 1, 'receiver': '824808f5c4b94ed187e86b335f74e19c', 'sender': '0'}]}
 ---
-
+CPUMiner-Multi  
+https://github.com/tpruvot/cpuminer-multi  
 
 
 
