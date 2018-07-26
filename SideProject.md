@@ -20,3 +20,10 @@ https://www.typescriptlang.org
 薪水
 頂讓
 月結
+
+支出
+收入
+
+每日平日假日
+每週
+每月
