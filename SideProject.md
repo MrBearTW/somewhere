@@ -44,3 +44,6 @@ https://www.typescriptlang.org
 
 今天營收=結算-開門+今天付掉的帳款
 
+簽約
+賺錢賠錢
+公司還是行號
