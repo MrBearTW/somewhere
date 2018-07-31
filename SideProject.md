@@ -47,3 +47,9 @@ https://www.typescriptlang.org
 簽約
 賺錢賠錢
 公司還是行號
+
+火災
+定期保養
+電話？手機？
+制服
+行銷預算
