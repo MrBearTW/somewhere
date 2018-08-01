@@ -53,3 +53,8 @@ https://www.typescriptlang.org
 電話？手機？
 制服
 行銷預算
+
+時間表
+公務用通訊軟體
+店名
+試吃大會
