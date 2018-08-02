@@ -12,6 +12,11 @@ https://noob.tw/1999-dashboard/
 https://electronjs.org  
 https://www.typescriptlang.org  
 
+交大演算法課程  
+https://hiskio.com/courses/127
+資料結構
+https://hiskio.com/courses/126
+
 
 ---
 吐司
