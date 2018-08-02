@@ -1,4 +1,4 @@
-#
+# 2018/07/29 PS + AI
 往回幾步 Crtl + Alt + Z
 往前幾步 Crtl + Shift + Z
 空白鍵按著 抓著圖移動  
