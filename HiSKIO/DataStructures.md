@@ -2,6 +2,8 @@
 
 https://hiskio.com/courses/126/lectures/3919
 
+虛擬程式碼 (pseudo code)
+
 Selection Search 搜尋後 找最小和第一個交換 找最小和第二個交換  
 Binary Search 排序後 對半切 找在範圍內 沒有就再切  
 
