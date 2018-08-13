@@ -90,3 +90,7 @@ https://hiskio.com/courses/127
 
 經濟部開店選址地圖  
 https://www.ptt.cc/bbs/toberich/M.1533712955.A.5EA.html  
+
+
+黑板
+投影機

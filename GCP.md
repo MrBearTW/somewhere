@@ -1,5 +1,8 @@
 # 2018/08/10 GCPUG Taipei Meetup #39
-ERP CMS系統  
+
+https://docs.google.com/presentation/d/14zHvX6u7U6BnjF-e04MnNzWzgNgYCqid23FtGj5yHM4/edit#slide=id.p  
+
+ERP CMS系統 
   
 Fuse.js  
 React js + firebase 很快  
@@ -8,7 +11,7 @@ Prometheus
 Grafana  
 PagerDuty  
 
-
+https://docs.google.com/presentation/d/1QBhxniIoXHQHOxEUOWW142xMrCHHxUmFJa5r68743zI/edit#slide=id.g3b32cf440d_1_19  
 
 # 2018/05/22 GCPUG.TW meetup #37
 ## Google Cloud Platform Certifications - Cloud Architect 考試心得告白
