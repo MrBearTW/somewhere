@@ -94,3 +94,7 @@ https://www.ptt.cc/bbs/toberich/M.1533712955.A.5EA.html
 
 黑板
 投影機
+
+設備維修
+預備金
+使用習慣
