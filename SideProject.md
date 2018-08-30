@@ -119,3 +119,7 @@ https://www.ptt.cc/bbs/toberich/M.1533712955.A.5EA.html
 退出
 
 房租漲價
+拿出去賣  
+佔股比例
+兩個月結算一次的項目  
+
