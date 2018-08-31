@@ -1,11 +1,21 @@
+# 2018/07/20 Chatbot Workshop + LINE PAY
+會員人數達300萬人  
+Linepay一卡通  資料只會在一卡通 LINE沒有 LINE只是一個介面
+日本和台灣的LINE PAY不一定互通 條碼規格不通  
+https://github.com/wisehuang/linepay-chatbot
+webPOS  
+支付完成後自動加入LINE好友或LINE@  
+
+
 # 2018/07/20 Chatbot Workshop
 講師資訊
-zaoldyeck @
-Vincent Chiang @
-江品陞 @
-Slide @ http://bit.ly/2Nqw4tW
-github @ http://bit.ly/2uz7wY4
-Medium @ https://medium.com/@zaoldyeck9970  
+zaoldyeck @ 
+Vincent Chiang @  
+江品陞 @  
+Slide @ http://bit.ly/2Nqw4tW  
+https://lihi.cc/5Fh1U  
+github @ http://bit.ly/2uz7wY4  
+Medium @ https://medium.com/@zaoldyeck9970   
 
 ngrok啟動指令  
 `ngrok http 500`  
