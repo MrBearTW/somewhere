@@ -1,3 +1,7 @@
+# 2018/10/20 文藻Telegram Bot Workshop
+Slide @  https://lihi.cc/PYoL2  
+Source Code @  https://lihi.cc/NMQzZ  
+  
 # 2018/08/31 Chatbot Workshop + LINE PAY
 會員人數達300萬人  
 Linepay一卡通  資料只會在一卡通 LINE沒有 LINE只是一個介面  
