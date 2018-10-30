@@ -1,3 +1,22 @@
+# 2018/10/30 K8S
+做底層管理
+https://reurl.cc/o9gxD
+https://onedrive.live.com/?authkey=%21AJizt1g9RqWwQZo&id=4BC8551E66AE9DAE%2139404&cid=4BC8551E66AE9DAE
+
+用CLI敲指令 RBAC預設是開啟的
+要先建立一組prancpel才能用
+
+1.10.7之後才有roul back功能
+
+很多個coniter 在一起叫做pot
+
+建議worker node數量測試2個 上線4個
+
+CNI
+
+# 2018/10/30 Cloudera AZURE
+3個ID 1個KEY
+
 # 2018/07/03 人工智慧系列 機器學習研討會
 bakerhughes  
 body report
