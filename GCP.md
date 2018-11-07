@@ -1,5 +1,15 @@
-# 2018/08/10 GCPUG Taipei Meetup #39
+# 2018/11/07 Google Cloud Summit Taipei
+網紅雷達
 
+Deep angel mit
+Capsule network(相較cnn旋轉不影響）
+Curiosity-driven learning. RDN
+
+Machine meta learning 
+
+AI發展  行銷 製造 客服 健康照護
+
+# 2018/08/10 GCPUG Taipei Meetup #39
 https://docs.google.com/presentation/d/14zHvX6u7U6BnjF-e04MnNzWzgNgYCqid23FtGj5yHM4/edit#slide=id.p  
 
 ERP CMS系統 
