@@ -1,3 +1,27 @@
+# dAPP 【台北說明與組隊媒合會】
+webjet
+
+
+  "appRoles": [
+    {
+      "allowedMemberTypes":[
+        "User",
+        "Appliccation"
+      ],
+      "displayName": "Administrator",
+      "id":"f8f0d5df-3037-497f-b8c7-04cfcaa149e1",
+      "isEnabled":true,
+      "description":"Blockchain Workbench administrator role allows creat",
+      "value":"Administrator"
+    }
+  ],
+
+
+metamask  
+https://metamask.io/  
+clevergo  
+https://www.clevergo.com/  
+
 # 2018/11/7 老闆學校講座《金融科技與數位資產》
 數位資產轉移(股權轉換)  
 
