@@ -16,6 +16,10 @@ webjet
     }
   ],
 
+可能可以看一下  
+https://github.com/Azure-Samples/blockchain/tree/master/blockchain-workbench/scripts/aad-setup  
+
+
 
 metamask  
 https://metamask.io/  
