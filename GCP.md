@@ -1,3 +1,10 @@
+# 2018/11/17 GDG DevFest Taipei 2018
+
+學生社群
+
+https://docs.google.com/forms/d/e/1FAIpQLScBEuy9z8okl9qI0oCwr_b8PCkmSMfqr2qSAeNfL6d9BC4tbg/viewform
+
+
 # 2018/11/07 Google Cloud Summit Taipei
 網紅雷達
 
