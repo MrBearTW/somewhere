@@ -1,5 +1,20 @@
 # 2018/11/30 北科大第二屆「區塊鏈微學分班」
 
+事前準備  
+https://gist.github.com/yhuag/5d8ee2fd46baff47edc923134048481c  
+事前PPT  
+https://docs.google.com/presentation/d/1B978bQGBiX3MsQGPSGunGlYzodtJasS--DiFhFc5ISc/edit?usp=sharing  
+
+
+錄影連結  
+https://youtu.be/xfMs2DxGKAE  
+
+
+
+
+講義
+https://drive.google.com/drive/folders/1S-pXzcIms0rWed5VsLaEQuD2peURdjIi
+
 
 # dAPP 【台北說明與組隊媒合會】
 webjet
