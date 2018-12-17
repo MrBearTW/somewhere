@@ -1,0 +1,18 @@
+# 2018/12/17主題: Serverless Java: Challenges and Triumphs
+講者: David Delabassee
+
+Function as a service = FaaS  
+Container vs. Serverless  
+
+fn
+Java12
+
+helm chart
+Apline Linux 只要5mb大小的docker image
+Graal can
+
+
+iban 
+
+
+檢查docker狀態`dive xxx(docker名字)`  
