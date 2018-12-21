@@ -35,8 +35,16 @@ src/網域名稱/帳戶名稱/專案名稱
 
 用go get抓那一包東西到gopath路徑底下的src目錄，若是有main的話還會自動生成執行檔案 `go get github.com/go-training/drone-golang-example`
 把`$GOAPTH/bin`也加入PATH，這樣之後依些執行黨也可以直接做使用  
-`go run XXXX.go`
-`go test`
-`go install`
-`go build`
-``
+`go run XXXX.go`  
+`go test .`  
+`go install`在bin底下建立執行檔  
+`go build`在當下目錄建立執行檔  
+`go build -o XXX .`建立檔名為XXX的執行檔  
+
+go讀套件的順序
+vendor -> GOPATH/src -> GOROOT/src 
+`go get -v ./...`
+用vendor可以固定套件版本  
+
+
+
