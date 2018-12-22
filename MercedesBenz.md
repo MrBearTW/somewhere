@@ -1,3 +1,7 @@
+# 2018/12/21 Mercedes me future talks 未來論壇
+謝榮雅 人造物永遠比不過神造物  
+葛如鈞 奇點大學的指數思想  
+  
 # 2018/11/14 Mercedes me future talks 未來論壇
 IOT有點太早
 
