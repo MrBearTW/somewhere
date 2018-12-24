@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
+	//1  "./helloworld"
+	//2  bar "./helloworld"
+	_ "./he"
+	_ "./helloworld"
 )
 
 func main() {
-	a := 1
-	fmt.Println("YOYOYO")
-
-	if a > 1 {
-		fmt.Println("a > 1")
-	}
-
+	//1  fmt.Println(hello.Helloworld())
+	//2  fmt.Println(bar.Helloworld())
+	fmt.Println("Helloworld")
 }
