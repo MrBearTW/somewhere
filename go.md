@@ -46,5 +46,11 @@ vendor -> GOPATH/src -> GOROOT/src
 `go get -v ./...`
 用vendor可以固定套件版本  
 
+在func內直接宣告變數  
+第一次宣告要用`:=`  
+這種宣告方是有區域性，只能在func中使用  
+
+遇到會自動+1的變數可以設定為iota  
+
 
 
