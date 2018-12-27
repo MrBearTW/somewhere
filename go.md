@@ -52,5 +52,22 @@ vendor -> GOPATH/src -> GOROOT/src
 
 遇到會自動+1的變數可以設定為iota  
 
+slice  
 
+超過兩種情況建議用switch  
+只有兩種要第一種做完就return，接著才用else去處理  
 
+init是在main執行之前才去執行，不管放在程式碼哪裡
+  
+用套件做測試
+https://github.com/stretchr/testify
+要安裝`go get github.com/stretchr/testify`  
+
+`go test -v`  
+只跑一個func的測試`go test -run=XXXX -v`XXX是跑要測試的func名稱  
+跑全部的測試使用Jenkins Drone  
+  
+平行測試  
+
+CRTL + SHIFT + P
+genarate unit tests for function
