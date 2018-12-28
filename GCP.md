@@ -1,3 +1,11 @@
+# 2018/12/27 GDGK Kaohsiung
+PM PO的不同
+PBI WBS 工時估計
+ASO app優化
+App Annie 看app排名的網站
+  
+可以做匿名發問的網站sli.do
+
 # 2018/11/17 GDG DevFest Taipei 2018
 
 學生社群

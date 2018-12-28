@@ -1,6 +1,9 @@
 package car
 
-import "errors"
+import (
+	"errors"
+	"time"
+)
 
 // Car struct
 type Car struct {
@@ -13,6 +16,8 @@ func (c *Car) SetName(name string) string {
 	if name != "" {
 		c.Name = name
 	}
+
+	time.Sleep(2 * time.Second)
 
 	return c.Name
 }
