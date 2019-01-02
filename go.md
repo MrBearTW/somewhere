@@ -72,5 +72,13 @@ https://github.com/stretchr/testify
 CRTL + SHIFT + P
 genarate unit tests for function
 
+benchmark
+`-v -bench=. .`
+`-v -bench=. -run=none -benchmem .`
 
-再來一次 19
+驗證程式碼品質
+golangci
+go-critic.github.io
+
+
+再來一次 19 20(VScode按可以，comandline不行)
