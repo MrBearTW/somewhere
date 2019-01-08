@@ -80,5 +80,9 @@ benchmark
 golangci
 go-critic.github.io
 
+routine
+-race檢查會不會有狀況
+`go run -race XXX.go`
+
 
 再來一次 19 20(VScode按可以，comandline不行)
