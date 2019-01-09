@@ -1,3 +1,9 @@
+# 2019/1/9 GCPUG 44
+Airflow
+https://leemeng.tw/a-story-about-airflow-and-data-engineering-using-how-to-use-python-to-catch-up-with-latest-comics-as-an-example.html
+
+發票整理
+
 # 2018/12/27 GDGK Kaohsiung
 PM PO的不同
 PBI WBS 工時估計
