@@ -84,5 +84,7 @@ routine
 -race檢查會不會有狀況
 `go run -race XXX.go`
 
+flag套件通常是寫給自用的時候才用
 
-再來一次 19 20(VScode按可以，comandline不行)
+
+再來一次 19 20 25(VScode按可以，comandline不行)
