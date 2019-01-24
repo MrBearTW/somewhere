@@ -1,3 +1,12 @@
+# 2019/1/24 Global Digital Conference It’s time for Better Code, Faster
+google cloud hero
+
+輸入帳密
+找到project
+https://google.qwiklabs.com/catalog?keywords=kubernetes+qwik+start&event=AppDev%20Conference
+
+
+
 # 2019/1/9 GCPUG 44
 Airflow
 https://leemeng.tw/a-story-about-airflow-and-data-engineering-using-how-to-use-python-to-catch-up-with-latest-comics-as-an-example.html
