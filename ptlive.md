@@ -28,3 +28,13 @@ https://www.youtube.com/playlist?list=PLAYoruToK_vNbGXmCTPW8zGVuAz0jeBTY
 
 設定用https開啟網站
 mkcert
+
+
+自我驗證憑證建立https環境
+https://gist.github.com/adnan360/ad2b1cfc44114ac6f91fbb668c76798d
+
+https://gist.github.com/nguyenanhtu/33aa7ffb6c36fdc110ea8624eeb51e69
+
+https://blog.csdn.net/qq_35128576/article/details/81326524
+
+改host  localhost
