@@ -26,7 +26,7 @@ https://www.youtube.com/playlist?list=PLAYoruToK_vNbGXmCTPW8zGVuAz0jeBTY
 資料庫
 擋住的原因
 
-設定用https開啟網站
+Apache設定用https開啟網站
 mkcert
 
 
@@ -38,3 +38,11 @@ https://gist.github.com/nguyenanhtu/33aa7ffb6c36fdc110ea8624eeb51e69
 https://blog.csdn.net/qq_35128576/article/details/81326524
 
 改host  localhost
+
+w3c
+jQuery
+active
+style
+
+我的學思歷程(1/1)：Hidden Knowledge in CS
+https://www.facebook.com/notes/bill-huang/%E6%88%91%E7%9A%84%E5%AD%B8%E6%80%9D%E6%AD%B7%E7%A8%8B1hidden-knowledge-in-cs/1393914510621451/
