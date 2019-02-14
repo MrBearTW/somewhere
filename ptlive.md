@@ -22,6 +22,7 @@ Laravel 5 中文教程
 https://www.youtube.com/playlist?list=PLAYoruToK_vNbGXmCTPW8zGVuAz0jeBTY
 
 
+看網路port狀況`netstat -an`  
 
 資料庫
 擋住的原因
@@ -39,6 +40,10 @@ https://blog.csdn.net/qq_35128576/article/details/81326524
 
 改host  localhost
 
+Windows搜尋`certmgr.msc`  
+憑證管理？  
+
+2019/2/13
 w3c
 jQuery
 active
@@ -46,3 +51,8 @@ style
 
 我的學思歷程(1/1)：Hidden Knowledge in CS
 https://www.facebook.com/notes/bill-huang/%E6%88%91%E7%9A%84%E5%AD%B8%E6%80%9D%E6%AD%B7%E7%A8%8B1hidden-knowledge-in-cs/1393914510621451/
+
+2019/2/14
+菜鳥養成策略－Pair Programming
+https://dotblogs.com.tw/hatelove/2019/02/14/rookie-strategy-pair-programming?fbclid=IwAR2r_DaNxyq_4QtoBj53Ya5axG9I90iZyuJhaegbtCf5rDVrwkhmzN3cGEM
+
