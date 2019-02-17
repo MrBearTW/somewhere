@@ -56,5 +56,7 @@ https://www.facebook.com/notes/bill-huang/%E6%88%91%E7%9A%84%E5%AD%B8%E6%80%9D%E
 菜鳥養成策略－Pair Programming
 https://dotblogs.com.tw/hatelove/2019/02/14/rookie-strategy-pair-programming?fbclid=IwAR2r_DaNxyq_4QtoBj53Ya5axG9I90iZyuJhaegbtCf5rDVrwkhmzN3cGEM
 
+2019/2/15
 CSS 與 class 之間的關係
 自己寫的CSS和官方的名稱衝突
+找到正確的變化
