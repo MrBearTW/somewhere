@@ -60,3 +60,10 @@ https://dotblogs.com.tw/hatelove/2019/02/14/rookie-strategy-pair-programming?fbc
 CSS 與 class 之間的關係
 自己寫的CSS和官方的名稱衝突
 找到正確的變化
+
+2019/2/18
+CSS @media用法
+ID是唯一的
+在JavaScript中，寫在function外的就是全域變數  
+div中的
+找出更新的原因，再段開
