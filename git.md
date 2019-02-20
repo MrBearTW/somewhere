@@ -15,7 +15,45 @@
 
   
 此時在bugFix`git rebase master`將bugFix所做的commit剪下接回master  
+
+## 移動HEAD ^ ~  branch -f
+使用^`git checkout master^`把HEAD移回上一次commit  
+使用~`git checkout HEAD~4`把HEAD移回前四個commit  
+`git branch -f master HEAD~3`（強制）移動 master 指向從 HEAD 往上數的第三個 parent commit。  
   
+`git branch -f master C6`移動 master 指向C6  
+`git branch -f bugFix HEAD^`移動bugFix 到 HEAD前一個commit  
+## git reset git revert
+自己的(local ?)`git reset HEAD~1`退回上一個commit
+這種「改寫歷史」的方法對別人的 remote branch 是無效的哦！  
+
+別人的(remote ?)`git revert HEAD`C2 >> 新的 commit C2'
+新的 commit C2' 引入了修改——用來表示我們取消 C2 這個 commit 的修改。  
+
+## 移動commit  git cherry-pick
+現在HEAD在master(C5)`git cherry-pick C2 C4`複製了(在不同於C5 branch的)C2和C4的commit接到C5後面  
+
+
+`git rebase -i HEAD~4`進入UI介面，從HEAD~4的位置，複製在UI中選好(可能調整位置)的commit
+
+此時HEAD在bugFix，master在上一個commit`git rebase bugFix master`將master移到bugFix  
+## 
+``
+``
+
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
 ``
 ``
 ``
