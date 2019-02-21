@@ -77,3 +77,13 @@ git
 圖片網路傳輸管理  
 linux指令
 整合code  
+
+
+app有問題
+用mac debug
+SBIR問要什麼
+
+2019/2/21
+merge
+git
+gitlab同步 備份 更新到雲端服務  
