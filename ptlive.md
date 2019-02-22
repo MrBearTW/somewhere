@@ -87,3 +87,7 @@ SBIR問要什麼
 merge
 git
 gitlab同步 備份 更新到雲端服務  
+
+2019/2/22
+`sudo mysql -u 帳號 -p`
+javascript  沒有sleeo
