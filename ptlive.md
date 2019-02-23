@@ -91,3 +91,11 @@ gitlab同步 備份 更新到雲端服務
 2019/2/22
 `sudo mysql -u 帳號 -p`
 javascript  沒有sleeo
+
+2019/2/23
+http to https 
+
+.htaccess 設定技巧
+https://free.com.tw/wordpress-htaccess-tips-and-tricks/
+Apache Rewrite with Htaccess 理解與技巧
+https://medium.com/@awonwon/htaccess-with-rewrite-3dba066aff11
