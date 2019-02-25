@@ -8,3 +8,33 @@ Laravel 5.7目前最新
 
 看到這裡
 https://youtu.be/O69AkVhn9FU?t=36
+
+
+`composer create-project laravel/laravel XXX --prefer-dist`在當前目錄下，安裝資料夾名稱為XXX的laravel框架(壓縮原始碼的版本)  
+
+
+
+
+
+
+
+
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
