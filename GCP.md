@@ -1,3 +1,10 @@
+# 2019/2/26 GCP雲一日本案例分享
+選土豆 只送好的土豆照片，沒有用到不好的照片  
+建材 類似B&Q的公司，使用一年30萬的專業版GA  
+Tripiece旅遊 協助找到日本地區相似於上傳照片的旅遊推薦  
+CLOUD　ＡＣＥ自有軟體 共同媒體編輯
+：（　　：）也可以送入與億分析中判斷情緒　　
+
 # 2019/1/24 Global Digital Conference It’s time for Better Code, Faster
 google cloud hero
 

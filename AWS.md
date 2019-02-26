@@ -1,3 +1,8 @@
+# 2019/2/26 AWS
+1300公斤 20公里  
+模擬競賽  
+開放參觀  
+
 # 2018/05/16 CLBC AWS 人工智慧與機器學習實作工作坊
 本日相關資料  
 https://github.com/jhenweihuang/ml-workshop  

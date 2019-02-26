@@ -1,6 +1,9 @@
 Laravel 5 中文教程
 https://www.youtube.com/playlist?list=PLAYoruToK_vNbGXmCTPW8zGVuAz0jeBTY
 
+4Apache設定
+6laravel所有檔案介紹
+
 使用composer
 https://getcomposer.org/
 
