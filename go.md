@@ -88,3 +88,8 @@ flag套件通常是寫給自用的時候才用
 
 
 再來一次 19 20 25(VScode按可以，comandline不行)
+
+
+2019/2/27  
+GO電子書  
+https://github.com/astaxie/build-web-application-with-golang/blob/master/zh-tw/preface.md  

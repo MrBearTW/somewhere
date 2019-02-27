@@ -105,3 +105,7 @@ https://medium.com/@awonwon/htaccess-with-rewrite-3dba066aff11
 書 網路 
 
 2019/2/25
+
+2019/2/27
+一些Laravel道場的公開講座
+https://www.laravel-dojo.com/speeches
