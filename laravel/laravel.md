@@ -17,6 +17,9 @@ Laravel 5.7目前最新
 ### 7 路由設定
 /routes/web.php 調整
 
+#### 8 Postman教學
+### 9 控制器
+
 
 
 
