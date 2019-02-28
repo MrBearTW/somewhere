@@ -25,3 +25,31 @@ Route::match(['get', 'post','patch'], '/test', function () {    //'post','patch'
 Route::any('foo', function () {
     echo 'foo_any';
 });
+
+// ## 有傳參數
+
+Route::get('user/{id_a}', function ($id_b) {
+    return 'User '.$id_b;
+});
+//{id_a} 和 $id_b 可不同
+
+Route::get('posts/{post}/comments/{comment}', function ($postId, $commentId) {
+    return $postId;
+});
+//參數不能使用 - 中線 ，請使用 _ 底線替代
+
+
+// ## 可選參數
+Route::get('/comments/{comment}/user/{name?}', function ($commentId,$name = null) {
+    return $name;
+});
+//加？就變成可選參數，變成給選參數之後就要給預設值
+//可選參數通常只放在最後一個
+
+
+// ## 有限制的參數
+Route::get('user_r/{id}', function ($id) {
+    //
+})->where('id', '[0-9]+');
+//可避免攻擊
+//也可設定為全部，請參考官網文件
