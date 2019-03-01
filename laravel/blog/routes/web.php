@@ -53,3 +53,8 @@ Route::get('user_r/{id}', function ($id) {
 })->where('id', '[0-9]+');
 //可避免攻擊
 //也可設定為全部，請參考官網文件
+
+
+
+// ##控制器
+Route::get('test_video9', 'Admin\IndexControllers@index'); //後面的部分 控制器class@控制器的方法
