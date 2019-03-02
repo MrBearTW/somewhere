@@ -20,8 +20,10 @@ Laravel 5.7目前最新
 #### 8 Postman教學
 ### 9 控制器
 
-下指令建立`php ./artisan make:controller UserController`但失敗了
+下指令建立``C:\xampp\php\php.exe .\artisan make:controller XXXX`建立名為XXXX的控制器檔案  
 
+
+`C:\xampp\php\php.exe .\artisan route:list`查看目前的路由  
 
 
 

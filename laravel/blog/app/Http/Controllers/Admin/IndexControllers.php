@@ -9,4 +9,13 @@ class IndexControllers extends Controller
     {
         echo 1234567890;
     }
+
+    public function indexGroup()
+    {
+        return view('welcome');
+    }
+    public function login()
+    {
+        return '登入';
+    }
 }
