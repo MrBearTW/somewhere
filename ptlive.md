@@ -90,7 +90,7 @@ gitlab同步 備份 更新到雲端服務
 
 2019/2/22
 `sudo mysql -u 帳號 -p`
-javascript  沒有sleeo
+javascript  沒有sleep 
 
 2019/2/23
 http to https 
@@ -109,3 +109,17 @@ https://medium.com/@awonwon/htaccess-with-rewrite-3dba066aff11
 2019/2/27
 一些Laravel道場的公開講座
 https://www.laravel-dojo.com/speeches
+
+2019/3/4  
+  
+SQL指令  
+
+`sudo mysql -u AAAA –pBBBB`  
+AAAA是帳號  
+BBBB是密碼  
+
+`SHOW TABLE STATUS;`  
+`desc XXX;`檢查XXX表格狀態  
+  
+修改 AAA 表 的 BBB 欄位的預設值  
+`alter table AAA alter column BBB set default "NULL";`  
