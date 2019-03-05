@@ -71,8 +71,31 @@ Route::get('test_video10', ['as' => 'profile', function () {
 // Route::get('admin/index','Admin\IndexControllers@indexGroup');
 // Route::get('admin/login','Admin\IndexControllers@login');
 
-Route::group(['prefix' => 'admin','namespace'=>'Admin'], function () {
-    Route::get('index', 'IndexControllers@indexGroup');
+Route::group(['prefix' => 'admin','namespace'=>'Admin','middleware'=>['web','admin.login']], function () {
+    Route::get('index', 'IndexControllers@indexGroup');    // /admin/index
     Route::get('login', 'IndexControllers@login');
     Route::resource('article','ArticleController');
 });
+
+## Middleware
+Route::group(['middleware'=>['web','admin.login']],function(){
+    Route::get('admin/login','Admin\IndexControllers@index');
+
+    Route::get('/video11',function(){
+        session(['key'=>'this is route video11 key value']);
+        echo 'this is route video11 session build';
+    });
+    
+    Route::get('/video11_2',function(){
+        echo session('key');
+        echo 'session value';
+    });
+
+});
+
+
+// 視圖
+// Route::get('/view', function () {
+//     return view('my_laravel');
+// });
+Route::get('view','ViewController@index');

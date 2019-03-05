@@ -25,10 +25,17 @@ Laravel 5.7目前最新
 
 `C:\xampp\php\php.exe .\artisan route:list`查看目前的路由  
 
+### 11 Middleware中間件
+可直接在Kernel.php內新增一行`'XXXX' => \Illuminate\Auth\Middleware\XXXX::class,`  
+和用指令新增一個檔案   
+`C:\xampp\php\php.exe .\artisan make:middleware XXXX`  
+  
+`exit;` 加入後可以在此middleware就跳出，多一層保護  
 
 
 
-``
+
+
 ``
 ``
 ``

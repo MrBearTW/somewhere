@@ -123,3 +123,8 @@ BBBB是密碼
   
 修改 AAA 表 的 BBB 欄位的預設值  
 `alter table AAA alter column BBB set default "NULL";`  
+
+2019/3/5
+重啟apache
+`sudo /etc/init.d/apache2 restart`
+`sudo service apache2 restart`

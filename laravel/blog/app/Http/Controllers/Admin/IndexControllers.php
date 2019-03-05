@@ -7,7 +7,7 @@ class IndexControllers extends Controller
 {
     public function index()
     {
-        echo 1234567890;
+        echo 'IndexControllers.php login';
     }
 
     public function indexGroup()
@@ -16,6 +16,7 @@ class IndexControllers extends Controller
     }
     public function login()
     {
+        session(['admin'=>1]);
         return '登入';
     }
 }
