@@ -79,7 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel<?php echo $data['name'] ?> - <?php echo $data['age'] ?>
+                    <p>直接echo<?php echo $title ?></p>
+                    <p>blade寫法{{$title}} @{{$title}}</p>
                 </div>
 
                 <div class="links">

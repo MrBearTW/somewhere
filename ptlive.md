@@ -128,3 +128,24 @@ BBBB是密碼
 重啟apache
 `sudo /etc/init.d/apache2 restart`
 `sudo service apache2 restart`
+
+
+2019/3/6  
+重啟MySQL  
+`sudo /etc/init.d/mysql restart`   
+
+重新設定phpmyadmin指令  
+`sudo dpkg-reconfigure phpmyadmin`  
+
+http 不可主動推播
+Webscoket 可主動推播
+MQTT 可主動推播
+
+持續監聽
+要註冊
+chnnle
+topic
+
+
+2019/3/7
+備份  

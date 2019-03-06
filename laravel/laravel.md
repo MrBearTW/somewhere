@@ -33,6 +33,12 @@ Laravel 5.7目前最新
 `exit;` 加入後可以在此middleware就跳出，多一層保護  
 
 
+## 12 View 視圖
+用with(少)
+compact(多)
+傳送參數
+
+## 13 blade模板引擎
 
 
 
