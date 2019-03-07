@@ -148,4 +148,9 @@ topic
 
 
 2019/3/7
-備份  
+修改資料庫前記得先備份  
+  
+看apache2狀態  
+`sudo systemctl status apache2`  
+
+javascript

@@ -1,4 +1,19 @@
+# 2019/3/7 APPLE企業服務 醫療服務
+在沒有網路的地方如何設計機器學習協助醫生做出診斷
+27K臺
+自動化部屬
+Ipad租賃方案一個月五百
+MDM
+Met ehr資料交換格式
+Ios企業應用指南
+Ochsner
+Health kit
+https://www.apple.com/healthcare/
+https://www.apple.com/tw/researchkit/
+
+
 # 2019/1/10 西天取經 美國娶面經
+做排序
 010312
 131200
 
