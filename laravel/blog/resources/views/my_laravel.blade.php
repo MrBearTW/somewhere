@@ -81,7 +81,10 @@
                 <div class="title m-b-md">
                     Laravel<?php echo $data['name'] ?> - <?php echo $data['age'] ?>
                     <p>直接echo<?php echo $title ?></p>
-                    <p>blade寫法{{$title}} @{{$title}}</p>
+                    <p>blade寫法用@{{{}}  {{$title}}</p> 
+                    <p>blade失效寫法寫法加@ @{{$title}}</p>
+                    <p>{{$varmaybeisnull or '這裡可以寫傳值是null時的預設值'}}</p><!-- 有傳值但可能為null -->
+                    <p>{{isset($varmaybeisnull)?$varmaybeisnull:'這裡varmaybeisnull是null時的預設值'}}</p><!-- 可能連值都沒有傳的寫法 -->
                 </div>
 
                 <div class="links">

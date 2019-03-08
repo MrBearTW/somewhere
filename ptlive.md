@@ -154,3 +154,21 @@ topic
 `sudo systemctl status apache2`  
 
 javascript
+
+2019/3/8  
+http轉https  
+修改.htaccess這個檔案
+`
+<IfModule mod_rewrite.c>
+<IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+        RewriteEngine On
+        RewriteCond %{SERVER_PORT} 80
+        RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+`
+
+改官網
+後臺管理
+後台新增

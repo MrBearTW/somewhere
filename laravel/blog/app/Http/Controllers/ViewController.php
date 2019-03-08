@@ -18,7 +18,11 @@ class ViewController extends Controller
             'age' => 5
         ];
         $title = "整合式的QRcode";
-        return view('my_laravel',compact('data','title'));
-        
+
+        //$varmaybeisnull = '測試是否為null的字串';
+        $varmaybeisnull = null;
+
+        return view('my_laravel',compact('data','title','varmaybeisnull'));
+
     }
 }

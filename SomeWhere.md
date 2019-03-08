@@ -8,6 +8,7 @@ Met ehr資料交換格式
 Ios企業應用指南
 Ochsner
 Health kit
+大iPad Rro的方便
 https://www.apple.com/healthcare/
 https://www.apple.com/tw/researchkit/
 
