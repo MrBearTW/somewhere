@@ -1,3 +1,7 @@
+# 2019/3/9 wanted求職嘉年華
+Shopback
+300萬筆訂單
+
 # 2019/3/7 APPLE企業服務 醫療服務
 在沒有網路的地方如何設計機器學習協助醫生做出診斷
 27K臺
@@ -11,6 +15,10 @@ Health kit
 大iPad Rro的方便
 https://www.apple.com/healthcare/
 https://www.apple.com/tw/researchkit/
+
+每年
+企業佈署會員費用299美
+個人開發者99美
 
 
 # 2019/1/10 西天取經 美國娶面經
