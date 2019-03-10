@@ -79,13 +79,57 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel<?php echo $data['name'] ?> - <?php echo $data['age'] ?>
+                    Laravel
+                </div>
+
+                <div>
+                <?php echo $data['name'] ?> - <?php echo $data['age'] ?>
                     <p>直接echo<?php echo $title ?></p>
-                    <p>blade寫法用@{{{}}  {{$title}}</p> 
+                    <p>blade寫法用家兩個大跨號  {{$title}}</p> 
                     <p>blade失效寫法寫法加@ @{{$title}}</p>
                     <p>{{$varmaybeisnull or '這裡可以寫傳值是null時的預設值'}}</p><!-- 有傳值但可能為null -->
                     <p>{{isset($varmaybeisnull)?$varmaybeisnull:'這裡varmaybeisnull是null時的預設值'}}</p><!-- 可能連值都沒有傳的寫法 -->
+                    <p>{{$str}}</p><!-- 安全性考量，上面的寫法不會真的執行js code -->
+                    <p>{!!$str2!!}</p><!-- 這一種雙!!的寫法才會真的執行js code -->
+
+                    <!-- vedio14 -->
+                    <p>
+                    @if($data2['score']<80)
+                        blade可以寫判斷句if                    
+                    @else
+                        blade可以寫判斷句else
+                    @endif
+
+                    @unless($data2['score']>90)
+                        unless>90不然就會顯示這一行
+                    @endunless
+                    </p>
+                    <p>
+                        @for($i=0;$i<$data2['num'];$i++)
+                            {{$i}}
+                            @endfor
+                    </p>
+                    <p>
+                        @foreach ($data2['article'] as $v)
+                            {{$v}}
+                        @endforeach
+                    </p>
+                    <p>
+                        @foreach ($data2['article'] as $k=>$v)
+                        @if($k>2)
+                            {{$k}}=>{{$v}}
+                            @endif
+                        @endforeach
+                    </p>
+                    <p>
+                        @forelse ($data2['article2'] as $v) 
+                            {{$v}}
+                        @empty
+                        沒有數據會走這邊
+                        @endforelse
+                    </p>
                 </div>
+
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>

@@ -1,6 +1,10 @@
 Laravel 5 中文教程
 https://www.youtube.com/playlist?list=PLAYoruToK_vNbGXmCTPW8zGVuAz0jeBTY
 
+
+新北市樹林國小 LARAVEL 工作坊  
+https://www.laravel-dojo.com/workshops/201507-ntpc  
+  
 4Apache設定
 6laravel所有檔案介紹
 
@@ -40,8 +44,12 @@ compact(多)
 
 ## 13 blade模板引擎
 不想使用到blade語法 {{}}，在前面加上@  
+想執行js code要用 `{{!! XXXX變數 !!}}`  
+ViewController.php  
+my_laravel.blade.php  
 
-
+## 14 blade引擎的流程控制
+if for foreach
 
 ``
 ``

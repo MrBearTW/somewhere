@@ -22,7 +22,17 @@ class ViewController extends Controller
         //$varmaybeisnull = '測試是否為null的字串';
         $varmaybeisnull = null;
 
-        return view('my_laravel',compact('data','title','varmaybeisnull'));
+        $str = "<script>alert('測試傳送script看看會不會被執行');</script>";
+        $str2 = '<script>document.write("這種寫法會真的去執行script的code")</script>';
+
+        $data2 = [
+            'score' => 87,
+            'num'=>56,
+            'article'=>['n1','n2','n3','n4','n5','n6'],
+            'article2'=>array()
+        ];
+
+        return view('my_laravel',compact('data','title','varmaybeisnull','str','str2','data2'));
 
     }
 }
