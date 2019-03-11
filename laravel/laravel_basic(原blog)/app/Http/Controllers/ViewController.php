@@ -35,4 +35,18 @@ class ViewController extends Controller
         return view('my_laravel',compact('data','title','varmaybeisnull','str','str2','data2'));
 
     }
+
+    public function view(){
+        return view('video15');
+    }
+    public function view_common(){
+        return view('video15_common');
+    }
+    public function view_layouts(){
+        return view('video15_layouts');
+    }
+
+    public function envconfig(){
+        echo config('database.connections.mysql.charset');
+    }
 }

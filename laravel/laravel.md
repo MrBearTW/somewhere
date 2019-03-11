@@ -1,12 +1,18 @@
 Laravel 5 中文教程
+
 https://www.youtube.com/playlist?list=PLAYoruToK_vNbGXmCTPW8zGVuAz0jeBTY
+1~18    Laravel5.2 框架基础入门视频教程（免费）共 18 课时 /5 时 09 分
+19~65   Laravel5.2 博客项目实战视频教程（免费）共 47 课时 /11 时 55 分
+
+教材下載
+https://github.com/ichenhua/chenhua_edu/tree/master/laravel5.2-blog
 
 
 新北市樹林國小 LARAVEL 工作坊  
 https://www.laravel-dojo.com/workshops/201507-ntpc  
   
-4Apache設定
-6laravel所有檔案介紹
+## 4 Apache設定
+## 6 laravel所有檔案介紹
 
 
 使用composer
@@ -24,7 +30,7 @@ Laravel 5.7目前最新
 #### 8 Postman教學
 ### 9 控制器
 
-下指令建立``C:\xampp\php\php.exe .\artisan make:controller XXXX`建立名為XXXX的控制器檔案  
+下指令建立`C:\xampp\php\php.exe .\artisan make:controller XXXX`建立名為XXXX的控制器檔案  
 
 
 `C:\xampp\php\php.exe .\artisan route:list`查看目前的路由  
@@ -51,7 +57,41 @@ my_laravel.blade.php
 ## 14 blade引擎的流程控制
 if for foreach
 
-``
+## 15 blade模板
+common
+拉出header 和 footer 在分別引用
+
+layouts
+拉出主模板 繼承後只修改中間一部分
+
+## 16 ENV
+.env  
+APP_DEBUG 真正發布網站時可以把debug模式關閉  
+  
+`C:\xampp\php\php.exe .\artisan key:generate`重新製作KEY  
+
+.ENV中加入資料表前綴
+DB_PREFIX=blog_
+
+.env 和 config資料夾 內的參數  
+有一些常用的可以提出到最外面來  
+echo config('database.connections.mysql.charset');  
+
+## 17
+連接數據庫  
+
+## 18 Eloquent ORM操作
+
+更新或是操作會自動增加一個updated_at  
+方法1 資料庫加入欄位  
+方法2 加入 `public $timestamps= false;`  
+
+----------以上是基礎，以下是實作一個blog
+
+## 19 
+
+
+
 ``
 ``
 ``

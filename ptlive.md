@@ -173,8 +173,13 @@ http轉https
 後臺管理
 後台新增
 
-commit規範
-[]
-[]
-[]
-[]
+commit規範  
+[BugFix]  
+[Features]  
+[Fine-tune]  
+[require-change]  
+  問題
+  解法
+    Detail
+
+2019/3/11
