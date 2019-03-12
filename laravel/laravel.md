@@ -89,14 +89,36 @@ echo config('database.connections.mysql.charset');
 ----------以上是基礎，以下是實作一個blog
 
 ## 19 
+引用css方式
+laravel建議用上面的寫法
+`
+<link rel="stylesheet" href="{{asset('/resources/views/admin/style/css/ch-ui.admin.css')}}">
+<link rel="stylesheet" href="/resources/views/admin/style/font/css/font-awesome.min.css">
+`
+
+
+## 20
+原始laravel是沒有開啟session，要再入口網站開啟  
+`session_start();`  
+  
+傳回同一個地方的圖，但為了讓瀏覽器感覺有變化，可以在後面加上一個隨機數  
+`<img src="{{url('/admin/code')}}" alt=""onclick="this.src='{{url('/admin/code')}}?'+Math.random()">`  
+  
+## 21
+csrf保護   
+在網頁加入`{{csrf_field()}}`  
+  
+驗證碼相關處理
+  
+## 23
 
 
 
+
+
 ``
 ``
-``
-``
-``
+``s
 ``
 ``
 ``

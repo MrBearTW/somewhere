@@ -183,3 +183,10 @@ commit規範
     Detail
 
 2019/3/11
+apache怪怪的
+
+2019/3/12
+phpmyadmin出現錯誤
+`phpmyadmin - count(): Parameter must be an array or an object that implements Countable`
+處理
+https://stackoverflow.com/questions/48001569/phpmyadmin-count-parameter-must-be-an-array-or-an-object-that-implements-co
