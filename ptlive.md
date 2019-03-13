@@ -190,3 +190,11 @@ phpmyadmin出現錯誤
 `phpmyadmin - count(): Parameter must be an array or an object that implements Countable`
 處理
 https://stackoverflow.com/questions/48001569/phpmyadmin-count-parameter-must-be-an-array-or-an-object-that-implements-co
+
+架構說明  
+  
+ 
+  
+2019/3/13  
+Docker使用
+測試環境建立 

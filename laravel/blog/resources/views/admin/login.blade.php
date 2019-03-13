@@ -21,7 +21,7 @@
 						<span><i class="fa fa-user"></i></span>
 					</li>
 					<li>
-						<input type="password" name="usr_pass" class="text"/>
+						<input type="password" name="user_pass" class="text"/>
 						<span><i class="fa fa-lock"></i></span>
 					</li>
 					<li>
