@@ -198,3 +198,6 @@ https://stackoverflow.com/questions/48001569/phpmyadmin-count-parameter-must-be-
 2019/3/13  
 Docker使用
 測試環境建立 
+
+2019/3/14
+DEBUG
