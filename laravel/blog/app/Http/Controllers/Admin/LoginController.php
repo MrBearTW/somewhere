@@ -35,7 +35,7 @@ class LoginController extends CommonController
             // dd($user);
             
             // dd($_SERVER);    //可以看一些系統訊息
-            session(['user'=>null]);
+            //session(['user'=>null]);
             return view('admin.login');
         }
     }
@@ -57,5 +57,11 @@ class LoginController extends CommonController
         echo Crypt::encrypt($str);
         echo "</br>";
         echo Crypt::decrypt($str_p);
+    }
+
+    public function quit()
+    {
+        session(['user'=>null]);
+        return redirect('admin/login');
     }
 }

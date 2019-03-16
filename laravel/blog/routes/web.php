@@ -26,7 +26,13 @@ Route::any('admin/crypt','Admin\LoginController@crypt');
 
 
 
-Route::group(['middleware'=>['web','admin.login']],function(){
-    Route::any('admin/index','Admin\IndexController@index');
-    Route::any('admin/info','Admin\IndexController@info');
+// Route::group(['middleware'=>['web','admin.login']],function(){
+//     Route::any('admin/index','Admin\IndexController@index');
+//     Route::any('admin/info','Admin\IndexController@info');
+//     Route::any('admin/quit','Admin\LoginController@quit');
+// });
+Route::group(['middleware'=>['web','admin.login'],'prefix'=>'admin','namespace'=>'admin'],function(){
+    Route::any('index','IndexController@index');
+    Route::any('info','IndexController@info');
+    Route::any('quit','LoginController@quit');
 });
