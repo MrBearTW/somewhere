@@ -32,7 +32,8 @@ Route::any('admin/crypt','Admin\LoginController@crypt');
 //     Route::any('admin/quit','Admin\LoginController@quit');
 // });
 Route::group(['middleware'=>['web','admin.login'],'prefix'=>'admin','namespace'=>'admin'],function(){
-    Route::any('index','IndexController@index');
-    Route::any('info','IndexController@info');
-    Route::any('quit','LoginController@quit');
+    Route::get('index','IndexController@index');
+    Route::get('info','IndexController@info');
+    Route::get('quit','LoginController@quit');
+    Route::any('pass','IndexController@pass');
 });

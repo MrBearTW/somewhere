@@ -116,11 +116,19 @@ csrf保護
   
 ## 24
 建立middleware隔離有無登入的人  
+建立登出功能
+
+## 25
+
+
+
+
+
 
 
 ``
 ``
-``s
+``
 ``
 ``
 ``
@@ -138,3 +146,53 @@ csrf保護
 
 
 ----------------
+書 laravel5-for-beginner-shop-laravel
+
+一般CMD下`vagrant box add laravel/homestead`
+移到要使用的目錄
+`git clone https://github.com/laravel/homestead.git Homestead`
+執行init.sh
+```
+folders:
+    - map: ~/Code
+      to: /home/vagrant/code
+
+sites:
+    - map: shop-laravel.local
+      to: /home/vagrant/Code/shop_laravel/public
+```
+
+`vagrant up`
+`vagrant ssh`進入
+``
+
+`composer create-project laravel/laravel shop_laravel --prefer-dist`
+
+設定host檔案
+
+
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+```
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``
+``

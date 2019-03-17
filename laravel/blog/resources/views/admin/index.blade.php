@@ -14,7 +14,7 @@
 		<div class="top_right">
 			<ul>
 				<li>管理员：admin</li>
-				<li><a href="pass.html" target="main">修改密码</a></li>
+				<li><a href="{{url('admin/pass')}}" target="main">修改密码</a></li>
 			<li><a href="{{url('admin/quit')}}">退出</a></li>
 			</ul>
 		</div>
