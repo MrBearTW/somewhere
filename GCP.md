@@ -1,3 +1,24 @@
+# 2019/3/20 GCPUG Taipei Meetup #45
+
+https://blog.qwiklabs.com/study-jam-k8s1/
+
+中文說明：Cloud Study Jam 啟用 Qwiklabs 步驟 
+https://bit.ly/csj-guide-zh
+
+Log
+
+fluentd  
+https://www.fluentd.org/guides/recipes/docker-logging
+
+stackdriver logging agent 
+
+https://docs.google.com/presentation/d/1I96h-rzGsVYx4A_hZF_sZbsi47SiRyOiR_Et90uHO4Q/edit
+
+tf hub  
+從別人的模型上繼續跑  
+
+
+
 # 2019/2/26 GCP雲一日本案例分享
 選土豆 只送好的土豆照片，沒有用到不好的照片  
 建材 類似B&Q的公司，使用一年30萬的專業版GA  
