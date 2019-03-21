@@ -1,7 +1,13 @@
 # 2019/3/20 GCPUG Taipei Meetup #45
 
+步驟如下
 https://blog.qwiklabs.com/study-jam-k8s1/
-
+1.get started 
+2.登入
+3.輸入活動碼 
+4.Enroll要按下去
+5.看到Monthly Suscription就是完成
+---
 中文說明：Cloud Study Jam 啟用 Qwiklabs 步驟 
 https://bit.ly/csj-guide-zh
 
@@ -16,6 +22,10 @@ https://docs.google.com/presentation/d/1I96h-rzGsVYx4A_hZF_sZbsi47SiRyOiR_Et90uH
 
 tf hub  
 從別人的模型上繼續跑  
+
+colab免費用TPU
+
+
 
 
 
