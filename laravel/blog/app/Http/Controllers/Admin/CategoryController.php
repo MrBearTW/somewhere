@@ -12,7 +12,13 @@ class CategoryController extends CommonController
     public function index()
     {
         $categorys = Category::all();
+        $data = $this->getTree($categorys);
         return view('admin.category.index')->with('data',$categorys);
+    }
+    public function getTree($data){
+        foreach($data as $k=>$v){
+            if($v->cat_pid)
+        }
     }
 
 
