@@ -16,9 +16,19 @@ class CategoryController extends CommonController
         return view('admin.category.index')->with('data',$categorys);
     }
     public function getTree($data){
+        $arr = array();
         foreach($data as $k=>$v){
-            if($v->cat_pid)
+            if($v->cat_pid==0){
+                $arr[] = $data[$k];
+                foreach($data as $m=>$n){
+                    if($n->cate_pid == $v->cate_id){
+                        $data[$m]["_cate_name"]='------'.$data[$m]["cate_name"];
+                        $arr[] = $data[$m];
+                    }
+                }
+            }
         }
+        return $arr;
     }
 
 

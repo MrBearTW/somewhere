@@ -65,7 +65,7 @@
                         </td>
                         <td class="tc">{{$v->cate_id}}</td>
                         <td>
-                            <a href="#">{{$v->cate_name}}</a>
+                            <a href="#">{{$v->_cate_name}}</a>
                         </td>
                         <td>{{$v->cate_title}}</td>
                         <td>{{$v->cate_view}}</td>

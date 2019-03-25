@@ -1,3 +1,12 @@
+# 
+Openrefine
+
+Qgis
+
+Flourish
+Highchart
+Highchartcloud
+
 # MLDM Monday | 影像識別運用在PIXNET - 黑客松圖片生成填空技術解密
 免費GPU google colab  
 

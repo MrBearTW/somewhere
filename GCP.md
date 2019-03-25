@@ -18,6 +18,9 @@ https://www.fluentd.org/guides/recipes/docker-logging
 
 stackdriver logging agent 
 
+filebeat
+https://www.elastic.co/products/beats/filebeat  
+
 https://docs.google.com/presentation/d/1I96h-rzGsVYx4A_hZF_sZbsi47SiRyOiR_Et90uHO4Q/edit
 
 tf hub  

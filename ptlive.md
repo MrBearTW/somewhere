@@ -178,6 +178,7 @@ commit規範
 [Features]  
 [Fine-tune]  
 [require-change]  
+[verXX.XX]commit for verXX.XX
   問題
   解法
     Detail
@@ -209,6 +210,9 @@ DEBUG
 2019/3/18
 修正
 
-2019/3/22
-確定需求
+2019/3/22  
+確定需求  
 
+2019/3/25  
+看所有檔案和資料夾的使用容量大小  
+`du -shc ./*`
