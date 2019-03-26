@@ -1,4 +1,5 @@
-# 
+#  R-Ladies Taipei [Special Series] 資料新聞 & 電信資料
+2019/3/25 社會創新實驗中心  
 Openrefine
 
 Qgis
@@ -6,6 +7,9 @@ Qgis
 Flourish
 Highchart
 Highchartcloud
+
+新聞媒體實驗  
+https://www.readr.tw  
 
 # MLDM Monday | 影像識別運用在PIXNET - 黑客松圖片生成填空技術解密
 免費GPU google colab  
