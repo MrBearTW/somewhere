@@ -1,3 +1,38 @@
+# 2019/3/27 Google for TAIWAN
+不停的列車，確保不要撞死太多人
+南向國際市場
+Product manager 
+生技業已經開始加速了
+妳解決的問題有多重要
+說故事的能力
+長期合作by project漸漸向外輸入文化
+14歲創業且被背叛然後又東山再起
+
+Collect filter CF 
+
+兜台南
+google.com/grow
+
+Gokube
+
+Google zoo
+影子視覺辨識
+Pocky小學生寫code
+畫圖變菜單
+籃球教練
+華為p30眼睛病變辨識
+保存少數族群語言
+
+ML就是跟電腦說這是A這是B然後給電腦自己判斷
+好的ML Model 建立在高品質的data
+
+Identified a problem 
+
+
+ML API
+Auto ML
+Cloud ML ML-engine 
+
 # 2019/3/20 GCPUG Taipei Meetup #45
 
 步驟如下
