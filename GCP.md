@@ -1,3 +1,35 @@
+# 2019/3/28 Let's talk AI
+自然語言分析BERT中或不中都要紀錄回來
+
+https://medium.com/@lakshmanok/the-zen-guide-to-getting-your-data-ready-for-machine-learning-5e5782dcf88a
+
+議程表
+2019 年 3 月 28 日
+上午 8:30 - 上午 10:00 報到
+上午 10:00 - 上午 11:30 主題演講
+每個人的 AI / AI 帶來的契機
++ 瞭解更多
+上午 11:30 - 下午 12:00 參觀 Google Cloud 展覽區
+下午 12:00 - 下午 1:30午餐
+下午 1:30 - 下午 2:00 行銷科技新浪潮：用 Google Cloud 驅動大數據精準行銷
++ 瞭解更多 企業轉型再進化 - AI4Biz
++ 瞭解更多
+D&A - 如何使用 AI 技術籌備您的未來物聯網和 Tensor Flow
+下午 2:00 - 下午 2:45 如何有效的整理數據，方能完成機器學習大業
++ 瞭解更多 智能物聯網：Google Cloud 的物聯網願景
++ 瞭解更多
+下午 2:45 - 下午 3:30輕鬆的使用DialogFlow打造您的聊天機器人
++ 瞭解更多 物聯網邊緣計算: 使用雲端物聯網，激發智慧至極限
++ 瞭解更多
+上午 3:30 - 下午 4:00休息
+下午 4:00 - 下午 4:45 Google BigQuery: 能讓您駕馭AI與傳統分析的PB等級資料倉儲 / Deep Learning in Online Retail
++ 瞭解更多 智能製造業：如何利用 Cloud IoT Core 以及機器學習開發預測模型
++ 瞭解更多
+下午 4:45 - 下午 5:30 AI民主化之善加利用AutoML以及預先訓練好的模型
++ 瞭解更多 如何使用Cloud TPU加速您的機器學習 
++ 瞭解更多
+下午 5:30 活動結束
+
 # 2019/3/27 Google for TAIWAN
 不停的列車，確保不要撞死太多人
 南向國際市場
