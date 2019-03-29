@@ -1,3 +1,73 @@
+# 2019/3/29 Google Developers ML Summit Taipei 2019
+
+開場及 Google ML 產品概觀
+
+上官林傑 / Eric ShangKuan
+Developer Relations Program Manager
+Google
+
+10:00 - 10:40 A.M.
+
+TensorFlow 2.0 Updates
+
+佐藤一憲 / Kaz Sato
+Developer Advocate, Cloud Platform
+Google
+
+10:40 A.M. - 11:20 A.M.
+
+TensorFlow and Cloud TPU
+
+魏澤人 / Tzer-jen Wei
+Google Developers Experts (Machine Learning)
+
+11:20 A.M. - 12:00 P.M.
+
+Cloud AI: A New Wave for Developing Machine Learning Applications
+
+林書平 / Harry Lin
+Customer Engineer
+Google Cloud
+
+12:00 P.M. - 1:10 P.M.
+
+午餐時間
+
+1:10 P.M. - 1:50 P.M.
+
+Bringing modern AI to your apps with ML Kit for Firebase
+
+李致緯 / Richard Lee
+CTO / Co-founder
+Polydice
+
+1:50 P.M. - 2:30 P.M.
+
+Actions on Google Overview
+
+林建宏 / Wolke Lin
+Google Developers Expert (Assistant)
+
+2:30 P.M. - 2:50 P.M.
+
+休息及換場
+
+2:50 P.M. - 4:50 P.M.
+
+Codelabs 活動
+TensorFlow & Keras codelab
+Tzer-jen Wei, Google Developers Expert (Machine Learning)
+
+Cloud AutoML codelab
+Wayne An, Customer Engineer, Google Cloud
+Helen Lo, Customer Engineer, Google Cloud
+
+ML Kit codelab
+Richard Lee, CTO, Polydice
+
+Actions on Google codelab
+Wolke Lin, Google Developers Expert (Google Assistant)
+
 # 2019/3/28 Let's talk AI
 自然語言分析BERT中或不中都要紀錄回來
 
