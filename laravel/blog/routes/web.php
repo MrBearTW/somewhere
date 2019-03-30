@@ -37,6 +37,7 @@ Route::group(['middleware'=>['web','admin.login'],'prefix'=>'admin','namespace'=
     Route::get('quit','LoginController@quit');
     Route::any('pass','IndexController@pass');
 
+    Route::post('cate/changeorder','CategoryController@changeOrder');
     Route::resource('category', 'CategoryController');
 });
 

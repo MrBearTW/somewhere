@@ -41,6 +41,10 @@ Bringing modern AI to your apps with ML Kit for Firebase
 CTO / Co-founder
 Polydice
 
+圖片辨識標籤
+本地400
+雲端10000
+
 1:50 P.M. - 2:30 P.M.
 
 Actions on Google Overview
