@@ -220,3 +220,9 @@ DEBUG
 
 2019/3/27
 composer無解
+
+
+2019/3/28
+Google Let's AI
+2019/3/29
+Google Developer ML summit
