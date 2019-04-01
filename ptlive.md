@@ -226,3 +226,6 @@ composer無解
 Google Let's AI
 2019/3/29
 Google Developer ML summit
+
+2019/4/1
+測試環境可以跑
