@@ -229,3 +229,5 @@ Google Developer ML summit
 
 2019/4/1
 測試環境可以跑
+
+2019/4/2

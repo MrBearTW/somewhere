@@ -12,39 +12,46 @@ class CategoryController extends CommonController
     //get.admin/category
     public function index()
     {
-//        $categorys = Category::tree();
-          $categorys = (new Category)->tree();
-        return view('admin.category.index')->with('data',$categorys);
+        //        $categorys = Category::tree();
+        $categorys = (new Category)->tree();
+        return view('admin.category.index')->with('data', $categorys);
     }
 
-    public function changeOrder(){
+    public function changeOrder()
+    {
         $input = Input::all();
         $cate = Category::find($input['cate_id']);
         $cate->cate_order = $input['cate_order'];
         $re = $cate->update();
-        if ($re){
+        if ($re) {
             $data = [
-                'status'=>0,
-                'msg'=>'分類排序更新成功'
+                'status' => 0,
+                'msg' => '分類排序更新成功'
+            ];
+        } else {
+            $data = [
+                'status' => 1,
+                'msg' => '分類排序更新失敗，請稍後重試'
             ];
         }
-            else{
-                $data = [
-                    'status'=>1,
-                    'msg'=>'分類排序更新失敗，請稍後重試'
-                ];
-            }
-return $data;
+        return $data;
     }
 
 
-    //post.admin/category
-    public function store()
-    { }
 
     //get.admin/category/create     添加分類
     public function create()
-    { }
+    {
+        $data = Category::where('cate_pid',0)->get();  
+        return view('admin/category/add',compact('data'));
+    }
+
+    //post.admin/category   添加分類提交
+    public function store()
+    {
+        $input = Input::all();
+        dd($input);
+    }
 
     //get.admin/category/{category}     顯示單個分類訊息
     public function show()
