@@ -231,3 +231,9 @@ Google Developer ML summit
 測試環境可以跑
 
 2019/4/2
+
+
+2019/4/3
+傳值失敗
+lravel兩資料庫要共用唯一值
+https://laravel.tw/docs/5.2/eloquent-relationships#one-to-many
