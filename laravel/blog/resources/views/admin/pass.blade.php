@@ -21,7 +21,7 @@
                     <p>{{$errors}}</p>
                 @endif
             </div>
-        @endif
+            @endif
         </div>
     </div>
     <!--结果集标题与导航组件 结束-->

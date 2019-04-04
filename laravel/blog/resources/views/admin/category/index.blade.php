@@ -70,8 +70,8 @@
                         <td>{{$v->cate_title}}</td>
                         <td>{{$v->cate_view}}</td>
                         <td>
-                            <a href="#">修改</a>
-                            <a href="#">删除</a>
+                        <a href="{{url('admin/category/'.$v->cate_id.'/edit')}}">修改</a>
+                            <a href="javascript:;" onclick="delCate({{$v->cate_id}})">删除</a>
                         </td>
                     </tr>
                     @endforeach
@@ -162,6 +162,18 @@ function changeOrder(obj,cate_id){
             layer.msg(data.msg, {icon: 5});
         }
     });
+}
+
+//刪除分類
+function delCate(cate_id){
+    layer.confirm('您確定要刪除這一個分類嗎？', {
+  btn: ['確定','取消'] //按钮
+}, function(){
+    $.post("{{url('admin/category/')}}/"+cate_id,{'_method':'delete','_token':"{{csrf_token}}"},function(date))
+//   layer.msg('的确很重要', {icon: 1});
+}, function(){
+
+});
 }
 </script>
 

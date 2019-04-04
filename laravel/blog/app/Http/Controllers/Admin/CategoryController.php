@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Model\Category;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Validator;
 
 class CategoryController extends CommonController
 {
@@ -46,26 +47,71 @@ class CategoryController extends CommonController
         return view('admin/category/add',compact('data'));
     }
 
+    // ## 31
     //post.admin/category   添加分類提交
     public function store()
     {
-        $input = Input::all();
-        dd($input);
+        $input = Input::except('_token');    //all但扣除第一個token
+        $rules = [
+            'cate_name' => 'required',  //必填
+        ];
+        $message = [   //  出現錯誤時提示字
+            'cate_name.required' => '分類名稱不能為空',
+        ];
+        $validator = Validator::make($input, $rules, $message);
+
+        if ($validator->passes()) {
+            $re = Category::create($input);
+            if($re){
+                return redirect('admin/category');
+            }else{
+                return back()->withErrors('errors','文章新增失敗，請重新嘗試');
+            }
+        }else{
+            return back()->withErrors($validator);
+        }
+
     }
+
+    //get.admin/category/{category}/edit     編輯分類
+    public function edit($cate_id)
+    {
+        $field = Category::find($cate_id);
+        $data = Category::where('cate_pid',0)->get();
+        return view('admin.category.edit',compact('field','data'));
+    }
+
+    // ## 32
+    //put.admin/category/{category}        更新分類
+    public function update($cate_id){
+        $input = Input::except('_token','_method');
+        $re = Category::where('cate_id',$cate_id)->update($input);
+        if($re){
+            return redirect('admin/category');
+        }else{
+            return back()->withErrors('errors','分類更新失敗，請重新嘗試');
+        }
+     }
 
     //get.admin/category/{category}     顯示單個分類訊息
     public function show()
     { }
 
     //delete.admin/category/{category}      刪除單個分類
-    public function destroy()
-    { }
+    public function destroy($cate_id)
+    { 
+        $re = Category::where('cate_id',$cate_id)->delete();
+        if($re){
+            $data=[
+                'status'=>0,
+                'msg'=>'分類刪除成功'
+            ];
+        }else{
+            $data=[
+                'status'=>1,
+                'msg'=>'分類刪除失敗，請重新嘗試'
+            ];
+        }
+    }
 
-    //put.admin/category        更新分類
-    public function update()
-    { }
-
-    //get.admin/category/{category}     編輯分類
-    public function edit()
-    { }
 }
