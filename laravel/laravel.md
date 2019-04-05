@@ -147,6 +147,21 @@ http://layer.layui.com/
 完成分類更新功能
 
 ## 33
+完成分類管理模塊
+
+## 34
+建立文章資料庫  
+準備好controller blade模板
+
+## 35
+引入百度文章編輯器  
+https://ueditor.baidu.com/website/download.html
+
+## 36
+http://www.uploadify.com/
+
+
+
 
 
 

@@ -43,8 +43,8 @@ class CategoryController extends CommonController
     //get.admin/category/create     添加分類
     public function create()
     {
-        $data = Category::where('cate_pid',0)->get();  
-        return view('admin/category/add',compact('data'));
+        $data = Category::where('cate_pid', 0)->get();
+        return view('admin/category/add', compact('data'));
     }
 
     // ## 31
@@ -62,36 +62,36 @@ class CategoryController extends CommonController
 
         if ($validator->passes()) {
             $re = Category::create($input);
-            if($re){
+            if ($re) {
                 return redirect('admin/category');
-            }else{
-                return back()->withErrors('errors','文章新增失敗，請重新嘗試');
+            } else {
+                return back()->withErrors('errors', '文章新增失敗，請重新嘗試');
             }
-        }else{
+        } else {
             return back()->withErrors($validator);
         }
-
     }
 
     //get.admin/category/{category}/edit     編輯分類
     public function edit($cate_id)
     {
         $field = Category::find($cate_id);
-        $data = Category::where('cate_pid',0)->get();
-        return view('admin.category.edit',compact('field','data'));
+        $data = Category::where('cate_pid', 0)->get();
+        return view('admin.category.edit', compact('field', 'data'));
     }
 
     // ## 32
     //put.admin/category/{category}        更新分類
-    public function update($cate_id){
-        $input = Input::except('_token','_method');
-        $re = Category::where('cate_id',$cate_id)->update($input);
-        if($re){
+    public function update($cate_id)
+    {
+        $input = Input::except('_token', '_method');
+        $re = Category::where('cate_id', $cate_id)->update($input);
+        if ($re) {
             return redirect('admin/category');
-        }else{
-            return back()->withErrors('errors','分類更新失敗，請重新嘗試');
+        } else {
+            return back()->withErrors('errors', '分類更新失敗，請重新嘗試');
         }
-     }
+    }
 
     //get.admin/category/{category}     顯示單個分類訊息
     public function show()
@@ -99,19 +99,20 @@ class CategoryController extends CommonController
 
     //delete.admin/category/{category}      刪除單個分類
     public function destroy($cate_id)
-    { 
-        $re = Category::where('cate_id',$cate_id)->delete();
-        if($re){
-            $data=[
-                'status'=>0,
-                'msg'=>'分類刪除成功'
+    {
+        $re = Category::where('cate_id', $cate_id)->delete();
+        Category::where('cate_pid', $cate_id)->update(['cate_pid' => 0]);
+        if ($re) {
+            $data = [
+                'status' => 0,
+                'msg' => '分類刪除成功'
             ];
-        }else{
-            $data=[
-                'status'=>1,
-                'msg'=>'分類刪除失敗，請重新嘗試'
+        } else {
+            $data = [
+                'status' => 1,
+                'msg' => '分類刪除失敗，請重新嘗試'
             ];
         }
+        return $data;
     }
-
 }
