@@ -10,7 +10,14 @@ class CommonController extends Controller
 {
     //圖片上傳
     public function upload(){
-$input=Input::get('filedata');
-dd($input);
+        $file=Input::file('Filedata');
+        if($file -> isValid()){
+            // $realPath = $file -> getRealPath();     //臨時文件的絕對路徑
+            $entension = $file ->grtClientOriginalExtension();      //上傳文件的後綴
+            $newName = data('YmdHis').mt_rand(100,999).'.'.$entension;
+            $path = $file -> move(base_path().'/uploads',$newName);
+            $filepath = 'uploads/'.$newName;
+            return $filepath;
+        }
     }
 }

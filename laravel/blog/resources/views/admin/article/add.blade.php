@@ -14,7 +14,7 @@
 	<!--结果集标题与导航组件 开始-->
 	<div class="result_wrap">
         <div class="result_title">
-            <h3>添加文章</h3>
+            <h3>新增添加文章</h3>
             @if(count($errors)>0)
             <div class="mark">
                 @if(is_object($errors))     <!-- is_object 物件 -->
@@ -36,7 +36,7 @@
     <!--结果集标题与导航组件 结束-->
     
     <div class="result_wrap">
-    <form action="{{url('admin/category')}}" method="post">
+    <form action="{{url('admin/article')}}" method="post">
             {{csrf_field()}}
             <table class="add_tab">
                 <tbody>
@@ -86,7 +86,11 @@
                                                             '_token'     : "{{csrf_token()}}"
                                                         },
                                                         'swf'      : "{{asset('resources/org/uploadify/uploadify.swf')}}",
-                                                        'uploader' : "{{url('admin/upload')}}"
+                                                         'uploader' : "{{url('admin/upload')}}",
+                                                        'onUploadSuccess' : function(file, data, response) {
+                                                            $('input[name=art_thumb]').val(data);
+                                                            $('#art_thumb_img').attr('src','/'+data);
+                                                        }
                                                     });
                                                 });
                                             </script>
@@ -97,6 +101,13 @@
                                             </style>
                                         </td>
                                 </tr>
+                                <tr>
+                                    <th></th>
+                                        <td>
+                                            <img src="" alt="" id="art_thumb_img" style="max-width: 350px; max-height100px;">
+                                        </td>
+                                    </tr>
+                                <tr>
                             <tr>
                                 <th>關鍵詞：</th>
                                 <td>
