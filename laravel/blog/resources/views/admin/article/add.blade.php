@@ -73,12 +73,14 @@
                                     <th>縮略圖：</th>
                                         <td>
                                             <input type="text" size="50" name="art_thumb">
-                                            <input id="file_upload" name="file_upload" type="file" multiple="true">
+                                            {{-- <input id="file_upload" name="file_upload" type="file" multiple="true"> --}}
+                                            <input id="file_upload" name="art_thumb" type="file" multiple="true">       //name亂改
                                             <script src="{{asset('resources/org/uploadify/jquery.uploadify.min.js')}}" type="text/javascript"></script>
                                             <link rel="stylesheet" type="text/css" href="{{asset('resources/org/uploadify/uploadify.css')}}">
                                             <script type="text/javascript">
                                                 <?php $timestamp = time();?>
                                                 $(function() {
+                                                    // $('#file_upload').uploadify({
                                                     $('#file_upload').uploadify({
                                                         'buttonText' : '選擇您要上傳的檔案',
                                                         'formData'     : {
