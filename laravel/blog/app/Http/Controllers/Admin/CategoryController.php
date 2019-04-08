@@ -65,7 +65,7 @@ class CategoryController extends CommonController
             if ($re) {
                 return redirect('admin/category');
             } else {
-                return back()->withErrors('errors', '文章新增失敗，請重新嘗試');
+                return back()->withErrors('errors', '分類新增失敗，請重新嘗試');
             }
         } else {
             return back()->withErrors($validator);

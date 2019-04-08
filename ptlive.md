@@ -237,3 +237,8 @@ Google Developer ML summit
 傳值失敗
 lravel兩資料庫要共用唯一值
 https://laravel.tw/docs/5.2/eloquent-relationships#one-to-many
+
+2019/4/8
+換一個方法  
+
+做可以勾選的選單
