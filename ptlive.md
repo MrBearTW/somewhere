@@ -242,3 +242,11 @@ https://laravel.tw/docs/5.2/eloquent-relationships#one-to-many
 換一個方法  
 
 做可以勾選的選單
+  
+2019/4/9  
+php回傳給前端的json要是乾淨的前面才能執行  
+前面不能在帶有其他回應，不要亂echo  
+
+Laravel migration增加欄位  
+
+
