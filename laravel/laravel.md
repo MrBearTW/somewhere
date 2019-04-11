@@ -166,7 +166,9 @@ http://www.uploadify.com/
 ## 38
 
 
-
+## 39
+編輯article index可以正常顯示所有文章  
+可以有分頁  
 
 
 

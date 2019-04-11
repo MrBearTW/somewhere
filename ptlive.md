@@ -249,9 +249,18 @@ php回傳給前端的json要是乾淨的前面才能執行
 
 Laravel migration增加欄位  
 
-2019/4/9  
+2019/4/10  
 
 
 看有哪一些POD`kubectl get pods`  
 進入POD`kubectl exec -it XXXXXXXXXXXXXXXXXXXXXXXXXXXX /bin/bash`  
 退出`exit`  
+
+
+2019/4/11  
+GCP測試環境可以運作
+
+2019/4/12
+
+
+
