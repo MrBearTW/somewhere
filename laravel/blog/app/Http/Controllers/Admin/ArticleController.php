@@ -12,8 +12,8 @@ class ArticleController extends CommonController
     //get.admin/article 全部文章列表
     public function index()
     {
-        $data=Article::orderBy('art_id','desc')->paginate(5);
-        return view('admin.article.index',compact('data'));
+        $data = Article::orderBy('art_id', 'desc')->paginate(5);
+        return view('admin.article.index', compact('data'));
     }
 
     //get.admin/article/create     添加文章
@@ -51,11 +51,12 @@ class ArticleController extends CommonController
         } else {
             return back()->withErrors($validator);
         }
+    }
 
-
-
-
-
-
+    //get.admin/article/{article}/edit     編輯文章
+    public function edit($art_id)
+    {
+        $data = (new Category)->tree();
+        return view('admin.article.edit', compact('data'));
     }
 }

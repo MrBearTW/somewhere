@@ -23,7 +23,7 @@
                 </div>  
                 <div class="short_wrap">
                     <a href="{{url('admin/article/create')}}"><i class="fa fa-plus"></i>新增文章</a>
-                    <a href="#"><i class="fa fa-recycle"></i>批量删除</a>
+                    <a href=""><i class="fa fa-recycle"></i>批量删除</a>
                     <a href="#"><i class="fa fa-refresh"></i>更新排序</a>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                             <td>{{$v->art_editor}}</td>
                             <td>{{date('Y-m-d',$v->art_time)}}</td>
                             <td>
-                                <a href="#">修改</a>
+                                <a href="{{url('admin/article/'.$v->art_id.'/edit')}}">修改</a>
                                 <a href="#">删除</a>
                             </td>
                         </tr>  
