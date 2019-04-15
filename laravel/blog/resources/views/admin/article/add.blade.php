@@ -139,7 +139,6 @@
                                                 {overflow: hidden; height:20px;}
                                                 div.edui-box{overflow: hidden; height:22px;}
                                             </style>
-                                            <textarea ></textarea>
                                         </td>
                                     </tr>
 

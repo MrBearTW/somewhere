@@ -23,8 +23,7 @@
                 </div>  
                 <div class="short_wrap">
                     <a href="{{url('admin/article/create')}}"><i class="fa fa-plus"></i>新增文章</a>
-                    <a href=""><i class="fa fa-recycle"></i>批量删除</a>
-                    <a href="#"><i class="fa fa-refresh"></i>更新排序</a>
+                    <a href="{{url('admin/article')}}"><i class="fa fa-recycle"></i>全部文章</a>
                 </div>
             </div>
             <!--快捷导航 结束-->
@@ -52,7 +51,7 @@
                             <td>{{date('Y-m-d',$v->art_time)}}</td>
                             <td>
                                 <a href="{{url('admin/article/'.$v->art_id.'/edit')}}">修改</a>
-                                <a href="#">删除</a>
+                                <a href="javascript:;" onclick="delArt({{$v->art_id}})">删除</a>
                             </td>
                         </tr>  
                     @endforeach
@@ -72,4 +71,27 @@
     padding:6px 12px;
 }
 </style>
+
+
+
+<script>
+//刪除文章
+function delArt(art_id){
+    layer.confirm('您確定要刪除這一篇文章嗎？', {
+      btn: ['確定','取消'] //按钮
+    }, function(){
+            $.post("{{url('admin/article/')}}/"+art_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data) {
+            if(data.status==0){
+                location.href = location.href;
+                    layer.msg(data.msg, {icon: 6});
+            }else{
+                    layer.msg(data.msg, {icon: 5});
+            }
+        });
+    //   layer.msg('的确很重要', {icon: 1});
+    }, function(){
+
+    });
+}
+</script>
 @endsection

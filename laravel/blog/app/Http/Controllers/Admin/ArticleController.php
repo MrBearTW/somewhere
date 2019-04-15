@@ -57,6 +57,37 @@ class ArticleController extends CommonController
     public function edit($art_id)
     {
         $data = (new Category)->tree();
-        return view('admin.article.edit', compact('data'));
+        $field = Article::find($art_id);
+        return view('admin.article.edit', compact('data','field'));
+    }
+
+      //put.admin/article/{category}        更新文章
+      public function update($art_id)
+      {
+          $input=Input::except('_token','_method');
+          $re = Article::where('art_id', $art_id)->update($input);
+          if ($re) {
+            return redirect('admin/article');
+        } else {
+            return back()->withErrors('errors', '文章更新失敗，請重新嘗試');
+        }
+      }
+
+    //delete.admin/article/{article}      刪除文章
+    public function destroy($art_id)
+    {
+        $re = Article::where('art_id', $art_id)->delete();
+        if ($re) {
+            $data = [
+                'status' => 0,
+                'msg' => '文章刪除成功'
+            ];
+        } else {
+            $data = [
+                'status' => 1,
+                'msg' => '文章刪除失敗，請重新嘗試'
+            ];
+        }
+        return $data;
     }
 }
