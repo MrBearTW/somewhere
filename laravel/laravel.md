@@ -178,13 +178,22 @@ http://www.uploadify.com/
 調整細部連結  
 
 # 42
+建立新的migration內容`C:\xampp\php\php.exe .\artisan make:migration create_link_table`  
+執行建立命令`C:\xampp\php\php.exe .\artisan migrate`  
+
+# 43
+用seeder方式寫入blog_links資料表  
+製作一個seeder`C:\xampp\php\php.exe .\artisan make:seeder LinksTableSeeder`  
+執行`C:\xampp\php\php.exe .\artisan db:seed`  
+
+# 44
 
 
 
 
 
-``
-``
+
+
 ``
 ``
 ``
