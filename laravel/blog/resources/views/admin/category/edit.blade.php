@@ -37,7 +37,7 @@
     
     <div class="result_wrap">
     <form action="{{url('admin/category/'.$field->cate_id)}}" method="post">
-            <input type="hidden" name="_method" value="put">
+            <input type="hidden" name="_method" value="put">{{-- {{method_field('PUT')}} --}}
             {{csrf_field()}}
             <table class="add_tab">
                 <tbody>

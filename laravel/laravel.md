@@ -187,7 +187,16 @@ http://www.uploadify.com/
 執行`C:\xampp\php\php.exe .\artisan db:seed`  
 
 # 44
+建立可修改連結順序的頁面  
 
+# 45
+完成可新增超連結的頁面
+
+# 46
+完成超連結修改和刪除的按鍵功能  
+添加首頁超連結管理頁面的連結  
+
+# 47
 
 
 

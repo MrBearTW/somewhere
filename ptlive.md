@@ -270,3 +270,9 @@ https://www.facebook.com/groups/616369245163622/permalink/1588216541312216/
 2019/4/16
 
 
+2019/04/17
+
+(1/1) ErrorException
+Trying to get property of non-object
+
+in PolicyController.php line 36
