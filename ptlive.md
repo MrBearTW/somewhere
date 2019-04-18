@@ -276,3 +276,6 @@ https://www.facebook.com/groups/616369245163622/permalink/1588216541312216/
 Trying to get property of non-object
 
 in PolicyController.php line 36
+
+2019/04/18
+調整middleware流程
