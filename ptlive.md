@@ -279,3 +279,7 @@ in PolicyController.php line 36
 
 2019/04/18
 調整middleware流程
+
+2019/04/19
+middleware可以擋住
+新增管理者頁面
