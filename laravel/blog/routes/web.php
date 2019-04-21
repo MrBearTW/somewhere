@@ -47,6 +47,9 @@ Route::group(['middleware'=>['web','admin.login'],'prefix'=>'admin','namespace'=
 
     Route::post('navs/changeorder','NavsController@changeOrder');
     Route::resource('navs', 'NavsController');
+
+    Route::post('config/changeorder','ConfigController@changeOrder');
+    Route::resource('config', 'ConfigController');
     
     Route::any('upload','CommonController@upload');
 

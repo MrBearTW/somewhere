@@ -199,7 +199,20 @@ http://www.uploadify.com/
 # 47
 完成導航列相關整理  
 
+#48
+config欄位建立
 
+#49
+config新增頁面
+選單建立
+
+#50
+編輯config index頁面
+
+#51
+修改config edit頁面
+
+#52
 
 
 
