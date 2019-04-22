@@ -283,3 +283,9 @@ in PolicyController.php line 36
 2019/04/19
 middleware可以擋住
 新增管理者頁面
+
+2019/04/22
+crtl + alt + F1~6
+選一個介面
+`cd /www/XXXXXXXIOT`
+`node mqttbroker.js  &`

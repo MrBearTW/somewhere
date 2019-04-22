@@ -213,11 +213,44 @@ config新增頁面
 修改config edit頁面
 
 #52
+radio多幾個有問題，只會顯示最後一個
+
+#53
+radio多個仍有問題
+製作可在index頁面修改content功能
+
+#54
+做修改之後會存一分到config/webbb.php
+ConfigController@putFile
+
+#55
+後臺功能確定  
+
+#56
+查看laravel版本`C:\xampp\php\php.exe .\artisan --version`
+
+#57
+可跳過這一段
+5.2.26 升級至 5.2.29
+
+#58
+開始做前台模塊  
+導入index new art
+
+#59
+做index
+站長推薦區域
+最新文章和分頁功能
+
+#60
+index 引入Config失敗
+category更新有點問題 pid的部分
+
+#61
+方塊連結失敗
 
 
 
-
-``
 ``
 ``
 ``

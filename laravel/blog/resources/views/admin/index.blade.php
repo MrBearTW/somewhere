@@ -5,15 +5,15 @@
 	<!--头部 开始-->
 	<div class="top_box">
 		<div class="top_left">
-			<div class="logo">后台管理模板</div>
+			<div class="logo">部落格後臺管理</div>
 			<ul>
-				<li><a href="#" class="active">首页</a></li>
-				<li><a href="#">管理页</a></li>
+			<li><a href="{{url('/')}}" target="_blank" class="active">首頁</a></li>
+			<li><a href="{{url('admin/info')}}" target="main">管理頁</a></li>
 			</ul>
 		</div>
 		<div class="top_right">
 			<ul>
-				<li>管理员：admin</li>
+				<li>管理員：admin</li>
 				<li><a href="{{url('admin/pass')}}" target="main">修改密码</a></li>
 			<li><a href="{{url('admin/quit')}}">退出</a></li>
 			</ul>
@@ -34,12 +34,12 @@
                 </ul>
             </li>
             <li>
-            	<h3><i class="fa fa-fw fa-cog"></i>系统设置</h3>
+            	<h3><i class="fa fa-fw fa-cog"></i>內容管理</h3>
                 <ul class="sub_menu" style="display: block;">
 					<li><a href="{{url('admin/article')}}" target="main"><i class="fa fa-fw fa-cubes"></i>超連結管理</a></li>
 					<li><a href="{{url('admin/navs')}}" target="main"><i class="fa fa-fw fa-navion"></i>導航列管理</a></li>
-
-                    <li><a href="#" target="main"><i class="fa fa-fw fa-database"></i>备份还原</a></li>
+					<li><a href="{{url('admin/config')}}" target="main"><i class="fa fa-fw fa-cogs"></i>配置項管理</a></li>
+                    {{-- <li><a href="#" target="main"><i class="fa fa-fw fa-database"></i>备份还原</a></li> --}}
                 </ul>
             </li>
             <li>

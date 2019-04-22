@@ -52,20 +52,20 @@
                 </td>
             </tr>
             <tr>
-                <th><i class="require">*</i>分类名称：</th>
+                <th><i class="require">*</i>分類名稱：</th>
                 <td>
                     <input type="text" name="cate_name" value="{{$field->cate_name}}">
-                    <span><i class="fa fa-exclamation-circle yellow"></i>分类名称必须填写</span>
+                    <span><i class="fa fa-exclamation-circle yellow"></i>分類名稱必須填寫</span>
                 </td>
             </tr>
             <tr>
-                <th>分类标题：</th>
+                <th>分類標題：</th>
                 <td>
                     <input type="text" class="lg" name="cate_title"  value="{{$field->cate_title}}">
                 </td>
             </tr>
             <tr>
-                <th>关键词：</th>
+                <th>關鍵詞：</th>
                 <td>
                     <textarea name="cate_keywords">{{$field->cate_keywords}}</textarea>
                 </td>

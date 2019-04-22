@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Home\IndexController@index');
+Route::get('/cate/{cate_id}', 'Home\IndexController@cate');
+Route::get('/a/{art_id}', 'Home\IndexController@article');
 
 // Route::get('/test_db','IndexController@index');
 
@@ -32,6 +32,7 @@ Route::any('admin/crypt','Admin\LoginController@crypt');
 //     Route::any('admin/quit','Admin\LoginController@quit');
 // });
 Route::group(['middleware'=>['web','admin.login'],'prefix'=>'admin','namespace'=>'admin'],function(){
+    Route::get('/','IndexController@index');
     Route::get('index','IndexController@index');
     Route::get('info','IndexController@info');
     Route::get('quit','LoginController@quit');
@@ -48,11 +49,11 @@ Route::group(['middleware'=>['web','admin.login'],'prefix'=>'admin','namespace'=
     Route::post('navs/changeorder','NavsController@changeOrder');
     Route::resource('navs', 'NavsController');
 
+    Route::get('config/putfile','ConfigController@putFile');   // 54
+    Route::post('config/changecontent','ConfigController@changeContent');
     Route::post('config/changeorder','ConfigController@changeOrder');
     Route::resource('config', 'ConfigController');
     
     Route::any('upload','CommonController@upload');
 
 });
-
-    
