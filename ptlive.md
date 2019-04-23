@@ -289,3 +289,6 @@ crtl + alt + F1~6
 選一個介面
 `cd /www/XXXXXXXIOT`
 `node mqttbroker.js  &`
+
+2019/04/23
+讀出來看不到資料  

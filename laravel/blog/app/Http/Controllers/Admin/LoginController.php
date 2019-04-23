@@ -17,7 +17,7 @@ class LoginController extends CommonController
     public function login()
     {
         if ($input = Input::all()) {
-            $code = new \Code;
+            $code = new \Code;      //Code是驗證碼相關
             $_code = $code->get();
             if (strtoupper($input['code']) != $_code) {
                 return back()->with('msg', '驗證碼錯誤');

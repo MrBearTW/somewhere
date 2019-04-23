@@ -249,22 +249,32 @@ category更新有點問題 pid的部分
 #61
 方塊連結失敗
 
+#62
 
 
-``
-``
-``
-``
-``
-``
-``
-``
-``
-``
-``
-``
+#63
+a/1
+帶入
+
+#64
 
 
+
+#65
+上線之前注意事項
+1.
+`C:\xampp\php\php.exe .\artisan key:generate`重新製作KEY 
+2.
+修改.env  
+APP_DEBUG 發布網站時可以把debug模式改成false 
+
+http://blog.hd/cate/3
+http://blog.hd/a/6
+  
+
+
+
+CSS的快速搜尋畫面
 
 
 ----------------
