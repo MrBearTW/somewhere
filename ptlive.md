@@ -174,7 +174,7 @@ http轉https
 後台新增
 
 commit規範  
-[BugFix]  
+[Bug-Fix]  
 [Features]  
 [Fine-tune]  
 [require-change]  
@@ -292,3 +292,13 @@ crtl + alt + F1~6
 
 2019/04/23
 讀出來看不到資料  
+
+2019/04/24
+```
+Route::any('admin/session', function () { 
+  $data_session = Session::all();
+  dd($data_session);}
+);
+```
+
+https://github.com/TapPay/tappay-web-example
