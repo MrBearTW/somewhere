@@ -268,7 +268,8 @@ GCP測試環境可以運作
 https://www.facebook.com/groups/616369245163622/permalink/1588216541312216/  
 
 2019/4/16
-
+Session操作  
+https://blog.johnsonlu.org/laravel-session/  
 
 2019/04/17
 
@@ -307,3 +308,7 @@ https://github.com/TapPay/tappay-web-example
 2019/04/25
 在windows 10 上面使用chrome 對ios的 safari 進行除錯
 http://q10242.pixnet.net/blog/post/214919547-%e5%9c%a8windows-10-%e4%b8%8a%e9%9d%a2%e4%bd%bf%e7%94%a8chrome-%e5%b0%8dios%e7%9a%84-safari-%e9%80%b2%e8%a1%8c%e9%99%a4
+
+問題回報  
+https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter/issues/79  
+  

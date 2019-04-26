@@ -1,3 +1,8 @@
+
+# Introductory
+
+GCP Essentials
+
 Baseline: Deploy & Develop
 
 
@@ -43,6 +48,10 @@ https://google.qwiklabs.com/quests/29
 `kubectl explain deployment`
 `kubectl explain deployment --recursive`
 `kubectl explain deployment.metadata.name`
+
+
+
+
 
 
 ``
