@@ -312,3 +312,6 @@ http://q10242.pixnet.net/blog/post/214919547-%e5%9c%a8windows-10-%e4%b8%8a%e9%9d
 問題回報  
 https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter/issues/79  
   
+2019/04/29  
+測試環境網站死掉 先確定一下CONTAINER是不是還活著  
+

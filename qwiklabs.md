@@ -157,31 +157,105 @@ After creating the global forwarding rule, it can take several minutes for your 
 Network Load Balancing is a regional, non-proxied load balancer.  
 
 
-### 
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
+### Baseline: Deploy & Develop
+20190429  
+https://google.qwiklabs.com/quests/37  
+
+#### Google Cloud SDK: Qwik Start - Redhat/Centos
+網頁選GCE 選VM 建立虛擬機
+##### Update the Cloud SDK RPM packages
+`sudo tee -a /etc/yum.repos.d/google-cloud-sdk.repo << EOM
+[google-cloud-sdk]
+name=Google Cloud SDK
+baseurl=https://packages.cloud.google.com/yum/repos/cloud-sdk-el7-x86_64
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
+       https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+EOM`  
+安裝google-cloud-sdk`sudo yum install google-cloud-sdk` 
+##### Initialize the SDK in your instance 
+初始化`gcloud init --console-only`  
+選新的話，會給一個連結，取回一串認證碼，再繼續
+##### Run core gcloud commands
+一些可以看gcloud設定的指令
+`gcloud auth list`  
+`gcloud config list`  
+`gcloud info`  
+
+#### App Engine: Qwik Start - PHP
+##### Enable Google App Engine Admin API
+APIs & Services > Library  
+搜尋 App Engine Admin API  
+##### Download the Hello World app
+下載`git clone -b phase0-helloworld https://github.com/GoogleCloudPlatform/appengine-php-guestbook.git helloworld`  
+`cd helloworld`  
+##### Test the application
+依照設定檔app.yaml啟動
+`dev_appserver.py app.yaml --php_executable_path /usr/bin/php-cgi`  
+##### Make a change
+可以直接改code 若有需要會自動更新  
+##### Deploy your app
+依app.yam的設定開始部屬`gcloud app deploy`  
+##### View your application
+`gcloud app browse`  
+##### app.yaml長這樣
+```
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: helloworld.php
+```
+
+#### Cloud Source Repositories: Qwik Start
+##### Create a new repository
+建立REPO_DEMO的雲端空間  
+`gcloud source repos create REPO_DEMO`  
+##### Clone the new repository into your Cloud Shell session
+從雲端複製一份下來  
+The gcloud source repos clone command adds Cloud Source Repositories as a remote named origin.  
+`gcloud source repos clone REPO_DEMO`  
+
+##### Push to the Cloud Source Repository
+修改完後傳回去  
+`cd REPO_DEMO`  
+`echo "Hello World!" > myfile.txt`  
+`git config --global user.email "you@example.com"`  
+`git config --global user.name "Your Name"`  
+`git add myfile.txt`  
+`git commit -m "First file using Cloud Source Repositories" myfile.txt`  
+`git push origin master`  
+##### Browse files in the Google Cloud Source repository
+網頁可以在這裡看到code  
+Source Repositories > Source Code.  
+  
+#### Container-Optimized OS: Qwik Start
+建立一個VM
+##### Verify your Docker environment
+SSH進入後，看所有目前可用的docker`sudo docker ps`  
+##### Create an instance using CLI
+在google console頁面  
+看一下哪一些images是可以用的  
+`gcloud compute images list \
+    --project cos-cloud \
+    --no-standard-images`  
+建立compute instances  
+` gcloud beta compute instances create-with-container containerized-vm2 \
+     --image cos-stable-72-11316-136-0 \
+     --image-project cos-cloud \
+     --container-image nginx \
+     --container-restart-policy always \
+     --zone us-central1-a \
+     --machine-type n1-standard-1`  
+建立防火牆  
+`gcloud compute firewall-rules create allow-containerized-internal\
+  --allow tcp:80 \
+  --source-ranges 0.0.0.0/0 \
+  --network default`  
 ``  
 ``  
 ``  
