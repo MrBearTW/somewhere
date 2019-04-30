@@ -256,10 +256,100 @@ SSH進入後，看所有目前可用的docker`sudo docker ps`
   --allow tcp:80 \
   --source-ranges 0.0.0.0/0 \
   --network default`  
-``  
-``  
-``  
 
+#### Datastore: Qwik Start
+Google Cloud Datastore is a NoSQL  
+  
+#### Cloud SQL for MySQL: Qwik Start
+Instance ID is used to uniquely identify your instance within the project.  
+##### Connect to your instance using the mysql client in the Cloud Shell
+登入XXXXX`gcloud sql connect XXXXX --user=root`  
+輸入密碼  
+進入mysql  
+建立資料庫`CREATE DATABASE guestbook;`  
+建立資料
+```
+USE guestbook;
+CREATE TABLE entries (guestName VARCHAR(255), content VARCHAR(255),
+    entryID INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(entryID));
+    INSERT INTO entries (guestName, content) values ("first guest", "I got here!");
+INSERT INTO entries (guestName, content) values ("second guest", "Me too!");
+```
+查看表格`SELECT * FROM entries;`  
+
+#### Data Loss Prevention: Qwik Start - JSON
+隱蔽敏感資訊的API？
+#### Create a service account key
+`export PROJECT_ID=[YOUR_PROJECT_ID]`  
+Create a Service Account to access the Google Cloud APIs when testing locally  
+`gcloud iam service-accounts create qwiklab \
+  --display-name "Qwiklab Service Account"`  
+Give your newly created Service Account appropriate permissions  
+`gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+--member serviceAccount:qwiklab@${PROJECT_ID}.iam.gserviceaccount.com \
+--role roles/owner`  
+After creating your Service Account, create a Service Account key  
+`gcloud iam service-accounts keys create ~/key.json \
+--iam-account qwiklab@${PROJECT_ID}.iam.gserviceaccount.com`  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
 
 ### Kubernetes in the Google Cloud
 https://google.qwiklabs.com/quests/29  

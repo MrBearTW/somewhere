@@ -315,3 +315,6 @@ https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter/issues/79
 2019/04/29  
 測試環境網站死掉 先確定一下CONTAINER是不是還活著  
 
+2019/04/30  
+net::ERR_CONNECTION_REFUSED  
+沒事不要跳步驟  
