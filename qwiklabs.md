@@ -280,21 +280,37 @@ INSERT INTO entries (guestName, content) values ("second guest", "Me too!");
 #### Data Loss Prevention: Qwik Start - JSON
 隱蔽敏感資訊的API？
 #### Create a service account key
-`export PROJECT_ID=[YOUR_PROJECT_ID]`  
-Create a Service Account to access the Google Cloud APIs when testing locally  
+設定環境變數`export PROJECT_ID=[YOUR_PROJECT_ID]`  
+建立名為qwiklab的服務Create a Service Account to access the Google Cloud APIs when testing locally  
 `gcloud iam service-accounts create qwiklab \
   --display-name "Qwiklab Service Account"`  
-Give your newly created Service Account appropriate permissions  
+給剛剛設立的服務權限  
 `gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 --member serviceAccount:qwiklab@${PROJECT_ID}.iam.gserviceaccount.com \
 --role roles/owner`  
-After creating your Service Account, create a Service Account key  
+建立Service Account key
+JSON格式，檔名為key.json  
 `gcloud iam service-accounts keys create ~/key.json \
 --iam-account qwiklab@${PROJECT_ID}.iam.gserviceaccount.com`  
-``  
-``  
-``  
-``  
+##### Inspect a string for sensitive information
+建立一個JSON檔案，檔名為inspect-request.json
+授權`gcloud auth activate-service-account --key-file=key.json`  
+獲得鑰匙`gcloud auth print-access-token`  
+用前一個指令替換ACCESS_TOKEN  
+`curl -s \
+  -H "Authorization: Bearer ACCESS_TOKEN" \
+  -H "Content-Type: application/json" \
+  https://dlp.googleapis.com/v2/projects/$PROJECT_ID/content:inspect \
+  -d @inspect-request.json`  
+建立一個新的檔案new-inspect-file.json  
+再一次取得新的ACCESS_TOKEN代入下面指令  
+`curl -s \
+  -H "Authorization: Bearer ACCESS_TOKEN" \
+  -H "Content-Type: application/json" \
+  https://dlp.googleapis.com/v2/projects/$PROJECT_ID/content:deidentify \
+  -d @new-inspect-file.json`  
+  
+#### Cloud Functions: Qwik Start - Command Line
 ``  
 ``  
 ``  
