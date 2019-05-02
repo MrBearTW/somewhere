@@ -311,40 +311,101 @@ JSON格式，檔名為key.json
   -d @new-inspect-file.json`  
   
 #### Cloud Functions: Qwik Start - Command Line
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
+Serverless lets you write and deploy code without the hassle of managing the underlying infrastructure.  
+##### Create a function
+`mkdir gcf_hello_world`  
+`cd gcf_hello_world`  
+`nano index.js`  
+`/**
+ * Cloud Function.
+ *
+ * @param {object} event The Cloud Functions event.
+ * @param {function} callback The callback function.
+ */
+exports.helloWorld = function helloWorld (event, callback) {
+  console.log(`My Cloud Function: ${JSON.stringify(event.data.message)}`);
+  callback();
+};`  
+##### Create a cloud storage bucket
+`gsutil mb -p [PROJECT_ID] gs://[BUCKET_NAME]`  
+##### Deploy your function
+部屬一個叫做helloWorld的pub/sub topic功能  
+`gcloud functions deploy helloWorld \
+  --stage-bucket [BUCKET_NAME] \
+  --trigger-topic hello_world \
+  --runtime nodejs6`  
+驗證helloWorld這個功能`gcloud functions describe helloWorld`  
+##### Test the function
+呼叫這個功能，會回傳一個執行的代碼，並寫入log中
+`gcloud functions call helloWorld --data '{"message":"Hello World!"}'`  
+##### View logs
+看log`gcloud functions logs read helloWorld`  
+  
+#### Video Intelligence: Qwik Start
+##### Enable the Video Intelligence API
+找到Cloud Video Intelligence API並啟動
+##### Set up authorization
+建立quickstart服務`gcloud iam service-accounts create quickstart`  
+建立key`gcloud iam service-accounts keys create key.json --iam-account quickstart@{your-project-id}.iam.gserviceaccount.com`  
+授權`gcloud auth activate-service-account --key-file key.json`  
+`gcloud auth print-access-token`
+#####   
+建立一個request.json`{
+   "inputUri":"gs://cloud-ml-sandbox/video/chicago.mp4",
+   "features": [
+       "LABEL_DETECTION"
+   ]
+}`  
+執行這個會得到一個name  
+`curl -s -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer ACCESS_TOKEN' \
+    'https://videointelligence.googleapis.com/v1/videos:annotate' \
+    -d @request.json`  
+得到分析  
+`curl -s -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer ACCESS_TOKEN' \
+    'https://videointelligence.googleapis.com/v1/operations/OPERATION_NAME'`  
+    
+#### Cloud Security Scanner: Qwik Start
+##### Before you begin, you need an app to scan
+`git clone https://github.com/GoogleCloudPlatform/python-docs-samples`  
+`cd python-docs-samples/appengine/standard/hello_world`  
+##### Test App
+執行後可看到網頁`dev_appserver.py app.yaml`  
+##### Deploy App
+在hello_world執行`gcloud app deploy`  
+##### View App
+`gcloud app browse`  
+##### Run the scan
+Navigation menu > App Engine > Security scans  
+
+#### Cloud Endpoints: Qwik Start
+##### Getting the sample code
+`git clone https://github.com/GoogleCloudPlatform/endpoints-quickstart`  
+##### Deploying the Endpoints configuration
+`cd scripts`  
+`./deploy_api.sh`  
+##### Deploying the API backend
+`./deploy_app.sh`  
+##### Sending requests to the API
+`./query_api.sh`  
+`./query_api.sh JFK`  
+##### Tracking API activity
+`./generate_traffic.sh`  
+##### Add a quota to the API
+`./deploy_api.sh ../openapi_with_ratelimit.yaml`  
+重新佈署`./deploy_app.sh`  
+`export API_KEY=YOUR-API-KEY`  
+`./query_api_with_key.sh $API_KEY`  
+`./generate_traffic_with_key.sh $API_KEY`  
+`./query_api_with_key.sh $API_KEY`  
+  
+#### Google Assistant: Qwik Start - Templates
+透過google sheet 建立對話機器人
+  
+  
+### Baseline: Data, ML, AI
+
 ``  
 ``  
 ``  

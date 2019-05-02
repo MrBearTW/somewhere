@@ -318,3 +318,15 @@ https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter/issues/79
 2019/04/30  
 net::ERR_CONNECTION_REFUSED  
 沒事不要跳步驟  
+
+
+2019/05/02
+//----commit 前要刪掉
+Route::get('Admin/sess',function(){
+  dd(Session::all());
+});
+Route::get('Admin/sf',function(){ 
+  Session::flush();
+  return 'Session::flush';
+});
+//----commit 前要刪掉
