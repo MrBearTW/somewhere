@@ -405,7 +405,103 @@ Navigation menu > App Engine > Security scans
   
   
 ### Baseline: Data, ML, AI
-
+#### Cloud ML Engine: Qwik Start
+useing data to answer questions  
+A model version is an instance of a machine learning solution stored in the Cloud ML Engine model service.  
+##### Install TensorFlow
+安裝TensorFlow`pip install --user --upgrade tensorflow`  
+確認有安裝`python -c "import tensorflow as tf; print('TensorFlow version {} is installed.'.format(tf.VERSION))"`  
+##### Clone the example repo
+`git clone https://github.com/GoogleCloudPlatform/cloudml-samples.git`  
+`cd cloudml-samples/census/estimator`  
+##### Develop and validate your training application locally
+建立資料夾`mkdir data`  
+下載資料`gsutil -m cp gs://cloud-samples-data/ml-engine/census/data/* data/`  
+建立PATH  
+`export TRAIN_DATA=$(pwd)/data/adult.data.csv`  
+`export EVAL_DATA=$(pwd)/data/adult.test.csv`  
+看一下資料`head data/adult.data.csv`  
+##### Install dependencies
+確保範例使用的TF和安裝的TF相同`pip install --user -r ../requirements.txt`  
+##### Run a local training job
+`export MODEL_DIR=output`  
+在local做模型訓練  
+`gcloud ml-engine local train \
+    --module-name trainer.task \
+    --package-path trainer/ \
+    --job-dir $MODEL_DIR \
+    -- \
+    --train-files $TRAIN_DATA \
+    --eval-files $EVAL_DATA \
+    --train-steps 1000 \
+    --eval-steps 100`  
+##### Inspect the summary logs using Tensorboard
+使用圖像介面TensorBoard  
+`tensorboard --logdir=$MODEL_DIR --port=8080`  
+##### Running model prediction locally (in Cloud Shell)
+查詢下面要用的timestamp`ls output/export/census/`  
+`gcloud ml-engine local predict \
+--model-dir output/export/census/<timestamp> \
+--json-instances ../test.json`  
+##### Run your training job in the cloud
+##### Set up a Google Cloud Storage bucket
+設定參數，$BUCKET_NAME等等會用到  
+`PROJECT_ID=$(gcloud config list project --format "value(core.project)")
+BUCKET_NAME=${PROJECT_ID}-mlengine
+echo $BUCKET_NAME
+REGION=us-central1`  
+建立新bucket`gsutil mb -l $REGION gs://$BUCKET_NAME`  
+複製資料`gsutil cp -r data gs://$BUCKET_NAME/data`  
+`TRAIN_DATA=gs://$BUCKET_NAME/data/adult.data.csv
+EVAL_DATA=gs://$BUCKET_NAME/data/adult.test.csv`  
+`gsutil cp ../test.json gs://$BUCKET_NAME/data/test.json`  
+`TEST_JSON=gs://$BUCKET_NAME/data/test.json`  
+##### Run a single-instance trainer in the cloud
+設定參數
+`JOB_NAME=census_single_1`  
+`OUTPUT_PATH=gs://$BUCKET_NAME/$JOB_NAME`  
+執行，會有點久所以在背景跑，要看狀況可用下面指令看  
+--verbosity DEBUG可以看到更多LOG  
+`gcloud ml-engine jobs submit training $JOB_NAME \
+    --job-dir $OUTPUT_PATH \
+    --runtime-version 1.10 \
+    --module-name trainer.task \
+    --package-path trainer/ \
+    --region $REGION \
+    -- \
+    --train-files $TRAIN_DATA \
+    --eval-files $EVAL_DATA \
+    --train-steps 1000 \
+    --eval-steps 100 \
+    --verbosity DEBUG`  
+看執行狀況，或是ML Engine > Jobs.也可以看  
+`gcloud ml-engine jobs stream-logs $JOB_NAME`  
+##### Inspect the output
+`gsutil ls -r $OUTPUT_PATH`  
+##### Deploy your model to support prediction
+`MODEL_NAME=census`  
+Create a Cloud ML Engine model  
+`gcloud ml-engine models create $MODEL_NAME --regions=$REGION`  
+##### Test Completed Task
+`gsutil ls -r $OUTPUT_PATH/export`  
+取上面得到的timestamp`MODEL_BINARIES=$OUTPUT_PATH/export/census/<timestamp>/`  
+建模(要一段時間)  
+`gcloud ml-engine versions create v1 \
+--model $MODEL_NAME \
+--origin $MODEL_BINARIES \
+--runtime-version 1.10`  
+查看狀態`gcloud ml-engine models list`  
+做預測  
+`gcloud ml-engine predict \
+--model $MODEL_NAME \
+--version v1 \
+--json-instances ../test.json`  
+  
+#### Dataprep: Qwik Start
+``  
+``  
+``  
+``  
 ``  
 ``  
 ``  

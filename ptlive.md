@@ -20,6 +20,10 @@ https://learngitbranching.js.org/
 
 Laravel 5 中文教程
 https://www.youtube.com/playlist?list=PLAYoruToK_vNbGXmCTPW8zGVuAz0jeBTY
+  
+Django轉職  
+https://www.ptt.cc/bbs/Soft_Job/M.1497109631.A.D6F.html  
+
 
 
 看網路port狀況`netstat -an`  
@@ -321,6 +325,7 @@ net::ERR_CONNECTION_REFUSED
 
 
 2019/05/02
+放管理路徑的
 //----commit 前要刪掉
 Route::get('Admin/sess',function(){
   dd(Session::all());
