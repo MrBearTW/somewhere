@@ -498,6 +498,15 @@ Create a Cloud ML Engine model
 --json-instances ../test.json`  
   
 #### Dataprep: Qwik Start
+##### Create a Cloud Storage bucket in your project
+Navigation menu > Storage > Browser  
+##### Initialize Cloud Dataprep
+Navigation menu > Dataprep.  
+後面一直按同意  
+##### Create a flow
+##### Import datasets
+##### Prep the candidate file
+這一節應該就是用Trifacta做很多整理  
 ``  
 ``  
 ``  
