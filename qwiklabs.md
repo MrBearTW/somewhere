@@ -507,6 +507,67 @@ Navigation menu > Dataprep.
 ##### Import datasets
 ##### Prep the candidate file
 這一節應該就是用Trifacta做很多整理  
+  
+#### Dataflow: Qwik Start - Python
+##### Create a Cloud Storage bucket
+Cloud Storage >> Create Bucket  
+##### Install pip and the Cloud Dataflow SDK
+要2.7版`python --version`  
+`pip --version`  
+確認比7.0.0更新`sudo pip install -U pip`  
+Python virtual environment`sudo pip install --upgrade virtualenv`  
+建立Python虛擬環境`virtualenv -p python2.7 env`  
+建立bin/activate虛擬環境`source env/bin/activate`  
+安裝apache-beam`pip install apache-beam[gcp]`  
+`python -m apache_beam.examples.wordcount --output OUTPUT_FILE`  
+找到OUTPUT_FILE-XXXXX-of-XXXXX`ll`  
+`cat <file name>`  
+##### Run an Example Pipeline Remotely
+Dataflow temp_location must be a valid Google Cloud Storage URL.  
+設定參數`BUCKET=gs://<bucket name provided earlier>`  
+遠端跑wordcount.py  
+`python -m apache_beam.examples.wordcount --project $DEVSHELL_PROJECT_ID \
+  --runner DataflowRunner \
+  --staging_location $BUCKET/staging \
+  --temp_location $BUCKET/temp \
+  --output $BUCKET/results/output`  
+##### Console可以看一些東西
+Dataflow  
+Storage   
+  
+#### Dataproc: Qwik Start - Command Line
+Cloud Dataproc  
+Apache Spark and Apache Hadoop  
+##### Create a cluster
+`gcloud dataproc clusters create example-cluster`  
+##### Submit a job
+`gcloud dataproc jobs submit spark --cluster example-cluster \
+  --class org.apache.spark.examples.SparkPi \
+  --jars file:///usr/lib/spark/examples/jars/spark-examples.jar -- 1000`  
+##### Update a cluster
+調整workers數量  
+`gcloud dataproc clusters update example-cluster --num-workers 4`  
+`gcloud dataproc clusters update example-cluster --num-workers 2`  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
 ``  
 ``  
 ``  
