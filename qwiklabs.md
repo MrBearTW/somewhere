@@ -1,36 +1,35 @@
 ## Introductory
-GCP Essentials
-Baseline: Deploy & Develop
+GCP Essentials  
+Baseline: Deploy & Develop  
 
 ## Fundamental
-Networking in the Google Cloud
-BigQuery For Data Analysis
-Cloud Architecture
-Security & Identity Fundamentals
-Stackdriver
-Cloud SQL
-Websites and Web Applications
+BigQuery For Data Analysis  
+Cloud SQL  
+Networking in the Google Cloud  
+Cloud Architecture  
+Security & Identity Fundamentals  
+Stackdriver  
+Websites and Web Applications  
 
 ## Advanced
-Data Engineering
-Data Science on the Google Cloud Platform
-Data Science on Google Cloud Platform: Machine Learning
-Machine Learning APIs
-Application Development - Python
-Application Development - Java
-Network Performance and Optimization
-Scientific Data Processing
-Deployment Manager
+Data Engineering  
+Data Science on the Google Cloud Platform  
+Data Science on Google Cloud Platform: Machine Learning  
+Machine Learning APIs  
+Application Development - Python  
+Application Development - Java  
+Network Performance and Optimization  
+Scientific Data Processing  
+Deployment Manager  
 
 ## Expert
-Kubernetes Solutions
-Google Cloud Solutions I: Scaling Your Infrastructure
-Google Cloud Solutions II: Data and Machine Learning
-
-
-
+Kubernetes Solutions  
+Google Cloud Solutions I: Scaling Your Infrastructure  
+Google Cloud Solutions II: Data and Machine Learning  
+  
+  
 啟動project`gcloud config set project [PROJECT_ID]`  
-
+  
 ### GCP Essentials
 20190427 
 https://google.qwiklabs.com/quests/23  
@@ -548,49 +547,7 @@ Apache Spark and Apache Hadoop
 調整workers數量  
 `gcloud dataproc clusters update example-cluster --num-workers 4`  
 `gcloud dataproc clusters update example-cluster --num-workers 2`  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
+
 ``  
 ``  
 
@@ -602,93 +559,3 @@ https://google.qwiklabs.com/quests/29
 `kubectl explain deployment`
 `kubectl explain deployment --recursive`
 `kubectl explain deployment.metadata.name`
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
