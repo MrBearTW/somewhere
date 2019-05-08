@@ -335,3 +335,11 @@ Route::get('Admin/sf',function(){
   return 'Session::flush';
 });
 //----commit 前要刪掉
+
+2019/05/08  
+功能開關  
+重作環境  
+git指令參考  
+https://code.yidas.com/git-commands/  
+git blame XXXXXXX  
+git branch -r //列出所有 remote repository  branch
