@@ -326,7 +326,7 @@ net::ERR_CONNECTION_REFUSED
 
 2019/05/02
 放管理路徑的
-//----commit 前要刪掉
+//----commit 前要刪掉  
 Route::get('Admin/sess',function(){
   dd(Session::all());
 });
@@ -334,12 +334,15 @@ Route::get('Admin/sf',function(){
   Session::flush();
   return 'Session::flush';
 });
-//----commit 前要刪掉
+//----commit 前要刪掉  
 
 2019/05/08  
 功能開關  
 重作環境  
-git指令參考  
-https://code.yidas.com/git-commands/  
+git指令參考 https://code.yidas.com/git-commands/  
 git blame XXXXXXX  
-git branch -r //列出所有 remote repository  branch
+git branch -r //列出所有 remote repository  branch  
+  
+2019/05/09  
+重複出現的編號  
+參考值的放置位置  
