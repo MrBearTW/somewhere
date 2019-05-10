@@ -346,3 +346,7 @@ git branch -r //列出所有 remote repository  branch
 2019/05/09  
 重複出現的編號  
 參考值的放置位置  
+
+2019/05/10  
+寫死或寫迴圈  
+  
