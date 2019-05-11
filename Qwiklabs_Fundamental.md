@@ -75,36 +75,88 @@ share a network namespace =one IP Address per pod
 新開一個Terminal，配對IP  
 `kubectl port-forward monolith 10080:80`  
 測試  
-回傳{"message":"Hello"}`curl http://127.0.0.1:10080`  
-回傳authorization failed，密碼是password`curl http://127.0.0.1:10080/secure`  
-回傳一個很長的token`curl -u user http://127.0.0.1:10080/login`  
-將token建立成參數`TOKEN=$(curl http://127.0.0.1:10080/login -u user|jq -r '.token')`  
-前面dailed的變成可以了`curl -H "Authorization: Bearer $TOKEN" http://127.0.0.1:10080/secure`  
+`curl http://127.0.0.1:10080`回傳{"message":"Hello"}  
+`curl http://127.0.0.1:10080/secure`回傳authorization failed  
+回傳一個很長的token，密碼是password`curl -u user http://127.0.0.1:10080/login`  
+`TOKEN=$(curl http://127.0.0.1:10080/login -u user|jq -r '.token')`將token建立成參數  
+`curl -H "Authorization: Bearer $TOKEN" http://127.0.0.1:10080/secure`前面原本被dailed的指令變成可以了  
 看LOG資訊`kubectl logs monolith`  
 新開一個Terminal 加上-f可以持續看到log`kubectl logs -f monolith`  
-在Pod內執行指令`kubectl exec monolith --stdin --tty -c monolith /bin/sh`  
-退出`exit`  
+進入Pod內執行`kubectl exec monolith --stdin --tty -c monolith /bin/sh`  
+在Pod內執行指令`ping -c 3 google.com` 
+退出Pod`exit`  
 #### Services
-https://cdn.qwiklabs.com/Jg0T%2F326ASwqeD1vAUPBWH5w1D%2F0oZn6z5mQ5MubwL8%3D
+![](https://cdn.qwiklabs.com/Jg0T%2F326ASwqeD1vAUPBWH5w1D%2F0oZn6z5mQ5MubwL8%3D)
+ClusterIP (internal)：cluster內用的IP  
+NodePort：在cluster內每一個node用的IP  
+LoadBalancer：給雲端服務導流到在服務的node  
 #### Creating a Service
-
-`Creating a Service`  
+確定在正確的路徑`cd ~/orchestrate-with-kubernetes/kubernetes`
+看一下yaml`cat pods/secure-monolith.yaml`  
+建立建立建立  
+`kubectl create secret generic tls-certs --from-file tls/`  
+`kubectl create configmap nginx-proxy-conf --from-file nginx/proxy.conf`  
+`kubectl create -f pods/secure-monolith.yaml`
+看一下yaml`cat services/monolith.yaml`  
+暴露nodeport讓服務被找到`gcloud compute firewall-rules create allow-monolith-nodeport \
+  --allow=tcp:31000`
+找到這個nodes上的外部IP`gcloud compute instances list`  
+試試看`curl -k https://<EXTERNAL_IP>:31000`，但失敗  
 #### Adding Labels to Pods
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-`` 
+目前monolith service沒有endpoints  
+看所有`kubectl get pods`  
+看哪一些pod label=monolith`kubectl get pods -l "app=monolith"`  
+再加一個條件`kubectl get pods -l "app=monolith,secure=enabled"`找不到  
+幫這個pod加一個label`kubectl label pods secure-monolith 'secure=enabled'`
+再查一次`kubectl get pods secure-monolith --show-labels`  
+查看monolith的服務裡有哪一些Endpoints`kubectl describe services monolith | grep Endpoints`  
+`gcloud compute instances list`  
+`curl -k https://<EXTERNAL_IP>:31000`  
+#### Deploying Applications with Kubernetes
+Deployments會確認cluster執行和要求數量相同的nodes  
 
+![](https://cdn.qwiklabs.com/1UD7MTP0ZxwecE%2F64MJSNOP8QB7sU9rTI0PSv08OVz0%3D)  
+用Replica Set管理pod啟動和關閉  
+也可以用來升級會重啟pod
+![](https://cdn.qwiklabs.com/fH4ZxGNxg5KLBy5ykbwKNIS9MIJ9cgcMEDuhB0a9uBo%3D)
+若Node3中的pod關閉了，會在Node2中啟動一個Pod讓它維持3個
+#### Creating Deployments
+將monolith app分成三個部分  
+auth - Generates JWT tokens for authenticated users.  
+hello - Greet authenticated users.  
+frontend - Routes traffic to the auth and hello services  
+`cat deployments/auth.yaml`  
+建立deployments物件`kubectl create -f deployments/auth.yaml`  
+`kubectl create -f services/auth.yaml`  
+`kubectl create -f deployments/hello.yaml`  
+`kubectl create -f services/hello.yaml`  
+`kubectl create configmap nginx-frontend-conf --from-file=nginx/frontend.conf
+kubectl create -f deployments/frontend.yaml
+kubectl create -f services/frontend.yaml` 
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
 
 
 
