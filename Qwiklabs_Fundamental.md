@@ -122,17 +122,26 @@ Deployments會確認cluster執行和要求數量相同的nodes
 若Node3中的pod關閉了，會在Node2中啟動一個Pod讓它維持3個
 #### Creating Deployments
 將monolith app分成三個部分  
-auth - Generates JWT tokens for authenticated users.  
-hello - Greet authenticated users.  
-frontend - Routes traffic to the auth and hello services  
-`cat deployments/auth.yaml`  
-建立deployments物件`kubectl create -f deployments/auth.yaml`  
+1.auth - Generates JWT tokens for authenticated users.  
+2.hello - Greet authenticated users.  
+3.frontend - Routes traffic to the auth and hello services  
+看一下yaml檔`cat deployments/auth.yaml`  
+建立deployments物件
+`kubectl create -f deployments/auth.yaml`  
 `kubectl create -f services/auth.yaml`  
 `kubectl create -f deployments/hello.yaml`  
 `kubectl create -f services/hello.yaml`  
 `kubectl create configmap nginx-frontend-conf --from-file=nginx/frontend.conf
 kubectl create -f deployments/frontend.yaml
-kubectl create -f services/frontend.yaml` 
+kubectl create -f services/frontend.yaml`  
+  
+### Deployment Manager - Full Production
+用Deployment Manager建立模板  
+啟用Stackdriver monitori  
+設定Uptime Checks and notifications  
+配置儀錶板顯示CPU用量和其他數據  
+流量測試和模擬停機  
+#### Clone the Deployment Manager Sample Templates
 ``  
 ``  
 ``  
