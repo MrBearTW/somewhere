@@ -1,3 +1,7 @@
+# MLDM Monday｜在網路廣告的即時競標中如何預測可獲勝的價格
+2019/05/13
+https://www.slideshare.net/WushWu/predicting-winning-price-in-real-time-bidding
+
 #  R-Ladies Taipei [Special Series] 資料新聞 & 電信資料
 2019/3/25 社會創新實驗中心  
 Openrefine

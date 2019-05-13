@@ -142,32 +142,183 @@ kubectl create -f services/frontend.yaml`
 配置儀錶板顯示CPU用量和其他數據  
 流量測試和模擬停機  
 #### Clone the Deployment Manager Sample Templates
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
-``  
+`mkdir ~/dmsamples`  
+`cd ~/dmsamples`  
+`git clone https://github.com/GoogleCloudPlatform/deploymentmanager-samples.git`  
+#### Explore the Sample Files
+`cd ~/dmsamples/deploymentmanager-samples/examples/v2`  
+`ll`  
+#### List and examine the Nodejs deployment
+`cd nodejs/python`  
+`ll`  
+![](https://cdn.qwiklabs.com/40UqXM4XpfPlZ%2BOQWaVadL5q1cNctNoC2OHvAS3pxsw%3D)  
+frontend.py  
+nodejs.py  
+#### Customize the Deployment
+`gcloud compute zones list`  
+修改timezone`nano nodejs.yaml`  
+#### Modify the maximum number of instances in the instance group
+修改maxSize=4`nano nodejs.py`  
+#### Run the Application
+Deploy the application`gcloud deployment-manager deployments create advanced-configuration --config nodejs.yaml`  
+#### Find the global load balancer forwarding rule IP address
+`gcloud compute forwarding-rules list`找到IP_ADDRESS  
+`http://<your IP address>:8080`目前看不到  
+輸入一段資訊=<enter_a_message>`http://<your forwarding IP address>:8080/?msg=<enter_a_message>`  
+`http://<your IP address>:8080`看的到剛剛輸入的<enter_a_message>  
+#### Create Stackdriver workspace
+主選單中選Monitoring  
+#### Configure an uptime check and alert policy in Stackdriver
+#### Configure an alerting policy and notification
+#### Configure a Dashboard with a Couple of Useful Charts
+#### Create a test VM with ApacheBench
+`sudo apt-get update`  
+`sudo apt-get -y install apache2-utils`  
+#### Apply and monitor load
+`ab -n 1000 -c 100 http://<Your_IP>:8080/`  
+`ab -n 5000 -c 100 http://<Your_IP>:8080/` 
+`ab -n 10000 -c 100 http://<Your_IP>:8080/` 
+#### Simulate a Service Outage
+#### Test your knowledge
+#### 結論
+Stackdriver collects metrics, events, and metadata from Google Cloud Platform, Amazon Web Services, hosted uptime probes, application instrumentation, and a variety of common application components including Cassandra, Nginx, Apache Web Server, Elasticsearch, and many others.  
+  
+### Continuous Delivery with Jenkins in Kubernetes Engine 
+![](https://cdn.qwiklabs.com/1b%2B9D20QnfRjAF8c6xlXmexot7TDcOsYzsRwp%2FH4ErE%3D)  
+#### What is Kubernetes Engine?
+Kubernetes Engine is GCP's hosted version of Kubernetes - a powerful cluster manager and orchestration system for containers. Kubernetes is an open source project that can run on many different environments—from laptops to high-availability multi-node clusters; from virtual machines to bare metal. As mentioned before, Kubernetes apps are built on containers - these are lightweight applications bundled with all the necessary dependencies and libraries to run them. This underlying structure makes Kubernetes applications highly available, secure, and quick to deploy—an ideal framework for cloud developers.
+
+##### What is Jenkins?
+Jenkins is an open-source automation server that lets you flexibly orchestrate your build, test, and deployment pipelines. Jenkins allows developers to iterate quickly on projects without worrying about overhead issues that can stem from continuous delivery.
+
+#### What is Continuous Delivery / Continuous Deployment?
+When you need to set up a continuous delivery (CD) pipeline, deploying Jenkins on Kubernetes Engine provides important benefits over a standard VM-based deployment.
+
+When your build process uses containers, one virtual host can run jobs on multiple operating systems. Kubernetes Engine provides ephemeral build executors—these are only utilized when builds are actively running, which leaves resources for other cluster tasks such as batch processing jobs. Another benefit of ephemeral build executors is speed—they launch in a matter of seconds.
+
+Kubernetes Engine also comes pre-equipped with Google's global load balancer, which you can use to automate web traffic routing to your instance(s). The load balancer handles SSL termination and utilizes a global IP address that's configured with Google's backbone network—coupled with your web front, this load balancer will always set your users on the fastest possible path to an application instance.
+
+Now that we've learned a little bit about Kubernetes, Jenkins, and how the two interact in a CD pipeline, let's go build one.
+#### Clone Repository
+`gcloud config set compute/zone us-central1-f`  
+`git clone https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes.git`  
+`cd continuous-deployment-on-kubernetes`  
+#### Provisioning Jenkins
+#### Creating a Kubernetes cluster
+建立cluster  
+`gcloud container clusters create jenkins-cd \
+--num-nodes 2 \
+--machine-type n1-standard-2 \
+--scopes "https://www.googleapis.com/auth/projecthosting,cloud-platform"`  
+確認執行狀況`gcloud container clusters list`  
+拿到認證`gcloud container clusters get-credentials jenkins-cd`  
+確認可以連線`kubectl cluster-info`  
+#### Install Helm
+Helm是一個套件管理器  
+下載Helm`wget https://storage.googleapis.com/kubernetes-helm/helm-v2.9.1-linux-amd64.tar.gz`  
+`tar zxfv helm-v2.9.1-linux-amd64.tar.gz`  
+`cp linux-amd64/helm .`  
+給Jenkins權限`kubectl create clusterrolebinding cluster-admin-binding --clusterrole=cluster-admin --user=$(gcloud config get-value account)`  
+Grant Tiller是伺服器端的Helm  
+`kubectl create serviceaccount tiller --namespace kube-system`  
+`kubectl create clusterrolebinding tiller-admin-binding --clusterrole=cluster-admin --serviceaccount=kube-system:tiller`  
+啟動Helm`./helm init --service-account=tiller`  
+`./helm update`  
+確認安裝狀況`./helm version`兩邊應都為2.9.1  
+#### Configure and Install Jenkins
+`./helm install -n cd stable/jenkins -f jenkins/values.yaml --version 0.16.6 --wait`  
+`kubectl get pods`  
+建立port給Jenkins UI使用  
+`export POD_NAME=$(kubectl get pods -l "component=cd-jenkins-master" -o jsonpath="{.items[0].metadata.name}")`  
+`kubectl port-forward $POD_NAME 8080:8080 >> /dev/null &`  
+`kubectl get svc`  
+這些port是內部才能連線到的  
+#### Connect to Jenkins
+建立admin密碼`printf $(kubectl get secret cd-jenkins -o jsonpath="{.data.jenkins-admin-password}" | base64 --decode);echo`  
+#### Understanding the Application
+![](https://cdn.qwiklabs.com/P1T5JBWWprA4iLf%2FB5%2BO6as7otLE25YBde57gzZwSz4%3D)
+In backend mode: gceme listens on port 8080 and returns Compute Engine instance metadata in JSON format.  
+In frontend mode: gceme queries the backend gceme service and renders the resulting JSON in the user interface.  
+#### Deploying the Application
+Production: The live site that your users access.  
+Canary: A smaller-capacity site that receives only a percentage of your user traffic. Use this environment to validate your software with live traffic before it's released to all of your users.  
+`cd sample-app`  
+創造namespace隔離環境`kubectl create ns production`  
+`kubectl apply -f k8s/production -n production`  
+`kubectl apply -f k8s/canary -n production`  
+`kubectl apply -f k8s/services -n production`  
+`kubectl scale deployment gceme-frontend-production -n production --replicas 4`  
+`kubectl get pods -n production -l app=gceme -l role=frontend`有三個  
+`kubectl get pods -n production -l app=gceme -l role=backend`有兩個  
+`kubectl get service gceme-frontend -n production`  
+設定環境參數`export FRONTEND_SERVICE_IP=$(kubectl get -o jsonpath="{.status.loadBalancer.ingress[0].ip}" --namespace=production services gceme-frontend)`  
+檢查一下有沒有用`curl http://$FRONTEND_SERVICE_IP/version`  
+#### Creating the Jenkins Pipeline
+#### Creating a repository to host the sample app source code
+建立一個gceme的備份並推送一份上Cloud Source Repository`gcloud alpha source repos create default`  
+`git init`  
+`git config credential.helper gcloud.sh`  
+`git remote add origin https://source.developers.google.com/p/$DEVSHELL_PROJECT_ID/r/default`  
+`git config --global user.email "[EMAIL_ADDRESS]"`  
+`git config --global user.name "[USERNAME]"`  
+`git add .`  
+`git commit -m "Initial commit"`  
+`git push origin master`  
+#### 
+很多Jenkins設定
+#### Creating the Development Environment
+#### Creating a development branch
+`git checkout -b new-feature`  
+#### Modifying the pipeline definition
+修改projectID`nano Jenkinsfile`  
+#### Modify the site
+改顏色`nano html.go`  
+改版本`nano main.go`  
+#### Kick off Deployment
+`git add Jenkinsfile html.go main.go`  
+`git commit -m "Version 2.0.0"`  
+`git push origin new-feature`  
+
+#### Deploying a Canary Release
+`git checkout -b canary`  
+`git push origin canary`  
+`export FRONTEND_SERVICE_IP=$(kubectl get -o \
+jsonpath="{.status.loadBalancer.ingress[0].ip}" --namespace=production services gceme-frontend)`  
+會一直回`while true; do curl http://$FRONTEND_SERVICE_IP/version; sleep 1; done` 
+#### Deploying a Canary Release
+`git checkout -b canary`  
+`git push origin canary`  
+`export FRONTEND_SERVICE_IP=$(kubectl get -o \
+jsonpath="{.status.loadBalancer.ingress[0].ip}" --namespace=production services gceme-frontend)`  
+看有網頁沒有變色`while true; do curl http://$FRONTEND_SERVICE_IP/version; sleep 1; done` 
+#### 結為測驗
+本次lab用到的namespaces 1.default 2.production 3.kube-system`kubectl get namespace`  
+The Helm chart is a collection of files that describe a related set of Kubernetes resources.  
 
 
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
 
 
 
@@ -175,7 +326,6 @@ kubectl create -f services/frontend.yaml`
 
 # Cloud Architecture
 https://google.qwiklabs.com/quests/24
-
 ``  
 ``  
 ``  
