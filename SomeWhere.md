@@ -1,3 +1,15 @@
+# 2019/5/14 Python 101 應用幼幼班(遊戲/App/網路爬蟲/自動化測試/RPA)
+遊戲製作  
+http://www.stencyl.com/download/  
+自動化測試  
+https://airtest.netease.com/changelog.html  
+用blocky開發app  
+https://thunkable.com/#/  
+Scrapy  
+https://scrapinghub.com  
+portia  
+https://github.com/scrapinghub/portia  
+
 # 2019/3/9 wanted求職嘉年華
 Shopback
 300萬筆訂單

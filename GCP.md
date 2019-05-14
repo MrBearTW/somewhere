@@ -1,3 +1,7 @@
+# 2019/5/14 Cloud OnBoard
+https://storage.googleapis.com/eefylin-demo/demo/Cloud%20Onboard%20TPE_%20Big%20Data%20&%20Machine%20Learning.pdf  
+
+
 # 2019/3/29 Google Developers ML Summit Taipei 2019
 
 開場及 Google ML 產品概觀
