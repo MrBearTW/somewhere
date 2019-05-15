@@ -291,11 +291,93 @@ jsonpath="{.status.loadBalancer.ingress[0].ip}" --namespace=production services 
 `export FRONTEND_SERVICE_IP=$(kubectl get -o \
 jsonpath="{.status.loadBalancer.ingress[0].ip}" --namespace=production services gceme-frontend)`  
 看有網頁沒有變色`while true; do curl http://$FRONTEND_SERVICE_IP/version; sleep 1; done` 
-#### 結為測驗
+#### 結尾測驗
 本次lab用到的namespaces 1.default 2.production 3.kube-system`kubectl get namespace`  
 The Helm chart is a collection of files that describe a related set of Kubernetes resources.  
 
+### Networking 102(需要多看幾次)
+![](https://cdn.qwiklabs.com/rRCXB1teOm99S4NPAOU8M89i6%2FDh98eEkXYIizQOykY%3D)  
+![](https://cdn.qwiklabs.com/ZoSAjpgR0M9X9iKOwAk%2Fujt4zYPw3SfeQFalG3uaFag%3D)  
+#### Google Cloud Network Concepts
+![](https://cdn.qwiklabs.com/nRBAyybz%2F%2Btq3cHR0O1QtANUPbu7NBEigKG1xo3vjXY%3D)  
+rojects contain Networks which contain Subnetworks, Firewall rules, and Routes  
+![](https://cdn.qwiklabs.com/F%2FuKMHO0L60f0vCAeZHtnZsvGYBklTvbCP%2BpZ898R1Y%3D)  
+Networks：直接連結資源，管理防火牆和連進連出的設定，可以跨越Region。
+Subnetworks：只能在Region內，有auto mode和custom mode。
+Auto mode：有預定的IP和gateway  
+Custom mode：要自己建立。在一個region內可以有0,1,多個。
+#### Create Virtual Private Cloud (VPC) Networks and Instances
+建立一個名為mynetwork的auto subnets`gcloud compute networks create mynetwork --subnet-mode=auto`  
+建立名為privatenet的custom subnets:`gcloud compute networks create privatenet --subnet-mode=custom`  
+建立custom subnet在privatenet內  
+`gcloud compute networks subnets create privatesubnet --network=privatenet \
+--region=us-central1 --range=10.0.0.0/24 --enable-private-ip-google-access`  
+建立等等會用到的instances
+`gcloud compute instances create default-us-vm --zone=us-central1-a --network=default`  
+`gcloud compute instances create mynet-us-vm --zone=us-central1-a --network=mynetwork`  
+`gcloud compute instances create mynet-eu-vm --zone=europe-west1-b --network=mynetwork`  
+`gcloud compute instances create privatenet-bastion --zone=us-central1-c \
+--subnet=privatesubnet --can-ip-forward`  
+`gcloud compute instances create privatenet-us-vm --zone=us-central1-f \
+--subnet=privatesubnet`  
+#### How Default and User-Created VPC Networks are Configured
+#### View Firewall Rules
+Navigation menu > VPC network > Firewall rules.  
+#### Verify default allow rule
+#### 
+刪除default-us-vm的instance  
+#### Delete the Default network
+Navigation menu > VPC network > VPC networks  
+刪除Default network  
+現在變成這樣  
+![](https://cdn.qwiklabs.com/22zTvoQJIz7c%2BqFZfka0Yi0sZo7Q0tSGGiaJz1PatcQ%3D)
+#### User-created networks
+Navigation menu > Compute Engine > VM instances  
+mynet-us-vm 和 mynet-eu-vm SSH連不上
+#### Advanced firewall rules
+#### Firewall Rules and IAM
+The privilege of creating, modifying, and deleting firewall rules is reserved for the compute.securityAdmin role by IAM.  
+#### Allow/Ingress Rules
+設定一些可以進入SSH和PING的防火牆  
+`gcloud beta compute firewall-rules create mynetwork-allow-icmp --network mynetwork \
+--action ALLOW --direction INGRESS --rules icmp`  
+`gcloud beta compute firewall-rules create mynetwork-allow-ssh --network mynetwork \
+--action ALLOW --direction INGRESS --rules tcp:22`  
+`gcloud beta compute firewall-rules create mynetwork-allow-internal --network \
+mynetwork --action ALLOW --direction INGRESS --rules all \
+--source-ranges 10.128.0.0/9`  
+`gcloud beta compute firewall-rules list \
+--filter="network:mynetwork"`  
+一些gcloud可以用關於防火牆的指令  
+![](https://cdn.qwiklabs.com/2jjXbzPJvBhvX88IL86fgkPCy54bUpWMsbvNlbG%2BbUk%3D)  
+在us內可以ping eu`ping mynet-eu-vm`
+#### Deny/Egress Rules
+終止可以被PING  
+`gcloud beta compute firewall-rules create privatenet-allow-icmp \
+--network privatenet --action ALLOW --direction INGRESS --rules icmp`  
+`gcloud beta compute firewall-rules create privatenet-allow-ssh \
+--network privatenet --action ALLOW --direction INGRESS --rules tcp:22`  
+`gcloud beta compute firewall-rules create privatenet-allow-internal \
+--network privatenet --action ALLOW --direction INGRESS --rules all \
+--source-ranges 10.0.0.0/24`  
+`gcloud beta compute firewall-rules list \
+--filter="network:mynetwork AND name=mynetwork-deny-icmp"`  
+#### Using Cloud Routes
+#### Convert to a NAT gateway
+``  
+#### Create NAT gateway
+`gcloud compute instances add-tags privatenet-us-vm --zone us-central1-f --tags nat-me
 
+gcloud compute routes create nat-route --network privatenet \
+--destination-range 0.0.0.0/0 --next-hop-instance privatenet-bastion \
+--next-hop-instance-zone us-central1-c --tags nat-me --priority 800`  
+#### Network-specific IAM roles
+![](https://cdn.qwiklabs.com/PbwcZBGhk%2BaP0vgfxLo93xZbbPvDFZ%2BDeMBIthNLPAw%3D)  
+#### XPN Related Networking Roles
+`gcloud compute networks create newnet --subnet-mode=auto`  
+`gcloud compute firewall-rules create newrule --network newnet --allow icmp`  
+`gcloud compute firewall-rules delete newrule`  
+`gcloud compute networks delete newnet`  
 ``  
 ``  
 ``  
@@ -319,7 +401,9 @@ The Helm chart is a collection of files that describe a related set of Kubernete
 ``  
 ``  
 ``  
-
+``  
+``  
+``  
 
 
 
