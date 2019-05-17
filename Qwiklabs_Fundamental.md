@@ -380,9 +380,9 @@ gcloud compute routes create nat-route --network privatenet \
 `gcloud compute networks delete newnet`  
   
 ### Site Reliability Troubleshooting with Stackdriver APM
-
-``  
-``  
+#### Infrastructure setup
+`gcloud config set compute/zone us-west1-b`  
+`export PROJECT_ID=$(gcloud info --format='value(config.project)')`  
 ``  
 ``  
 ``  

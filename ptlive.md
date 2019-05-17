@@ -356,3 +356,6 @@ git branch -r //列出所有 remote repository  branch
 2019/05/16  
 讀入驗證寫回
 參數數量不同
+
+2019/05/17
+ARRAY和JSON  
