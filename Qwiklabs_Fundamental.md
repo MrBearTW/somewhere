@@ -383,6 +383,28 @@ gcloud compute routes create nat-route --network privatenet \
 #### Infrastructure setup
 `gcloud config set compute/zone us-west1-b`  
 `export PROJECT_ID=$(gcloud info --format='value(config.project)')`  
+`gcloud container clusters list`  
+#### Create Stackdriver workspace
+`gcloud container clusters list`確認是Running  
+get the cluster credentials`gcloud container clusters get-credentials shop-cluster --zone us-west1-b`  
+確認nodes狀態`kubectl get nodes`  
+#### Deploy application
+`git clone -b APM-Troubleshooting-Demo-2 https://github.com/blipzimmerman/microservices-demo-1`  
+安裝skaffold  
+`curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/latest/skaffold-linux-amd64`  
+`chmod +x skaffold`  
+`sudo mv skaffold /usr/local/bin`  
+用skaffold安裝app
+`cd microservices-demo-1`  
+`skaffold run`  
+`kubectl get pods`確認所有服務都在運作  
+取得一個對外的IP`export EXTERNAL_IP=$(kubectl get service frontend-external | awk 'BEGIN { cnt=0; } { cnt+=1; if (cnt > 1) print $4; }')`  
+`curl -o /dev/null -s -w "%{http_code}\n"  http://$EXTERNAL_IP`回傳200    
+下載資源並將程式碼放到Cloud Source Repo`./setup_csr.sh`  
+#### Develop Sample SLOs and SLIs
+service level indicators (SLIs), objectives (SLOs), and agreements (SLAs)  
+很多文字  
+#### Configure Latency SLI
 ``  
 ``  
 ``  
@@ -407,7 +429,35 @@ gcloud compute routes create nat-route --network privatenet \
 ``  
 ``  
 ``  
-
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
 
 
 
