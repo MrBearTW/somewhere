@@ -1,12 +1,13 @@
 ## Introductory
-GCP Essentials  
-Baseline: Deploy & Develop  
+(v)GCP Essentials  
+(v)Baseline: Deploy & Develop  
+(v)Baseline: Data, ML, AI  
 
 ## Fundamental
 BigQuery For Data Analysis  
 Cloud SQL  
 Networking in the Google Cloud  
-Cloud Architecture  
+(v)Cloud Architecture  
 Security & Identity Fundamentals  
 Stackdriver  
 Websites and Web Applications  
@@ -21,6 +22,7 @@ Application Development - Java
 Network Performance and Optimization  
 Scientific Data Processing  
 Deployment Manager  
+(v)Kubernetes in the Google Cloud  
 
 ## Expert
 Kubernetes Solutions  
