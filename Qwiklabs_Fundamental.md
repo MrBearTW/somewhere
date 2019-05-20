@@ -539,7 +539,31 @@ GROUP BY v2ProductName
 ORDER BY product_views DESC
 LIMIT 5;
 ```  
-``  
+  
+### Troubleshooting Common SQL Errors with BigQuery
+算是SQL語法除錯  
+  
+### Explore and Create Reports with Data Studio
+
+
+
+### Predict Taxi Fare with a BigQuery ML Forecasting Model
+#### Explore NYC taxi cab data
+```
+#standardSQL
+SELECT
+  TIMESTAMP_TRUNC(pickup_datetime,
+    MONTH) month,
+  COUNT(*) trips
+FROM
+  `bigquery-public-data.new_york.tlc_yellow_trips_2015`
+GROUP BY
+  1
+ORDER BY
+  1
+```  
+
+(T)A lower RSME value usually indicates a more accurate BQML model.  
 ``  
 ``  
 ``  
