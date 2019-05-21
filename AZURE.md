@@ -1,6 +1,15 @@
-# 2019/05/20 Spark x Databicks meet-up
+# 2019/05/20 Spark x Databicks meet-up @Microsoft Taipei Office
+示範的範例  
 https://github.com/bensadeghi/Azure-Databricks-Airlift
 
+Delta Lake
+https://databricks.com/product/databricks-delta
+
+Scala Python R SQL
+
+Kafka  
+The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds.  
+  
 # 2018/10/30 K8S
 做底層管理
 https://reurl.cc/o9gxD

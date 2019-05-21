@@ -361,3 +361,7 @@ git branch -r //列出所有 remote repository  branch
 ARRAY和JSON    
   
 2019/05/20  
+
+2019/05/21  
+一致的代號  
+常用的fn放置處  
