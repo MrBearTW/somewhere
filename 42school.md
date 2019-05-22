@@ -62,3 +62,8 @@ https://twitter.com/42siliconvalley
 
 
 https://www.42.us.org/student-survival-kit/  
+
+
+類似的機構在台灣  
+好想工作室朝聖之旅：相信分享與交流可以讓世界更美好  
+https://medium.com/@hulitw/goodideas-studio-98dbafb99abf  

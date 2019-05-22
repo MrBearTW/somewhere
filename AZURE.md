@@ -1,4 +1,13 @@
+# 2019/05/21~23 DevDays ASIA 2019
+add-in作圖
+SAP Bloomberg
+script-lab
+https://github.com/OfficeDev/PnP-OfficeAddins/tree/master/Excel-custom-functions/Batching
+
 # 2019/05/20 Spark x Databicks meet-up @Microsoft Taipei Office
+Delta Lake
+更好的Apache Parquet，擷取一些Apache Zeppelin
+
 示範的範例  
 https://github.com/bensadeghi/Azure-Databricks-Airlift
 
