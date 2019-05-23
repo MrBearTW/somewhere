@@ -367,4 +367,8 @@ ARRAY和JSON
 常用的fn放置處  
   
 2019/05/22
-微軟 DevDays ASIA 2019
+微軟 DevDays ASIA 2019  
+  
+2019/05/23  
+學姊說的是  
+重複寫的CODE  

@@ -1,3 +1,12 @@
+# 2019/05/23 #19 Azure with Build 2019
+叫出小表情符號 Windows + .  
+在CMD可以連接LINUX  WSL  
+Fira code字型  
+開發中  
+https://poychang.github.io/how-to-build-early-version-of-new-windows-terminal/  
+微軟2019build大會PDF  
+https://news.microsoft.com/wp-content/uploads/prod/sites/558/2019/05/FINAL-Book-of-News-Build-2019.pdf  
+
 # 2019/05/21~23 DevDays ASIA 2019
 add-in作圖
 SAP Bloomberg
