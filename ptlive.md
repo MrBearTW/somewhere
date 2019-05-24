@@ -372,3 +372,6 @@ ARRAY和JSON
 2019/05/23  
 學姊說的是  
 重複寫的CODE  
+  
+2019/05/24
+Google Cloud Event  
