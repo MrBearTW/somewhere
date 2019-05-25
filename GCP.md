@@ -1,16 +1,15 @@
 # 2019/05/24 Google Cloud Event
-100K
-Redis
-
->1M
-DNS server,Region server,CDN,spanner
-
->10M
-
-
->100M
-
-
+從使用人數來改善架構
+100K  
+Redis  
+  
+>1M  
+DNS server,Region server,CDN,spanner  
+  
+>10M  
+  
+>100M  
+  
 # 2019/5/14 Cloud OnBoard
 講義PDF  
 https://storage.googleapis.com/eefylin-demo/demo/Cloud%20Onboard%20TPE_%20Big%20Data%20&%20Machine%20Learning.pdf  
