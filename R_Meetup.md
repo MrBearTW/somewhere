@@ -1,3 +1,12 @@
+#  2019/05/27 [Data Series] 從網路封包看待資料科學的應用 | R Basic 讀書會分享
+連線PTT 用SSH比較安全  
+`ssh bbsu@ptt.cc`  
+MAC`traceroute ptt.cc`  
+WIN`tracert google.com`  
+  
+網路攻擊地圖  
+https://www.csoonline.com/article/3217944/8-top-cyber-attack-maps-and-how-to-use-them.html  
+
 # MLDM Monday｜在網路廣告的即時競標中如何預測可獲勝的價格
 2019/05/13
 https://www.slideshare.net/WushWu/predicting-winning-price-in-real-time-bidding

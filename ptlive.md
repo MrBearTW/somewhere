@@ -375,3 +375,12 @@ ARRAY和JSON
   
 2019/05/24
 Google Cloud Event  
+  
+2019/05/27  
+在後端php檔
+$status['empty_變數'] = empty($變數);
+$status['type_變數'] = gettype($變數);
+$status['count_變數'] = count($變數);
+return json_encode($status);  
+  
+2019/05/28
