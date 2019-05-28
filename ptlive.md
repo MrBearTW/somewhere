@@ -383,4 +383,8 @@ $status['type_變數'] = gettype($變數);
 $status['count_變數'] = count($變數);
 return json_encode($status);  
   
-2019/05/28
+2019/05/28  
+在PHP中isset、empty、is_null的使用差別  
+https://ithelp.ithome.com.tw/articles/10156786  
+官方寫出各種狀況給你看  
+https://php.net/manual/en/types.comparisons.php  

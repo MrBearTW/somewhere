@@ -1,10 +1,19 @@
-2018/12/07 1,6
+2019/05/28   
+LUA SCRIPT
+REDIS NIGNX 可搭配使用
+REDIS 單持行緒 原子性
+Redis終究不是用來處理que
 
-ubuntu-18.04.1
+街口發紅包PPT
+https://speakerdeck.com/chenyunchen/redis-lua-script-with-red-envelope-and-message-queue?slide=2
 
+2018/12/07 1,6  
+  
+ubuntu-18.04.1  
+  
 GO歷史漫畫  
-https://goo.gl/jGcwXK
-
+https://goo.gl/jGcwXK  
+  
 沒有物件導向  
 強型別  
 用大小寫來分別可否被存取  大寫可以被其他package取用  
@@ -97,4 +106,5 @@ https://github.com/astaxie/build-web-application-with-golang/blob/master/zh-tw/p
 
 Bo-Yi Wu  Youtrbe
 有docker  
-https://www.youtube.com/user/appleboy48/playlists
+https://www.youtube.com/user/appleboy48/playlists  
+  
