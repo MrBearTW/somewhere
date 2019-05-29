@@ -1,3 +1,13 @@
+# 2019/05/29 AUDI + Microsoft Keynote Intelligent Edge
+ADAS driver
+
+noodle EV charge 
+
+Willo 建築物iot
+
+IOT plug and play
+透過XML傳遞資料
+
 # 2018/06/07 戰區
 今天走了幾圈computex場館，給其他人參考一下
 》南港一樓
