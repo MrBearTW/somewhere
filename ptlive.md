@@ -388,3 +388,6 @@ return json_encode($status);
 https://ithelp.ithome.com.tw/articles/10156786  
 官方寫出各種狀況給你看  
 https://php.net/manual/en/types.comparisons.php  
+  
+2019/05/30  
+UTF-8 without BOM
