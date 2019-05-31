@@ -326,6 +326,7 @@ net::ERR_CONNECTION_REFUSED
 
 2019/05/02
 放管理路徑的
+```php
 //----commit 前要刪掉  
 Route::get('Admin/sess',function(){
   dd(Session::all());
@@ -335,6 +336,7 @@ Route::get('Admin/sf',function(){
   return 'Session::flush';
 });
 //----commit 前要刪掉  
+```
 
 2019/05/08  
 功能開關  
@@ -378,11 +380,12 @@ Google Cloud Event
   
 2019/05/27  
 在後端php檔
+```php
 $status['empty_變數'] = empty($變數);
 $status['type_變數'] = gettype($變數);
 $status['count_變數'] = count($變數);
 return json_encode($status);  
-  
+```
 2019/05/28  
 在PHP中isset、empty、is_null的使用差別  
 https://ithelp.ithome.com.tw/articles/10156786  
@@ -390,4 +393,7 @@ https://ithelp.ithome.com.tw/articles/10156786
 https://php.net/manual/en/types.comparisons.php  
   
 2019/05/30  
-UTF-8 without BOM
+UTF-8 without BOM  
+
+2019/05/31  
+找不到的SESSION  

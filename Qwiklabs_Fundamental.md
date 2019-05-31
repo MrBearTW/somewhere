@@ -460,7 +460,8 @@ WHERE word LIKE '%raisin%' GROUP BY word, corpus"`
 https://console.cloud.google.com/bigquery?p=data-to-insights&page=ecommerce
 #### Explore ecommerce data and identify duplicate records
 #### Identify duplicate rows
-```#standardSQL
+```sql
+#standardSQL
 SELECT COUNT(*) as num_duplicate_rows, * FROM
 `data-to-insights.ecommerce.all_sessions_raw`
 GROUP BY
@@ -468,7 +469,8 @@ fullVisitorId, channelGrouping, time, country, city, totalTransactionRevenue, tr
 HAVING num_duplicate_rows > 1;
 ```   
 #### Analyze the new all_sessions table
-```#standardSQL
+```sql
+#standardSQL
 # schema: https://support.google.com/analytics/answer/3437719?hl=en
 SELECT
 fullVisitorId, # the unique visitor ID
@@ -490,13 +492,15 @@ GROUP BY 1,2,3 ,4, 5, 6, 7, 8, 9, 10,11,12
 HAVING row_count > 1 # find duplicates
 ```  
 #### Write basic SQL on ecommerce data
-```#standardSQL
+```sql
+#standardSQL
 SELECT
   COUNT(*) AS product_views,
   COUNT(DISTINCT fullVisitorId) AS unique_visitors
 FROM `data-to-insights.ecommerce.all_sessions`;
 ```  
-```#standardSQL
+```sql
+#standardSQL
 SELECT
   COUNT(DISTINCT fullVisitorId) AS unique_visitors,
   channelGrouping
@@ -504,7 +508,8 @@ FROM `data-to-insights.ecommerce.all_sessions`
 GROUP BY 2
 ORDER BY 2 DESC;
 ```  
-```#standardSQL
+```sql
+#standardSQL
 SELECT
   COUNT(*) AS product_views,
   (v2ProductName) AS ProductName
@@ -514,7 +519,8 @@ GROUP BY v2ProductName
 ORDER BY product_views DESC
 LIMIT 5;
 ```  
-```#standardSQL
+```sql
+#standardSQL
 SELECT
   COUNT(*) AS product_views,
   COUNT(productQuantity) AS orders,
@@ -526,7 +532,8 @@ GROUP BY v2ProductName
 ORDER BY product_views DESC
 LIMIT 5;
 ```  
-```#standardSQL
+```sql
+#standardSQL
 SELECT
   COUNT(*) AS product_views,
   COUNT(productQuantity) AS orders,
@@ -549,7 +556,7 @@ LIMIT 5;
 
 ### Predict Taxi Fare with a BigQuery ML Forecasting Model
 #### Explore NYC taxi cab data
-```
+```sql
 #standardSQL
 SELECT
   TIMESTAMP_TRUNC(pickup_datetime,
