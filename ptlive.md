@@ -400,4 +400,8 @@ UTF-8 without BOM
 
 2019/06/03
 有bootstrap3和react教學影片  
-https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg/videos
+https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg/videos  
+  
+2019/06/04
+錯誤回報
+錯誤優先次序

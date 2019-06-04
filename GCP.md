@@ -1,3 +1,9 @@
+# 2019/06/04 GCPUG Taipei Meetup #47
+準確率Precision & 召回率Rbecall
+
+Nvidia Jetson Nano vs. Google Edge TPU
+
+TF lite
 # 2019/05/24 Google Cloud Event
 從使用人數來改善架構
 100K  
