@@ -14,3 +14,20 @@
 https://ping.eu/  
 
 可以調整速度和轉跳點的數量
+
+## Google Cloud Speech API: Qwik Start
+Navigation menu > APIs & services > Credentials  
+取得API Key  
+建立request.json
+```json
+{
+  "config": {
+      "encoding":"FLAC",
+      "languageCode": "en-US"
+  },
+  "audio": {
+      "uri":"gs://cloud-samples-tests/speech/brooklyn.flac"
+  }
+}
+```
+
