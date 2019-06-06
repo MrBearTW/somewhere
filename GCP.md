@@ -2,6 +2,7 @@
 準確率Precision & 召回率Rbecall
 
 Nvidia Jetson Nano vs. Google Edge TPU
+https://buzzorange.com/techorange/2019/03/20/the-cheapest-ai-chip/?fbclid=IwAR2n0UwZUjyssWZgdZidEoXpHmT0x52v8jzfIU21ftbxIgxXeUh5DfrWLSE  
 
 TF lite
 # 2019/05/24 Google Cloud Event

@@ -18,7 +18,10 @@ https://ping.eu/
 ## Google Cloud Speech API: Qwik Start
 Navigation menu > APIs & services > Credentials  
 取得API Key  
-建立request.json
+並輸出成參數  
+`export API_KEY=<YOUR_API_KEY>`  
+建立request.json  
+encoding格式一定要寫  
 ```json
 {
   "config": {
@@ -30,4 +33,14 @@ Navigation menu > APIs & services > Credentials
   }
 }
 ```
+送出後可以回傳存成result.json
+```BASH
+curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json \
+"https://speech.googleapis.com/v1/speech:recognize?key=${API_KEY}" > result.json
+```
+
+## Translate Text with the Cloud Translation API
+
+
+## Classify Text into Categories with the Natural Language API
 
