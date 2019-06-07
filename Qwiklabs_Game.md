@@ -44,3 +44,34 @@ curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json 
 
 ## Classify Text into Categories with the Natural Language API
 
+#
+2019/06/07  
+## Running a Node.js Container in Kubernetes with Container Engine
+### Creating a Cluster
+`gcloud config set compute/zone us-central1-a`  
+### Create a New Cluster
+`gcloud container clusters create hello-world`  
+### Building and Publishing the Node.js App
+`echo $DEVSHELL_PROJECT_ID`  
+`git clone https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git`  
+`cd nodejs-docs-samples/containerengine/hello-world/`  
+`cat Dockerfile`  
+`docker build -t gcr.io/$DEVSHELL_PROJECT_ID/hello-node:1.0 .`  
+
+`gcloud docker -- push gcr.io/$DEVSHELL_PROJECT_ID/hello-node:1.0`  
+### Deploying the Node.js App
+`kubectl run hello-node --image=gcr.io/$DEVSHELL_PROJECT_ID/hello-node:1.0 --port=8080`  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
+``  
