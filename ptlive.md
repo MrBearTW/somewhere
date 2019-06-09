@@ -410,4 +410,4 @@ https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg/videos
 文件文件
 
 2019/06/06
-
+先認證裝置，再做交易

@@ -301,30 +301,3 @@ sites:
 `composer create-project laravel/laravel shop_laravel --prefer-dist`
 
 設定host檔案
-
-
-``
-``
-``
-``
-``
-``
-``
-``
-``
-``
-```
-``
-``
-``
-``
-``
-``
-``
-``
-``
-``
-``
-``
-``
-``
