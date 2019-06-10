@@ -91,10 +91,10 @@ echo config('database.connections.mysql.charset');
 ## 19 
 引用css方式
 laravel建議用上面的寫法
-`
+```html
 <link rel="stylesheet" href="{{asset('/resources/views/admin/style/css/ch-ui.admin.css')}}">
 <link rel="stylesheet" href="/resources/views/admin/style/font/css/font-awesome.min.css">
-`
+```
 
 
 ## 20
@@ -227,33 +227,34 @@ ConfigController@putFile
 後臺功能確定  
 
 #56
-查看laravel版本`C:\xampp\php\php.exe .\artisan --version`
+查看laravel版本指令  
+`C:\xampp\php\php.exe .\artisan --version`
 
 #57
-可跳過這一段
+可跳過這一段影片  
 5.2.26 升級至 5.2.29
 
 #58
 開始做前台模塊  
-導入index new art
+導入index new art  
 
 #59
-做index
-站長推薦區域
-最新文章和分頁功能
+做index  
+站長推薦區域  
+最新文章和分頁功能  
 
 #60
-index 引入Config失敗
-category更新有點問題 pid的部分
+index 引入Config失敗  
+category更新有點問題 pid的部分  
 
 #61
-方塊連結失敗
+方塊連結失敗  
 
 #62
 
 
 #63
-a/1
+a/1  
 帶入
 
 #64
@@ -261,30 +262,28 @@ a/1
 
 
 #65
-上線之前注意事項
-1.
-`C:\xampp\php\php.exe .\artisan key:generate`重新製作KEY 
-2.
-修改.env  
-APP_DEBUG 發布網站時可以把debug模式改成false 
+上線之前注意事項  
+1.`C:\xampp\php\php.exe .\artisan key:generate`重新製作KEY   
+2.修改.env  
+APP_DEBUG 發布網站時可以把debug模式改成false   
 
-http://blog.hd/cate/3
-http://blog.hd/a/6
+http://blog.hd/cate/3  
+http://blog.hd/a/6  
   
 
 
 
-CSS的快速搜尋畫面
+CSS的快速搜尋畫面  
 
 
 ----------------
-書 laravel5-for-beginner-shop-laravel
+書 laravel5-for-beginner-shop-laravel  
 
-一般CMD下`vagrant box add laravel/homestead`
-移到要使用的目錄
-`git clone https://github.com/laravel/homestead.git Homestead`
-執行init.sh
-```
+一般CMD下`vagrant box add laravel/homestead`  
+移到要使用的目錄  
+`git clone https://github.com/laravel/homestead.git Homestead`  
+執行init.sh  
+```BASH
 folders:
     - map: ~/Code
       to: /home/vagrant/code
@@ -293,11 +292,11 @@ sites:
     - map: shop-laravel.local
       to: /home/vagrant/Code/shop_laravel/public
 ```
-
-`vagrant up`
-`vagrant ssh`進入
+  
+`vagrant up`  
+`vagrant ssh`進入  
 ``
 
-`composer create-project laravel/laravel shop_laravel --prefer-dist`
+`composer create-project laravel/laravel shop_laravel --prefer-dist`  
 
-設定host檔案
+設定host檔案  
