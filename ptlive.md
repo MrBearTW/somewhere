@@ -414,3 +414,10 @@ https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg/videos
   
 2019/06/10
 專案  
+  
+2019/06/11  
+算資料夾大小  
+全部`du -sh`  
+分開`du -h`  
+  
+輸入不能為空白  
