@@ -1,3 +1,8 @@
+# 2019/06/12 AWS Summit
+車車  
+https://github.com/aws-samples/aws-deepracer-workshops/tree/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab1  
+
+https://ap-southeast-1.sumerian.aws/5dd2faa30cdb459fb981ff1c81f3273f.scene  
 # 2019/2/26 AWS
 1300公斤 20公里  
 模擬競賽  
