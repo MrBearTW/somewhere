@@ -1,3 +1,6 @@
+# 2019/06/12 GCPUG Taipei - Tensorflow 2.0 Global Documentation Sprint Taipei
+5972  tf.tools
+都沒有連結
 # 2019/06/04 GCPUG Taipei Meetup #47
 準確率Precision & 召回率Rbecall
 

@@ -1,6 +1,36 @@
 # 2019/06/12 AWS Summit
 車車  
-https://github.com/aws-samples/aws-deepracer-workshops/tree/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab1  
+https://github.com/aws-samples/aws-deepracer-workshops/tree/master/Workshops/2019-AWSSummits-AWSDeepRacerService/Lab1
+有jupyternitebook可以用
+
+# 2019/06/13 AWS　Summit
+11:30。Ott業者布拉布拉
+不透過衛星，透過兩個EC2做北美到台灣的轉播
+蓋板式的廣告，進化成直接插入影音中間
+LineTV
+轉檔，儲存，遞送
+雲端較容易儲存和用api溝通
+使用serverless架構使內部流程穩定
+可規模化的轉檔分鐘數，easy scaling
+流程自動化，承租運算力，bitrate動態調整
+QVBR技術節省傳輸量
+
+1310AWS如何協助客戶建立DevOpt流程
+按圖施工保證成功
+
+14:00mongoDB
+MongoDB七月會在台灣有辦公室
+MongoDB Atlas快速建立雲端叢集
+Stitch(serverless服務)(之後會改名)
+
+1450k8a+監控
+Unbo
+Alerting rule
+
+1550宅色夫
+Identifier(一組數字？憑證？) 不是identify
+
+
 
 https://ap-southeast-1.sumerian.aws/5dd2faa30cdb459fb981ff1c81f3273f.scene  
 # 2019/2/26 AWS
