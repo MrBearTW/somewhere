@@ -421,3 +421,11 @@ https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg/videos
 分開`du -h`  
   
 輸入不能為空白  
+
+2019/06/12,13  
+AWS Summit
+
+2019/06/14
+專案規劃  
+功能分析  
+時程  

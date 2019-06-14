@@ -30,6 +30,10 @@ Alerting rule
 1550宅色夫
 Identifier(一組數字？憑證？) 不是identify
 
+All Things Distributed  
+Werner Vogels  
+CTO - Amazon.com  
+https://www.allthingsdistributed.com/
 
 
 https://ap-southeast-1.sumerian.aws/5dd2faa30cdb459fb981ff1c81f3273f.scene  
