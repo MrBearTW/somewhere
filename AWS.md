@@ -4,7 +4,7 @@ https://github.com/aws-samples/aws-deepracer-workshops/tree/master/Workshops/201
 有jupyternitebook可以用
 
 # 2019/06/13 AWS　Summit
-11:30。Ott業者布拉布拉
+11:30輕鬆使用 AWS Elemental 媒體服務打造無伺服器 Live Streaming 與 VOD 平台：OTT 業者如何提供百萬用戶流暢的觀影體驗
 不透過衛星，透過兩個EC2做北美到台灣的轉播
 蓋板式的廣告，進化成直接插入影音中間
 LineTV
@@ -18,18 +18,19 @@ QVBR技術節省傳輸量
 1310AWS如何協助客戶建立DevOpt流程
 按圖施工保證成功
 
-14:00mongoDB
+14:00在 MongoDB Cloud 上構建無服務器化應用
 MongoDB七月會在台灣有辦公室
 MongoDB Atlas快速建立雲端叢集
 Stitch(serverless服務)(之後會改名)
 
-1450k8a+監控
+1450深探如何使用 Amazon EKS 與 Prometheus 進行雲端監控
 Unbo
 Alerting rule
 
-1550宅色夫
+1550去中心化身分識別（Decentralized Identifiers) 如何改變著未來的網路型態？
 Identifier(一組數字？憑證？) 不是identify
 
+要跟上這個人的思考  
 All Things Distributed  
 Werner Vogels  
 CTO - Amazon.com  
