@@ -68,3 +68,8 @@ https://www.inside.com.tw/2018/04/24/how-to-get-a-programming-job-without-a-degr
 
 自學轉業  
 https://www.ptt.cc/bbs/Soft_Job/M.1526957801.A.113.html  
+
+
+Huli/厘學院系列  
+一個工程師的履歷進化史  
+https://medium.com/hulis-blog/resume-evolution-4c337ff30729  

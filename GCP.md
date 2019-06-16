@@ -1,3 +1,31 @@
+# 2019/06/16 GCPUG Taipei Kubernetes Workshop
+https://github.com/William-Yeh/workshop-gcpug201906/  
+
+2.0  
+`git diff --stat HEAD~1 HEAD`  
+startup.cs 關掉自動導向https(示範教學用，production建議開啟)  
+  
+3.0  
+docker-compose.yml  
+
+k8s漫畫  
+https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16
+
+在3.0狀況下
+`docker-compose build`  
+
+4.0
+`git checkout `  
+``  
+``  
+
+刪除namespace`kubectl delete ns todo`  
+
+6.0  
+上雲端  
+
+`vi skaffold.yaml` 裡面的project-id也要改
+
 # 2019/06/12 GCPUG Taipei - Tensorflow 2.0 Global Documentation Sprint Taipei
 5972  tf.tools
 都沒有連結
