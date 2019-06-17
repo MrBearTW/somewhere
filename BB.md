@@ -73,3 +73,7 @@ https://www.ptt.cc/bbs/Soft_Job/M.1526957801.A.113.html
 Huli/厘學院系列  
 一個工程師的履歷進化史  
 https://medium.com/hulis-blog/resume-evolution-4c337ff30729  
+大改版：程式導師實驗計畫第三期報名簡章  
+https://medium.com/hulis-blog/mentor-program-3rd-47a2e85e33b3  
+從線上到線下：第三期教學實驗滿月心得分享  
+https://medium.com/hulis-blog/from-online-to-offline-bd99e545277a  

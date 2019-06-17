@@ -1,6 +1,8 @@
 # 2019/06/16 GCPUG Taipei Kubernetes Workshop
+投影片https://www.slideshare.net/williamyeh/rd-kubernetes-gcpug-2019-06/?fbclid=IwAR0fyLXFOXis9zU0kuw4Ylm-mdqAJE94buCkOCJ_3vNI5ehDLKTcoyLObUU  
+  
 https://github.com/William-Yeh/workshop-gcpug201906/  
-
+  
 2.0  
 `git diff --stat HEAD~1 HEAD`  
 startup.cs 關掉自動導向https(示範教學用，production建議開啟)  

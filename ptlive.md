@@ -429,3 +429,8 @@ AWS Summit
 專案規劃  
 功能分析  
 時程  
+  
+2019/06/17  
+Schema  
+SSL三個檔案位置/etc/apache2/ssl.crt/  
+
