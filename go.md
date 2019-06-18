@@ -1,3 +1,7 @@
+2019/06/18  
+Epoll  
+https://slides.com/jalex-chang/epoll-websocket-go?fbclid=IwAR1iubc8S9xwlZR1uQXZbkOKuLVkrbbv2KeWRz8QtaAiFqMejNv2N9-ddPA#/  
+
 2019/05/28   
 LUA SCRIPT
 REDIS NIGNX 可搭配使用

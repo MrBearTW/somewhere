@@ -434,3 +434,5 @@ AWS Summit
 Schema  
 SSL三個檔案位置/etc/apache2/ssl.crt/  
 
+2019/06/18  
+NAS是用反斜線\\才對  
