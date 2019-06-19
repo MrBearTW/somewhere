@@ -1,6 +1,10 @@
 2019/06/18  
+
+https://speakerdeck.com/rueian/scaling-offline-database-usage-on-gcp-at-dcard  
+  
 Epoll  
 https://slides.com/jalex-chang/epoll-websocket-go?fbclid=IwAR1iubc8S9xwlZR1uQXZbkOKuLVkrbbv2KeWRz8QtaAiFqMejNv2N9-ddPA#/  
+1G記憶體管理1M個Socket  
 
 2019/05/28   
 LUA SCRIPT
