@@ -438,3 +438,8 @@ SSL三個檔案位置/etc/apache2/ssl.crt/
 NAS是用反斜線\\才對  
   
 2019/06/19  
+line-pay-sdk-php  
+https://github.com/yidas/line-pay-sdk-php/blob/master/README-zh_TW.md  
+  
+2019/06/20  
+phpmyadmin可以匯出資料庫  
