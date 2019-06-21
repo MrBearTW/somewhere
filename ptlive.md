@@ -443,3 +443,10 @@ https://github.com/yidas/line-pay-sdk-php/blob/master/README-zh_TW.md
   
 2019/06/20  
 phpmyadmin可以匯出資料庫  
+  
+壓縮當前的資料夾
+`zip -r ./xahot.zip ./* `
+zip [引數] [打包後檔名] [目錄路徑]  
+-r表示遞迴  
+
+httpd-vhosts.conf  
