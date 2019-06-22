@@ -1,3 +1,9 @@
+# 2019/06/22 INSIDER DEV TOUR TAIPEI
+新CMD  
+WSL2  
+  
+Soundtrack  
+
 # 2019/05/23 #19 Azure with Build 2019
 叫出小表情符號 Windows + .  
 在CMD可以連接LINUX  WSL  
