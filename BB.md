@@ -77,3 +77,9 @@ https://medium.com/hulis-blog/resume-evolution-4c337ff30729
 https://medium.com/hulis-blog/mentor-program-3rd-47a2e85e33b3  
 從線上到線下：第三期教學實驗滿月心得分享  
 https://medium.com/hulis-blog/from-online-to-offline-bd99e545277a  
+  
+
+  
+好想工作室  
+好想工作室 – 讓自己選擇想做的事 (學習機會 2018年7月) (截止)  
+https://blog.devdon.com/?p=4283  
