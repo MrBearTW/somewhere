@@ -450,7 +450,11 @@ zip [引數] [打包後檔名] [目錄路徑]
 -r表示遞迴  
   
 2019/06/21
+C:\xampp\apache\conf\extra  
 Apache要改的地方 httpd-vhosts.conf  
   
 2019/06/23  
 需求，急迫程度，互相的能力  
+  
+2019/06/24  
+phpmyadmin看不到  
