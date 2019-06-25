@@ -299,7 +299,7 @@ crtl + alt + F1~6
 讀出來看不到資料  
 
 2019/04/24
-```
+```php
 Route::any('admin/session', function () { 
   $data_session = Session::all();
   dd($data_session);}
@@ -458,3 +458,9 @@ Apache要改的地方 httpd-vhosts.conf
   
 2019/06/24  
 phpmyadmin看不到  
+  
+2019/06/25  
+jquery選擇器  
+$(“element”)：選出所有該 element 的節點  
+$(“#abc”)：選出所有 <div id=”abc”></div> 的節點  
+$(“.xyz”)：選出所有 <div class=”xyz”></div> 的節點  
