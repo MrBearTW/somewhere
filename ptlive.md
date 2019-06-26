@@ -461,6 +461,10 @@ phpmyadmin看不到
   
 2019/06/25  
 jquery選擇器  
-$(“element”)：選出所有該 element 的節點  
-$(“#abc”)：選出所有 <div id=”abc”></div> 的節點  
-$(“.xyz”)：選出所有 <div class=”xyz”></div> 的節點  
+```javascript
+$(“element”)：//選出所有該 element 的節點  
+$(“#abc”)：//選出所有 <div id=”abc”></div> 的節點  
+$(“.xyz”)：//選出所有 <div class=”xyz”></div> 的節點  
+```  
+2019/06/26  
+堆積木  
