@@ -1,3 +1,7 @@
+# 2019/07/01 MLDM Monday｜常見的自動控制方法與機器學習有什麼不同 ?
+Test
+Trajectories 
+
 #  2019/05/27 [Data Series] 從網路封包看待資料科學的應用 | R Basic 讀書會分享
 連線PTT 用SSH比較安全  
 `ssh bbsu@ptt.cc`  
