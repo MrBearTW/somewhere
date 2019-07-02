@@ -1,3 +1,23 @@
+# 2019/07/02 GCPUG Taipei Meetup #48
+Next '19 的 Istio 場次重點摘要
+CANERRY 更新
+用lable去切換
+
+Istio 
+微服務領域的SDN
+
+分流比例和實際上的repica可以不同
+Circuit Breaking流量異常可以斷開
+
+
+Tele
+
+elasticsearch 在 GCP 的實戰
+
+Electsearch
+ZFS. 
+HBA card
+
 # 2019/06/16 GCPUG Taipei Kubernetes Workshop
 投影片https://www.slideshare.net/williamyeh/rd-kubernetes-gcpug-2019-06/?fbclid=IwAR0fyLXFOXis9zU0kuw4Ylm-mdqAJE94buCkOCJ_3vNI5ehDLKTcoyLObUU  
   
