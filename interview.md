@@ -2,7 +2,15 @@
 WHY HOW WHAT
 https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action
   
-8D report
+8D report  
+  
+FMEA  
+Failure mode and effects analysis  
+
+不討論
+1.不知道
+2.形容詞
+
 
 # 2019/07/04 
 dont overfit ii
