@@ -11,5 +11,8 @@ Failure mode and effects analysis
 1.不知道
 2.形容詞
 
+改履歷
+數字 比例
+
 # 2019/07/04 
 dont overfit ii
