@@ -83,3 +83,14 @@ https://medium.com/hulis-blog/from-online-to-offline-bd99e545277a
 好想工作室  
 好想工作室 – 讓自己選擇想做的事 (學習機會 2018年7月) (截止)  
 https://blog.devdon.com/?p=4283  
+
+---
+MBA  
+  
+bloomberg  
+twitter  
+linkedin  
+大老  
+500大  
+ABCD  
+目錄  
