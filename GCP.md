@@ -1,3 +1,13 @@
+# 2019/07/11 Serverless Mobile Apps with Firebase and Google Cloud
+7:40pm~8:30pm Build and Scale Serverless Mobile Apps with Firebase and Google Cloud - Doug Stevenson
+https://github.com/CodingDoug/universal-translator  
+https://gdg-taipei-demo.web.app/  
+  
+8:40pm~9:30pm - Fireside Chat: Manage Payments in Your Serverless App with Firebase - Tyler Crowe  
+Firebase  
+Stripe  
+https://github.com/jenperson/Mobile-Florist  
+
 # 2019/07/02 GCPUG Taipei Meetup #48
 Next '19 的 Istio 場次重點摘要
 投影片https://www.slideshare.net/williamyeh/next-19-istio  
