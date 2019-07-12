@@ -1,3 +1,21 @@
+# 2019/07/11 台科大
+1個PB以上
+要把錯誤例外處理在一開始就加入軟體設計
+
+Mainframe(Interact with data on disk direct)
+Database 
+MapReduce(Schema on read)
+
+
+20000主機是一個中型data center
+硬碟速度沒有增加，但容量有增加
+
+FPGA
+
+開源憑證
+https://medium.com/getamis/%E9%96%8B%E6%94%BE%E6%BA%90%E7%A2%BC%E6%8E%88%E6%AC%8A%E6%A6%82%E8%A7%80-%E4%B8%8B-eeda7ce13f1e
+
+
 # 2017/11/30 Cloudera
 silos
 HDFS Kudu
