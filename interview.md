@@ -12,7 +12,11 @@ Failure mode and effects analysis
 2.形容詞
 
 改履歷
-數字 比例
+數字 比例  
+分散式  
+IOT  
+藍芽  
+攜帶性裝置  
 
 # 2019/07/04 
 dont overfit ii
