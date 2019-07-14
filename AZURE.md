@@ -1,3 +1,11 @@
+# 2019/06/28 SDN x Cloud Native x openSUSE Meetup #17
+https://docs.microsoft.com/zh-tw/azure/aks/virtual-kubelet  
+https://docs.microsoft.com/zh-tw/azure/aks/  
+  
+GCP上有GKE，所以AMS和Azure有AKS  
+———  
+免費  
+https://labs.play-with-k8s.com/  
 # 2019/06/22 INSIDER DEV TOUR TAIPEI
 新CMD  
 WSL2  
