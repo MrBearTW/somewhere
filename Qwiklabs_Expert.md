@@ -4,7 +4,7 @@
 `git clone https://github.com/firebase/friendlychat-web`  
 
 
-開一個
+開一個  
 
 
 取得授權
