@@ -18,4 +18,11 @@ https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving
 畫流程圖圖工具網站  
 https://www.websequencediagrams.com/  
   
-AWS Codebuild
+AWS CodeBuild  
+OAuth2.0  
+
+Web Architecture 101
+https://engineering.videoblocks.com/web-architecture-101-a3224e126947  
+
+Understanding the Request Lifecycle Of Laravel.  
+http://www.moiapps.com/journal/understanding-the-request-lifecycle-in-laravel   
