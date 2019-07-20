@@ -1,3 +1,48 @@
+# 2019/07/20 GTLC全球技術領導力峰會 - 台北站
+09:35 - 10:25	
+The Landscapes in Wireless Device Connectivity
+Jim Katsandres
+
+Bluetooth SIG Director, Developer Relations
+
+10:30 - 10:40	休息(10mins)
+10:40 - 11:30	
+我的十年移動互聯網成長經歷
+洪小軍
+
+前美圖秀秀技術副總 & AfterShip CTO
+
+11:35 - 12:25	
+順勢而為，蘑菇街技術架構演進之道
+趙成
+
+蘑菇街平台技術總監
+
+12:30 - 14:00	午餐
+14:00 - 14:50	
+從Growth Hacking視角看技術團隊
+姜杰
+
+趣頭條高級副總裁
+
+14:55 - 15:45	
+人工智能：好萊塢與真實間的距離
+尹相志
+
+數據決策技術長、Trubuzz數據科學家
+
+15:50 - 16:15	午茶休息(25mins)
+16:15 - 17:05	
+Venture Studio: 企業的數位賦能實踐
+李佳憲 Neil
+
+悠遊卡董事、LeadBest Consulting Group 執行長
+
+17:10 - 18:00	
+打造IT能力建設的飛輪
+喬新亮
+
+前蘇寧科技集副總裁、環球易購CTO
 # 2019/5/14 Python 101 應用幼幼班(遊戲/App/網路爬蟲/自動化測試/RPA)
 遊戲製作  
 http://www.stencyl.com/download/  
