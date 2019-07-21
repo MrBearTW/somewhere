@@ -1,48 +1,158 @@
 # 2019/07/20 GTLC全球技術領導力峰會 - 台北站
-09:35 - 10:25	
-The Landscapes in Wireless Device Connectivity
-Jim Katsandres
+天地會
 
+張善政
+科科
+
+
+09:35 - 10:25	
+- The Landscapes in Wireless Device Connectivity
+Jim Katsandres
 Bluetooth SIG Director, Developer Relations
+Beacon
+Mesh
+
+10M per day
+Worldwide Multi-vendor interoperability 
+Mesh industrial grade solution 不用router 不用hub，low battery，
+
+Lighting as a platform 
+Direct findings 
+2019 Bluetooth market update
+
+
 
 10:30 - 10:40	休息(10mins)
 10:40 - 11:30	
 我的十年移動互聯網成長經歷
 洪小軍
-
 前美圖秀秀技術副總 & AfterShip CTO
+
+滿足業務的技術才是最好的
+重構是很常見的
+業務技術架構師
+同城市多機房
+能併發多個明星出軌，大明星結婚
+把一些產品刪掉做測試，第一次做總會有很多bug
+進入農村
+全球最懂美的公司
+領域性解決方案 電商 社群 ，造成百萬級DAU
 
 11:35 - 12:25	
 順勢而為，蘑菇街技術架構演進之道
 趙成
 
 蘑菇街平台技術總監
+菇涼
+順勢而爲
+直播主的帶動
+PHP簡單直接快速上手快速開發
+改用Java
+大中台 小前台
+分散式的挑戰 效率 穩定 成本
 
+DevOps的三大關鍵原則
+標準化避免架構失控
+應用為核心的架構體系
+自上而下契約式的架構管理化
+
+故障模擬每週實施
+壓測及容量評估日常化
+
+做不過大公司
+
+千播大戰，業務井噴式爆發
+音視頻編解碼技術複雜
+基礎設施帶寬及網路品質要求極高
+騰訊合作 一個月內上線
+
+直播佔業務比 50%以上 年底60%
+
+按需索取
+新技術層出不窮serverless 邊際運算 k8s
+
+上運後人力千人下降至五百人
 12:30 - 14:00	午餐
 14:00 - 14:50	
 從Growth Hacking視角看技術團隊
 姜杰
 
 趣頭條高級副總裁
+人均安裝43個app
+移動內容聚合
+ 
 
+Blitzscaling速度大於效率
+18年初100 現在19年七月 600多人
+一能溝通的團團上限約為150人
+AARR模型
+AHA時刻 aha moment 
+想法到用戶 從六天到四天 下降三分之一
 14:55 - 15:45	
 人工智能：好萊塢與真實間的距離
 尹相志
-
 數據決策技術長、Trubuzz數據科學家
+可以講出輸入和輸出的才能被機器學習
+特徵是以向量形式存在
+機器人辨識約在94 95左右
+機器人三定律是小說
+Wifi可以推測出人體動作
 
+把希拉蕊的特徵放到川普臉上
+Time of task
+讓機器為你工作
 15:50 - 16:15	午茶休息(25mins)
 16:15 - 17:05	
 Venture Studio: 企業的數位賦能實踐
 李佳憲 Neil
-
 悠遊卡董事、LeadBest Consulting Group 執行長
+Show,Don’t Tell
+Prove,
 
+書？服務主導邏輯
+Value in exchange / good dominant logic
+Value in use / service dominant logic
+
+企業需要以業務為導向的技術領導者
+
+小規模導入
+
+Lean模型
+
+一個人走的快一個人走的遠
+
+Venture studio 
+
+
+布料
+
+成效評估
+一季清理一季基本分析一季
+細節一步一步規劃
 17:10 - 18:00	
 打造IT能力建設的飛輪
 喬新亮
 
 前蘇寧科技集副總裁、環球易購CTO
+不是it和業務做交換
+是短期業務和長期業務做交換
+
+若不是中國第一個那就是重新造輪子
+增長掩蓋一切
+好的產品需要時間打磨
+產品經理要下終端
+研發要做要有財務目標，不然就會只是做出玩具
+說不清楚就慢慢討論
+業務增長是唯一的衡量指標
+20解bug 80開發 要有規劃
+訂定目標不清楚時，結案就會一堆問題和唬爛
+如果只學一門課就學業務 
+開除員工是為他好
+打擊員工再把它拉起來
+大家要有共同願景
+IT人員特別喜歡自嗨
+要100個人 開除30個 分給70個 調高人才密度
+較無關的單位百分之20
 # 2019/5/14 Python 101 應用幼幼班(遊戲/App/網路爬蟲/自動化測試/RPA)
 遊戲製作  
 http://www.stencyl.com/download/  
