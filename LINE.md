@@ -1,3 +1,49 @@
+>2019/07/24 TW BECKS No.3
+AvOracle: New Attack Vector Against AntiVirus - Ryota Shiga / LINE Corporation & Ryo Ichikawa
+Malicious
+Windows Defender analys
+Ghithub/hfiref0x
+AvOracle
+Disable auditor engine
+Oracle
+Look
+
+Supply Chain Attack & Modern APT Malware - Inndy Lin & Bletchley Chen / Cycarrier
+
+APT 進階持續性威脅 (Advanced Persistent Threat, APT
+Supply chain
+Shadow hammer operation
+
+1.copy code 2.stackoverflow 3.text book /doc > Source code > Compiler > Linker > Executables > CI > 1.release site 2.update 3.Dispath > executive 
+
+
+Shadow hammer operation
+Winnti’s algorithms 
+Important Name hash algorithms 
+MD5 Hash Dump and Decryp
+
+PLEAD APT Malware
+ASUS webstorge update.exe
+ESET 
+Obfuscation Technique
+
+Scsiexe.dll
+
+Malicious Payload
+IDAPaython
+INNDY(github)
+
+1
+2threat hunting
+3 threat inteligence
+4 threat invest
+5
+
+Xensor
+CyCarrier
+
+
+
 >2019/06/03 TW BECKS No.2  
   
 https://pwnable.tw/
