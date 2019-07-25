@@ -25,4 +25,11 @@ Web Architecture 101
 https://engineering.videoblocks.com/web-architecture-101-a3224e126947  
 
 Understanding the Request Lifecycle Of Laravel.  
-http://www.moiapps.com/journal/understanding-the-request-lifecycle-in-laravel   
+http://www.moiapps.com/journal/understanding-the-request-lifecycle-in-laravel  
+
+> 2019/07/25  
+
+測試數字相關重點  
+七個重要參考點  
+2 1 0 -1 -2 min max  
+還有轉換之間也要觀察有沒有問題  

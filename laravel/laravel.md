@@ -393,9 +393,12 @@ Testing
 - Mocking  
 
 Official Packages
-- Cashier
+- Cashier  
+與金流服務Stripe串接
 - Dusk
-- Envoy
+- Envoy  
+Envoy only supports the Mac and Linux operating systems  
+提供了簡潔、輕量的語法，定義在遠端伺服器執行的共同任務。
 - Horizon  
 監控Redis queues的圖形化介面
 - Passport
