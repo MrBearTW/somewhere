@@ -302,8 +302,14 @@ sites:
 設定host檔案  
 
 ---
-# Docimentation
 
+[Understanding the Request Lifecycle Of Laravel.](http://www.moiapps.com/journal/understanding-the-request-lifecycle-in-laravel)  
+
+![](http://www.moiapps.com/sites/default/files/inline-images/bootstrap2.jpg)
+
+# Docimentation
+Laravel 5.8 
+   
 Prologue
 - Release Notes
 - Upgrade Guide
@@ -394,7 +400,7 @@ Testing
 
 Official Packages
 - Cashier  
-與金流服務Stripe串接
+與金流服務串接
 - Dusk
 - Envoy  
 Envoy only supports the Mac and Linux operating systems  
@@ -402,9 +408,45 @@ Envoy only supports the Mac and Linux operating systems
 - Horizon  
 監控Redis queues的圖形化介面
 - Passport
-- Scout
+- Scout  
 full-text search
 - Socialite  
 authentication認證相關
 - Telescope  
 debug工具
+
+
+# Routing
+- Basic Routing  
+Laravel routes accept a URI and a Closure.  
+[閉包（Closure）](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Closures)是函式以及該函式被宣告時所在的作用域環境（lexical environment）的組合。
+  - Redirect Routes  
+  可以重新導向其他路徑  
+  `Route::redirect('/here', '/there');`  
+  重新導向的預設status code是302，但可透過增加第三個選擇性的變數做改變  
+  `Route::redirect('/here', '/there', 301);`  
+  透過permanentRedirect方法可以回傳status code  
+  `Route::permanentRedirect('/here', '/there');`
+  - View Routes  
+  若只是回傳一個view頁面，不用定義完整的route或controlle
+  第三個變數是選擇性的，給有需要提供array或data使用  
+  `Route::view('/url', 'view_name', ['name' => 'Taylor']);`
+- Route Parameters  
+  - Required Parameters  
+  
+  - Optional Parameters
+  - Regular Expression Constraints
+- Named Routes
+- Route Groups
+  - Middleware
+  - Namespaces
+  - Sub-Domain Routing
+  - Route Prefixes
+  - Route Name Prefixes
+- Route Model Binding
+  - Implicit Binding
+  - Explicit Binding
+- Fallback Routes
+- Rate Limiting
+- Form Method Spoofing
+- Accessing The Current Route
