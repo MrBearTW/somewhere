@@ -420,6 +420,10 @@ debug工具
 - Basic Routing  
 Laravel routes accept a URI and a Closure.  
 [閉包（Closure）](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Closures)是函式以及該函式被宣告時所在的作用域環境（lexical environment）的組合。
+  - The Default Route Files
+  
+  - Available Router Methods
+
   - Redirect Routes  
   可以重新導向其他路徑  
   `Route::redirect('/here', '/there');`  
@@ -427,13 +431,17 @@ Laravel routes accept a URI and a Closure.
   `Route::redirect('/here', '/there', 301);`  
   透過permanentRedirect方法可以回傳status code  
   `Route::permanentRedirect('/here', '/there');`
+
   - View Routes  
   若只是回傳一個view頁面，不用定義完整的route或controlle
   第三個變數是選擇性的，給有需要提供array或data使用  
   `Route::view('/url', 'view_name', ['name' => 'Taylor']);`
+
 - Route Parameters  
   - Required Parameters  
-  
+    ```php
+    Route::get('user/{id}', function ($id) {return 'User '.$id;});
+    ```
   - Optional Parameters
   - Regular Expression Constraints
 - Named Routes
