@@ -420,8 +420,8 @@ debug工具
 - Basic Routing  
 Laravel routes accept a URI and a Closure.  
 [閉包（Closure）](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Closures)是函式以及該函式被宣告時所在的作用域環境（lexical environment）的組合。
-  - The Default Route Files
-  
+  - The Default Route Files  
+  所有laravel路線都被定義在routes資料夾中。這些檔案框架會幫您自動載入。
   - Available Router Methods
 
   - Redirect Routes  
