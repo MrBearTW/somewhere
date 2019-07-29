@@ -423,7 +423,23 @@ Laravel routes accept a URI and a Closure.
   - The Default Route Files  
   所有laravel路線都被定義在routes資料夾中。這些檔案框架會幫您自動載入。
   - Available Router Methods
-
+  為路由註冊相對應的HTTP請求方法
+    ```php
+    Route::get($uri, $callback);
+    Route::post($uri, $callback);
+    Route::put($uri, $callback);
+    Route::patch($uri, $callback);
+    Route::delete($uri, $callback);
+    Route::options($uri, $callback);
+    ```
+    可用match方法註冊多個請求,  
+    或用any註冊所有的請求方法。
+    ```php
+    Route::match(['get', 'post'], '/', function () {});
+    Route::any('/', function () {});
+    ```
+      - CSRF Protection
+      所有POST, PUT, or DELETE的請求會被要求包含一個CSRF token，否則請求將被拒絕，
   - Redirect Routes  
   可以重新導向其他路徑  
   `Route::redirect('/here', '/there');`  
@@ -439,22 +455,193 @@ Laravel routes accept a URI and a Closure.
 
 - Route Parameters  
   - Required Parameters  
+  路徑可帶入變數，可帶入多個。  
+  變數中可使用底線 ' _ ' ，而不使用中線 ' - '。
     ```php
-    Route::get('user/{id}', function ($id) {return 'User '.$id;});
+    Route::get('posts/{post}/comments/{comment}', function ($postId, $commentId) {
+      return 'User '.$postId;
+      return 'Comment '.$commentId;
+    });
     ```
   - Optional Parameters
-  - Regular Expression Constraints
-- Named Routes
-- Route Groups
-  - Middleware
-  - Namespaces
-  - Sub-Domain Routing
-  - Route Prefixes
-  - Route Name Prefixes
+  在參數後面加上一個 ' ? '，可選擇性的給予參數。
+  記得給予一個預設值。
+    ```php
+    Route::get('user/{name?}', function ($name = null) {
+      return $name;
+    });
+    Route::get('user/{name?}', function ($name = 'John') {
+      return $name;
+    });
+    ```
+  - Regular Expression Constraints正則表示式限制
+    ```php
+    Route::get('user/{name}', function ($name) {
+    })->where('name', '[A-Za-z]+'); //a到z或A到Z (+)出現一次或多次
+
+    Route::get('user/{id}', function ($id) {
+    })->where('id', '[0-9]+'); // 數字 (+)出現一次或多次
+
+    Route::get('user/{id}/{name}', function ($id, $name) {
+    })->where(['id' => '[0-9]+', 'name' => '[a-z]+']);
+    ```
+    - Global Constraints做全域限制  
+    使用pattern方法  
+    需要定義這個pattern的boot方法在RouteServiceProvider中
+      ```php
+      public function boot()
+      {
+        Route::pattern('id', '[0-9]+');
+        parent::boot();
+      }
+      ```
+      一旦這個pattern被定義後，若使用到這個變數則會自動帶入這個限制
+      ```php
+      Route::get('user/{id}', function ($id) { });
+      ```
+    - Encoded Forward Slashes  
+    Laravel roiting允許所有字符除了 ' / ' ，若要使用則要明確用正則表示式來允許。
+      ```php
+      Route::get('search/{search}', function ($search) {
+        return $search;
+      })->where('search', '.*');
+      ```
+      僅在最後一段的路由中支援' / '
+- Named Routes  
+命名路由可以簡化路由，在路由後面加上一個name的方法。  
+  ```php
+  Route::get('user/profile', function () {
+  })->name('profile');
+  ```
+  也可簡化控制器的方法。
+  ```php
+  Route::get('user/profile', 'UserProfileController@show')->name('profile');
+  ```
+  - Generating URLs To Named Routes  
+  當指派一個名字給路由後，可能會用在產生新的URL或是做重新導向
+    ```php
+    // Generating URLs...
+    $url = route('profile');
+    // Generating Redirects...
+    return redirect()->route('profile');
+    ```
+    若有兩個變數則會自動帶入URL中  
+    ```php
+    Route::get('user/{id}/profile', function ($id) {
+    })->name('profile');
+    $url = route('profile', ['id' => 1]);
+    ```
+  - Inspecting The Current Route  
+    如果要確定 當前請求 是否已給予到 給定的命名路由，則可以在中介層Route上使用named方法。
+    下面這是middleware  
+    ```php
+    public function handle($request, Closure $next)
+    {
+      if ($request->route()->named('profile')) {
+      }
+      return $next($request);
+    }
+    ``` 
+- Route Groups  
+路由群組可以分享路由屬性。  
+在方法`Route::group`中的第一個參數，使用陣列格式分享屬性。  
+巢狀的路由會自動合併來自父群組的屬性。
+當names, namespaces, and prefixes有附加時，中介層和where條件會合併。  
+Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位置。  
+  - Middleware  
+  在定義群組之前，使用middleware方法加入中介層。  
+  中介層會依照他們在陣列中的順序執行。  
+    ```php
+    Route::middleware(['first', 'second'])->group(function () {
+      Route::get('/', function () {    });
+      Route::get('user/profile', function () {    });
+    });
+    ```
+  - Namespaces  
+    使用同一個命名空間的路由群組  
+    ```php
+    Route::namespace('Admin')->group(function () {    });
+    ```
+    預設中RouteServiceProvider就會帶入[App\Http\Controllers]這一段，所以只需要填入之後的命名空間即可。  
+  - Sub-Domain Routing子網域路由  
+    可以像路由URI一樣為子域分配路由參數，允許您捕獲子域的一部分以供路由或控制器使用。  
+    要在定義群組之前使用`domin`方法指定。
+    ```php
+    Route::domain('{account}.myapp.com')->group(function () {
+      Route::get('user/{id}', function ($account, $id) {
+        //
+      });
+    });
+    ```
+    為了確保您的子域路由可達，您應該在註冊根域路由之前註冊子域路由。這將防止根域路由覆蓋具有相同URI路徑的子域路由。  
+  - Route Prefixes  
+    可以提供整個群組共同的前綴  
+    ```php
+    Route::prefix('admin')->group(function () {
+      Route::get('users', function () {
+        // Matches The "/admin/users" URL
+      });
+    });
+    ```
+  - Route Name Prefixes  
+    name方法可用於為群組中的每個路由名稱添加給定的字串  
+    確保' . '會被提供。  
+    ```php
+    Route::name('admin.')->group(function () {
+     Route::get('users', function () {
+       // Route assigned name "admin.users"...
+      })->name('users');
+    });
+    ```
 - Route Model Binding
-  - Implicit Binding
-  - Explicit Binding
+  當將ID加入route中，我們會常常檢所關於該ID的模型  
+  除了注入ID之外，您可以注入整個與該ID有關的模型介面。
+  - Implicit Binding隱式綁定  
+  Laravel自動解析路徑或控制器操作中定義的Eloquent模型，其類型提示的變量名稱與路徑段名稱匹配    
+    ```php
+    Route::get('api/users/{user}', function (App\User $user) {
+      return $user->email;
+    });
+    ```
+    由於$user變量是類型提示為`App\User`Eloquent模型，變量名稱與{user}URI段匹配，因此Laravel將自動注入具有與請求URI中的相應值匹配的ID的模型介面。  
+    若不匹配，則回自動產生404反應。  
+    - Customizing The Key Name  
+      若要使用ID之外的欄位，可以覆蓋Eloquent模型上的`getRouteKeyName`方法
+      ```php
+      public function getRouteKeyName()
+        {
+            return 'slug';
+        }
+      ```
+  - Explicit Binding顯式綁定
 - Fallback Routes
 - Rate Limiting
 - Form Method Spoofing
-- Accessing The Current Route
+- Accessing The Current Route  
+  
+# Middleware
+- Introduction  
+  Middleware提供一個方便的機制來過濾所有透過HTTP來對應用的要求。  
+  例如認證，有認證就可以進一步應用，沒有認證就會重新導向。  
+  除了認證之外還ˊ可以執行不同的任務。  
+  CORS middleware(Cross-Origin Resource Sharing跨來源資源共用)能為離開您的應用程序提供正確的header。  
+  logging middleware可以為記錄所有傳送要求給應用的log。  
+  Laravel中有CSRF和authentication兩種中間層保護。
+  所有中間層都在目錄`app/Http/Middleware`中。
+- Defining Middleware  
+
+- Registering Middleware  
+  - Global Middleware  
+  - Assigning Middleware To Routes  
+  - Middleware Groups  
+  - Sorting Middleware  
+- Middleware Parameters  
+- Terminable Middleware  
+
+
+middleware前三
+csrf全
+controller125
+request1
+
+eloquent
