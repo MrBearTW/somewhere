@@ -604,7 +604,7 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
     });
     ```
     由於$user變量是類型提示為`App\User`Eloquent模型，變量名稱與{user}URI段匹配，因此Laravel將自動注入具有與請求URI中的相應值匹配的ID的模型介面。  
-    若不匹配，則回自動產生404反應。  
+    若不匹配，則會自動產生404反應。  
     - Customizing The Key Name  
       若要使用ID之外的欄位，可以覆蓋Eloquent模型上的`getRouteKeyName`方法
       ```php
@@ -614,10 +614,58 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
         }
       ```
   - Explicit Binding顯式綁定
-- Fallback Routes
-- Rate Limiting
-- Form Method Spoofing
-- Accessing The Current Route  
+  要註冊一個顯式的綁定，使用路由的model方法定class給參數。  
+  您應該在RouteServiceProvider類的boot方法中定義顯式模型綁定。
+    ```php
+    public function boot()
+    {
+        parent::boot();
+        Route::model('user', App\User::class);
+    }
+    ```
+    下一步，定義包含{user}參數的路由。
+    ```php
+    Route::get('profile/{user}', function (App\User $user) {
+    //
+    });
+    ```
+    由於我們已將所有{user}參數綁定到`App\User`模型，user介面會被加入路由中。  
+    例如說：一個請求`profile/1`，將從 [ID為1的數據庫] 中註入User介面。
+    若不匹配，則會自動產生404反應。
+      - Customizing The Resolution Logic客製化分解邏輯
+      若想要客製化分解邏輯，你可以使用`Route::bind`方法。
+      傳遞給`bind`方法的Closure將接收URI分割的值 且 應該返回 應注入路由中的 該類別的介面。  
+        ```php
+        public function boot()
+          {
+              parent::boot();
+              Route::bind('user', function ($value) {
+                  return App\User::where('name', $value)->first() ?? abort(404);
+              });
+          }
+        ```
+        或者，您可以覆蓋Eloquent模型上的`resolveRouteBinding`方法。  
+        這個方法將接收 URI片段的值，並應返回應注入路由的類的介面。
+        ```php
+        public function resolveRouteBinding($value)
+        {
+            return $this->where('name', $value)->first() ?? abort(404);
+        }
+        ```
+- Fallback Routes倒退路由  
+  **倒退路由 應 總是 最後一個 被應用註冊的 路由**  
+  使用`Route::fallback`方法，你可以定義在[沒有其他路由]與[傳入請求]匹配時 將執行的路由。  
+  通常，未處理的請求將通過應用的異常處理程序自動呈現“404”頁面。  
+  但是因為您在`route/web,php`中定義了`fallback`路由，所有在`web`中介層的中介層都將應用該路由。  
+  您可以依需求向此路由添加其他中間層。
+  ```php
+  Route::fallback(function () {
+      //
+  });
+  ```
+- Rate Limiting(先跳過)
+- Form Method Spoofing(先跳過)
+- Accessing The Current Route(先跳過)  
   
 # Middleware
 - Introduction  
@@ -629,14 +677,114 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
   Laravel中有CSRF和authentication兩種中間層保護。
   所有中間層都在目錄`app/Http/Middleware`中。
 - Defining Middleware  
+  這個指令可以製作一個新的middleware  
+  `php artisan make:middleware CheckAge`  
+  此指令將在`app/Http/Middleware`中新建立一個`CheckAge`類別。  
+  在這一個範例中介層中，只允許`age`>=200的通過，其餘會重新導向回`home`URI。  
+  ```php
+  <?php
 
+  namespace App\Http\Middleware;
+
+  use Closure;
+
+  class CheckAge
+  {
+      /**
+      * Handle an incoming request.
+      *
+      * @param  \Illuminate\Http\Request  $request
+      * @param  \Closure  $next
+      * @return mixed
+      */
+      public function handle($request, Closure $next)
+      {
+          if ($request->age <= 200) {
+              return redirect('home');
+          }
+
+          return $next($request);
+      }
+  }
+  ```
+  請求 通過後 更深入的傳遞到應用程序中，使用`$request`調用`$ next`回呼。  
+  最好將中介層設想為一系列“層”，HTTP請求必須在它們到達您的應用之前通過。  
+  每一個層都可以檢查請求，甚至完全拒絕這些請求。  
+  - Before & After Middleware  
+  中介層在請求之前還是之後運行取決於中介層本身。  
+    在應用程序處理請求之前，以下中介層將先執行。  
+    ```php
+    <?php
+    namespace App\Http\Middleware;
+    use Closure;
+    class BeforeMiddleware
+    {
+        public function handle($request, Closure $next)
+        {
+            // Perform action
+            return $next($request);
+        }
+    }
+    ```
+    這個中介層將在請求於應用執行完後才執行。  
+    ```php
+    <?php
+    namespace App\Http\Middleware;
+    use Closure;
+    class AfterMiddleware
+    {
+        public function handle($request, Closure $next)
+        {
+            $response = $next($request);
+            // Perform action
+            return $response;
+        }
+    }
+    ```
 - Registering Middleware  
   - Global Middleware  
+  若要所有的http請求在到達應用前通過中介層，在`app/Http/Kernel.php`中列出所有中介層類別的`$middleware`屬性。  
   - Assigning Middleware To Routes  
+  若要在特定的路由中加入中介層，要在`app/Http/Kernel.php`中指派一個Key。  
+  預設中，這個類別的`$routeMiddleware`屬性 包含整個Laravel的中介層。  
+  要添加自己的，請將其附加到此列表並為其指定一個您選擇的key。  
+    ```php
+    // Within App\Http\Kernel Class...
+    protected $routeMiddleware = [
+        'auth' => \App\Http\Middleware\Authenticate::class,
+        'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+        'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
+        'can' => \Illuminate\Auth\Middleware\Authorize::class,
+        'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
+        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+    ];
+    ```
+    一旦在HTTP核心中定義了中介層，您就可以使用`middleware`方法將中介層分配給路由。
+    ```php
+    Route::get('admin/profile', function () {
+      //
+    })->middleware('auth');
+    ```
+    也可以指定多個中介層到同一個路由  
+    ```php
+    Route::get('/', function () {
+        //
+    })->middleware('first', 'second');
+    ```
+    在指派中介層時，你還可以傳遞完全限定的類別名稱  
+    ```php
+    use App\Http\Middleware\CheckAge;
+    Route::get('admin/profile', function () {
+        //
+    })->middleware(CheckAge::class);
+    ```
   - Middleware Groups  
   - Sorting Middleware  
-- Middleware Parameters  
-- Terminable Middleware  
+- Middleware Parameters(先跳過)    
+- Terminable Middleware(先跳過)    
 
 
 middleware前三
@@ -645,3 +793,6 @@ controller125
 request1
 
 eloquent
+
+    ```php
+    ```
