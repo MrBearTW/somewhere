@@ -786,6 +786,40 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
 - Middleware Parameters(先跳過)    
 - Terminable Middleware(先跳過)    
 
+# CSRF Protection
+- Introduction
+- Excluding URIs
+- X-CSRF-Token
+- X-XSRF-Token
+
+# Controllers
+- Introduction
+- Basic Controllers
+  - Defining Controllers
+  - Controllers & Namespaces
+  - Single Action Controllers
+- Controller Middleware(先跳過)  
+- Resource Controllers(先跳過)  
+  - Partial Resource Routes
+  - Naming Resource Routes
+  - Naming Resource Route Parameters
+  - Localizing Resource URIs
+  - Supplementing Resource Controllers
+- Dependency Injection & Controllers
+- Route Caching(先跳過)  
+
+# HTTP Requests
+- Accessing The Request
+- Request Path & Method(先跳過)  
+  - PSR-7 Requests(先跳過)  
+  - Input Trimming & Normalization(先跳過)  
+- Retrieving Input(先跳過)  
+- Old Input(先跳過)  
+  - Cookies(先跳過)  
+- Files(先跳過)  
+  - Retrieving Uploaded Files(先跳過)  
+  - Storing Uploaded Files(先跳過)  
+- Configuring Trusted Proxies(先跳過)  
 
 middleware前三
 csrf全
