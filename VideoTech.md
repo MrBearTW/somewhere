@@ -14,7 +14,7 @@ Bit Rate(譯為位元傳輸率或比特率)
 - On the fly stream   
 實做用Nginx VOD Module(支援simulated live)  
 
-Latency主因  
+造成Latency的主因  
 1. encoding & packaging   
 2. file transfer  
 3. Content delivery   

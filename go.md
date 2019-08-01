@@ -1,4 +1,16 @@
-2019/06/18  
+# 2019/07/30 Golang Taipei Gathering #43
+Julian Chu  
+在德國求生存的.Net Developer, 去年意外的開始了Go的探索旅程  
+Refactoring in Goland for beginner  
+
+測試金字塔  
+End to end  
+Intergration  
+Unit  
+
+書 [單元測試的藝術](https://www.books.com.tw/products/0010765689)  
+
+# 2019/06/18  
 
 https://speakerdeck.com/rueian/scaling-offline-database-usage-on-gcp-at-dcard  
   

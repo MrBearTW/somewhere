@@ -782,7 +782,46 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
     })->middleware(CheckAge::class);
     ```
   - Middleware Groups  
+  有時希望將多個中介層群組成單一個key以便更容易地分配給路由。  
+  可以使用HTTP核心的`$middlewareGroups`屬性執行此操作。  
+  Laravel附帶了`web`和`api`中介層 組，其中包含您可能希望應用於[Web UI]和[API路由]的常用中介層。
+    ```php
+    /**
+     * The application's route middleware groups.
+    *
+    * @var array
+    */
+    protected $middlewareGroups = [
+        'web' => [
+            \App\Http\Middleware\EncryptCookies::class,
+            \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+            \Illuminate\Session\Middleware\StartSession::class,
+            \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+            \App\Http\Middleware\VerifyCsrfToken::class,
+            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        ],
+
+        'api' => [
+            'throttle:60,1',
+            'auth:api',
+        ],
+    ];
+    ```
+    可以使用與單個中介層相同的語法將中介層組分配給路由和控制器動作。  
+    中介層組 可以更方便的一次分配不同中介層給路由。  
+    ```php
+    Route::get('/', function () {
+        //
+    })->middleware('web');
+
+    Route::group(['middleware' => ['web']], function () {
+        //
+    });
+    ```
+    `web`中介層 組 會 由`RouteServiceProvider` 自動應用於`routes/web.php`。
   - Sorting Middleware  
+  很少見的，您可能需要中介層一特定順序執行，但在分配類路由時無法控制其順序。  
+  這種情況下，您可以使用`app/Http/Kernel.php`文件的$ middlewarePriority屬性指定中間件優先級
 - Middleware Parameters(先跳過)    
 - Terminable Middleware(先跳過)    
 
@@ -820,6 +859,7 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
   - Retrieving Uploaded Files(先跳過)  
   - Storing Uploaded Files(先跳過)  
 - Configuring Trusted Proxies(先跳過)  
+
 
 middleware前三
 csrf全
