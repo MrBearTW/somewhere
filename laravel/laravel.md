@@ -595,7 +595,7 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
     ```
 - Route Model Binding
   當將ID加入route中，我們會常常檢所關於該ID的模型  
-  除了注入ID之外，您可以注入整個與該ID有關的模型介面。
+  除了注入ID之外，您可以注入整個與該ID有關的模型實例。
   - Implicit Binding隱式綁定  
   Laravel自動解析路徑或控制器操作中定義的Eloquent模型，其類型提示的變量名稱與路徑段名稱匹配    
     ```php
@@ -603,7 +603,7 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
       return $user->email;
     });
     ```
-    由於$user變量是類型提示為`App\User`Eloquent模型，變量名稱與{user}URI段匹配，因此Laravel將自動注入具有與請求URI中的相應值匹配的ID的模型介面。  
+    由於$user變量是類型提示為`App\User`Eloquent模型，變量名稱與{user}URI段匹配，因此Laravel將自動注入具有與請求URI中的相應值匹配的ID的模型實例。  
     若不匹配，則會自動產生404反應。  
     - Customizing The Key Name  
       若要使用ID之外的欄位，可以覆蓋Eloquent模型上的`getRouteKeyName`方法
@@ -629,12 +629,12 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
     //
     });
     ```
-    由於我們已將所有{user}參數綁定到`App\User`模型，user介面會被加入路由中。  
-    例如說：一個請求`profile/1`，將從 [ID為1的數據庫] 中註入User介面。
+    由於我們已將所有{user}參數綁定到`App\User`模型，因此將在路由中注入User實例。  
+    例如說：一個請求`profile/1`，將從 [ID為1的數據庫] 中註入User實體。
     若不匹配，則會自動產生404反應。
       - Customizing The Resolution Logic客製化分解邏輯
       若想要客製化分解邏輯，你可以使用`Route::bind`方法。
-      傳遞給`bind`方法的Closure將接收URI分割的值 且 應該返回 應注入路由中的 該類別的介面。  
+      傳遞給`bind`方法的Closure將接收URI分割的值 且 應該返回 應注入路由中的 該類別的實體。  
         ```php
         public function boot()
           {
@@ -656,7 +656,7 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
   **倒退路由 應 總是 最後一個 被應用註冊的 路由**  
   使用`Route::fallback`方法，你可以定義在[沒有其他路由]與[傳入請求]匹配時 將執行的路由。  
   通常，未處理的請求將通過應用的異常處理程序自動呈現“404”頁面。  
-  但是因為您在`route/web,php`中定義了`fallback`路由，所有在`web`中介層的中介層都將應用該路由。  
+  但是因為您在`route/web.php`中定義了`fallback`路由，所有在`web`中介層的中介層都將應用該路由。  
   您可以依需求向此路由添加其他中間層。
   ```php
   Route::fallback(function () {
@@ -671,13 +671,13 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
 - Introduction  
   Middleware提供一個方便的機制來過濾所有透過HTTP來對應用的要求。  
   例如認證，有認證就可以進一步應用，沒有認證就會重新導向。  
-  除了認證之外還ˊ可以執行不同的任務。  
+  除了認證之外還可以執行不同的任務。  
   CORS middleware(Cross-Origin Resource Sharing跨來源資源共用)能為離開您的應用程序提供正確的header。  
   logging middleware可以為記錄所有傳送要求給應用的log。  
-  Laravel中有CSRF和authentication兩種中間層保護。
-  所有中間層都在目錄`app/Http/Middleware`中。
+  Laravel中有CSRF和authentication兩種中介層保護。
+  所有中介層都在目錄`app/Http/Middleware`中。
 - Defining Middleware  
-  這個指令可以製作一個新的middleware  
+  這個指令可以製作一個新的middleware   
   `php artisan make:middleware CheckAge`  
   此指令將在`app/Http/Middleware`中新建立一個`CheckAge`類別。  
   在這一個範例中介層中，只允許`age`>=200的通過，其餘會重新導向回`home`URI。  
@@ -821,34 +821,305 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
     `web`中介層 組 會 由`RouteServiceProvider` 自動應用於`routes/web.php`。
   - Sorting Middleware  
   很少見的，您可能需要中介層一特定順序執行，但在分配類路由時無法控制其順序。  
-  這種情況下，您可以使用`app/Http/Kernel.php`文件的$ middlewarePriority屬性指定中間件優先級
+  這種情況下，您可以使用`app/Http/Kernel.php`文件的$ middlewarePriority屬性指定中介層的優先程度。
+    ```php
+    /**
+     * The priority-sorted list of middleware.
+    *
+    * This forces non-global middleware to always be in the given order.
+    *
+    * @var array
+    */
+    protected $middlewarePriority = [
+        \Illuminate\Session\Middleware\StartSession::class,
+        \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+        \App\Http\Middleware\Authenticate::class,
+        \Illuminate\Session\Middleware\AuthenticateSession::class,
+        \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        \Illuminate\Auth\Middleware\Authorize::class,
+    ];
+    ```
 - Middleware Parameters(先跳過)    
 - Terminable Middleware(先跳過)    
 
 # CSRF Protection
 - Introduction
-- Excluding URIs
-- X-CSRF-Token
-- X-XSRF-Token
+  Laravel可以輕鬆保護您的應用程序免受跨站點請求偽造（CSRF）攻擊。  
+  跨站點請求偽造是一種惡意攻擊，由此代表經過身份驗證的用戶執行未經授權的命令。  
+  Laravel為應用程序管理的每個活動用戶session自動生成CSRF token。  
+  此token用於驗證經過身份驗證的用戶是否是實際向應用程序發出請求的用戶。  
+  無論何時在應用程序中定義HTML表單，都應在表單中包含隱藏的CSRF token區段，以便CSRF保護中介層可以驗證請求。  
+  您可以使用`@csrf` Blade指令生成token。
+  ```html
+  <form method="POST" action="/profile">
+      @csrf
+      ...
+  </form>
+  ```
+  包含在 Web中介層組 中的VerifyCsrfToken中介層將 自動驗證請求輸入中的token是否與儲存在session中的token匹配。  
+  - CSRF Tokens & JavaScript
+  在構建JavaScript驅動的服務時，讓JavaScript HTTP庫 自動將CSRF token附加到每個傳出請求都很方便。  
+  預設下，`resources/js/bootstrap.js`文件使用[Axios HTTP](https://github.com/axios/axios)庫 註冊csrf-token元標記 的 值。如果您不使用此庫，則需要為應用程序手動配置此行為。
+- Excluding URIs From CSRF Protection
+  有時您可能希望從CSRF保護中排除一組URI。  
+  例如，如果您使用Stripe處理付款並使用其webhook系統，您需要從CSRF保護中排除Stripe webhook處理程序路由，因為Stripe將不知道要向您的路由發送什麼CSRF token。  
+  通常，您應將這些類型的路由放在RouteServiceProvider應用於`routes/web.php`文件中所有路由的Web中介層組之外。但是，您也可以通過將其URI添加到VerifyCsrfToken中間件的$ except屬性來排除路由。    
+  ```php
+  <?php
+  namespace App\Http\Middleware;
+  use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as Middleware;
+  class VerifyCsrfToken extends Middleware
+  {
+      /**
+      * The URIs that should be excluded from CSRF verification.
+      *
+      * @var array
+      */
+      protected $except = [
+          'stripe/*',
+          'http://example.com/foo/bar',
+          'http://example.com/foo/*',
+      ];
+  }
+  ```
+  注意！ 運行測試時會自動暫停CSRF中介層  
+
+[CSRF 和X-CSRF-TOKEN 和 X-XSRF-TOKEN 比較](https://stackoverflow.com/questions/34782493/difference-between-csrf-and-x-csrf-token)
+- X-CSRF-Token  
+  除了檢查CSRF token作為POST參數，VerifyCsrfToken中介層還將檢查X-CSRF-TOKEN請求header。例如，您可以將token儲存在HTML meta tag中。  
+  ```html
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  ```  
+  然後，一旦創建了meta tag，就可以指示像jQuery這樣的庫自動將tag添加到所有請求header中。
+  這為基於AJAX的 應用程序 提供了簡單，方便的CSRF保護。  
+  ```javascript
+  $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+  ```
+  注意！預設下，`resources/js/bootstrap.js`文件使用Axios HTTP庫註冊`csrf-token` meta tag的值。如果您不使用此庫，則需要為應用手動配置此設定。  
+- X-XSRF-Token  
+  Laravel將當前CSRF token存儲在XSRF-TOKEN cookie中，該cookie包含在框架生成的每個回應中。 您可以使用cookie值來設置X-XSRF-TOKEN請求標頭。  
+  這個cookie主要是為了方便發送的，因為一些JavaScript框架和庫（如Angular和Axios）自動將其值放在X-XSRF-TOKEN頭中
+
 
 # Controllers
-- Introduction
-- Basic Controllers
-  - Defining Controllers
-  - Controllers & Namespaces
-  - Single Action Controllers
+- Introduction  
+  您可能希望使用Controller類別 管理此 方法，而不是將所有 請求處理邏輯 定義在 路由 文件中的Closures。  
+  控制器可以將相關的請求處理邏輯 分組到單個class中。  
+  控制器儲存在`app/Http/Controllers`目錄中。  
+- Basic Controllers  
+  - Defining Controllers  
+    請注意，控制器擴展了Laravel附帶的基本控制器class。  
+    基本class提供了一些便利方法，例如中介層方法，可用於將中介層附加到控制器動作。
+    ```PHP
+    <?php
+    namespace App\Http\Controllers;
+    use App\User;
+    use App\Http\Controllers\Controller;
+    class UserController extends Controller
+    //Illuminate is located in /vendor/laravel/framework/src/Illuminate
+    {
+        /**
+        * Show the profile for the given user.
+        *
+        * @param  int  $id
+        * @return View
+        */
+        public function show($id)
+        {
+            return view('user.profile', ['user' => User::findOrFail($id)]);
+        }
+    }
+    ```
+    您可以這樣定義到此 控制器 方法 的路由。  
+    `Route::get('user/{id}', 'UserController@show');`  
+    現在，當 請求 與 指定的路由URI 匹配時，將執行UserController類上的show方法。路由參數也將傳遞給方法。  
+    注意！控制器不一定要自基礎class擴展。但是，您將沒有權限操作 中介層，validate, and dispatch 方法 等便利功能。
+  - Controllers & Namespaces  
+    在定義 控制器路由 時，我們不需要指定完整的 控制器 命名空間。  
+    由於`RouteServiceProvider`在包含命名空間的 路由組 中加載 路由文件，因此我們僅指定了命名空間的`App\Http\Controllers`部分之後的類名稱部分。  
+    如果選擇將 控制器 深入 nest 到`App\Http\Controllers`目錄中，請使用相對於`App\Http\Controllers`根命名空間的特定類名。  
+    因此，如果您的完整控制器類是`App\Http\Controllers\Photos\AdminController`，您應該將路由註冊到控制器，如下所示
+    ```php
+    Route::get('foo', 'Photos\AdminController@method');
+    ```
+  - Single Action Controllers  
+    如果要定義 僅處理單個操作的 控制器，可以在控制器上放置一個`__invoke`方法：  
+    ```php
+    <?php
+    namespace App\Http\Controllers;
+    use App\User;
+    use App\Http\Controllers\Controller;
+
+    class ShowProfile extends Controller
+    {
+        /**
+        * Show the profile for the given user.
+        *
+        * @param  int  $id
+        * @return View
+        */
+        public function __invoke($id)
+        {
+            return view('user.profile', ['user' => User::findOrFail($id)]);
+        }
+    }
+    ```
+    註冊單個操作控制器的路由時，無需指定方法  
+    ```php
+    Route::get('user/{id}', 'ShowProfile');
+    ```
+    您可以使用make：controller Artisan命令的`--invokable`選項生成可調用控制器`php artisan make:controller ShowProfile --invokable`  
 - Controller Middleware(先跳過)  
 - Resource Controllers(先跳過)  
-  - Partial Resource Routes
-  - Naming Resource Routes
-  - Naming Resource Route Parameters
-  - Localizing Resource URIs
-  - Supplementing Resource Controllers
+  - Partial Resource Routes(先跳過)  
+  - Naming Resource Routes(先跳過)  
+  - Naming Resource Route Parameters(先跳過)  
+  - Localizing Resource URIs(先跳過)  
+  - Supplementing Resource Controllers(先跳過)  
 - Dependency Injection & Controllers
+  - Constructor Injection  
+    [Laravel service container]()用於解析所有Laravel控制器。 
+    因此，您可以在其 構造函數 中 鍵入提示 控制器可能需要的任何依賴項。  
+    聲明的依賴項將自動解析並註入控制器實體。  
+    ```php
+    <?php
+    namespace App\Http\Controllers;
+    use App\Repositories\UserRepository;
+    class UserController extends Controller
+    {
+        /**
+        * The user repository instance.
+        */
+        protected $users;
+
+        /**
+        * Create a new controller instance.
+        *
+        * @param  UserRepository  $users
+        * @return void
+        */
+        public function __construct(UserRepository $users)
+        {
+            $this->users = $users;
+        }
+    }
+    ```
+    您也可以輸入任何類型提示[Laravel contract]()。  
+    如果容器可以解析它，您可以鍵入提示。  
+    根據您的 應用，將 依賴項 注入 控制器可能會提供更好的 可測試性。  
+  - Method Injection  
+    除了constructor注入之外，您還可以在 控制器的 方法上鍵入提示 依賴項。  
+    方法注入的常見用例是將`Illuminate\Http\Request`實體注入到控制器方法中  
+    ```php
+    <?php
+    namespace App\Http\Controllers;
+    use Illuminate\Http\Request;
+    class UserController extends Controller
+    {
+        /**
+        * Store a new user.
+        *
+        * @param  Request  $request
+        * @return Response
+        */
+        public function store(Request $request)
+        {
+            $name = $request->name;
+
+            //
+        }
+    }
+    ```
+    如果您的控制器方法也期望從路由參數輸入，請在其他依賴項之後列出路由參數。  
+    如果您的路由定義如下
+    ```php
+    Route::put('user/{id}', 'UserController@update');
+    ```
+    您仍然可以通過定義控制器方法鍵入提示`Illuminate\Http\Request`並訪問您的id參數，如下所示  
+    ```php
+    <?php
+    namespace App\Http\Controllers;
+    use Illuminate\Http\Request;
+    class UserController extends Controller
+    {
+        /**
+        * Update the given user.
+        *
+        * @param  Request  $request
+        * @param  string  $id
+        * @return Response
+        */
+        public function update(Request $request, $id)
+        {
+            //
+        }
+    }
+    ```
 - Route Caching(先跳過)  
 
 # HTTP Requests
 - Accessing The Request
+  要通過依賴注入獲取當前HTTP請求的實例，您應該在控制器方法上鍵入提示`Illuminate\Http\Request`類。
+  傳入的請求實例將由[service container]()自動注入。
+  ```php
+  <?php
+  namespace App\Http\Controllers;
+  use Illuminate\Http\Request;
+  class UserController extends Controller
+  {
+      /**
+      * Store a new user.
+      *
+      * @param  Request  $request
+      * @return Response
+      */
+      public function store(Request $request)
+      {
+          $name = $request->input('name');
+
+          //
+      }
+  }
+  ```
+  - Dependency Injection & Route Parameters  
+    如果您的控制器方法也期望從路由參數輸入，則應在其他依賴項之後列出路由參數。例如，如果您的路線定義如下：
+    ```php
+    Route::put('user/{id}', 'UserController@update');
+    ```
+    您仍然可以通過定義控制器方法鍵入提示`Illuminate\Http\Request`並訪問您的路由參數ID，如下所示  
+    ```php
+    <?php
+    namespace App\Http\Controllers;
+    use Illuminate\Http\Request;
+    class UserController extends Controller
+    {
+        /**
+        * Update the specified user.
+        *
+        * @param  Request  $request
+        * @param  string  $id
+        * @return Response
+        */
+        public function update(Request $request, $id)
+        {
+            //
+        }
+    }
+    ```
+  - Accessing The Request Via Route Closures  
+    您也可以在路由Closure上鍵入提示`Illuminate\Http\Request`類。  
+    服務容器將在執行時自動將傳入請求注入Closure。  
+    ```php
+    use Illuminate\Http\Request;
+
+    Route::get('/', function (Request $request) {
+        //
+    });
+    ```
 - Request Path & Method(先跳過)  
   - PSR-7 Requests(先跳過)  
   - Input Trimming & Normalization(先跳過)  
@@ -859,6 +1130,11 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
   - Retrieving Uploaded Files(先跳過)  
   - Storing Uploaded Files(先跳過)  
 - Configuring Trusted Proxies(先跳過)  
+
+Service Container    
+Laravel服務容器是一個用於管理類依賴性和執行依賴注入的強大工具  
+
+
 
 
 middleware前三
