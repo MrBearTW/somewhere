@@ -1131,8 +1131,16 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
   - Storing Uploaded Files(先跳過)  
 - Configuring Trusted Proxies(先跳過)  
 
+
+
+
 Service Container    
 Laravel服務容器是一個用於管理類依賴性和執行依賴注入的強大工具  
+
+
+
+Eloquent ORM
+Testing
 
 
 
