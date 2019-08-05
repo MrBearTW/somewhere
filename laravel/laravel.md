@@ -302,10 +302,50 @@ sites:
 設定host檔案  
 
 ---
-
+# Request Lifecycle Of Laravel.
 [Understanding the Request Lifecycle Of Laravel.](http://www.moiapps.com/journal/understanding-the-request-lifecycle-in-laravel)  
 
-![](http://www.moiapps.com/sites/default/files/inline-images/bootstrap2.jpg)
+  
+- The Standard Lifecycle is:
+![](http://www.moiapps.com/sites/default/files/inline-images/lifecycle.jpg)
+1. A HTTP Request is Routed to a Controller.
+2. The Controller performs specific actions and sends data to a View.
+3. The View formats the data appropriately, providing the HTTP Response.  
+  
+- There's three main areas where your application can affect the Loading steps in the Request Lifecycle.   
+Loading, Booting, and Running.  
+![](http://www.moiapps.com/sites/default/files/inline-images/bootstrap1.jpg) 
+1. WORKBENCH  
+2. ENVIRONMENT DETECTIONS
+3. PATHS
+
+- THE BOOTING STEPS  
+There's 10 different areas your application can affect the Booting steps in the Request Lifecycle.
+![There's 10 different areas your application can affect the Booting steps in the Request Lifecycle.](http://www.moiapps.com/sites/default/files/inline-images/bootstrap2.jpg)  
+1. CONFIGURATION
+2. SERVICE PROVIDERS
+3. REGISTERING THE START FILES
+4. HANDLE MIDDLEWARE GOING DOWN
+5. BOOTING SERVICE PROVIDERS
+6. BOOTING CALLBACKS
+7. BOOTED CALLBACKS
+8. YOUR APPLICATION START SCRIPT IS CALLED.
+9. APP/START/{ENVIRONMENT}.PHP
+10. APP/ROUTES.PHP
+
+- THE RUNNING STEPS  
+There's ten different areas where your application can affect the Running steps in the Request Lifecycle.  
+![](http://www.moiapps.com/sites/default/files/inline-images/bootstrap3.jpg)
+1. MAINTENANCE MODE
+2. APP "BEFORE" FILTERS
+3. ROUTE/CONTROLLER "BEFORE" FILTERS
+4. THE ACTION
+5. ROUTE/CONTROLLER "AFTER" FILTERS
+6. APP "AFTER" FILTERS.
+7. MIDDLEWARE RESPONSE HANDLING
+8. MIDDLEWARE SHUTDOWN
+9. FINISH CALLBACKS
+10. SHUTDOWN CALLBACKS
 
 # Docimentation
 Laravel 5.8 
@@ -1134,12 +1174,40 @@ Namespace 的elimiters分隔符 and slashes斜槓 會自動加入在適當的位
 
 
 
-Service Container    
-Laravel服務容器是一個用於管理類依賴性和執行依賴注入的強大工具  
+Service Container：Laravel服務容器是一個用於管理類依賴性和執行依賴注入的強大工具  
+Closure：  
+在編程語言中，閉包，也就是詞法閉包或函數閉包，是一種在具有第一類函數的語言中實現詞法範圍的名稱綁定的技術。  
+閉包是將函數與環境一起存儲的記錄  
 
 
 
-Eloquent ORM
+# Eloquent ORM
+## Getting Started
+- Introduction
+- Defining Models
+  - Eloquent Model Conventions
+  - Default Attribute Values
+- Retrieving Models
+  - Collections
+  - Chunking Results
+- Retrieving Single Models / Aggregates
+  - Retrieving Aggregates
+- Inserting & Updating Models
+  - Inserts
+  - Updates
+  - Mass Assignment
+  - Other Creation Methods
+- Deleting Models
+  - Soft Deleting
+  - Querying Soft Deleted Models
+- Query Scopes
+  - Global Scopes
+  - Local Scopes
+- vComparing Models
+- Events
+  - Observers
+
+
 Testing
 
 
@@ -1154,3 +1222,9 @@ eloquent
 
     ```php
     ```
+
+
+2019/08/02作業  
+1.什麼是vue
+2.為什麼testing的時候要暫停，運行測試時會自動暫停CSRF中介層
+3.lifecycle
