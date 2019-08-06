@@ -1183,29 +1183,149 @@ Closure：
 
 # Eloquent ORM
 ## Getting Started
-- Introduction
-- Defining Models
-  - Eloquent Model Conventions
-  - Default Attribute Values
-- Retrieving Models
-  - Collections
-  - Chunking Results
-- Retrieving Single Models / Aggregates
-  - Retrieving Aggregates
-- Inserting & Updating Models
-  - Inserts
-  - Updates
-  - Mass Assignment
-  - Other Creation Methods
-- Deleting Models
-  - Soft Deleting
-  - Querying Soft Deleted Models
-- Query Scopes
-  - Global Scopes
-  - Local Scopes
-- vComparing Models
-- Events
-  - Observers
+- Introduction  
+  Laravel包含了Eloquent ORM提供了一個漂亮，簡單的ActiveRecord實現，用於處理數據庫。  
+  每個db table都有一個相應的“Model”，用於與該Table進行交互。  
+  Model允許您查詢Table中的數據，以及在Table中插入新記錄。  
+  在開始之前，請確保在`config/database.php`中 配置 數據庫 連接。
+- Defining Models  
+  首先，讓我們創建一個Eloquent模型。  
+  模型通常位於`app`目錄中，但您可以根據`composer.json`文件將它們放置在可以自動加載的任何位置。所有Eloquent模型都擴展了`Illuminate\Database\Eloquent\Model`類。  
+  用指令建立`php artisan make:model Flight`model。  
+  如果要在生成模型時生成數據庫遷移，可以使用--migration或-m選項：
+  ```
+  php artisan make:model Flight --migration
+  php artisan make:model Flight -m
+  ```
+  - Eloquent Model Conventions  
+    現在，讓我們看一個範例 Flight模型，我們將使用它來檢索和存儲來自我們的航班數據庫表的信息：
+    ```php
+    <?php
+
+    namespace App;
+
+    use Illuminate\Database\Eloquent\Model;
+
+    class Flight extends Model
+    {
+        protected $table = 'my_flights';  //Table Names
+
+        protected $primaryKey = 'flight_id';   //Primary Keys
+        public $incrementing = false;
+        protected $keyType = 'string';
+
+        public $timestamps = false;   //Timestamps
+        protected $dateFormat = 'U';
+        const CREATED_AT = 'creation_date';
+        const UPDATED_AT = 'last_update';
+
+        protected $connection = 'connection-name';    //Database Connection
+
+        protected $attributes = [   //Default Attribute Values
+        'delayed' => false,
+        ];
+    }
+    ```
+    - Table Names  
+      若沒有特別指定，則預設使用`Flight`Table。
+    - Primary Keys  
+      指定主鍵。  
+      若主鍵不是遞增，則要調整為false。  
+      若主鍵不是數字，則要設為相對應的型別。  
+    - Timestamps  
+      若不需要時間戳記，則要調整為false。  
+      可設定時間戳記格式。
+      客製化  CREATED_AT和UPDATED_AT 欄位名稱設計。
+    - Database Connection  
+      預設使用預設的設定來connection，可用connection屬性來修改。
+  - Default Attribute Values  
+    定義一些預設屬性給這一個Model。  
+- Retrieving Models檢索模型  
+  ```php
+  <?php
+  $flights = App\Flight::all();
+  foreach ($flights as $flight) {
+      echo $flight->name;
+  }
+  ```
+    - Adding Additional Constraints
+      方法`all`會回傳所有檢索的結果。  
+      由於每個Eloquent模型都充當[query builder](https://laravel.com/docs/5.8/queries)，因此您還可以向查詢添加約束，然後使用get方法檢索結果。  
+      ```php
+      $flights = App\Flight::where('active', 1)
+               ->orderBy('name', 'desc')
+               ->take(10)
+               ->get();
+      ```
+      提醒！！！由於Eloquent模型是query builder，您應該查看查詢構建器上可用的所有方法。您可以在Eloquent查詢中使用這些方法中的任何一種。
+      - Refreshing Models  
+        您可以使用`fresh`和`refresh`方法刷新模型。  
+        `fresh`method將從數據庫中重新檢索模型。現有的模型實例不會受到影響：
+        ```php
+        $flight = App\Flight::where('number', 'FR 900')->first();
+        $freshFlight = $flight->fresh();
+        ```
+        `refresh`方法將使用數據庫中的新數據re-hydrate現有模型。  
+        ```php
+        $flight = App\Flight::where('number', 'FR 900')->first();
+        $flight->number = 'FR 456';
+        $flight->refresh();
+        $flight->number; // "FR 900"
+        ```
+  - Collections  
+  - Chunking Results  
+- Retrieving Single Models / Aggregates  
+  - Retrieving Aggregates  
+- Inserting & Updating Models  
+  - Inserts  
+  - Updates  
+  - Mass Assignment  
+  - Other Creation Methods  
+- Deleting Models  
+  - Soft Deleting  
+  - Querying Soft Deleted Models  
+- Query Scopes  
+  - Global Scopes  
+  - Local Scopes  
+- vComparing Models  
+- Events  
+  - Observers  
+
+## Relationships
+- Introduction  
+- Defining Relationships  
+  - One To One  
+  - One To Many  
+  - One To Many (Inverse)  
+  - Many To Many  
+  - Defining Custom Intermediate Table Models  
+  - Has One Through  
+  - Has Many Through  
+- Polymorphic Relationships  
+  - One To One  
+  - One To Many  
+  - Many To Many  
+  - Custom Polymorphic Types  
+- Querying Relations  
+  - Relationship Methods Vs. Dynamic Properties  
+  - Querying Relationship Existence  
+  - Querying Relationship Absence  
+  - Querying Polymorphic Relationships  
+  - Counting Related Models  
+- Eager Loading  
+  - Constraining Eager Loads  
+  - Lazy Eager Loading  
+- Inserting & Updating Related Models  
+  - The save Method  
+  - The create Method  
+  - Belongs To Relationships  
+  - Many To Many Relationships  
+- Touching Parent Timestamps  
+  
+# Collections
+- Introduction  
+- Available Methods  
+- Custom Collections  
 
 
 Testing
