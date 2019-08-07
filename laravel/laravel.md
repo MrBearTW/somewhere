@@ -1273,16 +1273,265 @@ Closure：
         $flight->number; // "FR 900"
         ```
   - Collections  
+    對於Eloquent方法像是`all`和`grt`檢索的多個結果，將返回`Illuminate\Database\Eloquent\Collection`的實例。  
+    Collection類提供了各種有用的方法來處理您的Eloquent結果：  
+    ```php
+    $flights = $flights->reject(function ($flight) {
+    return $flight->cancelled;
+    });
+    ```
+    您也可以像array一樣循環集合：  
+    ```php
+    foreach ($flights as $flight) {
+    echo $flight->name;
+    }
+    ```
   - Chunking Results  
+    如果需要處理數千個Eloquent記錄，請使用chunk命令。  
+    chunk方法將檢索Eloquent模型的“塊chunk”，將它們送到給定的Closure進行處理。  
+    在處理大型結果集時，使用chunk方法將節省內存：  
+    ```php
+    Flight::chunk(200, function ($flights) {
+      foreach ($flights as $flight) {
+          //
+      }
+    });
+    ```
+    傳遞給該方法的第一個參數是您希望每個“塊”接收的記錄數。  
+    作為第二個參數傳遞的Closure將被調用從數據庫中檢索的每個塊。  
+    將執行數據庫查詢以檢索傳遞給Closure的每個記錄塊。  
+      - Using Cursors
+        cursor方法允許您使用游標迭代數據庫記錄，該游標只執行單個查詢。  
+        處理大量數據時，可以使用cursor方法大大減少內存使用量：
+        ```php
+        foreach (Flight::where('foo', 'bar')->cursor() as $flight) {
+            //
+        }
+        ```
 - Retrieving Single Models / Aggregates  
+  除了檢索給定表的所有記錄之外，您還可以使用`find`或`first`檢索單個記錄。  
+  這些方法返回single model instance，而不是返回模型collection：  
+  ```php
+  // Retrieve a model by its primary key...
+  $flight = App\Flight::find(1);
+
+  // Retrieve the first model matching the query constraints...
+  $flight = App\Flight::where('active', 1)->first();
+  ```
+  您也可以使用主鍵數組調用find方法，這將返回匹配記錄的集合：  
+  ```php
+  $flights = App\Flight::find([1, 2, 3]);
+  ```  
+    - Not Found Exceptions  
+      有時，如果找不到模型，您可能希望拋出exception。  
+      這在routes或controllers中特別有用。  
+      `findOrFail`和`firstOrFail`方法將檢索查詢的第一個結果
+      但是，如果未找到任何結果，將拋出`Illuminate\Database\Eloquent\ModelNotFoundException`：
+      ```php
+      $model = App\Flight::findOrFail(1);
+      $model = App\Flight::where('legs', '>', 100)->firstOrFail();
+      ```
+      如果未捕獲異常，則會自動將404 HTTP響應發送回用戶。  
+      使用這些方法時，沒有必要編寫顯式檢查explicit checks來返回404響應：  
+      ```php
+      Route::get('/api/flights/{id}', function ($id) {
+          return App\Flight::findOrFail($id);
+      });
+      ```
   - Retrieving Aggregates  
+    您還可以使用query builder提供的`count`，`sum`，`max`和其他[聚合方法aggregate methods](https://laravel.com/docs/5.8/queries#aggregates) 。
+    這些方法返回適當的scalar value，而不是完整的模型實例：
+    ```php
+    $count = App\Flight::where('active', 1)->count();
+    $max = App\Flight::where('active', 1)->max('price');
+    ```
 - Inserting & Updating Models  
   - Inserts  
+    要在database中創建新記錄，請創建新model instance，在模型上設置屬性，然後調用save方法：
+    ```php
+    <?php
+
+    namespace App\Http\Controllers;
+
+    use App\Flight;
+    use Illuminate\Http\Request;
+    use App\Http\Controllers\Controller;
+
+    class FlightController extends Controller
+    {
+        /**
+        * Create a new flight instance.
+        *
+        * @param  Request  $request
+        * @return Response
+        */
+        public function store(Request $request)
+        {
+            // Validate the request...
+
+            $flight = new Flight;
+
+            $flight->name = $request->name;
+
+            $flight->save();
+        }
+    }
+    ```
+    呼叫`save`方法時，`created_at` and `updated_at`會自動被規定。
   - Updates  
+    - Mass Updates
+      所有處於活動狀態且目的地為聖地亞哥的航班將被標記為延遲。  
+      ```php
+      App\Flight::where('active', 1)
+          ->where('destination', 'San Diego')
+          ->update(['delayed' => 1]);
+      ```
+      注意！！！  通過Eloquent發出批量更新時，不會為更新的模型觸發`saving`, `saved`, `updating`, and`updated`的模型事件。這是因為在發布批量更新時，實際上從未檢索過模型。  
   - Mass Assignment  
+    但是，在執行此操作之前，您需要在模型上指定`fillable` or `guarded`屬性，因為默認情況下所有Eloquent模型都會防止批量分配。  
+    當用戶通過請求傳遞意外的HTTP參數時，會發生批量分配漏洞，並且該參數會更改數據庫中您不期望的column。  
+    例如，惡意用戶可能通過HTTP請求發送is_admin參數，然後將其傳遞到模型的create方法中，允許用戶將自己升級為管理員。  
+    因此，要開始使用，您應該定義要進行批量分配的模型屬性。
+    您可以使用模型上的`$fillable`屬性執行此操作。  
+    ```php
+    <?php
+    namespace App;
+    use Illuminate\Database\Eloquent\Model;
+    class Flight extends Model
+    {
+        /**
+        * The attributes that are mass assignable.
+        *
+        * @var array
+        */
+        protected $fillable = ['name'];
+    }
+    ```
+    一旦我們將屬性賦予質量可分配，我們就可以使用create方法在數據庫中插入新記錄。  
+    create方法返回已saved model 實例：  
+    ```php
+    $flight = App\Flight::create(['name' => 'Flight 10']);
+    ```
+    如果您已有模型實例，則可以使用fill方法使用一組屬性填充它：  
+    ```php
+    $flight->fill(['name' => 'Flight 22']);
+    ```
+    - Guarding Attributes
+      雖然`$fillable`可作為可以批量分配的屬性的“白名單”，但您也可以選擇使用`$guarded`。  
+      `$guarded`屬性應包含一系列您不希望可批量分配的屬性。  
+      不在array中的所有其他屬性將是可批量分配的。  
+      因此，`$guarded`功能就像一個“黑名單”。  
+      重要的是，您應該使用`$fillable`或`$guarded` - 而不是兩者。  
+      在下面的示例中，除價格外的所有屬性都是可批量分配的：  
+      ```php
+      <?php
+      namespace App;
+      use Illuminate\Database\Eloquent\Model;
+      class Flight extends Model
+      {
+          /**
+          * The attributes that aren't mass assignable.
+          *
+          * @var array
+          */
+          protected $guarded = ['price'];
+      }
+      ```
+      如果您想使所有屬性都可以分配，您可以將`$guarded`屬性定義為空array：  
+      ```php
+      /**
+       * The attributes that aren't mass assignable.
+      *
+      * @var array
+      */
+      protected $guarded = [];
+      ```
   - Other Creation Methods  
+    **firstOrCreate / firstOrNew**
+    您可以使用另外兩種方法通過批量分配屬性來創建模型：`firstOrCreate`和`firstOrNew`。  
+    `firstOrCreate`方法將嘗試使用給定的column/value對定位數據庫記錄。  
+    如果在數據庫中找不到該模型，則將插入一條記錄，其中包含第一個參數的屬性以及可選的第二個參數中的屬性。  
+    `firstOrNew`方法與`firstOrCreate`一樣，將嘗試在與給定屬性匹配的數據庫中查找記錄。  
+    但是，如果未找到模型，則將返回新的模型實例。  
+    請注意，firstOrNew返回的模型尚未保留到數據庫中。  
+    您需要手動調用save來保存它：  
+    ```php
+    // Retrieve flight by name, or create it if it doesn't exist...
+    $flight = App\Flight::firstOrCreate(['name' => 'Flight 10']);
+
+    // Retrieve flight by name, or create it with the name, delayed, and arrival_time attributes...
+    $flight = App\Flight::firstOrCreate(
+        ['name' => 'Flight 10'],
+        ['delayed' => 1, 'arrival_time' => '11:30']
+    );
+
+    // Retrieve by name, or instantiate...
+    $flight = App\Flight::firstOrNew(['name' => 'Flight 10']);
+
+    // Retrieve by name, or instantiate with the name, delayed, and arrival_time attributes...
+    $flight = App\Flight::firstOrNew(
+        ['name' => 'Flight 10'],
+        ['delayed' => 1, 'arrival_time' => '11:30']
+    );
+    ```  
+    **updateOrCreate**
+    您可能還會遇到要更新現有模型或創建新模型（如果不存在）的情況。  
+    Laravel提供了updateOrCreate方法，只需一步即可完成此操作。  
+    與firstOrCreate方法一樣，updateOrCreate持久化模型，因此無需調用save）：  
+    ```php
+    // If there's a flight from Oakland to San Diego, set the price to $99.
+    // If no matching model exists, create one.
+    $flight = App\Flight::updateOrCreate(
+        ['departure' => 'Oakland', 'destination' => 'San Diego'],
+        ['price' => 99, 'discounted' => 1]
+    );
+    ```
 - Deleting Models  
+  要刪除model，請在model實例上調用delete方法：  
+  ```php
+  $flight = App\Flight::find(1);
+
+  $flight->delete();
+  ```
+  **Deleting An Existing Model By Key**  
+    在上面的示例中，我們在調用delete方法之前從數據庫中檢索模型。但是，如果您知道模型的主鍵，則可以通過調用destroy方法刪除模型而不檢索它。    
+    除了單個主鍵作為其參數之外，destroy方法還將接受多個主鍵，主鍵數組或主鍵集合：  
+    ```php
+    App\Flight::destroy(1);
+
+    App\Flight::destroy(1, 2, 3);
+
+    App\Flight::destroy([1, 2, 3]);
+
+    App\Flight::destroy(collect([1, 2, 3]));
+    ```
+    **Deleting Models By Query**  
+    您還可以在一組模型上運行delete語句。  
+    在此示例中，我們將刪除所有標記為非活動的航班。  
+    與批量更新一樣，批量刪除不會為已刪除的模型觸發任何模型事件  
+    ```php
+    $deletedRows = App\Flight::where('active', 0)->delete();
+    ```  
+    *注意！！！*   
+    通過Eloquent執行批量刪除語句時，不會為已刪除的模型觸發deleting and  deleted的模型事件。  
+    這是因為在執行delete語句時從不實際檢索模型。  
   - Soft Deleting  
+    除了實際從數據庫中刪除記錄外，Eloquent還可以“軟刪除”模型。  
+    模型被軟刪除後，實際上不會從數據庫中刪除它們。
+    而是在模型上設置deleted_at屬性並將其插入到數據庫中。  
+    如果模型具有非null的deleted_at值，則模型已被軟刪除。  
+    要為模型啟用軟刪除，請在模型上使用`Illuminate\Database\Eloquent\SoftDeletes`trait(特徵)：  
+    ```php
+    <?php
+    namespace App;
+    use Illuminate\Database\Eloquent\Model;
+    use Illuminate\Database\Eloquent\SoftDeletes;
+    class Flight extends Model
+    {
+        use SoftDe letes;
+    }
+    ```
+
   - Querying Soft Deleted Models  
 - Query Scopes  
   - Global Scopes  
