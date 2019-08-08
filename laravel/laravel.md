@@ -1531,14 +1531,277 @@ Closure：
         use SoftDe letes;
     }
     ```
+    提醒！！！`SoftDeletes`特徵會自動將`deleted_at`屬性強制轉換為`DateTime` / `Carbon`實例。  
 
-  - Querying Soft Deleted Models  
+    您還應該將`deleted_at`列添加到數據庫表中。  
+    Laravel [schema builder]()包含一個用於創建此列的幫助器方法：
+    ```php
+    Schema::table('flights', function (Blueprint $table) {
+    $table->softDeletes();
+    });
+    ```
+    現在，當您delete在模型上調用方法時，該deleted_at列將設置為當前日期和時間。並且，在查詢使用軟刪除的模型時，軟刪除的模型將自動從所有查詢結果中排除。  
+    要確定某個模型實例是否已被軟刪除，請使用以下trashed方法：  
+    ```php
+    if ($flight->trashed()) {
+    //
+    }
+    ```
+  - Querying Soft Deleted Models    
+    - Including Soft Deleted Models
+      如上所述，軟刪除的模型將自動從查詢結果中排除。  
+      但是，您可以使用`withTrashed`查詢方法強制軟刪除的模型出現在 結果集 中：  
+      ```php
+      $flights = App\Flight::withTrashed()
+                ->where('account_id', 1)
+                ->get();
+      ```
+      該withTrashed方法也可用於`relationship`查詢：  
+      ```php
+      $flight->history()->withTrashed()->get();
+      ```
+    - Retrieving Only Soft Deleted Models
+      該`onlyTrashed`方法僅檢索軟刪除的模型：  
+      ```php
+      $flights = App\Flight::onlyTrashed()
+                ->where('airline_id', 1)
+                ->get();
+      ```
+    - Restoring Soft Deleted Models  
+      有時您可能希望“取消刪除”軟刪除的模型。要將軟刪除的模型恢復為活動狀態，請`restore`在模型實例上使用該方法：  
+      ```php
+      $flight->restore();
+      ```
+      您還可以restore在查詢中使用該方法來快速恢復多個模型。同樣，與其他“大規模”操作一樣，這不會為已恢復的模型觸發任何模型事件：  
+      ```php
+      App\Flight::withTrashed()
+        ->where('airline_id', 1)
+        ->restore();
+      ```
+      與`withTrashed`方法一樣，該`restore`方法也可用於關係：  
+      ```php
+      $flight->history()->restore();
+      ```
+    - Permanently Deleting Models
+      有時您可能需要從數據庫中真正刪除模型。要從數據庫中永久刪除軟刪除的模型，請使用以下forceDelete方法：  
+      ```php
+      // Force deleting a single model instance...
+      $flight->forceDelete();
+
+      // Force deleting all related models...
+      $flight->history()->forceDelete();
+      ```
 - Query Scopes  
   - Global Scopes  
+    全局範圍允許您為給定模型的所有查詢添加約束。Laravel自己的軟刪除功能利用全局範圍僅從數據庫中提取“未刪除”模型。編寫自己的全局範圍可以提供一種方便，簡單的方法來確保給定模型的每個查詢都接收到某些約束。  
+    - Writing Global Scopes
+      編寫全局範圍很簡單。定義實現接口的類。此接口要求您實現一種方法：`apply`  
+      `apply`方法可以根據需要添加`where`查詢的約束：  
+      ```php
+      <?php
+      namespace App\Scopes;
+      use Illuminate\Database\Eloquent\Scope;
+      use Illuminate\Database\Eloquent\Model;
+      use Illuminate\Database\Eloquent\Builder;
+
+      class AgeScope implements Scope
+      {
+          /**
+          * Apply the scope to a given Eloquent query builder.
+          *
+          * @param  \Illuminate\Database\Eloquent\Builder  $builder
+          * @param  \Illuminate\Database\Eloquent\Model  $model
+          * @return void
+          */
+          public function apply(Builder $builder, Model $model)
+          {
+              $builder->where('age', '>', 200);
+          }
+      }
+      ```
+      提醒！！！  
+      如果您的全局範圍是在查詢的select子句中添加列，則應使用該`addSelect`方法而不是`select`。這將防止無意中替換查詢的現有select子句。  
+    - Applying Global Scopes  
+      要將全局範圍分配給模型，您應該覆蓋給定模型的`boot`方法並使用以下`addGlobalScope`方法：  
+      ```php
+      <?php
+      namespace App;
+      use App\Scopes\AgeScope;
+      use Illuminate\Database\Eloquent\Model;
+      class User extends Model
+      {
+          /**
+          * The "booting" method of the model.
+          *
+          * @return void
+          */
+          protected static function boot()
+          {
+              parent::boot();
+              static::addGlobalScope(new AgeScope);
+          }
+      }
+      ```
+      添加範圍後，查詢將生成以下SQL：`User::all()`  
+      ```sql
+      select * from `users` where `age` > 200
+      ```
+    - Anonymous Global Scopes
+      Eloquent還允許您使用Closures定義全局範圍，這對於不保證單獨類的簡單範圍特別有用：  
+      ```php
+      <?php
+      namespace App;
+      use Illuminate\Database\Eloquent\Model;
+      use Illuminate\Database\Eloquent\Builder;
+      class User extends Model
+      {
+          /**
+          * The "booting" method of the model.
+          *
+          * @return void
+          */
+          protected static function boot()
+          {
+              parent::boot();
+              static::addGlobalScope('age', function (Builder $builder) {
+                  $builder->where('age', '>', 200);
+              });
+          }
+      }
+      ```
+    - Removing Global Scopes
+      如果要刪除給定查詢的全局範圍，可以使用該`withoutGlobalScope`方法。該方法接受全局範圍的類名作為其唯一參數：  
+      ```php
+      User::withoutGlobalScope(AgeScope::class)->get();
+      ```
+      或者，如果使用Closure定義了全局範圍：  
+      ```php
+      User::withoutGlobalScope('age')->get();  
+      ```
+      如果您想刪除幾個甚至所有全局範圍，可以使用以下`withoutGlobalScopes`方法：  
+      ```php
+      // Remove all of the global scopes...
+      User::withoutGlobalScopes()->get();
+
+      // Remove some of the global scopes...
+      User::withoutGlobalScopes([
+          FirstScope::class, SecondScope::class
+      ])->get();
+      ```
   - Local Scopes  
-- vComparing Models  
+    本地範圍允許您定義可在整個應用程序中輕鬆重用的常見約束集。例如，您可能需要經常檢索所有被視為“熱門”的用戶。要定義範圍，請使用Eloquent模型方法作為前綴`scope。  
+  
+    範圍應始終返回查詢構建器實例：  
+    ```php
+    <?php
+    namespace App;
+    use Illuminate\Database\Eloquent\Model;
+    class User extends Model
+    {
+        /**
+        * Scope a query to only include popular users.
+        *
+        * @param  \Illuminate\Database\Eloquent\Builder  $query
+        * @return \Illuminate\Database\Eloquent\Builder
+        */
+        public function scopePopular($query)
+        {
+            return $query->where('votes', '>', 100);
+        }
+
+        /**
+        * Scope a query to only include active users.
+        *
+        * @param  \Illuminate\Database\Eloquent\Builder  $query
+        * @return \Illuminate\Database\Eloquent\Builder
+        */
+        public function scopeActive($query)
+        {
+            return $query->where('active', 1);
+        }
+    }
+    ```
+    - Utilizing A Local Scope
+      定義範圍後，可以在查詢模型時調用範圍方法。但是`scope`調用方法時不應包含前綴。您甚至可以將調用鏈接到各種範圍，例如：  
+      ```php
+      $users = App\User::popular()->active()->orderBy('created_at')->get();
+      ```
+      通過`or`查詢運算符組合多個Eloquent模型範圍可能需要使用Closure回調：  
+      ```php
+      $users = App\User::popular()->orWhere(function (Builder $query) {
+          $query->active();
+      })->get();
+      ```
+      但是，由於這可能很麻煩，Laravel提供了一種“更高階” `orWhere`方法，允許您在不使用閉包的情況下流暢地將這些範圍鏈接在一起：  
+      ```php
+      $users = App\User::popular()->orWhere->active()->get();  
+      ```
+    - Dynamic Scopes
+      有時您可能希望定義接受參數的範圍。要開始使用，只需將其他參數添加到範圍即可。範圍參數應在`$query`參數後定義：
+      ```php
+      <?php
+      namespace App;
+      use Illuminate\Database\Eloquent\Model;
+      class User extends Model
+      {
+          /**
+          * Scope a query to only include users of a given type.
+          *
+          * @param  \Illuminate\Database\Eloquent\Builder  $query
+          * @param  mixed  $type
+          * @return \Illuminate\Database\Eloquent\Builder
+          */
+          public function scopeOfType($query, $type)
+          {
+              return $query->where('type', $type);
+          }
+      }
+      ```
+      現在，您可以在調用範圍時傳遞參數：  
+      ```php
+      $users = App\User::ofType('admin')->get();
+      ```
+- Comparing Models  
+  有時您可能需要確定兩個模型是否“相同”。該`is`方法可用於快速驗證兩個模型具有相同的主鍵，表和數據庫連接：  
+  ```php
+  if ($post->is($anotherPost)) {
+      //
+  }
+  ```
 - Events  
+  Eloquent models發射的幾個事件，讓你掛接到以下幾點在模型的生命週期：`retrieved`，`creating`，`created`，`updating`，`updated`，`saving`，`saved`，`deleting`，`deleted`，`restoring`，`restored`。  
+  事件允許您在每次在數據庫中保存或更新特定模型類時輕鬆執行代碼。每個事件通過其構造函數接收模型的實例。  
+  `retrieved`從數據庫中檢索現有模型時將觸發該事件。當第一次保存新模型時，將觸發`creating`和`created`事件。如果數據庫中已存在模型並且`save`調用該方法，則會觸發`updating`/  `updatedevents`。但是，在這兩種情況下，`saving`/ `saved`events都會觸發。  
+  注意！！！  通過Eloquent發出批量更新時，不會為更新的模型觸發`saved`和`updated`模型事件。這是因為在發布批量更新時，實際上從未檢索過模型。  
+  首先，`$dispatchesEvents`在您的Eloquent模型上定義一個屬性，該屬性將Eloquent模型生命週期的各個點映射到您自己的event classes：  
+  ```php
+  <?php
+
+  namespace App;
+
+  use App\Events\UserSaved;
+  use App\Events\UserDeleted;
+  use Illuminate\Notifications\Notifiable;
+  use Illuminate\Foundation\Auth\User as Authenticatable;
+
+  class User extends Authenticatable
+  {
+      use Notifiable;
+
+      /**
+      * The event map for the model.
+      *
+      * @var array
+      */
+      protected $dispatchesEvents = [
+          'saved' => UserSaved::class,
+          'deleted' => UserDeleted::class,
+      ];
+  }
+  ```
+  定義和映射您的Eloquent事件後，您可以使用事件偵聽器來處理事件。  
   - Observers  
+  
 
 ## Relationships
 - Introduction  
