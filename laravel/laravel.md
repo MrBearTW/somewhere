@@ -1801,7 +1801,8 @@ Closure：
   ```
   定義和映射您的Eloquent事件後，您可以使用事件偵聽器來處理事件。  
   - Observers  
-  
+
+    `php artisan make:observer UserObserver --model=User`  
 
 ## Relationships
 - Introduction  
@@ -1860,3 +1861,5 @@ eloquent
 1.什麼是vue
 2.為什麼testing的時候要暫停，運行測試時會自動暫停CSRF中介層
 3.lifecycle
+
+找範例
