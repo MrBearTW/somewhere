@@ -1801,11 +1801,92 @@ Closure：
   ```
   定義和映射您的Eloquent事件後，您可以使用事件偵聽器來處理事件。  
   - Observers  
+    - Defining Observers  
+      如果您正在偵聽給定模型上的許多事件，則可以使用觀察者將所有偵聽器分組到單個類中。  
+      觀察者類具有反映您希望收聽的Eloquent事件的方法名稱。  
+      這些方法中的每一個都接收模型作為它們的唯一參數。  
+      在Artisan的命令是創建一個新的觀察員類最簡單的方法：`make:observer`  
+      `php artisan make:observer UserObserver --model=User`  
+      此命令將新觀察者放在您的目錄中。如果此目錄不存在，Artisan將為您創建該目錄。你的新觀察者將如下所示：`App/Observers`  
+      ```php
+      <?php
+      namespace App\Observers;
+      use App\User;
+      class UserObserver
+      {
+          /**
+          * Handle the User "created" event.
+          *
+          * @param  \App\User  $user
+          * @return void
+          */
+          public function created(User $user)
+          {
+              //
+          }
 
-    `php artisan make:observer UserObserver --model=User`  
+          /**
+          * Handle the User "updated" event.
+          *
+          * @param  \App\User  $user
+          * @return void
+          */
+          public function updated(User $user)
+          {
+              //
+          }
 
+          /**
+          * Handle the User "deleted" event.
+          *
+          * @param  \App\User  $user
+          * @return void
+          */
+          public function deleted(User $user)
+          {
+              //
+          }
+      }
+      ```
+      要註冊觀察者，請`observe`在要觀察的模型上使用該方法。  
+      您可以在`boot`您的某個服務提供商的方法中註冊觀察者。 
+      在這個例子中，我們將註冊觀察者AppServiceProvider：  
+      ```php
+      <?php
+
+      namespace App\Providers;
+
+      use App\User;
+      use App\Observers\UserObserver;
+      use Illuminate\Support\ServiceProvider;
+
+      class AppServiceProvider extends ServiceProvider
+      {
+          /**
+          * Register any application services.
+          *
+          * @return void
+          */
+          public function register()
+          {
+              //
+          }
+
+          /**
+          * Bootstrap any application services.
+          *
+          * @return void
+          */
+          public function boot()
+          {
+              User::observe(UserObserver::class);
+          }
+      }
+      ```
 ## Relationships
 - Introduction  
+  數據庫表通常彼此相關。例如，博客文章可能有很多評論，或者訂單可能與放置它的用戶有關。  
+  Eloquent使管理和處理這些關係變得容易，並支持幾種不同類型的關係：  
 - Defining Relationships  
   - One To One  
   - One To Many  
