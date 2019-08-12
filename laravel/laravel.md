@@ -1888,39 +1888,756 @@ Closure：
   數據庫表通常彼此相關。例如，博客文章可能有很多評論，或者訂單可能與放置它的用戶有關。  
   Eloquent使管理和處理這些關係變得容易，並支持幾種不同類型的關係：  
 - Defining Relationships  
+  Eloquent關係被定義為您的Eloquent模型class的方法。  
+  因為，與Eloquent模型本身一樣，關係也可以作為強大的查詢構建器，將關係定義為方法提供了強大的方法鏈接和查詢功能。  
+  例如，我們可能會對此posts關係鏈接其他約束：  
+  ```php
+  $user->posts()->where('active', 1)->get();
+  ```
+  但是，在深入探討使用關係之前，讓我們學習如何定義每種類型。  
   - One To One  
+    一對一的關係是一種非常基本的關係。  
+    例如，`User`模型可能與一個模型相關聯`Phone`。  
+    為了定義這種關係，我們`phone`在`User`模型上放置一個方法。  
+    該`phone`方法應調用該`hasOne`方法並返回其結果：  
+    ```php
+    <?php
+    namespace App;
+    use Illuminate\Database\Eloquent\Model;
+    class User extends Model
+    {
+        /**
+        * Get the phone record associated with the user.
+        */
+        public function phone()
+        {
+            return $this->hasOne('App\Phone');
+        }
+    }
+    ```
+    傳遞給該hasOne方法的第一個參數是相關模型的名稱。  
+    一旦定義了關係，我們就可以使用Eloquent的動態屬性檢索相關記錄。  
+    動態屬性允許您訪問關係方法，就好像它們是在模型上定義的屬性一樣：  
+    ```php
+    $phone = User::find(1)->phone;
+    ```
+    Eloquent根據模型名稱確定關係的foreign key。  
+    在這種情況下，`Phone`模型自動被假定為具有`user_id`外鍵。  
+    如果要覆蓋此約定，可以將第二個參數傳遞給該`hasOne`方法：  
+    ```php
+    return $this->hasOne('App\Phone', 'foreign_key');
+    ```
+    此外，Eloquent假定外鍵應具有與父級`id`（或自定義`$primaryKey`）列匹配的值。  
+    換句話說，Eloquent將在電話記錄的`user_id`列中查找用戶`id`列的值。  
+    如果您希望關係使用`id`以外的值，則可以將第三個參數傳遞給指定自定義鍵的`hasOne`方法：  
+    ```php
+    return $this->hasOne('App\Phone', 'foreign_key', 'local_key');  
+    ```
+    - Defining The Inverse Of The Relationship
+      因此，我們可以從`User`訪問`Phone`模型。  
+      現在，讓我們在`Phone`模型上定義一個關係，讓我們訪問擁有手機的`User`。  
+      我們可以使用`belongsTo`方法定義`hasOne`關係的倒數：  
+      ```php
+      <?php
+      namespace App;
+      use Illuminate\Database\Eloquent\Model;
+      class Phone extends Model
+      {
+          /**
+          * Get the user that owns the phone.
+          */
+          public function user()
+          {
+              return $this->belongsTo('App\User');
+          }
+      }
+      ```
+      在上面的範例中，`Eloquent`將嘗試`user_id`將`Phone`模型中`id`的`User`模型與模型匹配。  
+      Eloquent通過檢查關係方法的名稱並使用方法名稱後綴來確定默認外鍵名稱_id。  
+      但是，如果`Phone`模型上的外鍵不是`user_id`，則可以將自定義鍵名作為第二個參數傳遞給`belongsTo`方法：  
+      ```php
+      /**
+       * Get the user that owns the phone.
+      */
+      public function user()
+      {
+          return $this->belongsTo('App\User', 'foreign_key');
+      }
+      ```
+      如果您的父模型不用id作其主鍵，或者您希望將子模型連接到其他列，則可以將第三個參數傳遞給belongsTo指定父表的自定義鍵的方法：  
+      ```php
+      /**
+       * Get the user that owns the phone.
+      */
+      public function user()
+      {
+          return $this->belongsTo('App\User', 'foreign_key', 'other_key');
+      }
+      ```
   - One To Many  
+    一對多關係用於定義單個模型擁有任何數量的其他模型的關係。  
+    例如，博客文章可能有無數的評論。  
+    與所有其他Eloquent關係一樣，通過在Eloquent模型上放置一個函數來定義一對多關係：  
+    ```php
+    <?php
+    namespace App;
+    use Illuminate\Database\Eloquent\Model;
+    class Post extends Model
+    {
+        /**
+        * Get the comments for the blog post.
+        */
+        public function comments()
+        {
+            return $this->hasMany('App\Comment');
+        }
+    }
+    ```
+    請記住，Eloquent會自動確定`Comment`模型上正確的外鍵列。  
+    按照慣例，Eloquent將採用擁有模型的“蛇型”名稱並將其後綴`_id`。  
+    因此，對於此示例，Eloquent將假設`Comment`模型上的外鍵是`post_id`。  
+
+    一旦定義了關係，我們就可以通過訪問該comments屬性來訪問註釋集合。  
+    請記住，由於Eloquent提供了“動態屬性”，我們可以像訪問模型中的屬性一樣訪問關係方法：  
+    ```php
+    $comments = App\Post::find(1)->comments;
+
+    foreach ($comments as $comment) {
+        //
+    }
+    ```
+    由於所有關係也充當查詢構建器，因此可以通過調用comments方法並繼續將條件鏈接到查詢來添加對檢索到的註釋的進一步約束：  
+    ```php
+    $comment = App\Post::find(1)->comments()->where('title', 'foo')->first();
+    ```
+    與`hasOne`方法一樣，您也可以通過向`hasMany`方法傳遞其他參數來覆蓋外鍵和本地鍵：  
+    ```php
+    return $this->hasMany('App\Comment', 'foreign_key');
+
+    return $this->hasMany('App\Comment', 'foreign_key', 'local_key');
+    ```
   - One To Many (Inverse)  
+    現在我們可以訪問所有帖子的評論，讓我們定義一個關係，允許評論訪問其父帖子。  
+    要定義`hasMany`關係的反轉，請在調用`belongsTo`方法的子模型上定義關係函數：  
+    ```php
+    <?php
+    namespace App;
+    use Illuminate\Database\Eloquent\Model;
+    class Comment extends Model
+    {
+        /**
+        * Get the post that owns the comment.
+        */
+        public function post()
+        {
+            return $this->belongsTo('App\Post');
+        }
+    }
+    ```
+    一旦定義了關係，我們就可以通過訪問帖子“動態屬性”來檢索評論的Post模型：  
+    ```php
+    $comment = App\Comment::find(1);
+    echo $comment->post->title;
+    ```
+    在上面的示例中，Eloquent將嘗試post_id將Comment模型中id的Post模型與模型匹配。  
+    Eloquent通過檢查關係方法的名稱並使用`_`後跟主鍵列名稱後綴方法名稱來確定默認外鍵名稱。  
+    但是，如果`Comment`模型上的外鍵不是`post_id`，則可以將自定義鍵名作為第二個參數傳遞給`belongsTo`方法：  
+    ```php
+    /**
+     * Get the post that owns the comment.
+    */
+    public function post()
+    {
+        return $this->belongsTo('App\Post', 'foreign_key');
+    }
+    ```
+    如果您的父模型不用`id`作其主鍵，或者您希望將子模型連接到其他列，則可以將第三個參數傳遞給`belongsTo`指定父表的自定義鍵的方法：
   - Many To Many  
+    許多一對多的關係稍微比更複雜`hasOne`和`hasMany`關係。  
+    這種關係的一個示例是具有許多角色的用戶，其中角色也由其他用戶共享。  
+    例如，許多用戶可能具有“管理員”的角色。要定義這種關係，需要三個數據庫表：`users`，`roles`，和`role_user`。  
+    該`role_user`表源自相關模型名稱的字母順序，並包含`user_id`和`role_id`列。  
+
+    通過編寫返回方法結果的`belongsToMany方法來定義多對多關係。  
+    讓roles我們在User模型上定義方法：  
+    ```php
+    <?php
+    namespace App;
+    use Illuminate\Database\Eloquent\Model;
+    class User extends Model
+    {
+        /**
+        * The roles that belong to the user.
+        */
+        public function roles()
+        {
+            return $this->belongsToMany('App\Role');
+        }
+    }
+    ```
+    定義關係後，您可以使用`roles`動態屬性訪問用戶的角色：  
+    ```php
+    $user = App\User::find(1);
+    foreach ($user->roles as $role) {
+        //
+    }
+    ```
+    與所有其他關係類型一樣，您可以調用該`roles`方法繼續將查詢約束鏈接到關係：  
+    ```php
+    $roles = App\User::find(1)->roles()->orderBy('name')->get();  
+    ```
+    如前所述，為確定關係連接表的表名，Eloquent將按字母順序連接兩個相關的模型名稱。  
+    但是，您可以自由地覆蓋此約定。您可以通過向`belongsToMany`方法傳遞第二個參數來執行此操作：  
+    ```php
+    return $this->belongsToMany('App\Role', 'role_user');
+    ```
+    除了自定義連接表的名稱之外，您還可以通過將其他參數傳遞給`belongsToMany`方法來自定義表上鍵的列名。  
+    第三個參數是您定義關係的模型的外鍵名稱，而第四個參數是您要加入的模型的外鍵名稱：  
+    ```php
+    return $this->belongsToMany('App\Role', 'role_user', 'user_id', 'role_id');
+    ```
   - Defining Custom Intermediate Table Models  
+    要定義多對多關係的反轉，請`belongsToMany`在相關模型上再次調用。  
+    要繼續我們的用戶角色示例，讓我們`users`在`Role`模型上定義方法：  
+    ```php
+    <?php
+    namespace App;
+    use Illuminate\Database\Eloquent\Model;
+    class Role extends Model
+    {
+        /**
+        * The users that belong to the role.
+        */
+        public function users()
+        {
+            return $this->belongsToMany('App\User');
+        }
+    }
+    ```
+    如您所見，`User`除了引用模型之外，關係的定義與其對應關係完全相同。  
+    由於我們正在重用`belongsToMany`方法，因此在定義多對多關係的反轉時，所有常用的表和鍵自定義選項都可用。  
+    - Retrieving Intermediate Table Columns 檢索 中間 表 欄位
+      正如您已經了解的那樣，處理多對多關係需要存在中間表。Eloquent提供了一些與此表交互的非常有用的方法。  
+      例如，假設我們的對`User`像有許多`Role`與之相關的對象。  
+      訪問此關係後，我們可以使用`pivot`模型上的屬性訪問中間表：  
+      ```php
+      $user = App\User::find(1);
+      foreach ($user->roles as $role) {
+          echo $role->pivot->created_at;
+      }
+      ```
+      請注意，`Role`我們檢索的每個模型都會自動分配一個`pivot`屬性。  
+      此屬性包含表示中間表的模型，可以像任何其他Eloquent模型一樣使用。  
+        
+      默認情況下，對像上僅存在模型鍵`pivot`。  
+      如果數據透視表包含額外屬性，則必須在定義關係時指定它們：  
+      ```php
+      return $this->belongsToMany('App\Role')->withPivot('column1', 'column2');  
+      ```
+      如果您希望數據透視表具有自動維護`created_at`和`updated_at`時間戳，請使用`withTimestamps`關係定義上的方法：  
+      ```php
+      return $this->belongsToMany('App\Role')->withTimestamps();
+      ```
+    - Customizing The pivot Attribute Name
+      如前所述，可以使用該pivot屬性在模型上訪問中間表的屬性。  
+      但是，您可以自由定制此屬性的名稱，以更好地反映其在應用程序中的用途。  
+        
+      例如，如果您的應用程序包含可能訂閱播客的用戶，則您可能在用戶和播客之間存在多對多關係。  
+      如果是這種情況，您可能希望將中間表訪問者重命名為`subscription`而不是`pivot`。  
+      這可以`as`在定義關係時使用該方法完成：
+      ```php
+      return $this->belongsToMany('App\Podcast')
+                  ->as('subscription')
+                  ->withTimestamps();
+      ```
+      完成此操作後，您可以使用自定義名稱訪問中間表數據：  
+      ```php
+      $users = User::with('podcasts')->get();
+      foreach ($users->flatMap->podcasts as $podcast) {
+          echo $podcast->subscription->created_at;
+      }
+      ```
+    - Filtering Relationships Via Intermediate Table Columns  
+      您還可以在定義關係時使用`wherePivot`和`wherePivotIn`方法過濾`belongsToMany`返回的結果：  
+      ```php
+      return $this->belongsToMany('App\Role')->wherePivot('approved', 1);
+      return $this->belongsToMany('App\Role')->wherePivotIn('priority', [1, 2]);
+      ```
+    - Defining Custom Intermediate Table Models  
+      如果要定義自定義模型來表示關係的中間表，可以`using`在定義關係時調用該方法。  
+      自定義多對多數據透視模型應擴展`Illuminate\Database\Eloquent\Relations\Pivot`類，而自定義多態多對多數據透視模型應擴展`Illuminate\Database\Eloquent\Relations\MorphPivot`類。   
+      例如，我們可以定義一個使用自定義`RoleUser pivot`模型的`Role`：  
+      ```php
+      <?php
+      namespace App;
+      use Illuminate\Database\Eloquent\Model;
+      class Role extends Model
+      {
+          /**
+          * The users that belong to the role.
+          */
+          public function users()
+          {
+              return $this->belongsToMany('App\User')->using('App\RoleUser');
+          }
+      }
+      ```
+      在定義`RoleUser`模型時，我們將擴展`Pivot`類：  
+      ```php
+      <?php
+
+      namespace App;
+
+      use Illuminate\Database\Eloquent\Relations\Pivot;
+
+      class RoleUser extends Pivot
+      {
+          //
+      }
+      ```
+      您可以組合`using`併`withPivot`從中間表中檢索列。  
+      或者，您可以通過將列名稱傳遞給`withPivot`方法從`RoleUser`數據透視表中檢索`created_by`和`updated_by`列：  
+      ```php
+      <?php
+      namespace App;
+      use Illuminate\Database\Eloquent\Model;
+      class Role extends Model
+      {
+          /**
+          * The users that belong to the role.
+          */
+          public function users()
+          {
+              return $this->belongsToMany('App\User')
+                              ->using('App\RoleUser')
+                              ->withPivot([
+                                  'created_by',
+                                  'updated_by'
+                              ]);
+          }
+      }
+      ```
+      注意！！！  
+      Pivot模型可能不使用該SoftDeletes特徵。如果您需要軟刪除數據透視記錄，請考慮將您的數據透視模型轉換為實際的Eloquent模型。 
+    - Custom Pivot Models And Incrementing IDs
+      如果已定義使用自定義透視模型的多對多關係，並且該透視模型具有自動遞增主鍵，則應確保自定義透視模型類定義`incrementing`設置為的屬性true。  
+      ```php
+      /**
+      * Indicates if the IDs are auto-incrementing.
+      *
+      * @var bool
+      */
+      public $incrementing = true;
+      ```
   - Has One Through  
+    供應商 用戶 用戶歷史  
   - Has Many Through  
-- Polymorphic Relationships  
-  - One To One  
-  - One To Many  
-  - Many To Many  
+    透過使用者資料查到國家  
+    ```
+    countries
+        id - integer
+        name - string
+
+    users
+        id - integer
+        country_id - integer
+        name - string
+
+    posts
+        id - integer
+        user_id - integer
+        title - string
+    ```
+- Polymorphic Relationships 多態  
+  - One To One(Polymorphic)  
+    ```
+    posts
+        id - integer
+        name - string
+
+    users
+        id - integer
+        name - string
+
+    images
+        id - integer
+        url - string
+        imageable_id - integer
+        imageable_type - string
+    ```
+    依照需求返回不同形式的圖片  
+  - One To Many(Polymorphic)  
+    ```
+    posts
+        id - integer
+        title - string
+        body - text
+
+    videos
+        id - integer
+        title - string
+        url - string
+
+    comments
+        id - integer
+        body - text
+        commentable_id - integer
+        commentable_type - string
+    ```
+    返回一個post或一個video  
+  - Many To Many(Polymorphic)  
+    ```
+    posts
+        id - integer
+        name - string
+
+    videos
+        id - integer
+        name - string
+
+    tags
+        id - integer
+        name - string
+
+    taggables
+        tag_id - integer
+        taggable_id - integer
+        taggable_type - string
+    ```
+    用Tag方法，找出posts或videos
   - Custom Polymorphic Types  
+    注意！！！
+    向現有應用程序添加“morph ma變形映射”時，`*_type`數據庫中仍包含完全限定類的每個可變形列值都需要轉換為其“映射”名稱。  
 - Querying Relations  
+    - Chaining orWhere Clauses After Relationships
+      `orWhere`要小心使用  
+      最好是用`跨號parentheses`做分類清楚  
   - Relationship Methods Vs. Dynamic Properties  
+    動態屬性是“延遲加載”  
+    使用`eager loading`來減少sql執行  
   - Querying Relationship Existence  
+    嵌套has語句也可以使用“點”表示法構造  
+    ```php
+    // Retrieve posts that have at least one comment with votes...
+    $posts = App\Post::has('comments.votes')->get();
+    ```
   - Querying Relationship Absence  
+    `doesntHave` and `orDoesntHave` methods:  
+    更深入用法`whereDoesntHave` and `orWhereDoesntHave`  
+    您可以使用“點”表示法來執行針對嵌套關係的查詢。  
+    例如，以下查詢將檢索所有包含未被禁止的作者的評論的帖子：  
+    ```php
+    use Illuminate\Database\Eloquent\Builder;
+    $posts = App\Post::whereDoesntHave('comments.author', function (Builder $query) {
+        $query->where('banned', 1);
+    })->get();
+    ```
   - Querying Polymorphic Relationships  
+    // Retrieve comments associated to posts or videos with a title like foo%..  
+    // Retrieve comments associated to posts with a title not like foo%...  
+    您可以使用該`$type`參數根據相關模型添加不同的約束：  
+    您可以提供`*`通配符，讓Laravel從數據庫中檢索所有可能的多態類型，而不是傳遞可能的多態模型數組。  
   - Counting Related Models  
+    如果要計算關係中的結果數而不實際加載它們，可以使用withCount方法，該方法會在生成的模型上放置{relation} _count列。  
+    您也可以為關係計數結果添加別名，允許對同一關係進行多次計數：  
+    如果要withCount與select語句組合，請確保withCount在select方法後調用：  
 - Eager Loading  
+  透過with限制來降低查詢次數  
+  可加入多個with  
+  Eloquent允許您指定要檢索的關係的哪些列：
+  ```php
+  $books = App\Book::with('author:id,name')->get();
+  ```
+
+  注意！！！
+  用此功能時，應始終`id`在要檢索的列列表中包含列和任何相關的外鍵列。  
+
+  如果要從$with單個查詢的屬性中刪除項目，可以使用以下without方法：  
   - Constraining Eager Loads  
+    有時您可能希望加載關係，但也為熱切加載查詢指定其他查詢條件。這是一個例子：  
+    注意！！！  
+    在limit和take約束渴望負載時，查詢生成器方法也可以不使用。  
   - Lazy Eager Loading  
+    有時您可能需要在已經檢索父模型之後急切地加載關係。例如，如果您需要動態決定是否加載相關模型，這可能很有用：  
+    如果需要在預先加載的查詢上設置其他查詢約束，則可以傳遞一個由您希望加載的關係鍵入的數組。數組值應該是Closure接收查詢實例的實例：  
+    - Nested Lazy Eager Loading & `morphTo`
+      如果您希望加載morphTo關係，以及該關係可能返回的各種實體的嵌套關係，您可以使用該loadMorph方法。  
+      此方法接受morphTo關係的名稱作為其第一個參數，並將模型/關係對的數組作為其第二個參數。為了幫助說明這種方法，讓我們考慮以下模型：  
 - Inserting & Updating Related Models  
   - The save Method  
+    例如，您可能需要為Post模型插入新的Comment。  
+    您可以直接從關係的save方法插入Comment，而不是在Comment上手動設置post_id屬性：  
+    ```php
+    $comment = new App\Comment(['message' => 'A new comment.']);
+
+    $post = App\Post::find(1);
+
+    $post->comments()->save($comment);
+    ```
+    請注意，我們沒有將comments關係作為動態屬性訪問。相反，我們調用該comments方法來獲取關係的實例。  
+    該save方法將自動將適當的post_id值添加到新Comment模型中。  
+    如果需要保存多個相關模型，可以使用以下saveMany方法：  
+    ```php
+    $post = App\Post::find(1);
+
+    $post->comments()->saveMany([
+        new App\Comment(['message' => 'A new comment.']),
+        new App\Comment(['message' => 'Another comment.']),
+    ]);
+    ```
+    - Recursively Saving Models & Relationships
+      如果您想要save模型及其所有相關關係，可以使用以下push方法：  
   - The create Method  
+    除了`save`和`saveMany`方法之外，您還可以使用`create`方法，該方法接受屬性數組，創建模型並將其插入數據庫。  
+    同樣，`save`和`create`之間的區別在於`save`接受一個完整的Eloquent模型實例，而`create`接受一個普通的PHP數組：  
+    您可以使用該createMany方法創建多個相關模型：  
+    ```php
+    $post = App\Post::find(1);
+
+    $post->comments()->createMany([
+        [
+            'message' => 'A new comment.',
+        ],
+        [
+            'message' => 'Another new comment.',
+        ],
+    ]);
+    ```
+    您還可以使用`findOrNew`，`firstOrNew`，`firstOrCreate`和`updateOrCreate`方法來創建和更新關係模型。
   - Belongs To Relationships  
+    更新belongsTo關係時，您可以使用該associate方法。此方法將在子模型上設置外鍵：  
+    刪除belongsTo關係時，您可以使用該dissociate方法。此方法將關係的外鍵設置為null：  
+    - Default Models
+      要使用屬性填充默認模型，您可以將數組或Closure傳遞給withDefault方法：  
   - Many To Many Relationships  
+    - Attaching / Detaching
+      假設用戶可以擁有多個角色，而角色可以擁有許多用戶。要通過在連接模型的中間表中插入記錄來將角色附加到用戶，請使用以下attach方法：  
+      ```PHP
+      $user = App\User::find(1);
+
+      $user->roles()->attach($roleId);
+      ```
+      將關係附加到模型時，您還可以傳遞要插入到中間表中的其他數據數組：  
+      ```PHP
+      $user->roles()->attach($roleId, ['expires' => $expires]);
+      ```
+      有時可能需要從用戶中刪除角色。要刪除多對多關係記錄，請使用該detach方法。  
+      該detach方法將從中間表中刪除相應的記錄; 但是，兩種模型都將保留在數據庫中：  
+      ```PHP
+      // Detach a single role from the user...
+      $user->roles()->detach($roleId);
+
+      // Detach all roles from the user...
+      $user->roles()->detach();
+      ```
+      為了方便起見，attach並且detach還接受ID的數組作為輸入：  
+      ```PHP
+      $user = App\User::find(1);
+
+      $user->roles()->detach([1, 2, 3]);
+
+      $user->roles()->attach([
+          1 => ['expires' => $expires],
+          2 => ['expires' => $expires]
+      ]);
+      ```
+    - Syncing Associations  
+      ```PHP
+      $user->roles()->sync([1, 2, 3]);
+      $user->roles()->sync([1 => ['expires' => true], 2, 3]);   //您還可以使用ID傳遞其他中間表值：
+      $user->roles()->syncWithoutDetaching([1, 2, 3]);    //如果您不想分離現有ID，可以使用syncWithoutDetaching方法：
+      ```
+    - Toggling Associations  切換
+      附加變分離 分離變附加
+    - Saving Additional Data On A Pivot Table  
+      使用多對多關係時，該save方法接受一組附加中間表屬性作為其第二個參數：  
+      ```php
+      App\User::find(1)->roles()->save($role, ['expires' => $expires]);
+      ```
+    - Updating A Record On A Pivot Table  
+      如果需要更新數據透視表中的現有行，可以使用updateExistingPivot方法。  
+      此方法接受數據透視記錄外鍵和要更新的屬性數組：  
+      ```php
+      $user = App\User::find(1);
+
+      $user->roles()->updateExistingPivot($roleId, $attributes);
+      ```
 - Touching Parent Timestamps  
-  
+  當模型屬於或者屬於另一個模型時，例如屬於Post的Comment，有時在更新子模型時更新父級的時間戳是有幫助的。  
+  例如，更新註釋模型時，您可能希望自動“觸摸”擁有帖子的updated_at時間戳。  
+  只需添加一個touches屬性，其中包含子模型的關係名稱：  
+  ```php
+  <?php
+
+  namespace App;
+
+  use Illuminate\Database\Eloquent\Model;
+
+  class Comment extends Model
+  {
+      /**
+      * All of the relationships to be touched.
+      *
+      * @var array
+      */
+      protected $touches = ['post'];
+
+      /**
+      * Get the post that the comment belongs to.
+      */
+      public function post()
+      {
+          return $this->belongsTo('App\Post');
+      }
+  }
+  ```
+  現在，當您更新a時Comment，擁有Post它的updated_at列也會更新，這樣可以更方便地知道何時使Post模型的緩存無效：  
+  ```php
+  $comment = App\Comment::find(1);
+  $comment->text = 'Edit to this comment!';
+  $comment->save();
+  ```
 # Collections
 - Introduction  
-- Available Methods  
-- Custom Collections  
+  Eloquent返回的所有多結果集都是`Illuminate\Database\Eloquent\Collection`對象的實例，包括通過get方法檢索的結果或通過關係訪問的結果。  
+  loquent集合對象擴展了Laravel基本集合，因此它自然地繼承了許多用於流利地使用Eloquent模型的底層數組的方法。  
+  所有集合也充當迭代器，允許您循環遍歷它們，就像它們是簡單的PHP array一樣：
+  ```php
+  $users = App\User::where('active', 1)->get();
+  foreach ($users as $user) {
+      echo $user->name;
+  }
+  ```
+  但是，集合比數組更強大，並且可以使用直觀的界面顯示各種可以鏈接的map / reduce操作。  
+  例如，讓我們刪除所有非活動模型並為每個剩餘用戶收集名字：  
+  ```php
+  $users = App\User::all();
 
+  $names = $users->reject(function ($user) {
+      return $user->active === false;
+  })
+  ->map(function ($user) {
+      return $user->name;
+  });
+  ```
+
+  注意！！！
+  雖然大多數Eloquent集合方法返回Eloquent集合的新實例，但pluck，keys，zip，collapse，flatten和flip方法返回一個基本集合實例。  
+  同樣，如果map操作返回一個不包含任何Eloquent模型的集合，它將自動轉換為基本集合。  
+- Available Methods  
+  大多數方法返回`Illuminate\Database\Eloquent\Collection`實例;  
+  但是，某些方法返回基礎`Illuminate\Support\Collection`實例。  
+
+
+  - contains($key, $operator = null, $value = null)
+  contains方法可用於確定集合是否包含給定的模型實例。此方法接受主鍵或模型實例：  
+  ```php
+  $users->contains(1);
+  $users->contains(User::find(1));
+  ```
+
+  - diff($items)
+    該diff方法返回給定集合中不存在的所有模型：
+    ```php
+    use App\User;
+
+    $users = $users->diff(User::whereIn('id', [1, 2, 3])->get());
+    ```
+  - except($keys)
+    該except方法返回所有沒有給定主鍵的模型：
+    ```php
+    $users = $users->except([1, 2, 3]);
+    ```
+  - find($key)
+    該find方法查找具有給定主鍵的模型。  
+    如果$key是模型實例，find將嘗試返回與主鍵匹配的模型。
+    如果$ key是一個鍵數組，find將使用whereIn（）返回與$ keys匹配的所有模型：  
+    ```php
+    $users = User::all();
+
+    $user = $users->find(1);
+    ```
+  - fresh($with = [])
+    該fresh方法從數據庫中檢索集合中每個模型的新實例。此外，任何指定的關係都將被急切加載：
+    ```php
+    $users = $users->fresh();
+
+    $users = $users->fresh('comments');
+    ```
+  - intersect($items)
+    該intersect方法返回給定集合中也存在的所有模型：
+    ```php
+    use App\User;
+
+    $users = $users->intersect(User::whereIn('id', [1, 2, 3])->get());
+    ```
+  - load($relations)
+    該load方法急切加載集合中所有模型的給定關係：
+    ```php
+    $users->load('comments', 'posts');
+
+    $users->load('comments.author');
+    ```
+  - loadMissing($relations)  
+    該loadMissing方法渴望加載如果關係尚未加載的集合中的所有模型給出的關係：
+    ```php
+    $users->loadMissing('comments', 'posts');
+
+    $users->loadMissing('comments.author');
+    ```
+  - modelKeys()
+    該modelKeys方法返回集合中所有模型的主鍵：
+    ```php
+    $users->modelKeys();
+
+    // [1, 2, 3, 4, 5]
+    ```
+  - makeVisible($attributes)
+    該makeVisible方法使屬性可見，通常在集合中的每個模型上“隱藏”：
+    ```php
+    $users = $users->makeVisible(['address', 'phone_number']);
+    ```
+  - makeHidden($attributes)
+    該makeHidden方法隱藏了集合中每個模型通常“可見”的屬性：
+    ```php
+    $users = $users->makeHidden(['address', 'phone_number']);
+    ```
+  - only($keys)  
+    該only方法返回具有給定主鍵的所有模型：
+    ```php
+    $users = $users->only([1, 2, 3]);
+    ```
+  - unique($key = null, $strict = false)
+    該unique方法返回集合中的所有唯一模型。將刪除與集合中的另一個模型具有相同主鍵的任何相同類型的模型。
+    ```php
+    $users = $users->unique();
+    ```
+- Custom Collections  
+  如果您需要使用Collection具有自己的擴展方法的自定義對象，則可以覆蓋newCollection模型上的方法：
+  ```php
+  <?php
+
+  namespace App;
+
+  use App\CustomCollection;
+  use Illuminate\Database\Eloquent\Model;
+
+  class User extends Model
+  {
+      /**
+      * Create a new Eloquent Collection instance.
+      *
+      * @param  array  $models
+      * @return \Illuminate\Database\Eloquent\Collection
+      */
+      public function newCollection(array $models = [])
+      {
+          return new CustomCollection($models);
+      }
+  }
+  ```
+  一旦定義了newCollection方法，您就會在Eloquent返回Collection該模型的實例時隨時收到自定義集合的實例。  
+  如果要為應用程序中的每個模型使用自定義集合，則應覆蓋newCollection由所有模型擴展的基礎模型類上的方法。  
 
 Testing
 
@@ -1946,3 +2663,6 @@ eloquent
 找範例
 
 看書
+
+觀察員最後面boot是什麼
+看一下 query builders   PHP Data Objects(PDO)
