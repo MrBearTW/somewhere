@@ -39,3 +39,12 @@ http://www.moiapps.com/journal/understanding-the-request-lifecycle-in-laravel
 七個重要參考點  
 2 1 0 -1 -2 min max  
 還有轉換之間也要觀察有沒有問題  
+
+> 2019/08/13
+
+American Society for Quality.  
+https://asq.org/quality-resources/quality-tools   
+  
+類似Google Analytics  
+連APP內都可以做追蹤  
+https://mixpanel.com/  
