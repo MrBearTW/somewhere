@@ -42,6 +42,7 @@ http://www.moiapps.com/journal/understanding-the-request-lifecycle-in-laravel
 
 > 2019/08/13
 
+可以查一些QAQC圖表定義與畫法的地方  
 American Society for Quality.  
 https://asq.org/quality-resources/quality-tools   
   
