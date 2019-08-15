@@ -2666,3 +2666,14 @@ eloquent
 
 觀察員最後面boot是什麼
 看一下 query builders   PHP Data Objects(PDO)
+
+[PSR-4 php寫作規範](https://events.storm.mg/codingstyle/coding_style/php/psr-4.html)
+
+
+Laravel影片教學  
+1. Bitfumes Webnologies
+- [playlist](https://www.youtube.com/channel/UC_hG9fglfmShkwex1KVydHA/playlists)  
+- [Laravel tutorials](https://www.youtube.com/playlist?list=PLe30vg_FG4OQz1yZq0z19ZuWD_C3MZbA4)
+2. DevMarketer
+- [DevMarketer](https://www.youtube.com/channel/UC6kwT7-jjZHHF1s7vCfg2CA/playlists)
+- [How to Build a Blog with Laravel](https://www.youtube.com/playlist?list=PLwAKR305CRO-Q90J---jXVzbOd4CDRbVx)
