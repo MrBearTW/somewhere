@@ -478,27 +478,6 @@ OYO印度代經營旅館
 雕刻 3mm木板 速度450 功率45%
 黏木頭用的是太棒膠
 
-# 2018/08/11 12 COSCUP
-MeCab分詞工具支援日本搜尋
-OpenCC支援簡轉繁
-
-Tearm suggester根據編輯距離找出相近的字一起搜尋
-指定index放在同一個shard
-
-https://grafana.com/dashboards/7259
-
-晚上不開是不是很虧
-
-Dual boot
-
-Drupal 套件
-Zen theme
-Slick carousel 滑動投影片
-De web profiling
-Webpagetest
-
-
-
 # 2018/07/29 PS + AI
 往回幾步 Crtl + Alt + Z
 往前幾步 Crtl + Shift + Z
