@@ -56,10 +56,7 @@ Dazn 歐洲最大運動直播
 Booking.com要刷題 perl
 等amazon可以請假
 
-
-
-
-
+---
 日本
 N2 
 
@@ -92,6 +89,39 @@ Cocoapod
 Summerofcode google 
 Wwdc獎學金
 Hacktoberfest
+
+
+## 第二天
+11:00pcman
+選擇當下最好的框架
+注意license 
+溝通與妥協
+沒有一杯啤酒解決不了的問題，有就用一手
+開源 - 大家一起開心的build一個東西
+Code寫的好人品不一定好
+PcMan專案創辦人要漸漸放手，美好的歷史就讓他過去
+
+
+12:50 17
+Argon2
+
+
+13:00 PHP
+https://slides.com/peter279k/php-hash-cryptography
+
+
+1350 line iot
+用普羅米修斯監控樹莓派的狀況
+https://github.com/hazel-shen/Meeting_room_sys
+
+1415 生酮飲食
+Ledger cli
+
+
+LINE QA Team
+Cypress 
+Expressing sos
+
 
 
 
