@@ -1,4 +1,6 @@
 # 2019/08/17 18 COSCUP
+[總議程](https://coscup.org/2019/programs/day2)  
+
 10:00
 Ifttt
 GitHub.io
@@ -92,6 +94,11 @@ Hacktoberfest
 
 
 ## 第二天
+10:00 SQA養成之路  
+[簡報](https://speakerdeck.com/jiachengxu/quality-assurance-roadmap)
+[共筆](https://hackmd.io/ZrdYJhyYRCysWy2BjNgjxw?view&fbclid=IwAR0gV54Wohu7kmoAu649wp-Rq0Z7_lLnwq5Xj04hRUFp8afrdNPiMUyqbvE)
+
+
 11:00pcman
 選擇當下最好的框架
 注意license 
@@ -118,10 +125,22 @@ https://github.com/hazel-shen/Meeting_room_sys
 Ledger cli
 
 
-LINE QA Team
-Cypress 
-Expressing sos
+### 17 QA Team
+- 一天一新版，持續小更新比一次大更新好
+- 人力比較吃緊1QA:10RD
+- Unit Test主要是RD寫  
+- QA至少會用到
+    1. [Circleci](https://circleci.com)
+    2. Jenkins等工具
+- 選使用者人數最少的時候上新版本
 
+###  LINE QA Team
+- 分三組人
+    1. Test Automation(everyone)
+    2. Service QA Engineer(Senior)
+    3. Tester Enineer(Junior)
+- 網頁測試工具[Cypress](https://www.cypress.io/) 
+- Android測試工具[Expresso](https://developer.android.com/training/testing/espresso)
 
 
 

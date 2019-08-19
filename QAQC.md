@@ -49,3 +49,7 @@ https://asq.org/quality-resources/quality-tools
 類似Google Analytics  
 連APP內都可以做追蹤  
 https://mixpanel.com/  
+
+
+TDD (Test-Driven Development)測試驅動開發  
+BDD (Behavior-driven development)行為驅動開發
