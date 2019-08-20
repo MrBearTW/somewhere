@@ -5,6 +5,8 @@
 Ifttt
 GitHub.io
 
+https://speakerdeck.com/chusiang/my-devops-tour-0-dot-1
+
 11:00
 Back to fundamentals 
 
@@ -123,6 +125,11 @@ https://github.com/hazel-shen/Meeting_room_sys
 
 1415 生酮飲食
 Ledger cli
+
+
+
+15:10 [網站開發框架的正確學習姿勢 - 高見龍, 范聖佑](https://hackmd.io/a80rz8dST86WQ8ZlW5rSuw)
+
 
 
 ### 17 QA Team
