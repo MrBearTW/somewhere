@@ -1,7 +1,13 @@
 # 顏色
-日本天皇 黃櫨染 \#D74B22
+- 日本天皇 黃櫨染 \#D74B22
+- 中國不能用的顏色 \#198964
 
-中國不能用的顏色 \#198964
+- 派仕LOGO \#199ed0
+- [連續色階](https://www.0to255.com/199ed0)
+- 淺67BFE0 3EADD7 199DD0 0590C5 036387深[一色找四色](http://paletton.com/#uid=13q0u0ktnLah+QDnLNwIUHiH5q+)
+- [一色變多色](https://www.materialpalette.com/colors)
+- [網址查色](http://stylifyme.com/)  
+- [隨意配](https://coolors.co/browser/latest/1)
 
 # 字體
 餐廳字
