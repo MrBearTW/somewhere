@@ -17,3 +17,7 @@ https://medium.com/%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E6%96%87%E8%97%9D%E5%BE%
 By adgiz adgiz | June 26, 2019
 https://www.shutterstock.com/zh-Hant/blog/top-free-fonts-designers?utm_content=topfreefontsdesigners_content_zh_20190628_blog&utm_term=Looklike_Viewcontent&utm_campaign=image_tw_content_lowintent_all&fbclid=IwAR2Bvwn6scFhpOwsDJaD7ZvAkcYIv-E2Y_JA0zlLYLPM0TE9yh5ZOcJFwII&utm_source=facebook&utm_medium=acq_social  
 
+# 查螢幕解析度
+[statcounter](https://gs.statcounter.com/screen-resolution-stats/desktop/taiwan)
+可以解析度裝置瀏覽器等資訊
+依裝置地區
