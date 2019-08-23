@@ -21,3 +21,7 @@ https://www.shutterstock.com/zh-Hant/blog/top-free-fonts-designers?utm_content=t
 [statcounter](https://gs.statcounter.com/screen-resolution-stats/desktop/taiwan)
 可以解析度裝置瀏覽器等資訊
 依裝置地區
+
+# 雲端服務
+B2B
+B2B2C
