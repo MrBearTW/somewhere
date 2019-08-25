@@ -25,3 +25,9 @@ https://www.shutterstock.com/zh-Hant/blog/top-free-fonts-designers?utm_content=t
 # 雲端服務
 B2B
 B2B2C
+
+# Email相關
+- protonmail
+https://mail.protonmail.com/  
+
+- 只存在10分鐘的email
