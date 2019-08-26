@@ -28,6 +28,10 @@ B2B2C
 
 # Email相關
 - protonmail
-https://mail.protonmail.com/  
+https://mail.protonmail.com/   
 
 - 只存在10分鐘的email
+https://10minutemail.net/  
+
+# IOT 監控面板
+https://thingsboard.io  
