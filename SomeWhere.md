@@ -1,3 +1,72 @@
+# 2019/08/31 將來銀行 招募說明會資訊場
+產品創造者：傳統銀行
+平台角色：fintech業者
+
+沒有紙本沒有行員流程更自動化
+沒實體分行，通路更多元
+組織從零開始，跳過數位轉型痛苦
+
+手機和錢包，哪一個比較重要
+
+金融商品電商
+行業術語和消費者
+
+用數據預測客戶需求
+
+樂天日本電商轉網銀
+LINE服務最大化
+Open API
+
+
+麥肯錫 api 三層
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.altexsoft.com%2Fmedia%2F2018%2F11%2FAPI-Model-Public-APIs-Partner-APIs-Internal-APIs.png&imgrefurl=https%3A%2F%2Fwww.altexsoft.com%2Fblog%2Fengineering%2Fopen-banking-and-financial-apis-how-to-integrate-your-company-into-digital-financial-ecosystem%2F&tbnid=rHw1ABbEttY4bM&vet=1&docid=BPMifw1glwK97M&w=788&h=623&q=mckinsey%20api%20internal%20public%20partner&hl=zh_TW&source=sh%2Fx%2Fim
+
+事件銷售 取代電話全面推銷
+普惠金融 因為成本較傳統銀行低，而能服務更多人
+
+
+SLA99.99% 一個月只能停4分鐘
+
+航空母艦隔離艙
+
+7*24防禦監控
+定期紅隊演練
+
+IBMB
+
+面試金牌
+
+監理
+
+獨行俠
+害怕挑戰
+只有苦勞沒有功勞
+同樣的錯誤一犯再犯
+
+Winner have a plan 
+Loser have a excuse
+
+小學生暑假學python做出射擊遊戲
+
+pmi.org
+
+解除成就
+
+週報一兩行就好，下週目標
+
+證明更安全的作法
+
+Open bank
+資料法務長
+
+軟體服務的邊際成本趨近於0
+
+
+支付
+
+
+還有1000多萬人沒有使用
+
 # 2019/07/20 GTLC全球技術領導力峰會 - 台北站
 
 >09:35 - 10:25	The Landscapes in Wireless Device Connectivity  
