@@ -63,3 +63,12 @@
 
 > git小抄  
 https://www.facebook.com/photo.php?fbid=2591510904194334&set=a.110864892258960&type=3&permPage=1  
+
+
+
+如果是要刪除最後一次的 commit，並請更新至遠端  
+參考https://poychang.github.io/git-how-to-remove-file-and-commit-from-history/
+# move HEAD to previous commit, and discard all working copy changes
+`git reset HEAD^`
+# push it
+`git push --force`
