@@ -3,10 +3,10 @@
 
 - Strategy 包含》 product 包含》operation marketing
 
-- SMART goals measured by kpi
-- Monitor 客戶評論，從FB討論區和PTT
+- [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria) measured by KPI
+- Monitor 客戶評論，從FB討論區和PTT，看哪一些部分被評論最多。
 
-- User/Biz requertment
+- User/Bid requertment如何取得平衡？
 
 - 很大的新案子會做得比較完整
 1. Theme Scoring
@@ -20,7 +20,7 @@
 2. Flow
 3. Description 
 
-- Zeplin 美工的spec工具
+- [Zeplin](https://zeplin.io/) 美工的spec工具
     - accrue design spec
     - Assets
     - Code snippet
@@ -32,7 +32,7 @@ Image upload -> Harbor
 Open api initiative
 Redox
 
-- 自動化api測試工具Newman
+- 自動化api測試工具[Newman](https://www.npmjs.com/package/newman) (the cli companion for postman)
 
 
 - >hey + postman 做 api performance 壓力測試
@@ -47,7 +47,7 @@ Redox
         - XCtest
 
 - 環境
-    - 阿發 貝他 rc stage production
+    - alpha(RD) beta(QA) RC(QA) stage(QA，第三方) production
 
 - Planer會控制product 和 R&D部門的平衡
 
@@ -60,7 +60,7 @@ Redox
 - Cd工具 nuclei
 - Coverage 要比之前的高，或一樣，不然退回去給RD
 
-- Flaky test
+- Flaky test 時有時無的錯誤，CSS沒有寫好
     - 開10個docker跑（經驗上78次左右會出問題，依團隊經驗決定）
     - Retry Mechanism,not more then twice 
 
