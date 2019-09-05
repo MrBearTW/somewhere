@@ -1,6 +1,6 @@
 # 2019/09/03 Teat Corner
 ### 19:40 ~ 20:30 |   How LINE runs a project with LINE MUSIC as an example - Marc
-
+[slide](https://speakerdeck.com/line_developers_tw/how-line-runs-a-product-with-line-music-as-example)
 - Strategy 包含》 product 包含》operation marketing
 
 - [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria) measured by KPI
@@ -53,11 +53,12 @@ Redox
 
 
 ### 20:50 ~ 21:30 |   How we test in LINE TRAVEL that you'll love in the future - Miki
+[slide](https://speakerdeck.com/line_developers_tw/how-we-test-in-line-travel-that-youll-love-in-the-future)
 - Smoke test vs. functionality test 要取得平衡
 
 - 書 [Explore It!: Reduce Risk and Increase Confidence with Exploratory Testing](https://www.amazon.com/Explore-Increase-Confidence-Exploratory-Testing/dp/1937785025)
-
-- Cd工具 nuclei
+    - [博客來](https://www.books.com.tw/products/F012865703)
+- CD工具 nuclei
 - Coverage 要比之前的高，或一樣，不然退回去給RD
 
 - Flaky test 時有時無的錯誤，CSS沒有寫好
