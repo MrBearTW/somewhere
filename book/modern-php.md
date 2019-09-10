@@ -7,4 +7,34 @@
     - DRY: Do not repeat youself
     - 產生器 只能往前跌代 節省記憶體
     - 閉包 = 匿名函式 PHP中視為相同
-        - 
+        - 閉包是個在創造時就封裝了內部狀態的函式，即使原有的環境已經消失了這個被封裝的狀態會一直被保存在閉包中。
+        - 匿名函示就如同字面上所示，是個沒有名稱的函示。
+        - 匿名函是可以被指派到變數並且像其他PHP物件一樣被傳遞，但它始終是個函示，所以妳可以呼叫它並且傳參數進去，匿名函式在函式或是方法回呼(callback)時特別有用。
+        - 閉包和匿名函式理論上式不同的事情，但是PHP將他們視為相同。
+        - 閉包不像JavaScript會自動繫上，要用bindTo()方法。
+    - Zend OPcache
+        - 加速，可以讀取預先編譯好的位元碼
+        - 需要被開啟
+    - 內建HTTP伺服器
+        - PHP 5.4.0以上
+        - 沒有前端控制器，需另外設定路由器腳本
+        - 不可使用production
+    - 從社群學習正確的知識https://www.php.net/manual/en/features.php
+- Ch3 標準
+    - PHP Framework Interop Group
+    - https://www.php-fig.org/
+    - PSR PHP Standards Recommendations
+        - PSR-1 基本程式碼風格
+            - 常數必須全部大寫
+        - PSR-2 嚴厲程式碼風格
+            - 四個空白，不是一個Tab
+            - 最後一行是空白，並且不用?>收尾
+            - true, false, null用小寫
+        - PSR-3 紀錄器介面 monolog
+            - https://packagist.org/packages/monolog/monolog
+        - PSR-4 自動載入器
+- Ch4 元件
+    - 現代框架常常是由小的元件所組成
+    - 元件網站 https://packagist.org/
+    - 不錯的元件清單 https://github.com/ziadoz/awesome-php
+    - composer.lock會依照這個檔案下載套件
