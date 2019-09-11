@@ -38,3 +38,4 @@
     - 元件網站 https://packagist.org/
     - 不錯的元件清單 https://github.com/ziadoz/awesome-php
     - composer.lock會依照這個檔案下載套件
+    - 需要認證的可儲存到本地的auth.json
