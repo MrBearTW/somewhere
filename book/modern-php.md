@@ -39,3 +39,6 @@
     - 不錯的元件清單 https://github.com/ziadoz/awesome-php
     - composer.lock會依照這個檔案下載套件
     - 需要認證的可儲存到本地的auth.json
+    - composer.json和元件內容解說
+    - [markdown教學](https://daringfireball.net/projects/markdown/syntax)
+    - 如何推送一個元件到packagist

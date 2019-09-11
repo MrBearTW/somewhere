@@ -67,8 +67,14 @@ https://www.facebook.com/photo.php?fbid=2591510904194334&set=a.110864892258960&t
 
 ---
 如果是要刪除最後一次的 commit，並請更新至遠端  
-參考https://poychang.github.io/git-how-to-remove-file-and-commit-from-history/
-# move HEAD to previous commit, and discard all working copy changes
+[參考](https://poychang.github.io/git-how-to-remove-file-and-commit-from-history/)
+- move HEAD to previous commit, and discard all working copy changes  
 `git reset HEAD^`
-# push it
+- push it  
 `git push --force`
+
+---
+不用每次PUSH都要打密碼修改  
+https://www.toodyao.com/?p=1156
+`git remote -v`
+`git remote rm origin`
