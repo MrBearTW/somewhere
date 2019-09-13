@@ -74,6 +74,7 @@ https://www.facebook.com/photo.php?fbid=2591510904194334&set=a.110864892258960&t
 `git push --force`
 
 ---
+- 下面這個要再研究一下  
 不用每次PUSH都要打密碼修改  
 https://www.toodyao.com/?p=1156
 `git remote -v`

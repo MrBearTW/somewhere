@@ -42,3 +42,8 @@
     - composer.json和元件內容解說
     - [markdown教學](https://daringfireball.net/projects/markdown/syntax)
     - 如何推送一個元件到packagist
+- Ch5 良好習慣
+    - 所有來自外部的資料都是不安全的
+    - 消毒
+        - HTML htmlentitle()
+        - SQL查詢
