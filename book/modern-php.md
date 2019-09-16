@@ -64,3 +64,13 @@
         - 設定初始時區
             - 在php.ini中
             - 在執行時期宣告
+        - DateTime格式
+        - DateInterval作時間運算
+        - DateTimeZone 設為UTC時區，顯示時再做更改
+        - DatePeriod 週期時間
+        - 套件https://github.com/briannesbitt/Carbon
+    - 資料庫
+        - PDO PHP data objects
+        - 密碼分開寫且記得gitignore
+        - 預備陳述式
+            - 
