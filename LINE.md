@@ -1,4 +1,91 @@
->2019/07/24 TW BECKS No.3
+# 2019/09/18
+CI system attacks
+鄙視鏈
+Beg bounty 
+
+瞭解規則
+
+RCE
+
+SSRF
+etc/passed
+
+
+Recon Recon
+
+svg onload
+平行權限
+Exploit
+'or' & '='
+
+orange.tw/xss2
+Xss auditor
+CORS 子網域可以幫父網域設定cookie 
+
+Hackerone
+
+
+
+SSL VPN RCE
+Please be nice to us .We will be nice to you.
+Yelp
+
+
+
+
+Line
+104500 usd 2018年
+60000 2019 九月
+都是手工回覆
+價值決定於影響的程度
+
+e.g.在登入頁面有漏洞 》1500美金
+
+一次性的要簽紙本，耗時約一個月
+Ybiokey
+名人堂
+hackerone
+
+Bug bounty.linecorp
+
+清楚描述
+POC
+
+
+第二位
+
+APT自己寄信
+Denial of service DoS
+
+
+Please be general to us then we can make everybody rich
+
+Line更安全 大家更有錢
+
+
+
+
+## 座談部分
+
+- 企業面
+  -  外包紅隊
+  - Zero trust
+- 個人面
+  - 做好事的機會
+  - 給年輕人取得練功的機會
+  - 有錢 有名
+
+- 如何做好bug report
+ - 太簡短也不行
+ - 有時候會被直接回報成out of scope 
+ - 可被復現
+
+- 面對企業的態度
+ - 轉變
+ - 小公司用 第三方平台hackerone
+ - 不是用來做背書 或是 低價格的穿透測試
+ - 
+# 2019/07/24 TW BECKS No.3
 AvOracle: New Attack Vector Against AntiVirus - Ryota Shiga / LINE Corporation & Ryo Ichikawa
 Malicious
 Windows Defender analys
