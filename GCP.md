@@ -1,3 +1,12 @@
+# 2019/09/19 GDGCloud Taipei Meetup #49
+- Jason Kao/ Tech. Director @ Cloud Ace
+- Monitor Golden circle
+- 使用公有雲的服務會Lose control and customize 
+- 書:[Chaos Engineering](https://www.goodreads.com/book/show/35516296-chaos-engineering) 
+- Risk assement
+- SRE好處 Cost savings 
+- 一種想把服務做的更好的心態
+
 # 2019/07/11 Serverless Mobile Apps with Firebase and Google Cloud
 7:40pm~8:30pm Build and Scale Serverless Mobile Apps with Firebase and Google Cloud - Doug Stevenson
 https://github.com/CodingDoug/universal-translator  

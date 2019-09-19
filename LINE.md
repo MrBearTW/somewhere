@@ -1,71 +1,70 @@
 # 2019/09/18
-CI system attacks
-鄙視鏈
-Beg bounty 
+## 19:10-19:50 (TW) 那些年，我回報漏洞的踩雷經驗! - Orange Tsai / DEVCORE
+- CI system attacks
+- 鄙視鏈
+- Beg bounty 
 
-瞭解規則
+- 瞭解規則
 
-RCE
+- RCE
 
-SSRF
-etc/passed
-
-
-Recon Recon
-
-svg onload
-平行權限
-Exploit
-'or' & '='
-
-orange.tw/xss2
-Xss auditor
-CORS 子網域可以幫父網域設定cookie 
-
-Hackerone
+- SSRF
+- etc/passed
 
 
+- Recon Recon
 
-SSL VPN RCE
-Please be nice to us .We will be nice to you.
-Yelp
+- svg onload
+- 平行權限
+- Exploit
+- 'or' & '='
+
+- orange.tw/xss2
+- Xss auditor
+- CORS 子網域可以幫父網域設定cookie 
+
+- Hackerone
 
 
 
+- SSL VPN RCE
 
-Line
-104500 usd 2018年
-60000 2019 九月
-都是手工回覆
-價值決定於影響的程度
-
-e.g.在登入頁面有漏洞 》1500美金
-
-一次性的要簽紙本，耗時約一個月
-Ybiokey
-名人堂
-hackerone
-
-Bug bounty.linecorp
-
-清楚描述
-POC
+- Please be nice to us .We will be nice to you.
+- Yelp 在hackerone上的文件
+    - We'll Be Nice To You
+    - Please Be Nice To Us
 
 
-第二位
+## 20:10-20:50 (EN) LINE Bug Bounty: Rich and Good Hackers - Koh You Liang / LINE Corporation & Ramses(JungHo Jang) / Graylab
+- Line出的計畫已發出
+    - 104500 usd 2018年
+    - 60000 2019 九月
+- 都是手工回覆
+- 價值決定於影響的程度
+- e.g.在登入頁面有漏洞 》1500美金
 
-APT自己寄信
-Denial of service DoS
+- 第一次要的要簽一次性紙本，耗時約一個月
+- Ybiokey
+- 名人堂
+- hackerone
+
+- Bug bounty.linecorp
+
+- 清楚描述
+- POC
 
 
-Please be general to us then we can make everybody rich
+- 第二位
 
-Line更安全 大家更有錢
+- APT自己寄信
+- Denial of service DoS
 
 
+- Please be general to us then we can make everybody rich
 
+- Line更安全 大家更有錢
 
-## 座談部分
+## 21:00-21:30 Panel Discussion - David / Line Taiwan Limited, Koh You Liang / Line Corporation, Ramses(JungHo Jang) / Graylab, Allen Own & Orange Tsai / DEVCORE
 
 - 企業面
   -  外包紅隊
