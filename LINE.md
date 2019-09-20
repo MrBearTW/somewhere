@@ -1,8 +1,8 @@
-# 2019/09/18
+# 2019/09/18  TW BECKS No.4
 ## 19:10-19:50 (TW) 那些年，我回報漏洞的踩雷經驗! - Orange Tsai / DEVCORE
 - CI system attacks
 - 鄙視鏈
-- Beg bounty 
+- Beg bounty              
 
 - 瞭解規則
 
@@ -10,7 +10,6 @@
 
 - SSRF
 - etc/passed
-
 
 - Recon Recon
 
@@ -25,15 +24,11 @@
 
 - Hackerone
 
-
-
 - SSL VPN RCE
 
-- Please be nice to us .We will be nice to you.
 - Yelp 在hackerone上的文件
     - We'll Be Nice To You
     - Please Be Nice To Us
-
 
 ## 20:10-20:50 (EN) LINE Bug Bounty: Rich and Good Hackers - Koh You Liang / LINE Corporation & Ramses(JungHo Jang) / Graylab
 - Line出的計畫已發出
@@ -67,7 +62,7 @@
 ## 21:00-21:30 Panel Discussion - David / Line Taiwan Limited, Koh You Liang / Line Corporation, Ramses(JungHo Jang) / Graylab, Allen Own & Orange Tsai / DEVCORE
 
 - 企業面
-  -  外包紅隊
+  - 外包紅隊
   - Zero trust
 - 個人面
   - 做好事的機會
