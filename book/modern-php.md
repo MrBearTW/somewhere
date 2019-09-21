@@ -73,5 +73,9 @@
         - PDO PHP data objects
         - 密碼分開寫且記得gitignore
         - 預備陳述式
-            - 
+            - PDOStatement實體
+            - :email 名稱佔位符
+            - [PDOStatement::bindValue](https://www.php.net/manual/en/pdostatement.bindvalue.php)有三個參數
+                - 第三個參數用來指定變數資料型態
+            - 查詢結果
         - 多位元組字串
