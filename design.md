@@ -39,3 +39,9 @@ https://thingsboard.io
 
 # 系列
 一系列的icon。
+
+# 網頁草稿
+wireframe 
+- 通常沒有上色
+- 功能寫清楚
+- 可以用註解方式補充
