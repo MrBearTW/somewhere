@@ -77,5 +77,22 @@
             - :email 名稱佔位符
             - [PDOStatement::bindValue](https://www.php.net/manual/en/pdostatement.bindvalue.php)有三個參數
                 - 第三個參數用來指定變數資料型態
-            - 查詢結果
-        - 多位元組字串
+        - 查詢結果
+            - fetch, fetchALL, fetchColumn, fetchObject
+        - 交易
+            - 不是所有資料庫都支援
+            - 是一組同時執行成功或同時執行失敗的SQL查詢
+    - 多位元組字串
+        - 安裝mbstring擴充來避免多位元組字串產生的錯誤
+        - 用UTF-8
+        - 在php.ini中加入`default_charset = "UTF-8";`
+        - HTML標頭加入`<meta charset="UTF-8"/>`
+    - 串流
+        - 可使用fseek()方法來尋找串流中任意位置
+        - `<schema>辨識串流目標://<target>串流資料來源`
+        - 常用的fopen其實就是串流的一種，只是`file://`常被省略
+        - 串流背景(stream context)
+        - 串流過濾器
+        - 自製髒話過濾處理器
+    - 錯誤處理和例外
+        - 
