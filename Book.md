@@ -19,9 +19,26 @@
 - Ch9
     - 合理分配變更的時程，分散會比集中於同一天佳
 - Ch10
-    - 紀錄事情處理的方法，做成清單
+    - 紀錄事情處理的方法，做成清單，降低同一位人員的負擔
     - 不打擾別人的工作程序
-
+- Ch11
+    - 還是要打擾神人的話，要分級後再處理
+- Ch12
+    - 硬是要上線
+    - 不能回頭的點
+- Ch13
+    - 違法的事，遇到了
+- Ch14
+    - 喝一杯
+- Ch15
+    - 計畫外的工作，救火，反工作
+    - 約束點constraint，瓶頸bottleneck
+    - 書：[目標：簡單有效的常識管理](https://www.books.com.tw/products/0010346055?gclid=Cj0KCQjwrMHsBRCIARIsAFgSeI3SW74CgrP2VoFlDGw2NmNokaGWcDJN7JRY9pdI2dhmDa3BiVU86XkaAs6lEALw_wcB)
+- Ch16
+    - 基於事實的推論
+    - 越級管理
+- Ch17
+    - 辭職帶小孩看火車
 
 # 資訊架構學
 - Ch1 
