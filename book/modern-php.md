@@ -129,6 +129,11 @@
     - 客製化程度低
     - 很少有SSH，大部分使用FTP
 2. 虛擬私有伺服器VPS
-    - Linode
+    - [Linode](https://www.linode.com/)
+    - 使用量低
 3. 獨佔伺服器
+    - 是真實機器
 4. PaaS
+    - AWS GCP 等等
+
+- Ch7 服務開通
