@@ -1,3 +1,42 @@
+# 2019/10/02 AWSome Day
+### Module 1 Introduction and history of AWS
+- Infrastructure
+    - Regions
+        - at least 2 AZ
+    - Availability Zones
+        - Isolated from failures
+    - HA
+        - 一個Region中，AZ connect with low-latency
+        - 要做跨Region備份要另外再手動設定
+    - Edge location
+        - Route 53(DNS)
+        - CloudFront(CDN)
+- 17分享
+    - 更新 
+        - APP 每週
+        - Server 每天
+    - 市占率
+        - 日本 台灣 >40%
+        - 港 >20%
+    - 隨業務增長從Beanstalk -> ECS -> EKS
+### Module 2 AWS Foundation Services
+- Amazon Elastic Compute Cloud
+    - EC2 
+        - 選CPU, Memory, storage, network
+        - 可彈性修改配置，所以可以測試完後在重啟改設定直接上production
+        - AMI Amazon Machine Image
+        - Instance 可選擇(臨時大用量，可被中斷服務，更多...)
+    - ECS
+        - AWS Fargate
+        - EC2(可調整更多細節)
+    - Lambda
+- Networking
+    - VPC Amazon Virtual Private Cloud
+### Module 3
+### Module 4
+### Module 5
+### Module 6
+
 # 2019/06/26
 AWS CodeXXXXXX家族
 
