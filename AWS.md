@@ -1,7 +1,7 @@
 # 2019/10/02 AWSome Day
 ### Module 1 Introduction and history of AWS
 - Infrastructure
-    - Regions
+    - [Regions](https://aws.amazon.com/tw/about-aws/global-infrastructure/regions_az/)
         - at least 2 AZ
     - Availability Zones
         - Isolated from failures
