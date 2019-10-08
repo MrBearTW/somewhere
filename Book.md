@@ -53,3 +53,6 @@
 
 # 網站可靠性工程 Google的管理之道
 https://landing.google.com/sre/books/
+
+# 有機會買一下
+- [笑談軟體工程：敏捷開發法的逆襲](https://www.books.com.tw/products/0010549884)

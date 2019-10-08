@@ -137,3 +137,22 @@
     - AWS GCP 等等
 
 - Ch7 服務開通
+    - 開通 provision
+    - 建立一個非最高權限的使用者
+    - 金鑰對認證
+        - 本地建立一對，公鑰送到遠端伺服器，私鑰留在本地
+        - 遠端用公鑰加密一個訊息送到本地，用私鑰解密，回傳給遠端
+        - 遠端認證之後，給予存取伺服器的權力
+    - 停用密碼和最高權限登入
+    - 防火牆
+        - Ubuntu [UFW](https://help.ubuntu.com/community/UFW)
+        - CentOS [iptables](https://en.wikipedia.org/wiki/Iptables)
+    - PHP-FPM(看起來有點久沒更新的產品)
+        - 安裝
+        - 全域設定
+        - 池設定
+    - nginx
+    - 自動化伺服器佈署
+        - Anisble
+    - 發放伺服器佈署
+        - [Forge](https://forge.laravel.com/)
