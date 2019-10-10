@@ -39,6 +39,28 @@
     - 越級管理
 - Ch17
     - 辭職帶小孩看火車
+- Ch19
+    - 四種工作類型
+        1. 業務專案
+        2. IT運維專案
+        3. 變更的工作
+        4. 計畫外的工作
+- Ch20
+    - 工作中心
+        1. 機器
+        2. 人
+        3. 方法
+        4. 評量
+    - 全面生產維護 Total  Productive Maintenance
+        - 精實社群 Lean Community
+        - 改善日常工作比進行日常工作更重要
+    - 彈性工程 resilience engineering
+    - 改善甚麼無關要緊，關鍵是要不斷改進
+    - 改善型 mprovement Kata
+    - 專案促進者 expediter
+    - 稽核對業務有幫助嗎？
+- Ch21
+    - 範疇錯誤
 
 # 資訊架構學
 - Ch1 

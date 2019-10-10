@@ -5,6 +5,7 @@
 - https://blog.toright.com/posts/5319/fulltext-search-elasticsearch-kibana-bigdata.html
 - [Joining queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/joining-queries.html)
 - [官方教學影片](https://www.elastic.co/webinars/introduction-elk-stack?baymax=rtp&elektra=docs&storm=top-video&iesrc=ctr)
+    - https://www.elastic.co/webinars/getting-started-kibana?baymax=rtp&elektra=docs&storm=kibana-int-unknown&rogue=top-video&iesrc=ctr
 # 2019/10/02 AWSome Day
 ### Module 1 Introduction and history of AWS
 - Infrastructure
