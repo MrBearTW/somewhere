@@ -156,3 +156,13 @@
         - Anisble
     - 發放伺服器佈署
         - [Forge](https://forge.laravel.com/)
+    - 系統管理推薦書籍
+        - [Servers for Hackers](https://book.serversforhackers.com/)
+- Ch8 調教
+    - 調整php.ini
+    - 記憶體
+        - Drupal可能需要 > 512MB的記憶體
+        - memory_get_peak_usage()輸出當前腳本所使用的記憶體
+        - Apache Bench 或 Seige來做測試
+    - Zend OPcache
+        
