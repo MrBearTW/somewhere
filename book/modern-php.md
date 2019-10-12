@@ -164,5 +164,18 @@
         - Drupal可能需要 > 512MB的記憶體
         - memory_get_peak_usage()輸出當前腳本所使用的記憶體
         - Apache Bench 或 Seige來做測試
+        - 設定細節
     - Zend OPcache
-        
+        - 用快取編譯過的OPcahe來加速PHP腳本
+        - 內建於PHP 5.5.0以上版本
+        - 設定細節
+    - 檔案上傳
+        - 設定是否接受上傳檔案
+        - 設定上傳接受的數量，大小
+    - 最大運行時間
+        - 要運行久一點的處理，
+            - 立即回覆到網頁上
+            - 但另外建立一個獨立的工作序列去跑
+        - 若建立了一堆背景程序，使用[PHP Resque](https://github.com/chrisboulton/php-resque)來管理
+    - Session 處理
+        - 初始設定，將session儲存於硬碟中，會導致不必要的I/O時間  
