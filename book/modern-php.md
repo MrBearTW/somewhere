@@ -179,3 +179,65 @@
         - 若建立了一堆背景程序，使用[PHP Resque](https://github.com/chrisboulton/php-resque)來管理
     - Session 處理
         - 初始設定，將session儲存於硬碟中，會導致不必要的I/O時間  
+        - 使用儲存中心，可被任意數量的分散式PHP-FPM伺服器存取
+            - Memcache
+            - Redis
+        - 安裝PECL Memcache，在php.ini中加入
+            ```
+            session.save_handler = 'memched'
+            session.save_path = '127.0.0.2:11211'
+            ```
+    - 輸出緩衝區
+        - 用較少的區塊，每個區塊裝載更多的資料在網路中傳遞，網路效能會更有效率
+        - 初始設定，緩衝區事被啟用的
+        - 若改變容量，確保是4的倍數(32位元)或8的倍數(64位元)
+    - 真實路徑快取
+        - 初始是16K
+        - 要測試才知所需的值是多少
+        - 設定值 php.ini中的realpath_cache_size = 64K
+- Ch9 佈署
+    - 版本控制
+    - 自動化佈署
+        - 保持簡單
+        - 保持可預測
+        - 保持可反悔
+    - 自動化佈署軟體[Capistrano](https://capistranorb.com/)
+        - 在本地安裝，不要在遠端伺服器安裝
+        - Capfile是核心的設定檔案
+            - 大型應用程式
+                1. 前端網頁伺服器(web規則)
+                2. 應用程式伺服器(app規則)
+                3. 資料庫伺服器(db規則)
+            - 小型的php應用
+                1. 網站伺服器(nginx)
+                2. 應用程式伺服器(PHPFPM)
+                3. 資料庫伺服器(MariaDB)            
+            - config/deploy.rb
+                - 大部分的設定黨
+                - staging 和production 都有
+            - config/deploy/production.rb
+                - 只有production
+        - 認證
+            - 遠端伺服器和git repository也要建立金鑰對認證
+        - 以下是Capistrano的安裝細節
+- Ch10 測試
+    - 何時
+        1. 開發開始前
+        2. 開發進行當中
+        3. 開發結束後
+    - What
+        - 單元測試
+            - 每個區塊可以完美的獨立運作
+            - 公開的類別，方法和函式
+        - 功能性測試
+    - How
+        - 測試驅動開發TDD 和 行為驅動開發BDD 兩者並不互斥
+    - 單元測試
+        - [PHPUnit](https://phpunit.de/)
+        - 其他選擇[PHPSpec](https://www.phpspec.net/en/stable/)
+    - 測試驅動開發TDD
+        - 撰寫程式碼之前應該先撰寫測試
+        - 測試會故意失敗因為它描述的是你的應用程式應當擁有的行為
+        - 可以撰寫測試 建立功能 撰寫測試 建立功能 一小段一小段進行
+    - 行為驅動開發BDD
+- Ch11 剖析
