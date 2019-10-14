@@ -231,7 +231,7 @@
             - 公開的類別，方法和函式
         - 功能性測試
     - How
-        - 測試驅動開發TDD 和 行為驅動開發BDD 兩者並不互斥
+        - 測試驅動開發TDD 和 行為驅動開發BDD(Behavior-Driven Development) 兩者並不互斥
     - 單元測試
         - [PHPUnit](https://phpunit.de/)
         - 其他選擇[PHPSpec](https://www.phpspec.net/en/stable/)
@@ -240,4 +240,71 @@
         - 測試會故意失敗因為它描述的是你的應用程式應當擁有的行為
         - 可以撰寫測試 建立功能 撰寫測試 建立功能 一小段一小段進行
     - 行為驅動開發BDD
+        - SpecBDD
+            - 流暢人性化的語言來描述
+            - 熱門 [PHPSpec](https://www.phpspec.net/en/stable/)
+        - StoryBDD
+            - 專案管理者的角度組合事情
+            - 熱門工具 [Behat](https://behat.org)
+            - 應描述特定商業邏輯而非特定的實作
+     - PHPUnit
+        - 測試會集合成 測試案例
+        - 測試案例 會集合成 測試程序   
+        - 測試案例是單一的PHP類別繼承了PHPUnit_Framework_TestCase類別
+        - 測試以test開頭
+        - 這些方法各自獨立
+        - 測試類別名稱以Test結尾，檔名以Test.php結尾
+    - 目錄架構
+        - travis.yaml 持續測試網頁服務所需要的設定細節
+    - 安裝PHPUnit
+        - PHPUnit
+        - Xedebug
+    - 配置PHPUnit
+    - 範例Whovian
+        - test資料夾中每一個都是一個測試案例
+        - 每一個test都是獨立的測試
+        - 每一個獨立測試都使用了[斷言Assertions](https://phpunit.de/manual/6.5/en/appendixes.assertions.html) 來驗證特定的條件
+        - 有一些斷言Assertions要在[原始碼](https://github.com/sebastianbergmann/phpunit/blob/master/src/Framework/Assert/Functions.php)中尋找
+    - 程式碼覆蓋率
+        - `vendor/bin/phpunit -c phpunit.xml --coverage-html coverage`
+        - 覆蓋率不可能100%，但可以漸漸提升
+    - Travis CI
+        - 測試當自動化執行
+        - 公開的travi-ci.org
+        - 私人的travi-ci.com
+        - 細節設定
 - Ch11 剖析
+    - When
+        - 當不是DB查詢過久這種明顯的效能問題時，可以協助剖析
+    - 工具
+        - [Apache Bench](https://httpd.apache.org/docs/2.2/programs/ab.html)
+        - [Siege](https://www.joedog.org/siege-home/)
+    - 類型
+        - [Xdebuger](https://xdebug.org/)
+            - 使用於開發階段
+            - 需視覺化工具協助
+                1. [kcachegrind](http://kcachegrind.sourceforge.net/html/Home.html)
+                2. [wincachegrind](https://sourceforge.net/projects/wincachegrind/)
+        - [XHProf](http://xhprof.io/)
+            - Facebook撰寫
+            - 開發和產品階段都能用
+    - [Xdebuger](https://xdebug.org/)
+        - 設定細節
+        - 不會自動觸發
+    - [XHProf](http://xhprof.io/)
+        - 配合XHGUI
+        - 需有MongoDB
+    - 一些比較新的
+        - [New Relic](https://newrelic.com/)
+            - 付費
+        - [Black fire](https://blackfire.io/)
+- Ch12 HHVM 和 HACK
+    - [HHVM](https://hhvm.com/)
+        - 效能比Zend Engine好
+        - HPHPc 下一代 HHVM
+        - 並不適合每一個專案
+        - 使用supervisor監看
+        - 以FastCGI協定和網站溝通
+    - [Hack](https://hacklang.org/)
+        - [型態解釋](https://cdsmith.wordpress.com/2011/01/09/an-old-article-i-wrote/)
+        - 嚴格的型別
