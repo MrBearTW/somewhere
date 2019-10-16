@@ -9,6 +9,9 @@
     - 統計資料
     - 廠商報告
 
+- 上傳後可編輯搜尋"javascript image editor fixed size"
+
+
 # 20191014之前
 檢查重複報名  
 QRcode+SURL  
