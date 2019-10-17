@@ -111,7 +111,33 @@
     - 第一步工作法
         - 對系統具備深刻的認識
 - Ch28
-    - 三步工作法
+    - 三步工作法 The Three Ways
+        - First Way: Work always flows in one direction – downstream.
+        - Second Way: Create, shorten and amplify feedback loops.
+        - Third Way: Continued experimentation, in order to learn from mistakes, and achieve mastery.
+    - QA的環境和上限的環境必須相同
+- Ch29
+    - 理想工作
+        - 單件工作流single-piece flow
+        - 持續不斷降低批次規模batch size
+        - 為什麼要有倒退擋呢？
+- 第3部
+- Ch30
+    - 生產節拍tatk time
+    - 第二步工作法
+        - 建立回饋循環，一路回到產品定義，設計及開發的最初環節
+    - 豐田的快速換模技術single-minute exchange of die
+        - 將三天的工序修正變成十分鐘
+        - 四工作中心合而為一
+        - 自動化
+    - 在製品數量下降
+    - 一年發布一次佈署 -> 一天十次
+- Ch31
+    - Major launch
+    - 小佈署 Patch, Minor release
+    - 價值流圖 value stream map
+    - 佈署管道 deployment pipeline
+    
 # 資訊架構學
 - Ch1 
     - 從黑膠唱片到iTunes的複雜化

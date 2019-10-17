@@ -1,4 +1,9 @@
-[Laravel tutorials](https://www.youtube.com/playlist?list=PLe30vg_FG4OQz1yZq0z19ZuWD_C3MZbA4)  
-
-
-書 Modern PHP 
+- [Laravel tutorials](https://www.youtube.com/playlist?list=PLe30vg_FG4OQz1yZq0z19ZuWD_C3MZbA4)  
+- 啟動內建的網頁伺服器php artisan serve
+- Part 3
+    - web.php傳資料到blade
+    - blade 用@foreach 顯示資料
+    - @unless 控制沒資料時要顯示的資訊
+        - [更多blade資訊](https://laravel.com/docs/6.x/blade)
+- Part 4
+    - 
