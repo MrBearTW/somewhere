@@ -26,3 +26,6 @@ Route::get('/', function () {
 });
 
 Route::get('about','PagesController@about');
+Route::get('user','HomeController@index_part6');
+Route::get('mobile','HomeController@index_part7');
+Route::get('role','HomeController@index_part8');

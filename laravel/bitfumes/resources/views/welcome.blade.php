@@ -75,6 +75,9 @@
                         <a href="{{ url('/register') }}">Register</a>
                     @endif
                 </div>
+                <div>
+                    {{$user->name}}
+                </div>
             @endif
 
             <div class="content">
@@ -82,12 +85,17 @@
                     IG 抽獎工具
                 </div>
                 <div >
-                    @unless($organiser)
+                    {{-- @unless($organiser) --}}
                         There is no data    
-                    @endunless
-                    @foreach ($organiser as $blade_organiser)
-                        {{$blade_organiser}}
-                    @endforeach
+                    {{-- @endunless --}}
+                    {{-- @foreach ($organiser as $blade_organiser) --}}
+                        {{-- {{$blade_organiser}} --}}
+                    {{-- @endforeach --}}
+                    <div>
+                            @foreach ($mobiles as $mobile)
+                                <h4>{{$mobile->number}}</h4>
+                            @endforeach
+                        </div>
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
