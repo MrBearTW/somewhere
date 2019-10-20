@@ -137,7 +137,14 @@
     - 小佈署 Patch, Minor release
     - 價值流圖 value stream map
     - 佈署管道 deployment pipeline
-    
+- Ch32
+    - 全新專案的借鏡
+    - 命名很難
+- 附錄
+    - 銷售經理：維護銷售承諾
+    - 製造經理：控制製造成本
+    - 三步工作法
+    - 四種工作類型
 # 資訊架構學
 - Ch1 
     - 從黑膠唱片到iTunes的複雜化
