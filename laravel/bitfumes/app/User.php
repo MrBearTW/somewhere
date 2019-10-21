@@ -19,7 +19,8 @@ class user extends Model
 
     public function roles()
     {
-        return $this->belongsToMany(role::class);
+        // return $this->belongsToMany(role::class)->wherePivot('created_at','updated_at');
+        return $this->belongsToMany(role::class)->withTimestamps();
         // return $this->hasone(Mobile::class);
     }
 }

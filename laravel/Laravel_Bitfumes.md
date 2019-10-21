@@ -6,12 +6,12 @@
     - @unless 控制沒資料時要顯示的資訊
         - [更多blade資訊](https://laravel.com/docs/6.x/blade)
 - Part 4
-    - 
+    - blade做 layout
 
 - Prat 5
     - 
 
-- Part 6
+- Part 6 One to One
     - 建立migration 就是教laravel how to design your table
     - `->unsigned();`永遠是正數
     - 建立migration`php artisan make:migration creat_user_table --create=users`
@@ -24,11 +24,25 @@
         - Crtl + C 退出
     - 製作madel`php artisan make:model XXXXXX`
 
-- Part 7
+- Part 7 One to Many
     - 一對多關係
         - 一個人有多支手機
 
-- Part 8
+- Part 8 Many to Many
     - 多對多關係
         - 人物與角色
-            - 
+            - 管理員
+            - 編輯
+            - 作者
+    - model
+        - 建立 user model
+        - 建立 role model
+        - 不用建立 user - role 的model
+- Part 9 Has one through
+    - 客戶 - 廠商
+    - 廠商歷史資料
+- Part 10 Ploymorphic Relation
+    - post video
+    - comment
+- Part 11 Ploymorphic Many to Many
+    - 

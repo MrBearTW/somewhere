@@ -143,8 +143,47 @@
 - 附錄
     - 銷售經理：維護銷售承諾
     - 製造經理：控制製造成本
+    - ITIL：IT Infrastructure Library
+    - ITSM：IT Service Management
     - 三步工作法
+        1. 開發到維運再到客戶，左到右整個工作流。
+            - 實作：練續建置、整合和佈署，隨需建立環境，嚴控在製品以及建構能夠安全進行變更的系統和組織
+        2. 快速回饋，在需要的地方建立或融入知識，從源頭開始確保品質。
+            - 實作：發生失敗時：停止生產線。每天持續改善日常工作；建立快速的自動化測試組，確保程式碼總是處於可佈署狀態；在開發和IT運維之間建立共同的目標及同甘共苦的文化；建立普遍性的產品遙測機制，讓每個人都能看到程式碼和環境是否按照設計運行，以及是否達到客戶的目標。
+        3. 創造文化，
+            - 實作：建立創新，勇於冒險及高度信任文化，把至少20%的開發和IT維運周期分配給非功能性需求，並且持續強化及鼓勵大家進行改善活動。
+
     - 四種工作類型
+        1. 業務專案
+        2. IT內部專案
+        3. 變更
+        4. 計畫外工作或者救火工作
+- 延伸閱讀
+    - [目標：簡單有效的常識管理](https://www.books.com.tw/products/0010346055)
+        - 約束理論 Theory of constraints
+            - 識別約束點
+            - 充分利用約束點
+            - 讓所有其他活動配合約束點
+            - 把約束點提升到新的的水準(不再是約束)
+            - 尋找下一個約束點
+    - [團隊領導的五大障礙](https://www.books.com.tw/products/0010259881)
+        - 缺乏信任 - 不願在團隊中顯示弱點
+        - 害怕衝突 - 尋求表面的和諧，重於建設性的激情辯論
+        - 缺乏擔當 - 假意認同團隊的決策，在整個組織中形成的模稜兩可的文化
+        - 規避問責 - 對同儕的失職行為，不表態，不追責，致使團隊的工作標準降低
+        - 漠視結果 - 只聚焦於個人成就、地位和自我價值，超過團隊的成效
+    - [EM 526 Constraints Management](https://public.wsu.edu/~engrmgmt/holt/em526/)
+    - [豐田形學：持續改善與教育式領導的關鍵智慧TOYOTA KATA](https://www.books.com.tw/products/0010471926)
+        - Plan - Do - Check - Act
+    - [Continuous Delivery中文版：利用自動化的建置、測試與部署完美創造出可信賴的軟體發佈](https://www.books.com.tw/products/0010653820)
+    - [Release It!: Design and Deploy Production-Ready Software](https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395/ref=sr_1_1?keywords=Release+It%21%3A+Design+and+Deploy+Production-Ready+Software%5C&qid=1571598165&s=books&sr=1-1)
+    - [The Visible Ops Handbook: Implementing ITIL in 4 Practical and Auditable Steps](https://www.amazon.com/Visible-Ops-Handbook-Implementing-Practical/dp/0975568612/ref=sr_1_1?keywords=The+Visible+Ops+and+itil&qid=1571598102&s=books&sr=1-1)
+    - [DevOps Handbook｜打造世界級技術組織的實踐指南 (中文版)](https://www.tenlong.com.tw/products/9789865020941?list_name=srh)
+    - 微軟與約束理論
+        - From Worst to Best in 9 Months:Implementing a Drum-Buffer-Rope Solution in Microsoft’s IT Department[參考PDF連結](http://images.itrevolution.com/images/kanbans/From_Worst_to_Best_in_9_Months_Final_1_3-aw.pdf)
+    - Kanban
+        - [Personal Kanban: Mapping Work | Navigating Life](https://www.amazon.com/Personal-Kanban-Mapping-Work-Navigating/dp/1453802266/ref=sr_1_1?crid=1CD5UNTROZ569&keywords=personal+kanban&qid=1571598239&s=books&sprefix=personal+kan%2Cstripbooks-intl-ship%2C321&sr=1-1)
+        - [Kanban: Successful Evolutionary Change for Your Technology Business](https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402/ref=sr_1_3?keywords=kanban+success&qid=1571598302&s=books&sr=1-3)
 # 資訊架構學
 - Ch1 
     - 從黑膠唱片到iTunes的複雜化
