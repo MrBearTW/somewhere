@@ -7,9 +7,28 @@
         - [更多blade資訊](https://laravel.com/docs/6.x/blade)
 - Part 4
     - blade做 layout
-
+        - 要延伸自 views\layout\app.blade.php
+        - `extends(layout.aaa)`
+    - yield
+        - 模板中 `@yield('AAA')`
+        - 插入資料 `@section('AAA','AAA要寫入的資料')`
+    - section
+        - 模板中
+            ```
+            @section('BBB')
+                @show
+            ```
+        - 插入資料 
+            ```
+            @section('BBB')
+                BBB區塊要加入的資料
+            @endsection
+            ```
 - Prat 5
-    - 
+    - 在建立controller時，加入`--resource`
+    - "namespace" is define where you are
+    - 啟用內建伺服器`php artisan serve`
+
 
 - Part 6 One to One
     - 建立migration 就是教laravel how to design your table
@@ -41,8 +60,8 @@
 - Part 9 Has one through
     - 客戶 - 廠商
     - 廠商歷史資料
-- Part 10 Ploymorphic Relation
+- Part 10 Ploymorphic Relation 多態 一對多
     - post video
     - comment
-- Part 11 Ploymorphic Many to Many
+- Part 11 Ploymorphic Many to Many 多態 多對多
     - 
