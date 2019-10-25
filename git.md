@@ -1,5 +1,12 @@
 # 同步fork來的原專案進度
-[【狀況題】怎麼跟上當初 fork 專案的進度？](https://gitbook.tw/chapters/github/syncing-a-fork.html)
+- [【狀況題】怎麼跟上當初 fork 專案的進度？](https://gitbook.tw/chapters/github/syncing-a-fork.html)
+
+這些先看一看
+- [Git 系列文章](https://gitbook.tw/articles)
+- [Git 面試題](https://gitbook.tw/interview)
+再看書
+還有研究一下tig
+用CMD長出樹形圖
 
 # ----------------------------------------------------
 沒commit前，回復檔案原本狀態`git checkout 檔名`  
