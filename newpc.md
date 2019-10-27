@@ -12,7 +12,22 @@ CMD軟體 ConEmu
 - 目標  Ducky One 2 Skyline 天際線 PBT 銀軸 靜音紅軸 機械式鍵盤
 https://www.pcparty.com.tw/products/%E5%89%B5%E5%82%91-ducky-skyline%E5%A4%A9%E9%9A%9B%E7%B7%9A-one-2-pbt-%E9%8A%80%E8%BB%B8-%E6%A9%9F%E6%A2%B0%E5%BC%8F%E9%8D%B5%E7%9B%A4
 - 實際 [Ducky One 2 87鍵 RGB PBT鍵帽 靜音紅軸](https://www.pcparty.com.tw/products/創傑-ducky-one-2-87鍵-rgb-pbt鍵帽-銀軸-靜音紅軸-線性白軸)
-
+    - 設定顏色
+        - Fn + F10
+            - 有很12種
+            - 若是可以自己調色的則在F5 F6 F7 會出現RGB三色
+    - 設定功能
+        - Windows + 空白健三秒 清空之前設定
+        - 挑選要調整的組別 Fn + 2~6 (1為預設值)
+        - 進入編輯模式 Fn + Crtl 三秒
+        - 做出( Fn + PageUp = 聲音加大 )
+            - 按下要調整的按鍵(Fn + PageUp)
+            - 按下要對照的功能(Fn + Windows + B)
+        - 調整下一個按鍵 Fn + Alt
+        - 做( Fn + PageDown = 聲音減小 )
+            - 按下要調整的按鍵(Fn + PageDown)
+            - 按下要對照的功能(Fn + Windows + C)
+        - Fn + Crtl 停止錄製
 - 高雄店家  https://www.pcparty.com.tw/pages/aboutus
 
 - iPhone設定虛擬目錄指令
