@@ -8,6 +8,11 @@
 還有研究一下tig
 用CMD長出樹形圖
 
+
+# 安全性改用2FA之後
+- 原本已經拉到本地的要改origin`git remote set-url origin git@github.com:XXXXXXXXXXXXX.git`
+- 在github上面選擇SSH那一個，不是https那一個
+
 # ----------------------------------------------------
 沒commit前，回復檔案原本狀態`git checkout 檔名`  
 沒commit前，回復所有檔案狀態`git checkout .`  

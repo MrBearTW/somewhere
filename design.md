@@ -49,3 +49,8 @@ wireframe
 
 # 很多繪圖工具
 https://gremlinworks.com.tw/ui-ux/ui-tools/
+
+# Chart.js
+- 顏色 https://nagix.github.io/chartjs-plugin-colorschemes/
+    - [chartjs-plugin-colorschemes](https://nagix.github.io/chartjs-plugin-colorschemes/colorchart.html)
+- 設定細節 https://github.com/nagix/chartjs-plugin-colorschemes
