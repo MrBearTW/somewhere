@@ -31,5 +31,6 @@ https://www.pcparty.com.tw/products/%E5%89%B5%E5%82%91-ducky-skyline%E5%A4%A9%E9
         - Fn + Crtl 停止錄製
 - 高雄店家  https://www.pcparty.com.tw/pages/aboutus
 
-- iPhone設定虛擬目錄指令
-    - `mklink/j “C:\Users\user\AppData\Roaming\Apple Computer\MobileSync” “F:\iPhonebackup\MobileSync”`
+- iPhone設定虛擬目錄指令(無法執行)
+    - `junction "C:\Users\user\AppData\Roaming\Apple Computer\MobileSync" "E:\iPhonebackup\MobileSync"`
+    - `mklink /j “C:\Users\user\AppData\Roaming\Apple Computer\MobileSync” [E:\iPhonebackup\MobileSync]`
