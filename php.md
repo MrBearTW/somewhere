@@ -55,6 +55,9 @@
     - 官方機器人
     - 需認證
 
+- 開發工具 [Ngrok](https://ngrok.com/)
+    - Spend more time programming. One command for an instant, secure URL to your localhost server through any NAT or firewall.
+
 - replay 和 notify 是免費的
 - 若要暫存進行中的步驟，需另外設計使用redis等方法協助紀錄
 

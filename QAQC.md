@@ -1,3 +1,7 @@
+# 
+- 有寫到一些名詞分類https://rickhw.github.io/2015/10/11/SQA/How-To-Be-An-SQA/
+- [如何有效的回報問題 (How to Report Problems Effectively)](https://rickhw.github.io/2018/03/18/SQA/How-To-Report-A-Defect-or-Bug/)
+
 # 8D方法(Eight disciplines problem solving)
 https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving  
 1. D0 判斷是否適合使用此方法
