@@ -12,7 +12,20 @@
 # 安全性改用2FA之後
 - 原本已經拉到本地的要改origin`git remote set-url origin git@github.com:XXXXXXXXXXXXX.git`
 - 在github上面選擇SSH那一個，不是https那一個
+# ----------------------------------------------------
+# 為你自己學 Git 
+- https://gitbook.tw/
+### 一、Git 入門篇
+- 與其它版本控制系統的差異
+    - 分散式
+    - 拍照並指向最後沒有變動過的那一個版本
+### 四、設定 Git
+- 其它方便的設定
+    - 圖像化顯示 `git log --oneline --graph`
+        - 用 `git l`來取代，設定alias`git config --global alias.l "log --oneline --graph"`
 
+
+        
 # ----------------------------------------------------
 沒commit前，回復檔案原本狀態`git checkout 檔名`  
 沒commit前，回復所有檔案狀態`git checkout .`  
