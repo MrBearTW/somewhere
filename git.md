@@ -23,7 +23,33 @@
 - 其它方便的設定
     - 圖像化顯示 `git log --oneline --graph`
         - 用 `git l`來取代，設定alias`git config --global alias.l "log --oneline --graph"`
-
+    - 快速鍵[alias]
+        - co = checkout
+        - br = branch
+        - st = status
+        - l = log --oneline --graph
+        - ls = log --graph --pretty=format:"%h <%an> %ar %s"
+### 五、開始使用 Git
+- 新增、初始 Repository
+    - 在資料夾內初始化`git init`
+- 把檔案交給 Git 控管
+- 工作區、暫存區與儲存庫
+- 檢視紀錄
+- 【狀況題】如何在 Git 裡刪除檔案或變更檔名？
+- 【狀況題】修改 Commit 紀錄
+- 【狀況題】追加檔案到最近一次的 Commit
+- 【狀況題】新增目錄？
+- 【狀況題】有些檔案我不想放在 Git 裡面…
+- 【狀況題】檢視特定檔案的 Commit 紀錄
+- 【狀況題】等等，這行程式誰寫的？
+- 【狀況題】啊！不小心把檔案或目錄刪掉了…
+- 【狀況題】剛才的 Commit 後悔了，想要拆掉重做…
+- 【狀況題】不小心使用 hard 模式 Reset 了某個 Commit，救得回來嗎？
+- 【冷知識】HEAD 是什麼東西？
+- 【狀況題】可以只 Commit 一個檔案的部份的內容嗎？
+- 【冷知識】那個長得很像亂碼 SHA-1 是怎麼算出來的？
+- 【超冷知識】在 .git 目錄裡有什麼東西？Part 1
+- 【超冷知識】在 .git 目錄裡有什麼東西？Part 2
 
         
 # ----------------------------------------------------
