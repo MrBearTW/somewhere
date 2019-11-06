@@ -33,9 +33,23 @@
 - 新增、初始 Repository
     - 在資料夾內初始化`git init`
 - 把檔案交給 Git 控管
+    - 把檔案交給 Git，讓 Git 開始「追蹤」它`git add xxxxxx`
+    - 一口氣把全部的檔案加到暫存區`git add --all`
+        - Git 1.x  `git add .`不會加入刪除的檔案，Git 2.x之後就兩個指令都一樣了
+        - `git add .`在下指令的目錄及以下子孫目錄會執行，但往上的父目錄不會執行
+    - `git commit -m "這一個commit的註解"` 把暫存區的東西存放到儲存庫（Repository）裡
+        - = 讓暫存區的內容永久的存下來 = 我完成一個存檔（或備份）的動作了
+        - 若沒寫註解，會進入預設的編輯器畫面，讓你編寫註解
+            - 不寫註解做commit`git commit --allow-empty`
 - 工作區、暫存區與儲存庫
+    - 一次做完add和commit`git commit -a -m "xxxxxxxxx"`，但對未追蹤新加入的檔案（也就是 Untracked file）是無效的。
 - 檢視紀錄
+    - `git log`檢視 Git 紀錄
+    - `git log -S "xxx"`搜尋commit中有xxx字串
+    - `git log --oneline --since="9am" --until="12am" --after="2017-01"`用時間當搜尋條件
 - 【狀況題】如何在 Git 裡刪除檔案或變更檔名？
+    - 不再被追蹤`git rm welcome.html --cached`
+    - 用git改名`git mv hello.html world.html`
 - 【狀況題】修改 Commit 紀錄
 - 【狀況題】追加檔案到最近一次的 Commit
 - 【狀況題】新增目錄？
@@ -50,7 +64,55 @@
 - 【冷知識】那個長得很像亂碼 SHA-1 是怎麼算出來的？
 - 【超冷知識】在 .git 目錄裡有什麼東西？Part 1
 - 【超冷知識】在 .git 目錄裡有什麼東西？Part 2
-
+### 六、使用分支
+- 為什麼要使用分支？
+    - 成本很低
+- 開始使用分支
+    - `git branch aaa`開一個aaa的分支
+    - `git branch -m aaa bbb`改分支名稱
+    - `git branch -d eeee`刪除分支eeee，若沒有merge過會跳出警告
+    - `git branch -D eeee`強迫刪除分支eeee
+    - `git checkout -b fff` -b 若沒有fff分支則建立
+-  對分支的誤解
+- 合併分支
+    - `git checkout master`移動到要合併的分支
+    - `git merge cat`把要合併過來的(cat)合併到要主線(master)
+    - 退回前一個狀態`git reset HEAD^ --hard`
+- 【狀況題】為什麼我的分支都沒有「小耳朵」？
+    -  主線相對branch若沒有多其他commit，Git 就會自動選用「快轉模式（Fast Forward）」
+    - merge加上--no-ff可強迫產生 `git merge cat --no-ff`
+- 【常見問題】合併過的分支要留著嗎？
+    - 看心情
+- 【狀況題】不小心把還沒合併的分支砍掉了，救得回來嗎？
+    - 30天內理論上可以
+    - `git reflog`
+- 另一種合併方式（使用 rebase）
+    - 有點像移花接木，是複製貼上(且重新計算)，不是剪下貼上
+    - 重新設定基準點
+    - `git rebase aaa`
+    - rebase錯的話
+        1. 方法一
+        - `git reflog`查詢做rebase之前的那一個hsash
+        - `git reset xxxxxxx --hard`
+        2. 方法二
+        - git reset ORIG_HEAD --hard
+    - 不應該隨便對已經推出去給別人內容進行 rebase，因為這很容易造成其它人的困擾。
+- 合併發生衝突了，怎麼辦？
+    - 用merge
+        1. 修好衝突的檔案
+        2. `git add index.html`
+        3. `git commit -m "conflict fixed"`
+    - 用rebase一半卡住
+        1. 修好衝突的檔案
+        2. `git add index.html`
+        3. `git rebase --continue`
+    - 若卡住的不是文字檔
+        - 選一個分支
+        - 用現在這一個分支--ours `git checkout --ours cute_animal.jpg`
+        - 用對方的分之--theirs `git checkout --theirs cute_animal.jpg`
+- 【冷知識】為什麼大家都說在 Git 開分支「很便宜」？
+- 【冷知識】Git 怎麼知道現在是在哪一個分支？
+- 【狀況題】我可以從過去的某個 Commit 再長一個新的分支出來嗎？
         
 # ----------------------------------------------------
 沒commit前，回復檔案原本狀態`git checkout 檔名`  
