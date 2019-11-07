@@ -1,3 +1,22 @@
+# 2019/11/07 AZURE TAIWAN #23 智慧客服在雲端
+智能客服
+Call center
+
+多媒體管道 sms fax email chatbot
+
+IVR Interactive Voice Response System
+
+Chatbot / 人工Chat / 電話
+
+Genesys
+
+後台知識庫
+Bot frimework
+
+NLU
+Rule-base
+Intent-base
+
 # 2019/06/28 SDN x Cloud Native x openSUSE Meetup #17
 https://docs.microsoft.com/zh-tw/azure/aks/virtual-kubelet  
 https://docs.microsoft.com/zh-tw/azure/aks/  

@@ -89,7 +89,7 @@
 - 另一種合併方式（使用 rebase）
     - 有點像移花接木，是複製貼上(且重新計算)，不是剪下貼上
     - 重新設定基準點
-    - `git rebase aaa`
+    - 在分支上`git rebase aaaaaa`aaaaaa為要重新設定基準點的hash code
     - rebase錯的話
         1. 方法一
         - `git reflog`查詢做rebase之前的那一個hsash
