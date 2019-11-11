@@ -4,3 +4,7 @@
 
 - crtl + alt + 向下鍵
     - 跨行選擇
+
+
+別人推薦的套件
+https://blog.goodjack.tw/2018/03/visual-studio-code-extensions.html
