@@ -1,3 +1,9 @@
+# 服務評分
+- ERP 客服類  
+https://customer-support.financesonline.com/#top10-products  
+  
+- 10 Best Fitness & Gym Management Software for 2019  
+https://financesonline.com/best-fitness-gym-management-software/
 # 2018/6/24 Google Analytics-網路分析操作課
 購物網站比較有用  
 用blogger很方便，插一個ID就可以用了  
