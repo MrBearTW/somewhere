@@ -1,4 +1,7 @@
-強制刷新 crtl +shift +r
+# 簡單做圖表的網頁
+https://www.draw.io/
+# 網頁強制刷新 
+crtl +shift +r
 # 顏色
 - 日本天皇 黃櫨染 \#D74B22
 - 中國不能用的顏色 \#198964

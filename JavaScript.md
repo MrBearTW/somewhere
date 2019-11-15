@@ -7,8 +7,6 @@
 4. 應該是跟 Tooltip Configuration 有關
 
 
-
-
 # 2019/11/15 之前
 https://buzzorange.com/techorange/2017/03/24/javascriptgodddddd/  
 如果想靠寫程式吃飯，第一個學的絕對要是 JavaScript！  Posted on 2017/03/24  
