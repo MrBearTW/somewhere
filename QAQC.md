@@ -1,7 +1,10 @@
-# 
+# Complete Think
 - 有寫到一些名詞分類https://rickhw.github.io/2015/10/11/SQA/How-To-Be-An-SQA/
 - [如何有效的回報問題 (How to Report Problems Effectively)](https://rickhw.github.io/2018/03/18/SQA/How-To-Report-A-Defect-or-Bug/)
 - [Issue Template](https://rickhw.github.io/2015/01/06/Management/%E5%8D%94%E5%90%8C%E5%90%88%E4%BD%9C%E7%B3%BB%E7%B5%B1%E5%BB%BA%E5%88%B6%E8%88%87%E5%B0%8E%E5%85%A5-%E4%BB%A5-Redmine-%E7%82%BA%E4%BE%8B/)
+
+# 漫畫 測試人生
+https://mp.weixin.qq.com/s/ppNzwSrKzM8KEjM2dAgiBA?fbclid=IwAR1BuqdVEUYTFutSTdMt_cMeB70ibk7wntQEib0lcO4CjapS25YTP7cOSdw
 
 # 8D方法(Eight disciplines problem solving)
 https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving  

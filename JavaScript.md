@@ -1,3 +1,6 @@
+# mozilla 教學
+- [JavaScript 基礎](https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+
 # chart.js
 加個總和在堆疊bar上面
 1. 套件  https://chartjs-plugin-datalabels.netlify.com/

@@ -13,10 +13,21 @@ OKR如何傳到Google，以及它有哪些神奇力量。
 
 2　OKR之父
 葛洛夫創造、流傳的全新目標設定法。
-
+- [Andy Grove授課影片](https://www.whatmatters.com/grove)
+- Intel Delivers 英特爾說到做到
+- Creative confrontation建設性面質
+- OKR要訣
+    - 對知識絕對的誠實ruthless intellectural honesty
+    - 少就是多
+    - 由下而上制定目標
+    - 不強制規定
+    - 保持彈性
+    - 勇於失敗
+    - 把它當工具而非武器
+    - 要有耐心，也要堅定
 3　英特爾的征服行動
 用OKR打贏微處理器戰爭。
-
+- 快速反應 整個公司變動快過申請一張機票
 4　超能力1：專注投入優先要務
 如何選出最要緊的事。
 

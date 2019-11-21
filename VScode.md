@@ -9,13 +9,16 @@
     2. php-cs-fixer版
         - crtl + shift + p 
         - 輸入 "php-cs-fixer fix this file "
-
+    - 官方文件
+        - Currently selected source code: Ctrl+K Ctrl+F
+        - Whole document format: Shift+Alt+F
 - crtl + D 
     - 第一下，選取整個字串含$號
     - 選下一個一樣的字串
 
-- crtl + alt + 向下鍵
-    - 跨行選擇
+- 跨行選擇
+    - crtl + alt + 向下鍵
+    - alt + 滑鼠游標選擇
 
 - 摺疊
     - 摺疊
@@ -25,3 +28,14 @@
 
 - 選取整行
     - crtl + L
+
+- 跨號之間選鑿
+    - 增加選擇內容  ALT + SHIFT + 左鍵
+    - 減少選擇內容  ALT + SHIFT + 右鍵
+
+
+# 調整
+"editor.renderWhitespace" 選ALL
+
+# win版快捷鍵
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
