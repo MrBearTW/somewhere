@@ -1,3 +1,69 @@
+# 2019/11/26 
+好葉 youtube
+
+列出清單
+
+每天寫一個unit test
+
+
+簡單的地方開始測
+從專案核心開始測
+一個一個補上
+
+寫code時，會伴隨在想怎麼寫
+- 好測試
+- 商業邏輯
+- 客製化framework 
+
+寫測試是變相在寫文件
+
+從簡單地方開始測
+測試基礎元件
+符合產品特性
+
+
+ZERO QA => 失敗
+QA的好處 審核spec
+
+
+
+
+
+APE
+291-310 解完/發現
+
+Crash rate
+2016 96%
+2019 99.9%
+
+Dino monkey test
+
+
+越後面發現的越不重要
+
+
+標記工具Vott  tf.js
+
+Inference停住，後面就不做，節省時間
+
+F1 score
+
+Button 
+一大堆按鈕 -》Ok button
+
+Text button 
+image button 
+
+Color不重要，全部改灰階
+
+
+手機 平板
+
+多國語系
+
+直接用production環境下去測試
+
+
 # 2019/09/03 Teat Corner
 ### 19:40 ~ 20:30 |   How LINE runs a project with LINE MUSIC as an example - Marc
 [slide](https://speakerdeck.com/line_developers_tw/how-line-runs-a-product-with-line-music-as-example)
