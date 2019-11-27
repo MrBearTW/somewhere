@@ -1,5 +1,7 @@
-# 2019/11/26 
-好葉 youtube
+# 2019/11/26 Test Corner #24 @Taipei digiBlock
+- 活動紀錄 https://testcorner.io/flarum/d/15-test-corner-24-digiblock-taipei
+## 如何讓寫 Test 在不知不覺中, 變成習慣, 方便測試的角度來開發專案, 再從基本的Unit Test 漸漸打造成 Integration Test, 輔以 Airbnb design pattern 概念來開發, 進化測試與開發代碼. 使用技術為XCTest framework 
+推薦youtuber 好葉
 
 列出清單
 
@@ -27,7 +29,7 @@ QA的好處 審核spec
 
 
 
-
+## 馴養了一隻比猴子聰明的 AI 測試猿
 
 APE
 291-310 解完/發現
