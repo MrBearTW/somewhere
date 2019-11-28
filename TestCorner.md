@@ -1,36 +1,34 @@
 # 2019/11/26 Test Corner #24 @Taipei digiBlock
 - 活動紀錄 https://testcorner.io/flarum/d/15-test-corner-24-digiblock-taipei
 ## 如何讓寫 Test 在不知不覺中, 變成習慣, 方便測試的角度來開發專案, 再從基本的Unit Test 漸漸打造成 Integration Test, 輔以 Airbnb design pattern 概念來開發, 進化測試與開發代碼. 使用技術為XCTest framework 
-推薦youtuber 好葉
+- 簡報: https://reurl.cc/k5kllq
 
-列出清單
+- 推薦[youtuber 好葉](https://youtu.be/WrGenJYgou4)
 
-每天寫一個unit test
+- 列出所有要寫的測試清單，從簡單的開始
+- 每天寫一個unit test
+- 簡單的地方開始測
+- 從專案核心開始測
+- 一個一個補上
 
+- 寫code時，會伴隨在想怎麼寫
+    - 好測試
+    - 商業邏輯
+    - 客製化framework 
 
-簡單的地方開始測
-從專案核心開始測
-一個一個補上
+- 寫測試是變相在寫文件
 
-寫code時，會伴隨在想怎麼寫
-- 好測試
-- 商業邏輯
-- 客製化framework 
+- 從簡單地方開始測
+- 測試基礎元件
+- 符合產品特性
 
-寫測試是變相在寫文件
+- 公司嘗試ZERO QA => 失敗
+- QA的好處 審核spec，確定工程師沒有遺漏
 
-從簡單地方開始測
-測試基礎元件
-符合產品特性
-
-
-ZERO QA => 失敗
-QA的好處 審核spec
-
-
-
+- airbnb
+    - [Airbnb 組織流程 - Design跟Coding的協作效益最佳化](https://medium.com/as-a-product-designer/airbnb-%E7%B5%84%E7%B9%94%E6%B5%81%E7%A8%8B-%E8%AE%93design%E8%B7%9Fcoding%E4%B9%8B%E9%96%93%E7%9A%84%E5%8D%94%E4%BD%9C%E6%95%88%E7%9B%8A%E6%9C%80%E4%BD%B3%E5%8C%96-f229a0dc91ab)
 ## 馴養了一隻比猴子聰明的 AI 測試猿
-
+- 簡報: https://reurl.cc/24NWRm
 APE
 291-310 解完/發現
 
@@ -40,13 +38,12 @@ Crash rate
 
 Dino monkey test
 
-
 越後面發現的越不重要
 
 
-標記工具Vott  tf.js
+標記工具微軟Vott  (需要tf.js)
 
-Inference停住，後面就不做，節省時間
+Inference 停住，後面就不做，節省時間
 
 F1 score
 
