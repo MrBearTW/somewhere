@@ -29,25 +29,25 @@
     - [Airbnb 組織流程 - Design跟Coding的協作效益最佳化](https://medium.com/as-a-product-designer/airbnb-%E7%B5%84%E7%B9%94%E6%B5%81%E7%A8%8B-%E8%AE%93design%E8%B7%9Fcoding%E4%B9%8B%E9%96%93%E7%9A%84%E5%8D%94%E4%BD%9C%E6%95%88%E7%9B%8A%E6%9C%80%E4%BD%B3%E5%8C%96-f229a0dc91ab)
 ## 馴養了一隻比猴子聰明的 AI 測試猿
 - 簡報: https://reurl.cc/24NWRm
-APE
-291-310 解完/發現
 
-Crash rate
-2016 96%
-2019 99.9%
+- APE
+- 291-310 解完/發現
+    - Crash rate
+    - 2016 96%
+    - 2019 99.9%
 
-Dino monkey test
+- Dino monkey test
 
-越後面發現的越不重要
+- 越後面發現的越不重要
 
+- 推薦標記工具:微軟Vott  (需要tf.js)
 
-標記工具微軟Vott  (需要tf.js)
+- Inference 停住，後面就不做，節省時間
 
-Inference 停住，後面就不做，節省時間
+- 評價F1 score
 
-F1 score
-
-Button 
+- 標記方式改變
+- Button 
 一大堆按鈕 -》Ok button
 
 Text button 
@@ -61,6 +61,10 @@ Color不重要，全部改灰階
 多國語系
 
 直接用production環境下去測試
+
+https://www.facebook.com/679172375508263/posts/1691152244310266?d=n&sfns=mo
+
+https://www.facebook.com/679172375508263/posts/1968963926529095?d=n&sfns=mo
 
 
 # 2019/09/03 Teat Corner
