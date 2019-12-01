@@ -1,3 +1,42 @@
+# GDG DevFest Taipei 2019
+[共筆](https://hackmd.io/@gdg-tiapei/DevFest-2019)
+### 在導入 Flutter 之前，你應該知道什麼？
+- Weizhong Yang
+Dart VM 約等於 Skia Render Engine
+原本是網站功能，要做成Mobile App，電商，售票，交友，報表
+
+遊戲還是用遊戲引擎
+拍照，錄影，還是用Native比較好
+
+忘掉MVC，flutter全部都是view
+
+### Fun with Apk analyzers and shrinking Apps
+- Teng-pao Yu
+https://docs.google.com/presentation/d/1y6yi3eHJ0ukLNGsWowK5AsquAyTOSJ5SNClLNdOp1Ok/mobilepresent?slide=id.g7a68860d87_0_110
+
+APK減量
+新舊版做比較
+
+Build tool optimization 
+- R8
+- abi
+
+Code optimization 
+Resources optimization  
+
+### 10 years of Go
+- Evan Lin
+格式規定明確
+內建測試
+
+- 開始寫BLOG
+- 寫TIL today I learn
+- 持續SHARE
+
+### Awesome web data visualizations with Google Maps Platform and deck.gl
+- Alex Muramoto
+https://bl.ocks.org/Pessimistress/raw/2b2dee8d3aa01d 31bb97ca2671690af9/7135d4d7eef3fd36e5a245b0551dab1f7ff4ef70/
+
 # 2019/09/19 GDGCloud Taipei Meetup #49
 - Jason Kao/ Tech. Director @ Cloud Ace
 - Monitor Golden circle
