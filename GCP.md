@@ -25,6 +25,7 @@ Code optimization
 Resources optimization  
 
 ### 10 years of Go
+- [投影片](https://speakerdeck.com/line_developers_tw/gdgdevfest-2019-10-years-of-go)
 - Evan Lin
 格式規定明確
 內建測試
