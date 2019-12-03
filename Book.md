@@ -89,9 +89,14 @@
     - BHAG 無畏艱難的目標 Big Hairy Audacious Goal
     - Google 的兩類OKR
         1. 決心達成的目標
+            - 與業務掛勾
         2. 理想遠大(艱難)的目標
-13　激發潛能：Google Chrome的故事       桑德爾‧皮蔡與全球第一的網路瀏覽器。
-
+            - 平均失敗率達40%
+    - 獎勵很重要：大溪地
+- 13　激發潛能：Google Chrome的故事       桑德爾‧皮蔡與全球第一的網路瀏覽器。
+    - 興奮之餘心有不安 uncomfortably excited
+    - 對於不可能抱持著健康的不以為然的態度 a healthy disregard for the impossible
+    
 14　激發潛能：YouTube的故事     大膽的每日10億小時觀看時間目標。
  
 第2部　工作的新世界
