@@ -1,4 +1,76 @@
 # 2019/12/10 PHP 也有 Day 番外篇 - Ant 的 RDBMS 資料庫設計討論營系列活動 - 資料庫淺談
+解析器 排序 動態編程 事務 IO
+
+看應用場景
+Mysql 5.7 8 可能解決一些舊問題
+
+Persona。相容
+三個核心可選擇
+是資料庫顧問諮詢服務公司
+
+MariaDB 取代
+10 相容mysql5.6 ，不相容5.7
+
+WebScaleSQL
+FB等級大公司在用
+
+MySQL 8
+解決lock
+還了一些技術債
+
+
+PostgreSQL 12
+Vacuum 再次強化
+JIT預設啟用
+
+
+比較
+
+MySQL 因Vitess 更適合 p 用於 k8s
+
+ID
+循序式 亂數式
+
+GUID 
+UUID1345剩下14比較
+UUID v1是亂序
+
+
+
+Natural key  核心缺點需求不能變化
+Surrogate key 核心缺點效能速度較慢
+
+S key選用得宜，效能未必較慢
+S key 可比 n key短
+S key可以是循序性 n key很難
+
+Primary key
+不能為null 必須唯一
+越短越好 複合主鍵可用Surrogate取代
+隨時間改變越趨穩定
+
+UUID
+Bigint
+UUID order
+
+2ndquadant
+P sql顧問公司
+
+循序式的效能都較亂序式的高
+
+
+選擇樹
+
+Connection pool
+建議引進軟體如
+
+Fusion 10
+
+
+Enterprise DB顧問公司
+Zheap
+
+
 
 # 2019/10/29 PHP 也有 Day #49：邊緣人救星！用 Laravel 打造私人定製的聊天機器人
 - 已讀 在訊號不好的地方 可以成為一個基本的回覆
