@@ -1,5 +1,10 @@
 # 2019/12/08 GDGCloud Taipei Meetup #50
 
+- 蔡宗城 大大 
+【#Kubernetes】聽說未來不會 K8S 的話，將會被淘汰？！沒關係，這裡有各個雲端平台提供的 K8S 免費方案，讓你有源源不絕的 K8S 叢集可以好好練習XD
+https://www.facebook.com/photo.php?fbid=2851697084842380&set=a.110864892258960&type=3
+
+
 # GDG DevFest Taipei 2019
 [共筆](https://hackmd.io/@gdg-tiapei/DevFest-2019)
 ### 在導入 Flutter 之前，你應該知道什麼？
