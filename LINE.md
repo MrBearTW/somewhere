@@ -1,3 +1,7 @@
+# 2019/12/4 LINE 台灣年度開發者大會 LINE TECHPULSE 2019
+大主管的碩士主修
+Fuzzy logic
+Neural network
 # 2019/09/18  TW BECKS No.4
 ## 19:10-19:50 (TW) 那些年，我回報漏洞的踩雷經驗! - Orange Tsai / DEVCORE
 - CI system attacks

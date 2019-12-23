@@ -1,3 +1,6 @@
+# 史上最完整的新手網頁入門學習地圖 - 金魚都懂的網頁學習路徑懶人包
+https://ithelp.ithome.com.tw/articles/10228708
+
 # mozilla 教學
 - [JavaScript 基礎](https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
