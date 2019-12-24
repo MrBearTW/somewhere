@@ -10,8 +10,8 @@
         - crtl + shift + p 
         - 輸入 "php-cs-fixer fix this file "
     - 官方文件
-        - Currently selected source code: Ctrl+K Ctrl+F
-        - Whole document format: Shift+Alt+F
+        - 圈選部分 Currently selected source code: Ctrl+K Ctrl+F
+        - 整份檔案 Whole document format: Shift+Alt+F
 - crtl + D 
     - 第一下，選取整個字串含$號
     - 選下一個一樣的字串
