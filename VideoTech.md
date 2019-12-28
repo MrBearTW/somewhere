@@ -1,3 +1,26 @@
+# 2019/12/27
+Kkstream
+DEMUXED 2018
+5秒以內
+
+Low latency live 
+Video codecs
+
+LLHS
+
+
+
+Netflix 
+
+Cache
+Netflix有自己的CDN，不是用AWS的
+1/3
+
+
+
+Abeam日本串流技術公司
+20多個免費
+
 # 2019/07/31 Taipei Video Tech #4
 
 >Talk #1. 我們與串流架構的距離  
