@@ -3,10 +3,11 @@ Kkstream
 DEMUXED 2018
 5秒以內
 
+兩強之爭
 Low latency live 
 Video codecs
 
-LLHS
+主講人看好LLHS
 
 
 
@@ -14,6 +15,8 @@ Netflix
 
 Cache
 Netflix有自己的CDN，不是用AWS的
+但一部分計算確實仍是使用AWS的服務
+Netflix從串流公司變成影音工作室
 1/3
 
 
