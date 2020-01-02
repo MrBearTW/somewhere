@@ -1,5 +1,5 @@
 # 2019/12/27
-Kkstream
+- KKstream
 DEMUXED 2018
 5秒以內
 
@@ -11,7 +11,7 @@ Video codecs
 
 
 
-Netflix 
+- Netflix 
 
 Cache
 Netflix有自己的CDN，不是用AWS的
