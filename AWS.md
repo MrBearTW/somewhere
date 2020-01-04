@@ -1,5 +1,12 @@
+# 2020/01/04
+#AWSCertifiedChallenge
+https://twitter.com/jeffbarr/status/1213119758159081474?s=09
+
 # 2020/01/01 e-training
 We cannot find the training you are looking for.
+
+
+
 # AWS re:Invent 2019 re:Cap AWS 雲端科技發表會 - 台北站
 
 # ELK ElasticSearch、Logstash、Kibana 研究筆記
