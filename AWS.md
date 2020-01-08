@@ -6,8 +6,94 @@ https://twitter.com/jeffbarr/status/1213119758159081474?s=09
 We cannot find the training you are looking for.
 
 
+# 2020/01/08 AWS re:Invent 2019 re:Cap AWS 雲端科技發表會 - 台北站
+60000人 1800美
 
-# AWS re:Invent 2019 re:Cap AWS 雲端科技發表會 - 台北站
+AWS360億 35%年增率 約1兆台幣
+Amazon2000億
+
+聯發科第一顆5G soc 
+
+Edge computing  
+
+研究生就有prof I call certificates 
+
+Prfaq
+
+台塑AI 交出成績單
+ERP是自己做的
+
+—————————————-
+
+
+Fargate 管理ec2和eks工具
+
+Braket quantum computing 
+
+Transit gateway
+網路服務
+Multicast
+
+Data flywheel
+
+Redshift
+
+Elasticsearch RA3
+UltraWarm
+
+SageMaker
+Model Monitor
+Autopilot 
+
+Code Guru 自動做code review判斷哪幾行比較會花費
+
+
+
+交大CGI lab
+選左邊 選右邊
+Reinforce learning 
+Sim2real
+加入不穩定光源製造真實世界環境
+
+
+—————-
+其它新功能
+AWS outposts
+AWS Local zones
+
+——————
+12M個Ec2
+7奈米的soc(系統單晶片)晶片
+
+電子設計自動化（英語：Electronic design automation，縮寫：EDA）
+
+——————-
+M6g c6g r6g
+AInferential
+
+南韓有500 5G用戶
+發展AR
+
+汽車
+工廠生產
+AWS wavelength
+—————-
+17
+SLA雲端服務賠償條款？
+Availability       Reliability 
+DR option災難還原
+限流。現有用戶不影響，新用戶直接進不來
+————
+Smalltown
+點下去就可以用了
+Ecs不是直接對用戶有影響的服務
+Open district for elasticsearch
+
+
+下午workshop
+https://github.com/pahud/svs327-reinvent2019
+先確認需要什麼，再搭配AWS服務
+
 
 # ELK ElasticSearch、Logstash、Kibana 研究筆記
 - https://atceiling.blogspot.com/2018/05/elk.html
