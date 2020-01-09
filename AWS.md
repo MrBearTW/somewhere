@@ -7,7 +7,7 @@ We cannot find the training you are looking for.
 
 
 # 2020/01/08 AWS re:Invent 2019 re:Cap AWS 雲端科技發表會 - 台北站
-60000人 1800美
+2019拉斯維加斯年會 60000人 1800美
 
 AWS360億 35%年增率 約1兆台幣
 Amazon2000億
@@ -93,6 +93,76 @@ Open district for elasticsearch
 下午workshop
 https://github.com/pahud/svs327-reinvent2019
 先確認需要什麼，再搭配AWS服務
+
+晚上
+Cloud hero
+
+Load testing
+使用已知安全的負載
+
+Stress Testing 
+超出已知安全負載
+驗證過載後的恢復情況
+
+Fargate
+
+ColudFormation尚未支持capacity provider
+
+Cloud watch log
+RDS
+
+——————-
+Amis
+
+
+Infrastructure as code
+
+Terraform hcl hashicroup config language 
+
+Vishwakarma
+
+Core OS很多東西都只有readable
+
+—————-
+Application first
+
+
+task
+
+Fargate
+image封裝要做很多修改
+
+https://www.ernestchiang.com/posts/2019/2019-12-17-amazon-ecs-capacity-providers/?utm_source=awsrecap&utm_medium=event&utm_campaign=reinvent2019
+
+
+CON325
+Deep dive on Amazon ECS cluster 
+
+
+
+----------
+災難演練計畫
+
+業務核心目標
+
+Aws  dr 白皮書
+成本 恢復時間
+
+
+Divide and conquer
+
+
+團隊與服務的關聯，就是溝通路徑 康威原理
+—————-
+Agile girl
+紙原型
+
+—————
+Chatfule
+
+SPA（Single Page Application）
+SPA架構
+
 
 
 # ELK ElasticSearch、Logstash、Kibana 研究筆記
