@@ -7,161 +7,125 @@ We cannot find the training you are looking for.
 
 
 # 2020/01/08 AWS re:Invent 2019 re:Cap AWS 雲端科技發表會 - 台北站
-2019拉斯維加斯年會 60000人 1800美
+- 開幕致詞 王定愷 香港暨台灣總經理, AWS
+    - 2019拉斯維加斯年會 60000人 1800美
+    - 從營收看
+        - AWS 360億 35%年增率 約1兆台幣
+        - Amazon 2000億
 
-AWS360億 35%年增率 約1兆台幣
-Amazon2000億
-
-聯發科第一顆5G soc 
-
-Edge computing  
-
-研究生就有prof I call certificates 
-
-Prfaq
-
-台塑AI 交出成績單
-ERP是自己做的
-
-—————————————-
-
-
-Fargate 管理ec2和eks工具
-
-Braket quantum computing 
-
-Transit gateway
-網路服務
-Multicast
-
-Data flywheel
-
-Redshift
-
-Elasticsearch RA3
-UltraWarm
-
-SageMaker
-Model Monitor
-Autopilot 
-
-Code Guru 自動做code review判斷哪幾行比較會花費
+    - 聯發科
+        - 7奈米的soc(系統單晶片)晶片
+        - 第一顆5G soc (A system on chip)
+        - 晶片設計EDA需要強大運算效能
+            - 電子設計自動化（英語：Electronic design automation，縮寫：EDA）
+            - 透過混合雲來整合
+            - 累積使用超過12M個Ec2
+        - Edge computing
 
 
 
-交大CGI lab
-選左邊 選右邊
-Reinforce learning 
-Sim2real
-加入不穩定光源製造真實世界環境
+    - 台灣研究生就有AWS Professional certificates 
 
+    - PR / FAQ
+        - A press release (PR) Frequently Asked Questions (FAQ)
+        - (https://www.forbes.com/sites/innovatorsdna/2017/08/08/how-does-amazon-stay-at-day-one/#5772f3e7e4da)
 
-—————-
-其它新功能
-AWS outposts
-AWS Local zones
+    - 台塑
+        - AI 交出成績單，良率的提升96% -> 99%
+        - IT很強，ERP是自己做的
 
-——————
-12M個Ec2
-7奈米的soc(系統單晶片)晶片
+- 2019 AWS 雲端科技發表會精華 以及AWS DeepRacer League 獲勝團隊分享  講師: Dean Samuels, Lead Architect, AWS ASEAN
+    - Fargate
+        - 管理ec2和eks工具
+    - Braket quantum computing 
+    - Transit gateway
+        - 網路服務
+        - Multicast
+    - Data flywheel
+    - Redshift
+    - Elasticsearch RA3
+        - UltraWarm
+    - SageMaker
+        - Model Monitor
+        - Autopilot 
+    - Code Guru 自動做code review判斷哪幾行比較會花費
+    - 其它新功能
+        - AWS outposts
+        - AWS Local zones
+- 交通大學 電腦遊戲與智慧實驗室 (NCTU, CGI Lab)
+    - 模型開發功能
+        - 選左邊 選右邊
+        - Reinforce learning 
+        - Sim2real
+        - 加入不穩定光源製造真實世界環境
 
-電子設計自動化（英語：Electronic design automation，縮寫：EDA）
+- 2019 AWS re:Invent 媒體觀察與雲端科技面向5G x AI發展 黃建智 DIGITIMES 研究中心總監
+    - M6g c6g r6g
+    - AInferential
+    - 南韓有500萬 5G用戶
+    - 發展AR
+    - 汽車
+    - 工廠生產
+    - AWS wavelength
 
-——————-
-M6g c6g r6g
-AInferential
+- 分享主題：雲端環境災難後的省思 | 講師：Sammy Lin, 資深SRE工程部經理, 17 Media
+    - SLA雲端服務賠償條款？
+    - Availability       Reliability 
+    - DR option災難還原
+    - 限流。現有已登入用戶不影響，新登入用戶直接進不來
+-  分享主題：My ElasticSearch Journey on AWS | 講師：蔡宗城 smalltown, Site Reliability Engineering Lead, AMIS
+    - 點下去就可以用了 vs. 自幹省錢
+    - log分析ECS不是直接對用戶有影響的服務
+    - Open district for elasticsearch
 
-南韓有500 5G用戶
-發展AR
+- 下午workshop 使用 CDK 打造高併發請求的無伺服器系統 講師: Pahud Hsieh, 無伺服器領域專家, AWS
+    - 情境1: 重現 re:Invent 經典場次 SVS327-R 使用 CDK 打造高併發請求的無伺服器架構): 探討如何完全用 AWS CDK 打造一個高併發訂單吞吐的 Serverless 訂票系統而不使用任何一台 EC2。 
+    - 情境2: reInvent 2019 無服務器與容器服務最新功能工作坊    介紹：我們將會介紹這次 reInvent 幾個 serverless 與 container 的最新功能，並且帶領大家動手實際操作   
+    - https://github.com/pahud/svs327-reinvent2019
+        - 先確認需要什麼功能，再搭配適合的AWS服務
 
-汽車
-工廠生產
-AWS wavelength
-—————-
-17
-SLA雲端服務賠償條款？
-Availability       Reliability 
-DR option災難還原
-限流。現有用戶不影響，新用戶直接進不來
-————
-Smalltown
-點下去就可以用了
-Ecs不是直接對用戶有影響的服務
-Open district for elasticsearch
+- 晚上
+- 基於 AWS 服務的壓力測試攻略—以線上匯款平台為例 Cliff Lu,首席雲端架構師, EMQ Limited
+    - Load testing 使用已知安全的負載
+        - 可否承受設計的負載
+    - Stress Testing 超出已知安全負載
+        - 驗證過載後的恢復情況
+    - ColudFormation尚未支持capacity provider
+    - Cloud watch log
 
-
-下午workshop
-https://github.com/pahud/svs327-reinvent2019
-先確認需要什麼，再搭配AWS服務
-
-晚上
-Cloud hero
-
-Load testing
-使用已知安全的負載
-
-Stress Testing 
-超出已知安全負載
-驗證過載後的恢復情況
-
-Fargate
-
-ColudFormation尚未支持capacity provider
-
-Cloud watch log
-RDS
-
-——————-
-Amis
-
-
-Infrastructure as code
-
-Terraform hcl hashicroup config language 
-
-Vishwakarma
-
-Core OS很多東西都只有readable
-
-—————-
-Application first
-
-
-task
-
-Fargate
-image封裝要做很多修改
-
-https://www.ernestchiang.com/posts/2019/2019-12-17-amazon-ecs-capacity-providers/?utm_source=awsrecap&utm_medium=event&utm_campaign=reinvent2019
-
-
-CON325
-Deep dive on Amazon ECS cluster 
-
-
-
-----------
-災難演練計畫
-
-業務核心目標
-
-Aws  dr 白皮書
-成本 恢復時間
-
-
-Divide and conquer
-
-
-團隊與服務的關聯，就是溝通路徑 康威原理
-—————-
-Agile girl
-紙原型
-
-—————
-Chatfule
-
-SPA（Single Page Application）
-SPA架構
+- Vishwakarma: Terraform modules for deploying EKS and Self-hosting Kubernetes  Kyle Bai,網站可靠性工程師,AMIS
+    - Infrastructure as code 快速部署
+    - Terraform 是一種 hcl hashicroup config language 
+    - 公司自己開發的容器管理工具Vishwakarma
+    - 採用Core OS，因為很多東西都只有readable
+- AWS 微服務架構分享－用 ECS 打造跨國物聯網服務 Ernest Chiang,Director of Product & Technology Integration, PAFERS TechTGONetworks
+    - Application first
+        - task管理
+        - ECS改用Fargate
+            - 官方說得很簡單
+            - 其實 image封裝要做很多修改
+    - 參考資料
+        - [AWS re:Invent 2019 新發佈擴展策略 Amazon ECS Cluster Capacity Providers](https://www.ernestchiang.com/posts/2019/2019-12-17-amazon-ecs-capacity-providers/?utm_source=awsrecap&utm_medium=event&utm_campaign=reinvent2019)
+        - CON325
+        - [Deep dive on Amazon ECS cluster](https://aws.amazon.com/tw/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/) 
+- 不是你選擇那一刻，而是那一刻選擇你 - 災難演練 @ AWS 實戰分享 Rick Hwang 研發資深經理, 91APP
+    - 災難演練計畫
+        - 預演
+        - 偷跑
+        - 假wifi
+    - 業務核心目標
+        - 在xx間內，搬移到yy區，回復zz%的服務
+    - Aws  DR(Disaster Recovery) 白皮書
+        - 成本 恢復時間
+    - Divide and conquer
+    - 團隊與服務的關聯，就是溝通路徑 康威原理
+- 社群閃電秀 (語言: 中文)
+    1. Zoe Hou & Cherie Liao, Agile Girls 
+        - 紙原型
+    2. Fash Chang, Chatfuel Community Taiwan 
+        - SPA（Single Page Application）
+    3. Simon Sun, JavaScript Developer Conference Taiwan 
+        - 辦研討會不會賺錢
 
 
 
