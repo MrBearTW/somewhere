@@ -12,7 +12,6 @@ We cannot find the training you are looking for.
     - 從營收看
         - AWS 360億 35%年增率 約1兆台幣
         - Amazon 2000億
-
     - 聯發科
         - 7奈米的soc(系統單晶片)晶片
         - 第一顆5G soc (A system on chip)
@@ -21,11 +20,7 @@ We cannot find the training you are looking for.
             - 透過混合雲來整合
             - 累積使用超過12M個Ec2
         - Edge computing
-
-
-
-    - 台灣研究生就有AWS Professional certificates 
-
+    - 台灣研究生就有AWS Professional certificates，不只是Associate
     - PR / FAQ
         - A press release (PR) Frequently Asked Questions (FAQ)
         - (https://www.forbes.com/sites/innovatorsdna/2017/08/08/how-does-amazon-stay-at-day-one/#5772f3e7e4da)
@@ -36,7 +31,8 @@ We cannot find the training you are looking for.
 
 - 2019 AWS 雲端科技發表會精華 以及AWS DeepRacer League 獲勝團隊分享  講師: Dean Samuels, Lead Architect, AWS ASEAN
     - Fargate
-        - 管理ec2和eks工具
+        - AWS Fargate 是一種無伺服器運算引擎，適用於搭配 Amazon Elastic Container Service (ECS) 與 Amazon Elastic Kubernetes Service (EKS) 使用的容器
+        - 管理ec2和eks工具(這好像不太對)
     - Braket quantum computing 
     - Transit gateway
         - 網路服務
