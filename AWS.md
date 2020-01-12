@@ -1,3 +1,7 @@
+# 2020/01/12
+Coursera課程
+https://www.coursera.org/learn/aws-fundamentals-cloud-migration
+
 # 2020/01/04
 #AWSCertifiedChallenge
 https://twitter.com/jeffbarr/status/1213119758159081474?s=09
@@ -38,15 +42,15 @@ We cannot find the training you are looking for.
         - 網路服務
         - Multicast
     - Data flywheel
-    - Redshift
+    - Redshift(Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud.)
     - Elasticsearch RA3
         - UltraWarm
-    - SageMaker
+    - SageMaker(Amazon SageMaker 是一項全受管服務，能讓所有開發人員和資料科學家快速輕鬆地建立、訓練及部署機器學習 (ML) 模型。)
         - Model Monitor
         - Autopilot 
     - Code Guru 自動做code review判斷哪幾行比較會花費
     - 其它新功能
-        - AWS outposts
+        - AWS outposts(AWS Outposts delivers fully managed AWS infrastructure, native AWS services, APIs, and tools to virtually any customer on premises facility.)
         - AWS Local zones
 - 交通大學 電腦遊戲與智慧實驗室 (NCTU, CGI Lab)
     - 模型開發功能
@@ -57,12 +61,12 @@ We cannot find the training you are looking for.
 
 - 2019 AWS re:Invent 媒體觀察與雲端科技面向5G x AI發展 黃建智 DIGITIMES 研究中心總監
     - M6g c6g r6g
-    - AInferential
+    - AInferential(這應該是錯字)
     - 南韓有500萬 5G用戶
     - 發展AR
     - 汽車
     - 工廠生產
-    - AWS wavelength
+    - AWS wavelength(AWS Wavelength 可讓開發人員為行動裝置和最終使用者提供延遲時間低於 10 毫秒的應用程式。)
 
 - 分享主題：雲端環境災難後的省思 | 講師：Sammy Lin, 資深SRE工程部經理, 17 Media
     - SLA雲端服務賠償條款？
@@ -115,6 +119,10 @@ We cannot find the training you are looking for.
         - 成本 恢復時間
     - Divide and conquer
     - 團隊與服務的關聯，就是溝通路徑 康威原理
+        - 康威法則(Conway’s Law)
+        - Any organization that designs a system (defined more broadly here than just information systems) will inevitably produce a design whose structure is a copy of the organization’s communication structure.——Melvin Conway, 1967   
+
+
 - 社群閃電秀 (語言: 中文)
     1. Zoe Hou & Cherie Liao, Agile Girls 
         - 紙原型
