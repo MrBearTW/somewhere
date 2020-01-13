@@ -102,6 +102,11 @@
     - 商務談判中，表現出急躁的一方比對方共容易被牽著鼻子走
     - 不輕易亮底牌
     - 將談判主題專注放在目標上
+- 3-6
+    - 同理心地圖畫布
+        - 原作者https://medium.com/the-xplane-collection/updated-empathy-map-canvas-46df22df3c8a
+        - ![](https://miro.medium.com/max/5687/1*I1ffOWdPWQva3dCMQE-TAQ.png)
+    - 價值主張畫布
 
 
 【前言】未來的工作，商業開發是必備技能
