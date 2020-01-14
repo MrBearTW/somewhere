@@ -119,7 +119,7 @@ We cannot find the training you are looking for.
         - 成本 恢復時間
     - Divide and conquer
     - 團隊與服務的關聯，就是溝通路徑 康威原理
-        - 康威法則(Conway’s Law)
+        - [康威法則(Conway’s Law)](https://weitinglin.com/2018/05/09/%E5%BA%B7%E5%A8%81%E6%B3%95%E5%89%87conways-law-%E4%BA%BA%E8%88%87%E7%B3%BB%E7%B5%B1%E5%92%8C%E5%8A%9F%E8%83%BD%E7%9A%84%E9%97%9C%E4%BF%82/)
         - Any organization that designs a system (defined more broadly here than just information systems) will inevitably produce a design whose structure is a copy of the organization’s communication structure.——Melvin Conway, 1967   
 
 
