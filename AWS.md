@@ -79,6 +79,7 @@ We cannot find the training you are looking for.
     - Open district for elasticsearch
 
 - 下午workshop 使用 CDK 打造高併發請求的無伺服器系統 講師: Pahud Hsieh, 無伺服器領域專家, AWS
+    - SVS327 - Building Serverless App with AWS CDK
     - 情境1: 重現 re:Invent 經典場次 SVS327-R 使用 CDK 打造高併發請求的無伺服器架構): 探討如何完全用 AWS CDK 打造一個高併發訂單吞吐的 Serverless 訂票系統而不使用任何一台 EC2。 
     - 情境2: reInvent 2019 無服務器與容器服務最新功能工作坊    介紹：我們將會介紹這次 reInvent 幾個 serverless 與 container 的最新功能，並且帶領大家動手實際操作   
     - https://github.com/pahud/svs327-reinvent2019
