@@ -1,3 +1,44 @@
+# 電商數據資料流（digital data flow）的應用架構如何運作於 Messenger Ads 及落地電商商品資料分析？
+歡迎大家加群組https://www.facebook.com/groups/501522897228952/
+社團分享的筆記https://hackmd.io/@SDXaACIXR5O-rNxCwot9ZA/r1wCHC6xI
+
+- awoo 資深技術師Caesar 
+電商資料前處理
+
+
+Product feed的特性
+更新頻繁
+讀完就放在que中
+Paser和worker中間就像隔著一道牆
+
+Landingpage要多下一點功夫
+不能讓好不容易取得的客戶跑掉
+
+
+分頁行為造成分析上的困擾
+做成表格
+
+標籤才可以跨領域
+Product type 記得要給的
+
+- Botsnova CEO Sean Liu
+廣告相關的api
+
+ Business manager
+
+廣告結構
+Campaign活動 廣告組合 廣告
+
+廣告
+
+Bid Strategy 出價策略
+
+在活動和廣告組合都設定出價策略，會打架
+
+CDM廣告連結是引導到開啟對話視窗
+
+
+
 # 2020/01/09 iFit 到 ECFIT 的數位轉型之路 | iFit ＆ ECFIT 雲端 CRM 創辦人謝銘元
 兩天賺10萬的誘惑
 好產品可以賣個兩三年
