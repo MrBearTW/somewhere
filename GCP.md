@@ -1,5 +1,33 @@
-# 2019/12/08 GDGCloud Taipei Meetup #50
+# 2020/01/21 GDGCloud Taipei x Elastic Meetup #51
+- 19:40 - 20:20 Building a Search Engine on Google Cloud with Elasticsearch  Fermi Fang / Elastic
+Document 
+Index
+Shard
 
+Swiftype = app search
+UI介面 調整搜尋權重
+統計客戶使用狀況
+重新計算index
+
+- 20:50 - 21:20 Leverage ELK as High Concurrent Kubernetes Log Platform  Memmie Chang / Ayla
+用kafka收log
+透過logstash做一些log前處理
+放到elasticsearch 
+Kibana看圖表(因為使用basic授權，沒有alerts 功能)
+Grafana發alerts 
+
+每秒10mb   index10K
+老闆要看，約可以有一分鐘的延遲
+
+回壓back pressure
+
+實作
+1個shard = 50G
+150~200shard per node（官方有文章建議）
+
+grok
+
+# 2019/12/08 GDGCloud Taipei Meetup #50
 - 蔡宗城 大大 
 【#Kubernetes】聽說未來不會 K8S 的話，將會被淘汰？！沒關係，這裡有各個雲端平台提供的 K8S 免費方案，讓你有源源不絕的 K8S 叢集可以好好練習XD
 https://www.facebook.com/photo.php?fbid=2851697084842380&set=a.110864892258960&type=3
