@@ -1,4 +1,16 @@
-三種
-
-讀書會
-期限
+# 2020FB自學
+- developercircleresources
+    - https://www.developercircleresources.com/opportunities/803d5a3e-25c9-4c03-ab31-c0c210d8106d
+    - [Clement大大 Facebook Developer Circle: Taipei起始發文](https://www.facebook.com/groups/DevCTaipei/permalink/1504115996406484/)
+- Front-End Web Developer
+    - openclassrooms https://openclassrooms.com/en/teams/facebook-developers-circle-q1-2020
+    - Jan 13 to March 13, 2020
+    - Deeper Skills application form open February 28 - March 13, 2020 for April 1, 2020 start.
+- Data Science
+    - datacamp https://www.datacamp.com/home
+    - NEW COURSES 前三個做完
+    - You have full access until March 02, 2020
+    - Deeper Skills application form open February 28 - March 13, 2020 for April 1, 2020 start.
+- Deep Learning Training Course
+    - udacity https://classroom.udacity.com/nanodegrees/nd288/syllabus/core-curriculum
+    - Deeper Skills application form open March 2 - 13, 2020 for April 1, 2020 start.
