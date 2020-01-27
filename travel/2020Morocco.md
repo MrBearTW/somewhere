@@ -13,7 +13,7 @@
     - 其他注意事項
         - 一個半月前左右開始申請簽證
         - 西班牙蠻多地點都有飛摩洛哥 台灣出發可考慮西班牙當B計畫
-        - 買歐洲來回再飛CMN卡薩布蘭卡，簽證GG的話改完歐洲
+        - 買歐洲來回再飛CMN卡薩布蘭卡，簽證GG的話改玩歐洲
         - 簽證申請的EMAIL寫兩個，不要有0和o這種比較好
         - 卡薩布蘭卡入境是不用印花
         - 入境許可單過完海關之後要留下，出境的時候還要用
@@ -56,7 +56,7 @@
     - 附近有間家樂福 進沙漠前採買
     - 可拍夕陽下去燈剛亮 但又不是夜景
 
-- 撒哈拉沙漠
+- 沙漠團 撒哈拉沙漠
     - 瑞士花園之稱的 Ifraneu     
         - 伊芙蘭 非洲小瑞士
         - 摩洛哥最貴的大學Al Akhawayn university
@@ -73,7 +73,9 @@
     - Todra Gorges 德特拉大峽谷
     - Todgha Gorge峽谷與Aït Ben Haddou
     - 柏柏人村 很不推
+    - 自備濕紙巾 準備包頭毛巾防風砂
     - 若是逆時針玩 Rissani脫團，跟同團的團員包車前往非斯Fes
+    - 好像太多點被包在這裡，要再拆開一點
 
 - 馬拉喀什Marrakesh  
     - 粉紅城市
@@ -87,7 +89,7 @@
     - Palais de la Bahia 巴伊亞王宮 門票：成人10DH
     - Jardin Majorelle(Majorelle Garden) 馬若雷勒花園：時裝大師聖羅蘭Yves Saint Laurent長眠之地 門票：成人70DH
     - 馬拉喀什家樂福超市 (Ménara Mall) 可以瞭解一下物價 香料多元 沙漠團之前採買
-    - 當地有駱駝團 推薦至少三天 自備濕紙巾 準備包頭毛巾防風砂
+    - 當地有駱駝團可以報名 推薦至少三天 
 
 - 比較少人提到的點
     - 帕特爾角 非洲最北 燈塔
@@ -100,6 +102,7 @@
     - [wei笑生活 / 主題介紹](https://weismile.tw/category/travel/moroccotravel/)
     - [Wisely的拍拍照寫寫字 / 按城市](https://www.wiselyview.cc/read-category/wisely-world-travel/morocco-africa-travel)
     - [法鬥兔星球 拉傻兒Lasha / 花費比較高](https://lasha.tw/morocco/)
+    - 國內旅行團都圖文並茂做很好，也可以參考一下
 
 - 伊斯蘭教國家
     - 齋戒月要查一下
