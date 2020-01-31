@@ -5,6 +5,7 @@
 
 - 全免費自幹
     - 蝦皮
+        - [台灣貓黨一周賣了 200 份春聯，然後就再也不敢用露天拍賣了](https://www.inside.com.tw/article/18787-Cat-Party-Taiwan-will-not-dare-to-use-ruten)
     - 學修圖
 
 - 純網站(只能看不能訂購)
@@ -29,6 +30,7 @@
     - 廣告看到的
         - [easystore](https://www.easystore.co/zh-tw/pricing)
         - [likestore](https://www.likestore.tw/comparison/)
+        - [holkee](https://www.holkee.com/)
 
 - 其他機會
     - 阿里巴巴
