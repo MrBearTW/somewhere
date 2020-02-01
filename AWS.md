@@ -1,6 +1,7 @@
 # 2020/01/30
 Udemy AWS Certified Developer - Associate 2020
 https://www.udemy.com/course/aws-certified-developer-associate/
+記得作筆記
 
 # 2020/01/12
 Coursera課程
