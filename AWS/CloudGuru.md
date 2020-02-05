@@ -11,4 +11,8 @@
     - Valid for 2 years
     - Scenario based questions
 # #2 Beginners Guide To IAM
-- 
+- IAM Identity Access Management
+    - IAM is universal
+    - 
+- 對三錯三
+# #3 EC2
