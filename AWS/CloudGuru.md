@@ -13,6 +13,25 @@
 # #2 Beginners Guide To IAM
 - IAM Identity Access Management
     - IAM is universal
-    - 
 - 對三錯三
+    - MFA不是IAM管理的
 # #3 EC2
+- EC2 101 
+    - Elastic Compute Cloud
+    - Options
+        1. On Demand
+        2. Reserved 可預期的流量 長期簽約折扣
+        3. Spot 彈性的開始和結束時間
+        4. Deadicated Hosts 高度監管行業
+    - Instance Types
+        - T2 最便宜
+        - F I G H T  D R  M C  P X
+    - EBS 虛擬 desk
+        - SSD
+            - GP2 SSD
+            - IO1 high IO
+            - ST1 big data
+            - SC1 cold 
+        - Magnetic 
+            - cold HDD bootable 最便宜
+    - Tips
