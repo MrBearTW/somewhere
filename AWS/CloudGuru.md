@@ -35,3 +35,16 @@
         - Magnetic 
             - cold HDD bootable 最便宜
     - Tips
+
+    - Load Balancer
+        1. Application
+            - Layer 7, HTTP & HTTPS
+        2. Network
+            - Layer 4, TCP
+        3. Classic (Legacy)
+            - If application stops responding, responds with 504 error.
+                - 504 means gateway timed out.
+            - Check web server or database server. 
+        - X-Forwared-For Header 看到外部IP
+    - Route53
+
