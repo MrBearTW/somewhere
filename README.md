@@ -1,8 +1,10 @@
-讀書心得
+# 讀書心得
 
-[你想通了嗎？解決問題之前，你該思考的6件事Are Your Lights On?: How to Figure Out What the Problem Really Is]()
+- [你想通了嗎？解決問題之前，你該思考的6件事Are Your Lights On?: How to Figure Out What the Problem Really Is](https://github.com/MrBearTW/somewhere/blob/master/book/AreYourLightsOn.md)
 
-講座和自學的筆記  
+- [其實，你正在做商業開發：５個解決商業挑戰的行動方案](https://github.com/MrBearTW/somewhere/blob/master/book/BusinessDevelopmentByGipi.md)
+
+# 講座和自學的筆記  
   
 [Laravel部落格架設練習](https://github.com/MrBearTW/somewhere/tree/master/laravel/blog)
 
