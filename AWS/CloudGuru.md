@@ -41,11 +41,32 @@
             - Layer 7, HTTP & HTTPS
         2. Network
             - Layer 4, TCP
-        3. Classic (Legacy)
+        3. Classic (PREVIOUS GENERATION)
             - If application stops responding, responds with 504 error.
                 - 504 means gateway timed out.
             - Check web server or database server. 
         - X-Forwared-For Header 看到外部IP
     - Route53
-        - 
-
+        - 可購買網域
+        - 設定Load Balancer
+    15. CLI
+        - `aws s3 ls`
+        - `aws s3 mb s3://xxxxxx`
+        - `aws s3 cp aaa.txt s3://xxxxxx`
+        - `aws s3 ls s3://xxxxxx`
+        - [more comand](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html)
+        - Tips
+            - least privilege: minimum
+            - create groups:
+            - secret access key
+            - do not use just one access key
+            - install CLI in PC
+    16. EC2 with S3 Role Lab
+        - 從 IAM roles 建立一個新的 roles
+        - 從 EC2 attach 上一部件好的 role 
+        - 執行`aws s3執行`會卡住
+        - 移動到`cd ~/.aws`刪除`rm credentials`
+        - Tips
+            - immediate affect
+            - can attach roles to running EC2 instances without having to stop or terminate these instances
+    17. RDS
