@@ -19,6 +19,8 @@
     - [FB半年會開一輪的贊助課程](https://www.facebook.com/groups/DevCTaipei/permalink/1504115996406484/)
 
 - 實習
+    - 新芽
+    - KKBOX
     - [Youator](https://www.yourator.co/companies/awoo/jobs/7166)
 
 - 一些強迫寫作的活動

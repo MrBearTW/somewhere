@@ -43,3 +43,4 @@
 
 - 有緣可以討論一下
     - [蟹老闆美國代購](https://www.instagram.com/boss_crab/?hl=zh-tw)
+    - [韓國東大門代購！真的只是在血拼？ 夢幻職業實測3天收入竟10萬台幣](https://www.facebook.com/watch/?v=793934831113395)

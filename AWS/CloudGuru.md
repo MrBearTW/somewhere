@@ -36,7 +36,7 @@
             - cold HDD bootable 最便宜
     - Tips
 
-    - Load Balancer
+    - Load Balancer(用完要關掉...)
         1. Application
             - Layer 7, HTTP & HTTPS
         2. Network
@@ -70,3 +70,28 @@
             - immediate affect
             - can attach roles to running EC2 instances without having to stop or terminate these instances
     17. RDS
+        - Relational DB Types
+            1. SQL server
+            2. Oracle
+            3. MySQL
+            4. PostgreSQL
+            5. Amazon Aurora
+            6. MariaDB
+        - Non Relational DB
+            - Collection        = Table
+            - Document          = Row
+            - Key Value Pairs   = Fields
+        - Data Warehousing
+            - pull in very large and complex data sets
+            - e.g. Cognos, Jaspersoft, SQL server, Reporting services, Orical Hyperion and SAP NetWeaver.
+            - AWS DynamoDB
+        - OLTP vs OLAP
+            - online transaction processing(OLTP) versus online analytics processing(OLAP)
+                - OLTP will be very very simple transactions that happen very very frequently.
+                - OLAP will be much more complex transactions that will happen very infrequently.
+                - RDS - OLTP
+                - RedShift - OLAP
+        - Elasticache
+            - In Memory Caching
+                - Memcached
+                - Redis
