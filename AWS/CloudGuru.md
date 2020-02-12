@@ -95,3 +95,18 @@
             - In Memory Caching
                 - Memcached
                 - Redis
+    18. RDS Lab
+        - Amazon Aurora 沒有免費試用
+    19. RDS Multi-AZ & Read Replicas
+        - Backsup
+            1. Automated Backups
+                - 1 ~ 35 days
+                - full daily snapshot and also store transaction logs
+                - stored in S3
+                - free storge equal to the size
+                - backups are taken within a defined window
+                - during the backup storage I/O may be suspended amd experience elevated latency
+            2. Database Snapshots
+                - Done manually
+                - Restoring Backups
+                    - (auto and manual backetup) restored version will be a new RDS instance with a new DNS endpoint

@@ -7,6 +7,7 @@
 - 社群
     - 女性優勢
         - [Taipei Women in Tech](https://www.facebook.com/groups/420817431404071/)
+        - woman who code taipei
         - [R-Ladies Taipei](https://www.meetup.com/rladies-taipei/)    
     - 創業[李婷婷](https://crossing.cw.com.tw/article/11793)
     - Pinkoi後端工程師[Mosky劉依語](https://medium.com/starrocket/https-medium-com-starrocket-interview-with-mosky-e7c18b54545)
