@@ -110,3 +110,40 @@
                 - Done manually
                 - Restoring Backups
                     - (auto and manual backetup) restored version will be a new RDS instance with a new DNS endpoint
+        - Encryption
+            - All RDS support
+            - KMS service
+            - Snapshot 之後再 encrypt (?)
+        - Multi-AZ
+            - main DB down AWS will turn on Multi-AZ auto
+            - Multi-AZ is for disaster recovery only
+                - for performance improvement, you need Read Replicas
+            - support
+                1. MS SQL server
+                2. Oracle
+                3. MySQL
+                4. PostgreSQL
+                5. Amazon Aurora (這一個自動就開啟，其他要手動開啟Multi-AZ)
+                6. MariaDB
+        - Read Replica
+            - You can have five read replicas per production database by default.
+            - You can also have read replicas of read replicas, you will get some replication latency if you do that.
+            - You could have a read replica in a nother availability zone
+            - but you could have a RAID replica in a other availability zone 
+            - or you could have a read replica in a completely different region.
+                - This is achieved using asynchronous(異步) replication for the primary primary RDS instance to the read replica
+            - support
+                1. MS SQL server
+                4. PostgreSQL
+                5. Amazon Aurora
+                6. MariaDB
+            - 一些提點
+                - Used for scaling, not for DR
+                - Must have automatic backups turned on in order to deploy a read replica
+                - You can have up to 5 read replica copies of any database
+                - Each replica is going to have its own DNS endpoint.
+                - You can have read replica that have Multi-AZ
+                - You can create read replica of Multi-AZ source databases
+                - Read replicas can be promoted to become their own databases.
+                - You can have a read replica of Multi-AZ source databases
+                - Read replicas can be promot in a second region

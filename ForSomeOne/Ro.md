@@ -18,6 +18,8 @@
 - 自學
     - udemy
     - [FB半年會開一輪的贊助課程](https://www.facebook.com/groups/DevCTaipei/permalink/1504115996406484/)
+    - Google cloud platform的練習[qwiklabs](https://www.linkedin.com/company/qwiklabs-inc-/)
+    - AWS educiated
 
 - 實習
     - 新芽
