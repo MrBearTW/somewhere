@@ -47,3 +47,7 @@
     - [韓國東大門代購！真的只是在血拼？ 夢幻職業實測3天收入竟10萬台幣](https://www.facebook.com/watch/?v=793934831113395)
     - 銷售漏斗
     - 486
+    - CJP Select 
+        - [IG](https://www.instagram.com/cjp_select_shop/)
+        - [FB](https://www.facebook.com/cjpselect/)
+        - [官網](https://www.cjp-select.com/pages/about-cjpselect)
