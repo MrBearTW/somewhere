@@ -147,3 +147,39 @@
                 - Read replicas can be promoted to become their own databases.
                 - You can have a read replica of Multi-AZ source databases
                 - Read replicas can be promot in a second region
+    20. Elasticache 101
+        - Elasticache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud
+        - Significantly improve latency and throughput for many read-heavy application workload(social networking, gaming, media sharing and Q&A portals)s or compute-intensive workloads(recommendation engine)
+        - Memcached
+            - no persistence
+            - use Memcached case
+                1. Object caching, e.g. offload your database.
+                2. Simple a caching model.
+                3. Planning or running large cache nodes, and require multithreaded performance with utilization of multiple cores.
+                4. The ability to scale your cache horizontally as your grow.
+        - Redis
+            - open source
+            - in-memory key-value
+            - supports data structures such as sorted sets and lists
+            - supports Master / slave replication and Multi-AZ
+            - can be use to achieve cross AZ redundancy
+            - use Redis case
+                1. Advance data types, such as lists hashes, and sets
+                2. Sorting and ranking, such as leaderboards
+                3. persistence
+                4. Run in multi-AZ with failover
+        - Tips
+            - alleviate a lot of stress/load
+            - is a good choice if you database is particularly read-heavy and not prone to frequent changing
+            - Redis is a good answer if the reason youdatabase is feeling stress is because management keep running OLAP transactions on it.
+            - use Memcached if 
+                - Object caching is your primary goal
+                - You want to keep things as simple as possible
+                -  scale your cache horizontally
+            - use Redis if 
+                - advanced daa types, such as lists, hashes, and sets
+                - Data sorting and ranking (leader boards)
+                - Data persistence
+                - Multi-AZ
+                - Pub/Sub capabilities are needed
+                

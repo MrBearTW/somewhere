@@ -46,8 +46,13 @@
     - [蟹老闆美國代購](https://www.instagram.com/boss_crab/?hl=zh-tw)
     - [韓國東大門代購！真的只是在血拼？ 夢幻職業實測3天收入竟10萬台幣](https://www.facebook.com/watch/?v=793934831113395)
     - 銷售漏斗
-    - 486
+        - 隱私問題
     - CJP Select 
         - [IG](https://www.instagram.com/cjp_select_shop/)
         - [FB](https://www.facebook.com/cjpselect/)
         - [官網](https://www.cjp-select.com/pages/about-cjpselect)
+    - 寄賣
+        - 學弟咖啡店
+    - 團購後放大
+        - iFit 謝銘元
+        - 486
