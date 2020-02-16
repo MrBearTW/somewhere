@@ -11,4 +11,6 @@
         - 變數沒有型別，值才有。
         - javascript支援的型別
             1. 基本型別 Primitives
+                - string, number, boolean, unll, undefined，ES6 後新加一個 symbol
             2. 物件型別 Object
+            - 但有幾個例外
