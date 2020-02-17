@@ -182,4 +182,48 @@
                 - Data persistence
                 - Multi-AZ
                 - Pub/Sub capabilities are needed
+    21. EC2 Summary
+        - more serverless than SA
+        - Exam Tips
+            - On demand: by hr or second
+            - Reserved: 1 year ~ 3 year
+            - Spot: bid price, had flexible start and end time
+                - if is terminated by amazon EC2, you will not be charged for a partial hour of usage.
+                - if is terminated by yourself, you will be charged for a complete hour in which the instance ran.
+            - Dedicated Hosts: existing server-bound software licenses
+            - FIGHT DR MC PX
+            - SSD
+                - General Purpose SSD: 
+                - Provisioned IOPS SSD: Highest-performance SSD, low-lantency or high-throughput
+            - Magnetic
+                - Throughput Optimized HDD
+                - Cold HDD: Lowest cost HDD
+                - Magnetic: previous generation
+            - 3 Types of load balancers
+                1. Application
+                2. Network
+                3. Classic(Elastic load balancer)
+            - 504 error means gateway timed out
+                - trobule shoot: web service or database server
+            - Need the IPv4 addressof your end user, look for the X-Forwarded-For header.
+            - Route 53
+                - Amazon's DNS server
+                - map your domain names to
+                    - EC2 Instances
+                    - Load Balancers
+                    - S3 Buckets
+            - CLI
+                - least privilege
+                - created group
+                - Secret Access Key
+                    - see only once
+                    - if you regenerated it, you will need to run aws configure again
+                - Do not use just one access key
+                    - every developer should pair one key
+                    
+
+
+
+
+
                 

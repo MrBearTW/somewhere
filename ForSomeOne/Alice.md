@@ -7,6 +7,10 @@
     - 蝦皮
         - [台灣貓黨一周賣了 200 份春聯，然後就再也不敢用露天拍賣了](https://www.inside.com.tw/article/18787-Cat-Party-Taiwan-will-not-dare-to-use-ruten)
     - 學修圖
+    - 社群的大大們
+        - 電商太太
+        - 傑哥
+        - [張志祺77](https://www.facebook.com/ChihChyiChang/posts/3333639053319544)
 
 - 純網站(只能看不能訂購)
     - 關注重點
@@ -42,9 +46,12 @@
     - https://www.instagram.com/caco_tw/
 
 - 有緣可以討論一下
-    - 直銷不討論
+    - 不討論
+        - 直銷
+        - 藥品
     - [蟹老闆美國代購](https://www.instagram.com/boss_crab/?hl=zh-tw)
     - [韓國東大門代購！真的只是在血拼？ 夢幻職業實測3天收入竟10萬台幣](https://www.facebook.com/watch/?v=793934831113395)
+    - [電商店鋪裝修師](https://www.facebook.com/photo.php?fbid=10214355412753301&set=a.1061293666705&type=3)
     - 銷售漏斗
         - 隱私問題
     - CJP Select 
