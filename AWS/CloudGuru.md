@@ -220,7 +220,39 @@
                     - if you regenerated it, you will need to run aws configure again
                 - Do not use just one access key
                     - every developer should pair one key
-                    
+                - Roles 
+                    - allow you to not use Access Key ID's and secret access keys
+                    - are preferred from a security perspective
+                    - are controlled by policies
+                    - change a policy on a role and it will take immediate affect
+                    - You can attach and detach roles to running EC2 instances without having to stop or terminated these instances
+                - Encrypt
+                    - You can encrypt the root device volume (the volume the OS is installed on) using Operating System level encryption.
+                    - You can encrypt the root device volume by first taking a snapshot of that volume, and then creating a copy of that snap with encryption.
+                        - You can thenmake an AMI of this snap and deploy the encrypted root device volume.
+                    - You can encrypt additional attached volumes using the console, CLI or API
+                - RDS
+                    - OLTP
+                        - SQL Server
+                        - MySQL
+                        - PostgreSQL
+                        - Oracle
+                        - Aurora
+                        - MariaDB
+                    - DynamoDB - NoSQL
+                    - RedShift - OLAP
+                    - Elasticache - In Memory Caching
+                        - Memcached
+                        - Redis
+                    - Multi-AZ is for Disaster Recovery only
+                        - Not for improving performance
+                        - Improving performance, Read Replicas.
+                    - Read Replica
+                        - Not for Disaster Recovery
+                        - Must have automatic backups turned on in order to deploy a read replica.
+                        - 5 Read Replica
+
+
 
 
 
