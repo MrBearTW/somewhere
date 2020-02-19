@@ -14,3 +14,11 @@
                 - string, number, boolean, unll, undefined，ES6 後新加一個 symbol
             2. 物件型別 Object
             - 但有幾個例外
+        - string
+            - 單雙引號沒有差異
+            - 可用 + 號串聯字串
+            - 可用反斜線 \ 串聯多行字串，但反斜線後面不能任何東西(也不能有空白字元)
+            - 樣板字面值 template literal，用反引號 ` 
+                - 可直接跨行串聯字串，不須加反斜線
+                - 不用 + 串聯，改用 ${變數}，{}內可加入運算
+        - number

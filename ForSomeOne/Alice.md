@@ -58,6 +58,11 @@
         - [IG](https://www.instagram.com/cjp_select_shop/)
         - [FB](https://www.facebook.com/cjpselect/)
         - [官網](https://www.cjp-select.com/pages/about-cjpselect)
+    - 帶貨式
+        - z
+        - tra
+    - 家裡順便賣
+        - 王佳葳
     - 寄賣
         - 學弟咖啡店
     - 團購後放大

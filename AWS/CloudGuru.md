@@ -175,7 +175,7 @@
             - use Memcached if 
                 - Object caching is your primary goal
                 - You want to keep things as simple as possible
-                -  scale your cache horizontally
+                - Scale out your cache horizontally
             - use Redis if 
                 - advanced daa types, such as lists, hashes, and sets
                 - Data sorting and ranking (leader boards)
@@ -185,7 +185,7 @@
     21. EC2 Summary
         - more serverless than SA
         - Exam Tips
-            - On demand: by hr or second
+            - On demand: by hr or second(有固定使用的銀行)
             - Reserved: 1 year ~ 3 year
             - Spot: bid price, had flexible start and end time
                 - if is terminated by amazon EC2, you will not be charged for a partial hour of usage.
@@ -250,7 +250,26 @@
                     - Read Replica
                         - Not for Disaster Recovery
                         - Must have automatic backups turned on in order to deploy a read replica.
-                        - 5 Read Replica
+                        - 5 Read Replica copies for any db
+                        - You can have read replicas of read replicas.
+                        - Each read replicas will have its own DNS endpoint
+                        - You can have read replicas that have Multi-AZ
+                        - You can create read replicas of Multi-AZ source db
+                        - Read replicas can be promoted to be their own db. This breaks the replication.
+                        - You can have a read replica in a second region(for MySQL and MariaDB)
+                    - Elasticache
+                        - Alleviate DB under a lot of stress/load
+                        - Elasticache is a good choice if your DB is particulary read-heavy and not prone to frequent changing.
+                        - Redshift is agood answer if the reason your DB is feeling stress is because management keep running OLAP transaction on it.
+                        - 使用情況，同上面抄過的一樣
+    22. 
+        1. In order to enable encryption at rest using EC2 and Elastic Block Store, you must ________.
+            - config encryption when creating the EBS volume
+        2. 
+
+
+
+
 
 
 
