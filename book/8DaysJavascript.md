@@ -22,3 +22,14 @@
                 - 可直接跨行串聯字串，不須加反斜線
                 - 不用 + 串聯，改用 ${變數}，{}內可加入運算
         - number
+            - 小數或整數都是這一種
+            - 特殊字元
+                - Infinity
+                - -Infinity
+                - NaN , Not a number
+                    - typeof(NaN) , 是number
+                    - NaN == NaN , false
+                    - 用 isNaN 來判斷
+            - 小數計算
+                - ES6最小精度 Math.abs()
+                - [可能的解法https://github.com/nefe/number-precision](https://github.com/nefe/number-precision)
