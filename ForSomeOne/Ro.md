@@ -39,7 +39,16 @@
         - 想進的公司
     - 這不好說
         - [Flycoder](https://www.facebook.com/flycoder.io/photos/a.122641845930255/131421678385605/?type=3&__xts__%5B0%5D=68.ARAu7P9CL51nQ5-Ap98WTT69ZvvPdHUMcS6YjMKEWqKTPhhAbRAATbDwkGuoDll8h8wllazcqC3sAcxOpN1pArRupb1NdMydQSqVcwVHwY7T5FIlQYeYT7c8ZgwvnJxjPthKDPidgzlL7km6tkMTUcw36rnwLiS9xoJD1ZuhLeGbeG6cX6XU77I1KforyXmFwCqPDUoGo-6628tJqVx4jwC1RjLZuZ9WP2HLOgf3-Ni6n8b-7FjdFVVTLJPmwCzUCUwxPWN12xBi72IuDHNaIrjJ9Ipd5QfDjTM1_Ozz97tCANrxe_NRMEn72h7nTQ9_nA24EVCqI5a4PqUhLtaVRrI&__tn__=-R)
+    - 共同好友
+        - Synology
+        - 
 
 - 一些大大
     - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
         - [共筆 - 你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/)
+    - TonyQ
+    - Kuro
+    - 保哥
+    - 龍哥
+    - Ant
+    - 

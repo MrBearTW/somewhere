@@ -33,3 +33,7 @@
             - 小數計算
                 - ES6最小精度 Math.abs()
                 - [可能的解法https://github.com/nefe/number-precision](https://github.com/nefe/number-precision)
+        - boolean
+            - javascript 中，所有東西都可以轉成布林值
+        - null 與 undefined
+            - 
