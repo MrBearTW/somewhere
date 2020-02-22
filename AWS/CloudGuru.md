@@ -262,10 +262,37 @@
                         - Elasticache is a good choice if your DB is particulary read-heavy and not prone to frequent changing.
                         - Redshift is agood answer if the reason your DB is feeling stress is because management keep running OLAP transaction on it.
                         - 使用情況，同上面抄過的一樣
-    22. 
+    22. EC2 Quiz
         1. In order to enable encryption at rest using EC2 and Elastic Block Store, you must ________.
             - config encryption when creating the EBS volume
         2. 
+    
+    23. S3 101
+        - Secure, durable, highly-scalable object storage.
+        - Not for operations or DB.
+        - It's Object-based storage.
+        - The data is spread across multiple devices and facilities.
+        - Files can be form 0Bytes to 5TB
+        - There is unlimited storage.
+        - Files are stored in Buckets (similar to folder)
+        - S3 is a universal namespace. This is names must be unique globally.
+        - When you upload a file in S3, you will receive a HTTP 200 code if the upload was successful.
+        - Data consistency model for S3
+            - Read after Write consistency for PUTS of new Objects
+            - Eventual Consistency for overwrite PUTS and DELETES (can take some time to propagatet傳播)
+        - S3 is a simple key-value store
+            - S3 is Object based. Objects consist of the following:
+                - Key (This is simply the name of the object)
+                - Value (This is simply the data, which is made up of a sequence of bytes)
+                - Version ID (Important for versioning)
+                - Metadata (Data about data you are storing)
+                - Subresources-bucket-specific configuration:
+                    - Bucket Policies, Access Control Lists,
+                    - Cross Origin Resource Sharing (CORS)
+                    - Transfer Acceleration
+        - The Basics
+
+
 
 
 
