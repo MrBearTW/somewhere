@@ -54,12 +54,13 @@
     - [電商店鋪裝修師](https://www.facebook.com/photo.php?fbid=10214355412753301&set=a.1061293666705&type=3)
     - 銷售漏斗
         - 隱私問題
-    - CJP Select 
-        - [IG](https://www.instagram.com/cjp_select_shop/)
-        - [FB](https://www.facebook.com/cjpselect/)
-        - [官網](https://www.cjp-select.com/pages/about-cjpselect)
+    
     - 帶貨式
-        - z
+        - CJP Select 
+            - [IG](https://www.instagram.com/cjp_select_shop/)
+            - [FB](https://www.facebook.com/cjpselect/)
+            - [官網](https://www.cjp-select.com/pages/about-cjpselect)
+        - [zephyrlife(另一間看起來是用shopline的網頁)](https://www.zephyrlife.co/about/terms)
         - tra
     - 家裡順便賣
         - 王佳葳

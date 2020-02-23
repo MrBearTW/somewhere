@@ -291,6 +291,22 @@
                     - Cross Origin Resource Sharing (CORS)
                     - Transfer Acceleration
         - The Basics
+            - Built for 99.99%(52.6分鐘) availability for the S3 platform (設計上)
+            - Amazon guarantee 99.9%(8.76小時) availability可用性
+            - Amazon guarantees 99.999999999%(11 個 9) durability耐用性/持久性 for S3 information. 
+                - 遺失1個 每1M個物件每10,000年
+            - Tiered storage available
+            - Lifecycle Management
+            - Versioning
+            - Encryption
+            - Secure you data - Access Control Lists and Bucket Policies
+        - Storge Tiers/Classes
+            - S3 
+                - 99.99availability, 99.999999999% durability, stores redundantly across multiple devices in multiple facilities, and is designed to sustain in the loss of 2 facilities concurrently.
+            - S3-IA (Infrequently Accessed)
+                - For data that is accessed less frequently, but requires rapid access when needed. Lower fee than S3, but you are charged a retrieval fee.
+            - S3-One Zone IA
+                - Same as IA however data is stored in a single Availability Zone only, still 99.999999999% durability, but only 99.5% availability. Cost is 20% less than regular S3-IA
 
 
 
