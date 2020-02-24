@@ -49,6 +49,8 @@
     - Route53
         - 可購買網域
         - 設定Load Balancer
+        - DNS的相關要再讀一下
+            - 從我的電腦到 route 53 之前發生什麼事
     15. CLI
         - `aws s3 ls`
         - `aws s3 mb s3://xxxxxx`
@@ -307,10 +309,22 @@
                 - For data that is accessed less frequently, but requires rapid access when needed. Lower fee than S3, but you are charged a retrieval fee.
             - S3-One Zone IA
                 - Same as IA however data is stored in a single Availability Zone only, still 99.999999999% durability, but only 99.5% availability. Cost is 20% less than regular S3-IA
-
-
-
-
+            - Reduced Redundancy storge
+                - Design to provide 99.99% durability and 99.99% availability of objects over a given year.
+                - Used for data that can be retrived if lost, e.g. thumbnails縮圖.
+                - For easy created if you lost it.
+                - Starting to disapper from AWS documentation but may still feature in exam.
+            - Glacier
+                - Very Cheap, but used for achival only. Optimised for data that is infrequently accessed and take 3-5 hours to restore from Glacier
+            -   | Storge class  | Durability(design for)  | Availability(design for)  | Other Considerations  | 
+                |---|---|---|---|
+                | Standard  | 99.999999999%  | 99.99%  | None  |
+                | Standard_IA  | 99.999999999%   | 99.9%  | Retrieval恢復 free for all S3 IA objects  |
+                | Onezone_IA  | 99.999999999%   | 99.95%  | Not resilient to loss of AZ  |
+                | Glacier  | 99.999999999%   | 99.99%(after you restor objects)  | No real-time access 4-5 hours to access  |
+                | RRS  | 99.99%  | 99,99%  | None  |
+            - Intelligent Tiering
+                - 
 
 
 

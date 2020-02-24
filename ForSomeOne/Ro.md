@@ -49,6 +49,7 @@
     - TonyQ
     - Kuro
     - 保哥
+    - [安德魯的部落格](https://columns.chicken-house.net/2018/12/12/microservice11-lineup/)
     - 龍哥
     - Ant
     - 專案管理類
