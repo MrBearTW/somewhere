@@ -324,7 +324,15 @@
                 | Glacier  | 99.999999999%   | 99.99%(after you restor objects)  | No real-time access 4-5 hours to access  |
                 | RRS  | 99.99%  | 99,99%  | None  |
             - Intelligent Tiering
-                - 
+                - Uknown or unpredictable access patterns.
+                - 2 tiers - frequent and infrequent access.
+                - Automatically moves you data to most cost-effective tier based on how frequently you access each object.
+                - 99.999999999% durability耐用性
+                - 99.9 availability over a given year.
+                - Optimized cost
+                - No fees for accessing your data but small monthly fee for monitoring/automation $0.0025 per 1000 objects.
+            - Charges
+
 
 
 

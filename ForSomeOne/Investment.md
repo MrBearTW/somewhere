@@ -17,6 +17,7 @@
     - 楊文宏‎ 宏觀國際經濟
 
 - 不錯的粉絲頁
+    - 財報狗
     - 股感 圖片精美
     - 綠角
     - 經濟類的
@@ -24,3 +25,5 @@
 
 - 美股
     - [冏冏子(冏星人)](https://www.facebook.com/shintaroReview/photos/a.194699507351581/1505302442957941/?type=3&__xts__%5B0%5D=68.ARDKrwrc9sWJTo5tozkXRpRaEL0YcpcW3znTfCqE2HZVyDjQpRREta1TbAkrcKXF-aJYLoTMf7p82UzqGc0VRAfuI3VrzCr57JZ9po-XaP2mPHcBz8RrhOsSxa0saonU85YZ-BZzF_RLUTE57slrtkdjmPimcfR-eOuo5cq-X_oAEFThqpB8Zf-gCn0_-WRS2Ej0bZYLyccqU3sxWOJcOvkft77dmzWvuYfXYbz5e__oRIYrheuu5yRWPyhPYCxUfbEi4Wk9zlSN3TkQxWCXtRCUQ06U0-KAy88YoRMQilBd0bOC8vTrVhv2kGauAYKye_C9CtDDlkw9iD6WQgBmGuTDbHfwfXAmVy1iGIuOdeNtJ0zL5qh8nw&__tn__=-R)
+
+- [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)

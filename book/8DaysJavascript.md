@@ -36,4 +36,8 @@
         - boolean
             - javascript 中，所有東西都可以轉成布林值
         - null 與 undefined
-            - 
+            - var = a;  //undefine, 尚未給值，為定義
+                - undefine代表(此變數)還沒有給值，所以不知道是甚麼
+                - undefine可以被當變數或是參數，但請不要用
+            - var b = null; //null, 明確代表此變數沒有值
+                - null代表(此變數可能曾經有值，可能沒有值)現在沒有值
