@@ -332,6 +332,17 @@
                 - Optimized cost
                 - No fees for accessing your data but small monthly fee for monitoring/automation $0.0025 per 1000 objects.
             - Charges
+                - Storage per GB
+                - Requests (Get, Put, Copy, etc.)
+                - Storage Management Pricing
+                    - Inventory, Analytics and Object Tags
+                - Data Management Pricing
+                    - Data transferred out of S3
+                - Transfer Acceleration
+                    - Use of CloudFront to optimize transfers
+        - Exam Tips For S3 101
+            - 
+
 
 
 

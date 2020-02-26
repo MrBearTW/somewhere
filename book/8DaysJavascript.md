@@ -2,7 +2,7 @@
 ## Day1
 - Javascript歷史
 - 資料型別
-    - 變數
+    - 基本型別Primitives 變數
         - 不能是 Reserved words 或 keyword
         - 大小寫有差
         - ES6 之後，除了var之外，還可以用 let 和 const 來宣告變數
@@ -41,3 +41,6 @@
                 - undefine可以被當變數或是參數，但請不要用
             - var b = null; //null, 明確代表此變數沒有值
                 - null代表(此變數可能曾經有值，可能沒有值)現在沒有值
+    - 物件型別 Object
+        - ECMA 262 物件的定義：An object is a collection of properties and has a single prototype object.
+        - 物件可以是零到多種屬性的集合，

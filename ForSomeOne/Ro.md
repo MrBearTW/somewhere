@@ -37,6 +37,7 @@
     - 坑很深
     - 第一重要的是英文
         - 想進的公司
+            - 104看需求數量
     - 這不好說
         - [Flycoder](https://www.facebook.com/flycoder.io/photos/a.122641845930255/131421678385605/?type=3&__xts__%5B0%5D=68.ARAu7P9CL51nQ5-Ap98WTT69ZvvPdHUMcS6YjMKEWqKTPhhAbRAATbDwkGuoDll8h8wllazcqC3sAcxOpN1pArRupb1NdMydQSqVcwVHwY7T5FIlQYeYT7c8ZgwvnJxjPthKDPidgzlL7km6tkMTUcw36rnwLiS9xoJD1ZuhLeGbeG6cX6XU77I1KforyXmFwCqPDUoGo-6628tJqVx4jwC1RjLZuZ9WP2HLOgf3-Ni6n8b-7FjdFVVTLJPmwCzUCUwxPWN12xBi72IuDHNaIrjJ9Ipd5QfDjTM1_Ozz97tCANrxe_NRMEn72h7nTQ9_nA24EVCqI5a4PqUhLtaVRrI&__tn__=-R)
     - 共同好友
