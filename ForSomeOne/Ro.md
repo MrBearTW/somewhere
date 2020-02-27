@@ -7,8 +7,11 @@
 - 社群
     - 女性優勢
         - [Taipei Women in Tech](https://www.facebook.com/groups/420817431404071/)
-        - woman who code taipei
-        - [R-Ladies Taipei](https://www.meetup.com/rladies-taipei/)    
+        - Women Who Code Taipei
+            - [社團](https://www.facebook.com/groups/wwcodetaipei/)
+            - [粉專](https://www.facebook.com/wwcodetaipei/)
+        - [R-Ladies Taipei](https://www.meetup.com/rladies-taipei/)   
+        - [Girls in Tech - Taiwan](https://www.facebook.com/girlsintechtaiwan/posts/1266188420246880)
     - 創業[李婷婷](https://crossing.cw.com.tw/article/11793)
     - Pinkoi後端工程師[Mosky劉依語](https://medium.com/starrocket/https-medium-com-starrocket-interview-with-mosky-e7c18b54545)
 
@@ -38,11 +41,14 @@
     - 第一重要的是英文
         - 想進的公司
             - 104看需求數量
+    - 開放/開源/公開/免費
+        - [開放文化基金會](https://www.facebook.com/www.ocf.tw/posts/2610659089210011)
     - 這不好說
-        - [Flycoder](https://www.facebook.com/flycoder.io/photos/a.122641845930255/131421678385605/?type=3&__xts__%5B0%5D=68.ARAu7P9CL51nQ5-Ap98WTT69ZvvPdHUMcS6YjMKEWqKTPhhAbRAATbDwkGuoDll8h8wllazcqC3sAcxOpN1pArRupb1NdMydQSqVcwVHwY7T5FIlQYeYT7c8ZgwvnJxjPthKDPidgzlL7km6tkMTUcw36rnwLiS9xoJD1ZuhLeGbeG6cX6XU77I1KforyXmFwCqPDUoGo-6628tJqVx4jwC1RjLZuZ9WP2HLOgf3-Ni6n8b-7FjdFVVTLJPmwCzUCUwxPWN12xBi72IuDHNaIrjJ9Ipd5QfDjTM1_Ozz97tCANrxe_NRMEn72h7nTQ9_nA24EVCqI5a4PqUhLtaVRrI&__tn__=-R)
+        - 澳洲[Flycoder](https://www.facebook.com/flycoder.io/photos/a.122641845930255/131421678385605/?type=3&__xts__%5B0%5D=68.ARAu7P9CL51nQ5-Ap98WTT69ZvvPdHUMcS6YjMKEWqKTPhhAbRAATbDwkGuoDll8h8wllazcqC3sAcxOpN1pArRupb1NdMydQSqVcwVHwY7T5FIlQYeYT7c8ZgwvnJxjPthKDPidgzlL7km6tkMTUcw36rnwLiS9xoJD1ZuhLeGbeG6cX6XU77I1KforyXmFwCqPDUoGo-6628tJqVx4jwC1RjLZuZ9WP2HLOgf3-Ni6n8b-7FjdFVVTLJPmwCzUCUwxPWN12xBi72IuDHNaIrjJ9Ipd5QfDjTM1_Ozz97tCANrxe_NRMEn72h7nTQ9_nA24EVCqI5a4PqUhLtaVRrI&__tn__=-R)
+        - 美國 42
     - 共同好友
         - Synology
-        - 
+        - KKBOX
 
 - 一些大大
     - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
@@ -54,7 +60,10 @@
     - 龍哥
     - Ant
     - 專案管理類
-        - 游舒帆
-        - Clement Tang
-    - 大公司社群經理
-        - 上官林傑
+        - [游舒帆Gipi](https://www.facebook.com/gipi.net)
+        - 91APP PM [Clement Tang](https://www.facebook.com/clementtang)
+            - 同時也是 [Facebook Developer Circles](https://www.facebook.com/DeveloperCircles/) 擔任 Community Leader
+                - [Facebook Developer Circle: Taipei](https://www.facebook.com/groups/DevCTaipei/)
+    - 大公司社群經理 
+        - Google Developer Relations Program Manager [上官林傑Eric ShangKuan](https://www.facebook.com/ericsk0313)
+        - LINE Technical Evangelist [Evan Lin](https://www.facebook.com/EvansLin)

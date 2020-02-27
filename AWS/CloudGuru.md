@@ -309,7 +309,7 @@
                 - For data that is accessed less frequently, but requires rapid access when needed. Lower fee than S3, but you are charged a retrieval fee.
             - S3-One Zone IA
                 - Same as IA however data is stored in a single Availability Zone only, still 99.999999999% durability, but only 99.5% availability. Cost is 20% less than regular S3-IA
-            - Reduced Redundancy storge
+            - S3-Reduced Redundancy storge
                 - Design to provide 99.99% durability and 99.99% availability of objects over a given year.
                 - Used for data that can be retrived if lost, e.g. thumbnails縮圖.
                 - For easy created if you lost it.
@@ -341,7 +341,34 @@
                 - Transfer Acceleration
                     - Use of CloudFront to optimize transfers
         - Exam Tips For S3 101
-            - 
+            - S3 is object-based
+                - allow you to upload files.
+                - object-base storage only (for files.)
+            - Not suitable to install an operating system or running a database on.
+            - File can be from 0 Bytes to 5 TB
+            - There is unlimited storage.
+            - Files are stored in Buckets.
+            - S3 is a universal namespace. That is, names must be unique globally.
+            - Read after Write consistency for PUTS of new Objects
+            - Eventual Consistency for overwrite PUTS and DELETES (can take some time to propagate傳布)
+        - S3 Storage Classes/Tiers
+            - S3(durable, immediately available, frequently accessed)
+            - S3-IA(durable, immediately available, infrequently accessed)
+            - S3-One Zone IA:same as S3-IA. However, data is stored in a single AZ only
+            - S3-Reduced Redundancy Storage (data that is easily reproducible, such as thumbnails, etc.)
+            - Glacier - Archived data, where you can wait 3 - 5 hours before accessing
+        - Core fundamentals of an S3 object
+            - Key (name)
+            - Value (data)
+            - Version ID
+            - Metadata
+            - Subresource-bucket-specific configuration
+                - Bucket Policies, Access Control Lists
+                - Cross Origin Resource Sharing (CROS)
+                - Transfer Acceleration
+            - Successful uploads will generate a HTTP 200 status code - when you use the CLI or API
+            - read [S3 FAQ](https://aws.amazon.com/s3/faqs/)
+
 
 
 
