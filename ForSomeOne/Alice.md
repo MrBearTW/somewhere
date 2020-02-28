@@ -22,7 +22,7 @@
     - [weebly](https://www.weebly.com/pricing)
     - WordPress
         - 應該都會一起提到購物車WooCommerce
-        - 可自訂很高 = 自己要花時間土炮
+        - 可自訂性很高 = 自己要花很多時間土炮
     - 其他部落格網頁
 
 - 平台(有購物車)
@@ -52,6 +52,7 @@
     - [蟹老闆美國代購](https://www.instagram.com/boss_crab/?hl=zh-tw)
     - [韓國東大門代購！真的只是在血拼？ 夢幻職業實測3天收入竟10萬台幣](https://www.facebook.com/watch/?v=793934831113395)
     - [電商店鋪裝修師](https://www.facebook.com/photo.php?fbid=10214355412753301&set=a.1061293666705&type=3)
+    - [周小葳的勇敢生活](https://www.facebook.com/Mayuki0204)
     - 銷售漏斗
         - 隱私問題
     
@@ -61,11 +62,12 @@
             - [FB](https://www.facebook.com/cjpselect/)
             - [官網](https://www.cjp-select.com/pages/about-cjpselect)
         - [zephyrlife(另一間看起來是用shopline的網頁)](https://www.zephyrlife.co/about/terms)
-        - tra
+        - [travelwithuu](https://www.instagram.com/travelwithuu/)
     - 家裡順便賣
         - 王佳葳
     - 寄賣
         - 學弟咖啡店
+            - [澳洲代購💃雪梨City Girls凱西愛咪購購購💃](https://www.facebook.com/groups/199447530503238/)
     - 團購後放大
         - iFit 謝銘元
         - 486
