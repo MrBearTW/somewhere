@@ -43,21 +43,25 @@
             - 104看需求數量
     - 開放/開源/公開/免費
         - [開放文化基金會](https://www.facebook.com/www.ocf.tw/posts/2610659089210011)
+            -g0v
     - 這不好說
         - 澳洲[Flycoder](https://www.facebook.com/flycoder.io/photos/a.122641845930255/131421678385605/?type=3&__xts__%5B0%5D=68.ARAu7P9CL51nQ5-Ap98WTT69ZvvPdHUMcS6YjMKEWqKTPhhAbRAATbDwkGuoDll8h8wllazcqC3sAcxOpN1pArRupb1NdMydQSqVcwVHwY7T5FIlQYeYT7c8ZgwvnJxjPthKDPidgzlL7km6tkMTUcw36rnwLiS9xoJD1ZuhLeGbeG6cX6XU77I1KforyXmFwCqPDUoGo-6628tJqVx4jwC1RjLZuZ9WP2HLOgf3-Ni6n8b-7FjdFVVTLJPmwCzUCUwxPWN12xBi72IuDHNaIrjJ9Ipd5QfDjTM1_Ozz97tCANrxe_NRMEn72h7nTQ9_nA24EVCqI5a4PqUhLtaVRrI&__tn__=-R)
         - 美國 42
     - 共同好友
         - Synology
         - KKBOX
+        - 趨勢
 
 - 一些大大
     - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
         - [共筆 - 你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/)
     - TonyQ
-    - Kuro
-    - 保哥
-    - [安德魯的部落格](https://columns.chicken-house.net/2018/12/12/microservice11-lineup/)
-    - 龍哥
+    - 前端大大
+        - Kuro
+    - 微軟派
+        - [保哥](https://www.facebook.com/will.fans)
+        - [安德魯的部落格](https://columns.chicken-house.net/2018/12/12/microservice11-lineup/)
+    - 版本控制git [龍哥](https://gitbook.tw/articles)
     - Ant
     - 專案管理類
         - [游舒帆Gipi](https://www.facebook.com/gipi.net)
@@ -67,3 +71,8 @@
     - 大公司社群經理 
         - Google Developer Relations Program Manager [上官林傑Eric ShangKuan](https://www.facebook.com/ericsk0313)
         - LINE Technical Evangelist [Evan Lin](https://www.facebook.com/EvansLin)
+
+- 早點註冊加入的網站
+    - github / 有一些公司會用 gitlab
+    - [stackoverflow](https://stackoverflow.com/)
+    - 美國PTT
