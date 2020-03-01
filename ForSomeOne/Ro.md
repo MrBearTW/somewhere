@@ -22,7 +22,8 @@
     - udemy
     - [FB半年會開一輪的贊助課程](https://www.facebook.com/groups/DevCTaipei/permalink/1504115996406484/)
     - Google cloud platform的練習[qwiklabs](https://www.linkedin.com/company/qwiklabs-inc-/)
-    - AWS educiated
+    - [AWS educiated](https://aws.amazon.com/tw/education/awseducate/)用學生帳號註冊有一些免費的額度可以使用
+        - 有證照可以考
 
 - 實習
     - 新芽

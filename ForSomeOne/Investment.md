@@ -20,6 +20,7 @@
         - 香港，新加坡
         - [Bloomberg](https://www.bloomberg.com/live/us)
     - 緩漲快跌
+    - 房地產，房子是拿來住人的，房地產證券化
 
 - 不錯的粉絲頁
     - [財報狗](https://www.facebook.com/statementdog/)
@@ -32,7 +33,10 @@
 - 書
     - [綠角](https://search.books.com.tw/search/query/key/%E7%B6%A0%E8%A7%92/cat/all/adv_author/1)
     - 
-    
+
+- 電影
+    - 大賣空
+
 - 講座這件事
     - [賣課程](https://www.facebook.com/NobleYenFansClub/posts/3525953050811997?__xts__%5B0%5D=68.ARDJvMN9kvEctoevPK4wgB0EwTTbtjEN6qC8hyp-mByyRKCsSjSEJ_iEgbSxM4ax9ihnOa5NaMwPVR_1zPvHemv4W31VuDlSumiSNNEm0EcbjctG0Ony-GrXNXsLMFmyXHopzywNdwnnLXQW5jpWUcm0IlXTVNLOpsG3vO861p3kKHqkF0Cy2TGJvcKzuhEOeliCjuswpWstwIqhqCuPSuB8O6bqL8v9DNKqDWIIw27mjgWV9U6putceBHmhq08kfQDF1oo3OjIBVBmgX6GrrD4Bc4Z3G_WAg1Phfh7Ma5D3NwHaUBKV7TjWNtQ9k-X2Gs8M5AiixTJzO2uzQZ-gSw&__tn__=-R)
     - 賣書
