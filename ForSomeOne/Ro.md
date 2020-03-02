@@ -21,7 +21,7 @@
 - 自學
     - udemy
     - [FB半年會開一輪的贊助課程](https://www.facebook.com/groups/DevCTaipei/permalink/1504115996406484/)
-    - Google cloud platform的練習[qwiklabs](https://www.linkedin.com/company/qwiklabs-inc-/)
+    - Google cloud platform的練習 [qwiklabs](https://www.linkedin.com/company/qwiklabs-inc-/)
     - [AWS educiated](https://aws.amazon.com/tw/education/awseducate/)用學生帳號註冊有一些免費的額度可以使用
         - 有證照可以考
 
@@ -31,6 +31,7 @@
     - [Youator](https://www.yourator.co/companies/awoo/jobs/7166)
 
 - 一些強迫寫作的活動
+    - [Google Technical Writing Courses 教學](https://developers.google.com/tech-writing)
     - [2020 iT邦幫忙鐵人賽 30 天的發文挑戰](https://ithelp.ithome.com.tw/2020ironman/rules)
     - [第 01 屆開發者寫作松 Coder Blogathon【連續七天寫作挑戰，解放你的技術創作力】](https://www.accupass.com/event/2001190943344186137000)
 
@@ -46,12 +47,13 @@
         - [開放文化基金會](https://www.facebook.com/www.ocf.tw/posts/2610659089210011)
             -g0v
     - 這不好說
-        - 澳洲[Flycoder](https://www.facebook.com/flycoder.io/photos/a.122641845930255/131421678385605/?type=3&__xts__%5B0%5D=68.ARAu7P9CL51nQ5-Ap98WTT69ZvvPdHUMcS6YjMKEWqKTPhhAbRAATbDwkGuoDll8h8wllazcqC3sAcxOpN1pArRupb1NdMydQSqVcwVHwY7T5FIlQYeYT7c8ZgwvnJxjPthKDPidgzlL7km6tkMTUcw36rnwLiS9xoJD1ZuhLeGbeG6cX6XU77I1KforyXmFwCqPDUoGo-6628tJqVx4jwC1RjLZuZ9WP2HLOgf3-Ni6n8b-7FjdFVVTLJPmwCzUCUwxPWN12xBi72IuDHNaIrjJ9Ipd5QfDjTM1_Ozz97tCANrxe_NRMEn72h7nTQ9_nA24EVCqI5a4PqUhLtaVRrI&__tn__=-R)
         - 美國 42
+        - 澳洲[Flycoder](https://www.facebook.com/flycoder.io/photos/a.122641845930255/131421678385605/?type=3&__xts__%5B0%5D=68.ARAu7P9CL51nQ5-Ap98WTT69ZvvPdHUMcS6YjMKEWqKTPhhAbRAATbDwkGuoDll8h8wllazcqC3sAcxOpN1pArRupb1NdMydQSqVcwVHwY7T5FIlQYeYT7c8ZgwvnJxjPthKDPidgzlL7km6tkMTUcw36rnwLiS9xoJD1ZuhLeGbeG6cX6XU77I1KforyXmFwCqPDUoGo-6628tJqVx4jwC1RjLZuZ9WP2HLOgf3-Ni6n8b-7FjdFVVTLJPmwCzUCUwxPWN12xBi72IuDHNaIrjJ9Ipd5QfDjTM1_Ozz97tCANrxe_NRMEn72h7nTQ9_nA24EVCqI5a4PqUhLtaVRrI&__tn__=-R)
     - 共同好友
         - Synology
         - KKBOX
         - 趨勢
+        - LP大大
 
 - 一些大大
     - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
@@ -69,6 +71,7 @@
         - 91APP PM [Clement Tang](https://www.facebook.com/clementtang)
             - 同時也是 [Facebook Developer Circles](https://www.facebook.com/DeveloperCircles/) 擔任 Community Leader
                 - [Facebook Developer Circle: Taipei](https://www.facebook.com/groups/DevCTaipei/)
+        - [曹凱閔](https://medium.com/@kaimin.tsao)
     - 大公司社群經理 
         - Google Developer Relations Program Manager [上官林傑Eric ShangKuan](https://www.facebook.com/ericsk0313)
         - LINE Technical Evangelist [Evan Lin](https://www.facebook.com/EvansLin)
@@ -76,4 +79,7 @@
 - 早點註冊加入的網站
     - github / 有一些公司會用 gitlab
     - [stackoverflow](https://stackoverflow.com/)
+    - linkedin
+        - cakeresume 
+            - 104 / 1111
     - 美國PTT

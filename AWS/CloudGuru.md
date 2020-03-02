@@ -264,12 +264,12 @@
                         - Elasticache is a good choice if your DB is particulary read-heavy and not prone to frequent changing.
                         - Redshift is agood answer if the reason your DB is feeling stress is because management keep running OLAP transaction on it.
                         - 使用情況，同上面抄過的一樣
-    22. EC2 Quiz
+    - EC2 Quiz
         1. In order to enable encryption at rest using EC2 and Elastic Block Store, you must ________.
             - config encryption when creating the EBS volume
         2. 
     
-    23. S3 101
+    22. S3 101
         - Secure, durable, highly-scalable object storage.
         - Not for operations or DB.
         - It's Object-based storage.
@@ -368,6 +368,67 @@
                 - Transfer Acceleration
             - Successful uploads will generate a HTTP 200 status code - when you use the CLI or API
             - read [S3 FAQ](https://aws.amazon.com/s3/faqs/)
+    23. S3 Security
+        - Securing Your Buckets
+            - By default, all newly created buckets are PRIVATE.
+            - You can set up access control to your buckets using:
+                - Bucket Policies - Applied at a bucket level.
+                - Access Control Lists - Applied at an object level.
+            - S3 buckets can be configured to create access logs, which log all requests made to the S3 buckets. These logs can be written to another buckets.
+    24. S3 Policies Lab
+        - 預設和實用之間的差距
+    25. S3 Encryption
+        - Encryption
+            - In transit:
+                - SSL / TLS
+            - At Rest:
+                - Server Side Encryption:
+                    - S3 Managed Keys - SSE-S3
+                    - AWS Key Management Service, Managed Keys, SSE-KMS
+                    - Server Side Encryption with Customer Provided Keys - SSE-C
+            - Client Side Encryption
+        - Enforcing Encryption on S3 Buckets
+            - Every time a file is uploaded to S3, a PUT request is initiated.
+            - This is what a PUT request looks like:
+                ``` PUT/myFile HTTP/1.1
+                    Host: myBucket.s3.amazonaws.com
+                    Date: Wed, 25 Apr 2018 09:50:00 GMT
+                    Authorization: authorization string
+                    Content-Type: text/plain
+                    Content-Length: 27364
+                    x-amz-meta-author: Faye
+                    Expect: 100-continue
+                    [27364 bytes of object data]
+                ```
+            - If the file is to be encrypted at upload time, the `x-amz-server-side-encryption parameter` will be included in the request header.
+            - Two options are currently available:
+                - `x-amz-server-side-encryption: AES256`(SSE-S3 - S3 managed keys)
+                - `x-amz-server-side-encryption: ams:kms`(SSE-KMS - KMS managed keys)
+            - When this parameter is included in the header of the PUT request, it tells S3 to encrypt the object at the time of upload, using the specified encryption method.
+            - You can enfore the use of Server Side Encryption by using a Bucket Policy which denies any S3 PUT request which doesn't include the `x-amz-server-side-encryption` parameter in the request header.
+            - The following request tells S3 to encrypt the file using SSE-S3(AES256)at the time of upload:
+                ``` PUT/myFile HTTP/1.1
+                    Host: myBucket.s3.amazonaws.com
+                    Date: Wed, 25 Apr 2018 09:50:00 GMT
+                    Authorization: authorization string
+                    Content-Type: text/plain
+                    Content-Length: 27364
+                    x-amz-meta-author: Faye
+                    Expect: 100-continue
+                    x-amz-server-side-encryption: AES256
+                    [27364 bytes of object data]
+                ```
+        - S3 Encryption Exam Tips
+            - Encryption In-Transit
+                - SSL/TLS(HTTPS)
+            - Encryption At Rest
+                - Sever Side Encryption
+                    - SSE-S3
+                    - SSE-KMS
+                    - SSE-C
+                - Client Side Encryption
+            - If you want to enforce the use of encryption for your files stored in S3, use an S3 Bucket Policy to deny all PUT requests that don't include the x-amz-server-side-encryption parameter in the request header.
+
 
 
 
