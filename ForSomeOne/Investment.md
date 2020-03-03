@@ -1,5 +1,5 @@
 1. 存夠6個月的生活費
-2. 除了儲蓄險之外的，保險買一買
+2. 除了儲蓄險之外的，[保險](https://www.facebook.com/329896911051695/photos/a.358878471486872/510654386309279/?type=3&__xts__%5B0%5D=68.ARBuyMOo1kILUtABl2KfLzx67nHlTwqcSiJ6dwyP3JiNgTZKZceVqiCqYJLY4SF57zfBaaxd_bcwWGSlmHR0AqwVN06Nya4FAHimNRcpoq3mSZETahTWn1NkcQeVrjXDxwtSpZFqJP3Jjx6jub_fdk5IhZ11IuzpMAYRq1VlGfXzKmrlwj0jeW7sNj8sfUtauglPZlJHU6XymsMgH-guK8eTsuyXV1uogMkZ5lD-qM_PAIWaDcKaMwn6Z4BACWLwS7s-SRfPVMkaejSl1t2tKb3UNa_2QMnvQzSzeF2DQBtNz2R_dUVF63SuKvzGbfYt1S2AzjPRJKqdgspfVOtG81kc0y18T3FC6c5zHOQGf_O7x5hCCDC9qQ&__tn__=-R)買一買
 3. 年金 勞保 勞退 健保
 
 
@@ -21,6 +21,8 @@
         - [Bloomberg](https://www.bloomberg.com/live/us)
     - 緩漲快跌
     - 房地產，房子是拿來住人的，房地產證券化
+    - 晚上睡得著 vs. 一些焦躁的 LINE 群組
+    - 一夜致富的可能性
 
 - 不錯的粉絲頁
     - [財報狗](https://www.facebook.com/statementdog/)
@@ -44,10 +46,11 @@
 
 
 - 不知該如何分類
-    - 劉奕成
+    - [劉奕成](https://www.facebook.com/icheng.liu)
 
 - [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)
 - 美股
-    - [冏冏子(冏星人)](https://www.facebook.com/shintaroReview/photos/a.194699507351581/1505302442957941/?type=3&__xts__%5B0%5D=68.ARDKrwrc9sWJTo5tozkXRpRaEL0YcpcW3znTfCqE2HZVyDjQpRREta1TbAkrcKXF-aJYLoTMf7p82UzqGc0VRAfuI3VrzCr57JZ9po-XaP2mPHcBz8RrhOsSxa0saonU85YZ-BZzF_RLUTE57slrtkdjmPimcfR-eOuo5cq-X_oAEFThqpB8Zf-gCn0_-WRS2Ej0bZYLyccqU3sxWOJcOvkft77dmzWvuYfXYbz5e__oRIYrheuu5yRWPyhPYCxUfbEi4Wk9zlSN3TkQxWCXtRCUQ06U0-KAy88YoRMQilBd0bOC8vTrVhv2kGauAYKye_C9CtDDlkw9iD6WQgBmGuTDbHfwfXAmVy1iGIuOdeNtJ0zL5qh8nw&__tn__=-R)
+    - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2655795991198421?__xts__%5B0%5D=68.ARCCmqVz7F51pof4GyiZavGSifKanQ6mCRIS64viGvN1M50A-QwDOPCUcxF1RmlpkFmaqf1FsFFyCwkux8LLuldXvh0pWIy7j4DHf_MLo5e9HALLlq6oljWPla0cueXoHenNkrnO9XEAXt__AZYoH0vLcpKSnMFkbo3zsxt3M9il16bo3mpqupzhUuQY1ePDYudm_DZG8APpg0ubIEGi7RPcRBitH3caWAvTMLrUg6KCFU8ZBwp6h3YtastQwacwLYPbMlt-wY91220l49xHp0oZpJr4mGoBdX9-L3_YGF7MTSKzwE03nDZM_MPCbPElif_y41_gGY7Yak0o_wp1QIBmow&__tn__=-R)
     - [美股隊長](https://www.facebook.com/usstockcap/photos/a.293479554193743/1185063261702030/?type=3&__xts__%5B0%5D=68.ARCig5i1AvW8ZZMonKYgRNyTGCZE1EpGLBLRgDot3UNbT4tURSJiEdZTG9d1QNYWtfNQec3QaSjqkIL5sTb2KrL0tTsICmOt5_Ukyb-4SUPhnpO1lD53_ITnbRGie8YxxiDL7IsP7Vcw69wf77suOpow3VfyZVvozcNL-_HF3rXU1-VODdsZIJmhYiwum1Mhn4vxXo-siNWa19VHwtDo-FapGPqCCIL1aIDcbOi8p6ivDeQCJPDbz4SXJjFRKM5YrG70NKXMK0G1sxVVv-9WK-hgINjEjtKI-grZBtsQmVDMu33IogTbGpomfJGculbljcGGtMrHZ4m4ftrYt-VJ-gDXb_Amr3umA08wOMPS8KV-QU1QfpOGjcre&__tn__=-R)
+    - [冏冏子(冏星人)](https://www.facebook.com/shintaroReview/photos/a.194699507351581/1505302442957941/?type=3&__xts__%5B0%5D=68.ARDKrwrc9sWJTo5tozkXRpRaEL0YcpcW3znTfCqE2HZVyDjQpRREta1TbAkrcKXF-aJYLoTMf7p82UzqGc0VRAfuI3VrzCr57JZ9po-XaP2mPHcBz8RrhOsSxa0saonU85YZ-BZzF_RLUTE57slrtkdjmPimcfR-eOuo5cq-X_oAEFThqpB8Zf-gCn0_-WRS2Ej0bZYLyccqU3sxWOJcOvkft77dmzWvuYfXYbz5e__oRIYrheuu5yRWPyhPYCxUfbEi4Wk9zlSN3TkQxWCXtRCUQ06U0-KAy88YoRMQilBd0bOC8vTrVhv2kGauAYKye_C9CtDDlkw9iD6WQgBmGuTDbHfwfXAmVy1iGIuOdeNtJ0zL5qh8nw&__tn__=-R)

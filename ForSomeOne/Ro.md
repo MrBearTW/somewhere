@@ -49,32 +49,37 @@
     - 這不好說
         - 美國 42
         - 澳洲[Flycoder](https://www.facebook.com/flycoder.io/photos/a.122641845930255/131421678385605/?type=3&__xts__%5B0%5D=68.ARAu7P9CL51nQ5-Ap98WTT69ZvvPdHUMcS6YjMKEWqKTPhhAbRAATbDwkGuoDll8h8wllazcqC3sAcxOpN1pArRupb1NdMydQSqVcwVHwY7T5FIlQYeYT7c8ZgwvnJxjPthKDPidgzlL7km6tkMTUcw36rnwLiS9xoJD1ZuhLeGbeG6cX6XU77I1KforyXmFwCqPDUoGo-6628tJqVx4jwC1RjLZuZ9WP2HLOgf3-Ni6n8b-7FjdFVVTLJPmwCzUCUwxPWN12xBi72IuDHNaIrjJ9Ipd5QfDjTM1_Ozz97tCANrxe_NRMEn72h7nTQ9_nA24EVCqI5a4PqUhLtaVRrI&__tn__=-R)
+            - 研究所畢業直接去澳洲的學弟
     - 共同好友
         - Synology
         - KKBOX
         - 趨勢
+        - [25sprout](https://www.facebook.com/amazonwebservices.tw/videos/854336088364759/?__xts__%5B0%5D=68.ARBn2w5H2nxsbNHSaRE1j06kI7gYYpGuGWzQ2wV4mZE7auB597hH7yNm3b6Qz4ZuM5K54KzkgY5Kaqy9Zz2l9MJdgx1lha3a-cFHDn3aeCaWOlsrpd-qiRDzehm2jB5DuboS91k080YRyjS8Ly-T8pX0uH-iV66hmJlmJzuBKWIAUYzP3LgdH8EV1JXrOiHXVwiUrT_Rjy7DrxB4HIJrBxf7xboPY36KFOKjXVDyyQBRxxx4tESpVE2v6wh2o4jz7jZ-PPow9v9XZWtaMORi0PJZXc9UucJvTe0EkU3pMsIHSP2i401rsXfl_vuANpxutvikmhbHfXO8Kq8dMLg2wCjdJ7O7rhr3e7meeznO5HwB3MY2YbLxEEuF8vIxzQxtzq1T&__tn__=-R) 
         - LP大大
 
 - 一些大大
     - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
         - [共筆 - 你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/)
-    - TonyQ
     - 前端大大
         - Kuro
     - 微軟派
         - [保哥](https://www.facebook.com/will.fans)
         - [安德魯的部落格](https://columns.chicken-house.net/2018/12/12/microservice11-lineup/)
-    - 版本控制git [龍哥](https://gitbook.tw/articles)
-    - Ant
+    - 版本控制git [龍哥](https://gitbook.tw/articles) /同時也是 python & Ruby on Rails 開發者
+    - [Ant Yi-Feng Tzeng](https://www.facebook.com/yftzeng.tw)
     - 專案管理類
         - [游舒帆Gipi](https://www.facebook.com/gipi.net)
         - 91APP PM [Clement Tang](https://www.facebook.com/clementtang)
             - 同時也是 [Facebook Developer Circles](https://www.facebook.com/DeveloperCircles/) 擔任 Community Leader
                 - [Facebook Developer Circle: Taipei](https://www.facebook.com/groups/DevCTaipei/)
+        - [TonyQ](https://www.facebook.com/tonylovejava) /同時也是 javascript 開發者
         - [曹凱閔](https://medium.com/@kaimin.tsao)
+    - 追起來就對了
+        - [Ant Yi-Feng Tzeng](https://www.facebook.com/yftzeng.tw)
+        - [Rick Hwang](https://rickhw.github.io/2017/12/29/About/About-Author/)
     - 大公司社群經理 
         - Google Developer Relations Program Manager [上官林傑Eric ShangKuan](https://www.facebook.com/ericsk0313)
-        - LINE Technical Evangelist [Evan Lin](https://www.facebook.com/EvansLin)
+        - LINE Technical Evangelist [Evan Lin](https://www.facebook.com/EvansLin) /同時也是 GO 開發者
 
 - 早點註冊加入的網站
     - github / 有一些公司會用 gitlab
@@ -82,4 +87,6 @@
     - linkedin
         - cakeresume 
             - 104 / 1111
-    - 美國PTT
+            - [求職網站使用率](https://www.facebook.com/groups/twstartupjobs/permalink/1111325915866392/)
+    - [純靠北工程師](https://www.facebook.com/kaobei.engineer/)
+    - [美國PTT](https://www.reddit.com/)
