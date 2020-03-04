@@ -23,6 +23,11 @@
     - 房地產，房子是拿來住人的，房地產證券化
     - 晚上睡得著 vs. 一些焦躁的 LINE 群組
     - 一夜致富的可能性
+    - 量級的問題
+    - 數學問題
+        - 複利的力量
+        - 連跌停五天再連漲停五天，差距是？
+        - 常小賠但一次大賺，常小賺但一次大賠
 
 - 不錯的粉絲頁
     - [財報狗](https://www.facebook.com/statementdog/)
@@ -32,6 +37,8 @@
         - 楊文宏‎ 宏觀國際經濟  [粉專](https://www.facebook.com/MacroEconomicAndGeopolitical/)  [社團](https://www.facebook.com/groups/147293452597272/?ref=group_header)
         - [IEObserve 國際經濟觀察](https://www.facebook.com/intleconobserve/)
         - [Joe's investment](https://www.facebook.com/joejoeyourmoney/)
+    - 前公司相關
+        - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
 - 書
     - [綠角](https://search.books.com.tw/search/query/key/%E7%B6%A0%E8%A7%92/cat/all/adv_author/1)
     - 

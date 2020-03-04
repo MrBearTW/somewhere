@@ -70,7 +70,7 @@
             - [澳洲代購💃雪梨City Girls凱西愛咪購購購💃](https://www.facebook.com/groups/199447530503238/)
     - 團購後放大
         - iFit 謝銘元
-        - 486
+        - 486先生
     - OKR 
         - 要有一個官網
         - 簽約

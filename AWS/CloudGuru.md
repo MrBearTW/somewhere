@@ -428,6 +428,42 @@
                     - SSE-C
                 - Client Side Encryption
             - If you want to enforce the use of encryption for your files stored in S3, use an S3 Bucket Policy to deny all PUT requests that don't include the x-amz-server-side-encryption parameter in the request header.
+    26. Setup Encryption On An S3 Buckets LAB
+        - 建立一個 Bucket
+            - 用 Policy generator 建立一個 policy
+    27. CORS Configuration Lab
+        - Static website hosting
+        - 建立兩個 bucket
+            - 修改 CORS configuration，才可以跨 bucket 讀取
+    28. CloudFront
+        - What is a CDN ?
+            - A content delivery network (CDN) is a system of distributed servers (network) that deliver webpages and other web content to a user based on the geographic locations of the user, the origin of the webpage, and a content delivery server.
+        - CloudFront - Key Terminology
+            - Edge Location - This is the location where content is cached and can also be written, Separate to an AWS Region/AZ
+            - Origin - This is the origin of all the files that the CDN will distribute. Qrigins can be an S3 Bucket, an EC2 Instancem, an Elastic Load Balancer, or Route53.
+            - Distribution - This is the name given the CDN, which consists of a collection of Edge Locations.
+            - Web Distribution - Typically used for websites
+            - RTMP - Used for Media Streaming.
+        - What is CloudFront ?
+            - Amazon CloudFront can be used to deliver you entire website, including dynamic, static, streaming, and interactive content using a global network of edge locations. Requests for you content are automatically routed to the nearest edge location, so content is deliverd with the bestpossible performance.
+            - Amazon CloudFront is optimized to work with other Amazon Web Services, like Amazon Simple Storage Service (Amazon S3), Amazon Elastic Compute Cloud(Amazon EC2), Amazon Elastic Load Blancing, and Amazon Route53. Amazon CloudFront also works seamlessly with any non-AWS origin server, which stores the original, definitive versions of your files.
+            - CloudFront Distribution types:
+                - Web Distribution - Use for Websites, HTTP / HTTPS
+                - RTMP Distribution - (Adobe Real Time Messaging Protocal) Used for Media Streaming / Flash multi-media content
+        - Cloud Front And S3 Transfer Acceleration
+            - Amazon S3 Transfer Acxceleration enables fast, easy, and secure transfers of files over long distances between your end users and an S3 bucket.
+            - Transfer Acceleration takes advantage of Amazon CloudFront's globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.
+        - CloudFront - Exam Tips
+            - Edge Location - This is the location where content will be cached. This is separate to an AWS Region / AZ.
+            - Origin - This is the origin of all the files that the CDN will distribute. Origins can be an S3 Bucket, an EC2 Insatance, an Elastic Load Balancer, or Route53.
+            - Distribution - This is the name given the CDN, which consists of a collection of Edge Locations.
+                - Web Distribution - Typically used for Websites.
+                - RTMP - Used for Media Streaming.
+            - Edge locations are not just Read only - you can WRITE to them, too. (i.e. PUT an object on to them.)
+            - CloudFront Edge Locations are utilised by S3 Transfer Acceleration to reduce latency for S3 uploads.
+            - Objects are cached for the life ogf the TTL (Time To Live.)
+            - You can clear cached objects, but you will be charged.
+    29. CloudFront Lab
 
 
 

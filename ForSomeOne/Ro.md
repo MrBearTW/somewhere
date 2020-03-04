@@ -58,6 +58,8 @@
         - LP大大
 
 - 一些大大
+    - 學術界
+        - [臺大資工系教授洪士灝](https://www.facebook.com/shihhaohung)
     - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
         - [共筆 - 你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/)
     - 前端大大
@@ -76,7 +78,7 @@
         - [曹凱閔](https://medium.com/@kaimin.tsao)
     - 追起來就對了
         - [Ant Yi-Feng Tzeng](https://www.facebook.com/yftzeng.tw)
-        - [Rick Hwang](https://rickhw.github.io/2017/12/29/About/About-Author/)
+        - [Rick Hwang](https://rickhw.github.io/2017/12/29/About/About-Author/) SRE/Dev -> QA -> Ops
     - 大公司社群經理 
         - Google Developer Relations Program Manager [上官林傑Eric ShangKuan](https://www.facebook.com/ericsk0313)
         - LINE Technical Evangelist [Evan Lin](https://www.facebook.com/EvansLin) /同時也是 GO 開發者
@@ -90,3 +92,11 @@
             - [求職網站使用率](https://www.facebook.com/groups/twstartupjobs/permalink/1111325915866392/)
     - [純靠北工程師](https://www.facebook.com/kaobei.engineer/)
     - [美國PTT](https://www.reddit.com/)
+
+- 小事
+    - 各種信仰戰爭
+        - 編輯器，空白建 VS. tab
+    - 各種鄙視鏈
+    - 大O是什麼
+    - 黑客松
+    - markdown可以學一下
