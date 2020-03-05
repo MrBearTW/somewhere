@@ -464,12 +464,35 @@
             - Objects are cached for the life ogf the TTL (Time To Live.)
             - You can clear cached objects, but you will be charged.
     29. CloudFront Lab
-
-
-
-
-
-
+        - 傳一個大的圖檔到雪梨的
+        - TTL 
+            - 31536000 一年
+            - 86400 一天
+        - 可選 HTTP 自動轉址到 HTTPS
+        - 大約要十到十五分鐘
+        - 第一次讀仍會慢慢的，因為剛從 origin 拉到  cloudfront 上，之後(用其他瀏覽器或是其他裝置)就會變快了
+        - 記得刪掉
+    30. S3 Performance Optimization
+        -  S3 Performance Optimization
+            - S3 is designed to support very high request rates. However, if your S3 buckets are routinely receiving > 100PUT / LIST / DELETE or > 300 GET requests per second, then there are some best pratice guidelines that will help optimize S3 performance.
+            - The guidance is based on the type of workload your running:
+                - `GET-Intensive Workloads` - use CloudFront content delivery service to get best performance. CloudFront will cache your most frequently accessed objects and will reduce latency for your GET requests.
+                - `Mixed Request Type Workloads` - a mix of GET, PUT, DELETE, GET Bucket - the key names you use for your objects can impact performance for intensive workloads.
+                    - S3 uses the key name to determine which partition an object will be stored in.
+                    - The use of sequential key names e.g. name prefixed with a time stamp or alphabetical sequence increases the likehood of having multipleobjects stored on the same partition.
+                    - For heavy workloads this can cause I/O issues and contention爭奪
+                    - By using a random prefix to key names, you can force S3 to distribute your keys across multiple partitions, distributing the I/O workload.
+        - Exam Tips
+            - Remember the 2 main approaches to Performance Optimization for S3:
+                - GET-Intensive Workloads - Use CloudFront
+                - Mixed-Workloads-Avoid sequential key names for your S3 objects. Instead, add a random prefix like a hex hash to the key name to prevent multiple objects from being stored on the same partition.
+    31. S3 Performance Update
+        - In july 2018, Amazon announced a massive increase in S3 performance
+            - 3,500  put request per second
+            - 5,500 get requests
+        - This new increased performance negates否定 the previous guidance to randomize your object key names to achive faster performance
+        - This means logical and sequential naming patterns can now be use without any performance implication
+    32. S3 Summary     
 
 
 

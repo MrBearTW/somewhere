@@ -41,7 +41,10 @@
         - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
 - 書
     - [綠角](https://search.books.com.tw/search/query/key/%E7%B6%A0%E8%A7%92/cat/all/adv_author/1)
-    - 
+    - [窮查理的普通常識](https://www.books.com.tw/products/0010817729)  [網路推薦文](https://medium.com/unorthodox-paranoid/reading-poor-charlies-almanack-289a341b39fa)
+
+- 線上課程
+    - 沒上過先記錄一下[可汗學院的線上課程](https://www.khanacademy.org/economics-finance-domain/core-finance)
 
 - 電影
     - 大賣空

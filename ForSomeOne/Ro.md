@@ -29,8 +29,12 @@
     - 新芽
     - KKBOX
     - [Youator](https://www.yourator.co/companies/awoo/jobs/7166)
+    - 別人的實習心得
+        - [貝殼放大 & AppWorks](https://medium.com/unorthodox-paranoid/internship-recap/home) / 這位大大也一直有在寫程式相關的文章
+        - [高雄 KKBOX](https://medium.com/kkstream/kkstream-kh-sqa-intern-%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB-%E5%89%8D%E7%AF%87-775763180758) / 這一篇裡面有 Bob 科科
 
 - 一些強迫寫作的活動
+    - [我們認識的那位翁翁寫的技術文章](https://medium.com/@chunhao.weng/%E5%AD%B8%E7%BF%92%E7%B4%80%E9%8C%84-%E5%84%AA%E7%BE%8E%E5%9C%B0%E4%BD%BF%E7%94%A8-typescript-%E6%92%B0%E5%AF%AB-react-%E4%B8%80-f571b77db5b3)
     - [Google Technical Writing Courses 教學](https://developers.google.com/tech-writing)
     - [2020 iT邦幫忙鐵人賽 30 天的發文挑戰](https://ithelp.ithome.com.tw/2020ironman/rules)
     - [第 01 屆開發者寫作松 Coder Blogathon【連續七天寫作挑戰，解放你的技術創作力】](https://www.accupass.com/event/2001190943344186137000)
@@ -59,9 +63,9 @@
 
 - 一些大大
     - 學術界
-        - [臺大資工系教授洪士灝](https://www.facebook.com/shihhaohung)
-    - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
-        - [共筆 - 你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/)
+        - [臺大資工系教授洪士灝](https://www.facebook.com/shihhaohung) 分散式運算
+        - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
+            - [共筆 - 你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/)
     - 前端大大
         - Kuro
     - 微軟派
@@ -97,6 +101,7 @@
     - 各種信仰戰爭
         - 編輯器，空白建 VS. tab
     - 各種鄙視鏈
-    - 大O是什麼
+    - 大O是什麼 / 時間複雜度
     - 黑客松
     - markdown可以學一下
+    - 博奕
