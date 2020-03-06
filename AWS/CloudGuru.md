@@ -492,7 +492,13 @@
             - 5,500 get requests
         - This new increased performance negates否定 the previous guidance to randomize your object key names to achive faster performance
         - This means logical and sequential naming patterns can now be use without any performance implication
-    32. S3 Summary     
+    32. S3 Summary
+        - S3 101 - Summary
+            - Remember that S3 is Object-based: i.e allows you to upload files.
+            - Files can be from 0 Bytes to 5TB.
+            - There is unlimited storge.
+            - Files are stored in Buckets.
+            - S3 is a universal namespace. Tha is, names must be unique globally.
 
 
 
