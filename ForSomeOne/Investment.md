@@ -39,7 +39,7 @@
         - [Joe's investment](https://www.facebook.com/joejoeyourmoney/)
     - 前公司相關
         - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
-    - 報紙推薦的 Youtuber
+    - [報紙推薦的 Youtuber](https://money.udn.com/money/story/7794/4289421?fbclid=IwAR2FoA_dv5cGd2lgzF7XphJS9GXT_ojtsSSsvk29_ZqVxNw0UNKD88wVCII)
 - 書
     - [綠角](https://search.books.com.tw/search/query/key/%E7%B6%A0%E8%A7%92/cat/all/adv_author/1)
     - [窮查理的普通常識](https://www.books.com.tw/products/0010817729)  [網路推薦文](https://medium.com/unorthodox-paranoid/reading-poor-charlies-almanack-289a341b39fa)

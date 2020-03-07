@@ -72,7 +72,6 @@
         - [保哥](https://www.facebook.com/will.fans)
         - [安德魯的部落格](https://columns.chicken-house.net/2018/12/12/microservice11-lineup/)
     - 版本控制git [龍哥](https://gitbook.tw/articles) /同時也是 python & Ruby on Rails 開發者
-    - [Ant Yi-Feng Tzeng](https://www.facebook.com/yftzeng.tw)
     - 專案管理類
         - [游舒帆Gipi](https://www.facebook.com/gipi.net)
         - 91APP PM [Clement Tang](https://www.facebook.com/clementtang)
@@ -88,7 +87,8 @@
         - LINE Technical Evangelist [Evan Lin](https://www.facebook.com/EvansLin) /同時也是 GO 開發者
 
 - 早點註冊加入的網站
-    - github / 有一些公司會用 gitlab
+    - github / 有一些公司會用 gitlab 或 git bucket
+        - git 也早點學起來就對了
     - [stackoverflow](https://stackoverflow.com/)
     - linkedin
         - cakeresume 
