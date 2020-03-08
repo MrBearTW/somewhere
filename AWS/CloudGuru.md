@@ -499,6 +499,66 @@
             - There is unlimited storge.
             - Files are stored in Buckets.
             - S3 is a universal namespace. Tha is, names must be unique globally.
+            - Read after Write consistenct for PUTS of new Objects.
+            - Eventual Consistency for overwrite PUTS and DELETES (can take some time to propagate)
+        - S3 Storage Class / Tiers:
+            - S3 (durable耐用, immediately available, frequently accessed)
+            - S3-IA (durable, immediately available, infrequently accessed)
+            - S3-One Zone IA: Same as IA. However, data is stored in a single AZ only
+            - S3-Reduced Redundancy過多 Storge (data that is easily reproducible, such as thumbnails, etc.)
+            - Glacier-Archived data, where you can wait 3-5 hours before accessing
+        - Summary
+            - Rember the core fundamentals of an S3 object:
+                - Key (name)
+                - Value (data)
+                - Version ID
+                - Metadata
+                - Subresources (used to manage bucket-specific configuration)
+                    - Bucket policies, ACLs
+                    - CORS
+                    - Transfer Acceleration
+            - Object-based storage only (for files)
+            - Not suitable to install an operation system on
+            - Successful uploads will generate at HTTP 200 status code.
+            - By default, all newly created buckets are PRIVATE.
+            - Ypu can set up access control to your buckets using:
+                - Bucket Policies - Applied at bucket level.
+                - Access Control Lists - Applied at an oblect level.
+            - S3 buckets can be configured to create access logs, which log all requests made to the S3 bucket. These logs can be written to another bucket.
+            - Encryption In-Transit
+                - SSL/TLS
+            - Encryption At Rest
+                - Server Side Encryption
+                    - SSE-S3
+                    - SSE-LMS
+                    - SSE-C
+                - Client Side Encryption
+            - Rember that we can use a Bucket Policy to prevent unencrypted files from being uploaded by using creating a policy which only allows requests which include the x-amz-server-side-encryption parameter in the request header.
+            - Cross Origin Resource Sharing (CORS)
+                - Used to enable cross origin access for your AWS resources
+                - e.g. S3 hosted website accessing javascript or image file located in another S3 bucket
+                - By default resources in one bucket cannot access resources located in another
+                - To allow this we need to configure CORS on the bucket being accessed and enable access for the origin (bucket) attempting to access
+                - Always use the S3 website URL, not the regular bucket URL:
+                    - httpL//acloudguru.s3-website-eu-west-1.amazonaws.com (S3 website URL)
+                    - https://s3-eu-west-1.amazonaws.com/acloudguru (regular bucket URL)
+
+            - Edge Location - This is the location where content will be cached. This is separate to an AWS Region / AZ
+            - Origin - This is the origin of all the files that the CDN will distribute. Origins can be a S3 Bucket, an EC2 Instance, an Elastic Load Balancer, or Route53.
+            - Distribution - This is the name given the CDN, which consists of a collection of Edge Locations.
+                - Web Distribution - Typically used for Websites.
+                - RYMP - Used for Media Streaming.
+            - Edge locations are not just READ only - you can WRITE to them too. (i.e. put an object on to them.)
+            - Objects are cached for the life of the TTL (Time To Live.)
+            - You can clear cached objects, but you will be charged.(Invalidation無效)
+            - Remember the 2 main approaches to Performance Optimization for S3:
+                - GET-Intensive Workloads - Use CloudFront
+                - Mixed-Workloads-Avoid sequential key names for your S3 objects. Instead, add a random prefix like hex hash to the key name to prevent multiple objects from being stored on the same partiotion.
+            - Read the [S3 FAQ](https://aws.amazon.com/s3/faqs/)
+
+
+
+
 
 
 

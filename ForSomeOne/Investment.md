@@ -58,7 +58,8 @@
 
 - 不知該如何分類
     - [劉奕成](https://www.facebook.com/icheng.liu)
-
+    - 各種大神，大神也會錯，不過就找錯比較少的
+        - 
 - [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)
 - 美股
     - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)
