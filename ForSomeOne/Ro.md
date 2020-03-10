@@ -89,6 +89,7 @@
 - 早點註冊加入的網站
     - github / 有一些公司會用 gitlab 或 git bucket
         - git 也早點學起來就對了
+        - 社交功能 [新聞：唐鳳改一字](https://www.ettoday.net/news/20200309/1663340.htm) [案件現場](https://github.com/tokyo-metropolitan-gov/covid19/pull/827)
     - [stackoverflow](https://stackoverflow.com/)
     - linkedin
         - cakeresume 

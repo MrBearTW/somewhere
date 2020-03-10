@@ -39,7 +39,7 @@
         </ol>
         ```
 - 加入圖片
-    - <img src="" alt="寫在這裡可以讓聽障人士聽出這是什麼圖片" title="滑鼠移過去會顯示的字">
+    - <img src="圖片放置網址" alt="寫在這裡可以讓聽障人士聽出這是什麼圖片" title="滑鼠移過去會顯示的字">
         - 整組圖案
             ```html
             <figure>
@@ -47,4 +47,18 @@
                 <figcaption> 圖片標題 </figcaption>
             </figure>
             ```
+- 排版
+    - Block-level
+        - Headings (h1)
+        - Paragraphs (p)
+        - Lists and list items (ul, ol, li)
+        - Structuring elements (header, nav, section, article, aside, figure, footer)
+    - Inline
+        - Images (img)
+        - Emphasized text (em)
+        - Strong text (strong)
+        - Links (a)
+    - div & span
+        - Block-level: div 
+        - Inline elements: span
 - 
