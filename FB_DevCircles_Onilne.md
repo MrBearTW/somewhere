@@ -61,4 +61,63 @@
     - div & span
         - Block-level: div 
         - Inline elements: span
-- 
+    - 分割
+        - <br> 斷行
+        - <hr> 分隔線
+    - head 中該有的內容
+        - <title>顯示在瀏覽器 Tab 的文字</title>
+        - 小 LOGO
+        - <meta name = "" content = "" > 給搜尋引擎用的
+        - <>社交媒體用的 Facebook 或是 twitter 會節錄的標題文字圖片等
+        - CSS 和 Javascript 連結
+        - 文字格式
+- CSS 
+    - selector{property: value;}
+    - CSS 和 html 不同檔案時，要在 <head> 中引用
+        - <link href=“位置css/style.css” type=“text/css” rel=“stylesheet” /> 
+    - CSS 和 html 在同檔案時
+        - 在 <head> 中加入 <style type=“text/css”></style>
+    - CSS 也可以直接寫在元素中
+        - <h1 style="color: pink;">XXX</h1>
+    - 顏色
+    - 字形
+        - 可以設定第兩個字形當備用
+            - 
+        - 理論上免費的字形網站
+            - Font Squirrel: https://www.fontsquirrel.com/
+            - Google Fonts: https://fonts.google.com/
+            - Urban Fonts: https://www.urbanfonts.com/
+    - 字大小控制
+        - pixels
+        - em
+        - rem
+        - percentages
+        - 可以找換算表
+    - 行距和字距
+        spacing
+        - line-height
+        - letter-spacing
+        - word-spacing
+    - 字的調整
+        - text-decoration: line-through;
+        - text-transform: uppercase;
+        - 狀態
+            - 元素:visited
+            - 元素:hover
+            - 元素:active
+
+# Javascript
+- jsbin.com
+- Variable
+    - type
+- 歐美算錢記得 乘以 100
+- 文字只能用 + 串聯，用 - 會出現 NaN
+- class 是一個藍圖，object 是被製造出來的
+- 我們不一樣
+    - In JavaScript, primitive types like numbers, booleans, and strings are passed by value.
+    - This is not the case with objects and arrays, which are passed by reference. 
+- Array 操作
+    - length 算元素數量
+    - push 加到最後面
+    - pop 移除最後一個
+    - unshift 加在最前面

@@ -653,7 +653,7 @@
             - You can log results to CloudWatch
             - If you are using Javascript/AJAX that uses multiple domains with API Gateway, ensure that you have enabled CORS on API Gateway
             - CORS is enforced by the client
-        - 36. Build a Simple Serverless Website with Route 53, API Gateway, Lambda and S3
+    - 36. Build a Simple Serverless Website with Route 53, API Gateway, Lambda and S3
 
 
 
