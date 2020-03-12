@@ -15,6 +15,26 @@
     - udacity https://classroom.udacity.com/nanodegrees/nd288/syllabus/core-curriculum
     - Deeper Skills application form open March 2 - 13, 2020 for April 1, 2020 start.
 
+- ELIGIBILITY
+    - Web Development
+        - Successfully complete Foundational Skills track (track 1)
+        - Successfully complete the prerequisite courses on OpenClassrooms:
+            - Build your First Web Pages with HTML & CSS
+            - Learn Programming with Javascript
+            - Build Web Apps with ReactJS
+        - Complete Application Form.
+    - Data
+        - Successfully complete Foundational Skills track (track 1)
+        - Successfully complete any of the prerequisite courses (quizzes and/or tests) on DataCamp:
+            - Introduction to R
+            - Introduction to Python for Data Science
+            - Introduction to SQL for Data Science
+            - Complete Application Form. 
+    - Machine Learning
+        - Successfully complete Foundational Skills track (track 1)
+        - Successfully complete Introduction to Machine Learning course
+        - Complete Application Form. 
+        - CRITERIA FOR SELECTION
 # Front-End Web Developer / openclassrooms
 - CSS stands for Cascading Style Sheets.
 - https://codepen.io/

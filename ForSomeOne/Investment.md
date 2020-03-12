@@ -34,6 +34,7 @@
     - [財報狗](https://www.facebook.com/statementdog/)
     - [StockFeel 股感，來自生活](https://www.facebook.com/StockFeel.page/) 圖片精美
     - [綠角](https://www.facebook.com/GreenHornFans/)
+    - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2692820447495975?__xts__%5B0%5D=68.ARAvdw1M1S6mZG1litAolyvbDZcCXLQYwsvPkPfKaCRD7UQ6LE2B5xe3XnOoeVXZE6sEQGdA0fb2GseI7ZhwrrxzVnOw_wF32di0n-XPS0N-RyNDnk1IU-KWwBT0zrYdMAIkkOQGvv_UjfYuVLvr3Xf8iKjEdB-fvBGj_7yishPdRYXQP-Q3JaD8b-KN8Q7wMeOLQuBrWjJDsRO2DWvcfZXkVIzzB_Gu5hurd8XuAgwlc24oJ_UcT1KJ-i3wcdxc5C6GhoBRPUjAwQMve6wMRe9NgldFDGzGFFr3HSwBzwfCJqAparcHncinDq1xVMlFQdrHCEMfYefgBv_tSP7GwJ7zNtdM5ZtEquwLuudO2xBNc-iQBsM&__tn__=-R)
     - 經濟類的
         - 楊文宏‎ 宏觀國際經濟  [粉專](https://www.facebook.com/MacroEconomicAndGeopolitical/)  [社團](https://www.facebook.com/groups/147293452597272/?ref=group_header)
         - [IEObserve 國際經濟觀察](https://www.facebook.com/intleconobserve/)
