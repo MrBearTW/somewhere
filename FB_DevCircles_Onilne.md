@@ -127,7 +127,7 @@
             - 元素:active
 
 # Javascript
-- jsbin.com
+- [JSBin](jsbin.com)
 - Variable
     - type
 - 歐美算錢記得 乘以 100
@@ -141,3 +141,4 @@
     - push 加到最後面
     - pop 移除最後一個
     - unshift 加在最前面
+- switch 可以在最後面加一個 default
