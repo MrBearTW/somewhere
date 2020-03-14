@@ -37,9 +37,11 @@
     - [綠角](https://www.facebook.com/GreenHornFans/)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2692820447495975?__xts__%5B0%5D=68.ARAvdw1M1S6mZG1litAolyvbDZcCXLQYwsvPkPfKaCRD7UQ6LE2B5xe3XnOoeVXZE6sEQGdA0fb2GseI7ZhwrrxzVnOw_wF32di0n-XPS0N-RyNDnk1IU-KWwBT0zrYdMAIkkOQGvv_UjfYuVLvr3Xf8iKjEdB-fvBGj_7yishPdRYXQP-Q3JaD8b-KN8Q7wMeOLQuBrWjJDsRO2DWvcfZXkVIzzB_Gu5hurd8XuAgwlc24oJ_UcT1KJ-i3wcdxc5C6GhoBRPUjAwQMve6wMRe9NgldFDGzGFFr3HSwBzwfCJqAparcHncinDq1xVMlFQdrHCEMfYefgBv_tSP7GwJ7zNtdM5ZtEquwLuudO2xBNc-iQBsM&__tn__=-R)
     - 經濟類的
+        - 經濟這一件事情
         - 楊文宏‎ 宏觀國際經濟  [粉專](https://www.facebook.com/MacroEconomicAndGeopolitical/)  [社團](https://www.facebook.com/groups/147293452597272/?ref=group_header)
         - [IEObserve 國際經濟觀察](https://www.facebook.com/intleconobserve/)
         - [Joe's investment](https://www.facebook.com/joejoeyourmoney/)
+    - [銀行家尼莫](https://www.facebook.com/bankernemo/posts/1497461480427590?__xts__%5B0%5D=68.ARBsY51gy-aqXEW9gs_y1Mq1mdxrMJ8iIXRoCOZfZfUg8rnARwh_utUR_x4li_notPuBVJ9b1Cwmj1EYejpTiOmJXURkPX8BDahleWnBvC8QX22KmmbkShx-QiU9vWCNDlxZjS5Wdb3cobJsEp2QnvgCXziZF1w6OewmwT9MGT-sEGbpefPVWJXuEI5eY3GOERsQqA7qlelw0ylX0MF5aZ-9fRMHBq8BiVPh4C6VptqXbGNSkiatIViPERVqDaju7jGfe-9q0EDgzJ3Nk2cLfhboqGVRL8Nj1XHoUVqT_koMAU-GT28VqUlk9gmiYlZ1-93frv2qU14oscEWyQ1NqrqOPg&__tn__=-R)
     - 前公司相關
         - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
     - [報紙推薦的 Youtuber](https://money.udn.com/money/story/7794/4289421?fbclid=IwAR2FoA_dv5cGd2lgzF7XphJS9GXT_ojtsSSsvk29_ZqVxNw0UNKD88wVCII)
@@ -67,5 +69,6 @@
 - 美股
     - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2655795991198421?__xts__%5B0%5D=68.ARCCmqVz7F51pof4GyiZavGSifKanQ6mCRIS64viGvN1M50A-QwDOPCUcxF1RmlpkFmaqf1FsFFyCwkux8LLuldXvh0pWIy7j4DHf_MLo5e9HALLlq6oljWPla0cueXoHenNkrnO9XEAXt__AZYoH0vLcpKSnMFkbo3zsxt3M9il16bo3mpqupzhUuQY1ePDYudm_DZG8APpg0ubIEGi7RPcRBitH3caWAvTMLrUg6KCFU8ZBwp6h3YtastQwacwLYPbMlt-wY91220l49xHp0oZpJr4mGoBdX9-L3_YGF7MTSKzwE03nDZM_MPCbPElif_y41_gGY7Yak0o_wp1QIBmow&__tn__=-R)
+    - [貓的成長美股異想世界](https://www.facebook.com/CatonGrowthStocks/)
     - [美股隊長](https://www.facebook.com/usstockcap/photos/a.293479554193743/1185063261702030/?type=3&__xts__%5B0%5D=68.ARCig5i1AvW8ZZMonKYgRNyTGCZE1EpGLBLRgDot3UNbT4tURSJiEdZTG9d1QNYWtfNQec3QaSjqkIL5sTb2KrL0tTsICmOt5_Ukyb-4SUPhnpO1lD53_ITnbRGie8YxxiDL7IsP7Vcw69wf77suOpow3VfyZVvozcNL-_HF3rXU1-VODdsZIJmhYiwum1Mhn4vxXo-siNWa19VHwtDo-FapGPqCCIL1aIDcbOi8p6ivDeQCJPDbz4SXJjFRKM5YrG70NKXMK0G1sxVVv-9WK-hgINjEjtKI-grZBtsQmVDMu33IogTbGpomfJGculbljcGGtMrHZ4m4ftrYt-VJ-gDXb_Amr3umA08wOMPS8KV-QU1QfpOGjcre&__tn__=-R)
     - [冏冏子(冏星人)](https://www.facebook.com/shintaroReview/photos/a.194699507351581/1505302442957941/?type=3&__xts__%5B0%5D=68.ARDKrwrc9sWJTo5tozkXRpRaEL0YcpcW3znTfCqE2HZVyDjQpRREta1TbAkrcKXF-aJYLoTMf7p82UzqGc0VRAfuI3VrzCr57JZ9po-XaP2mPHcBz8RrhOsSxa0saonU85YZ-BZzF_RLUTE57slrtkdjmPimcfR-eOuo5cq-X_oAEFThqpB8Zf-gCn0_-WRS2Ej0bZYLyccqU3sxWOJcOvkft77dmzWvuYfXYbz5e__oRIYrheuu5yRWPyhPYCxUfbEi4Wk9zlSN3TkQxWCXtRCUQ06U0-KAy88YoRMQilBd0bOC8vTrVhv2kGauAYKye_C9CtDDlkw9iD6WQgBmGuTDbHfwfXAmVy1iGIuOdeNtJ0zL5qh8nw&__tn__=-R)
