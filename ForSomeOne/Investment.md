@@ -30,6 +30,11 @@
         - 常小賠但一次大賺，常小賺但一次大賠
     - 左和右，哪有這麼簡單
     - 衝浪
+    - 簡單的法則 [e.g.xdite](https://www.facebook.com/xdite/posts/10158290873003552)
+        - 然後去驗證
+    - 價值的選擇
+        - 匯率操縱 彭淮南 韓國 vs. 台灣
+    - 規則改變的時候
 
 - 不錯的粉絲頁
     - [財報狗](https://www.facebook.com/statementdog/)
@@ -54,6 +59,8 @@
 
 - 電影
     - 大賣空
+    - 華爾街之狼
+    - 
 
 - 講座這件事
     - [賣課程](https://www.facebook.com/NobleYenFansClub/posts/3525953050811997?__xts__%5B0%5D=68.ARDJvMN9kvEctoevPK4wgB0EwTTbtjEN6qC8hyp-mByyRKCsSjSEJ_iEgbSxM4ax9ihnOa5NaMwPVR_1zPvHemv4W31VuDlSumiSNNEm0EcbjctG0Ony-GrXNXsLMFmyXHopzywNdwnnLXQW5jpWUcm0IlXTVNLOpsG3vO861p3kKHqkF0Cy2TGJvcKzuhEOeliCjuswpWstwIqhqCuPSuB8O6bqL8v9DNKqDWIIw27mjgWV9U6putceBHmhq08kfQDF1oo3OjIBVBmgX6GrrD4Bc4Z3G_WAg1Phfh7Ma5D3NwHaUBKV7TjWNtQ9k-X2Gs8M5AiixTJzO2uzQZ-gSw&__tn__=-R)
@@ -64,7 +71,11 @@
 - 不知該如何分類
     - [劉奕成](https://www.facebook.com/icheng.liu)
     - 各種大神，大神也會錯，不過就找錯比較少的
-        - 
+        - [范疇](https://www.facebook.com/taibeijing)
+        - [財經網美 Emmy Hu](https://www.facebook.com/emmy.hu) / 超多人喜歡戰她
+        - [王立第二戰研所](https://www.facebook.com/eoiss.blog/) / 有人說這是打手槍幻想文
+        - [普通人的自由主義](https://www.facebook.com/freemarketfreepeople/)
+
 - [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)
 - 美股
     - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)

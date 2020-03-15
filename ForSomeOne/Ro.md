@@ -63,9 +63,9 @@
 
 - 一些大大
     - 學術界
-        - [臺大資工系教授洪士灝](https://www.facebook.com/shihhaohung) 分散式運算
         - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
             - [共筆 - 你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/)
+        - [臺大資工系教授洪士灝](https://www.facebook.com/shihhaohung/posts/3684234724952322) 分散式運算
     - 前端大大
         - Kuro
     - 微軟派
