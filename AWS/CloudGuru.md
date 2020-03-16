@@ -657,7 +657,8 @@
 
     - 37. Version Control With Lambda
         - Versioning
-            - When 
+            - When you use versioning in AWS Lambda, you can publish one or more version of you Lambda function. As a result, you can work with different variations of your Lambda function in your development workflow, such as development, beta, and production.
+            - Each Lambda function version has a unique Amazon Resource Name (ARN). After you publish a version, it is immutable (that is, it can't be change).
 
 
 

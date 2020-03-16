@@ -35,6 +35,11 @@
         - Successfully complete Introduction to Machine Learning course
         - Complete Application Form. 
         - CRITERIA FOR SELECTION
+        
+    - IMPORTANT DATES
+        - Application Timeline: February 28th - March 13th, 2020
+        - Deeper Skills successful applicants announcement/access granted - April 1st, 2020
+
 # Front-End Web Developer / openclassrooms
 - CSS stands for Cascading Style Sheets.
 - https://codepen.io/
