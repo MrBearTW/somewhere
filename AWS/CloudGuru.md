@@ -659,8 +659,14 @@
         - Versioning
             - When you use versioning in AWS Lambda, you can publish one or more version of you Lambda function. As a result, you can work with different variations of your Lambda function in your development workflow, such as development, beta, and production.
             - Each Lambda function version has a unique Amazon Resource Name (ARN). After you publish a version, it is immutable (that is, it can't be change).
-
-
+            - AWS Lambda maintains your latest function code in the $LATEST version. When you update your function code, AWS Lambda replaces the code in the $LATEST version of the Lambda function.
+        - Qualified / Unqalified ARNs
+            - You can refer to this function using its Amazon Resource Name(ARN). There are two ARNs associated with this initial version:
+            - Qualified ARN - The function ARN with the version suffix.
+                - arn:aw:lambda:aw-region:acct-id:function:helloword:$LATEST
+            - Uniqualified ARN - The function ARN without the version suffix.
+                - arn:aws:Llambda:aws-region:acct-id:function:helloworld
+                
 
             
 
