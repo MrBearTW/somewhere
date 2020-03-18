@@ -666,7 +666,25 @@
                 - arn:aw:lambda:aw-region:acct-id:function:helloword:$LATEST
             - Uniqualified ARN - The function ARN without the version suffix.
                 - arn:aws:Llambda:aws-region:acct-id:function:helloworld
-                
+
+    37. Version Control With Lambda
+
+    38. Make an Alexa Skill Lab
+
+    39. Step Functions
+
+    40. X-Ray
+
+    41. Advanced API Gateway
+
+    42. Guru Of The Week
+
+    43. Serverless Summary
+
+    測驗 4： Introduction to Serverless Computing
+
+    44. Learn More About Serverless
+
 
             
 
