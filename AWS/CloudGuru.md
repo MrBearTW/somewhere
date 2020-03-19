@@ -654,7 +654,7 @@
             - If you are using Javascript/AJAX that uses multiple domains with API Gateway, ensure that you have enabled CORS on API Gateway
             - CORS is enforced by the client
     - 36. Build a Simple Serverless Website with Route 53, API Gateway, Lambda and S3
-
+        做一個回傳名子的服務
     - 37. Version Control With Lambda
         - Versioning
             - When you use versioning in AWS Lambda, you can publish one or more version of you Lambda function. As a result, you can work with different variations of your Lambda function in your development workflow, such as development, beta, and production.
@@ -685,7 +685,45 @@
 
     44. Learn More About Serverless
 
+45. Introduction to DynamoDB
 
+
+46. Creating a DynamoDB Table Lab
+
+
+47. Indexes Deepdive
+
+
+48. Scan vs Query API Call
+
+
+49. DynamoDB Provisioned Throughput
+
+50. DynamoDB On Demand Capacity
+
+
+51. DynamoDB Accelerator (DAX)
+
+
+52. Elasticache
+
+
+53. DynamoDB Transactions
+
+
+54. DynamoDB TTL
+
+
+55. DynamoDB Streams
+
+
+56. Provisioned Throughput Exceeded & Exponential Backoff
+
+
+57. DynamoDB Summary
+
+
+測驗 5： DynamoDB Quiz
             
 
 
