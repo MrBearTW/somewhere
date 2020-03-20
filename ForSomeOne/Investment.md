@@ -76,6 +76,7 @@
         - [財經網美 Emmy Hu](https://www.facebook.com/emmy.hu) / 超多人喜歡戰她
         - [王立第二戰研所](https://www.facebook.com/eoiss.blog/) / 有人說這是打手槍幻想文
         - [普通人的自由主義](https://www.facebook.com/freemarketfreepeople/)
+        - [林宜敬](https://www.facebook.com/yijing1/posts/10157497072094495)
 
 - [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)
 - 美股

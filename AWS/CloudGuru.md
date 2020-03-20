@@ -668,11 +668,14 @@
                 - arn:aws:Llambda:aws-region:acct-id:function:helloworld
 
     37. Version Control With Lambda
-
+        - 可做版本控制
+        - 可以選比例分流做藍綠測試
+            - 不能選最新版當測試
     38. Make an Alexa Skill Lab
-
+        - 透過 Alexa 念出 polly 產生的語音檔
     39. Step Functions
-
+        - 視覺化為服務的關係
+            - 可以追蹤且紀錄時間
     40. X-Ray
 
     41. Advanced API Gateway
