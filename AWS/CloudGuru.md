@@ -677,56 +677,57 @@
         - 視覺化為服務的關係
             - 可以追蹤且紀錄時間
     40. X-Ray
-
+        - service  map
+        - 視覺化追蹤
     41. Advanced API Gateway
-
+        - API 可以 import by swagger
+        - API gateway 有每秒最大限制
     42. Guru Of The Week
-
+        - 每周一提的 professional 問題
     43. Serverless Summary
-
+        - 考試重點
     測驗 4： Introduction to Serverless Computing
 
     44. Learn More About Serverless
+        - 業配
+    45. Introduction to DynamoDB
+        - 有兩種 primary key
+        - 有兩種同步模式
+            - Strongly
+            - Eventually
+    46. Creating a DynamoDB Table Lab
+        - 實作，用 php 檔案建立一個 DynamoDB Table
+    47. Indexes Deepdive
+        - local secondary key
+        - global secondary key
+    48. Scan vs Query API Call
+        - scan 和 query 比較
+        - query 只能用 primary key
+        - scan 全部挖出來 ，query 通常比較有效率
+        - parallel scans
+    49. DynamoDB Provisioned Throughput
+        - read / write capacity 計算
+    50. DynamoDB On Demand Capacity
+        - 計費方式
+    51. DynamoDB Accelerator (DAX)
+        - in-memory caching
+    52. Elasticache
+        - between your application and DB
+    53. DynamoDB Transactions
+        - 
+    54. DynamoDB TTL
+        - epoch time
+        - 設定 session 過期時間
+    55. DynamoDB Streams
+        - Time-ordered
+        - DynamoDB Streams 和 DynamoDB 是各自獨立
+        - DynamoDB Streams 資料 24 hr 會被刪除
+    56. Provisioned Throughput Exceeded & Exponential Backoff
+        - 有使用 AWS SDK 會自動重複嘗試，沒有的話要另外做一些處理
+    57. DynamoDB Summary
+        - 
 
-45. Introduction to DynamoDB
-
-
-46. Creating a DynamoDB Table Lab
-
-
-47. Indexes Deepdive
-
-
-48. Scan vs Query API Call
-
-
-49. DynamoDB Provisioned Throughput
-
-50. DynamoDB On Demand Capacity
-
-
-51. DynamoDB Accelerator (DAX)
-
-
-52. Elasticache
-
-
-53. DynamoDB Transactions
-
-
-54. DynamoDB TTL
-
-
-55. DynamoDB Streams
-
-
-56. Provisioned Throughput Exceeded & Exponential Backoff
-
-
-57. DynamoDB Summary
-
-
-測驗 5： DynamoDB Quiz
+    測驗 5： DynamoDB Quiz
             
 
 
