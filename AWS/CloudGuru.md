@@ -728,9 +728,63 @@
         - 
 
     測驗 5： DynamoDB Quiz
-            
+        
+    第 7 節：KMS & Encryption on AWS
+
+    58. KMS 101
+        - Key management service
+        - 加解密 和 保管鑰匙 的人要分開
+    59. KMS API Calls
+        - 加密一個文件檔案
+        - key-rotation 每隔一年換一個 Key?
+    60. KMS Envelope Encryption
+        - Encrypted Data Key = Envelope Key
+    61. KMS Exam Tips
+        - CMK Customer Master Key
+    測驗 6： KMS Quiz
+
+    第 8 節：Other AWS Services
+
+62. SQS
 
 
+63. Simple Notification Service
+
+
+64. Mobile App
+
+
+65. SES vs SNS
+
+
+66. ElasticBeanstalk 101
+
+
+67. Deploying Applications Using ElasticBeanstalk
+
+
+68. Updating ElasticBeanstalk
+
+
+69. Advanced ElasticBeanstalk
+
+
+70. RDS & ElasticBeanstalk
+
+
+71. Kinesis 101
+
+
+72. Kinesis Lab
+
+
+73. Maker Labs
+
+
+74. Other AWS Services Summary
+
+
+測驗 7： Other AWS Services Quiz
 
 
 
