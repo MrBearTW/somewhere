@@ -36,6 +36,7 @@
         - 匯率操縱 彭淮南 韓國 vs. 台灣
     - 規則改變的時候
     - 什麼跌 什麼就會漲？ 這難道是巧合嗎？
+    - 會買的是徒弟，會賣的是師傅，會止損的是師爺
 
 - 不錯的粉絲頁
     - [財報狗](https://www.facebook.com/statementdog/)
@@ -70,14 +71,21 @@
 
 
 - 不知該如何分類
-    - [劉奕成](https://www.facebook.com/icheng.liu)
+    - 我喜歡他的文筆
+        - [劉奕成](https://www.facebook.com/icheng.liu)
+    - 入門
     - 各種大神，大神也會錯，不過就找錯比較少的
+        - [李伯鋒](https://www.facebook.com/buffettism)
         - [范疇](https://www.facebook.com/taibeijing)
         - [財經網美 Emmy Hu](https://www.facebook.com/emmy.hu) / 超多人喜歡戰她
         - [王立第二戰研所](https://www.facebook.com/eoiss.blog/) / 有人說這是打手槍幻想文
         - [普通人的自由主義](https://www.facebook.com/freemarketfreepeople/)
         - [林宜敬](https://www.facebook.com/yijing1/posts/10157497072094495)
-
+    - 這些蠻偏激比較偏向邏輯訓練
+        - [蔡森]
+    - 地獄反指標
+        - 
+        
 - [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)
 - 美股
     - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)

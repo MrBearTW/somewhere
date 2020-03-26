@@ -745,46 +745,34 @@
 
     第 8 節：Other AWS Services
 
-62. SQS
+    62. SQS
+        - Amazon Simple Queue Service (SQS)
+        
+    63. Simple Notification Service
 
+    64. Mobile App
 
-63. Simple Notification Service
+    65. SES vs SNS
 
+    66. ElasticBeanstalk 101
 
-64. Mobile App
+    67. Deploying Applications Using ElasticBeanstalk
 
+    68. Updating ElasticBeanstalk
 
-65. SES vs SNS
+    69. Advanced ElasticBeanstalk
 
+    70. RDS & ElasticBeanstalk
 
-66. ElasticBeanstalk 101
+    71. Kinesis 101
 
+    72. Kinesis Lab
 
-67. Deploying Applications Using ElasticBeanstalk
+    73. Maker Labs
 
+    74. Other AWS Services Summary
 
-68. Updating ElasticBeanstalk
-
-
-69. Advanced ElasticBeanstalk
-
-
-70. RDS & ElasticBeanstalk
-
-
-71. Kinesis 101
-
-
-72. Kinesis Lab
-
-
-73. Maker Labs
-
-
-74. Other AWS Services Summary
-
-
-測驗 7： Other AWS Services Quiz
+    測驗 7： Other AWS Services Quiz
 
 
 
