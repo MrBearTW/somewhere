@@ -747,9 +747,10 @@
 
     62. SQS
         - Amazon Simple Queue Service (SQS)
-        
+        - distributed queue system
+        - 收集 queue 等待 EC2 來工作
     63. Simple Notification Service
-
+        - 
     64. Mobile App
 
     65. SES vs SNS
