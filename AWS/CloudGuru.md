@@ -749,30 +749,53 @@
         - Amazon Simple Queue Service (SQS)
         - distributed queue system
         - 收集 queue 等待 EC2 來工作
+        - 兩種
+            - Standare queues
+            - FIFO queues
+        - pull-based (poll)
+        - Visibility
+            - defult 30 sec 
+            - Max 12 hr
     63. Simple Notification Service
-        - 
+        - Amazon SNS Simple Notification Service
+        - SNS Topics
+        - Push
+        - Pub / Sub
+        - Need subscribe
     64. Mobile App
-
-    65. SES vs SNS
-
+        - 業配
+    65. - Amazon SES Simple Email Service
+        - Email only
     66. ElasticBeanstalk 101
-
+        - Web  
+        - Code 丟進去就可以用了
     67. Deploying Applications Using ElasticBeanstalk
-
+        - 
     68. Updating ElasticBeanstalk
-
+        - Update 4 different way
+            - All at once
+            - Rolling Deployment Policy
+            - Rolling with additional batch policy
+            - Immutable Deployment policy
+        - 要有多個 ElasticBeanstalk 才看的到全部升級方式
     69. Advanced ElasticBeanstalk
-
+        - customize configuration
+        - YAML or JSON
     70. RDS & ElasticBeanstalk
-
+        - decouple RDS instance from EBS enviroment
     71. Kinesis 101
-
+        - 三個核心服務
+            - Streams
+                - Shard 碎片
+            - Firehose
+                - Lambda
+            - Analytic
     72. Kinesis Lab
-
+        - 從 CloudFormation 開始
     73. Maker Labs
-
+        - 入門 maker 影片
     74. Other AWS Services Summary
-
+        - 
     測驗 7： Other AWS Services Quiz
 
 
