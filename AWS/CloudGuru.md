@@ -827,9 +827,9 @@
             - Lambda: YAML and JSON
         - hooks
         - appspec.yaml
-            - 
             - scripts
-            - 
+            - Config
+            - Source
     80. CodeDeploy LifeCycle Event Hooks
         - Phase 1 2 3
             1. de-registering
@@ -845,42 +845,131 @@
         - 可整合各種第三方服務
         - Automated
     83. CodePipeline Lab
-        - 
+        - 全手動 到 CodePipeline
     84. Elastic Container Service
-    8 分鐘
-
+        - 12 factor
+        - 類似 K8S
+        - Fargate for serverless
+        - ECR Elastic Container Registry
+        - tag 很重要
     85. Docker and CodeBuild Lab Part 1
-    22 分鐘
-
+        - 在本機創建一個 Docker 推上 ECR
     86. Docker and CodeBuild Lab Part 2
-    9 分鐘
-
-    87. Docker and CodeBuild Lab Summary and Exam
-    Tips
-    2 分鐘
-
+        - 從 image 建立
+        - 權限可能設定不夠
+    87. Docker and CodeBuild Lab Summary and Exam Tips
+        - CodeBuild log in cloudwatch
     88. CloudFormation
-    11 分鐘
-
+        - CloudFormation is a service that allows you to manage, configure and provision your AWS infrastructure as code
+        - YAML or JSON
+        - stacks
+        - Tips
+            - Parameters
+            - Resources
+            - Condition
+            - Mappings
+            - Transforms
     89. CloudFormation Lab
-    11 分鐘
 
     90. Serverless Application Model (SAM)
-    3 分鐘
-
+        - SAM package
+        - SAM deploy
     91. CloudFormation & SAM Lab
-    10 分鐘
-
+        - 安裝 SAM CLI
+        - 用 CloudFormation & SAM 做出 Lambda
     92. CloudFormation Nested Stacks
-    3 分鐘
-
+        - 可以在 template 內用其他 template 的內容
     93. Developer Theory Summary
-    14 分鐘
+        - 
 
     測驗 8： Dev Theory Quiz
 
+    第 10 節：Advanced IAM
 
+    94. Web Identity Federation
+        - Amazon Cognito
+        - 登入
+    95. Cognito User Pools
+        - JSON Web Tokens JWTs
+        - Push Synchronization
+    96. Cognito Lab
+        - 在 Security 分類下
+    97. Inline Policies vs Managed Policies vs Custom Policies
+        1. Managed Policies / no edit
+        2. Customer Managed Policies
+        3. Inline Policies / in single user group or rule
+    98. STS AssumeRoleWithWebIdentity
+        - Security Token Service
+        - Cognito 之外的另一個選擇
+    99. Advanced IAM Summary
+        - 
+    測驗 9： Advanced IAM
 
+    100. Introduction To CloudWatch
+        - 基本
+            1. CPU
+            2. Network
+            3. Disk
+            4. Status Check
+            - 1 minute for detailed monitoring
+            - 5 minute for standard monitoring
+        - 要額外加的
+            - RAM
+    101. CloudWatch Lab
+        - 做數據出來看
+    102. CloudWatch Vs CloudTrail
+        - CloudTrail: monitor API calls
+        - Config: records the state of your AWS enviroment
+    測驗 10： Monitoring Quiz
 
+    第 12 節：Updates Based On Student Feedback
+    0 / 12|1 小時 20 分鐘
 
-                
+    103. Introduction
+        - 
+    104. SQS Delay Queues & Large Messages
+        - SQS Delay Queues
+            - 0~900 秒
+            - larage 
+        - Large Messages
+            - 256K ~ 2GB
+            - AWS SDK for JAVA
+            - 先存到 S3
+    105. AWS CLI Pagination
+        - time out
+    106. IAM Policy Simulator
+        - https://policysim.aws.amazon.com
+    107. Kinesis Shards & Consumers
+        - Use CPU Not shards number
+    108. Lambda Concurrent Executions
+        - 1000 per region
+        - HTTP status 429
+        - Reserved concurrency
+    109. Lambda Versions
+        - $LATEST
+        - Use Aliases
+    110. Lambda & VPC Access
+        - 在 Lambda 中加入 VPC 使 Lambda 可使用 EC2
+    111. X-Ray Configuration
+        - High-level requirement
+            - X-ray SDK
+            - X-ray daemon
+    112. Docker & Elastic Beanstalk
+        - 可以用 Beanstalk 來建立 docker
+    113. Additional Resources To Help You Pass For TheExam
+        - 哪一些 FAQ 要看
+            - https://aws.amazon.com/faq
+        - Whitepapers
+        - Video
+    114. Section Summary
+        - 
+
+    第 13 節：The End!!
+    0 / 3|3 分鐘
+
+    115. What to expect?
+        - 怎麼報名考試
+
+    練習測驗 1： Mega Quiz 1
+
+    練習測驗 2： Mega Quiz 2
