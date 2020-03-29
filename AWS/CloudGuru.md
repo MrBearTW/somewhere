@@ -798,7 +798,86 @@
         - 
     測驗 7： Other AWS Services Quiz
 
+    第 9 節：Developer Theory
+    75. What Is CI/CD
+        - Continuous Integration, Continuous Delivery / Deployment
+        - 四個工具
+            - CodeCommit
+            - CodeBuild
+            - CodeDeploy
+            - CodePipeline
+    76. CodeCommit 101
+        - Is a central code repository
+        - Version control
+    77. CodeCommit Lab
+        - 類似 github
+    78. CodeDeploy 101
+        - 兩種
+            - In-Place
+                - roll back is consuming
+            - Blue / Green
+                - Blue old / Green new
+                - cost twice
+                - support Lambda
+                - safest
+    79. Advanced CodeDeploy the AppSpec File
+        - COnfiguration File
+        - Structure
+            - EC2 and on-premises(本地) system: YAML only
+            - Lambda: YAML and JSON
+        - hooks
+        - appspec.yaml
+            - 
+            - scripts
+            - 
+    80. CodeDeploy LifeCycle Event Hooks
+        - Phase 1 2 3
+            1. de-registering
+            2. installation
+            3. re-registering
+        - BeforeBlockTraffic > BlockTraffic > AfterBlockTraffic
+        - ApplicationStop > DownloadBundle > BeforeInstall > Install >AfterInstall > ApplicationStart > ValidateService
+        - BeforeAllowTraffic > AllowTraffic > AfterAllowTraffic
+    81. CodeDeploy Lab
+        - 
+    82. CodePipeline 101
+        - Build, Test & Deployment
+        - 可整合各種第三方服務
+        - Automated
+    83. CodePipeline Lab
+        - 
+    84. Elastic Container Service
+    8 分鐘
 
+    85. Docker and CodeBuild Lab Part 1
+    22 分鐘
+
+    86. Docker and CodeBuild Lab Part 2
+    9 分鐘
+
+    87. Docker and CodeBuild Lab Summary and Exam
+    Tips
+    2 分鐘
+
+    88. CloudFormation
+    11 分鐘
+
+    89. CloudFormation Lab
+    11 分鐘
+
+    90. Serverless Application Model (SAM)
+    3 分鐘
+
+    91. CloudFormation & SAM Lab
+    10 分鐘
+
+    92. CloudFormation Nested Stacks
+    3 分鐘
+
+    93. Developer Theory Summary
+    14 分鐘
+
+    測驗 8： Dev Theory Quiz
 
 
 
