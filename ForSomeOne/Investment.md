@@ -9,6 +9,7 @@
     - 定期收錢
         - 富爸爸與窮爸爸
         - 現金流遊戲
+        - [國民年金](https://www.facebook.com/mohw.gov.tw/photos/a.484593545040402/1522567501242996/?type=3&__xts__%5B0%5D=68.ARAYl9IojS9uam2H6R1UrZpg4jdhnGT6BKsrtLIzvxQouPgN7iiclzugEUck98dNvCqeTMonVTAQrUeP1ACMDuG4MnojdJtcmfZxR-FSVUM5QLMlzELAM7uUSC1dWV-CkWyZZMvggZMCB02J5zNmk4h5RwiJ-6NKndgpGNTzNVrTJtP2lr81RTWwBJx4peOqJlrO8EVDizgsB1rCuVaa9DgGSsnBbAaxF5EAuwLq1pL-HyWiD-vZVMKkiIV9Vm-ZCOTNA4aJT01Je6-mWvjGBszej5BCQ77ydIPAzj_957VUi6_g15Pz5Bltz9IkrlQ3DCDz_kpBJ_03hyAsWfAkz2HYlA&__tn__=-R)
     - 收時間價值(這個比較難一點)
     - [投資 vs. 創業](https://www.facebook.com/mitterchiang/posts/10158307255228939)
 
@@ -19,6 +20,7 @@
     - 國際觀
         - 香港，新加坡
         - [Bloomberg](https://www.bloomberg.com/live/us)
+        - [國安基金](https://www.facebook.com/photo.php?fbid=10221773720547783&set=a.1820416905735&type=3)
     - 緩漲快跌
     - 房地產，房子是拿來住人的，房地產證券化
     - 晚上睡得著 vs. 一些焦躁的 LINE 群組
@@ -44,6 +46,7 @@
     - ETF
         - 0050 0056
         - [【ETF是第一季最大鬧劇】](https://www.facebook.com/mnAsia1/posts/10157886539355482)
+    
 
 - 不錯的粉絲頁
     - [財報狗](https://www.facebook.com/statementdog/)
@@ -81,6 +84,8 @@
     - 我喜歡他的文筆
         - [劉奕成](https://www.facebook.com/icheng.liu)
     - 入門
+        - [夏韻芬money+](https://www.facebook.com/%E5%A4%8F%E9%9F%BB%E8%8A%ACmoney-349400099530/)
+        - [艾蜜莉-自由之路](https://www.facebook.com/emily0806/)
     - 各種大神，大神也會錯，不過就找錯比較少的
         - [李伯鋒](https://www.facebook.com/buffettism)
         - [范疇](https://www.facebook.com/taibeijing)
