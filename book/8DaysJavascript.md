@@ -44,3 +44,32 @@
     - 物件型別 Object
         - ECMA 262 物件的定義：An object is a collection of properties and has a single prototype object.
         - 物件可以是零到多種屬性的集合，
+            - 屬性是 Key 和 Value 之間的關聯
+            - Value 可能是某個基本型別或另一個物件或一個函數
+        - 建立物件
+            - 舊 先new 再加屬性進去
+                - ```javascript
+                    var person = new object();
+                    person.name = 'Kuro'
+                    person.sayName = function(){
+                        alert(this.name);
+                    };
+            - 新 用大 {} 直接加入 = 物件實字 Object literal
+                - ```javascript
+                    var person = {
+                        name: 'Kuro';
+                        sayName: function(){
+                            alert(this.name);
+                        }
+                    };
+        - 物件屬性存取
+            - 用 .
+                - 處理包含 空白建 或 Key值是數字 會跳出 Exception
+                - ```javascript
+                    person.name;    //'Kuro'
+                    person.sayName();   //'Kuro'
+            - 用 []
+                - 可處理包含 空白建 或 Key值是數字
+                - ```javascript
+                    person["name"];    //'Kuro'
+                    person["sayName"]();   //'Kuro'
