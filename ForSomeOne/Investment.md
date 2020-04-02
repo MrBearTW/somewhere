@@ -17,6 +17,8 @@
     - 不正常的市場
         - 債券
             - 殖利率
+        - 保護消費者
+        - [退休計畫](https://www.facebook.com/libertarianguyguy/posts/2909422712430283)
     - 國際觀
         - 香港，新加坡
         - [Bloomberg](https://www.bloomberg.com/live/us)
@@ -43,6 +45,7 @@
         - 失業人很多，前景不好，股價應該要跌
             - 
                 - [美國金融日記 失業率創新高，美股卻漲爆了? 這要說說我川推出的 SBA超級貸款，簡單來說：借錢免還啦 (Debt Forgiveness)](https://www.facebook.com/FinanceAndGoodSociety/photos/a.124599779028767/151987456289999/?type=3&__xts__%5B0%5D=68.ARCRdoOqwEidmBQ8W2hK-LYQIj-8S6hz_40CNF0jwda_kukx4rd87xOP9vE7dwI6mLyWPIQxRRyS3hf_FvCjwvG6JviEbdB_Q7Uepj2X3R5JzldCr510BaFPdOD-Jd8izV0u0WyYyBJw6n0bHrSvGm519LY5Vyv7vNLENzF5xpekRWmhJeZBwDjWoClcFf1b9zm3MHzXgbUqe_d6JQi32tMWvm7UTBpay0qyxm5XkZntbgstdQ6oXL-5xT3ksCwyfrvIjS_1X8-1c_T6pTrxIJWF9TSCNH3Co1744BAxyfOocGz1hus5-dmjtGUP-WRZYlpzpK3tp0TJX62m3DsRd7c&__tn__=-R)
+                - 再下一周又翻倍
     - ETF
         - 0050 0056
         - [【ETF是第一季最大鬧劇】](https://www.facebook.com/mnAsia1/posts/10157886539355482)
