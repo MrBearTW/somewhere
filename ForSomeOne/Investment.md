@@ -45,7 +45,10 @@
         - 失業人很多，前景不好，股價應該要跌
             - 
                 - [美國金融日記 失業率創新高，美股卻漲爆了? 這要說說我川推出的 SBA超級貸款，簡單來說：借錢免還啦 (Debt Forgiveness)](https://www.facebook.com/FinanceAndGoodSociety/photos/a.124599779028767/151987456289999/?type=3&__xts__%5B0%5D=68.ARCRdoOqwEidmBQ8W2hK-LYQIj-8S6hz_40CNF0jwda_kukx4rd87xOP9vE7dwI6mLyWPIQxRRyS3hf_FvCjwvG6JviEbdB_Q7Uepj2X3R5JzldCr510BaFPdOD-Jd8izV0u0WyYyBJw6n0bHrSvGm519LY5Vyv7vNLENzF5xpekRWmhJeZBwDjWoClcFf1b9zm3MHzXgbUqe_d6JQi32tMWvm7UTBpay0qyxm5XkZntbgstdQ6oXL-5xT3ksCwyfrvIjS_1X8-1c_T6pTrxIJWF9TSCNH3Co1744BAxyfOocGz1hus5-dmjtGUP-WRZYlpzpK3tp0TJX62m3DsRd7c&__tn__=-R)
-                - 再下一周又翻倍
+                - [再下一周又翻倍](https://www.facebook.com/wzagdrz/videos/2520469344936314/)
+    - 風險投資
+        - [詹宏志：我太晚認知到資本的力量了！](https://www.inside.com.tw/article/13190-pchome-pk-shopee-2)
+        - [林宜敬 - 具有中國特色的社會主義煉金術](https://www.facebook.com/yijing1/posts/10157551818639495)
     - ETF
         - 0050 0056
         - [【ETF是第一季最大鬧劇】](https://www.facebook.com/mnAsia1/posts/10157886539355482)
@@ -56,6 +59,7 @@
     - [StockFeel 股感，來自生活](https://www.facebook.com/StockFeel.page/) 圖片精美
     - [綠角](https://www.facebook.com/GreenHornFans/)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2692820447495975?__xts__%5B0%5D=68.ARAvdw1M1S6mZG1litAolyvbDZcCXLQYwsvPkPfKaCRD7UQ6LE2B5xe3XnOoeVXZE6sEQGdA0fb2GseI7ZhwrrxzVnOw_wF32di0n-XPS0N-RyNDnk1IU-KWwBT0zrYdMAIkkOQGvv_UjfYuVLvr3Xf8iKjEdB-fvBGj_7yishPdRYXQP-Q3JaD8b-KN8Q7wMeOLQuBrWjJDsRO2DWvcfZXkVIzzB_Gu5hurd8XuAgwlc24oJ_UcT1KJ-i3wcdxc5C6GhoBRPUjAwQMve6wMRe9NgldFDGzGFFr3HSwBzwfCJqAparcHncinDq1xVMlFQdrHCEMfYefgBv_tSP7GwJ7zNtdM5ZtEquwLuudO2xBNc-iQBsM&__tn__=-R)
+    - [幣圖誌Bituzi](https://www.facebook.com/bituzi/)
     - 經濟類的
         - 經濟這一件事情
         - 楊文宏‎ 宏觀國際經濟  [粉專](https://www.facebook.com/MacroEconomicAndGeopolitical/)  [社團](https://www.facebook.com/groups/147293452597272/?ref=group_header)
@@ -65,9 +69,15 @@
     - 前公司相關
         - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
     - [報紙推薦的 Youtuber](https://money.udn.com/money/story/7794/4289421?fbclid=IwAR2FoA_dv5cGd2lgzF7XphJS9GXT_ojtsSSsvk29_ZqVxNw0UNKD88wVCII)
+    - 反指標
+        - 谷月涵，可惜已退休
+        - [謝金河]()
+        - [文茜的世界周報 Sisy's World News](https://www.facebook.com/SisyWorldNews/videos/330652910880203/)
 - 書
     - [綠角](https://search.books.com.tw/search/query/key/%E7%B6%A0%E8%A7%92/cat/all/adv_author/1)
     - [窮查理的普通常識](https://www.books.com.tw/products/0010817729)  [網路推薦文](https://medium.com/unorthodox-paranoid/reading-poor-charlies-almanack-289a341b39fa)
+    - 別人推薦的，有機會也想看一下
+        - [反脆弱](https://valuepartnersblog.com/2019/01/22/%e8%ae%80%e6%9b%b8%e5%bf%83%e5%be%97-%e5%8f%8d%e8%84%86%e5%bc%b1-%e5%be%9e%e6%b3%a2%e5%8b%95%e4%b8%ad%e7%8d%b2%e7%9b%8a/)
 
 - 線上課程
     - 沒上過先記錄一下[可汗學院的線上課程](https://www.khanacademy.org/economics-finance-domain/core-finance)
