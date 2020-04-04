@@ -15,6 +15,8 @@
     - udacity https://classroom.udacity.com/nanodegrees/nd288/syllabus/core-curriculum
     - Deeper Skills application form open March 2 - 13, 2020 for April 1, 2020 start.
 
+- [4月初 GG 沒入選](https://www.facebook.com/groups/1798336670201974/badge_member_list/?badge_type=ADMIN)
+
 - ELIGIBILITY
     - Web Development
         - Successfully complete Foundational Skills track (track 1)
