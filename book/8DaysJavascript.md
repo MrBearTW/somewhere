@@ -73,3 +73,11 @@
                 - ```javascript
                     person["name"];    //'Kuro'
                     person["sayName"]();   //'Kuro'
+        - 新增 & 刪除 屬性
+            - ```javascript
+                var obj = {};
+                obj.name = 'Kuro';
+                delete obj.name;
+                obj.name;   // undefined
+        - 判斷屬性是否存在
+            - in hasOwnProperty
