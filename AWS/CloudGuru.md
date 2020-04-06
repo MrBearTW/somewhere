@@ -976,3 +976,5 @@
 
 # Exam Tips
 # FQA
+EC2
+VPC

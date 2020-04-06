@@ -26,7 +26,7 @@
         - 有證照可以考
 
 - 實習
-    - 新芽
+    - [新芽](https://www.facebook.com/groups/616369245163622/permalink/1959521594181707/)
     - KKBOX
     - [Youator](https://www.yourator.co/companies/awoo/jobs/7166)
     - 別人的實習心得
