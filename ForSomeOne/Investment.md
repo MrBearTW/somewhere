@@ -68,6 +68,7 @@
     - [銀行家尼莫](https://www.facebook.com/bankernemo/posts/1497461480427590?__xts__%5B0%5D=68.ARBsY51gy-aqXEW9gs_y1Mq1mdxrMJ8iIXRoCOZfZfUg8rnARwh_utUR_x4li_notPuBVJ9b1Cwmj1EYejpTiOmJXURkPX8BDahleWnBvC8QX22KmmbkShx-QiU9vWCNDlxZjS5Wdb3cobJsEp2QnvgCXziZF1w6OewmwT9MGT-sEGbpefPVWJXuEI5eY3GOERsQqA7qlelw0ylX0MF5aZ-9fRMHBq8BiVPh4C6VptqXbGNSkiatIViPERVqDaju7jGfe-9q0EDgzJ3Nk2cLfhboqGVRL8Nj1XHoUVqT_koMAU-GT28VqUlk9gmiYlZ1-93frv2qU14oscEWyQ1NqrqOPg&__tn__=-R)
     - 前公司相關
         - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
+        - []
     - [報紙推薦的 Youtuber](https://money.udn.com/money/story/7794/4289421?fbclid=IwAR2FoA_dv5cGd2lgzF7XphJS9GXT_ojtsSSsvk29_ZqVxNw0UNKD88wVCII)
     - 反指標
         - 谷月涵，可惜已退休
@@ -107,9 +108,12 @@
         - [普通人的自由主義](https://www.facebook.com/freemarketfreepeople/)
         - [林宜敬](https://www.facebook.com/yijing1/posts/10157497072094495)
     - 這些蠻偏激比較偏向邏輯訓練
-        - [蔡森]
-    - 地獄反指標
+        - 技術分析 [蔡森](https://www.facebook.com/ts88888)
         - 
+    - 地獄反指標
+        - 谷月涵，可惜已退休
+        - [謝金河]()
+        - [文茜的世界周報 Sisy's World News](https://www.facebook.com/SisyWorldNews/videos/330652910880203/)
         
 - [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)
 - 美股
