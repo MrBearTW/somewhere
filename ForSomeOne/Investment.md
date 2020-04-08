@@ -19,9 +19,13 @@
             - 殖利率
         - 保護消費者
         - [退休計畫](https://www.facebook.com/libertarianguyguy/posts/2909422712430283)
+        - 出貨媒體
+            - 書
+            - 電視台
     - 國際觀
         - 香港，新加坡
         - [Bloomberg](https://www.bloomberg.com/live/us)
+            - [彭博商業周刊 / 中文版](https://www.facebook.com/bbwhk/) << 值得設定成搶先看
         - [國安基金](https://www.facebook.com/photo.php?fbid=10221773720547783&set=a.1820416905735&type=3)
     - 緩漲快跌
     - 房地產，房子是拿來住人的，房地產證券化
@@ -46,6 +50,7 @@
             - 
                 - [美國金融日記 失業率創新高，美股卻漲爆了? 這要說說我川推出的 SBA超級貸款，簡單來說：借錢免還啦 (Debt Forgiveness)](https://www.facebook.com/FinanceAndGoodSociety/photos/a.124599779028767/151987456289999/?type=3&__xts__%5B0%5D=68.ARCRdoOqwEidmBQ8W2hK-LYQIj-8S6hz_40CNF0jwda_kukx4rd87xOP9vE7dwI6mLyWPIQxRRyS3hf_FvCjwvG6JviEbdB_Q7Uepj2X3R5JzldCr510BaFPdOD-Jd8izV0u0WyYyBJw6n0bHrSvGm519LY5Vyv7vNLENzF5xpekRWmhJeZBwDjWoClcFf1b9zm3MHzXgbUqe_d6JQi32tMWvm7UTBpay0qyxm5XkZntbgstdQ6oXL-5xT3ksCwyfrvIjS_1X8-1c_T6pTrxIJWF9TSCNH3Co1744BAxyfOocGz1hus5-dmjtGUP-WRZYlpzpK3tp0TJX62m3DsRd7c&__tn__=-R)
                 - [再下一周又翻倍](https://www.facebook.com/wzagdrz/videos/2520469344936314/)
+        - [未平倉範例](https://www.stockpro.tw/2019/10/option-indicator-1.html)
     - 風險投資
         - [詹宏志：我太晚認知到資本的力量了！](https://www.inside.com.tw/article/13190-pchome-pk-shopee-2)
         - [林宜敬 - 具有中國特色的社會主義煉金術](https://www.facebook.com/yijing1/posts/10157551818639495)
@@ -59,6 +64,7 @@
     - [StockFeel 股感，來自生活](https://www.facebook.com/StockFeel.page/) 圖片精美
     - [綠角](https://www.facebook.com/GreenHornFans/)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2692820447495975?__xts__%5B0%5D=68.ARAvdw1M1S6mZG1litAolyvbDZcCXLQYwsvPkPfKaCRD7UQ6LE2B5xe3XnOoeVXZE6sEQGdA0fb2GseI7ZhwrrxzVnOw_wF32di0n-XPS0N-RyNDnk1IU-KWwBT0zrYdMAIkkOQGvv_UjfYuVLvr3Xf8iKjEdB-fvBGj_7yishPdRYXQP-Q3JaD8b-KN8Q7wMeOLQuBrWjJDsRO2DWvcfZXkVIzzB_Gu5hurd8XuAgwlc24oJ_UcT1KJ-i3wcdxc5C6GhoBRPUjAwQMve6wMRe9NgldFDGzGFFr3HSwBzwfCJqAparcHncinDq1xVMlFQdrHCEMfYefgBv_tSP7GwJ7zNtdM5ZtEquwLuudO2xBNc-iQBsM&__tn__=-R)
+    - [MacroMicro 財經M平方](https://www.facebook.com/macromicro.me/)
     - [幣圖誌Bituzi](https://www.facebook.com/bituzi/)
     - 經濟類的
         - 經濟這一件事情
@@ -71,7 +77,7 @@
         - []
     - [報紙推薦的 Youtuber](https://money.udn.com/money/story/7794/4289421?fbclid=IwAR2FoA_dv5cGd2lgzF7XphJS9GXT_ojtsSSsvk29_ZqVxNw0UNKD88wVCII)
     - 反指標
-        - 谷月涵，可惜已退休
+        - 谷月涵，可惜已退休 [疫情四月初發言](https://ec.ltn.com.tw/article/breakingnews/3126989)
         - [謝金河]()
         - [文茜的世界周報 Sisy's World News](https://www.facebook.com/SisyWorldNews/videos/330652910880203/)
 - 書
@@ -99,6 +105,7 @@
         - [劉奕成](https://www.facebook.com/icheng.liu)
     - 入門
         - [夏韻芬money+](https://www.facebook.com/%E5%A4%8F%E9%9F%BB%E8%8A%ACmoney-349400099530/)
+        - [夏韻芬的理財生活通](https://www.facebook.com/20070101money/)
         - [艾蜜莉-自由之路](https://www.facebook.com/emily0806/)
     - 各種大神，大神也會錯，不過就找錯比較少的
         - [李伯鋒](https://www.facebook.com/buffettism)
@@ -107,12 +114,14 @@
         - [王立第二戰研所](https://www.facebook.com/eoiss.blog/) / 有人說這是打手槍幻想文
         - [普通人的自由主義](https://www.facebook.com/freemarketfreepeople/)
         - [林宜敬](https://www.facebook.com/yijing1/posts/10157497072094495)
-    - 這些蠻偏激比較偏向邏輯訓練
+        - [Miula的M觀點](https://www.facebook.com/miulaperspective/)
+    - 這些蠻偏頗的比較偏向邏輯訓練
         - 技術分析 [蔡森](https://www.facebook.com/ts88888)
-        - 
+        - [自稱右派但粉專一直改名的一個粉專](https://www.facebook.com/%E5%B7%B4%E6%96%AF%E5%A4%8F%E7%9A%84%E8%A0%9F%E7%87%AD%E5%B7%A5%E5%9D%8A-329896911051695/)
+        - 堅持台灣被地主統治的粉專[峰言峰語](https://www.facebook.com/mapleduh0703/)
     - 地獄反指標
         - 谷月涵，可惜已退休
-        - [謝金河]()
+        - [謝金河](https://www.facebook.com/profile.php?id=100002304327218)
         - [文茜的世界周報 Sisy's World News](https://www.facebook.com/SisyWorldNews/videos/330652910880203/)
         
 - [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)
@@ -120,5 +129,6 @@
     - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2655795991198421?__xts__%5B0%5D=68.ARCCmqVz7F51pof4GyiZavGSifKanQ6mCRIS64viGvN1M50A-QwDOPCUcxF1RmlpkFmaqf1FsFFyCwkux8LLuldXvh0pWIy7j4DHf_MLo5e9HALLlq6oljWPla0cueXoHenNkrnO9XEAXt__AZYoH0vLcpKSnMFkbo3zsxt3M9il16bo3mpqupzhUuQY1ePDYudm_DZG8APpg0ubIEGi7RPcRBitH3caWAvTMLrUg6KCFU8ZBwp6h3YtastQwacwLYPbMlt-wY91220l49xHp0oZpJr4mGoBdX9-L3_YGF7MTSKzwE03nDZM_MPCbPElif_y41_gGY7Yak0o_wp1QIBmow&__tn__=-R)
     - [貓的成長美股異想世界](https://www.facebook.com/CatonGrowthStocks/)
+    - [美國金融日記](https://www.facebook.com/FinanceAndGoodSociety/)
     - [美股隊長](https://www.facebook.com/usstockcap/photos/a.293479554193743/1185063261702030/?type=3&__xts__%5B0%5D=68.ARCig5i1AvW8ZZMonKYgRNyTGCZE1EpGLBLRgDot3UNbT4tURSJiEdZTG9d1QNYWtfNQec3QaSjqkIL5sTb2KrL0tTsICmOt5_Ukyb-4SUPhnpO1lD53_ITnbRGie8YxxiDL7IsP7Vcw69wf77suOpow3VfyZVvozcNL-_HF3rXU1-VODdsZIJmhYiwum1Mhn4vxXo-siNWa19VHwtDo-FapGPqCCIL1aIDcbOi8p6ivDeQCJPDbz4SXJjFRKM5YrG70NKXMK0G1sxVVv-9WK-hgINjEjtKI-grZBtsQmVDMu33IogTbGpomfJGculbljcGGtMrHZ4m4ftrYt-VJ-gDXb_Amr3umA08wOMPS8KV-QU1QfpOGjcre&__tn__=-R)
     - [冏冏子(冏星人)](https://www.facebook.com/shintaroReview/photos/a.194699507351581/1505302442957941/?type=3&__xts__%5B0%5D=68.ARDKrwrc9sWJTo5tozkXRpRaEL0YcpcW3znTfCqE2HZVyDjQpRREta1TbAkrcKXF-aJYLoTMf7p82UzqGc0VRAfuI3VrzCr57JZ9po-XaP2mPHcBz8RrhOsSxa0saonU85YZ-BZzF_RLUTE57slrtkdjmPimcfR-eOuo5cq-X_oAEFThqpB8Zf-gCn0_-WRS2Ej0bZYLyccqU3sxWOJcOvkft77dmzWvuYfXYbz5e__oRIYrheuu5yRWPyhPYCxUfbEi4Wk9zlSN3TkQxWCXtRCUQ06U0-KAy88YoRMQilBd0bOC8vTrVhv2kGauAYKye_C9CtDDlkw9iD6WQgBmGuTDbHfwfXAmVy1iGIuOdeNtJ0zL5qh8nw&__tn__=-R)
