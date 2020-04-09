@@ -114,6 +114,7 @@
         - [王立第二戰研所](https://www.facebook.com/eoiss.blog/) / 有人說這是打手槍幻想文
         - [普通人的自由主義](https://www.facebook.com/freemarketfreepeople/)
         - [林宜敬](https://www.facebook.com/yijing1/posts/10157497072094495)
+        - [李忠孝](https://www.facebook.com/SmartLCH/)
         - [Miula的M觀點](https://www.facebook.com/miulaperspective/)
     - 這些蠻偏頗的比較偏向邏輯訓練
         - 技術分析 [蔡森](https://www.facebook.com/ts88888)
