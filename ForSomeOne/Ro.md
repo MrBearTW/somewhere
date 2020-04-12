@@ -12,7 +12,7 @@
             - [粉專](https://www.facebook.com/wwcodetaipei/)
         - [R-Ladies Taipei](https://www.meetup.com/rladies-taipei/)   
         - [Girls in Tech - Taiwan](https://www.facebook.com/girlsintechtaiwan/posts/1266188420246880)
-    - 創業[李婷婷](https://crossing.cw.com.tw/article/11793)
+    - 被 PTT 噓爆 創業[李婷婷](https://crossing.cw.com.tw/article/11793)
     - Pinkoi後端工程師[Mosky劉依語](https://medium.com/starrocket/https-medium-com-starrocket-interview-with-mosky-e7c18b54545)
 
 - 刷題網站
@@ -38,7 +38,7 @@
     - [Google Technical Writing Courses 教學](https://developers.google.com/tech-writing)
     - [2020 iT邦幫忙鐵人賽 30 天的發文挑戰](https://ithelp.ithome.com.tw/2020ironman/rules)
     - [第 01 屆開發者寫作松 Coder Blogathon【連續七天寫作挑戰，解放你的技術創作力】](https://www.accupass.com/event/2001190943344186137000)
-
+    - [Apple 對 CONVID-19 提出的文件](https://www.apple.com/covid19/contacttracing/)
 - 作品集
     - The F2E
 

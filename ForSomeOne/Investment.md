@@ -60,13 +60,15 @@
     
 
 - 不錯的粉絲頁
-    - [財報狗](https://www.facebook.com/statementdog/)
+    - [財報狗](https://www.facebook.com/statementdog/) [Marketing Manager 林威宇](https://www.facebook.com/uyiewnil)
     - [StockFeel 股感，來自生活](https://www.facebook.com/StockFeel.page/) 圖片精美
     - [綠角](https://www.facebook.com/GreenHornFans/)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2692820447495975?__xts__%5B0%5D=68.ARAvdw1M1S6mZG1litAolyvbDZcCXLQYwsvPkPfKaCRD7UQ6LE2B5xe3XnOoeVXZE6sEQGdA0fb2GseI7ZhwrrxzVnOw_wF32di0n-XPS0N-RyNDnk1IU-KWwBT0zrYdMAIkkOQGvv_UjfYuVLvr3Xf8iKjEdB-fvBGj_7yishPdRYXQP-Q3JaD8b-KN8Q7wMeOLQuBrWjJDsRO2DWvcfZXkVIzzB_Gu5hurd8XuAgwlc24oJ_UcT1KJ-i3wcdxc5C6GhoBRPUjAwQMve6wMRe9NgldFDGzGFFr3HSwBzwfCJqAparcHncinDq1xVMlFQdrHCEMfYefgBv_tSP7GwJ7zNtdM5ZtEquwLuudO2xBNc-iQBsM&__tn__=-R)
     - [MacroMicro 財經M平方](https://www.facebook.com/macromicro.me/)
     - 產業分析 [寫點科普，請給指教。](https://www.facebook.com/kopuchat/)
     - 個股分析 [Thomas Lee' Sharings](https://www.facebook.com/kopuchat/)
+    - [王伯達觀點](https://www.facebook.com/potawang/)
+    - [雷浩斯價值投資網](https://www.facebook.com/redhousei/)
     - [幣圖誌Bituzi](https://www.facebook.com/bituzi/)
     - 經濟類的
         - 經濟這一件事情
@@ -77,6 +79,9 @@
     - 前公司相關
         - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
         - []
+    - 世新
+        - [梁彥平 專欄](https://money.udn.com/author/articles/119)
+        - [陳唯泰-跟著我擇機入市](https://www.facebook.com/ted24888/)
     - [報紙推薦的 Youtuber](https://money.udn.com/money/story/7794/4289421?fbclid=IwAR2FoA_dv5cGd2lgzF7XphJS9GXT_ojtsSSsvk29_ZqVxNw0UNKD88wVCII)
     - 反指標
         - 谷月涵，可惜已退休 [疫情四月初發言](https://ec.ltn.com.tw/article/breakingnews/3126989)
