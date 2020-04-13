@@ -976,5 +976,6 @@
 
 # Exam Tips
 # FQA
-EC2
-VPC
+- EC2
+    - 找架構圖範例
+- VPC

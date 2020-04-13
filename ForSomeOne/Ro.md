@@ -38,7 +38,7 @@
     - [Google Technical Writing Courses 教學](https://developers.google.com/tech-writing)
     - [2020 iT邦幫忙鐵人賽 30 天的發文挑戰](https://ithelp.ithome.com.tw/2020ironman/rules)
     - [第 01 屆開發者寫作松 Coder Blogathon【連續七天寫作挑戰，解放你的技術創作力】](https://www.accupass.com/event/2001190943344186137000)
-    - [Apple 對 CONVID-19 提出的文件](https://www.apple.com/covid19/contacttracing/)
+    - [Apple 和 Google 對 CONVID-19 提出的文件](https://www.ernestchiang.com/zh/posts/2020/2020-04-11-covid-19-contact-tracing-technology/)
 - 作品集
     - The F2E
 
@@ -63,12 +63,15 @@
 
 - 一些大大
     - 學術界
-        - [Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
+        - [成大 Jserv與他愉快的小夥伴](https://www.facebook.com/JservFans/)
             - [共筆 - 你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/)
-        - [臺大資工系教授洪士灝](https://www.facebook.com/shihhaohung/posts/3684234724952322) 分散式運算
+        - [臺大 資工系教授洪士灝](https://www.facebook.com/shihhaohung/posts/3684234724952322) 分散式運算
             - [【洪士灝觀點】悅讀程式：自學軟體開發的第一步](https://www.ithome.com.tw/guest-post/99887?fbclid=IwAR14X5zgaL0LUe3oPaW0W2wKdxH06CpQVzGnj0zzmn0fFgkHtJOHhUiuReo)
+        - [中研院 陳昇瑋](https://www.facebook.com/swchen11)
+            - 有出書 [人工智慧在台灣：產業轉型的契機與挑戰](https://www.books.com.tw/products/0010821934?sloc=main)
+            - [悼！台灣人工智慧學校執行長陳昇瑋辭世](https://aiacademy.tw/tribute-to-swchen/)
     - 前端大大
-        - Kuro
+        - Kuro 有出書 [0 陷阱！0 誤解！8 天重新認識 JavaScript！（iT邦幫忙鐵人賽系列書 - 02）](https://www.books.com.tw/products/0010832387)
     - 微軟派
         - [保哥](https://www.facebook.com/will.fans)
         - [安德魯的部落格](https://columns.chicken-house.net/2018/12/12/microservice11-lineup/)

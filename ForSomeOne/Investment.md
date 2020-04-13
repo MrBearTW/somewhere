@@ -1,6 +1,7 @@
 1. 存夠6個月的生活費
 2. 除了儲蓄險之外的，[保險](https://www.facebook.com/329896911051695/photos/a.358878471486872/510654386309279/?type=3&__xts__%5B0%5D=68.ARBuyMOo1kILUtABl2KfLzx67nHlTwqcSiJ6dwyP3JiNgTZKZceVqiCqYJLY4SF57zfBaaxd_bcwWGSlmHR0AqwVN06Nya4FAHimNRcpoq3mSZETahTWn1NkcQeVrjXDxwtSpZFqJP3Jjx6jub_fdk5IhZ11IuzpMAYRq1VlGfXzKmrlwj0jeW7sNj8sfUtauglPZlJHU6XymsMgH-guK8eTsuyXV1uogMkZ5lD-qM_PAIWaDcKaMwn6Z4BACWLwS7s-SRfPVMkaejSl1t2tKb3UNa_2QMnvQzSzeF2DQBtNz2R_dUVF63SuKvzGbfYt1S2AzjPRJKqdgspfVOtG81kc0y18T3FC6c5zHOQGf_O7x5hCCDC9qQ&__tn__=-R)買一買
 3. 年金 勞保 勞退 健保
+4. 自己要住的房貸
 
 
 - 事實 與 觀點

@@ -81,3 +81,5 @@
                 obj.name;   // undefined
         - 判斷屬性是否存在
             - in hasOwnProperty
+    - 陣列
+        - 同一個陣列可以多種資料型態
