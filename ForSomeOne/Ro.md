@@ -108,7 +108,9 @@
     - 各種信仰戰爭
         - 編輯器，空白建 VS. tab
     - 各種鄙視鏈
-    - 大O是什麼 / 時間複雜度
+    - 演算法題目
+        - 大O是什麼 / 時間複雜度
+        - 排序
     - 黑客松
     - markdown可以學一下
     - 電玩 / 博奕
@@ -116,3 +118,8 @@
 - UIUX 人機互動
     - [翁翁](https://chunhaoweng.com/)
     - 蘇小妹
+    - [嫁給RD 的UI Designer](https://blog.akanelee.me/)  [Akane Lee](https://www.facebook.com/uiux.akane/)
+    - [As A Product Designer](https://medium.com/as-a-product-designer)
+    - 書單
+        - 
+        - 
