@@ -120,6 +120,11 @@
     - 蘇小妹
     - [嫁給RD 的UI Designer](https://blog.akanelee.me/)  [Akane Lee](https://www.facebook.com/uiux.akane/)
     - [As A Product Designer](https://medium.com/as-a-product-designer)
-    - 書單
-        - 
-        - 
+        - 之中有一篇 [Google 的 UX Engineer（ 使用者經驗工程師 ）在做什麼？如何成為 UX Engineer？](https://medium.com/as-a-product-designer/google-%E7%9A%84-ux-engineer-%E4%BD%BF%E7%94%A8%E8%80%85%E7%B6%93%E9%A9%97%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E5%9C%A8%E5%81%9A%E4%BB%80%E9%BA%BC-%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA-ux-engineer-96ef9e992263)
+    - Google ux 入門書 找到的相關資源
+        - [UI/UX入門書單分享（一）](https://medium.com/@wenchien0213/ui-ux%E5%85%A5%E9%96%80%E6%9B%B8%E5%96%AE%E5%88%86%E4%BA%AB-%E4%B8%80-86899d7726c2)
+        - [2018年書櫃上該有的新手 UX 設計推薦書單](https://medium.com/monospace-tw/2018%E5%B9%B4%E6%9B%B8%E6%AB%83%E4%B8%8A%E8%A9%B2%E6%9C%89%E7%9A%84-ux-%E6%96%B0%E6%89%8B%E8%A8%AD%E8%A8%88%E6%8E%A8%E8%96%A6%E6%9B%B8%E5%96%AE-9e81f0001422)
+        - [從 0 開始的 UI/UX 設計推薦書單](https://blog.akanelee.me/2017/02/10/uiux-design-booklist/)
+        - [給新手自學UX設計師的「必讀書單、線上課程」學習資源推薦](http://www.yvonhuang.com/blog/ux-learning-resource)
+    - [美勞哥](https://www.facebook.com/evenwu)
+        - [吳姓網友福利社 = 勞推薦 🉑️ 嚴選福利社](https://www.facebook.com/groups/netizenwu.fostore/)

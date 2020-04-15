@@ -48,10 +48,11 @@
     - 會買的是徒弟，會賣的是師傅，會止損的是師爺
     - 推理上
         - 失業人很多，前景不好，股價應該要跌
-            - 
+            - But
                 - [美國金融日記 失業率創新高，美股卻漲爆了? 這要說說我川推出的 SBA超級貸款，簡單來說：借錢免還啦 (Debt Forgiveness)](https://www.facebook.com/FinanceAndGoodSociety/photos/a.124599779028767/151987456289999/?type=3&__xts__%5B0%5D=68.ARCRdoOqwEidmBQ8W2hK-LYQIj-8S6hz_40CNF0jwda_kukx4rd87xOP9vE7dwI6mLyWPIQxRRyS3hf_FvCjwvG6JviEbdB_Q7Uepj2X3R5JzldCr510BaFPdOD-Jd8izV0u0WyYyBJw6n0bHrSvGm519LY5Vyv7vNLENzF5xpekRWmhJeZBwDjWoClcFf1b9zm3MHzXgbUqe_d6JQi32tMWvm7UTBpay0qyxm5XkZntbgstdQ6oXL-5xT3ksCwyfrvIjS_1X8-1c_T6pTrxIJWF9TSCNH3Co1744BAxyfOocGz1hus5-dmjtGUP-WRZYlpzpK3tp0TJX62m3DsRd7c&__tn__=-R)
                 - [再下一周又翻倍](https://www.facebook.com/wzagdrz/videos/2520469344936314/)
         - [未平倉範例](https://www.stockpro.tw/2019/10/option-indicator-1.html)
+        - [未平倉範例 2](https://www.facebook.com/huangdazo/photos/a.1392248191006168/2713007192263588/?type=3&__xts__%5B0%5D=68.ARDlx2MdwsZV5b4_jfi0t1dbyjalbOHOZzSaD70N0D_r92WFf3Ebf5Tf1-cTuPSdzG8DGuDnAYwSbEm6JAaZF7UFNhjcFvv1FD0jYtyNfsLVGlhWOWe8EzngDr8QCVJQ8uZP42Gaz5R9f3KOAPn7ANA5_2zMCDpiCobosArmE2akEkreetcLL3gq700iERlUMXPSURi0-F3en85nyEjNVqeIM6DuRnDUUCzlw0_8ACnRSU71RWck40TeHFnccMJ36zqgFuBjYrmuqSyqqJtVEaf4AhLBwvvEbhpA5hElUCB0ckF0CFgAKvCS6CqBqe6D8tfo8iXoiu3C0vti8rme6wcrOySy4acy40ZDHsIh9D91FPjJaO3pudIo-W8&__tn__=-R)
     - 風險投資
         - [詹宏志：我太晚認知到資本的力量了！](https://www.inside.com.tw/article/13190-pchome-pk-shopee-2)
         - [林宜敬 - 具有中國特色的社會主義煉金術](https://www.facebook.com/yijing1/posts/10157551818639495)
