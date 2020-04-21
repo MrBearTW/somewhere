@@ -71,6 +71,7 @@
     - 個股分析 [Thomas Lee' Sharings](https://www.facebook.com/kopuchat/)
     - [王伯達觀點](https://www.facebook.com/potawang/)
     - [雷浩斯價值投資網](https://www.facebook.com/redhousei/)
+    - [怪老子理財](https://www.facebook.com/masterhsiao/)
     - [幣圖誌Bituzi](https://www.facebook.com/bituzi/)
     - 經濟類的
         - 經濟這一件事情
