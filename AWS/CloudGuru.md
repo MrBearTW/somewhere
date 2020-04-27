@@ -950,6 +950,12 @@
         - Use Aliases
     110. Lambda & VPC Access
         - 在 Lambda 中加入 VPC 使 Lambda 可使用 EC2
+        - Exam Tips
+            - It is possible to enable Lambda to access resources which are inside a private VPC
+            - Provide VPC config to the function - Private subnet ID, security group ID.
+            - Lanbda uses the VPC information to set up ENIs using an IP from the private subnet CIDR range.
+            - The security group then allows your function to access resources in VPC.
+            
     111. X-Ray Configuration
         - High-level requirement
             - X-ray SDK
@@ -979,3 +985,12 @@
 - EC2
     - 找架構圖範例
 - VPC
+    - Private VPC
+        - Security Group
+        - Private Subnet
+    - 權限不足要多開這三個
+        - ec2:CreateNetworkInterface
+        - ec2:DeleteNetworkInterface
+        - ec2:DescribeNetworkInterfaces
+- 14 Route 53 
+- 110 VPC
