@@ -15,6 +15,8 @@
         - 不同選擇可能會有更多選項
     - `Add commit` 加上註解
     - 送出之後會送到主管那邊
+- 刪除請假 `delete`
+    - 選要刪哪一個請假
 - 進入編輯`editpunch` 會跳出一個連結，點進去會到一個網頁，可以做一些編輯
 - 一次性設定權限(同步狀態=出現上班勾勾)
     1. 未設定過的在in之後會跳出`Looks like I don't have the permission to update your Slack status.Click here to grant me this permission.`

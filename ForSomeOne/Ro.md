@@ -118,6 +118,7 @@
 - UIUX 人機互動
     - [翁翁](https://chunhaoweng.com/)
     - 蘇小妹
+    - [Paul Li Yahoo 擔任 Front End Engineer](https://www.facebook.com/mei.studio.li)
     - [嫁給RD 的UI Designer](https://blog.akanelee.me/)  [Akane Lee](https://www.facebook.com/uiux.akane/)
     - [As A Product Designer](https://medium.com/as-a-product-designer)
         - 之中有一篇 [Google 的 UX Engineer（ 使用者經驗工程師 ）在做什麼？如何成為 UX Engineer？](https://medium.com/as-a-product-designer/google-%E7%9A%84-ux-engineer-%E4%BD%BF%E7%94%A8%E8%80%85%E7%B6%93%E9%A9%97%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E5%9C%A8%E5%81%9A%E4%BB%80%E9%BA%BC-%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA-ux-engineer-96ef9e992263)

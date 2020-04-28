@@ -955,7 +955,7 @@
             - Provide VPC config to the function - Private subnet ID, security group ID.
             - Lanbda uses the VPC information to set up ENIs using an IP from the private subnet CIDR range.
             - The security group then allows your function to access resources in VPC.
-            
+
     111. X-Ray Configuration
         - High-level requirement
             - X-ray SDK
@@ -994,3 +994,4 @@
         - ec2:DescribeNetworkInterfaces
 - 14 Route 53 
 - 110 VPC
+    - [使用者手冊](https://docs.aws.amazon.com/zh_tw/vpc/latest/userguide/how-it-works.html)
