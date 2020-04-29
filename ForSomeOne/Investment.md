@@ -131,6 +131,7 @@
         - 技術分析 [蔡森](https://www.facebook.com/ts88888)
         - [自稱右派但粉專一直改名的一個粉專](https://www.facebook.com/%E5%B7%B4%E6%96%AF%E5%A4%8F%E7%9A%84%E8%A0%9F%E7%87%AD%E5%B7%A5%E5%9D%8A-329896911051695/)
         - 堅持台灣被地主統治的粉專[峰言峰語](https://www.facebook.com/mapleduh0703/)
+        - [常山七次郎](https://www.facebook.com/ss7bl/)
     - 地獄反指標
         - 谷月涵，可惜已退休
         - [謝金河](https://www.facebook.com/profile.php?id=100002304327218)
