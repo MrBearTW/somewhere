@@ -2,6 +2,7 @@
 2. 除了儲蓄險之外的，[保險](https://www.facebook.com/329896911051695/photos/a.358878471486872/510654386309279/?type=3&__xts__%5B0%5D=68.ARBuyMOo1kILUtABl2KfLzx67nHlTwqcSiJ6dwyP3JiNgTZKZceVqiCqYJLY4SF57zfBaaxd_bcwWGSlmHR0AqwVN06Nya4FAHimNRcpoq3mSZETahTWn1NkcQeVrjXDxwtSpZFqJP3Jjx6jub_fdk5IhZ11IuzpMAYRq1VlGfXzKmrlwj0jeW7sNj8sfUtauglPZlJHU6XymsMgH-guK8eTsuyXV1uogMkZ5lD-qM_PAIWaDcKaMwn6Z4BACWLwS7s-SRfPVMkaejSl1t2tKb3UNa_2QMnvQzSzeF2DQBtNz2R_dUVF63SuKvzGbfYt1S2AzjPRJKqdgspfVOtG81kc0y18T3FC6c5zHOQGf_O7x5hCCDC9qQ&__tn__=-R)買一買
 3. 年金 勞保 勞退 健保
 4. 自己要住的房貸
+5. 可投資的錢且不只投入單一股市
 
 
 - 事實 與 觀點
@@ -37,7 +38,7 @@
         - 複利的力量
         - 連跌停五天再連漲停五天，差距是？
         - 常小賠但一次大賺，常小賺但一次大賠
-    - 左和右，哪有這麼簡單
+    - 左派和右派，哪有這麼簡單
     - 衝浪
     - 簡單的法則 [e.g.xdite](https://www.facebook.com/xdite/posts/10158290873003552)
         - 然後去驗證
@@ -96,6 +97,10 @@
     - [窮查理的普通常識](https://www.books.com.tw/products/0010817729)  [網路推薦文](https://medium.com/unorthodox-paranoid/reading-poor-charlies-almanack-289a341b39fa)
     - 別人推薦的，有機會也想看一下
         - [反脆弱](https://valuepartnersblog.com/2019/01/22/%e8%ae%80%e6%9b%b8%e5%bf%83%e5%be%97-%e5%8f%8d%e8%84%86%e5%bc%b1-%e5%be%9e%e6%b3%a2%e5%8b%95%e4%b8%ad%e7%8d%b2%e7%9b%8a/)
+    - 大公司的股東信
+        - 網路上大大整理的中文 [Amazon 的股東信](https://medium.com/growing-vision/amazon-shareholder-letters-12833abcf37a)
+    - 教科書
+        - 經濟 統計 會計 財管 財報 財測 貨幣銀行 國際金融
 
 - 線上課程
     - 沒上過先記錄一下[可汗學院的線上課程](https://www.khanacademy.org/economics-finance-domain/core-finance)
