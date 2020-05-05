@@ -986,8 +986,10 @@
     - 找架構圖範例
 - VPC
     - Private VPC
-        - Security Group
+        - Security Group 
+            - A security group acts as a virtual firewall that controls the traffic for one or more instances.
         - Private Subnet
+            - A subnet is a range of IP addresses in your VPC.
     - 權限不足要多開這三個
         - ec2:CreateNetworkInterface
         - ec2:DeleteNetworkInterface
