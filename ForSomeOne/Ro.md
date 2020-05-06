@@ -44,7 +44,7 @@
 
 - bro
     - 坑很深
-    - 第一重要的是英文
+    - 第一重要的是[英文](https://www.facebook.com/careerpassion/posts/520115565334082?__xts__%5B0%5D=68.ARBpvFGEMGZfOsF4eIFn7NVEkP6mPmuUxX4DktjISCKWthIs5Fx8TrLRZes6GYueOFj7_CsBbouYV3QLW-jhrAs5PyQhFwHDZvdwRmJmH_4LpdTiMsbWtC1tBrG4WkyPrOhwgP8MF3482ROm4vTzcjKzbEHcUszvI3N8iSSmlXRFDCE6fXXUrEBFIdcluEagPX_DEAhl1d1UNt8ktx2NyeB44JxtopvMSgMiHaX7AtW6S3-mNpZNa_RVjtJ7zd_RxlBY5F82xZC2vBsT8S9I3iy5bCDJQaeqChBoY2iVBjxgs6qlqL3QhTxfh-o7ae3-q0gmPQEuNeTkDgyTvFIMQFfmUx3G9weK7yYHcxZZBrhyaC4X&__tn__=-R)
         - 想進的公司
             - 104看需求數量
     - 開放/開源/公開/免費

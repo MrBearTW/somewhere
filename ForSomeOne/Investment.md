@@ -39,6 +39,7 @@
         - 連跌停五天再連漲停五天，差距是？
         - 常小賠但一次大賺，常小賺但一次大賠
     - 左派和右派，哪有這麼簡單
+        - 書 [激進市場](https://www.facebook.com/joshu.wang1978/posts/10220937684565615)
     - 衝浪
     - 簡單的法則 [e.g.xdite](https://www.facebook.com/xdite/posts/10158290873003552)
         - 然後去驗證
