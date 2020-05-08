@@ -116,6 +116,7 @@
     - 電玩 / 博奕
 
 - UIUX 人機互動
+    - 強者我們學長 Chun-Chuan Lin [重新設計健保 APP](https://medium.com/@chunchuanlin/%E5%8F%B0%E7%81%A3%E5%81%A5%E4%BF%9D%E8%A1%8C%E5%8B%95%E5%BF%AB%E6%98%93%E9%80%9A%E5%86%8D%E8%A8%AD%E8%A8%88%E6%A6%82%E5%BF%B5-4ad69cd22382)
     - [翁翁](https://chunhaoweng.com/)
     - 蘇小妹
     - [Paul Li Yahoo 擔任 Front End Engineer](https://www.facebook.com/mei.studio.li)
