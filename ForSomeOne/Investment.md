@@ -106,10 +106,12 @@
 - 線上課程
     - 沒上過先記錄一下[可汗學院的線上課程](https://www.khanacademy.org/economics-finance-domain/core-finance)
 
-- 電影
-    - 大賣空
-    - 華爾街之狼
-    - 
+- 劇
+    - 電影
+        - 大賣空
+        - 華爾街之狼
+    - 影集
+        - [金錢戰爭](https://www.facebook.com/Seraphthought/photos/a.760806657273947/3074320049255918/?type=3&__xts__%5B0%5D=68.ARCSXUnLpmhRXv9h2x-a5XSLiVzPWAfLRjcTXcSCtSdoUlEL6yHJFCi6qvN8Zz_cgS4ReQg5CoKrvlJotJ_d8bnD5dizTGwA09Z3j-tSsBH72HIiW91gTGF3Z50YlcVsQwJ-NRijRQA3pAWx2n9ju3qdGgj4uzCInpksuo_DFlTeayxphqx6JOUdS_qNT9mORPVZxzBZ4QjOItoINOEk_D6qLQNLyBJpk3TxA94UPe3wR5MDjP29YV0gZ6mBY_Gs4k3J1WYnNO3xKp61of0Ph-h4APP-Qkz0hwipiD3Z2DHZUE9CCdAZpzQZzjWoF-Xwi9jzisKa21PGDpqkv32Du2eozcGhJ6sn0AqXB8kQwugWLyEtquylnhs&__tn__=-R)`
 
 - 講座這件事
     - [賣課程](https://www.facebook.com/NobleYenFansClub/posts/3525953050811997?__xts__%5B0%5D=68.ARDJvMN9kvEctoevPK4wgB0EwTTbtjEN6qC8hyp-mByyRKCsSjSEJ_iEgbSxM4ax9ihnOa5NaMwPVR_1zPvHemv4W31VuDlSumiSNNEm0EcbjctG0Ony-GrXNXsLMFmyXHopzywNdwnnLXQW5jpWUcm0IlXTVNLOpsG3vO861p3kKHqkF0Cy2TGJvcKzuhEOeliCjuswpWstwIqhqCuPSuB8O6bqL8v9DNKqDWIIw27mjgWV9U6putceBHmhq08kfQDF1oo3OjIBVBmgX6GrrD4Bc4Z3G_WAg1Phfh7Ma5D3NwHaUBKV7TjWNtQ9k-X2Gs8M5AiixTJzO2uzQZ-gSw&__tn__=-R)
