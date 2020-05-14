@@ -43,3 +43,11 @@
 
 - 擴張直到沒人可以打敗，再回頭考慮獲利
     - 認錯砍掉不合理的投資
+
+- 仁慈比聰明更難
+    - 勸奶奶戒菸
+
+- BLUE ORIGIN
+    - GRADATIM FEROCITER
+    - Step by Step, Ferociously
+    - 步步為營 勇往直前
