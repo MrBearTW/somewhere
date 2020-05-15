@@ -136,7 +136,9 @@
         - [李忠孝](https://www.facebook.com/SmartLCH/)
         - [Miula的M觀點](https://www.facebook.com/miulaperspective/)
     - 這些蠻偏頗的比較偏向邏輯訓練
-        - 技術分析 [蔡森](https://www.facebook.com/ts88888)
+        - 技術分析 
+            - [蔡森](https://www.facebook.com/ts88888)
+            - [騙線](https://www.facebook.com/wzagdrz/)
         - [自稱右派但粉專一直改名的一個粉專](https://www.facebook.com/%E5%B7%B4%E6%96%AF%E5%A4%8F%E7%9A%84%E8%A0%9F%E7%87%AD%E5%B7%A5%E5%9D%8A-329896911051695/)
         - 堅持台灣被地主統治的粉專[峰言峰語](https://www.facebook.com/mapleduh0703/)
         - [常山七次郎](https://www.facebook.com/ss7bl/)
