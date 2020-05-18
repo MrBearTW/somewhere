@@ -16,3 +16,12 @@ Zero to One: Notes on Startups, or How to Build the Future
     - 競爭市場賺不到錢
     - 銷售與產品一樣重要
 
+- 毛利率才是真的
+
+- Google
+    - 從搜尋引擎看
+    - 從廣告產業看
+        - 從種類分網路電視
+        - 從地理分全美到全球
+
+- 事業已經成功到足以嚴肅看待道德議題
