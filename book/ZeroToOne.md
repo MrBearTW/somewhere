@@ -25,3 +25,7 @@ Zero to One: Notes on Startups, or How to Build the Future
         - 從地理分全美到全球
 
 - 事業已經成功到足以嚴肅看待道德議題
+
+- 獨佔
+    - 政府一邊反托拉斯，但又一邊發專利
+    - 新的獨佔事業會取代舊的獨佔事業

@@ -2,6 +2,8 @@
 
 - [0 陷阱！0 誤解！8 天重新認識 JavaScript！（iT邦幫忙鐵人賽系列書 - 02）](https://github.com/MrBearTW/somewhere/blob/master/book/8DaysJavascript.md)
 
+- [從0到1：打開世界運作的未知祕密，在意想不到之處發現價值 Zero to One: Notes on Startups, or How to Build the Future](https://github.com/MrBearTW/somewhere/blob/master/book/OneClick.md)
+
 - [OneClick 中文版](https://github.com/MrBearTW/somewhere/blob/master/book/OneClick.md)
 
 - [你想通了嗎？解決問題之前，你該思考的6件事Are Your Lights On?: How to Figure Out What the Problem Really Is](https://github.com/MrBearTW/somewhere/blob/master/book/AreYourLightsOn.md)
