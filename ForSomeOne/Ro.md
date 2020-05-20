@@ -40,7 +40,9 @@
     - [第 01 屆開發者寫作松 Coder Blogathon【連續七天寫作挑戰，解放你的技術創作力】](https://www.accupass.com/event/2001190943344186137000)
     - [Apple 和 Google 對 CONVID-19 提出的文件](https://www.ernestchiang.com/zh/posts/2020/2020-04-11-covid-19-contact-tracing-technology/)
 - 作品集
-    - The F2E
+    - [The F2E](https://www.facebook.com/groups/173311386703334/)
+    - 資料分析
+        - [發文分析](https://www.cna.com.tw/project/20200520-inauguraladdress/?utm_source=site.facebook&utm_medium=share&utm_campaign=fbuser&fbclid=IwAR3cwaDvPiylX77XdoQjVC1ftEROuTvDxP0eiVq18zBwy2WYKdbao-O-UNc)
 
 - bro
     - 坑很深
