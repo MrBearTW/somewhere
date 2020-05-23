@@ -52,3 +52,14 @@ Zero to One: Notes on Startups, or How to Build the Future
 - 領股票和領現金的員工差異
 
 - 教派 vs. 顧問
+
+- 銷售
+    - 專案執行
+    - 業務開發
+    - 投資銀行
+    - 政客
+
+- Ch11 顧客不會自己上門 每個人都該學銷售
+
+- 病毒式行銷
+    - 朋友對朋友
