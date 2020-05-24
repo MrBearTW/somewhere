@@ -30,7 +30,13 @@
             - [彭博商業周刊 / 中文版](https://www.facebook.com/bbwhk/) << 值得設定成搶先看
         - [國安基金](https://www.facebook.com/photo.php?fbid=10221773720547783&set=a.1820416905735&type=3)
     - 緩漲快跌
-    - 房地產，房子是拿來住人的，房地產證券化
+    - 房地產，房地產證券化
+        - [近期房價走勢](https://www.facebook.com/joejoeyourmoney/photos/a.10150326769327276/10158407533842276/?type=3&__xts__%5B0%5D=68.ARC86xn_rMeAyKWZdV0vG6kPfXutH7KrpmOFDOG9jjKSBukwZNC0fcn_bCXjhz24tc7W-xIRglyTF0U23sj0w_MI4Uars9wrede7oUYBWXiICVNNeotfO26tNcqVKYyxLoq6ZOq1Vyjep0GraykDmYFU76g-XI6BbBWtJPftpGp6nHYahdylV084c53tfQ-RF0lfsOneH9Ayn1qXR7rFzVqy447ergopYnW2gqU52wqAlH2LGd4GCR88mVWm_jPboXKcVWOc-A6HWsniAsFciS0DX-L8U8mC2Ghsu4ebdRlO00IS899UktzjXjz0bhrG_vtNu-kBUjfy4NnAchDs&__tn__=-R)
+        - [剛性需求](https://www.facebook.com/icheng.liu/posts/10220737721900257)
+        - 房租約是 XXX萬 * 2~2.5% /12
+        - 房貸速算 每一百萬
+            - 20 年 5000
+            - 30 年 4000
     - 晚上睡得著 vs. 一些焦躁的 LINE 群組
     - 一夜致富的可能性
     - 量級的問題
