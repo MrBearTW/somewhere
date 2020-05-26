@@ -2,7 +2,7 @@
 
 - [0 陷阱！0 誤解！8 天重新認識 JavaScript！（iT邦幫忙鐵人賽系列書 - 02）](https://github.com/MrBearTW/somewhere/blob/master/book/8DaysJavascript.md)
 
-- [從0到1：打開世界運作的未知祕密，在意想不到之處發現價值 Zero to One: Notes on Startups, or How to Build the Future](https://github.com/MrBearTW/somewhere/blob/master/book/OneClick.md)
+- [從0到1：打開世界運作的未知祕密，在意想不到之處發現價值 Zero to One: Notes on Startups, or How to Build the Future](https://github.com/MrBearTW/somewhere/blob/master/book/OneClick.md) 2020/MAY/26
 
 - [OneClick 中文版](https://github.com/MrBearTW/somewhere/blob/master/book/OneClick.md)
 

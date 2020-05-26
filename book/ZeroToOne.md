@@ -77,3 +77,6 @@ Zero to One: Notes on Startups, or How to Build the Future
     - 銷售 銷售計畫
     - 持久 立場可堅持 10~20 年嗎？
     - 秘密 是別人沒看到的嗎
+
+- 創業者的特質是顛倒的鐘型曲線
+- 每個國王都是活著的神，每個神都是死掉的國王
