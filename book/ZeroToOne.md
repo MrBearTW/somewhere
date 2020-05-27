@@ -67,11 +67,12 @@ Zero to One: Notes on Startups, or How to Build the Future
 - 人工智能和人類是互補
 
 - 潔淨科技
+    - 錯估頁岩油技術
     - 特斯拉
 
 - 七個問題
     - 工程 突破還是微幅
-    - 時機 
+    - 時機 市場已夠成熟了嗎
     - 獨佔 可以在小型市場獨佔嗎
     - 人員 團隊
     - 銷售 銷售計畫
