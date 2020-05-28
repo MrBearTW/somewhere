@@ -14,6 +14,7 @@
         - [Girls in Tech - Taiwan](https://www.facebook.com/girlsintechtaiwan/posts/1266188420246880)
     - 被 PTT 噓爆 創業[李婷婷](https://crossing.cw.com.tw/article/11793)
     - Pinkoi後端工程師[Mosky劉依語](https://medium.com/starrocket/https-medium-com-starrocket-interview-with-mosky-e7c18b54545)
+        - [工程師星箭日誌：Build #18318 Mosky（劉依語）](https://medium.com/starrocket/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E6%98%9F%E7%AE%AD%E6%97%A5%E8%AA%8C-build-18318-mosky-%E5%8A%89%E4%BE%9D%E8%AA%9E-942f8e673241)
 
 - 刷題網站
     - [leetcode](https://leetcode.com/)
@@ -123,6 +124,7 @@
     - 蘇小妹
     - [Paul Li Yahoo 擔任 Front End Engineer](https://www.facebook.com/mei.studio.li)
     - [嫁給RD 的UI Designer](https://blog.akanelee.me/)  [Akane Lee](https://www.facebook.com/uiux.akane/)
+        - [收到一封讀者來信，問 UI/UX 設計師的工作範圍與技能知識。](https://www.facebook.com/uiux.akane/posts/2766815910219205?__xts__%5B0%5D=68.ARB-h-ys4KG4i4KavVL4Xmhm-JnCa5RNDXAI5GvgD4OEFbLbc_HEANAKXCU1iD_LCxVgQH87VbVXAtHe18z7JLLHNTk6UkECniADFf7sxx6kRlA3SBAMoiEeugDoypf0pC-3-PkNQNb7OnPQmlq8-xqqwPM0OoM95q_Yyxn8YC2NY7ma1t_YLArC4ffJsQPgo3IuyHDQ0jQqVXKRlmblgHErr53MN1FrkTyuXRJOYfdG-At4TZ4bN6L66do2Ea6tpSZJrSNqq2WXtqZYj5oJp7lE9P6vmYOjbVyMuPyEd3UWOAPHZMERDGxwa4nxmRp_2y9bVb3MZS0D1M2r4TxTQKt-&__tn__=-R)
     - [As A Product Designer](https://medium.com/as-a-product-designer)
         - 之中有一篇 [Google 的 UX Engineer（ 使用者經驗工程師 ）在做什麼？如何成為 UX Engineer？](https://medium.com/as-a-product-designer/google-%E7%9A%84-ux-engineer-%E4%BD%BF%E7%94%A8%E8%80%85%E7%B6%93%E9%A9%97%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E5%9C%A8%E5%81%9A%E4%BB%80%E9%BA%BC-%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA-ux-engineer-96ef9e992263)
     - Google ux 入門書 找到的相關資源
