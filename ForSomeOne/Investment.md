@@ -10,7 +10,7 @@
     - 買低賣高，賣高買低
     - 定期收錢
         - 富爸爸與窮爸爸
-        - 現金流遊戲
+            - 現金流遊戲
         - [國民年金](https://www.facebook.com/mohw.gov.tw/photos/a.484593545040402/1522567501242996/?type=3&__xts__%5B0%5D=68.ARAYl9IojS9uam2H6R1UrZpg4jdhnGT6BKsrtLIzvxQouPgN7iiclzugEUck98dNvCqeTMonVTAQrUeP1ACMDuG4MnojdJtcmfZxR-FSVUM5QLMlzELAM7uUSC1dWV-CkWyZZMvggZMCB02J5zNmk4h5RwiJ-6NKndgpGNTzNVrTJtP2lr81RTWwBJx4peOqJlrO8EVDizgsB1rCuVaa9DgGSsnBbAaxF5EAuwLq1pL-HyWiD-vZVMKkiIV9Vm-ZCOTNA4aJT01Je6-mWvjGBszej5BCQ77ydIPAzj_957VUi6_g15Pz5Bltz9IkrlQ3DCDz_kpBJ_03hyAsWfAkz2HYlA&__tn__=-R)
     - 收時間價值(這個比較難一點)
     - [投資 vs. 創業](https://www.facebook.com/mitterchiang/posts/10158307255228939)
