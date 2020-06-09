@@ -100,7 +100,7 @@
     - [報紙推薦的 Youtuber](https://money.udn.com/money/story/7794/4289421?fbclid=IwAR2FoA_dv5cGd2lgzF7XphJS9GXT_ojtsSSsvk29_ZqVxNw0UNKD88wVCII)
     - 反指標
         - 谷月涵，可惜已退休 [疫情四月初發言](https://ec.ltn.com.tw/article/breakingnews/3126989)
-        - [謝金河]()
+        - [謝金河](https://www.facebook.com/people/%E8%AC%9D%E9%87%91%E6%B2%B3/100002304327218)
         - [文茜的世界周報 Sisy's World News](https://www.facebook.com/SisyWorldNews/videos/330652910880203/)
 - 書
     - [綠角](https://search.books.com.tw/search/query/key/%E7%B6%A0%E8%A7%92/cat/all/adv_author/1)
@@ -122,7 +122,10 @@
         - 黑心交易員的告白 Margin Call
         - [巴黎交易員](https://www.catchplay.com/tw/ed-says-article-1346-pd15tsar)
     - 影集
-        - [金錢戰爭](https://www.facebook.com/Seraphthought/photos/a.760806657273947/3074320049255918/?type=3&__xts__%5B0%5D=68.ARCSXUnLpmhRXv9h2x-a5XSLiVzPWAfLRjcTXcSCtSdoUlEL6yHJFCi6qvN8Zz_cgS4ReQg5CoKrvlJotJ_d8bnD5dizTGwA09Z3j-tSsBH72HIiW91gTGF3Z50YlcVsQwJ-NRijRQA3pAWx2n9ju3qdGgj4uzCInpksuo_DFlTeayxphqx6JOUdS_qNT9mORPVZxzBZ4QjOItoINOEk_D6qLQNLyBJpk3TxA94UPe3wR5MDjP29YV0gZ6mBY_Gs4k3J1WYnNO3xKp61of0Ph-h4APP-Qkz0hwipiD3Z2DHZUE9CCdAZpzQZzjWoF-Xwi9jzisKa21PGDpqkv32Du2eozcGhJ6sn0AqXB8kQwugWLyEtquylnhs&__tn__=-R)`
+        - [金錢戰爭](https://www.facebook.com/Seraphthought/photos/a.760806657273947/3074320049255918/?type=3&__xts__%5B0%5D=68.ARCSXUnLpmhRXv9h2x-a5XSLiVzPWAfLRjcTXcSCtSdoUlEL6yHJFCi6qvN8Zz_cgS4ReQg5CoKrvlJotJ_d8bnD5dizTGwA09Z3j-tSsBH72HIiW91gTGF3Z50YlcVsQwJ-NRijRQA3pAWx2n9ju3qdGgj4uzCInpksuo_DFlTeayxphqx6JOUdS_qNT9mORPVZxzBZ4QjOItoINOEk_D6qLQNLyBJpk3TxA94UPe3wR5MDjP29YV0gZ6mBY_Gs4k3J1WYnNO3xKp61of0Ph-h4APP-Qkz0hwipiD3Z2DHZUE9CCdAZpzQZzjWoF-Xwi9jzisKa21PGDpqkv32Du2eozcGhJ6sn0AqXB8kQwugWLyEtquylnhs&__tn__=-R)
+            - 一個想法，然後去驗證
+                - 歷史上來看
+                - 是要騙你來當韭菜嗎？
 
 - 講座這件事
     - [賣課程](https://www.facebook.com/NobleYenFansClub/posts/3525953050811997?__xts__%5B0%5D=68.ARDJvMN9kvEctoevPK4wgB0EwTTbtjEN6qC8hyp-mByyRKCsSjSEJ_iEgbSxM4ax9ihnOa5NaMwPVR_1zPvHemv4W31VuDlSumiSNNEm0EcbjctG0Ony-GrXNXsLMFmyXHopzywNdwnnLXQW5jpWUcm0IlXTVNLOpsG3vO861p3kKHqkF0Cy2TGJvcKzuhEOeliCjuswpWstwIqhqCuPSuB8O6bqL8v9DNKqDWIIw27mjgWV9U6putceBHmhq08kfQDF1oo3OjIBVBmgX6GrrD4Bc4Z3G_WAg1Phfh7Ma5D3NwHaUBKV7TjWNtQ9k-X2Gs8M5AiixTJzO2uzQZ-gSw&__tn__=-R)
@@ -159,6 +162,7 @@
         - [文茜的世界周報 Sisy's World News](https://www.facebook.com/SisyWorldNews/videos/330652910880203/)
         
 - [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)
+- [持續接收國際新聞的 APP](https://www.investing.com/mobile/) 有繁中，一天約 10 則
 
 - 美股
     - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)

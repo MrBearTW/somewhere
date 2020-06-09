@@ -33,6 +33,8 @@
     - 增加選擇內容  ALT + SHIFT + 左鍵
     - 減少選擇內容  ALT + SHIFT + 右鍵
 
+- Tab 不能用
+    - Crtl + M
 
 # 調整
 "editor.renderWhitespace" 選ALL
