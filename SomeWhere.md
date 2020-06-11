@@ -1,3 +1,50 @@
+# 2020/06/11 91APP 電商技術大解密
+
+## GraphQL & React-Apollo
+
+- ES6 新特色 Promise
+
+- Fetch API
+
+- Redux-observable
+ 111 行
+
+- 改用 GraphQL  ReactApollo
+
+- GraphQL  
+    - 為了詢問 API 而生，新的查詢語言
+    - 為了滿足查詢語言而生，能與既存資料互動的執行環境
+
+    - GraphQL 可做為 API Gateway(Web server)
+
+- ReactApollo
+    - 在 React framework 中，可以讓我們從 GraphQL server 取資料的函式庫
+
+    - 優點
+        - 串接後端從多個 Endpoint 變一個
+        - 前端精準取得自己要的資料，甚至可巢狀取
+        - 處理非同步的複雜邏輯，不需要自己處理
+        - 可滿足大部分的資料操作情境
+
+- 無限下拉選單
+
+## Backend RD 的日常
+
+- linter
+- 自動提醒修正
+
+- Unit test
+
+- 甜筒化測試
+
+
+- coverage
+
+- core method
+
+- 不同市場不同組態設定 
+- artifacts management
+
 # 電商數據資料流（digital data flow）的應用架構如何運作於 Messenger Ads 及落地電商商品資料分析？
 歡迎大家加群組https://www.facebook.com/groups/501522897228952/
 社團分享的筆記https://hackmd.io/@SDXaACIXR5O-rNxCwot9ZA/r1wCHC6xI
