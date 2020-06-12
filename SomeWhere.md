@@ -26,19 +26,25 @@
         - 處理非同步的複雜邏輯，不需要自己處理
         - 可滿足大部分的資料操作情境
 
+- [範例程式](https://github.com/iamshaunjp/graphql-playlist/tree/lesson-36)
+
 - 無限下拉選單
+    - 實作
 
 ## Backend RD 的日常
+
+- github workflow
 
 - linter
 - 自動提醒修正
 
 - Unit test
 
-- 甜筒化測試
+- 金字塔 比較好
+- 甜筒化測試 不太好
 
 
-- coverage
+- coverage 越高越好
 
 - core method
 

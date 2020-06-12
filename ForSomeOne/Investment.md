@@ -110,7 +110,7 @@
     - 大公司的股東信
         - 網路上大大整理的中文 [Amazon 的股東信](https://medium.com/growing-vision/amazon-shareholder-letters-12833abcf37a)
     - 教科書
-        - 經濟 統計 會計 財管 財報 財測 貨幣銀行 國際金融
+        - 經濟 統計 [會計](https://wisdomfirefraud.blogspot.com/2020/05/blog-post_10.html) 財管 財報 財測 貨幣銀行 國際金融
 
 - 線上課程
     - 沒上過先記錄一下[可汗學院的線上課程](https://www.khanacademy.org/economics-finance-domain/core-finance)
