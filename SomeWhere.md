@@ -7,9 +7,9 @@
 - Fetch API
 
 - Redux-observable
- 111 行
-
+    - 111 行
 - 改用 GraphQL  ReactApollo
+    - 變少剩約三分之二
 
 - GraphQL  
     - 為了詢問 API 而生，新的查詢語言
