@@ -2695,9 +2695,9 @@ Laravel影片教學
 
 # Facades
 
-用Laravel的功能而無需記住必須手動注入或配置的長類名
+用 Laravel 的功能而無需記住必須手動注入或配置的長類名
 
-建立第三方套件時，用Laravel的功能而無需記住必須手動注入或配置的長類名
+建立第三方套件時，用 Laravel 的功能而無需記住必須手動注入或配置的長類名
 
 Laravel includes a variety of "helper" functions which can perform common tasks like generating views, firing events, dispatching jobs, or sending HTTP responses.
 
@@ -2706,9 +2706,11 @@ In a Laravel application, a facade is a class that provides access to an object 
 non static to static
 
 - Facades
-    - 因為是static所以不用每一次都實體化
+    - 因為是 static 所以不用每一次都實體化
         - 優點：節省效能
         - 缺點：若有人改了其中的變數，其他一起使用的人也會受到影響
 
-    - 有manager or adapter
+    - 有 manager or adapter
         - 都是有一個 design pattern 在背後
+
+- The primary danger of facades is class scope creep.

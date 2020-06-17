@@ -6,6 +6,7 @@
 
 
 - 事實 與 觀點
+    - [我認為 vs. 實際上 vs. 我還需要知道](https://www.facebook.com/fundblacksamurai/photos/a.1036482816368765/3521359891214366/)
 - 賺錢
     - 買低賣高，賣高買低
     - 定期收錢
@@ -33,6 +34,7 @@
     - 房地產，房地產證券化
         - [近期房價走勢](https://www.facebook.com/joejoeyourmoney/photos/a.10150326769327276/10158407533842276/?type=3&__xts__%5B0%5D=68.ARC86xn_rMeAyKWZdV0vG6kPfXutH7KrpmOFDOG9jjKSBukwZNC0fcn_bCXjhz24tc7W-xIRglyTF0U23sj0w_MI4Uars9wrede7oUYBWXiICVNNeotfO26tNcqVKYyxLoq6ZOq1Vyjep0GraykDmYFU76g-XI6BbBWtJPftpGp6nHYahdylV084c53tfQ-RF0lfsOneH9Ayn1qXR7rFzVqy447ergopYnW2gqU52wqAlH2LGd4GCR88mVWm_jPboXKcVWOc-A6HWsniAsFciS0DX-L8U8mC2Ghsu4ebdRlO00IS899UktzjXjz0bhrG_vtNu-kBUjfy4NnAchDs&__tn__=-R)
         - [剛性需求](https://www.facebook.com/icheng.liu/posts/10220737721900257)
+        - [台美房屋稅制差異](https://www.facebook.com/permalink.php?story_fbid=2637905226452104&id=1545911848984786&__xts__%5B0%5D=68.ARAzGiCSL1E4xnRLONrcsltCQgILxpDqi2IjuvPHWJjEFFo2VGZcH1V9BDDHRkB7cZaSuwcJvJYa5PANpl_hMb2SNDd2eaRUVf-y-yB7xt-BdPNiSwEmlgBLv3wzv_RnKDwmfzkLrLeX8Nc9ylBICxh2itjoccsFYzPjVNdLMTSJwyIIrQd5vJ8juUQU7FNempkerP_TLTQmFWPAga7r-8eaepl3rxFAPx1xD-dVHfn6CHKHFRqboStOKi03lMgzHJVhy8p3xNTCcwdnXuZ_8FFxpZ6OMgwoIdrJRYK-O6yq8g8s-nZKY_SWcG1mwE3OX6fl_GUAkQje7QP5tzGF0X7E6yVs&__tn__=-R)
         - 房租約是 XXX萬 * 2~2.5% /12
         - 房貸速算 每一百萬
             - 20 年 5000
