@@ -6,6 +6,7 @@
 
 ## 議程二：蔡奕陵（Steven Tsai）資深軟體工程師
 - 主題：解密 91APP Queue System
+    - SLO is a service level objective
     - 解耦
     
     - 擴展服務需要即時性 => Load Balance
@@ -24,7 +25,9 @@
     * 李敏宏（Matt Lee）資深技術總監
     * 施維忠（Steven Shih）資深技術總監
 
-- 分散排隊 閘道控制
+- 增加服務量
+    - 分散排隊 多開收銀機
+    - 閘道控制 上高速公路前有紅綠燈
 
 - 模擬 壓測
     - 水平垂直都不行時，開專案
