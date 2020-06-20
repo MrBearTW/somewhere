@@ -1,3 +1,6 @@
+# 2020/06/20
+- [Ernest 的一句話描述 AWS 服務](https://www.ernestchiang.com/zh/notes/aws/products/#compute)
+
 # 2020/01/30
 Udemy AWS Certified Developer - Associate 2020
 https://www.udemy.com/course/aws-certified-developer-associate/
