@@ -34,7 +34,7 @@
     - 減少選擇內容  ALT + SHIFT + 右鍵
 
 - Tab 不能用
-    - Crtl + M
+    - Crtl + M 切換模式
 
 # 調整
 "editor.renderWhitespace" 選ALL
