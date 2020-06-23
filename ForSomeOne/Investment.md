@@ -67,6 +67,7 @@
         - [未平倉範例 2](https://www.facebook.com/huangdazo/photos/a.1392248191006168/2713007192263588/?type=3&__xts__%5B0%5D=68.ARDlx2MdwsZV5b4_jfi0t1dbyjalbOHOZzSaD70N0D_r92WFf3Ebf5Tf1-cTuPSdzG8DGuDnAYwSbEm6JAaZF7UFNhjcFvv1FD0jYtyNfsLVGlhWOWe8EzngDr8QCVJQ8uZP42Gaz5R9f3KOAPn7ANA5_2zMCDpiCobosArmE2akEkreetcLL3gq700iERlUMXPSURi0-F3en85nyEjNVqeIM6DuRnDUUCzlw0_8ACnRSU71RWck40TeHFnccMJ36zqgFuBjYrmuqSyqqJtVEaf4AhLBwvvEbhpA5hElUCB0ckF0CFgAKvCS6CqBqe6D8tfo8iXoiu3C0vti8rme6wcrOySy4acy40ZDHsIh9D91FPjJaO3pudIo-W8&__tn__=-R)
     - 風險投資
         - [詹宏志：我太晚認知到資本的力量了！](https://www.inside.com.tw/article/13190-pchome-pk-shopee-2)
+            - [因為本夠厚](https://www.facebook.com/xmy1108/posts/10223496796507304)
         - [林宜敬 - 具有中國特色的社會主義煉金術](https://www.facebook.com/yijing1/posts/10157551818639495)
     - ETF
         - 0050 0056
