@@ -86,6 +86,7 @@
     - [王伯達觀點](https://www.facebook.com/potawang/)
     - [雷浩斯價值投資網](https://www.facebook.com/redhousei/)
     - [怪老子理財](https://www.facebook.com/masterhsiao/)
+    - [股癌 Gooaye](https://www.facebook.com/Gooaye/)
     - [幣圖誌Bituzi](https://www.facebook.com/bituzi/)
     - 經濟類的
         - 經濟這一件事情
