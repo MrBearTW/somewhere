@@ -121,6 +121,7 @@
         - 經濟 統計 [會計](https://wisdomfirefraud.blogspot.com/2020/05/blog-post_10.html) 財管 財報 財測 貨幣銀行 國際金融
 
 - 線上課程
+    - 周奕成[美國名校財經相關課程名單](https://www.facebook.com/ycjou/posts/10217143419077561)
     - 沒上過先記錄一下[可汗學院的線上課程](https://www.khanacademy.org/economics-finance-domain/core-finance)
 
 - 劇
