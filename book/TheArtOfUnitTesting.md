@@ -14,3 +14,9 @@
         - 一次不只測一件事
         - 測試程式重複過多
         - 可讀性差
+- Resource
+    - https://github.com/royosherove/aout2
+    - https://osherove.com/
+    - 免費影片
+        - https://www.artofunittesting.com/ 
+        - https://osherove.com/videos
