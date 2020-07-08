@@ -83,3 +83,9 @@
             - in hasOwnProperty
     - 陣列
         - 同一個陣列可以多種資料型態
+
+## Day3
+- BOM Browser Object Model
+- DOM Document Object Model
+
+- Node 環境中沒有 BOM 和DOM
