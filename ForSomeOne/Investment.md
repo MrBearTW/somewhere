@@ -172,6 +172,9 @@
         
 - [地圖式的看一下世界股票](https://finviz.com/map.ashx?t=geo)
 - [持續接收國際新聞的 APP](https://www.investing.com/mobile/) 有繁中，一天約 10 則
+- 老文章看一下
+    - [美商高盛不會教你在金融界出類拔萃part I](https://www.ptt.cc/man/ck54th122/D1B5/DD46/D634/M.1132058862.A.95A.html)
+    - [美商高盛不會教你在金融界出類拔萃(下)](https://www.ptt.cc/bbs/CCUfinGrad92/M.1108803121.A.AEB.html)
 
 - 美股
     - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)
