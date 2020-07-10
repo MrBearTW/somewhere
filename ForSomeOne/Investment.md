@@ -101,7 +101,7 @@
     - [銀行家尼莫](https://www.facebook.com/bankernemo/posts/1497461480427590?__xts__%5B0%5D=68.ARBsY51gy-aqXEW9gs_y1Mq1mdxrMJ8iIXRoCOZfZfUg8rnARwh_utUR_x4li_notPuBVJ9b1Cwmj1EYejpTiOmJXURkPX8BDahleWnBvC8QX22KmmbkShx-QiU9vWCNDlxZjS5Wdb3cobJsEp2QnvgCXziZF1w6OewmwT9MGT-sEGbpefPVWJXuEI5eY3GOERsQqA7qlelw0ylX0MF5aZ-9fRMHBq8BiVPh4C6VptqXbGNSkiatIViPERVqDaju7jGfe-9q0EDgzJ3Nk2cLfhboqGVRL8Nj1XHoUVqT_koMAU-GT28VqUlk9gmiYlZ1-93frv2qU14oscEWyQ1NqrqOPg&__tn__=-R)
     - 前公司相關
         - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
-        - []
+        - [群益期貨首席經濟學家/范振鴻Rico 暫時關掉?]()
     - 世新
         - [梁彥平 專欄](https://money.udn.com/author/articles/119)
         - [陳唯泰-跟著我擇機入市](https://www.facebook.com/ted24888/)
