@@ -20,6 +20,7 @@
     - 不正常的市場
         - 債券
             - 殖利率
+            - 新看到的[Pezzaloan 經濟體股份有限公司](https://www.pezzaloan.com/borrower-listing)
         - 保護消費者
         - [退休計畫](https://www.facebook.com/libertarianguyguy/posts/2909422712430283)
         - 出貨媒體
@@ -130,6 +131,7 @@
         - 華爾街之狼
         - 黑心交易員的告白 Margin Call
         - [巴黎交易員](https://www.catchplay.com/tw/ed-says-article-1346-pd15tsar)
+        - 竊聽風雲
     - 影集
         - [金錢戰爭](https://www.facebook.com/Seraphthought/photos/a.760806657273947/3074320049255918/?type=3&__xts__%5B0%5D=68.ARCSXUnLpmhRXv9h2x-a5XSLiVzPWAfLRjcTXcSCtSdoUlEL6yHJFCi6qvN8Zz_cgS4ReQg5CoKrvlJotJ_d8bnD5dizTGwA09Z3j-tSsBH72HIiW91gTGF3Z50YlcVsQwJ-NRijRQA3pAWx2n9ju3qdGgj4uzCInpksuo_DFlTeayxphqx6JOUdS_qNT9mORPVZxzBZ4QjOItoINOEk_D6qLQNLyBJpk3TxA94UPe3wR5MDjP29YV0gZ6mBY_Gs4k3J1WYnNO3xKp61of0Ph-h4APP-Qkz0hwipiD3Z2DHZUE9CCdAZpzQZzjWoF-Xwi9jzisKa21PGDpqkv32Du2eozcGhJ6sn0AqXB8kQwugWLyEtquylnhs&__tn__=-R)
             - 一個想法，然後去驗證
