@@ -86,6 +86,13 @@
 
 ## Day3
 - BOM Browser Object Model
+    - 別名 Level 0 DOM
 - DOM Document Object Model
 
 - Node 環境中沒有 BOM 和DOM
+
+- BOM 的核心 ＂window 物件＂
+    - ECMAScript 標準裡的全域物件
+    - JavaScript 用來與瀏覽器溝通的窗口
+
+    - 可開啟視窗，跳出 alert
