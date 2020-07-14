@@ -22,6 +22,7 @@
             - 殖利率
             - 新看到的[Pezzaloan 經濟體股份有限公司](https://www.pezzaloan.com/borrower-listing)
         - 保護消費者
+            - [eToro](https://tw.appledaily.com/property/20200714/JJ47Q3X7SRBN7FU767RRNBDHVA/)
         - [退休計畫](https://www.facebook.com/libertarianguyguy/posts/2909422712430283)
         - 出貨媒體
             - 書
