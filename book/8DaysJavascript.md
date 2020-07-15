@@ -96,3 +96,6 @@
     - JavaScript 用來與瀏覽器溝通的窗口
 
     - 可開啟視窗，跳出 alert
+
+- BOM: JavaScript 與「瀏覽器」溝通的窗口，不涉及網頁內容。
+- DOM: JavaScript 用來控制「網頁」的節點與內容的標準。
