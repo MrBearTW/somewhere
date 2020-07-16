@@ -101,6 +101,7 @@
             - [只能做不能說](https://www.facebook.com/joejoeyourmoney/posts/10157238784927276?__xts__%5B0%5D=68.ARDSBqYVgAJIl-FhymPaazpb3-_mdjtIvYtVBb_6lNaZOSKoeHQ9TTDwM8oKIY-8tRjQyWjZjLyqZKCFAkV4g_AkIPI3NU5hETSRtPYuU7kRlLokALOm9Rw-yaU_qUuLv5dU44vD26jmJLBNs8vBZtSP8piQHvlY28V0hykOdsLDdO61WRntEzUk-n3K9PrrQl7TzI4BuO7ZXcrraLSIYJrv7eGEua--LnHO8EgLWPNVmhLQ1irR1uAlWZuL9u4GgJ5IMiERav3KEB1A77CIjhLNS8fUtNU9y1QCBeY9G8PwIZvPuVwg_1bFTs2tai_TELb8L2S-mNvMEPnY&__tn__=-R)
         - [橋水基金創辦人 经济机器是怎样运行的 (时长30分钟) Ray Dalio](https://youtu.be/rFV7wdEX-Mo)
     - [銀行家尼莫](https://www.facebook.com/bankernemo/posts/1497461480427590?__xts__%5B0%5D=68.ARBsY51gy-aqXEW9gs_y1Mq1mdxrMJ8iIXRoCOZfZfUg8rnARwh_utUR_x4li_notPuBVJ9b1Cwmj1EYejpTiOmJXURkPX8BDahleWnBvC8QX22KmmbkShx-QiU9vWCNDlxZjS5Wdb3cobJsEp2QnvgCXziZF1w6OewmwT9MGT-sEGbpefPVWJXuEI5eY3GOERsQqA7qlelw0ylX0MF5aZ-9fRMHBq8BiVPh4C6VptqXbGNSkiatIViPERVqDaju7jGfe-9q0EDgzJ3Nk2cLfhboqGVRL8Nj1XHoUVqT_koMAU-GT28VqUlk9gmiYlZ1-93frv2qU14oscEWyQ1NqrqOPg&__tn__=-R)
+        - [尼莫談人脈](https://bankernemo.blogspot.com/2018/07/blog-post_5.html?fbclid=IwAR2p5MENKB0yy7cyjddEYzG6h3IPxmtGxAQ03-5x70x35thwXPqvKvgUMdk)
     - 前公司相關
         - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
         - [群益期貨首席經濟學家/范振鴻Rico 暫時關掉?]()
@@ -162,6 +163,7 @@
         - [李忠孝](https://www.facebook.com/SmartLCH/)
         - [Miula的M觀點](https://www.facebook.com/miulaperspective/)
     - 這些蠻偏頗的比較偏向邏輯訓練
+        - [用名牌講解金融市場](https://www.facebook.com/csteve360/posts/10153964138317600)
         - 技術分析 
             - [蔡森](https://www.facebook.com/ts88888)
             - [騙線](https://www.facebook.com/wzagdrz/)
