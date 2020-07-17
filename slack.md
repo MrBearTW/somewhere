@@ -25,4 +25,4 @@
     4. 之後有打上班卡會出現勾勾，下班會出現叉叉。
 # 設定提醒
 - 在要設定提醒的頻道輸入 `/remind @人 事 時間` 
-- e.g. /remind @channel 提醒王銓勝連絡他同學 at mm/dd/yyyy 11:55
+- e.g. /remind @channel `提醒王銓勝連絡他同學` at mm/dd 11:55
