@@ -194,3 +194,7 @@ https://www.facebook.com/photo.php?fbid=2591510904194334&set=a.110864892258960&t
 https://www.toodyao.com/?p=1156
 `git remote -v`
 `git remote rm origin`
+
+
+- git pull 是 fetch + merge 一起做
+- 
