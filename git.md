@@ -197,4 +197,5 @@ https://www.toodyao.com/?p=1156
 
 
 - git pull 是 fetch + merge 一起做
-- 
+- hotfix 應從 master 開 branch
+    - [看圖](https://nvie.com/posts/a-successful-git-branching-model/)
