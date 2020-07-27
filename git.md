@@ -199,3 +199,13 @@ https://www.toodyao.com/?p=1156
 - git pull 是 fetch + merge 一起做
 - hotfix 應從 master 開 branch
     - [看圖](https://nvie.com/posts/a-successful-git-branching-model/)
+
+
+- git commit 設定時間 和 修改 commit 時間
+    - 參考資料 https://xkcoding.com/2019/01/21/modify-git-commit-timestamp.html
+    - 設定這一個 commit 時間 `git commit --amend --date="2020-07-27T00:00:00+0800" -am "這裡寫註解說明"`
+    - 修改之前 commit 的時間 `git commit --amend --date="2019-01-01T00:00:00+0800" -C edd2dbbe31fbab492f337628011119493a12a9c6`
+
+- 退回前一個 commit 
+    - reset ?
+    - drop ?
