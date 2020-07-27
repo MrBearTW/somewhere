@@ -32,12 +32,38 @@
 -------以下講完
 
 - 黃金圈
-    - 找到工作
+    - WHY 找到工作
+    - HOW 轉資料分析的工作
+    - WHAT 學 Python學 Python
 
-- luck
+- 紐約周遭的友人
 
 - 最近要上市的 Palantir
 
 - [精準預測](https://www.books.com.tw/products/0010598105)
 
 - Tablelu
+
+
+- 我再找一下資料
+py lady girl
+
+Facebook Developer Circle: NY
+
+GCP 雲端伺服器
+
+GA 是網站追蹤成效分析
+
+陳昇瑋 演講
+
+NY TIMES 的工作小組
+
+貼在哪
+
+厘鯉學院
+
+分析不一定要學 python
+
+https://www.udemy.com/ 的免費訊息 fb社群
+
+CRISP-dm 資料分析步驟
