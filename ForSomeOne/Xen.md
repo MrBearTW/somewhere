@@ -46,9 +46,9 @@
 
 
 - 我再找一下資料
-py lady girl
+- [Pyladies Taiwan](https://www.facebook.com/pyladies.tw)
 
-Facebook Developer Circle: NY
+- [Facebook Developer Circle: New York City](https://www.facebook.com/groups/DevCNewYork)
 
 GCP 雲端伺服器
 
