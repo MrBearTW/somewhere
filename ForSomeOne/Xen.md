@@ -67,3 +67,5 @@ NY TIMES 的工作小組
 https://www.udemy.com/ 的免費訊息 fb社群
 
 CRISP-dm 資料分析步驟
+
+- [移居紐約-美國移民家庭生活紀實](https://www.facebook.com/freshinny/)
