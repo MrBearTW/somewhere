@@ -72,3 +72,9 @@ CRISP-dm 資料分析步驟
 
 
 - 一直寫文章的[Huli](https://aszx87410.github.io/blog/medium)大大
+
+- [Google Style Guides](https://google.github.io/styleguide/)
+    - 有 python 的分類
+
+- 路過看到無法分類的
+	- [Negotiating Your Compensation Package](https://crossminds.ai/video/5f1ba1fc90adc8e590b4fd73)
