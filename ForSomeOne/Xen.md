@@ -60,7 +60,7 @@ NY TIMES 的工作小組
 
 貼在哪
 
-厘鯉學院
+
 
 分析不一定要學 python
 
@@ -72,6 +72,7 @@ CRISP-dm 資料分析步驟
 
 
 - 一直寫文章的[Huli](https://aszx87410.github.io/blog/medium)大大
+    - 厘學院
 
 - [Google Style Guides](https://google.github.io/styleguide/)
     - 有 python 的分類
