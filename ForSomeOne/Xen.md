@@ -34,7 +34,11 @@
 - 黃金圈
     - WHY 找到工作
     - HOW 轉資料分析的工作
+        - 客戶經理
+        - 業務
     - WHAT 學 Python學 Python
+        - 學 Power BI
+        - 學 Tableau
 
 - 紐約周遭的友人
 
