@@ -1,4 +1,4 @@
-去花店
+
 
 算成本
 
@@ -22,5 +22,10 @@ FB 群組
 - 拍照也是可以試試啦
 	- [王乾任的故事](https://www.facebook.com/ZENWANG/posts/10221657698205570?__cft__[0]=AZV0MM9IPNDve5U0reGtkIHLy9jKFTy9ihwYIUVv0rFe9DaEhOF_HftyYjUms88Eo7OdRiGztQStlYR3-gXCl0KqRRPkJK5UQKpBcIHFMFesLWxDjPr4ayHFXlSWN_5ZAz4&__tn__=%2CO%2CP-R)
 
+- 花藝
+	- 去花店
+	- 長期的課程
+
 - 彩妝
-- 指甲
+	- 新秘
+	- 眉毛指甲 (不是這兩個)
