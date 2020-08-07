@@ -3,7 +3,9 @@
 算成本
 
 - 創業
-	比爾李
+	- [李伯彥工作室](https://www.facebook.com/billstudio)
+		- [一起出來玩 Facebook 社團](https://www.facebook.com/groups/17gonplay)
+		- [李伯彥 Youtube 播放清單](https://www.youtube.com/playlist?list=PLrQG_tYv82k42jZQTof9nWI0GIh4Ud0yp)
 
 找書
 
