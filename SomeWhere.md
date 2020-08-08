@@ -1,3 +1,67 @@
+# 20200808
+找一個函式的能力
+回歸
+分類
+
+Generation 生成
+產生有結構的東西，文字圖片
+
+
+照片加入雜訊
+聲音是否為合成
+
+可解釋AI
+PNG JPG
+左下角有英文
+
+Catastrophic forgetting 災難性遺忘
+機器的終身學習
+
+更有效率的學期
+學星海用了200 年 by
+
+學習如何學習 Meta learning
+根據資料找一個「找一個函數f」的函數f的能力
+
+機器學習->找一個函數的能力（依靠數據）
+
+
+
+觀察cpu procdss
+追根究底
+研究gcc是怎麼做的
+
+
+CICD 步驟
+連結ci服務
+Add testing scripts
+Add packing scripts
+Add deploying scripts
+Implement 
+
+CI 太久怎麼辦
+CD太久怎麼辦
+—-
+可重構式光塞取多工器
+—-
+
+縮網址
+https://github.com/tyzesc/s/blob/gh-pages/script.gs
+——-
+Cupertio(iOS weigt)
+
+
+Fuchsia
+
+
+DartPad
+找投影片
+—-
+
+Cloudflare
+CloudFlair
+
+
 # 2020/06/18 91APP 電商技術大解密
 ## 議程一： 呂致緯（Zhi-Wei Lu）資深軟體工程師  
 - 主題：新促購機制——抽象化系統設計思維以促購引擎為例
