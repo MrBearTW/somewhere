@@ -2714,3 +2714,8 @@ non static to static
         - 都是有一個 design pattern 在背後
 
 - The primary danger of facades is class scope creep.
+
+# Traits tenant
+ - multi tenant 隔開來的技術 有 [多租戶技術 wiki](https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%A7%9F%E6%88%B6%E6%8A%80%E8%A1%93) 再讀一下
+        - [AWS Firecracker](https://aws.amazon.com/tw/blogs/aws/firecracker-lightweight-virtualization-for-serverless-computing/) 也有用到
+- Traits，請看 [manual](https://www.php.net/manual/en/language.oop5.traits.php)
