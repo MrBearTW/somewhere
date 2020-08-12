@@ -1,3 +1,65 @@
+
+# 2020/08/12
+
+https://github.com/cdkmeetup/taiwan-meetup-august2020
+CDK 讓你用來描述你要去打造的東西
+
+
+19:10 – 19:20 Talk 1：AWS CDK 最新更新回顧 (Service update recap on AWS CDK)
+
+
+CDK8S
+CDK8S+ -> L2 省略
+
+CDK8S patterns
+CDK & CDK8S 綜合應用的影片
+
+CDK for Terraform
+
+CDK pipeline 在 developer 階段
+
+
+19:20 – 19:50 Talk 2：Rule the World Through IaC
+
+HCL
+HashiCorp Configuration Language (HCL)
+
+Typescript 透過cdkdf 轉換成 Terraform
+
+Terraform provider 
+
+目前還不要用在工作上
+文件太少
+錯誤提醒不清楚
+
+IaC 可以即時管理架構
+PaC 可以增加公司管理資安
+
+https://link.medium.com/wo3lnnZhT8
+
+
+19:50 – 20:20 Talk 3：CDK x Terraform 跨雲演出 (Multi-Cloud Container Applications with CDK for Terraform)
+
+Swagger check
+
+cdktf deploy
+
+
+
+20:20 – 20:30 Break
+
+20:30 – 21:00 Talk 4：透過 AWS CDK 建立自動化部署機制 (Automate a CI/CD pipeline with SlackBot Interaction with AWS CDK)
+
+Approval stage
+
+
+
+21:00 – 21:30 Talk 5：CDK 部署基于 CloudWatch 的监控与告警 (Building Real-time Monitoring and Alert Systems with Amazon CloudWatch and AWS CDK)
+
+
+
+
+
 # 2020/06/20
 - [Ernest 的一句話描述 AWS 服務](https://www.ernestchiang.com/zh/notes/aws/products/#compute)
 
