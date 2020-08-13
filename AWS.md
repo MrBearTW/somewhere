@@ -5,6 +5,8 @@ https://github.com/cdkmeetup/taiwan-meetup-august2020
 CDK 讓你用來描述你要去打造的東西
 
 
+[AWS CDK 介紹](https://aws.amazon.com/tw/cdk/)
+
 19:10 – 19:20 Talk 1：AWS CDK 最新更新回顧 (Service update recap on AWS CDK)
 
 
