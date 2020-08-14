@@ -12,6 +12,7 @@
     - 選擇
         - Leave Type
         - Duration Type
+            - 跨週末的話不會自動扣掉週六日
         - 不同選擇可能會有更多選項
     - `Add commit` 加上註解
     - 送出之後會送到主管那邊
