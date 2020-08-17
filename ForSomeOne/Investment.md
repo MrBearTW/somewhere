@@ -1,8 +1,11 @@
 1. 存夠6個月的生活費
-2. 除了儲蓄險之外的，[保險](https://www.facebook.com/329896911051695/photos/a.358878471486872/510654386309279/?type=3&__xts__%5B0%5D=68.ARBuyMOo1kILUtABl2KfLzx67nHlTwqcSiJ6dwyP3JiNgTZKZceVqiCqYJLY4SF57zfBaaxd_bcwWGSlmHR0AqwVN06Nya4FAHimNRcpoq3mSZETahTWn1NkcQeVrjXDxwtSpZFqJP3Jjx6jub_fdk5IhZ11IuzpMAYRq1VlGfXzKmrlwj0jeW7sNj8sfUtauglPZlJHU6XymsMgH-guK8eTsuyXV1uogMkZ5lD-qM_PAIWaDcKaMwn6Z4BACWLwS7s-SRfPVMkaejSl1t2tKb3UNa_2QMnvQzSzeF2DQBtNz2R_dUVF63SuKvzGbfYt1S2AzjPRJKqdgspfVOtG81kc0y18T3FC6c5zHOQGf_O7x5hCCDC9qQ&__tn__=-R)買一買
+2. 除了儲蓄險和投資型保單之外的，[保險](https://www.facebook.com/329896911051695/photos/a.358878471486872/510654386309279/?type=3&__xts__%5B0%5D=68.ARBuyMOo1kILUtABl2KfLzx67nHlTwqcSiJ6dwyP3JiNgTZKZceVqiCqYJLY4SF57zfBaaxd_bcwWGSlmHR0AqwVN06Nya4FAHimNRcpoq3mSZETahTWn1NkcQeVrjXDxwtSpZFqJP3Jjx6jub_fdk5IhZ11IuzpMAYRq1VlGfXzKmrlwj0jeW7sNj8sfUtauglPZlJHU6XymsMgH-guK8eTsuyXV1uogMkZ5lD-qM_PAIWaDcKaMwn6Z4BACWLwS7s-SRfPVMkaejSl1t2tKb3UNa_2QMnvQzSzeF2DQBtNz2R_dUVF63SuKvzGbfYt1S2AzjPRJKqdgspfVOtG81kc0y18T3FC6c5zHOQGf_O7x5hCCDC9qQ&__tn__=-R)買一買
 3. 年金 勞保 勞退 健保
-4. 自己要住的房貸
-5. 可投資的錢且不只投入單一股市
+4. 自己要住的房貸 / 車貸
+5. 可投資的錢
+    - 實業投資
+    - 長期買樂透彩
+    - 不只投入單一標的
 
 
 - 事實 與 觀點
@@ -39,8 +42,8 @@
         - [台美房屋稅制差異](https://www.facebook.com/permalink.php?story_fbid=2637905226452104&id=1545911848984786&__xts__%5B0%5D=68.ARAzGiCSL1E4xnRLONrcsltCQgILxpDqi2IjuvPHWJjEFFo2VGZcH1V9BDDHRkB7cZaSuwcJvJYa5PANpl_hMb2SNDd2eaRUVf-y-yB7xt-BdPNiSwEmlgBLv3wzv_RnKDwmfzkLrLeX8Nc9ylBICxh2itjoccsFYzPjVNdLMTSJwyIIrQd5vJ8juUQU7FNempkerP_TLTQmFWPAga7r-8eaepl3rxFAPx1xD-dVHfn6CHKHFRqboStOKi03lMgzHJVhy8p3xNTCcwdnXuZ_8FFxpZ6OMgwoIdrJRYK-O6yq8g8s-nZKY_SWcG1mwE3OX6fl_GUAkQje7QP5tzGF0X7E6yVs&__tn__=-R)
         - 房租約是 XXX萬 * 2~2.5% /12
         - 房貸速算 每一百萬
-            - 20 年 5000
-            - 30 年 4000
+            - 貸 20 年，每月 5000
+            - 貸 30 年，每月 4000
     - 晚上睡得著 vs. 一些焦躁的 LINE 群組
     - 一夜致富的可能性
     - 量級的問題
