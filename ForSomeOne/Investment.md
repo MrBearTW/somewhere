@@ -196,3 +196,8 @@
         - [美國是一個盛行訴訟的地方](https://www.ptt.cc/bbs/Stock/M.1591449252.A.FD6.html)
         - [單就毛利率來看](https://www.facebook.com/yupupin/posts/3796908833658186)
         - [真人美股配置](https://www.facebook.com/jacky.hsueh.52/posts/3101186613267618)
+
+- 下次再說
+    - 收時間價值
+    - 權證
+    - 小賠大賺，大轉小賠
