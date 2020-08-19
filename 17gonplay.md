@@ -16,3 +16,7 @@ https://www.17gonplay.com/activitydetail/bji8v8ujh24?fbclid=IwAR0CxNyh9PMHXCkh0Y
     1. 不要怪罪任何眼前的現實條件
     1. 不要因眼前事情難突破就想找新方法
     1. 不要自己騙自己
+
+- [一起出來玩行銷 033 銷售的最高境界](https://youtu.be/lE_BmqzixmE)
+    1. 合一的境界
+    1. 得到非常好的體驗，圓滿自信地完成這筆交易
