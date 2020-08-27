@@ -42,3 +42,6 @@ https://www.pcparty.com.tw/products/%E5%89%B5%E5%82%91-ducky-skyline%E5%A4%A9%E9
 
 - 擷取工具可以直接按 `Shift + Win + S` 截圖之後也可以從通知中心直接進到編輯
 - `Win + .` 可以叫出表情符號喔
+
+- 多合一轉 type-C
+    - [【QPNP】Type C3.1 極速PD七合一HUB for macbook / Surface / ipad pro](https://24h.pchome.com.tw/prod/DCADJ5-A900A2QVT)
