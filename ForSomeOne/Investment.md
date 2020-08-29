@@ -211,4 +211,6 @@
     - 漲或跌沒差，怎麼做才是重點
     - 尊重市場，沒有人在弄你
     - [鄉民股票代稱整理](https://pttpedia.fandom.com/zh/wiki/PTT%E4%BC%81%E6%A5%AD%E7%B6%BD%E8%99%9F%E5%88%97%E8%A1%A8?fbclid=IwAR1zOOhG_-OE5Z1J9YbFBvtkjMcx-UbnXR3iHysF66D2Qa6Zrzs65fPmWxs)
-    
+
+- 記錄一下各路大神推薦的理財書籍
+    - 
