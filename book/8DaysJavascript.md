@@ -99,3 +99,46 @@
 
 - BOM: JavaScript 與「瀏覽器」溝通的窗口，不涉及網頁內容。
 - DOM: JavaScript 用來控制「網頁」的節點與內容的標準。
+
+Day 1　JavaScript 的起源與基礎 (上)
+♦ JavaScript簡史
+♦ 基礎知識與資料型別
+♦ 物件、陣列以及型別的判斷
+♦ 運算式與運算子
+
+Day 2　JavaScript的起源與基礎 (下)
+♦ 自動轉型的規則
+♦ 流程判斷與迴圈
+♦ 函式的基本概念
+♦ JavaScript是「傳值」或「傳址」？
+
+Day 3　前端工程師的主戰場：瀏覽器裡的JavaScript (上)
+♦ 瀏覽器的物件模型：DOM 與BOM
+♦ 透過DOM API查找與遍歷節點
+♦ DOM Node的建立、刪除、修改與外觀
+♦ BOM與window物件
+
+Day 4　前端工程師的主戰場：瀏覽器裡的JavaScript (下)
+♦ 事件機制的原理
+♦ 網頁的事件與生命週期
+♦ 隱藏在「事件」之中的秘密
+
+Day 5　深入理解JavaScript核心：函式、物件、原型鍊 (上)
+♦ 再談函式與參數
+♦ Callback Function與IIFE
+♦ 從Callback到Promise
+♦ 從setTimeout與setInterval理解EventQueue
+
+Day 6　深入理解JavaScript核心：函式、物件、原型鍊 (中)
+♦ 閉包(closure)
+♦ What's "THIS" in JavaScript
+
+Day 7　深入理解JavaScript 核心：函式、物件、原型鍊 (下)
+♦ 深入理解JavaScript物件
+♦ 內建物件與包裹器
+♦ 物件的原型鏈與繼承
+♦ ES6的Class語法糖
+
+Day 8　JavaScript 的現在與未來
+♦ 從Page到Application談前端生態圈的演變
+♦ JavaScript的現在與未來
