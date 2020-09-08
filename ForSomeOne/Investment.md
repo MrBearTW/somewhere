@@ -223,3 +223,6 @@
     - [閃電崩盤](https://www.facebook.com/segacheng/posts/10105679310652723)
     - 以下為社會類
     - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
+
+- 有趣的創業
+    - [男前豆腐](https://www.facebook.com/wakaba.hiroshi/posts/3032644923531612)
