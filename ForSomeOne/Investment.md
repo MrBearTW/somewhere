@@ -221,6 +221,8 @@
     - [舉債致富](https://www.facebook.com/tclu513/posts/10220435417210384)
     - [我的庶民養錢術](https://www.facebook.com/redhousei/posts/3488852671154275)
     - [閃電崩盤](https://www.facebook.com/segacheng/posts/10105679310652723)
+    - [信任邊際](https://www.facebook.com/redhousei/posts/3610427025663505)
+    - [競爭之死](https://www.facebook.com/joshu.wang1978/posts/10222028854444180)
     - 以下為社會類
     - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
 
