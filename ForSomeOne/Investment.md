@@ -100,6 +100,7 @@
     - [怪老子理財](https://www.facebook.com/masterhsiao/)
     - [股癌 Gooaye](https://www.facebook.com/Gooaye/)
     - [明日四維羅的價值筆記 Los PE](https://www.facebook.com/lospefund)
+        - [推薦的 Telegram](https://www.facebook.com/lospefund/posts/2783624481963144)
     - [幣圖誌Bituzi](https://www.facebook.com/bituzi/)
     - 經濟類的
         - 經濟這一件事情
@@ -229,6 +230,3 @@
 
 - 有趣的創業
     - [男前豆腐](https://www.facebook.com/wakaba.hiroshi/posts/3032644923531612)
-
-
-四維 telergram 群組
