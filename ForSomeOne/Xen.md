@@ -83,3 +83,6 @@ CRISP-dm 資料分析步驟
 
 - 路過看到無法分類的
 	- [Negotiating Your Compensation Package](https://crossminds.ai/video/5f1ba1fc90adc8e590b4fd73)
+
+- CS50 哈佛知名電腦科學基礎課
+    - [剛好看到的完課心得](https://www.facebook.com/groups/556507217856457/permalink/1617341105106391/)
