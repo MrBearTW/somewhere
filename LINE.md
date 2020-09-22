@@ -1,3 +1,51 @@
+# 2020/09/22 TW BECKS No.7
+## Detect and track Apple devices for fun and profit - Ta-Lun Yen / TXOne Networks (Trend Micro) Threat Researcher
+UCCU Hacker 社群
+
+Continuity Protocol
+
+用筆電叫手機開熱點,會洩漏兩邊的 MAC 號碼
+
+
+Glossary
+
+Private resolve address
+Out-of-band 
+
+Ubertooth
+
+Wifi Anonymizes 
+
+Apple eee scanner
+
+## From NLP to Neural Network based Malware Detection - aaaddress1 / Chroot member
+
+利用機器學習來快速判斷惡意程式
+
+工具
+- https://blog.csdn.net/whg0001/article/details/7263031
+- https://github.com/matterpreter/DefenderCheck
+
+
+Sigmoid
+
+
+Asm2vec 論文
+https://www.computer.org/csdl/proceedings-article/sp/2019/666000a038/19skfc3ZfKo
+
+
+
+Mirai 病毒
+只用 25個樣本，約95 % 正確
+
+Mirai 和 ls 約有 60多%相似
+
+執行程式
+靜態掃描器 random walking
+
+https://speakerdeck.com/aaaddress1
+
+
 # 2019/12/4 LINE 台灣年度開發者大會 LINE TECHPULSE 2019
 大主管的碩士主修
 Fuzzy logic
