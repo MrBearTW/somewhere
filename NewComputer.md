@@ -1,8 +1,16 @@
+Mac
+- docfiles
+    - 比較好懂得中文說明 https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
+    - 比較好懂得英文說明 https://github.com/amowu/dotfiles
+
+--- 以下是 Windows 相關 ---
 寫code字體  
 部落格https://blog.miniasp.com/post/2017/12/06/  Microsoft-YaHei-Mono-Chinese-Font-for-Command-Prompt-and-WSL.aspx  
 下載連結https://github.com/doggy8088/MicrosoftYaHeiMono-CP950  
   
 - CMD軟體 ConEmu   
+
+
 
 
 - Chrome設定
