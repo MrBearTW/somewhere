@@ -1,56 +1,53 @@
-# 2020/09/24
-卡片內 的 SDK 用 Web test
-Miniben 自動化 ，
+# 2020/09/24 
+- 為了給卡片內第三方開發寫了 
+    - SDK 可用於 Web test
+- 手工 Ben => Miniben 自動化 
 
-第三方測試
-不安全的電波
+- 第三方測試
+    - 不安全的電波偵測出密碼
 
+- SYGNA 合規服務
+    - 訊息交換平台
 
-SYGNA 合規
-訊息交換平台
+- SIT system integrate test
 
-SIT system integrate test
-
-EC2 
-Lambda
-VPC to VPC  NAT
-
-ENI
+- EC2 
+- Lambda
+- VPC to VPC  NAT
+- ENI 虛擬網卡
 
 alexcasalboni/aws-lambda-power-tuning
+- [lambda 效能調整](https://github.com/alexcasalboni/aws-lambda-power-tuning)
 
-
+- 做成報告
 ——
-Execution time allowance
-Spindump
 
-Parallel distributed testing 
-Xcodebuild test
-可多臺跑，節省30%時間
-可指定裝置種類
- No dependency between test
- 無法多帳號
+- Execution time allowance
+    - Spindump
+    - Parallel distributed testing 
+    - Xcodebuild test
+    - 可多臺跑，節省30%時間
+    - 可指定裝置種類
 
-多種iOS Parallel destination testing 
+- No dependency between test
+- 無法多帳號
 
+- 多種新舊 iOS => Parallel destination testing 
 
+- UI interruption handling
+    - Banner notifications handling 
+    - 別人傳訊息
+    - 系統訊息
 
+- User permission 
 
-UI interruption
+- Xcode 11.4 之後
+- XCTSkip iOS13.4後支持
+- 意料內的才適合skip，意料外的就要跳出提示
 
-Banner notifications handling 
-別人傳訊息 或 系統訊息
+- 推薦看一下 [Write tests to fail](https://developer.apple.com/videos/play/wwdc2020/10091/) 有一些心法值得參考
 
-User permission 
-
-Xcode 11.4 之後
-XCTSkip iOS13.4後支持
-意料內的才適合skip
-
-推薦看一下 心法Write test to fail wwdc20
-
-
-XCTIssues
+- XCTIssues
 
 - storekit
 
@@ -58,10 +55,9 @@ XCTIssues
 - No consumable 
 - Auto-renewable subscription 
 
--iOS 14 Reset eligibility 
--Client code
---server to server 還是要自己來
-
+- iOS 14 Reset eligibility 
+- Client code
+    - server to server 還是要自己來
 
 # 2019/11/26 Test Corner #24 @Taipei digiBlock
 - 活動紀錄 https://testcorner.io/flarum/d/15-test-corner-24-digiblock-taipei
