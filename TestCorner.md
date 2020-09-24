@@ -1,3 +1,68 @@
+# 2020/09/24
+卡片內 的 SDK 用 Web test
+Miniben 自動化 ，
+
+第三方測試
+不安全的電波
+
+
+SYGNA 合規
+訊息交換平台
+
+SIT system integrate test
+
+EC2 
+Lambda
+VPC to VPC  NAT
+
+ENI
+
+alexcasalboni/aws-lambda-power-tuning
+
+
+——
+Execution time allowance
+Spindump
+
+Parallel distributed testing 
+Xcodebuild test
+可多臺跑，節省30%時間
+可指定裝置種類
+ No dependency between test
+ 無法多帳號
+
+多種iOS Parallel destination testing 
+
+
+
+
+UI interruption
+
+Banner notifications handling 
+別人傳訊息 或 系統訊息
+
+User permission 
+
+Xcode 11.4 之後
+XCTSkip iOS13.4後支持
+意料內的才適合skip
+
+推薦看一下 心法Write test to fail wwdc20
+
+
+XCTIssues
+
+- storekit
+
+- Consumable 
+- No consumable 
+- Auto-renewable subscription 
+
+-iOS 14 Reset eligibility 
+-Client code
+--server to server 還是要自己來
+
+
 # 2019/11/26 Test Corner #24 @Taipei digiBlock
 - 活動紀錄 https://testcorner.io/flarum/d/15-test-corner-24-digiblock-taipei
 ## 如何讓寫 Test 在不知不覺中, 變成習慣, 方便測試的角度來開發專案, 再從基本的Unit Test 漸漸打造成 Integration Test, 輔以 Airbnb design pattern 概念來開發, 進化測試與開發代碼. 使用技術為XCTest framework 
