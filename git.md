@@ -208,4 +208,5 @@ https://www.toodyao.com/?p=1156
 
 - 退回前一個 commit 
     - reset ?
+        - `git reset --soft HEAD~1`
     - drop ?
