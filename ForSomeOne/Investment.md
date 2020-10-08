@@ -149,6 +149,7 @@
         - 竊聽風雲
     - 影集
         - [金錢戰爭](https://www.facebook.com/Seraphthought/photos/a.760806657273947/3074320049255918/?type=3&__xts__%5B0%5D=68.ARCSXUnLpmhRXv9h2x-a5XSLiVzPWAfLRjcTXcSCtSdoUlEL6yHJFCi6qvN8Zz_cgS4ReQg5CoKrvlJotJ_d8bnD5dizTGwA09Z3j-tSsBH72HIiW91gTGF3Z50YlcVsQwJ-NRijRQA3pAWx2n9ju3qdGgj4uzCInpksuo_DFlTeayxphqx6JOUdS_qNT9mORPVZxzBZ4QjOItoINOEk_D6qLQNLyBJpk3TxA94UPe3wR5MDjP29YV0gZ6mBY_Gs4k3J1WYnNO3xKp61of0Ph-h4APP-Qkz0hwipiD3Z2DHZUE9CCdAZpzQZzjWoF-Xwi9jzisKa21PGDpqkv32Du2eozcGhJ6sn0AqXB8kQwugWLyEtquylnhs&__tn__=-R)
+            - 改編自這本書[買下全世界](https://www.facebook.com/FinanceAndGoodSociety/posts/207215110767233)
             - 一個想法，然後去驗證
                 - 歷史上來看
                 - 是要騙你來當韭菜嗎？
@@ -230,6 +231,8 @@
     - [閃電崩盤](https://www.facebook.com/segacheng/posts/10105679310652723)
     - [信任邊際](https://www.facebook.com/redhousei/posts/3610427025663505)
     - [競爭之死](https://www.facebook.com/joshu.wang1978/posts/10222028854444180)
+    - [黑色優勢](https://www.facebook.com/FinanceAndGoodSociety/posts/207215110767233)
+    - [買下全世界](https://www.facebook.com/FinanceAndGoodSociety/posts/207215110767233)
     - 以下為社會類
     - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
 
