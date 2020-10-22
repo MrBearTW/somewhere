@@ -94,6 +94,7 @@
         - [Marketing Manager 林威宇](https://www.facebook.com/uyiewnil)
     - [StockFeel 股感，來自生活](https://www.facebook.com/StockFeel.page/) 圖片精美
     - [綠角](https://www.facebook.com/GreenHornFans/posts/2408725559157188?__xts__%5B0%5D=68.ARByrfp-ta01ERHZMiT2MoVb-Busx82t7NvZvLWasOgGE-HYNyiajBFntJzdIh-YsBU22w6opgsRM5H-_khjUskKyWkZmueABY6n7fVFKmeqEoTXmzBNgtMFAbuZXtrL5qnRUydihc149Z1mREsbT-GVgpZIzG60s7e2JT_J3stn-DjkDQ-HiHIa23cTDWMQ5H41tCyyrQKGUQpaC6Ck86VDhPJIKb5cAhwE0pdBM2OTZMKNeuaSdDOyVGNThndWlAW6CSXzPy_0lnGNl4vmP-s8-crfTiAkalQTe0FLpqBjrBCsPDCqvHJe8T4f2S3Wckjg5FAhyEbYLrgvJVdGpD3B6A&__tn__=-R)
+        - [綠角推薦書單](https://greenhornfinancefootnote.blogspot.com/2008/10/blog-post.html)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2692820447495975?__xts__%5B0%5D=68.ARAvdw1M1S6mZG1litAolyvbDZcCXLQYwsvPkPfKaCRD7UQ6LE2B5xe3XnOoeVXZE6sEQGdA0fb2GseI7ZhwrrxzVnOw_wF32di0n-XPS0N-RyNDnk1IU-KWwBT0zrYdMAIkkOQGvv_UjfYuVLvr3Xf8iKjEdB-fvBGj_7yishPdRYXQP-Q3JaD8b-KN8Q7wMeOLQuBrWjJDsRO2DWvcfZXkVIzzB_Gu5hurd8XuAgwlc24oJ_UcT1KJ-i3wcdxc5C6GhoBRPUjAwQMve6wMRe9NgldFDGzGFFr3HSwBzwfCJqAparcHncinDq1xVMlFQdrHCEMfYefgBv_tSP7GwJ7zNtdM5ZtEquwLuudO2xBNc-iQBsM&__tn__=-R)
     - [MacroMicro 財經M平方](https://www.facebook.com/macromicro.me/)
     - [基金黑武士](https://www.facebook.com/fundblacksamurai/photos/a.1036482816368765/3521359891214366/?type=3&theater)
