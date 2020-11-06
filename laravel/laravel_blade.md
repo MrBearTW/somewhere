@@ -108,8 +108,15 @@
 ### Component Methods
 ### Using Attributes & Slots Inside The Class
 ### Additional Dependencies
+- 若需要 Laravel's service container 在所有 Components 資料屬性之前列出，會自動導入這一個 container
 
 ## Managing Attributes
+- 修改 div 參數
+
+### Default / Merged Attributes
+### Non-Class Attribute Merging
+
+
 ## Slots
 ## Inline Component Views
 ## nonymous Components
