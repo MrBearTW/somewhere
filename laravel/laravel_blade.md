@@ -118,9 +118,15 @@
 
 
 ## Slots
+
 ## Inline Component Views
-## nonymous Components
+## Anonymous Components
 ## Dynamic Components
 
 
 - @components -> @slots
+    - 用 ＠slot('AAA')  ＠endslot 去配對 component 內 {{$AAA}} 的資料
+    - $slot 是保留字
+        - {{$slot}} 會將被夾在 ＠component ＠endcomponent 中的內容放入，不用放入 slot 指定
+    - 若有一些 slot 是選擇性的，可用 ＠if (isset($button)) @endif
+        - 或 {{$button or "default name"}}
