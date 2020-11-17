@@ -34,7 +34,8 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 
--  as a row or as a column
+    -  as a row or as a column 選擇不同的軸線
 
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background)
+    - 看圖比較好懂
