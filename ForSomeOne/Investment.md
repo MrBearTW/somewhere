@@ -234,8 +234,9 @@
     - [競爭之死](https://www.facebook.com/joshu.wang1978/posts/10222028854444180)
     - [黑色優勢](https://www.facebook.com/FinanceAndGoodSociety/posts/207215110767233)
     - [買下全世界](https://www.facebook.com/FinanceAndGoodSociety/posts/207215110767233)
+    - [股市真規則](https://www.facebook.com/redhousei/posts/3817042148335324)
     - 以下為社會類
-    - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
-
+        - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
+    
 - 有趣的創業
     - [男前豆腐](https://www.facebook.com/wakaba.hiroshi/posts/3032644923531612)
