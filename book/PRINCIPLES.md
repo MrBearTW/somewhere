@@ -17,6 +17,7 @@
 - 商品期貨
 - 每日產出報告[Daily Observations](https://www.bridgewater.com/research-and-insights)
 3 我的低谷（1979—1982年）
+- 看對但提早出場
 4 我的考驗之路（1983—1994年）
 5 最大的勝利（1995—2010年）
 6 回饋（2011—2015年）
