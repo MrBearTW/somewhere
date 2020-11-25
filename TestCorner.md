@@ -1,3 +1,30 @@
+# 2020/11/25 Test Corner #28 @ Cathay DDT(國泰金控數數發中心) 國泰軟體測試工程團隊大揭密
+New Hjghs
+
+
+QA Coe 建置
+ALM 導入（微軟）
+軟體測試導入
+
+
+Api 測試
+封測
+外部測試
+小樹點 聯盟鏈
+
+Scrum
+
+Testrail
+
+紀錄每一個test case 花掉的時間
+迭代
+
+資安
+有發生過的就拿sample code 打打看，打不過就不能進入下一個stage
+
+
+Main line 
+
 # 2020/09/24 
 - 為了給卡片內第三方開發寫了 
     - SDK 可用於 Web test
