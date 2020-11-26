@@ -1,29 +1,51 @@
 # 2020/11/25 Test Corner #28 @ Cathay DDT(國泰金控數數發中心) 國泰軟體測試工程團隊大揭密
-New Hjghs
+- New Hjghs 計畫
 
+- 從 2016 三人 到 2020 30 人
 
-QA Coe 建置
-ALM 導入（微軟）
-軟體測試導入
+- 定位
+    - SDET 是 Software Development Engineer in Test
+        - 國泰分法 TQA 寫 code / debug / 發展測試計畫 / 自動化
+        - Coding v.s Testing = 3:1
+    - STE 是 Software Test Engineers
+        - 國泰分法 SQA 了解業務目標 / 定義通過或缺點 / 測試軟體 / 人工
+        - Coding v.s Testing = 1:3
 
+- QA Coe 建置
+- ALM 導入（微軟）
+- 軟體測試導入
 
-Api 測試
-封測
-外部測試
-小樹點 聯盟鏈
+- 神訪資訊
+    - 誠信 當責 創新
+    - 國泰健檢中心
 
-Scrum
+- Api 測試
+- 封測
+- 外部測試
+- 小樹點 聯盟鏈
 
-Testrail
+- 壓力測試工具
+    - Jmeter
+    - K6 / Locust
 
-紀錄每一個test case 花掉的時間
-迭代
+- Scrum
 
-資安
-有發生過的就拿sample code 打打看，打不過就不能進入下一個stage
+- 一年工作心得
+    - 弄懂商業邏輯再寫測試
+    - 報表測試預計一天，變成弄好幾個月
+    - 善用開源工具
 
+- 工具    
+    - pytest 的 Parametrizing tests
+    - Testrail Comprehensive Test Case Management
 
-Main line 
+- 紀錄每一個test case 花掉的時間
+- 迭代
+
+- 資安
+- 有發生過的就拿sample code 打打看，打不過就不能進入下一個stage
+
+- QA 發問的人已經改成 Main line ，而不是使用 master 這個字
 
 # 2020/09/24 
 - 為了給卡片內第三方開發寫了 
