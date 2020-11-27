@@ -2715,7 +2715,22 @@ non static to static
 
 - The primary danger of facades is class scope creep.
 
-# Traits tenant
+# tenant
  - multi tenant 隔開來的技術 有 [多租戶技術 wiki](https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%A7%9F%E6%88%B6%E6%8A%80%E8%A1%93) 再讀一下
         - [AWS Firecracker](https://aws.amazon.com/tw/blogs/aws/firecracker-lightweight-virtualization-for-serverless-computing/) 也有用到
+# Traits 
+- 一個 funnction 要給多個使用時，要寫成 Traits
+  - 寫成 Traits，使用時要 include + use
+- function 名稱相同時
+  - 指定使用 Laser::power insteadof Projector;
+  - 加代名詞 Projector::power as Power;
+- Traits 裡面可以引用 Traits
+  - 若 function 名稱相同時
+  - 原 class > 第一層 Traits > Traits 引用的 Traits
+- abstract function 也可以寫在 Traits 內
+- 可以在 Traits 內建立 properties (建立變數使用)
+
+
 - Traits，請看 [manual](https://www.php.net/manual/en/language.oop5.traits.php)
+ 
+- abstract function 是什麼？
