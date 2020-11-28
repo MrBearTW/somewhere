@@ -99,17 +99,47 @@ echo $user->getPass();  // 多 getPass 這個 function，可以拿到 private �
 ## OOP PHP | Abstract Classes ans Functions #10
 - abstract class 可以被 extends 當 Interface 來使用
 - abstract class 不能被實作
-- （寫在 abstract class 內的） abstract function 一定要被實作
+- 寫在 （abstract？） class 內的 abstract function 一定要被實作
 
 ## OOP PHP | What is Type Hinting #11
+```php
+$price = 5566;
+public function price(int $price){
+
+}
+```
+- 在輸入（$price）的前方可以加上一個限制 int ，一定要是 int
+    - int 可以換成 array 或其他
+    - 也可以要求是一個 object
 
 ## OOP PHP | Static Methods and Properties #12
+- `::` Scope Resolution Operator 
+```php
+User::getName();
+```
+- 在 function 前加上 Static 就可透過
+- 有一些狀況 `this->` 不能用要改成 `self::`
+```php
+class User{
+    static public $name = 'AAA'
+    static public function getName(){
+        // return $this->$name = 'BBB'      // 要改成 self
+        return self::$name = 'BBB'
+    }
+}
+User::getName();    // use as autility perpose or as counters
+echo User::$name;
+```
 
 ## OOP PHP | Constant and Their Uses #13
+- Constant 前不用加 `$`
+
+## OOP PHP | Overriding Methods #14
+- 子 class 的 function 會優先於 父 class 的 function
+- 子 class
 
 ## OOP PHP | Early binding and Late Binding #15
 
-## OOP PHP | Overriding Methods #14
 
 ## OOP PHP | Late Static Binding #16
 
