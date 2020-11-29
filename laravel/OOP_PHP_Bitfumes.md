@@ -136,10 +136,11 @@ echo User::$name;
 
 ## OOP PHP | Overriding Methods #14
 - 子 class 的 function 會優先於 父 class 的 function
-- 子 class
+- 子 class 可以被 Overriding
 
 ## OOP PHP | Early binding and Late Binding #15
-
+- Early binding: binding on the compileing time
+- Late Binding: runtime binding
 
 ## OOP PHP | Late Static Binding #16
 
