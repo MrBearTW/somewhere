@@ -143,15 +143,57 @@ echo User::$name;
 - Late Binding: runtime binding
 
 ## OOP PHP | Late Static Binding #16
+- 當 extend 和 被extend 用了同一個 function name，到底用了哪一個 function 
+- runtime binding not compileing time
+- self::author(); => static::author();
+    - author() 是出現 extend 和 被extend 的 function 
 
 ## OOP PHP | Final Method and Final class #17
+- 保護 function 不會被 Overriding
+    - e.g. final public static function author();
+- 在 class 前加 final ，就不能被 extend 了
 
 ## OOP PHP | Autoload Class #18
+- Standard PHP Library (SPL)
+- include "autoload.php"
+- autoload.php 內容
+```php
+spl_autoload_register(function($class)){
+    $filename = $class.'php';
+    if (!file_exists($filename)){
+        return false;
+    }
+    include $filename;
+}
+```
 
 ## OOP PHP | Namespaces in PHP #19
+- A virtual Directory Structure for class in global space 
+- Defined at top
+- PHP > 5.3
 
+- $object = second \A; // qualied class name
+- $object = new A; // unqualied class name FQCN
+- $object = new \A; // fully qualied class name FQCN
+
+- use namespace\classname 指定使用哪一個 class
+    - use namespace\classname as NewAAA 可以建立
+# Traits 
 ## OOP PHP | What is Traits and Why we need it #20
-
 ## OOP PHP | Multiple Traits #21
-
 ## OOP PHP | Traits: Abstract Functions and Properties #22
+- 一個 funnction 要給多個使用時，要寫成 Traits
+  - 寫成 Traits，使用時要 include + use
+- function 名稱相同時
+  - 指定使用 Laser::power insteadof Projector;
+  - 加代名詞 Projector::power as Power;
+- Traits 裡面可以引用 Traits
+  - 若 function 名稱相同時
+  - 原 class > 第一層 Traits > Traits 引用的 Traits
+- abstract function 也可以寫在 Traits 內
+- 可以在 Traits 內建立 properties (建立變數使用)
+
+
+- Traits，請看 [manual](https://www.php.net/manual/en/language.oop5.traits.php)
+ 
+- abstract function 是什麼？

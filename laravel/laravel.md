@@ -2718,19 +2718,90 @@ non static to static
 # tenant
  - multi tenant 隔開來的技術 有 [多租戶技術 wiki](https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%A7%9F%E6%88%B6%E6%8A%80%E8%A1%93) 再讀一下
         - [AWS Firecracker](https://aws.amazon.com/tw/blogs/aws/firecracker-lightweight-virtualization-for-serverless-computing/) 也有用到
-# Traits 
-- 一個 funnction 要給多個使用時，要寫成 Traits
-  - 寫成 Traits，使用時要 include + use
-- function 名稱相同時
-  - 指定使用 Laser::power insteadof Projector;
-  - 加代名詞 Projector::power as Power;
-- Traits 裡面可以引用 Traits
-  - 若 function 名稱相同時
-  - 原 class > 第一層 Traits > Traits 引用的 Traits
-- abstract function 也可以寫在 Traits 內
-- 可以在 Traits 內建立 properties (建立變數使用)
 
 
-- Traits，請看 [manual](https://www.php.net/manual/en/language.oop5.traits.php)
- 
-- abstract function 是什麼？
+# Cache Usage
+## Obtaining A Cache Instance
+### Accessing Multiple Cache Stores
+```php
+$value = Cache::store('file')->get('foo');
+
+Cache::store('redis')->put('bar', 'baz', 600); // 10 Minutes
+```
+## Retrieving Items From The Cache
+```php
+$value = Cache::get('key');
+$value = Cache::get('key', 'default');
+$value = Cache::get('key', function () {
+    return DB::table(...)->get();
+});
+```
+- 若為 null，回傳 default
+- default 也可是一個 Closure
+
+### Incrementing / Decrementing Values
+- 可以做加減
+```php
+Cache::increment('key');
+Cache::increment('key', $amount);
+Cache::decrement('key');
+Cache::decrement('key', $amount);
+```
+### Retrieve & Store
+- If the item does not exist in the cache, the Closure passed to the remember method will be executed and its result will be placed in the cache.
+```php
+$value = Cache::remember('users', $seconds, function () {
+    return DB::table('users')->get();
+});
+```
+- `rememberForever`
+### Retrieve & Delete
+- 拿出來後就刪掉 => pull
+```php
+$value = Cache::pull('key');
+```
+## Storing Items In The Cache
+- `Cache::put('key', 'value', $seconds);`
+  - 若沒有 $seconds，則會存無限久
+### Store If Not Present
+- `Cache::add('key', 'value', $seconds);`
+  - he add method will only add the item to the cache if it does not already exist in the cache store. 
+  - 若有新存入回覆 true，若無則回 false
+### Storing Items Forever
+- `Cache::forever('key', 'value');`
+- 需要手動清才會被清理掉
+  - 若是用 Memcached，空間滿時則會被清理掉
+## Removing Items From The Cache
+```php
+Cache::forget('key');
+Cache::put('key', 'value', 0);
+Cache::put('key', 'value', -5);
+Cache::flush();
+```
+- 用 put 第三個參數為零或負數時，會被清掉
+- flush 請小心使用
+## The Cache Helper
+- In addition to using the Cache facade or cache contract
+```php
+$value = cache('key');
+
+cache(['key' => 'value'], $seconds);
+cache(['key' => 'value'], now()->addMinutes(10));
+```
+- When the cache function is called without any arguments, it returns an instance of the `Illuminate\Contracts\Cache\Factory` implementation, allowing you to call other caching methods:
+```php
+cache()->remember('users', $seconds, function () {
+    return DB::table('users')->get();
+});
+```
+- testing 
+  - 請用 `Cache::shouldReceive`
+# Cache Tags
+- file, dynamodb, or database 不能用
+## Storing Tagged Cache Items
+- 在 put 之前先放 tags
+- `Cache::tags(['people', 'artists'])->put('John', $john, $seconds);`
+## Accessing Tagged Cache Items
+`$john = Cache::tags(['people', 'artists'])->get('John');`
+## Removing Tagged Cache Items
+- `Cache::tags('authors')->flush();` 只會刪除 authors 這個 tag 的 item
