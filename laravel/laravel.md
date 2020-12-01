@@ -2766,6 +2766,7 @@ $value = Cache::pull('key');
 ### Store If Not Present
 - `Cache::add('key', 'value', $seconds);`
   - he add method will only add the item to the cache if it does not already exist in the cache store. 
+  - 會檢查目前有沒有值
   - 若有新存入回覆 true，若無則回 false
 ### Storing Items Forever
 - `Cache::forever('key', 'value');`
@@ -2797,6 +2798,7 @@ cache()->remember('users', $seconds, function () {
 - testing 
   - 請用 `Cache::shouldReceive`
 # Cache Tags
+- 要注意多個 tag 合在一起用時候的交集和聯集的問題
 - file, dynamodb, or database 不能用
 ## Storing Tagged Cache Items
 - 在 put 之前先放 tags
