@@ -1211,13 +1211,13 @@ Closure：
         protected $table = 'my_flights';  //Table Names
 
         protected $primaryKey = 'flight_id';   //Primary Keys
-        public $incrementing = false;
-        protected $keyType = 'string';
+        public $incrementing = false;   //  主鍵預設是遞增
+        protected $keyType = 'string';    //  若主鍵不是數字，則要設為相對應的型別。
 
-        public $timestamps = false;   //Timestamps
-        protected $dateFormat = 'U';
-        const CREATED_AT = 'creation_date';
-        const UPDATED_AT = 'last_update';
+        public $timestamps = false;   // 預設 `created_at` and `updated_at` columns 存在
+        protected $dateFormat = 'U';    // customize the format of your timestamps
+        const CREATED_AT = 'creation_date';   // customize the names of the columns used to store the timestamps
+        const UPDATED_AT = 'last_update';   // 同上
 
         protected $connection = 'connection-name';    //Database Connection
 
@@ -1227,15 +1227,21 @@ Closure：
     }
     ```
     - Table Names  
-      若沒有特別指定，則預設使用`Flight`Table。
+      若沒有特別指定，則預設使用 Class Name Table。
+      - `Flight` => flights 
+      - `AirTrafficController` => air_traffic_controllers
+      - 小寫 + snake case
+      - 也可用寫死的在 class 內
     - Primary Keys  
-      指定主鍵。  
-      若主鍵不是遞增，則要調整為false。  
-      若主鍵不是數字，則要設為相對應的型別。  
+      - 指定主鍵。  
+      - 主鍵預設是遞增
+        - 若主鍵不是遞增，則要調整為false。  
+      - 若主鍵不是數字，則要設為相對應的型別。  
     - Timestamps  
-      若不需要時間戳記，則要調整為false。  
-      可設定時間戳記格式。
-      客製化  CREATED_AT和UPDATED_AT 欄位名稱設計。
+      - 預設 `created_at` and `updated_at` columns 存在
+      - 若不需要時間戳記，則要調整為false。  
+      - 可設定時間戳記格式。
+      - 客製化 CREATED_AT 和 UPDATED_AT 欄位名稱設計。
     - Database Connection  
       預設使用預設的設定來connection，可用connection屬性來修改。
   - Default Attribute Values  
@@ -1257,7 +1263,7 @@ Closure：
                ->take(10)
                ->get();
       ```
-      提醒！！！由於Eloquent模型是query builder，您應該查看查詢構建器上可用的所有方法。您可以在Eloquent查詢中使用這些方法中的任何一種。
+      提醒！！！由於Eloquent模型是query builder，您應該查看查詢構建器上可用的所有方法。您可以在 Eloquent 查詢中使用這些方法中的任何一種。
       - Refreshing Models  
         您可以使用`fresh`和`refresh`方法刷新模型。  
         `fresh`method將從數據庫中重新檢索模型。現有的模型實例不會受到影響：
@@ -1273,8 +1279,8 @@ Closure：
         $flight->number; // "FR 900"
         ```
   - Collections  
-    對於Eloquent方法像是`all`和`grt`檢索的多個結果，將返回`Illuminate\Database\Eloquent\Collection`的實例。  
-    Collection類提供了各種有用的方法來處理您的Eloquent結果：  
+    對於Eloquent方法像是 `all` 和 `grt` 檢索的多個結果，將返回`Illuminate\Database\Eloquent\Collection`的實例。  
+    Collection 類提供了各種有用的方法來處理您的 Eloquent 結果：  
     ```php
     $flights = $flights->reject(function ($flight) {
     return $flight->cancelled;
@@ -1286,10 +1292,10 @@ Closure：
     echo $flight->name;
     }
     ```
-  - Chunking Results  
+  - Chunking Results 分塊結果
     如果需要處理數千個Eloquent記錄，請使用chunk命令。  
-    chunk方法將檢索Eloquent模型的“塊chunk”，將它們送到給定的Closure進行處理。  
-    在處理大型結果集時，使用chunk方法將節省內存：  
+    chunk 方法將檢索 Eloquent 模型的“塊chunk”，將它們送到給定的 Closure 進行處理。  
+    在處理大型結果集時，使用 chunk 方法將節省內存：  
     ```php
     Flight::chunk(200, function ($flights) {
       foreach ($flights as $flight) {
@@ -1297,17 +1303,24 @@ Closure：
       }
     });
     ```
-    傳遞給該方法的第一個參數是您希望每個“塊”接收的記錄數。  
-    作為第二個參數傳遞的Closure將被調用從數據庫中檢索的每個塊。  
-    將執行數據庫查詢以檢索傳遞給Closure的每個記錄塊。  
-      - Using Cursors
-        cursor方法允許您使用游標迭代數據庫記錄，該游標只執行單個查詢。  
-        處理大量數據時，可以使用cursor方法大大減少內存使用量：
-        ```php
-        foreach (Flight::where('foo', 'bar')->cursor() as $flight) {
-            //
-        }
-        ```
+    - 傳遞給該方法的第一個參數是您希望每個“塊”接收的記錄數。  
+    - 作為第二個參數傳遞的Closure將被調用從數據庫中檢索的每個塊。  
+    - 將執行數據庫查詢以檢索傳遞給Closure的每個記錄塊。  
+    - 若對 塊的結果 做 filtering 
+      - 請用 `chunkById`
+      - 可能會有無法預期和不一致的結果
+  - Using Cursors
+    - cursor方法允許您使用游標迭代數據庫記錄，該游標只執行單個查詢。  
+    - 處理大量數據時，可以使用cursor方法大大減少內存使用量：
+    - ```php
+      foreach (Flight::where('foo', 'bar')->cursor() as $flight) {
+          //
+      }
+      ```
+    - cursor方法會回傳 LazyCollection instance
+      - 可降低記憶體使用量
+# Advanced Subqueries
+## Subquery Selects
 - Retrieving Single Models / Aggregates  
   除了檢索給定表的所有記錄之外，您還可以使用`find`或`first`檢索單個記錄。  
   這些方法返回single model instance，而不是返回模型collection：  
@@ -1339,7 +1352,7 @@ Closure：
       });
       ```
   - Retrieving Aggregates  
-    您還可以使用query builder提供的`count`，`sum`，`max`和其他[聚合方法aggregate methods](https://laravel.com/docs/5.8/queries#aggregates) 。
+    您還可以使用 query builder 提供的`count`，`sum`，`max`和其他[聚合方法 aggregate methods](https://laravel.com/docs/5.8/queries#aggregates) 。
     這些方法返回適當的scalar value，而不是完整的模型實例：
     ```php
     $count = App\Flight::where('active', 1)->count();
@@ -1347,7 +1360,7 @@ Closure：
     ```
 - Inserting & Updating Models  
   - Inserts  
-    要在database中創建新記錄，請創建新model instance，在模型上設置屬性，然後調用save方法：
+    要在database中創建新記錄，請創建新 model instance，在模型上設置屬性，然後調用 save 方法：
     ```php
     <?php
 
@@ -1378,20 +1391,33 @@ Closure：
     }
     ```
     呼叫`save`方法時，`created_at` and `updated_at`會自動被規定。
-  - Updates  
-    - Mass Updates
-      所有處於活動狀態且目的地為聖地亞哥的航班將被標記為延遲。  
-      ```php
+  - Updates
+    - 更新完值之後再 save
+    - ```php
+      $flight = App\Models\Flight::find(1);
+      $flight->name = 'New Flight Name';
+      $flight->save();
+      ```
+  - Mass Updates
+    - 將所有處於活動狀態且目的地為聖地亞哥的航班將被標記為延遲。  
+    - ```php
       App\Flight::where('active', 1)
           ->where('destination', 'San Diego')
           ->update(['delayed' => 1]);
       ```
-      注意！！！  通過Eloquent發出批量更新時，不會為更新的模型觸發`saving`, `saved`, `updating`, and`updated`的模型事件。這是因為在發布批量更新時，實際上從未檢索過模型。  
+    - 注意！！！  通過Eloquent發出批量更新時，不會為更新的模型觸發`saving`, `saved`, `updating`, and`updated`的模型事件。這是因為在發布批量更新時，實際上從未檢索過模型。  
+  - Examining Attribute Changes
+    - isDirty 和 isClean 確認 model load 完之後，有無被做過更動
+      - 可以檢查整個 model 或檢查其中一個 attribute
+    - wasChanged 檢查 last saved 到 current request cycle 之間有無做過變動
+      - 可以檢查整個 model 或檢查其中一個 attribute
+    - getOriginal 取得目前資料庫中的值
   - Mass Assignment  
     但是，在執行此操作之前，您需要在模型上指定`fillable` or `guarded`屬性，因為默認情況下所有Eloquent模型都會防止批量分配。  
     當用戶通過請求傳遞意外的HTTP參數時，會發生批量分配漏洞，並且該參數會更改數據庫中您不期望的column。  
-    例如，惡意用戶可能通過HTTP請求發送is_admin參數，然後將其傳遞到模型的create方法中，允許用戶將自己升級為管理員。  
+    例如，惡意用戶可能通過HTTP請求發送 is_admin 參數，然後將其傳遞到模型的 create 方法中，允許用戶將自己升級為管理員。  
     因此，要開始使用，您應該定義要進行批量分配的模型屬性。
+    - $fillable
     您可以使用模型上的`$fillable`屬性執行此操作。  
     ```php
     <?php
@@ -1407,20 +1433,32 @@ Closure：
         protected $fillable = ['name'];
     }
     ```
-    一旦我們將屬性賦予質量可分配，我們就可以使用create方法在數據庫中插入新記錄。  
-    create方法返回已saved model 實例：  
+    一旦我們將屬性賦予批量分配，我們就可以使用 create 方法在數據庫中插入新記錄。  
+    create 方法返回已 saved model 實例：  
     ```php
     $flight = App\Flight::create(['name' => 'Flight 10']);
     ```
-    如果您已有模型實例，則可以使用fill方法使用一組屬性填充它：  
+    如果您已有模型實例，則可以使用 fill 方法使用一組屬性填充它：  
     ```php
     $flight->fill(['name' => 'Flight 22']);
     ```
+    - Mass Assignment & JSON Columns
+      - ```php
+          /**
+          * The attributes that are mass assignable.
+          *
+          * @var array
+          */
+          $fillable = [
+            'options->enabled',
+          ];
+        ```
+      - 若有 guarded property，不能使用 nested JSON
     - Guarding Attributes
       雖然`$fillable`可作為可以批量分配的屬性的“白名單”，但您也可以選擇使用`$guarded`。  
       `$guarded`屬性應包含一系列您不希望可批量分配的屬性。  
-      不在array中的所有其他屬性將是可批量分配的。  
-      因此，`$guarded`功能就像一個“黑名單”。  
+      不在 array中 的所有其他屬性將是可批量分配的。  
+      因此，`$guarded` 功能就像一個“黑名單”。  
       重要的是，您應該使用`$fillable`或`$guarded` - 而不是兩者。  
       在下面的示例中，除價格外的所有屬性都是可批量分配的：  
       ```php
@@ -1448,13 +1486,13 @@ Closure：
       ```
   - Other Creation Methods  
     **firstOrCreate / firstOrNew**
+    - 相對於 updateOrCreate，只讀資料不更新。
     您可以使用另外兩種方法通過批量分配屬性來創建模型：`firstOrCreate`和`firstOrNew`。  
-    `firstOrCreate`方法將嘗試使用給定的column/value對定位數據庫記錄。  
+    `firstOrCreate`方法將嘗試使用給定的 column/value 對定位數據庫記錄。  
     如果在數據庫中找不到該模型，則將插入一條記錄，其中包含第一個參數的屬性以及可選的第二個參數中的屬性。  
     `firstOrNew`方法與`firstOrCreate`一樣，將嘗試在與給定屬性匹配的數據庫中查找記錄。  
     但是，如果未找到模型，則將返回新的模型實例。  
-    請注意，firstOrNew返回的模型尚未保留到數據庫中。  
-    您需要手動調用save來保存它：  
+    請注意，firstOrNew返回的模型尚未保留到數據庫中。您需要手動調用 save 來保存它：  
     ```php
     // Retrieve flight by name, or create it if it doesn't exist...
     $flight = App\Flight::firstOrCreate(['name' => 'Flight 10']);
@@ -1486,6 +1524,14 @@ Closure：
         ['price' => 99, 'discounted' => 1]
     );
     ```
+    - upserts
+    - upsert([更新得值],[更新的條件],[更新的欄位])
+    - ```php
+      App\Models\Flight::upsert([
+          ['departure' => 'Oakland', 'destination' => 'San Diego', 'price' => 99],
+          ['departure' => 'Chicago', 'destination' => 'New York', 'price' => 150]
+      ], ['departure', 'destination'], ['price']);
+      ```
 - Deleting Models  
   要刪除model，請在model實例上調用delete方法：  
   ```php
@@ -1769,7 +1815,7 @@ Closure：
   }
   ```
 - Events  
-  Eloquent models發射的幾個事件，讓你掛接到以下幾點在模型的生命週期：`retrieved`，`creating`，`created`，`updating`，`updated`，`saving`，`saved`，`deleting`，`deleted`，`restoring`，`restored`。  
+  Eloquent models 發射的幾個事件，讓你掛接到以下幾點在模型的生命週期：`retrieved`，`creating`，`created`，`updating`，`updated`，`saving`，`saved`，`deleting`，`deleted`，`restoring`，`restored`。  
   事件允許您在每次在數據庫中保存或更新特定模型類時輕鬆執行代碼。每個事件通過其構造函數接收模型的實例。  
   `retrieved`從數據庫中檢索現有模型時將觸發該事件。當第一次保存新模型時，將觸發`creating`和`created`事件。如果數據庫中已存在模型並且`save`調用該方法，則會觸發`updating`/  `updatedevents`。但是，在這兩種情況下，`saving`/ `saved`events都會觸發。  
   注意！！！  通過Eloquent發出批量更新時，不會為更新的模型觸發`saved`和`updated`模型事件。這是因為在發布批量更新時，實際上從未檢索過模型。  
