@@ -2853,3 +2853,13 @@ cache()->remember('users', $seconds, function () {
 `$john = Cache::tags(['people', 'artists'])->get('John');`
 ## Removing Tagged Cache Items
 - `Cache::tags('authors')->flush();` 只會刪除 authors 這個 tag 的 item
+
+
+- Model
+  - relation
+  - magic method
+    - query builder
+      - eloquent （通常被寫在 Model 內）
+      - db (sql 指令)
+
+- eloquent collection 包含 collection
