@@ -101,6 +101,7 @@
     - 產業分析 [寫點科普，請給指教。](https://www.facebook.com/kopuchat/)
     - 個股分析 [Thomas Lee' Sharings](https://www.facebook.com/kopuchat/)
     - [王伯達觀點](https://www.facebook.com/potawang/)
+    - [畢德歐夫](https://www.facebook.com/bidoffer.com.tw/)
     - [雷浩斯價值投資網](https://www.facebook.com/redhousei/)
     - [怪老子理財](https://www.facebook.com/masterhsiao/)
     - [股癌 Gooaye](https://www.facebook.com/Gooaye/)
