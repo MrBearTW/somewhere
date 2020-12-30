@@ -101,6 +101,7 @@
     - 產業分析 [寫點科普，請給指教。](https://www.facebook.com/kopuchat/)
     - 個股分析 [Thomas Lee' Sharings](https://www.facebook.com/kopuchat/)
     - [王伯達觀點](https://www.facebook.com/potawang/)
+    - [畢德歐夫](https://www.facebook.com/bidoffer.com.tw/)
     - [雷浩斯價值投資網](https://www.facebook.com/redhousei/)
     - [怪老子理財](https://www.facebook.com/masterhsiao/)
     - [股癌 Gooaye](https://www.facebook.com/Gooaye/)
@@ -234,8 +235,9 @@
     - [競爭之死](https://www.facebook.com/joshu.wang1978/posts/10222028854444180)
     - [黑色優勢](https://www.facebook.com/FinanceAndGoodSociety/posts/207215110767233)
     - [買下全世界](https://www.facebook.com/FinanceAndGoodSociety/posts/207215110767233)
+    - [股市真規則](https://www.facebook.com/redhousei/posts/3817042148335324)
     - 以下為社會類
-    - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
-
+        - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
+    
 - 有趣的創業
     - [男前豆腐](https://www.facebook.com/wakaba.hiroshi/posts/3032644923531612)

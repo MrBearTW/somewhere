@@ -31,7 +31,7 @@
 
 
 - Part 6 One to One
-    - 建立migration 就是教laravel how to design your table
+    - 建立 migration 就是教laravel how to design your table
     - `->unsigned();`永遠是正數
     - 建立migration`php artisan make:migration creat_user_table --create=users`
     - 執行migration`php artisan migrate`
