@@ -66,6 +66,7 @@
     - 衝浪
     - 簡單的法則 [e.g.xdite](https://www.facebook.com/xdite/posts/10158290873003552)
         - 然後去驗證
+        - - 學[價值投資|https://github.com/xdite/memory-hack/blob/master/11.md]
     - 價值的選擇
         - 匯率操縱 彭淮南 韓國 vs. 台灣
     - 規則改變的時候
