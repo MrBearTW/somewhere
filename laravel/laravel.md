@@ -2862,4 +2862,9 @@ cache()->remember('users', $seconds, function () {
       - eloquent （通常被寫在 Model 內）
       - db (sql 指令)
 
+- Model
+  - get -> collection of models
+  - first -> single model instance
+
+
 - eloquent collection 包含 collection
