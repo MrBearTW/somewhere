@@ -21,6 +21,11 @@
 - 2030 時，先進國家大於 65 歲的人會佔超過 25%
 - 不同時代的老年人會不一樣
 - 不同國家地區的老年人也不一樣
+- 一些再查一下的企業
+    - https://calendly.com/
+    - https://www.pefin.com/
+    - https://www.crunchbase.com/organization/onist-technologies
+
 ## 第三章 中產階級之爭：新興市場購買力將占全球一半以上
 - 中印非的中產階級不一定會像美國的中產階級
     - 商品設計會以討好這一些人為主
