@@ -2,7 +2,8 @@
 - Chapter 1 什麼問題？如何解答？
     - 吃素
 - Chapter 2 蛋白質王朝
-- Chapter 3癌症不要來
+    - 建議蛋白質的量是調低的
+- Chapter 3 癌症不要來
 - Chapter 4 到中國取經
  
 ## Part2　有錢人的富裕病
@@ -18,12 +19,12 @@
 - Chapter12 怎麼吃才健康
  
 ## Part4　為什麼你以前沒聽過
-- Chapter13科學的黑暗面
+- Chapter13 科學的黑暗面
 - Chapter14 科學簡化論的死胡同
 - Chapter15 嗜錢如命的產業科學
 - Chapter16 愛民或害民的政府
 - Chapter17 醫療帝國暗黑心 
-- Chapter 18 失去自由的學術界   
+- Chapter18 失去自由的學術界   
 - Chapter19 歷史重演  
 後記
 
