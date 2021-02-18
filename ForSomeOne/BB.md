@@ -17,7 +17,6 @@ https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=3f414b746173506f594943
 但是求職天眼通跳出來的內線看起來是一間有點科科的公司  
 
 # 單純就我臉書上面跳出來
-
 行銷武士道  
 https://www.facebook.com/ryuichiru/posts/10216142305299628  
 
@@ -94,3 +93,16 @@ linkedin
 500大  
 ABCD  
 目錄  
+
+---
+偉哥
+
+蘇晴
+
+軟體也有 ＱＡ
+
+入門
+
+技能樹
+
+104 linkedin（國際） Youator（新創）
