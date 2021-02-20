@@ -106,3 +106,5 @@ ABCD
 技能樹
 
 104 linkedin（國際） Youator（新創）
+https://meet.jobs/
+https://www.cakeresume.com/zh-TW
