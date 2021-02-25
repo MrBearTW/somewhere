@@ -76,7 +76,6 @@ https://medium.com/hulis-blog/resume-evolution-4c337ff30729
 https://medium.com/hulis-blog/mentor-program-3rd-47a2e85e33b3  
 從線上到線下：第三期教學實驗滿月心得分享  
 https://medium.com/hulis-blog/from-online-to-offline-bd99e545277a  
-  
 
   
 好想工作室  
@@ -95,16 +94,33 @@ ABCD
 目錄  
 
 ---
-偉哥
+## 偉哥
+- 留在原本的公司產業
+    - 內轉
+    - 自修 [台達電子文教基金會 DeltaMOOCX 課程平台](https://www.facebook.com/deltamoocx)
 
-蘇晴
+蘇 政
 
 軟體也有 ＱＡ
+上課只是入門
 
-入門
+- 技能樹
+    - [網站工程師技能樹參考](https://github.com/goodjack/developer-roadmap-chinese)
 
-技能樹
+- 求職網站註冊一波
+    - 104 
+    - linkedin（國際）
+        - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
+        - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
+    - [Youator（新創）](https://www.yourator.co/)
+    - [meetjobs](https://meet.jobs/)
+    - [cakeresume](https://www.cakeresume.com/zh-TW)
 
-104 linkedin（國際） Youator（新創）
-https://meet.jobs/
-https://www.cakeresume.com/zh-TW
+---
+## 貝卡
+- 進修念碩士一波？
+- 有緣看一下
+    - [Taipei Women in Tech](https://www.facebook.com/groups/420817431404071/)
+    - kiki / 賴
+    - 商業思維學院
+    - 寫點科普
