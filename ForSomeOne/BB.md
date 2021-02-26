@@ -98,29 +98,43 @@ ABCD
 - 留在原本的公司產業
     - 內轉
     - 自修 [台達電子文教基金會 DeltaMOOCX 課程平台](https://www.facebook.com/deltamoocx)
-
-蘇 政
-
-軟體也有 ＱＡ
-上課只是入門
-
-- 技能樹
+- 身邊的人再問問
+    - 蘇 待過微軟
+    - 政 已是管理階層
+- 軟體也有 ＱＡ
+- 上課只是給你足夠進入的
+    - 一直進修
+- 技能樹參考
     - [網站工程師技能樹參考](https://github.com/goodjack/developer-roadmap-chinese)
-
 - 求職網站註冊一波
     - 104 
     - linkedin（國際）
-        - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
-        - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
-    - [Youator（新創）](https://www.yourator.co/)
-    - [meetjobs](https://meet.jobs/)
+        - 值得參考的校友們
+            - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
+            - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
+    - [Youator](https://www.yourator.co/)（新創）
+    - [meetjobs](https://meet.jobs/)（韓國來的）
     - [cakeresume](https://www.cakeresume.com/zh-TW)
 
 ---
 ## 貝卡
-- 進修念碩士一波？
+- 進修念碩士也許是個選項？
+- 文案相關
+    - 討論寫文案的群組
+- 各路資源
+    - 
+- 網路上相關的大大
+    - fit
+    - 關登原
+- 其實也已經不新的新的媒介，註冊研究一下
+    - telegram
+    - MeWe (facebook)
+    - Parler (twitter)(這個前一陣子被抄家滅族了...)
+    - LBRY (youtube)
+- 國際來看
+    - [TNW](https://thenextweb.com/conference)
 - 有緣看一下
     - [Taipei Women in Tech](https://www.facebook.com/groups/420817431404071/)
-    - kiki / 賴
+    - kiki / 賴 / Sherry
     - 商業思維學院
     - 寫點科普
