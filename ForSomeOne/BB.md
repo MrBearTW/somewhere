@@ -124,8 +124,10 @@ ABCD
 - 各路資源
     - 
 - 網路上相關的大大
-    - fit
-    - 關登原
+    - [Icheng Liu劉奕成）](https://www.facebook.com/icheng.liu)
+    - [貝克菜](https://www.facebook.com/InceptionPlanter)
+    - [謝銘元](https://www.facebook.com/xmy1108)
+    - [關登原](https://www.facebook.com/jackylec)
 - 其實也已經不新的新的媒介，註冊研究一下
     - telegram
     - MeWe (facebook)
