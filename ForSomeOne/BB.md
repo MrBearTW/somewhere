@@ -125,7 +125,7 @@ ABCD
     - 
 - 網路上相關的大大
     - [Icheng Liu劉奕成）](https://www.facebook.com/icheng.liu)
-    - 彭明義
+    - [彭明義](https://www.facebook.com/mingipeng)
     - 吳先生
     - [貝克菜](https://www.facebook.com/InceptionPlanter)
     - [謝銘元](https://www.facebook.com/xmy1108)
@@ -140,5 +140,5 @@ ABCD
 - 有緣看一下
     - [Taipei Women in Tech](https://www.facebook.com/groups/420817431404071/)
     - kiki / 賴 / Sherry
-    - 商業思維學院
-    - 寫點科普
+    - [商業思維學院](https://www.facebook.com/%E5%95%86%E6%A5%AD%E6%80%9D%E7%B6%AD%E5%AD%B8%E9%99%A2-103829960984125)
+    - [寫點科普](https://www.facebook.com/kopuchat)
