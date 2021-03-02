@@ -122,11 +122,15 @@ ABCD
 - 文案相關
     - 討論寫文案的群組
 - 各路資源
-    - 
+    - 我去美國認識的朋友 Sherry Shih 常常分享一些行銷資訊和活動
+        - [linkedin](https://www.linkedin.com/in/sherry-shih/)
+        - [facebook](https://www.facebook.com/hisherryshih)
+    - 李伯彥工作室 一起出來玩行銷
+        - [Youtube 播放清單](https://youtube.com/playlist?list=PLrQG_tYv82k42jZQTof9nWI0GIh4Ud0yp)
 - 網路上相關的大大
     - [Icheng Liu劉奕成）](https://www.facebook.com/icheng.liu)
     - [彭明義](https://www.facebook.com/mingipeng)
-    - 吳先生
+    - [Even Wu](https://www.facebook.com/evenwu) 
     - [貝克菜](https://www.facebook.com/InceptionPlanter)
     - [謝銘元](https://www.facebook.com/xmy1108)
     - [關登原](https://www.facebook.com/jackylec)
