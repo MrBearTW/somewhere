@@ -106,21 +106,10 @@ ABCD
     - 一直進修
 - 技能樹參考
     - [網站工程師技能樹參考](https://github.com/goodjack/developer-roadmap-chinese)
-- 求職網站註冊一波
-    - 104 
-    - linkedin（國際）
-        - 值得參考的校友們
-            - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
-            - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
-    - [Youator](https://www.yourator.co/)（新創）
-    - [meetjobs](https://meet.jobs/)（韓國來的）
-    - [cakeresume](https://www.cakeresume.com/zh-TW)
 
 ---
 ## 貝卡
 - 進修念碩士也許是個選項？
-- 文案相關
-    - 討論寫文案的群組
 - 各路資源
     - 我去美國認識的朋友 Sherry Shih 常常分享一些行銷資訊和活動
         - [linkedin](https://www.linkedin.com/in/sherry-shih/)
@@ -137,12 +126,25 @@ ABCD
 - 其實也已經不新的新的媒介，註冊研究一下
     - telegram
     - MeWe (facebook)
-    - Parler (twitter)(這個前一陣子被抄家滅族了...)
+    - Parler (twitter)(這個前一陣子因為川普被抄家滅族了...)
     - LBRY (youtube)
-- 國際來看
+- 國際的？
     - [TNW](https://thenextweb.com/conference)
 - 有緣看一下
     - [Taipei Women in Tech](https://www.facebook.com/groups/420817431404071/)
-    - kiki / 賴 / Sherry
     - [商業思維學院](https://www.facebook.com/%E5%95%86%E6%A5%AD%E6%80%9D%E7%B6%AD%E5%AD%B8%E9%99%A2-103829960984125)
     - [寫點科普](https://www.facebook.com/kopuchat)
+    - [F大叔的硬派行銷塾](https://www.facebook.com/groups/unclef/)
+    - [文案的美](https://www.facebook.com/smartCopywriting/)
+    - 跟妳一樣少女的行銷人
+        - [kiki](https://www.instagram.com/song.kiki/)
+        - [justina_922](https://www.instagram.com/justina_922/)
+- 求職網站通通註冊一波
+    - 104 111
+    - linkedin（國際）
+        - 值得參考的校友們
+            - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
+            - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
+    - [Youator](https://www.yourator.co/)（新創）
+    - [meetjobs](https://meet.jobs/)（韓國來的）
+    - [cakeresume](https://www.cakeresume.com/zh-TW)
