@@ -77,6 +77,10 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
         - [facebook](https://www.facebook.com/hisherryshih)
     - 李伯彥工作室 一起出來玩行銷
         - [Youtube 播放清單](https://youtube.com/playlist?list=PLrQG_tYv82k42jZQTof9nWI0GIh4Ud0yp)
+- 國際的行銷資源
+    - [reddit 上的 Marketing & Advertising Community](https://www.reddit.com/r/marketing/)
+    - [Techcrunch 的 Marketing 分類](https://techcrunch.com/tag/marketing/)
+    - [TNW](https://thenextweb.com/conference)
 - 網路上相關的大大
     - [Icheng Liu劉奕成）](https://www.facebook.com/icheng.liu)
     - [彭明義](https://www.facebook.com/mingipeng)
@@ -89,10 +93,6 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
     - [MeWe](https://mewe.com/) (facebook)
     - [Parler](https://parler.com/) (twitter)(這個前一陣子因為川普被抄家滅族了...)
     - [LBRY](https://lbry.com/) (youtube)
-- 國際的行銷資源
-    - [reddit 上的 Marketing & Advertising Community](https://www.reddit.com/r/marketing/)
-    - [Techcrunch 的 Marketing 分類](https://techcrunch.com/tag/marketing/)
-    - [TNW](https://thenextweb.com/conference)
 - 有緣看一下
     - [Taipei Women in Tech](https://www.facebook.com/groups/420817431404071/)
     - [商業思維學院](https://www.facebook.com/%E5%95%86%E6%A5%AD%E6%80%9D%E7%B6%AD%E5%AD%B8%E9%99%A2-103829960984125)
