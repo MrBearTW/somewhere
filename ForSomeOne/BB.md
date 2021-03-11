@@ -82,11 +82,15 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
     - [Techcrunch 的 Marketing 分類](https://techcrunch.com/tag/marketing/)
     - [TNW](https://thenextweb.com/conference)
 - 網路上相關的大大
+    - [邱煜庭](https://www.facebook.com/backtrue)
+        - [行銷細節控](https://www.facebook.com/groups/696663054205139)
+    - [Ken Hsu](https://www.facebook.com/ken.hsu08)
     - [Icheng Liu劉奕成）](https://www.facebook.com/icheng.liu)
     - [彭明義](https://www.facebook.com/mingipeng)
     - [Even Wu](https://www.facebook.com/evenwu) 
     - [貝克菜](https://www.facebook.com/InceptionPlanter)
     - [謝銘元](https://www.facebook.com/xmy1108)
+    - [林育聖](https://www.facebook.com/moinwawa)
     - [關登原](https://www.facebook.com/jackylec)
 - 其實也已經不新的新的媒介，通通註冊研究一下
     - [Telegram](https://telegram.org/)
