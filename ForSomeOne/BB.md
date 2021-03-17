@@ -54,7 +54,7 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
     - 500大  
     - ABCD  
     - 目錄  
-
+---
 # 偉哥
 - 留在原本的公司產業
     - 內轉
@@ -106,13 +106,15 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
     - 跟妳一樣少女的行銷人
         - [kiki](https://www.instagram.com/song.kiki/)
         - [justina_922](https://www.instagram.com/justina_922/)
-- 求職網站通通都註冊一波
-    - 104 111
-    - [linkedin](https://www.linkedin.com/)（國際）
-        - 值得參考的校友們
-            - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
-            - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
-    - [Youator](https://www.yourator.co/)（新創）
-    - [meetjobs](https://meet.jobs/)（韓國來的）
-    - [Cakeresume](https://www.cakeresume.com/zh-TW)
-        - [Podcast 節目 科技職涯 Talent ConnectCakeResume](https://open.spotify.com/show/2xRC0yrttcbVGNvl7xmWpV)
+---
+# 求職網站通通都註冊一波
+- 老牌就不說了 104 111 591
+- [linkedin](https://www.linkedin.com/)（國際）
+    - 值得參考的校友們
+        - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
+        - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
+- [Youator](https://www.yourator.co/)（新創）
+- [meetjobs](https://meet.jobs/)（韓國來的）
+- [Cakeresume](https://www.cakeresume.com/zh-TW)
+    - [Podcast 節目 科技職涯 Talent ConnectCakeResume](https://open.spotify.com/show/2xRC0yrttcbVGNvl7xmWpV)
+- [glassdoor](https://www.glassdoor.com/)
