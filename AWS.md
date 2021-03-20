@@ -1,3 +1,24 @@
+# 2021/3/18 AWS USER GROUP
+Cloudfront logs
+
+優化 lambda edge
+Athena 來分析
+cdk 黑客松
+
+
+Digital twin(模擬工廠)
+FreeRTOS
+Time-series use cases
+
+Dev Ax alliance 
+Dev warriors 
+Dev re:Develop
+
+Community members mentors 
+
+Academy 8 週的課程
+
+Amplify 
 
 # 2020/08/12
 
