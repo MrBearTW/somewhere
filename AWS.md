@@ -1,24 +1,25 @@
 # 2021/3/18 AWS USER GROUP
-Cloudfront logs
+- How to analyze CloudFront Logs like AWS Ninja
+    - Cloudfront logs
 
-優化 lambda edge
-Athena 來分析
-cdk 黑客松
+    - 優化 lambda edge
+    - Athena 來分析
+    - cdk 黑客松
 
+- re:Cap re:Invent 2020 Breakout Session: IoT
+    - Digital twin(模擬工廠)
+    - FreeRTOS
+    - Time-series use cases
 
-Digital twin(模擬工廠)
-FreeRTOS
-Time-series use cases
+- 社群
+    - Dev Ax alliance 
+    - Dev warriors 
+    - Dev re:Develop
 
-Dev Ax alliance 
-Dev warriors 
-Dev re:Develop
+    - Community members mentors 
 
-Community members mentors 
-
-Academy 8 週的課程
-
-Amplify 
+    - Academy 8 週的課程
+    - Amplify 
 
 # 2020/08/12
 
