@@ -1,76 +1,79 @@
-# 20210319 
-JIRA service management:
-- request management 
-- Incidents management 
-- Problem management 
-- Change management 
-Insight: Asset management 
-Opsgenie: on call and alerts， keep service always on
+# 20210319  JIRA Service Management ITSM 全攻略研討會
+- Next generation ITSM Solution : Jira Service Management Overview      演講者 ： Linktech 工程部經理 - Leon
+    - JIRA service management:
+        - request management 
+        - Incidents management 
+        - Problem management 
+        - Change management 
+    - Insight: Asset management 
+    - Opsgenie: on call and alerts， keep service always on
 
-減少一單多開
-報案 service protal
-- 自動搜尋相關文章
-- 可公開和內部回覆分開
-- 計算 SLA
-- 可流程控制
-- Report and martix
+    - 減少一單多開
+    - 報案 service protal
+    - 自動搜尋相關文章
+    - 可公開和內部回覆分開
+    - 計算 SLA
+    - 可流程控制
+    - Report and martix
 
-Opsgenie
-MTTR: Mean time to recovery
+- 如何在雲時代快速遷移與部屬?     演講者 ： Linktech 專案管理部專案經理 - Vergil
+    - project configurator for JIRA cloud
+    - 專案移轉
 
-# project configurator for JIRA cloud
-專案移轉
- 
-# Opsgenie
-- war room 
-  - 連結相關
-  - 設定可能原因
-  - 記錄時間
-  - Version map of CI/CD
-- 自動生成報告
-- 優點
-  - Fast MTTR
-  - Effective Communication 
-  - Open team collaboration 
-  - 
+- Opsgenie best On-call and alert management      演講者 ： Atlassian Speaker
+    - MTTR: Mean time to recovery
+    - war room 
+        - 連結相關
+        - 設定可能原因
+        - 記錄時間
+        - Version map of CI/CD
+    - 自動生成報告
+        - 除了通知之外，所有資訊都集中在票內，可快速生成結案報告
+    - 優點
+        - Fast MTTR
+        - Effective Communication 
+        - Open team collaboration 
 
+- ITSM 企業實戰分享:百年裕利雲端創新        演講者 ： 裕利 IT 處長 - Erwin
+    - 裕利醫藥 Zuellig Pharma
+        - az 疫苗今天開始運送
+        - -80 -20 2-8 度
+        - IT 部門 13 人/ 800位員工 
+        - 3 site / 45 agent
+        - 1 site / 10 users
+    - confluence / statuspage / access(so with Azure AD)
+        - 起手式
+            - Service desk(IT 幫幫忙)
+            - incident management (報案)
+            - service request fulfillment(IT 服務申請單）
+        - ISMS 相關需求
+        - IT 同仁接受度
+        - 減少 double effort / 取一個好名子 / 不需要教育訓練
+        - Customer protal
+        - It’s about change management, not tool adapted 
+        - 使用 scriptRunner 套件呼叫外部 API 進行 AD 解鎖& 重設密碼
+        - 使用 workflow 的 approval 功能取代紙本簽核(JIRA service management )
+        - LINE 和 JIRA 可以做整合（回報體溫）
+        - 可以選擇是否要申請密碼
+    - 三個主要用法
+        - Confluence 知識傳承、SOP
+        - JIRA service management 窗口、流程、表單、簽核
+        - Insight 資產清冊，軟硬體架構
 
-# 裕利醫藥 Zuellig Pharma
-- az 疫苗今天開始運送
-- -80 -20 2-8 度
-- 13 人/ 800位員工 
-- 3 site / 45 agent
-- 1 site / 10 users
-- confluence / statuspage / access(so with Azure AD)
-- 起手式
-  - Service desk(IT 幫幫忙)
-  - incident management (報案)
-  - service request fulfillment(IT 服務申請單）
- - ISMS 相關需求
- - IT 同仁接受度
- - 減少 double effort / 取一個好名子 / 不需要教育訓練
- - Customer protal
- - It’s about change management, not tool adapted 
- - 使用 scriptRunner 套件呼叫外部 API 進行 AD 解鎖& 重設密碼
- - 使用 workflow 的 approval 功能取代紙本簽核(JIRA service management )
- - LINE 和 JIRA 可以做整合（回報體溫）
- - 可以選擇是否要申請密碼
-- 三個
- - Confluence 知識傳承、SOP
- - JIRA service management 窗口、流程、表單、簽核
- - Insight 資產清冊，軟硬體架構
+- Asset & Change Management in Jira Service Management        演講者 ： Linktech 工程部組長 - Harry
+    - 凡是可能出錯的事ㄧ定會出錯
+    - Insight （Data center 版本不用付費）
+    - 大量資產可以用API 一次輸入
 
-- 凡是可能出錯的事ㄧ定會出錯
-- Insight （Data center 版本不用付費）
-- 大量資產可以用API 一次輸入
+- 社群 Wenmin Hsiao JIRA Community lead
+    - 直播活動專家對談 (線上）
+    - 中國流量產業
 
-# 社群
-
-# 
-- IT 結案率分析
-- easyBI 外掛
-- 計算 down time / 系統可用度
-- cloudwatch 
+- ITSM 企業實戰分享:告警分析與量化伺服器可用度      演講者 ： Linktech 工程師 - Klus
+    - IT 結案率分析
+    - easyBI 外掛
+    - 計算 down time / 系統可用度
+    - cloudwatch 
 
 # 神秘的地方
 溫暖 不批判 鼓勵
