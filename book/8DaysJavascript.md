@@ -85,15 +85,20 @@
         - 同一個陣列可以多種資料型態
 
 ## Day3
+- 瀏覽器上的 JavaScript 包含
+    1. JavaScript 核心
+    2. BOM
+    3. DOM
 - BOM Browser Object Model
     - 別名 Level 0 DOM
 - DOM Document Object Model
 
-- Node 環境中沒有 BOM 和DOM
+- Node 環境中沒有 BOM 和 DOM，只有 JavaScript 核心
 
 - BOM 的核心 ＂window 物件＂
-    - ECMAScript 標準裡的全域物件
-    - JavaScript 用來與瀏覽器溝通的窗口
+- window 物件 扮演兩種角色
+    1. ECMAScript 標準裡的全域物件
+    2. JavaScript 用來與瀏覽器溝通的窗口
 
     - 可開啟視窗，跳出 alert
 
