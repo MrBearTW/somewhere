@@ -113,15 +113,22 @@
 - Node 環境中沒有 BOM 和 DOM，只有 JavaScript 核心
 
 - BOM 的核心 ＂window 物件＂
-- window 物件 扮演兩種角色
-    1. ECMAScript 標準裡的全域物件
-    2. JavaScript 用來與瀏覽器溝通的窗口
-
-    - 可開啟視窗，跳出 alert
+    - window 物件 扮演兩種角色
+        1. ECMAScript 標準裡的全域物件
+            - 凡是在『全域作用範圍』內宣告的變數、物件、函式，都會自動變成『全域物件』屬性。
+            - 可用 window.XXX 來取得
+        2. JavaScript 用來與瀏覽器溝通的窗口
+            - 可開啟視窗，跳出 alert ```window.alert(message);```
+                - window 物件下的成員，window 是可以不打的
+                - window 的 API 很多，開啟/關閉視窗、改變視窗大小、計時器與取得網址
 
 - BOM: JavaScript 與「瀏覽器」溝通的窗口，不涉及網頁內容。
 - DOM: JavaScript 用來控制「網頁」的節點與內容的標準。
 
+- DOM
+    - 一個將 HTML 文件以樹狀的結構來表示的模型 DOM Tree
+        - 文本的節點和屬性的節點
+    - DOM 的 API 就是定義了讓 JavaScript 可以存取、改變 HTML 架構、樣式和內容的方法，甚至是對節點綁定事件。
 
 
 
