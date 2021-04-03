@@ -122,14 +122,17 @@
                 - window 物件下的成員，window 是可以不打的
                 - window 的 API 很多，開啟/關閉視窗、改變視窗大小、計時器與取得網址
 
-- BOM: JavaScript 與「瀏覽器」溝通的窗口，不涉及網頁內容。
-- DOM: JavaScript 用來控制「網頁」的節點與內容的標準。
-
 - DOM
     - 一個將 HTML 文件以樹狀的結構來表示的模型 DOM Tree
         - 文本的節點和屬性的節點
     - DOM 的 API 就是定義了讓 JavaScript 可以存取、改變 HTML 架構、樣式和內容的方法，甚至是對節點綁定事件。
 
+- BOM: JavaScript 與「瀏覽器」溝通的窗口，不涉及網頁內容。
+    - 依瀏覽器廠商規範
+- DOM: JavaScript 用來控制「網頁」的節點與內容的標準。
+    - 依 W3C 規範
+
+- NodeList 是物件節點的集合：類似陣列，但不是陣列，所以沒有 map filter 等 method 可以用
 
 
 
