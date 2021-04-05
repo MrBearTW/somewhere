@@ -131,8 +131,15 @@
     - 依瀏覽器廠商規範
 - DOM: JavaScript 用來控制「網頁」的節點與內容的標準。
     - 依 W3C 規範
+    - DOM 是網頁的根本，控制 DOM 就可以控制整個網頁
 
 - NodeList 是物件節點的集合：類似陣列，但不是陣列，所以沒有 map filter 等 method 可以用
+- 若把 <scrpit> 放在 <head></head> 之間，會依序執行，所以有的時候 scrpit 內容跑完，但 DOM 根本還沒讀到
+
+- DOM 節點
+    - HTML 元素節點 element nodes
+    - 文字節點 text nodes
+    - 註解節點 comment nodes
 
 
 
