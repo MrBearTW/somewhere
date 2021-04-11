@@ -34,6 +34,23 @@
         - @ . ! +
     - 大小寫英文字母不同
 - 字串中加入變數
+    - 雙引號和 here document 中可以插入變數
+        - 範例
+        ```php
+        $a = AAA;
+        $b = BBB;
+        print <<<MENU
+        <html>
+        <li>This is $a
+        <li>This is $b
+        >>>
+        ```
+    - 比較
+        - here document 即多行雙引號
+        - now document 即多行單引號
+            - 把 MENU 加上單引號
+    - 若變數後還有文字，可用 {} 將變數挎起來，避免誤認變數        
+    
 ## 第3章 邏輯：決策與迴圈
 ## 第4章 群組資料：陣列
 ## 第5章 邏輯群組：函式與檔案
