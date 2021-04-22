@@ -22,3 +22,6 @@
 ## 第十八章 Laravel 生態系統
 ## 術語
 ## 索引
+
+Facade
+Auth
