@@ -22,7 +22,7 @@
 
 - 摺疊
     - 摺疊
-        - crtl + K , crtl + 2(或其他0~9)
+        - crtl + K , crtl + 2(或其他0~9) 推薦＝> 7
     - 打開
         - crtl + K , crtl + J
 
