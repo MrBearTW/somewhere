@@ -17,27 +17,68 @@
 - ??
     - 使用 isset() 檢查變數是否存在，如果為 null (空值) 或沒有事先設定變數時，給予預設值。
     - PHP 7
+- do ... while 執行一次再判斷
+- continue 跳回迴圈一開始，執行下一次迴圈
 ### 2.4 函數（function）
 ### 2.5 小練習–延伸閱讀
  
 ## 03 PHP 物件導向設計
 ### 3.1 什麼是物件導向？
+
 ### 3.2 類別（Class）
+- class
+    - 屬性
+        - 必須加上存取權限
+    - 方法
+- 使用自身屬性 $this-> 
+- __constrruct 建立類別實體物件的時候，會載入的第一個方法，用於撰寫執行類別的必要動作，比較常用於資料庫連線
+- __destruct 主要用於程式運行結束時戶銷毀物件時要做的事情，例如：關閉資料庫連線
 ### 3.3 繼承（Extends）
 ### 3.4 封裝（Encapsulation）
+- public 在任何地方存取 V自身類別 V子類別 V實體物件
+- protected 在自身類別與子類別中存取 V自身類別 V子類別 X實體物件
+- private 在自身類別存取 V自身類別 X子類別 X實體物件
 ### 3.5 介面（Interface）
+- 多個類別，有共同需要時做的方法
+- 介面中只能
+    - 定義常數
+    - public 存取權限的抽象方法
 ### 3.6 命名空間（namespace）
+- PHP 5.3 之後，PSR-4
+- 寫在最前面，使用反斜線 \ 成為虛擬目錄
+- 使用 as 關鍵字
+- 必須使用 require() 或 include()
+- Laravel 根目錄中有 composer.json 有一個 autoload 參數
 ### 3.7 小練習–我的理解
  
 ## 04 RESTful API
 ### 4.1 Web API
 ### 4.2 HTTP 傳輸協定
 ### 4.3 HTTP 動詞
+- GET: 明信片，大家都看得到
+- POST: 一個包裹的盒子
+- 超全域變數
+    - $_GET['XXX'] 取的網址中的字串
+    - $_POST[''], $_SERVER[''], $_FILES[''], $_COOKIE[''], $_SESSION['']
 ### 4.4 HTTP 標頭
+- 內容協商標頭
+    - Accept: 希望回傳格式
+    - Context-Type: 請求資料表單的內容是什麼格式
+- 認證標頭
+    - Authorization ->ch12
 ### 4.5 HTTP 狀態碼
+- 2XX 成功
+- 4XX 失敗
+- 5XX 伺服器問題
 ### 4.6 HTTP Body
+- JSON 或 XML，有一些網站兩種都可
 ### 4.7 第一次開發網站的我
 ### 4.8 REST 風格
+- GET 讀取查詢
+- POST 新增
+- DELETE 刪除
+- PUT 體換
+- PATCH 更新
 ### 4.9 小練習：決定一個資源
  
 ## 05 進入Laravel、規劃系統核心目的
