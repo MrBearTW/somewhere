@@ -89,15 +89,26 @@
 ### 5.5 從生活找到動力–系統構想
 ### 5.6 情境分析–具體目標
 ### 5.7 小練習–Git 初始化環境
+- [範例程式](https://github.com/victorbuild/laravel-restful-api-example)
  
 ## 06 新增資源
 ### 6.1 定義一個資源
+- `php artisan make:model Animal -rmc`
+    - -rmc
+        - r: 載入預設 CRUD
+        - m: 同時建立 migration
+        - c: 同時建立 controller
 ### 6.2 新建資源檔案
 ### 6.3 MVC 架構
 ### 6.4 資料庫結構
 ### 6.5 資料庫規劃
 ### 6.6 實作 Migration
+- up
+- down
 ### 6.7 新建動物的功能
+- fillable 和 grounded 請擇一使用
+- Model 中 fillable 限制哪一些欄位可被批量寫入
+    - 
 ### 6.8 嘗試可不可以運行
 ### 6.9 小練習–Git 目前進度
  

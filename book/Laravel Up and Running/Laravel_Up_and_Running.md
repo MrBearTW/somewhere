@@ -13,6 +13,17 @@
 ## 第九章 用戶身分驗證與授權
 ## 第十章 請求、回應與middleware
 ## 第十一章 容器
+- Facade
+    - 查官網 https://laravel.com/docs/8.x/facades 列表
+    - 建立自己的 Facade 
+        - 擴展 Illuminate\Support\Facades\Facade 來為 Facade 建立一個類別，
+        - 給它一個 `getFacadeAccessor()` 方法，讓它回傳一個字串
+        - 最後在 `config/app.php` 註冊 Facade，加入 aliases 陣列
+- 即時靜態頁面
+    - 
+- 服務供應器
+    - 某處的某個服務供應器的 register() 方法裡面註冊綁定
+    - 直接寬鬆的綁定轉存到 App\Providers\AppServiceProvider
 ## 第十二章 測試
 ## 第十三章 編寫API
 ## 第十四章 儲存與取回
@@ -27,6 +38,8 @@
     - 身份驗證的動作就是正確地證明自己是應用程式的成員或用戶。身份驗證不定義你可以做什麼，指定義你是（或不是）誰。
 - Authorization
     - 假設你已經成功或失敗地驗證自己的身份，授權定義了你的身份被允許做的事情。授權與訪問和控制有關。
+- FQCN 完整類別名稱
+    - 任何類別、特徵或介面完整名稱空間名稱
 ## 索引
 
 
