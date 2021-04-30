@@ -130,8 +130,15 @@
  
 ## 08 更新資源
 ### 8.1 PUT | PATCH 動詞的差別
+- PATCH 修改資源的部分內容
+- PUT 通常是替換掉一個資源
 ### 8.2 嘗試可不可以運行更新動物
 ### 8.3 HTTP Content–Type header
+- x-www-from-urlencoded
+    - 一般 from 表單
+    - API 更新資源
+- form -data
+    - 通常用於上傳檔案
 ### 8.4 小練習–_method
  
 ## 09 查詢資源
