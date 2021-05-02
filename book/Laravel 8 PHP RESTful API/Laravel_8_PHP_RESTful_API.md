@@ -150,8 +150,14 @@
 ### 9.6 資源列表分頁
 ### 9.7 JSON 格式建議
 ### 9.8 資源列表篩選
+- 分析各家平台做法
 ### 9.9 資源列表排序
+
 ### 9.10 資源列表快取
+- [範例參考](https://github.com/victorbuild/laravel-restful-api-example/commit/5b7adf60d588d1f84d080ff1137a0cb04bd7ad66)
+    - Cache::has(fullUrl)
+    - Cache::get(fullUrl)
+    - 設定到期時間
 ### 9.11 小練習–Model 查詢以及集合運用
  
 ## 10 表單驗證以及語系設定
