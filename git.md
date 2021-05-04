@@ -204,6 +204,7 @@ https://www.toodyao.com/?p=1156
 - git commit 設定時間 和 修改 commit 時間
     - 參考資料 https://xkcoding.com/2019/01/21/modify-git-commit-timestamp.html
     - 設定這一個 commit 時間 `git commit --amend --date="2020-08-02T23:45:00+0800" -am "這裡寫註解說明"`
+        - -f 之外的選擇，先 pull 再 rebase [參考：先拉再推](https://gitbook.tw/chapters/github/fail-to-push.html)
     - 修改之前 commit 的時間 `git commit --amend --date="2019-01-01T00:00:00+0800" -C edd2dbbe31fbab492f337628011119493a12a9c6`
 
 - 退回前一個 commit 
