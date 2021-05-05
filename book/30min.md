@@ -44,6 +44,16 @@
     - 影片 [子彈思考整理術：開始你的子彈筆記](https://youtu.be/tiJQCS9H5ng)
     - [子彈筆記入門：一支筆、一本筆記，幫你提升三倍生產力](https://smarter01.com/2020/08/02/bullet-journal/)
         - 影片 [Notion 子彈筆記整理術 | 終結拖延症！（免費筆記模板在描述欄）| Notion 教學](https://youtu.be/8B23t_jqySU)
+            - 大計畫
+                - 當下季和月加底色
+                - 週記 Logo 
+                    - 火箭：進行中換成
+                    - 月亮：已結束的時間換成
+                    - 地球：未來
+                - 週記放連結到月份內
+                - 週記
+                    - 藍色：例行公事
+                    - Weekly Inbox: 暫時沒做完的事
     - [我如何用 Notion 製做數位子彈筆記？](https://smarter01.com/2020/08/09/notion-bullet-journal/)
 
 - 假裝每天都是最後一天

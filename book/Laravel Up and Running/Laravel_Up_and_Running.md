@@ -4,6 +4,8 @@
 ## 前言
 ## 第一章 為何選擇Laravel？
 ## 第二章 設置Laravel 開發環境
+- Laravel Homestead
+    - 以 Vagrant 建立開發環境
 ## 第三章 路由與controller
 ## 第四章 Blade 模板
 ## 第五章 資料庫與Eloquent
