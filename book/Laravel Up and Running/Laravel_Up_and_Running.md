@@ -7,6 +7,17 @@
 - Laravel Homestead
     - 以 Vagrant 建立開發環境
 ## 第三章 路由與controller
+- HTTP 動詞
+    - GET 請求一項資源
+    - HAED 請求只有標頭的 GET 回應
+    - POST 建立資源
+    - PUT 複寫資源
+    - PATCH 修改資源
+    - DELETE 刪除資源
+    - OPTION 詢問伺服器這個 URL 可用的動詞有哪一些
+- 可將 route ->name('XXX')，使用上較方便
+- 群組 route 常用於通過同一個 middleware
+- throttle middleware 速率限制
 ## 第四章 Blade 模板
 ## 第五章 資料庫與Eloquent
 ## 第六章 前端元件
@@ -42,6 +53,8 @@
     - 假設你已經成功或失敗地驗證自己的身份，授權定義了你的身份被允許做的事情。授權與訪問和控制有關。
 - FQCN 完整類別名稱
     - 任何類別、特徵或介面完整名稱空間名稱
+- Closure 匿名函式
+    - closure 是 PHP 版的匿名函式。你可以將這種函式當成物件四處傳遞、將它指派給變數、將它當成參數傳給其他函式或方法、甚至將它序列化。
 ## 索引
 
 
