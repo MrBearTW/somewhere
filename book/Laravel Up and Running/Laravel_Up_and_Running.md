@@ -15,9 +15,13 @@
     - PATCH 修改資源
     - DELETE 刪除資源
     - OPTION 詢問伺服器這個 URL 可用的動詞有哪一些
-- 可將 route ->name('XXX')，使用上較方便
-- 群組 route 常用於通過同一個 middleware
-- throttle middleware 速率限制
+- Route    
+    - 可將 route ->name('XXX')，使用上較方便
+    - 群組 route 常用於通過同一個 middleware
+    - throttle middleware 速率限制
+    - 子網域路由
+    - signed 簽署路由：用於重發密碼
+- Carbon 是一種被納入 Laravel 的日期時間程式庫
 ## 第四章 Blade 模板
 ## 第五章 資料庫與Eloquent
 ## 第六章 前端元件
