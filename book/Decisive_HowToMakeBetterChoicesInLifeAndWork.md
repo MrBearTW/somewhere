@@ -212,6 +212,9 @@
 
 ## —P 準備迎接錯誤— Prepare to Be Wrong
 ## 10 拉出未來的區間
+- 價格區間分析法 bookending
+    - 區間下限 the lower bookend 
+    - 區間上限 the upper bookend
 
 ## 11 設置絆腳索
 
