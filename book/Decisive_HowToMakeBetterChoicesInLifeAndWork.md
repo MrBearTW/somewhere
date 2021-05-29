@@ -212,10 +212,40 @@
 
 ## —P 準備迎接錯誤— Prepare to Be Wrong
 ## 10 拉出未來的區間
-- 價格區間分析法 bookending
+- 美國與一手銷售相關的法律條文指出，買方保有出租、銷售或借予他人的權利。
+- 價格區間分析法 bookending，不做精準的預估
     - 區間下限 the lower bookend 
     - 區間上限 the upper bookend
-
+- 事後諸葛
+    - 事後分析可以比事前分析多出 25%
+    - 行前預想 premortem
+    - 事後檢討 postmortem
+- 失敗與影響分析 FMEA failure mode and effect analysis
+    - 發生機率有多大
+    - 結果會有多嚴重
+    - 如果情況發生，但我們卻無法覺察到的機會有多少？
+- 同時考慮樂觀和悲觀
+    - 提前慶功 preparade
+    - 液體肥皂，先期測試成功，預估大賣，先簽約確保供應量
+- 健康的犯錯空間
+    - 安全係數 safety factor
+        - 電梯鋼索纜線 11 倍
+    - 建設性恐慌 healthy paranoia
+    - 微軟：預留 30% 的專案時間
+        - 作業系統 50%
+- 行前預想
+    - 自我意識的檢視 ego-checking
+    - 戳破假象的效應 balloon-bursting effect
+- 客服與餐飲基本人力每年流動率 130%
+    - 假象戳破法 balloon-bursting approach
+        - 醜話說在前 warts and all
+    - 真實工作預覽 realistic job preview
+        - 現有員工也適用
+    - 設定期望 setting expectation
+    - 重新檢視職能模式 competency model
+- 心智模擬 mental simulation
+    - 認知行為療法 CBT
+    - 請老公協助幫忙模擬調薪談判    
 ## 11 設置絆腳索
 
 ## 12 信任程序
