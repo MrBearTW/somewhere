@@ -100,6 +100,24 @@
             - in hasOwnProperty
     - 陣列
         - 同一個陣列可以多種資料型態
+## 變數
+- 所有沒有透過 var 宣告的變數都會自動變成全域變數。
+## 型別
+- 「弱型別」的程式語言
+- 變數沒有型別，值才有。
+- 內建的型別
+    - 基本型別 (Primitives) :string、number、boolean、null、undefined
+    - 物件型別 (Object) :其他
+
+- 基本型別 (Primitives)
+    - string 字串
+        - JavaScript 沒有 char (字元) 的概念
+    - number 數字
+        - JavaScript 的 number 實作是基於「IEEE 754」二進位浮點數算術標準 [註2]
+            - 0.1 + 0.2 === 0.3 的時候，會得到 false 
+
+- 物件型別 (Object) 
+    - 
 
 # Day 3　前端工程師的主戰場：瀏覽器裡的JavaScript (上)
 ♦ 瀏覽器的物件模型：DOM 與BOM
@@ -116,6 +134,7 @@
 - DOM Document Object Model
 
 - Node 環境中沒有 BOM 和 DOM，只有 JavaScript 核心
+    - lambda
 
 - BOM 的核心 ＂window 物件＂
     - window 物件 扮演兩種角色
@@ -123,7 +142,7 @@
             - 凡是在『全域作用範圍』內宣告的變數、物件、函式，都會自動變成『全域物件』屬性。
             - 可用 window.XXX 來取得
         2. JavaScript 用來與瀏覽器溝通的窗口
-            - 可開啟視窗，跳出 alert ```window.alert(message);```
+            - 可開啟視窗，跳出 alert `window.alert(message);`
                 - window 物件下的成員，window 是可以不打的
                 - window 的 API 很多，開啟/關閉視窗、改變視窗大小、計時器與取得網址
 
@@ -162,6 +181,7 @@
 # Day 4　前端工程師的主戰場：瀏覽器裡的JavaScript (下)
 ♦ 事件機制的原理
 - 事件流程 Event Flow
+- 補例子
     - 事件冒泡 Event Bubble
         - 逐漸往上
     - 事件捕獲 Event Capturing
@@ -170,7 +190,7 @@
 - 事件綁定
     - HTML 屬性 (漸漸不用)
     - 非 HTML 屬性
-        - DOM API on-event hangler 
+        - DOM API on-event handler 
 - 事件監聽
     - 三個參數
         1. 事件名稱
@@ -183,6 +203,7 @@
 - 非侵入式 JavaScript
     - 行為層分離
     - 將 onchange, onclick 分開來寫
+
 ♦ 網頁的事件與生命週期
 - 網頁事件
     - load 所有資源都載入完成才觸發
@@ -191,7 +212,7 @@
     - scroll
     - DOMContentLoaded DOM 結構完整就執行
 - 滑鼠事件
-    - enter over
+    - enter (over???hover???)
 - 鍵盤事件
     - keydown keypress keyup
 - 表單事件
@@ -203,6 +224,8 @@
         - composition update
     - 剪貼事件
 - 自定義事件
+- 補充：觸摸屏幕相關的事件 / 繪圖板
+
 ♦ 隱藏在「事件」之中的秘密
 - Event handler 中的參數
 - 阻擋預設行為 event.preventDefaulf()
@@ -214,20 +237,32 @@
 - 函式是一種物件，值也是物件
 - argument
     - 多個參數時的寫法
+    - 補範例
+
 ♦ Callback Function與IIFE
 - Callback Function
     - 函式只會在滿足了某個條件才會被動地去執行
     - 把函式當作另一個函式的參數，透過另一個函式來呼叫它
+    - ```javascript
+        function (x){
+            x = fun2(x);
+            return x;
+        }
+        fun2(x){
+            return x*2;
+        }
+    ```
 - IIFE
     - 立即被呼叫的函式 Immediately Invoked Function Expression
     - 在 ES6 以前，JavaScript 變數有效範圍的最小單位是以 function 做分界的
     - 另外好處
         - 減少「全域變數」的產生，同時也避免了變數名稱衝突的機會。
+
 ♦ 從Callback到Promise
 ♦ 從setTimeout與setInterval理解EventQueue
 
 # Day 6　深入理解JavaScript核心：函式、物件、原型鍊 (中)
-♦ 閉包(closure)
+ 
 - Scope Chain 範圍鏈 是在函式被定義的當下決定的，不是在被呼叫的時候決定。 
 - 當內部 (inner) 函式被回傳後，除了自己本身的程式碼外，也可以取得了內部函式「當時環境」的變數值，記住了執行當時的環境，這就是「閉包」
     - 減少變數互相干擾
@@ -252,7 +287,15 @@
     2. 隱含式綁定 (Implicit Binding)
     3. 顯式綁定 (Explicit Binding)
     4. 「new」關鍵字綁定
-
+- 結論 What's "this" in JavaScript?
+    - 這個 function 的呼叫，是透過 `new` 進行的嗎？ 如果是，那 `this` 就是被建構出來的物件。
+    - 這個 function 是以 `.call()` 或 `.apply()` 的方式呼叫的嗎？ 或是 function 透過 `.bind()` 指定？ 如果是，那 `this` 就是被指定的物件。
+    - 這個 `function` 被呼叫時，是否存在於某個物件？ 如果是，那 `this` 就是那個物件。
+    - 如果沒有滿足以上條件，則此 function 裡的 `this` 就一定是全域物件，在嚴格模式下則是 `undefined`。
+- Cascade
+    - JavaScript 的 function 允許沒有 return 回傳值，像這類沒有 return 的函式預設會回傳 undefined。 
+    - 但如果我們把預設沒有 return 的 undefined 改成 return this
+    - 「Cascade」或「Fluent Interface」「方法鍊」（method chaining）
 # Day 7　深入理解JavaScript 核心：函式、物件、原型鍊 (下)
 ♦ 深入理解JavaScript物件
 ♦ 內建物件與包裹器
@@ -262,3 +305,47 @@
 # Day 8　JavaScript 的現在與未來
 ♦ 從Page到Application談前端生態圈的演變
 ♦ JavaScript的現在與未來
+
+
+# 20210602
+近期活動：
+
+- [https://www.hexschool.com/2021/05/20/2021-05-20-covid-public-welfare/](https://www.hexschool.com/2021/05/20/2021-05-20-covid-public-welfare/)
+
+直播者：卡斯伯
+六角學院共同創辦人
+從設計轉行前端的工程師
+
+- 粉絲頁：[https://www.facebook.com/WccCasper](https://www.facebook.com/WccCasper)
+- 部落格：[https://wcc723.github.io/](https://wcc723.github.io/)
+
+相關主題課程 - JavaScript 核心篇
+[https://www.hexschool.com/courses/js-core.html](https://www.hexschool.com/courses/js-core.html)
+
+## 今日主題
+
+- 為什麼要宣告變數
+    - 全域、區域污染
+    - 屬性與變數的差異
+- **辭法作用域**
+- var 的特性
+    - function 作用域
+    - for...
+    - hoisting 試圖取得
+        - undefined 尚未定義
+        - not defined 沒有定義過
+- let 與 var 的差異
+    - 作用域不同
+        - var 在 fun, let 在 block
+        - let 穩定很多
+            - let 暫時性死區
+    - 不會在 window 上
+    - 不可重複宣告
+    - hosting
+- const 與 let 不同之處
+    - const 不可重複覆值
+- 陷阱 const 與 let 的選擇
+    - 物件傳參考
+        - const 物件的指向參考
+            - 屬性的值可以重新給予
+            - 重新給一個 {} ，就是指向不同的東西
