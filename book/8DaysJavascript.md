@@ -323,7 +323,6 @@
 [https://www.hexschool.com/courses/js-core.html](https://www.hexschool.com/courses/js-core.html)
 
 ## 今日主題
-
 - 為什麼要宣告變數
     - 全域、區域污染
     - 屬性與變數的差異
@@ -336,7 +335,7 @@
         - not defined 沒有定義過
 - let 與 var 的差異
     - 作用域不同
-        - var 在 fun, let 在 block
+        - var 在 function, let 在 block
         - let 穩定很多
             - let 暫時性死區
     - 不會在 window 上
@@ -348,4 +347,6 @@
     - 物件傳參考
         - const 物件的指向參考
             - 屬性的值可以重新給予
-            - 重新給一個 {} ，就是指向不同的東西
+            - 重新給一個 {} ，就是指向參考不同的東西
+
+- 盡量用 let，少用 var，比較不會互相干擾。
