@@ -18,8 +18,10 @@
         - 不能是 Reserved words 或 keyword
         - 大小寫有差
         - ES6 之後，除了var之外，還可以用 let 和 const 來宣告變數
+            - var 和 let 的作用範圍 scope 不同
         - 弱型別的語言
         - 所有沒透過 var 宣告的變數，都會自動變成全域變數
+            - var 可以再次宣告
         - 變數沒有型別，值才有。
         - javascript支援的型別
             1. 基本型別 Primitives
@@ -307,7 +309,9 @@
 ♦ JavaScript的現在與未來
 
 
-# 20210602
+# 20210602 JavaScript var, let, const
+影片 https://youtu.be/FGdKdn_CnWo
+共筆 
 近期活動：
 
 - [https://www.hexschool.com/2021/05/20/2021-05-20-covid-public-welfare/](https://www.hexschool.com/2021/05/20/2021-05-20-covid-public-welfare/)
@@ -322,31 +326,76 @@
 相關主題課程 - JavaScript 核心篇
 [https://www.hexschool.com/courses/js-core.html](https://www.hexschool.com/courses/js-core.html)
 
-## 今日主題
-- 為什麼要宣告變數
-    - 全域、區域污染
+## JavaScript var, let, const
+- 為什麼要宣告變數 
+    - 可能造成全域、區域污染
+        - `a = 0;` 這種寫法 -> 全域屬性（可被 window.a 操作）
+        - 用 var 宣告，會被限制在作用域內
+            ```javascript
+            function fn(){
+                var a = 0;
+            }
+            ```
     - 屬性與變數的差異
+        - window 全域物件
+            - 屬性可以被刪除
+            - 變數無法被刪除
 - **辭法作用域**
+    - 可在 JavaScript 程式中加入 `debugger;` 來看 Local 和 Global 的變數
+    - 作用域可以向外查找
+    - var 的作用域在程式碼寫完的當下就確定了（和執行順序無關 / 即往上外面那一層找）
 - var 的特性
-    - function 作用域
+    - function 作用域基本上就在函式裡面
+        - var 可以重複宣告，也不會跳錯誤
+        - {} 是一個物件，一個 block (單獨寫沒什麼用)
+            - 在 block 內宣告的 var 變數，在 block 外也可以取到 （let 宣告的無法取到）
     - for...
-    - hoisting 試圖取得
-        - undefined 尚未定義
-        - not defined 沒有定義過
+        - 本身是一個 {} block
+        - for 內放一個 setTimeout()，執行時間會往後放
+    - hoisting 
+        - 在初始化的過程中，試圖去取得它的值的時候，就會出現這一個值是空值
+        - var 可以 hoisting
+        - 比較
+            - undefined 尚未定義
+            - not defined 從未定義過，會出錯
 - let 與 var 的差異
     - 作用域不同
-        - var 在 function, let 在 block
-        - let 穩定很多
-            - let 暫時性死區
-    - 不會在 window 上
-    - 不可重複宣告
+        - var 在 function, let 在 block {}大誇號內
+        - 相對起來 let 穩定很多
+    - let 宣告的變數，不會出現在 window 全域物件上
+    - let 不可重複宣告，可以避免一些撰寫程式上的錯誤
     - hosting
+        - let 沒有 hosting（var 有）
+        - let 有暫時性死區 TDZ 特性(沒有辦法在宣告 let 之前，試圖去取得這一個值，會出錯)
+            - 在使用 let 和 const 時，盡可能把宣告放在最前面
 - const 與 let 不同之處
-    - const 不可重複覆值
+    - const 變數不可重複覆值
 - 陷阱 const 與 let 的選擇
+    - 值會不會變。
+        - 會變，選 let
+        - 不會變，選 const
+    - 物件
+        - 指向會變，選 let
+        - 指向不會變，選 const
     - 物件傳參考
-        - const 物件的指向參考
-            - 屬性的值可以重新給予
-            - 重新給一個 {} ，就是指向參考不同的東西
-
-- 盡量用 let，少用 var，比較不會互相干擾。
+        - const 是物件的指向參考
+            - 物件屬性的值 可以重新覆值，可以這樣做
+                - ```javascript
+                    const a = {
+                    name: '卡斯伯'
+                    }
+                    a.name = 'Ray'
+                ```
+            - 若重新給一個物件 {} ，就是指向參考不同的物件，會跳錯
+                - ```javascript
+                    const a = {
+                    name: '卡斯伯'
+                    }
+                    const a ＝ {  // 重新指定一個位置，會跳錯
+                    name: '卡斯處'
+                    }
+                ```
+- 結論
+    - 可以使用 const 就用 const
+    - 盡量用 let，少用 var，比較不會互相干擾。
+    - 團隊中可以使用 VS code 套件 ESLint 來規範寫作風格
