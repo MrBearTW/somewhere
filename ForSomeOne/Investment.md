@@ -88,6 +88,8 @@
         - [【ETF是第一季最大鬧劇】](https://www.facebook.com/mnAsia1/posts/10157886539355482)
     - 程式交易
         - [鄉民分享](https://www.ptt.cc/bbs/Soft_Job/M.1590756781.A.008.html?fbclid=IwAR2I9C_5E9mNdsuiX5NhWEA_qF_yORwWcRPp-vkcugSeLDtJ5wop7-I9ig4)
+    - 不錯的股票投資入門影片
+        - Lindsay说 [最干货的一期｜专业股票投资人怎么看门道？](https://youtu.be/xnIYIpXKvNM)
     
 
 - 不錯的粉絲頁

@@ -1,5 +1,7 @@
 # 讀書心得
-- [人月神話：軟體專案管理之道（20週年紀念版）]()
+- [零偏見決斷法：如何擊退阻礙工作與生活的四大惡棍，用好決策扭轉人生](https://github.com/MrBearTW/somewhere/blob/master/book/Decisive_HowToMakeBetterChoicesInLifeAndWork.md)
+
+- [人月神話：軟體專案管理之道（20週年紀念版）](https://github.com/MrBearTW/somewhere/blob/master/book/TheMythical_ManMonth.md)
 
 - [單元測試的藝術 [第二版]](https://github.com/MrBearTW/somewhere/blob/master/book/TheArtOfUnitTesting.md)
 
