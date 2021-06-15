@@ -267,6 +267,7 @@
         reject("failure reason");   // 拒絕
     });
     ```
+♦ 從setTimeout與setInterval理解EventQueue
 # Day 6　深入理解JavaScript核心：函式、物件、原型鍊 (中)
  
 - Scope Chain 範圍鏈 是在函式被定義的當下決定的，不是在被呼叫的時候決定。 
@@ -851,4 +852,3 @@
 
 
 
-♦ 從setTimeout與setInterval理解EventQueue

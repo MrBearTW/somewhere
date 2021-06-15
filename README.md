@@ -1,4 +1,6 @@
 # 讀書心得
+- [心流：高手都在研究的最優體驗心理學（繁體中文唯一全譯本）](https://github.com/MrBearTW/somewhere/blob/master/book/Flow.md)
+
 - [零偏見決斷法：如何擊退阻礙工作與生活的四大惡棍，用好決策扭轉人生](https://github.com/MrBearTW/somewhere/blob/master/book/Decisive_HowToMakeBetterChoicesInLifeAndWork.md)
 
 - [人月神話：軟體專案管理之道（20週年紀念版）](https://github.com/MrBearTW/somewhere/blob/master/book/TheMythical_ManMonth.md)
