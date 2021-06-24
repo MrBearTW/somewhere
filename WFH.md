@@ -1,6 +1,9 @@
 
 - 運動類
     - 有氧
+        - [growingannanas](https://www.youtube.com/c/growingannanas)
+        - [Pamela Reif](https://www.youtube.com/user/PamelaRf1)
+        - [May Fit](https://www.youtube.com/channel/UCxGeKqFaKqpzkuFNGCFjcuA)
     - Yoga
         - [Yoga With Elva](https://youtube.com/c/YogaWithElv)
         - [Coffee林芊妤](https://www.youtube.com/channel/UCxCZqbizSsnntlz6w0fN8hA)
