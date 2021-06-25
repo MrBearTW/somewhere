@@ -11,6 +11,11 @@
         - [YOGA JOURNEY瑜珈旅程](https://www.youtube.com/channel/UC_OBb27LpbKtmEJ40s0Zz_A)
         - [健身工廠](https://www.youtube.com/channel/UCHBqtT3GGCJy_VGC8oY-QlQ/featured)
         - [TRUE Yoga Fitness Taiwan](https://www.youtube.com/channel/UCl9iURq7EfAcddkutZY4xEw)
+    - 男生
+        - [Jordan Yeoh Fitness](https://www.youtube.com/user/jordanyeohfitness)
+        -[Ashton Hall Official](https://www.youtube.com/channel/UCq9DI1Mv2m-bCNL3tsTYRaw)
+    - Tabata
+        - [Tabata Songs](https://www.youtube.com/c/TabataSongs/videos)
 
 - 畫畫類遊戲 
     - https://gartic.io/
