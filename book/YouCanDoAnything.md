@@ -1,4 +1,5 @@
-# 
+# 人文學科的逆襲：「無路用」學門畢業生的職場出頭術
+# You Can Do Anything: The Surprising Power of a “Useless” Liberal Arts Education
 
 - 混沌時刻勝出
 
