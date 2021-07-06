@@ -5,8 +5,8 @@
 ## 作者序
 ## 學生見證
   
-- [ ]Chapter1日常生活 Daily Life
-- [X]Chapter2 旅遊及觀光 Travel and Tourism
+- [ ] Chapter1日常生活 Daily Life
+- [X] Chapter2 旅遊及觀光 Travel and Tourism
 - Chapter3 計畫 Plans
 - Chapter4 商業經營 Business
 - Chapter5 給予意見 Opinions
