@@ -32,3 +32,5 @@ FB 群組
 - 彩妝
 	- 新秘
 	- 眉毛 / 指甲 (不是這兩個)
+
+- [社群行銷 101 by 網路行銷零元本鋪-遠距離教學教室](https://www.youtube.com/playlist?list=PLwrIZAODhELJkkSgenNAcmg-tx93JvLdx)
