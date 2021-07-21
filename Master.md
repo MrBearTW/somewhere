@@ -15,3 +15,18 @@
     - QS
     - [theguardian](https://www.theguardian.com/education/ng-interactive/2020/sep/05/the-best-uk-universities-2021-league-table)
         - 可選科系
+
+- 英國政府獎學金 - Chevening
+- 20210721 商科生拿三年美國工作簽？INTO 秘訣大公開！
+    - STMP
+    - 奧樂剛
+    - 路易斯安那
+    - 坦帕
+    - BOSTON SUFFOLK UNOVERSITY
+        - Hand-on experience 強調實作
+        - 在市中心
+        - 大數據 資管
+    - 紐約旁邊(車程四十分鐘) HOFSTRA UNIVERSITY
+        - Hand-on experience 實習
+        - Business Analytics
+    - 租屋參考 https://www.uhomes.com/pc/activity/form/cn_taiwan_20200520
