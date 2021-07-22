@@ -30,3 +30,11 @@
         - Hand-on experience 實習
         - Business Analytics
     - 租屋參考 https://www.uhomes.com/pc/activity/form/cn_taiwan_20200520
+
+- QA
+    - Y
+        - KKDAY
+        - 阿福管家
+        - ichef
+    - C
+        - 

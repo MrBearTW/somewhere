@@ -4,8 +4,6 @@
 
 # Workshop
 
-
-
 # PahudDev
 - 
 0:42 從 cloudformation 開始說起
@@ -55,7 +53,12 @@
 
 # Developer Guide
 
+- Welcome to the AWS Cloud Development Kit (CDK) Developer Guide. This document provides information about the AWS CDK, which is a software development framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.
+    - ![You compose these together into Stacks and Apps.](https://docs.aws.amazon.com/zh_tw/cdk/latest/guide/images/AppStacks.png)
+
 ## Concepts
+
+- AWS CDK apps are composed of building blocks known as Constructs, which are composed together to form stacks and apps.
 
 ### Constructs
 
@@ -229,7 +232,7 @@
 ### Apps
 
 - 基本
-    - CDK application
+    - We call your CDK application an app, which is represented by the AWS CDK class App. 
     - As described in Constructs, to provision infrastructure resources, all constructs that represent AWS resources must be defined, directly or indirectly, within the scope of a Stack construct.
     - e.g. The following example declares a stack class named "MyFirstStack" that includes a single Amazon S3 bucket.
         - ```ts
@@ -323,6 +326,7 @@
     - Because AWS CDK stacks are implemented through AWS CloudFormation stacks, they have the same limitations as in AWS CloudFormation.
         -  [AWS CloudFormation](https://docs.aws.amazon.com/zh_tw/AWSCloudFormation/latest/UserGuide/Welcome.html)
             - AWS CloudFormation 是一個能幫助您模型化與設定 Amazon Web Services 資源的服務
+        - 繼承所以限制會一樣，父類別沒有的功能就不會有
     - e.g. 2 stacks
         - ```ts
             const app = new App();
@@ -396,7 +400,7 @@
     - At synthesis time, the nested stack is synthesized to its own AWS CloudFormation template, which is uploaded to the AWS CDK staging bucket at deployment.
         - Nested stacks are bound to their parent stack and are not treated as independent deployment artifacts; they are not listed by `cdk list` nor can they be deployed by `cdk deploy`.
     - References between parent stacks and nested stacks are automatically translated to stack parameters and outputs in the generated AWS CloudFormation templates, as with any cross-stack reference.
-    - Nested stacks 綁定一個 父stacks ，不可獨立被 cdk 指令列出或 deploy。
+    - Nested stacks 綁定一個 父stacks ，不可獨立被 cdk 指令列出或 deploy。/ 為了一些 work around 存在
 
 ### Environments
 
@@ -440,9 +444,11 @@
         fi
         ```
         - Save the script as cdk-deploy-to.sh, then execute chmod +x cdk-deploy-to.sh to make it executable.
-- 沒有指定的話，有可能會是不可知的 / production --> hard-code the target account and region / 
+- 沒有指定的話，有可能會是不可知的 / production --> hard-code the target account and region / 結論，開發和正視環境都要設定
+    - Note: For all but the simplest deployments, you will need to bootstrap each environment you will deploy into. Deployment requires certain AWS resources to be available, and these resources are provisioned by bootstrapping.
 
 ### Resources
+- 定義：As described in Constructs, the AWS CDK provides a rich class library of constructs, called AWS constructs, that represent all AWS resources. （Cfn可能有更清楚的定義）
 - e.g. For example, here's how to create an Amazon SQS queue with KMS encryption using the sqs.Queue construct from the AWS Construct Library.
     - ```ts
         import * as sqs from '@aws-cdk/aws-sqs';
@@ -494,8 +500,8 @@
     - The logical names of resources in AWS CloudFormation are different from the names of resources that are shown in the AWSManagement Console after AWS CloudFormation has deployed the resources. 
     - The AWS CDK calls these final names physical names.
     - e.g.
-        - Amazon S3 bucket with the logical ID `Stack2MyBucket4DD88B4F`
-        - physical name `stack2mybucket4dd88b4f-iuv1rbv9z3to`.
+        - Amazon S3 bucket with the logical ID `Stack2MyBucket4DD88B4F` （機器看的）
+        - physical name `stack2mybucket4dd88b4f-iuv1rbv9z3to`. （人看的）
     - You can specify a physical name when creating constructs that represent resources by using the property <resourceType>Name. 
         - e.g. The following example creates an Amazon S3 bucket with the physical name my-bucket-name.
             - ```ts
@@ -672,7 +678,7 @@
                     resource.applyRemovalPolicy(cdk.RemovalPolicy.DESTROY);
                     ```
     - The AWS CDK's `RemovalPolicy` translates to AWS CloudFormation's `DeletionPolicy`, but the default in AWS CDK is to retain the data, which is the opposite of the AWS CloudFormation default.
-- 不同 stack 要取用，要在 same account and AWS Region / 物理名稱修改失敗 --> 砍掉重新建立 stack / VPC 存一個 `cdk.context.json` / 很多 Lambda 舉例
+- stack 要取用 其他 stack 建立的 resource，要在 same account and AWS Region / Physical names 修改失敗 --> 砍掉重新建立 stack / VPC 存一個 `cdk.context.json` / 很多 Lambda 舉例
 
 ### Identifiers
 - 基本
@@ -721,7 +727,8 @@
     - Logical ID stability
         - Avoid changing the logical ID of a resource between deployments. 
         - Since AWS CloudFormation identifies resources by their logical ID, if you change the logical ID of a resource, AWS CloudFormation deletes the existing resource, and then creates a new resource with the new logical ID.
-- 解釋有哪一些 ID / 如何取得 
+- 解釋有哪一些 ID / 如何取得 / 有哪幾種？？？？？
+定義是什麼
 
 ### Tokens
 
@@ -921,17 +928,52 @@
 
 ### Permissions
 
+- 說明
+    - The AWS Construct Library uses a few common, widely-implemented idioms to manage access and permissions. The IAM module provides you with the tools you need to use these idioms.
 - Principals
+    1. IAM resources such as Role, User, and Group
+    2. Service principals (new iam.ServicePrincipal('service.amazonaws.com'))
+    3. Federated principals (new iam.FederatedPrincipal('cognito-identity.amazonaws.com'))
+    4. Account principals (new iam.AccountPrincipal('0123456789012'))
+    5. Canonical user principals (new iam.CanonicalUserPrincipal('79a59d[...]7ef2be'))
+    6. AWS organizations principals (new iam.OrganizationPrincipal('org-id'))
+    7. Arbitrary ARN principals (new iam.ArnPrincipal(res.arn))
+    8. An iam.CompositePrincipal(principal1, principal2, ...) to trust multiple principals
 - Grants
+    - Every construct that represents a resource that can be accessed, such as an Amazon S3 bucket or Amazon DynamoDB table, has methods that grant access to another entity. All such methods have names starting with grant.
+    - e.g. For example, if bucket is an Amazon S3 bucket, and function is a Lambda function, the code below grants the function read access to the bucket.
+        - ```ts
+            bucket.grantRead(function);
+            ```
 - Roles
+    - The IAM package contains a `Role` construct that represents IAM roles.
+        - e.g. The following code creates a new role, trusting the Amazon EC2 service.
+            - ```ts
+                import * as iam from '@aws-cdk/aws-iam';
+
+                const role = new iam.Role(this, 'Role', {
+                    assumedBy: new iam.ServicePrincipal('ec2.amazonaws.com'),   // required
+                });
+                ```
 - Resource policies
+    - A few resources in AWS, such as Amazon S3 buckets and IAM roles, also have a resource policy.
 
 ### Context
 
+- 說明
+    - Context values are key-value pairs that can be associated with a stack or construct.
 - Construct context
+    1. Automatically from the current AWS account.
+    2. Through the --context option to the cdk command.
+    3. In the project's `cdk.context.json` file.
+    4. In the project's `cdk.json` file.
+    5. In the context key of your `~/.cdk.json` file.
+    6. In your AWS CDK app using the `construct.node.setContext` method.
 - Context methods
 - Viewing and managing context
+    - Use the cdk context command to view and manage the information in your `cdk.context.json` file. 
 - AWS CDK Toolkit --context flag
+    - Use the `--context` (`-c` for short) option to pass runtime context values to your CDK app during synthesis or deployment.
 - Example
 
 ### Feature flags
@@ -995,6 +1037,149 @@
 - How to bootstrap
 - Bootstrapping templates
 - Customizing bootstrapping
+    1. Use command-line parameters with the cdk bootstrap command. This lets you modify a few aspects of the template.
+    2. Modify the default bootstrap template and deploy it yourself. This gives you unlimited control over the bootstrap resources.
 - Stack synthesizers
 - Customizing synthesis
 - The bootstrapping template contract
+
+
+
+- 20210720
+    - 分出自己的和 AWS 的重點
+    - 16 個重點 / 3 個結論
+    - 完整語句
+    - 有 type 的話要分出來
+
+
+
+- 20210722 Angenda
+    - 上次未完成部分
+        - 寫 CDK 的時候想起來怎麼用
+        - 哪一部分是 哪一個 concepts
+        - Laravel
+            - DB -> Model
+            - Model -> DB
+            - Controller 平常用？API 用？
+        - 從實作來回來對應 文件中 concept 的內容
+    - 結構圖 Architectures
+        - 選擇？Web application vs. Mobile backend
+        - 推論？只需要 API -> 不用前端顯示網頁 -> 無需放資料在 S3
+        - 大方向問題
+            - CloudFront 是為了
+                - Amazon CloudFront is a fast content delivery network (CDN) service
+                - ACM: AWS Certificate Manager
+                - Amazon Cognito: Simple and Secure User Sign-Up, Sign-In, and Access Control
+            - AWS DynamoDB
+
+
+
+- 一句話系列
+    - AWS CDK
+        - AWS CDK apps are composed of building blocks known as Constructs, which are composed together to form stacks and apps.
+    - Constructs 結構體
+        - AWS 原文：
+            - Constructs are the basic building blocks of AWS CDK apps.
+            - A construct represents a "cloud component" and encapsulates everything AWS CloudFormation needs to create the component.
+        - BEAR 中文定義：在 AWS CDK apps 的基本模塊。
+        - BEAR 重點：
+    - Apps 應用
+        - AWS 原文：??????????????????
+            - We call your CDK application an app, which is represented by the AWS CDK class App. (As described in Constructs)
+            - As described in Constructs, to provision infrastructure resources, all constructs that represent AWS resources must be defined, directly or indirectly, within the scope of a Stack construct.
+            - To define the previous stack within the scope of an application, use the App construct. 
+        - BEAR 中文：
+        - BEAR 重點：
+    - Stacks 堆棧
+        - AWS 原文：
+            - The unit of deployment in the AWS CDK is called a stack. 
+            - All AWS resources defined within the scope of a stack, either directly or indirectly, are provisioned as a single unit.
+        - BEAR 中文：Stacks 是 deployment 中的 單元
+        - BEAR 重點：
+    - Environments 環境
+        - AWS 原文：
+            - Each Stack instance in your AWS CDK app is explicitly or implicitly associated with an environment (env).
+            - An environment is the target AWS account and region into which the stack is intended to be deployed.
+        - BEAR 中文：
+        - BEAR 重點：
+    - Resources 資源
+        - AWS 原文：??????????????????
+            - In AWS, a resource is an entity that you can work with. Examples include an Amazon EC2 instance, an AWS CloudFormation stack, or an Amazon S3 bucket. (From google)
+            - As described in Constructs, the AWS CDK provides a rich class library of constructs, called AWS constructs, that represent all AWS resources.
+        - BEAR 中文：
+        - BEAR 重點：
+    - Identifiers 身份標識
+        - AWS 原文：??????????????????
+            - The AWS CDK deals with many types of identifiers and names. To use the AWS CDK effectively and avoid errors, you need to understand the types of identifiers.
+            - Identifiers must be unique within the scope in which they are created; they do not need to be globally unique in your AWS CDK application.
+        - BEAR 中文：
+        - BEAR 重點：
+    - Tokens 代幣
+        - AWS 原文：
+            - Tokens represent values that can only be resolved at a later time in the lifecycle of an app (see App lifecycle)
+            - This is how the AWS CDK encodes a token whose value is not yet known at construction time, but will become available later. The AWS CDK calls these placeholders tokens.
+        - BEAR 中文：該令牌的值在構建時未知，但稍後將可用。AWS CDK 將這些佔位符稱為 token。
+        - BEAR 重點：
+    - Parameters 參數
+        - AWS 原文：AWS CloudFormation templates can contain parameters—custom values that are supplied at deployment time and incorporated into the template.
+        - BEAR 中文：在 templates 中可設定的 parameters—custom values
+        - BEAR 重點： 不建議 CloudFormation 和 CDK 參數相同
+    - Tagging 標記
+        - AWS 原文：Tags are informational key-value elements that you can add to constructs in your AWS CDK app.
+        - BEAR 中文：加到 constructs 上的 key-value elements
+        - BEAR 重點：Tags 有分等級
+    - Assets 資產
+        - AWS 原文：Assets are local files, directories, or Docker images that can be bundled into AWS CDK libraries and apps
+        - BEAR 中文：Assets 是 local files, directories, or Docker images 可以被 bundled 進 AWS CDK libraries and apps
+        - BEAR 重點：兩種 Type 1. Amazon S3 Assets and apps 2. Docker Image / 
+    - Permissions 權限 ??????????????????
+        - AWS 原文：The AWS Construct Library uses a few common, widely-implemented idioms to manage access and permissions.
+        - BEAR 中文：
+        - BEAR 重點：原則 / 給予 / 角色 / Resource policies
+    - Context 語境 / 前後關系
+        - AWS 原文：
+            - Context values are key-value pairs that can be associated with a stack or construct.
+                - The AWS CDK uses context to cache information from your AWS account, such as the Availability Zones in your account or the Amazon Machine Image (AMI) IDs used to start your instances. 
+                    - Feature flags are also context values.
+            - Context keys are strings, and values may be any type supported by JSON: numbers, strings, arrays, or objects.
+        - BEAR 中文：AWS CDK 用 context 來 cache 使用者在 AWS account 的資料
+        - BEAR 重點：6 種方式提供 Context values / 多種（5?）方式可以取得  
+    - Feature flags 功能標誌
+        - AWS 原文：
+            - The AWS CDK uses feature flags to enable potentially breaking behaviors in a release.
+            - Flags are stored as Runtime context values in cdk.json (or ~/.cdk.json) as shown here.
+        - BEAR 中文：feature flags 可以設定一些 release 時的潛在中斷行為。
+        - BEAR 重點：預設關閉 / 都是 NPM 開頭 / Feature flags are also context values / 資料在 cdk.json 中，所以指令 cdk context --reset or cdk context --clear commands 不會刪除
+    - Aspects 方面
+        - AWS 原文：
+            - Aspects are a way to apply an operation to all constructs in a given scope. 
+            - The AWS CDK currently uses aspects only to tag resources, but the framework is extensible and can also be used for other purposes.
+        - BEAR 中文：在指定的範圍內 apply an operation
+        - BEAR 重點：
+    - Escape hatches 逃生艙口 ??????????????????
+        - AWS 原文：It's possible that neither the high-level constructs nor the low-level CFN Resource constructs have a specific feature you are looking for. There are three possible reasons for this lack of functionality:
+        - BEAR 中文：缺乏所需的 functionality 時，該如何處理
+        - BEAR 重點：
+    - Bootstrapping 引導
+        - AWS 原文：
+            - Deploying AWS CDK apps into an AWS environment (a combination of an AWS account and region) may require that you provision resources the AWS CDK needs to perform the deployment. 
+            - These resources include an Amazon S3 bucket for storing files and IAM roles that grant permissions needed to perform deployments. 
+            - The process of provisioning these initial resources is called bootstrapping.
+        - BEAR 中文：提供初始資源的過程
+        - BEAR 重點：
+
+- 專有名詞不要翻譯
+- 每一個 concept 都還有 連接很多 外部資源
+- 目標：寫出一份 VVVV
+- 配合 workshop 和 example 實際走過一次
+
+- CfnOutput 和 log
+    - vuetify
+    - bash 不適合
+    - shellscript
+
+- 看懂 別人 寫好 或是 撰寫
+
+
+
+
