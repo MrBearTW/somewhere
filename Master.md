@@ -31,10 +31,17 @@
         - Business Analytics
     - 租屋參考 https://www.uhomes.com/pc/activity/form/cn_taiwan_20200520
 
+- 2022
+    - 推薦信
+        - 學術
+        - 工作
+    - SOP
+    - 自由書寫
+
 - QA
     - Y
         - KKDAY
         - 阿福管家
         - ichef
     - C
-        - 
+        - shopline
