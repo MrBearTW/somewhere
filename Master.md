@@ -19,7 +19,7 @@
 - 英國政府獎學金 - Chevening
 - 20210721 商科生拿三年美國工作簽？INTO 秘訣大公開！
     - STMP
-    - 奧樂剛
+    - 奧勒岡州
     - 路易斯安那
     - 坦帕
     - BOSTON SUFFOLK UNOVERSITY
@@ -28,8 +28,14 @@
         - 大數據 資管
     - 紐約旁邊(車程四十分鐘) HOFSTRA UNIVERSITY
         - Hand-on experience 實習
-        - Business Analytics
+        - Business Analyticsｓ
     - 租屋參考 https://www.uhomes.com/pc/activity/form/cn_taiwan_20200520
+
+- 前輩
+    - UCD
+        - 拼命刷題
+        - 關於修課，能過就好
+        - 不限於當地ｓ
 
 - 2022
     - 推薦信

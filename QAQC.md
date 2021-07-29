@@ -18,6 +18,8 @@ https://en.wikipedia.org/wiki/Eight_disciplines_problem_solving
 8. D7 從制度或結構去預防
 9. D8 感謝你的夥伴們
 
+- [商周 工作出錯⋯你會檢討人？檢討流程？一個觀念，看台積電「8D問題解決法」](https://www.businessweekly.com.tw/careers/blog/3006691)
+
 # QC 七手法
 七種協助管理的圖表  
 

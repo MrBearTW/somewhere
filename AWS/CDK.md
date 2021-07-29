@@ -1181,5 +1181,440 @@
 - 看懂 別人 寫好 或是 撰寫
 
 
+## Prerequisites
+
+# TypeScript Workshop
+
+## New Project (2 2 10 10 17 =  )
+
+- cdk init 
+    - 建立專案
+    - `mkdir cdk-workshop && cd cdk-workshop`
+    - `cdk init sample-app --language typescript`
+- npm run watch
+    - 持續 compilation
+    - Open new terminal window
+        - `cd cdk-workshop`
+        - `npm run watch`
+- Project structure
+    - Explore your project directory
+        - `lib/cdk-workshop-stack.ts` is where your CDK application’s main stack is defined. This is the file we’ll be spending most of our time in.
+            - main stack
+        - `bin/cdk-workshop.ts` is the entrypoint of the CDK application. It will load the stack defined in `lib/cdk-workshop-stack.ts`.
+            - 入口點
+        - `Package.json` is your npm module manifest. It includes information like the name of your app, version, dependencies and build scripts like “watch” and “build” (`package-lock.json` is maintained by npm)
+        - `cdk.json` tells the toolkit how to run your app. In our case it will be `"npx ts-node bin/cdk-workshop.ts"`
+        - `tsconfig.json` your project’s typescript configuration
+        - `.gitignore` and `.npmignore` tell git and npm which files to include/exclude from source control and when publishing this module to the package manager.
+        - `node_modules` is maintained by npm and includes all your project’s dependencies.
+- cdk synth
+    - `cdk synth` 後產出 CloudFormation template
+    - AWS CDK apps are effectively only a definition of your infrastructure using code
+    - When CDK apps are executed, they produce (or `“synthesize”`, in CDK parlance) an AWS CloudFormation template for each stack defined in your application.
+        - `cdk synth`
+        - Will output the following CloudFormation template:
+            - AWS::CDK::Metadata 會自動加入，AWS 用來分析 CDK
+- cdk deploy
+    - 第一次要做 Bootstrapping / deploy 會取得 STACK-ID / CloudFormation Console 中 resources 可以看 Physical ID
+    - Bootstrapping an environment
+        - The first time you deploy an AWS CDK app into an environment (account/region), you can install a “bootstrap stack”. 
+            - This stack includes resources that are used in the toolkit’s operation. For example, the stack includes an S3 bucket that is used to store templates and assets during the deployment process.
+            - `cdk bootstrap`
+                - Access Denied error
+                    - AWS CLI has not been set up correctly
+                    - if the active AWS profile does not have the cloudformation:CreateChangeSet permission.
+    - Let’s deploy
+        - `cdk deploy`
+            - This is warning you that deploying the app entails some risk.
+            - Output should look like the following, where ACCOUNT-ID is your account ID, REGION is the region in which you created the app, and STACK-ID is the unique identifier for your stack:
+    - The CloudFormation Console
+        - CDK apps are deployed through AWS CloudFormation. 
+        - Each CDK stack maps 1:1 with CloudFormation stack.
+        - If you select CdkWorkshopStack and open the Resources tab, you will see the physical identities of our resources:
+
+## Hello, CDK! (11 60 20 = 91)
+
+- Cleanup sample
+    - 刪除 `lib/cdk-workshop-stack.ts`(stack’s contents) 中的 上個範例程式碼 / `cdk diff` 查看差異
+    - `cdk diff` 比較
+        - show us the difference between our CDK app and what’s currently deployed.
+        - This is a safe way to check what will happen once we run cdk deploy and is always good practice:
+        - 確認刪除資源無誤後，`cdk deploy` You should see the resources being deleted
+- Hello Lambda
+    - Lambda handler code
+        1. Create a directory lambda in the root of your project tree (next to bin and lib).
+        2. Add a file called `lambda/hello.js` with the following contents
+            - ```js
+                exports.handler = async function(event) {
+                    console.log("request:", JSON.stringify(event, undefined, 2));
+                    return {
+                        statusCode: 200,
+                        headers: { "Content-Type": "text/plain" },
+                        body: `Hello, CDK! You've hit ${event.path}\n`
+                    };
+                };
+                ``` 
+            - This is a simple Lambda function which returns the text “Hello, CDK! You’ve hit [url path]". 
+            - The function’s output also includes the HTTP status code and HTTP headers. 
+            - These are used by API Gateway to formulate the HTTP response to the user.
+        - 可用 js 之外的語言
+        - 添加 `!lambda/*.js` 在 .gitignore
+    - Install the AWS Lambda construct library
+        - The AWS CDK is shipped with an extensive library of constructs called the AWS Construct Library. 
+        - The construct library is divided into modules, one for each AWS service. 
+        - `npm install @aws-cdk/aws-lambda`
+    - Add an AWS Lambda Function to your stack
+        - Add an import statement at the beginning of `lib/cdk-workshop-stack.ts`, and a lambda.Function to your stack.
+        - ```ts
+            import * as cdk from '@aws-cdk/core';
+            import * as lambda from '@aws-cdk/aws-lambda';
+
+            export class CdkWorkshopStack extends cdk.Stack {
+                constructor(scope: cdk.App, id: string, props?: cdk.StackProps) {
+                    super(scope, id, props);
+
+                    // defines an AWS Lambda resource
+                    const hello = new lambda.Function(this, 'HelloHandler', {
+                    runtime: lambda.Runtime.NODEJS_14_X,    // execution environment
+                    code: lambda.Code.fromAsset('lambda'),  // code loaded from "lambda" directory
+                    handler: 'hello.handler'                // file is "hello", function is "handler"
+                    });
+                }
+            }
+            ```
+            - Our function uses the NodeJS (NODEJS_14_X) runtime
+            - The handler code is loaded from the lambda directory which we created earlier. Path is relative to where you execute cdk from, which is the project’s root directory
+            - The name of the handler function is `hello.handler` (`“hello”` is the name of the file and `“handler”` is the exported function name)
+    - A word about constructs and constructors
+        - As you can see, the class constructors of both `CdkWorkshopStack`(CLASS) and `lambda.Function`(FUN) (and many other classes in the CDK) have the signature `(scope, id, props)`.
+            - This is because all of these classes are **constructs**.
+                - Constructs are the basic building block of CDK apps.
+                - They represent abstract “cloud components” which can be composed together into higher level abstractions via **scopes**.
+                - Scopes can include constructs, which in turn can include other constructs, etc.
+            1.  **scope**: the first argument is always the scope in which this construct is created. In almost all cases, you’ll be defining constructs within the scope of current construct, which means you’ll usually just want to pass `this` for the first argument. Make a habit out of it.
+            2. **id**: the second argument is the `local identity` of the construct. It’s an ID that has to be unique amongst construct within the same scope. 
+                - The CDK uses this identity to calculate the CloudFormation `Logical ID` for each resource defined within this scope.
+            3. **props**: the last (sometimes optional) argument is always a set of initialization properties. Those are specific to each construct. 
+            - For example, the lambda.Function construct accepts properties like runtime, code and handler. 
+                - You can explore the various options using your IDE’s auto-complete or in the online documentation.
+        - `cdk diff`
+            - As you can see, this code synthesizes an AWS::Lambda::Function resource. 
+            - It also synthesized a couple of CloudFormation parameters that are used by the toolkit to propagate the location of the handler code.
+        - `cdk deploy`
+            - You’ll notice that `cdk deploy` not only deployed your CloudFormation stack, but also archived and uploaded the **lambda** directory from your disk to the bootstrap bucket.
+        - Testing our function
+            - AWS Lambda Console -> function name -> Test -> Select Amazon API Gateway AWS Proxy from the Event template list. -> test under Event name. -> Create -> Test again -> Expand Details in the Execution result
+- API Gateway
+    - Lambda proxy integration
+        - Lambda 代理整合是一種輕量型彈性 API Gateway API 整合類型，可讓您整合 API 方法 (或整個 API) 與 Lambda 函數。
+    - Install the API Gateway construct library
+        - `npm install @aws-cdk/aws-apigateway`
+        - 修改 `lib/cdk-workshop-stack.ts`
+            - ```ts
+                // defines an API Gateway REST API resource backed by our "hello" function.
+                new apigw.LambdaRestApi(this, 'Endpoint', {
+                    handler: hello
+                });
+                ```
+    - `cdk diff` added 12 new resources
+    - `cdk deploy` 
+        - `CdkWorkshopStack.Endpoint8024A810 = https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/prod/`
+        - This is a stack output that’s automatically added by the API Gateway construct and includes the URL of the API Gateway endpoint.
+
+## Writing constructs (2 10 12 17 18 13 16 16 = 104)
+
+- 前言
+    - In this chapter we will define a new construct called **HitCounter**.
+- Define the HitCounter API
+    - Create a new file under lib called `hitcounter.ts` with the following content:
+        - ```ts
+            import * as cdk from '@aws-cdk/core';
+            import * as lambda from '@aws-cdk/aws-lambda';
+
+            export interface HitCounterProps {
+                /** the function for which we want to count url hits **/
+                downstream: lambda.IFunction;   // https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-lambda.IFunction.html
+            }
+
+            export class HitCounter extends cdk.Construct {
+                constructor(scope: cdk.Construct, id: string, props: HitCounterProps) {
+                    super(scope, id);
+
+                    // TODO
+                }
+            }
+            ```
+            - We declared a new construct class called `HitCounter`.
+            - As usual, constructor arguments are scope, id and props, and we propagate them to the `cdk.Construct` base class.
+            - The `props` argument is of type `HitCounterProps` which includes a single property `downstream` of type `lambda.IFunction`. 
+                - This is where we are going to “plug in” the Lambda function we created in the previous chapter so it can be hit-counted.
+- Hit counter handler
+    - Hit counter Lambda handler
+        - Create the file `lambda/hitcounter.js`
+            - ```js
+                const { DynamoDB, Lambda } = require('aws-sdk');
+
+                exports.handler = async function(event) {
+                    console.log("request:", JSON.stringify(event, undefined, 2));
+
+                    // create AWS SDK clients
+                    const dynamo = new DynamoDB();
+                    const lambda = new Lambda();
+
+                    // update dynamo entry for "path" with hits++
+                    await dynamo.updateItem({
+                        TableName: process.env.HITS_TABLE_NAME,
+                        Key: { path: { S: event.path } },
+                        UpdateExpression: 'ADD hits :incr',
+                        ExpressionAttributeValues: { ':incr': { N: '1' } }
+                    }).promise();
+
+                    // call downstream function and capture response
+                    const resp = await lambda.invoke({
+                        FunctionName: process.env.DOWNSTREAM_FUNCTION_NAME,
+                        Payload: JSON.stringify(event)
+                    }).promise();
+
+                    console.log('downstream response:', JSON.stringify(resp, undefined, 2));
+
+                    // return response back to upstream caller
+                    return JSON.parse(resp.Payload);
+                };
+                ```
+                - `HITS_TABLE_NAME` is the name of the DynamoDB table to use for storage.
+                - `DOWNSTREAM_FUNCTION_NAME` is the name of the downstream AWS Lambda function.
+- Define resources
+    - Add resources to the hit counter construct, go back to `lib/hitcounter.ts` and add the following highlighted code
+        - ```ts
+            import * as cdk from '@aws-cdk/core';
+            import * as lambda from '@aws-cdk/aws-lambda';
+            import * as dynamodb from '@aws-cdk/aws-dynamodb';
+
+            export interface HitCounterProps {
+                /** the function for which we want to count url hits **/
+                downstream: lambda.IFunction;
+            }
+
+            export class HitCounter extends cdk.Construct {
+
+                /** allows accessing the counter function */
+                public readonly handler: lambda.Function;
+
+                constructor(scope: cdk.Construct, id: string, props: HitCounterProps) {
+                    super(scope, id);
+
+                    const table = new dynamodb.Table(this, 'Hits', {
+                        partitionKey: { name: 'path', type: dynamodb.AttributeType.STRING }
+                    });
+
+                    this.handler = new lambda.Function(this, 'HitCounterHandler', {
+                        runtime: lambda.Runtime.NODEJS_14_X,
+                        handler: 'hitcounter.handler',
+                        code: lambda.Code.fromAsset('lambda'),
+                        environment: {
+                            DOWNSTREAM_FUNCTION_NAME: props.downstream.functionName,
+                            HITS_TABLE_NAME: table.tableName
+                        }
+                    });
+                }
+            }
+            ```
+            - We defined a DynamoDB table with `path` as the partition key.
+            - We defined a Lambda function which is bound to the `lambda/hitcounter.handler` code.
+            - We wired the Lambda’s environment variables to the `functionName` and `tableName` of our resources.
+    - Late-bound values
+        - The `functionName` and `tableName` properties are values that only resolve when we deploy our stack (notice that we haven’t configured these physical names when we defined the table/function, only logical IDs).
+            - This means that if you print their values during synthesis, you will get a **“TOKEN”**, which is how the CDK represents these late-bound values.
+                - You should treat tokens as opaque strings.
+                - This means you can concatenate them together for example, but don’t be tempted to parse them in your code.
+- Use the hit counter
+    -  Open `lib/cdk-workshop-stack.ts`
+        - ```ts
+            import * as cdk from '@aws-cdk/core';
+            import * as lambda from '@aws-cdk/aws-lambda';
+            import * as apigw from '@aws-cdk/aws-apigateway';
+            import { HitCounter } from './hitcounter';
+
+            export class CdkWorkshopStack extends cdk.Stack {
+                constructor(scope: cdk.App, id: string, props?: cdk.StackProps) {
+                    super(scope, id, props);
+
+                    const hello = new lambda.Function(this, 'HelloHandler', {
+                    runtime: lambda.Runtime.NODEJS_14_X,
+                    code: lambda.Code.fromAsset('lambda'),
+                    handler: 'hello.handler'
+                    });
+
+                    const helloWithCounter = new HitCounter(this, 'HelloHitCounter', {
+                    downstream: hello
+                    });
+
+                    // defines an API Gateway REST API resource backed by our "hello" function.
+                    new apigw.LambdaRestApi(this, 'Endpoint', {
+                    handler: helloWithCounter.handler
+                    });
+                }
+            }
+            ```
+            - we changed our API Gateway handler to `helloWithCounter.handler` instead of `hello`.
+                - This basically means that whenever our endpoint is hit, API Gateway will route the request to our hit counter handler, which will log the hit and relay it over to the hello function. 
+                - Then, the responses will be relayed back in the reverse order all the way to the user.
+            - `cdk deploy`
+            - `curl -i https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/prod/`
+                - 502
+- CloudWatch Logs
+    - Viewing CloudWatch logs for our Lambda function
+        - AWS Lambda console -> Monitoring -> View Logs in CloudWatch. -> most-recent log group -> containing the string `“errorMessage”` ==> Lambda function can’t write to our DynamoDB table
+- Granting permissions
+    - Allow Lambda to read/write our DynamoDB table
+        - Let’s give our Lambda’s execution role permissions to read/write from our table.
+        - Go back to `hitcounter.ts` add
+            - ```ts
+                // grant the lambda role read/write permissions to our table
+                table.grantReadWriteData(this.handler);
+                ```
+        - errorMessage
+            - ```js
+                User: <VERY-LONG-STRING> is not authorized to perform: lambda:InvokeFunction on resource: <VERY-LONG-STRING>"
+                ```
+            - DynamoDB Console:
+                - But, we must also give our hit counter permissions to invoke the downstream lambda function.
+    - Grant invoke permissions
+        - Go back to `hitcounter.ts` add
+            - ```ts
+                // grant the lambda role invoke permissions to the downstream function
+                props.downstream.grantInvoke(this.handler);
+                ```
+        - `cdk diff`
+            - The `Resource` section should look something like this, which shows the IAM statement was added to the role:
+        - `cdk deploy`
+            - 
+- Test the hit counter
+    - Issue a few test requests
+        - `curl https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/prod/ABC/XYZ`
+    - Open DynamoDB console
+        - DynamoDB console. -> Tables starts with CdkWorkdShopStack-HelloHitCounterHits -> Items
+
+## Using construct libraries (4 2 7 10 卡60 )
+
+- 前言
+    - In this chapter we will import a construct library(npm) called `cdk-dynamo-table-viewer` into our project and install it on our hit counter table.
+- Learning about the Table Viewer construct
+    - 示範用 / 不適合 production
+- Installing the library
+    - `npm install cdk-dynamo-table-viewer`
+- Add the table viewer to your app
+    - Add the following hightlighted lines to `lib/cdk-workshop-stack.ts` to add a TableViewer construct to your stack
+        - ```ts
+            import * as cdk from '@aws-cdk/core';
+            import * as lambda from '@aws-cdk/aws-lambda';
+            import * as apigw from '@aws-cdk/aws-apigateway';
+            import { HitCounter } from './hitcounter';
+            import { TableViewer } from 'cdk-dynamo-table-viewer';
+
+            export class CdkWorkshopStack extends cdk.Stack {
+                constructor(scope: cdk.App, id: string, props?: cdk.StackProps) {
+                    super(scope, id, props);
+
+                    const hello = new lambda.Function(this, 'HelloHandler', {
+                    runtime: lambda.Runtime.NODEJS_14_X,
+                    code: lambda.Code.fromAsset('lambda'),
+                    handler: 'hello.handler'
+                    });
+
+                    const helloWithCounter = new HitCounter(this, 'HelloHitCounter', {
+                    downstream: hello
+                    });
+
+                    // defines an API Gateway REST API resource backed by our "hello" function.
+                    new apigw.LambdaRestApi(this, 'Endpoint', {
+                    handler: helloWithCounter.handler
+                    });
+
+                    new TableViewer(this, 'ViewHitCounter', {
+                    title: 'Hello Hits',
+                    table: //??????
+                    });
+                }
+            }
+            ```
+            - As you’ll notice, `TableViewer` requires that you specify a `table` property
+            - What we want is to somehow access the DynamoDB table behind our hit counter. 
+            - However, the current API of our hit counter doesn’t expose the table as a public member.
+- Exposing our hit counter table
+    - Edit `hitcounter.ts` and modify it as such `table` is exposed as a public property.
+        - ```ts
+            /** the hit counter table */
+            public readonly table: dynamodb.Table;
+
+            constructor(scope: cdk.Construct, id: string, props: HitCounterProps) {
+            super(scope, id);
+
+            const table = new dynamodb.Table(this, "Hits", {
+            partitionKey: {
+                name: "path",
+                type: dynamodb.AttributeType.STRING
+            }
+            });
+
+            this.table = table;
+            ```
+    - Go back to cdk-workshop-stack.ts and assign the table property of the table viewer:
+        - ```ts
+            table: helloWithCounter.table
+            ```
+    - 存擋後，`crtl + c` 關閉 npm watch
+        - wul4tt錯誤
+            - 14 10
+                - 在 node_modules
+                    - 不是自己改？？？
+                    - 
+            - 刪掉 
+            - 查 runtime 
+- Deploying our app
+    - cdk diff
+        - You’ll notice that the table viewer adds another API Gateway endpoint, a Lambda function, permissions, outputs, all sorts of goodies.
+
+- Extra credit
+
+## Clean up
+
+## Advanced Topics
+
+- Testing Constructs
+    - Assertion Tests
+    - Validation Tests
+- CDK Pipelines
+    - Getting Started with Pipelines
+    - Create Repository
+    - Create New Pipeline
+    - Add Application to Pipeline
+    - Polish Pipeline
+    - Cleanup
 
 
+- 在網頁上做筆記
+
+- hello lambda 的紅色毛毛蟲
+- lib 內 兩個 ts 檔是
+- dynamoDB ？？？
+    - PK SK
+    - index： 預設的 / 自定義的 （vs RSDB)
+    - how to query
+- 複習 js Await 與 Async
+
+
+- V參考的 五個問題
+    - folder structer？
+        - 照著 workshop 的方法
+        - 進入口 / 下一層 stack 怎麼做的
+            - 判斷式 定義 / tag / 哪些 service / API 的 config
+    - lambda 的 run time
+        - 沒有原生支援 typescript
+            - 要用 contruct build 成 node.js 
+                - 之前有一篇文章
+    - dynamoDB 同上
+    - cloudfront
+        - concept
+        - 專有名詞
+    
