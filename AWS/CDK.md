@@ -1618,3 +1618,14 @@
         - concept
         - 專有名詞
     
+- 錯誤訊息
+    ```
+        this: this
+        Argument of type 'this' is not assignable to parameter of type 'Construct'.
+        Type 'CdkWorkshopStack' is not assignable to type 'Construct'.
+            Types of property 'node' are incompatible.
+            Type 'ConstructNode' is missing the following properties from type 'ConstructNode': metadataEntry, addValidationts(2345)
+        Peek Problem (⌥F8)
+        No quick fixes available
+    ```
+    ==> 套件版本相依有問題，查使用的套件更新時間 -> 預估搭配的時間
