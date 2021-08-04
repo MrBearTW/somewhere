@@ -30,6 +30,28 @@
         - Hand-on experience 實習
         - Business Analyticsｓ
     - 租屋參考 https://www.uhomes.com/pc/activity/form/cn_taiwan_20200520
+- OIEG 英國名校獎學金
+    - Dundee
+        - 蘇格蘭第四大城
+        - 蘇格蘭最對太陽的城市
+        - 第二座 V&A 博物館
+        - 火車
+            - 愛丁堡 1 hr
+            - Glasgow 1.5 hr
+            - London 6hr
+        - 飛機
+            - 阿姆斯特丹 1.5hr
+            - London 1hr
+    - 2021 The guradn 全英 19th
+    - Premaster
+        - 10W 6分
+        - 20W 5分
+    - PSW (2Y) -> Tier 2
+    - 學費
+        - 
+        - 
+        - 學費 1167855 - 獎學金 390000 = 777855
+
 
 - 前輩
     - UCD
