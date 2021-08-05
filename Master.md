@@ -73,3 +73,15 @@
         - ichef
     - C
         - shopline
+
+# IELTS
+
+- [IDP IELTS](https://www.ieltstaiwan.org/free-online-resources-tc/)
+
+
+# 廣告看到記一下
+- [澳洲卡內基美隆大學(CMU-A)](https://www.iae-taiwan.net/hot/detail/1454?fbclid=PAAaZZ-MC5l2TBAdWKh5CeDF8BqHMRU5R4XwpnTbi7j6YxUJWFDfO8OAQ7Cy0_aem_AYBLKm4XZqDxwnRbUlTUP5bZfIT8wgtF9dGCtf8pZrb7PlnCISqknkVOd4YSdobdBAgoXtO8jNITCe3C344eqTAoRGD0y5k4ZtIzIxaELw2H7ql67fz_NEH-l0amUmdxGbk)
+    - 2021/22年特別開設一月春季班
+
+# QQ
+69.7 / GPA 2.7

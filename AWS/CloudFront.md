@@ -103,10 +103,130 @@
 
 - Lambda 圖
 - CloudFront 缺少的部分 
-- Request and Response Behavior
-    - Request and Response Behavior for Amazon S3 Origins
-    - (V) Request and Response Behavior for Custom Origins 
-        - 看大中標，看完和上面 Ｓ3 比一下
+    - Request and Response Behavior
+        - Request and Response Behavior for Amazon S3 Origins
+        - (V) Request and Response Behavior for Custom Origins 
+            - 看大中標，看完和上面 Ｓ3 比一下
 - 60 重點 origin  behavior
 - 15 CloudFront 要刪除 Cache 用字是？
 - 90 VWRS bin/V-V-V-V-init.ts 從頭到尾
+
+
+- CloudFront 要刪除 Cache 用字是？
+    - [Invalidating Files](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html)
+        1. Invalidate the file from edge caches. The next time a viewer requests the file, CloudFront returns to the origin to fetch the latest version of the file.
+            - To invalidate files, you can specify either the path for individual files or a path that ends with the * wildcard, which might apply to one file or to many, as shown in the following examples:
+                > /images/image1.jpg
+                /images/image*
+                /images/*
+            - f you use the AWS Command Line Interface (AWS CLI) for invalidating files and you specify a path that includes the * wildcard, you must use quotes (") around the path. `aws cloudfront create-invalidation --distribution-id distribution_ID --paths "/*"`
+        2. Use file versioning to serve a different version of the file that has a different name. 
+    - You can submit a certain number of invalidation paths each month for free. If you submit more than the allotted number of invalidation paths in a month, you pay a fee for each invalidation path that you submit.(1000 paths)
+
+- Runtime
+    - In computer science, runtime, run time, or execution time is the final phase of a computer program's life cycle, in which the code is being executed on the computer's central processing unit (CPU) as machine code. 
+    - In other words, "runtime" is the running phase of a program.
+
+- Request and Response Behavior for Custom Origins
+    - How CloudFront Processes and Forwards Requests to Your Custom Origin Server
+        - Authentication
+            - For `DELETE, GET, HEAD, PATCH, POST, and PUT` requests,
+                - if you configure CloudFront to forward the Authorization header to your origin, you can configure your origin server to request client authentication.
+            - For `OPTIONS` requests,
+                - you can configure your origin server to request client authentication only if you use the following CloudFront settings:
+                    - Configure CloudFront to forward the Authorization header to your origin.
+                    - Configure CloudFront to not cache the response to OPTIONS requests.
+        - Caching Duration and Minimum TTL
+            - Configure your origin to add a `Cache-Control` or an Expires header field to each object.
+            - Specify a value for Minimum TTL in CloudFront cache behaviors.
+            - Use the default value of 24 hours.
+        - Client IP Addresses
+            - `X-Forwarded-For` 會影響 it forwards the following header to the origin 的 IP
+        - Client-Side SSL Authentication
+            - CloudFront does not support client authentication with client-side SSL certificates. If an origin requests a client-side certificate, CloudFront drops the request.
+        - Compression
+            - You can use CloudFront to automatically compress files of certain types and serve the compressed files when viewers support them (viewers indicate their support for compressed files with the Accept-Encoding HTTP header).
+        - Conditional Requests
+            - When CloudFront receives a request for an object that has expired from an edge cache, it forwards the request to the origin either to get the latest version of the object or to get confirmation from the origin that the CloudFront edge cache already has the latest version.
+                - An `If-Match` or `If-None-Match` header that contains the ETag value for the expired version of the object.
+                - An `If-Modified-Since` header that contains the `LastModified` value for the expired version of the object.
+            The origin uses this information to determine whether the object has been updated and, therefore, whether to return the entire object to CloudFront or to return only an HTTP 304 status code (not modified).
+        - Cookies
+            - You can configure CloudFront to forward cookies to your origin.
+        - Cross-Origin Resource Sharing (CORS)
+            - If you want CloudFront to respect cross-origin resource sharing settings, configure CloudFront to forward the `Origin` header to your origin.
+        - Encryption
+            - You can require viewers to use HTTPS to send requests to CloudFront and require CloudFront to forward requests to your custom origin by using the protocol that is used by the viewer.
+                - SSL and TLS 有限制版本
+        - GET Requests That Include a Body
+            - If a viewer `GET` request includes a body, CloudFront returns an HTTP status code 403 (Forbidden) to the viewer.
+        - HTTP Methods
+            - If you configure CloudFront to process all of the HTTP methods that it supports, CloudFront accepts the following requests from viewers and forwards them to your custom origin
+                - DELETE / GET / HEAD / OPTIONS / PATCH / POST / PUT
+            - CloudFront always caches responses to `GET` and `HEAD` requests. You can also configure CloudFront to cache responses to `OPTIONS` requests.
+        - HTTP Request Headers and CloudFront Behavior (Custom and S3 Origins)
+            - The following table lists HTTP request headers that you can forward to both custom and Amazon S3 origins (with the exceptions that are noted).
+            - CloudFront behavior if you don't configure CloudFront to forward the header to your origin, which causes CloudFront to cache your objects based on header values.
+            - Whether you can configure CloudFront to cache objects based on header values for that header.
+            - 一個不同 header values 超大表格
+        - HTTP Version
+            - CloudFront forwards requests to your custom origin using HTTP/1.1.
+        - Maximum Length of a Request and Maximum Length of a URL
+            - The maximum length of a request, including the path, the query string (if any), and headers, is 20,480 bytes.
+            - CloudFront constructs a URL from the request. The maximum length of this URL is 8192 bytes.
+            - If a request or a URL exceeds these maximums, CloudFront returns HTTP status code 413, Request Entity Too Large, to the viewer, and then terminates the TCP connection to the viewer.
+        - OCSP Stapling
+            - OCSP stapling speeds up certificate validation by allowing CloudFront to validate the certificate and to cache the response from the CA, so the client doesn't need to validate the certificate directly with the CA.
+        - Persistent Connections
+            - When CloudFront gets a response from your origin, it tries to maintain the connection for several seconds in case another request arrives during that period. 
+            - Maintaining a persistent connection saves the time required to re-establish the TCP connection and perform another TLS handshake for subsequent requests.
+        - Protocols
+            - CloudFront forwards HTTP or HTTPS requests to the origin server based on the following:
+                - The protocol of the request that the viewer sends to CloudFront, either HTTP or HTTPS.
+                - The value of the Origin Protocol Policy field in the CloudFront console or, if you're using the CloudFront API, the `OriginProtocolPolicy` element in the `DistributionConfig` complex type. 
+                    - In the CloudFront console, the options are `HTTP Only`, `HTTPS Only`, and `Match Viewer`.
+            - If CloudFront forwards a request to the origin using the HTTPS protocol, and if the origin server returns an invalid certificate or a self-signed certificate, CloudFront drops the TCP connection.
+        - Query Strings
+            - You can configure whether CloudFront forwards query string parameters to your origin. 
+        - Origin Connection Timeout and Attempts
+            - `Origin connection timeout` is the number of seconds that CloudFront waits when trying to establish a connection to the origin.
+            - `Origin connection attempts` is the number of times that CloudFront attempts to connect to the origin.
+            - By default, CloudFront waits as long as 30 seconds (3 attempts of 10 seconds each)
+        - Origin Response Timeout
+            - The origin response timeout, also known as the origin read timeout or origin request timeout, applies to both of the following:
+                - `GET` and `HEAD` requests 
+                - `DELETE`, `OPTIONS`, `PATCH`, `PUT`, and `POST` requests 
+        - Simultaneous Requests for the Same Object (Traffic Spikes)
+            - If there's a traffic spike—if additional requests for the same object arrive at the edge location before your origin responds to the first request—CloudFront pauses briefly before forwarding additional requests for the object to your origin. 
+            - 是緩衝，不是 queue
+        - User-Agent Header
+            - If you want CloudFront to cache different versions of your objects based on the device that a user is using to view your content, we recommend that you configure CloudFront to forward one or more of the following headers to your custom origin
+            - Based on the value of the `User-Agent` header, CloudFront sets the value of these headers to true or false before forwarding the request to your origin.
+    - How CloudFront Processes Responses from Your Custom Origin Server
+        - 100-Continue Responses
+        - Caching
+        - Canceled Requests
+        - Content Negotiation
+        - Cookies
+        - Dropped TCP Connections
+        - HTTP Response Headers that CloudFront Removes or Replaces
+        - Maximum File Size
+        - Origin Unavailable
+        - Redirects
+        - Transfer Encoding
+
+- CloudFront 會有至少四個角色
+    - End user
+    - CloudFront
+    - Origin
+    - CloudFront 開發者
+
+- 將熊的筆記跟 Reference 分開來
+	- CloudFront
+		- Bear
+		- Reference
+			- AWS Document
+- 想辦法簡化自己的筆記
+	- 圖解
+	- 去掉形容詞
+- 每一個句子都要有完整敘述 (S+V+O)
