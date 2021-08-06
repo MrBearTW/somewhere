@@ -78,6 +78,13 @@
 
 - [IDP IELTS](https://www.ieltstaiwan.org/free-online-resources-tc/)
 
+- 20210806 雅思高分分享 - 好評再加開！
+    - 組別
+        - 一般（移民）
+        - 學術
+            - UKVI 7820
+            - 一般學術 7200
+    - 有一些需要一起繳交雅思的學校。
 
 # 廣告看到記一下
 - [澳洲卡內基美隆大學(CMU-A)](https://www.iae-taiwan.net/hot/detail/1454?fbclid=PAAaZZ-MC5l2TBAdWKh5CeDF8BqHMRU5R4XwpnTbi7j6YxUJWFDfO8OAQ7Cy0_aem_AYBLKm4XZqDxwnRbUlTUP5bZfIT8wgtF9dGCtf8pZrb7PlnCISqknkVOd4YSdobdBAgoXtO8jNITCe3C344eqTAoRGD0y5k4ZtIzIxaELw2H7ql67fz_NEH-l0amUmdxGbk)

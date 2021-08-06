@@ -1574,10 +1574,11 @@
 - Deploying our app
     - cdk diff
         - You’ll notice that the table viewer adds another API Gateway endpoint, a Lambda function, permissions, outputs, all sorts of goodies.
-
 - Extra credit
-
+    - 
 ## Clean up
+- EAN UP YOUR STACK
+    -
 
 ## Advanced Topics
 

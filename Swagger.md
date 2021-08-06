@@ -16,6 +16,8 @@
 
 # SwaggerHub Free
 
+- 可上傳 Swagger-Core Annotations 的檔案
+
 # Swagger open source tools
 
 - [Swagger Open Source Tools](https://swagger.io/tools/open-source/)
@@ -54,12 +56,16 @@
 
 # Laravel + Swagger
 
-- 介紹文章
-    - compose 安裝 別人封裝好的Laravel 套件
+- 幾篇介紹文章的總結
+    - compose 安裝 別人封裝好的 Laravel 套件
         - DarkaOnLine/L5-Swagger
         - zircote/swagger-php
     - 經過一些路徑設定
-    - 寫 Swagger Annotation，讓套件可以讀取我們寫的annotations產生JSON或YAML format的檔案，產生出API文件。
+    - 寫 Swagger Annotation，讓套件可以讀取我們寫的 annotations 產生 JSON 或 YAML format 的檔案，產生出 API 文件。
+        - [Swagger-Core Annotations](https://github.com/swagger-api/swagger-core/wiki/annotations)
     - 透過 Swagger UI 看 web API document
 
-# 複習一下目標
+# 專有名詞
+
+- OpenAPI Specification (OAS)
+- OpenAPI Specification (formerly known as Swagger)
