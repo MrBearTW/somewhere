@@ -85,10 +85,14 @@
             - UKVI 7820
             - 一般學術 7200
     - 有一些需要一起繳交雅思的學校。
+    - [IELTS UKEAS Tainan](https://www.youtube.com/channel/UC2Z5DgpRn1qnZiX_y_0aWFg/videos)
 
 # 廣告看到記一下
 - [澳洲卡內基美隆大學(CMU-A)](https://www.iae-taiwan.net/hot/detail/1454?fbclid=PAAaZZ-MC5l2TBAdWKh5CeDF8BqHMRU5R4XwpnTbi7j6YxUJWFDfO8OAQ7Cy0_aem_AYBLKm4XZqDxwnRbUlTUP5bZfIT8wgtF9dGCtf8pZrb7PlnCISqknkVOd4YSdobdBAgoXtO8jNITCe3C344eqTAoRGD0y5k4ZtIzIxaELw2H7ql67fz_NEH-l0amUmdxGbk)
     - 2021/22年特別開設一月春季班
+
+# 找工作的時候回來看一下
+- [台北遇上西雅圖](https://www.notion.so/lamberttao/ac38d02bbe3b415ebf08c8597d99a407?v=c8c25f1b86604ca7bd037de31861cfdc)
 
 # QQ
 69.7 / GPA 2.7
