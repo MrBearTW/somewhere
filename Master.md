@@ -17,6 +17,7 @@
         - 可選科系
 
 - 英國政府獎學金 - Chevening
+
 ## 20210721 商科生拿三年美國工作簽？INTO 秘訣大公開！
 - STMP
 - 奧勒岡州
@@ -30,6 +31,7 @@
     - Hand-on experience 實習
     - Business Analyticsｓ
 - 租屋參考 https://www.uhomes.com/pc/activity/form/cn_taiwan_20200520
+
 ## OIEG 英國名校獎學金
 - Dundee
     - 蘇格蘭第四大城
@@ -57,6 +59,12 @@
     - 活動，黑客松，創業競賽，作品，networking
     - 投影片上
 
+# 20210812 前進歐洲矽谷愛爾蘭，開啟多彩海外職涯
+
+- GPA 3 以上，非熱門科系有一些空間
+- 紀錄上 台灣 最低錄取表準 74 分
+
+# 四處收集
 
 - 前輩
     - UCD
