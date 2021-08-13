@@ -12,6 +12,22 @@
 
 # CloudFront
 
+- 介紹頁面
+    - Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
+    - Amazon CloudFront 是快速內容交付網路 (CDN) 服務，可在支援開發人員的環境中，以低延遲和高速傳輸的方式將資料、影片、應用程式和 API 安全地交付給全球的客戶。
+        - Wiki: CDN: Content Delivery Network or Content Distribution Network
+    - Benefits
+        - Global Scaled Network for Fast Content Delivery
+        - Security at the Edge
+        - Highly Programmable and Secure Edge Computing
+        - Deep Integration with AWS
+        - Cost-Effective
+    - Use cases
+        - Website Delivery and Security
+        - Dynamic Content & API Acceleration
+        - Live & On-demand Video Streaming
+        - Software Distribution, Game Delivery and IoT OTA
+
 - What is Amazon CloudFront?
     - Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users.
         - CloudFront delivers your content through a worldwide network of data centers called edge locations. 
@@ -84,21 +100,6 @@
             - A live event, such as a meeting, conference, or concert, in real time. 
 
 
-- 介紹頁面
-    - Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
-    - Amazon CloudFront 是快速內容交付網路 (CDN) 服務，可在支援開發人員的環境中，以低延遲和高速傳輸的方式將資料、影片、應用程式和 API 安全地交付給全球的客戶。
-        - Wiki: CDN: Content Delivery Network or Content Distribution Network
-    - Benefits
-        - Global Scaled Network for Fast Content Delivery
-        - Security at the Edge
-        - Highly Programmable and Secure Edge Computing
-        - Deep Integration with AWS
-        - Cost-Effective
-    - Use cases
-        - Website Delivery and Security
-        - Dynamic Content & API Acceleration
-        - Live & On-demand Video Streaming
-        - Software Distribution, Game Delivery and IoT OTA
 
 
 - Lambda 圖

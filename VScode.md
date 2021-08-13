@@ -36,6 +36,10 @@
 - Tab 不能用
     - Crtl + M 切換模式
 
+- 檔案前後選擇
+    - crtl + tab 退回上一個（跳轉前）檔案
+    - crtl + shift +tab 反向
+
 # 調整
 "editor.renderWhitespace" 選ALL
 

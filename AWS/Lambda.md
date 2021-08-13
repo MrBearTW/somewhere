@@ -99,3 +99,8 @@
         - When using Lambda, you are responsible only for your code. Lambda manages the compute fleet that offers a balance of memory, CPU, network, and other resources to run your code.
     - 把 concept 串連起來
         - 手畫 / mermaid
+
+
+destroy / retain / snapshot
+
+EDGE , REGIONAL , PRIVATE
