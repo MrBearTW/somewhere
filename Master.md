@@ -64,6 +64,27 @@
 - GPA 3 以上，非熱門科系有一些空間
 - 紀錄上 台灣 最低錄取表準 74 分
 
+# 20210814 加拿大 BCIT
+
+- 兩年制大專
+- 很多學分
+
+# 優秀的同學看過來：工業工程全美第一，邁向菁英工程師之路！
+
+- Georgia Tech
+    - 在東邊內陸 Atlanta
+- No thesis
+    - 是否想要念博士
+- 作業地獄
+- Career Fair / Career Workshop
+- 求職網站
+    - Indeed
+    - Glassdoor
+    - LinkedIn
+    - Monster
+- 查清楚截止時間
+- 校區要看清楚
+
 # 四處收集
 
 - 前輩

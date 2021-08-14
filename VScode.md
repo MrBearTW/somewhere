@@ -40,6 +40,9 @@
     - crtl + tab 退回上一個（跳轉前）檔案
     - crtl + shift +tab 反向
 
+- 上方的顯示開啟檔案
+    - `workbench.editor.showTabs` 要打勾 true
+
 # 調整
 "editor.renderWhitespace" 選ALL
 
