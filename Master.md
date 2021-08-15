@@ -111,6 +111,14 @@
 # IELTS
 
 - [IDP IELTS](https://www.ieltstaiwan.org/free-online-resources-tc/)
+- [裸考雅思挑戰😬 雅思VS托福比較🙌 首次分享雅思備考資源 // Chen Lily]()
+    - 雅思電腦模擬考（裸考考題）：https://bit.ly/2E1VAa2
+    - 雅思之路：https://bit.ly/3hr4qfa
+- [雅思準備 | 上班族兩週考到7.5分 | IELTS經驗分享 | 分享口試不好經驗]()
+    - (for Listening/Reading)[https://ieltsonlinetests.com/](https://ieltsonlinetests.com/)
+    - (for Writing/Speaking)[IELTS Liz](https://ieltsliz.com/)
+- [首战雅思8分是如何学的？ | 雅思备考经验分享 | 整体规划+每科详细介绍+额外tips | 短期雅思备考](https://www.youtube.com/watch?v=WZQb7Rk7EeQ)
+
 
 ## 20210806 雅思高分分享 - 好評再加開！
     - 組別

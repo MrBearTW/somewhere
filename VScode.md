@@ -41,7 +41,7 @@
     - crtl + shift +tab 反向
 
 - 上方的顯示開啟檔案
-    - `workbench.editor.showTabs` 要打勾 true
+    - `workbench.editor.showTabs:true` 要打勾
 
 # 調整
 "editor.renderWhitespace" 選ALL
