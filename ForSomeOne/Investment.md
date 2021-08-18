@@ -174,6 +174,7 @@
         - [艾蜜莉-自由之路](https://www.facebook.com/emily0806/)
     - 各種大神，大神也會錯，不過就找錯比較少的
         - [李伯鋒](https://www.facebook.com/buffettism)
+            - [社會新鮮人理財前八步](https://www.facebook.com/buffettism/posts/3519767318126064)
             - [如何選擇一個值得託付的代操](https://www.facebook.com/firefly88/posts/10158770425289375)
         - [范疇](https://www.facebook.com/taibeijing)
         - [財經網美 Emmy Hu](https://www.facebook.com/emmy.hu) / 超多人喜歡戰她

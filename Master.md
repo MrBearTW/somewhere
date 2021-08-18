@@ -15,9 +15,7 @@
     - QS
     - [theguardian](https://www.theguardian.com/education/ng-interactive/2020/sep/05/the-best-uk-universities-2021-league-table)
         - 可選科系
-
-- 英國政府獎學金 - Chevening
-
+        
 ## 20210721 商科生拿三年美國工作簽？INTO 秘訣大公開！
 - STMP
 - 奧勒岡州
@@ -139,6 +137,31 @@
 # 廣告看到記一下
 - [澳洲卡內基美隆大學(CMU-A)](https://www.iae-taiwan.net/hot/detail/1454?fbclid=PAAaZZ-MC5l2TBAdWKh5CeDF8BqHMRU5R4XwpnTbi7j6YxUJWFDfO8OAQ7Cy0_aem_AYBLKm4XZqDxwnRbUlTUP5bZfIT8wgtF9dGCtf8pZrb7PlnCISqknkVOd4YSdobdBAgoXtO8jNITCe3C344eqTAoRGD0y5k4ZtIzIxaELw2H7ql67fz_NEH-l0amUmdxGbk)
     - 2021/22年特別開設一月春季班
+
+# 留學代辦
+
+- [[內有免費代辦資源] 你適合找留學代辦嗎？考量重點全解析｜翊婷的頻道ఠ_ఠ](https://youtu.be/xVDQuh4UA-Q)
+        - 適合放手給別人嗎？
+
+# 獎學金
+
+- 英國政府獎學金 - Chevening
+    - 截止時間 2021/11/02
+        - 不要最後一天才交
+    - 重點是這四題
+        - 100~500 字
+        - 回國後的工作計畫
+    - Leadership
+    - 網路上有很多之前得主的分享
+
+# SOP
+
+- Email
+- 手機內截圖\
+- 翊婷的頻道ఠ_ఠ
+    - [【留學申請經驗分享】 寫SOP的常見錯誤/一個被學校拒絕的故事.../新計畫上線！（內有抽獎資訊）｜翊婷的頻道ఠ_ఠ](https://youtu.be/-hDlv1jfE8I)
+    - [如何幫自己的SOP加分？2021年申請學校的好用關鍵字｜翊婷的頻道ఠ_ఠ](https://youtu.be/NtbNVTekKwc)
+    - [【訪問哈佛好朋友系列】聽聽別人都怎麼寫留學申請文件（英文訪問中文字幕）｜翊婷的頻道ఠ_ఠ](https://youtu.be/GiKFLPSj-4c)
 
 # 找工作的時候回來看一下
 - [台北遇上西雅圖](https://www.notion.so/lamberttao/ac38d02bbe3b415ebf08c8597d99a407?v=c8c25f1b86604ca7bd037de31861cfdc)
