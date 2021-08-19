@@ -51,6 +51,8 @@
     - 若有 resource 不能刪除，stack 就不能刪除
 10:48 wrap-up
 
+- [EP82 - CDK大規模部署最佳實踐 feat: Minche by Pahud Dev](https://youtu.be/30W5zDUA0tA)
+
 # Developer Guide
 
 - Welcome to the AWS Cloud Development Kit (CDK) Developer Guide. This document provides information about the AWS CDK, which is a software development framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.
