@@ -70,6 +70,9 @@
         - index 是 table 的東西，不是 value 的東西
         - 可以有 index 沒有 record
 
+## The DynamoDB Book by Alex DeBrie
+
+
 
 - 是否必要，或是選擇性
     - 必要：只能一個 / 多個
