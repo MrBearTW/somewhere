@@ -94,7 +94,8 @@
 # 四處收集
 
 - 前輩
-    - UCD
+    - UCD [【歐洲軟體工程師求職攻略】我不轉彎！有目標砍掉重練也不怕！](https://www.instagram.com/p/CQdgmsfnNcc/)
+        - [歐洲留學CS轉職軟體工程師心得](https://patricksu-85426.medium.com/%E6%AD%90%E6%B4%B2%E7%95%99%E5%AD%B8cs%E8%BD%89%E8%81%B7%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%BF%83%E5%BE%97-d66a2c0ff5dc)
         - 拼命刷題
         - 關於修課，能過就好
         - 不限於當地ｓ
