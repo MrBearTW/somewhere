@@ -56,7 +56,7 @@
 
 - index： 預設的 / 自定義的 （vs RSDB)
     - index： Global Secondary Index ?
-    - Wiki: Database index: A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure.
+        - Wiki: Database index: A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure.
     - index：
         - 加速搜尋 => 重點在『找』
         - 屬於 table structure （加了 index 是對 table structure 做改變，和 record 無關）
@@ -70,7 +70,6 @@
         - index 是 table 的東西，不是 value 的東西
         - 可以有 index 沒有 record
 
-## The DynamoDB Book by Alex DeBrie
 
 
 
@@ -124,8 +123,6 @@
         - 定義
     - 安裝步驟
     
-1.5 hr JIRA
-1 hr
 
 - 是什麼？
     - Amazon DynamoDB 是一項完全受管的 NoSQL 資料庫服務，可提供快速且可預期的效能及無縫的可擴展性。DynamoDB 可讓您卸下操作及擴展分散式資料庫的管理負擔，不再需要煩惱硬體佈建、設定和組態、複寫、軟體修補或叢集擴展。
@@ -173,3 +170,41 @@
 - 必看章節
     - What is Amazon DynamoDB?
         - How it works
+
+## Best Practices for Designing and Architecting with DynamoDB
+
+- 
+
+# The DynamoDB Book by Alex DeBrie
+
+## Ch8 The What Why, and When of single-Table Design in DynamoDB
+
+- 用一個 Table 就好 (越少越好)
+- there are no joins in DynamoDB
+- Network I/O is likely the slowest part of your application, but now you’re making multiple network requests in a waterfall fashion, where one request provides data that is used for subsequent requests.
+    - The solution: **pre-join** your data into item collections
+- While reducing the number of requests for an access pattern is the main reason for using a single-table design with DynamoDB
+    - 一次就把一個`使用者資訊`和`購買記錄`都拿到
+- Other benefits of single-table design
+    1. you reduce the number of alarms and metrics to watch
+    2. If you have one or two entity types in your single table that are accessed much more frequently than the others, you can hide some of the extra capacity for less-frequently accessed items in the buffer for the other items.
+- Downsides of a single-table design
+    1. The steep learning curve to understand single-table design
+    2. The inflexibility of adding new access patterns
+        - your table design is narrowly tailored for the exact purpose for which it has been designed.
+        - If your access patterns change because you’re adding new objects or accessing multiple objects in different ways, you may need to do an ETL process to scan every item in your table and update with new attributes.
+    3. The difficulty of exporting your tables for analytics
+        - DynamoDB is not good at OLAP(on-line analytics processing) queries.
+            - This is intentional. DynamoDB focuses on being ultra-performant at OLTP queries and wants you to use other, purpose-built databases for OLAP.
+        - Now you need to unwind that table and re- normalize it so that it’s useful for analytics.
+- When not to use single-table design
+    - there are two occasions where this is most likely
+        1. in new applications where developer agility is more important than application performance
+        2. in applications using GraphQL.
+    - DynamoDB was built for large-scale, high-velocity applications that were outscaling the capabilities of relational databases.
+
+
+
+
+- See Chapter 19 for an example of this in action.
+- In Chapter 15, we discuss some migration strategies, and in Chapter 22, we implement some of those strategies in a real example.
