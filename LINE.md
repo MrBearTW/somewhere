@@ -1,3 +1,22 @@
+# 2021/08/26 QA 團隊老實說
+- 面試建議
+  - 溝通能力
+  - 上一個手上的專案
+    - 怎麼賣錢
+    - 怎麼 break down
+    - 效能 / 壓力 測試
+    - test case
+- 工具框架
+  - 都有用...
+    - cypress
+    - expresso
+    - seliumn
+    - K6 (perfonce)
+  - 為什麼要用這個框架
+  - 自學的能力
+- [QA Engineer](https://careers.linecorp.com/jobs/19)
+  - 溝通能力
+
 # 2020/09/22 TW BECKS No.7
 ## Detect and track Apple devices for fun and profit - Ta-Lun Yen / TXOne Networks (Trend Micro) Threat Researcher
 UCCU Hacker 社群
