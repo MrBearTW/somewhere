@@ -141,6 +141,8 @@
 
 # 申請學校
 
+- [選校網站](https://www.mastersportal.com/)
+    - 須註冊
 - [【美國研究所申請】我如何申請上西北大學IMC？（一）](https://samanthahuang821.medium.com/)
 
 # 廣告看到記一下
