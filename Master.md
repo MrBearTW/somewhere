@@ -20,6 +20,7 @@
 - STMP
 - 奧勒岡州
 - 路易斯安那
+    - 私立天主教
 - 坦帕
 - BOSTON SUFFOLK UNOVERSITY
     - Hand-on experience 強調實作
@@ -28,6 +29,10 @@
 - 紐約旁邊(車程四十分鐘) HOFSTRA UNIVERSITY
     - Hand-on experience 實習
     - Business Analyticsｓ
+- University of South Florida
+    - 企業合作：
+- Colorado State University
+    - 企業合作：
 - 租屋參考 https://www.uhomes.com/pc/activity/form/cn_taiwan_20200520
 
 ## OIEG 英國名校獎學金
@@ -59,8 +64,9 @@
 
 # 20210812 前進歐洲矽谷愛爾蘭，開啟多彩海外職涯
 
-- GPA 3 以上，非熱門科系有一些空間
-- 紀錄上 台灣 最低錄取表準 74 分
+- UCD
+    - GPA 3 以上，非熱門科系有一些空間
+    - 紀錄上 台灣 最低錄取表準 74 分
 
 # 20210814 加拿大 BCIT
 
@@ -169,8 +175,10 @@
 
 # SOP
 
+- 線上講座】讀書計畫快速完成，九月就能送申請！
+    - 
 - Email
-- 手機內截圖\
+- 手機內截圖
 - 翊婷的頻道ఠ_ఠ
     - [【留學申請經驗分享】 寫SOP的常見錯誤/一個被學校拒絕的故事.../新計畫上線！（內有抽獎資訊）｜翊婷的頻道ఠ_ఠ](https://youtu.be/-hDlv1jfE8I)
     - [如何幫自己的SOP加分？2021年申請學校的好用關鍵字｜翊婷的頻道ఠ_ఠ](https://youtu.be/NtbNVTekKwc)
