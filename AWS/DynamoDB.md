@@ -202,9 +202,28 @@
         1. in new applications where developer agility is more important than application performance
         2. in applications using GraphQL.
     - DynamoDB was built for large-scale, high-velocity applications that were outscaling the capabilities of relational databases.
+- 延伸閱讀
+    - See Chapter 19 for an example of this in action.
+    - In Chapter 15, we discuss some migration strategies, and in Chapter 22, we implement some of those strategies in a real example.
 
+## Chapter 10. The Importance of Strategies
 
+- When modeling for a relational database
+    - Duplicating data? Normalize it by putting it into a separate table. 
+    - One-to-many relationship? Add a foreign key to indicate the relationship.
+    - Many-to-many relationship? Use a joining table to connect the two entities.
+- With DynamoDB, on the other hand, there are multiple ways to approach the problem, and you need to use judgment as to which approach works best for your situation. DynamoDB modeling is more art than science—two people modeling the same application can have vastly different table designs.
+    - modeling a one-to-many relationship.
+        1. Denormalizing the data and storing the nested objects as a document attribute
+        2. Denormalizing the data by duplicating it across multiple items
+        3. Using a composite primary key
+        4. Creating a secondary index
+        5. Using a composite sort key to handle hierarchical data
 
+## Chapter 11. Strategies for one- to-many relationships
 
-- See Chapter 19 for an example of this in action.
-- In Chapter 15, we discuss some migration strategies, and in Chapter 22, we implement some of those strategies in a real example.
+- 
+
+## Chapter 12. Strategies for many-to-many relationships
+
+- 
