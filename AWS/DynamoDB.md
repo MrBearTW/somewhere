@@ -213,17 +213,64 @@
     - One-to-many relationship? Add a foreign key to indicate the relationship.
     - Many-to-many relationship? Use a joining table to connect the two entities.
 - With DynamoDB, on the other hand, there are multiple ways to approach the problem, and you need to use judgment as to which approach works best for your situation. DynamoDB modeling is more art than science—two people modeling the same application can have vastly different table designs.
-    - modeling a one-to-many relationship.
-        1. Denormalizing the data and storing the nested objects as a document attribute
-        2. Denormalizing the data by duplicating it across multiple items
-        3. Using a composite primary key
-        4. Creating a secondary index
-        5. Using a composite sort key to handle hierarchical data
 
 ## Chapter 11. Strategies for one- to-many relationships
 
-- 
+- modeling a one-to-many relationship.
+    1. Denormalizing the data and storing the nested objects as a document attribute
+    2. Denormalizing the data by duplicating it across multiple items
+    3. Using a composite primary key
+    4. Creating a secondary index
+    5. Using a composite sort key to handle hierarchical data
+
+1. Denormalizing the data and storing the nested objects as a document attribute (以下兩點需為 NO 才是做對)
+    - Do you have any access patterns based on the values in the complex attribute?
+    - Is the amount of data in the complex attribute unbounded?
+2. Denormalization by duplicating data
+    - primary key 是 uniquely identified
+    - To get to second normal form, each non-key attribute must depend on the whole key.
+    - duplicate 之前兩個思考點
+        1. Is the duplicated information immutable(不可變)?
+        2. If the data does change, how often does it change and how many items include the duplicated information?
+            - items 少的話還好，items 上千的話就不 OK
+    - Essentially, you’re balancing the benefit of duplication (in the form of faster reads) against the costs of updating the data.
+3. Composite primary key + the Query API action
+    - we’ll use generic attribute names, like PK and SK, for our primary key.
+    - 範例圖 Ｔable7
+        1. (綠)Retrieve an Organization. 
+        2. (紅)Retrieve an Organization and all Users within the Organization.
+        3. (藍)Retrieve only the Users within an Organization.
+        4. (一個藍)Retrieve a specific User.
+    - 更多範例 For examples of this strategy in practice, check out the e-commerce example in Chapter 19 or the GitHub example in Chapter 21
+4. Secondary index + the Query API action
+    - 用 Secondary index ，而不是用 primary key
+    - It could be some write-specific purpose, such as to ensure uniqueness on a particular property, or it could be because you have hierarchical data with a number of levels.
+    - If this were Google Drive, it might be a Document. If this were Zendesk, it might be a Ticket. If it were Typeform, it might be a Form.
+    - We’ll do three things: P.189
+        1. 獨立Ticket: For the PK and SK values TICKET#<TicketId>
+        2. Create a global secondary index named `GSI1` whose keys are `GSI1PK` and `GSI1SK`.
+        3. `GSI1PK` 相同 `GSI1SK` 不同
+            1. For both our Ticket and User items, add values for `GSI1PK` and `GSI1SK`. For both items, the `GSI1PK` attribute value will be `ORG#<OrgName>#USER#<UserName>`
+            2. For the User item, the `GSI1SK` value will be `USER#<UserName>`.
+            3. For the Ticket item, the `GSI1SK` value will be `TICKET#<TicketId>`.
+        - 透過搜尋 `GSI1PK` (當 Partition Key)時可以得到 User + Ticket
+        - I can use the `ScanIndexForward=False` property to indicate that DynamoDB should start at the end of the item collection and read backwards.
+    - 更多 secondary index pattern in action Chapters 19, 20, and 21.
+5. Composite sort keys with hierarchical data (適用於階層式的資料：地址)
+    - The term composite sort key means that we’ll be smashing a bunch of properties together in our sort key to allow for different search granularity.
+    - The patterns are:
+        1. Find all locations in a given country.
+        2. Find all locations in a given country and state.
+        3. Find all locations in a given country, state, and city.
+        4. Find all locations in a given country, state, city, and zip code.
+- 五種策略的重點整理
+
 
 ## Chapter 12. Strategies for many-to-many relationships
 
-- 
+- four strategies for modeling many-to- many relationships with DynamoDB
+    1. Shallow duplication
+    2. Adjacency list
+    3. Materialized graph
+    4. Normalization & multiple requests
+
