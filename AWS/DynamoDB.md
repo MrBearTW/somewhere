@@ -175,6 +175,14 @@
 
 - 
 
+
+# Alex DeBrie
+
+- [Youtube - AWS re:Invent 2019: Data modeling with Amazon DynamoDB (CMY304)](https://youtu.be/DIQVJqiSUkE)
+    - [Slide - Data modeling with Amazon DynamoDB - ADB301 - New York AWS Summit](https://www.slideshare.net/AmazonWebServices/data-modeling-with-amazon-dynamodb-adb301-new-york-aws-summit)
+    - Rick Houlihan Talk
+
+
 # The DynamoDB Book by Alex DeBrie
 
 ## Ch8 The What Why, and When of single-Table Design in DynamoDB
@@ -274,3 +282,30 @@
     3. Materialized graph
     4. Normalization & multiple requests
 
+1. Shallow duplication
+    - 將 many to many 其中一邊重點資訊全部 寫入另一個的 attribute 中
+        - e.g. class 其中一個 attribute 包含所有學生 姓名（只有姓名，沒有其他學生資料）
+    - 以下須為 true 才能用
+    1. There is a limited number of related entities in the duplicated relationship.
+    2. The duplicated information is immutable (or close to immutable). 
+    - e.g. 學生與班級
+    - 熊：複製少部分 immutable attribute 到 其中一邊。
+2. Adjacency(鄰接) list
+    - The `Movie` and `Actor` items are top-level items, and the `Role` item represents the many-to-many relationship between Movies and Actors.
+        - Role items is immutable
+    - In the secondary index, the partition key is SK and the sort key is PK.
+    - 別名 inverted index
+    - 熊：PK SK 互換，透過一個 immutable items 接起來
+3. Materialized graph
+    - A graph is made up of `nodes` and `edges`.
+    - you can use a secondary index to reshuffle those items and group them according to particular relationships
+    - e.g. 人事資料
+    - 熊
+        - 將一個 node 的資料分批放
+        - 透過不同的 secondary index (GSI1PK)，Sort Key 沒變，來組成新的 node。
+4. Normalization and multiple requests
+    - 社群媒體 / 購物車
+    - two-step process: 一位 User 所追蹤的人及所追蹤的人的資料
+    1. Query API call 得到 User 的資料 + 前幾位 追蹤的人的資料
+    2. BatchGetItem API call to fetch the detailed User items for each Following item
+    - 熊：分段做
