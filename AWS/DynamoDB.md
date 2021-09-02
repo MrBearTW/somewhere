@@ -180,7 +180,127 @@
 
 - [Youtube - AWS re:Invent 2019: Data modeling with Amazon DynamoDB (CMY304)](https://youtu.be/DIQVJqiSUkE)
     - [Slide - Data modeling with Amazon DynamoDB - ADB301 - New York AWS Summit](https://www.slideshare.net/AmazonWebServices/data-modeling-with-amazon-dynamodb-adb301-new-york-aws-summit)
-    - Rick Houlihan Talk
+        - Rick Houlihan Talk
+            - [Fundamentals of Amazon DynamoDB Single Table Design with Rick Houlihan ](https://youtu.be/KYy8X8t4MB8) 2020年9月16日
+            - []
+            - [AWS re:Invent 2020: Data modeling with Amazon DynamoDB – Part 2](https://youtu.be/0uLF1tjI_BI)
+    - [DynamoDBGuide.com](https://DynamoDBGuide.com)
+    - Primary Key
+        - Simple primary key (partition key)
+        - Composite primary key (partition key + sort key)
+    - API actions
+        - Item-based actions - writing, updating, deleting
+            - 必須提供 entire primary key
+                - 一次一個 Item, 或用 batch request
+                - 不可單獨只提供 partition key
+        - Query
+            - 可單獨只提供 partition key
+                - sort key 是選擇性的
+        - Scan
+            - Avoid
+            - Expensive at scale
+    - Seconadry indexs
+        - GSI
+    - Data modeling example
+        - Basic
+            1. Start with an ERD(Entity Relationship digram)
+                - one to one , one to many 更多
+            2. Define your access patterns
+                - 問 PM 應用程式長怎麼
+            3. Design your primary key & secondary indexes
+        - Forget your relational xeperience
+            - Normailization
+            - JOINs
+            - One entity type per table
+    - Setup 電商
+        - 概觀
+            - E-commerce store
+            - User make orders
+            - An order may have many items
+        - Basic
+            1. Start with an ERD(Entity Relationship digram)
+                - user
+                - user 1 - N 地址
+                - user 1 - N order
+                - order 1 - N items 品項
+            2. Define your access patterns
+                1. Get user profile 
+                2. Get orders for user 
+                3. Get single order and order items 
+                4. Get orders for user by status 
+                5. Get open orders (員工查詢之後準備裝箱)
+            3. Design your primary key & secondary indexes
+                - 請多多 iterate it
+                - 用通用字 PK SK 來設計，而不是只有其中一張表可以用的字 just for your data access
+                - 用 AAAA#BBBB
+                    - AAAA# = USER#
+                    - BBBB = Sam
+                    - Debug 方便
+                    - 避免 overwrite
+                - Entities chart
+                    |              | PK              | SK                  |
+                    |--------------|-----------------|---------------------|
+                    | User         | USER#<username> | #PROFILE#<username> |
+                    | User Address |                 |                     |
+                    | Order        |                 |                     |
+                    | Order Item   |                 |                     |
+        - One-to-many relationships
+            - Denormalization + document types
+                |              | PK              | SK                  |
+                |--------------|-----------------|---------------------|
+                | User         | USER#<username> | #PROFILE#<username> |
+                | User Address | N/A             | N/A                 |
+                | Order        | USER#<username> | #ORDER#<orderId>    |
+                | Order Item   | ITEM#<itemId>   | #ORDER#<orderId>    |
+                - 說明
+                    - User Address --> Denormalization --> 在一個 Attribute 中直接寫入 JSON 
+                        - 理論上不會直接查
+                        - 理論上是有限的（不會一直擴張）
+                    - Order Item
+                        - 是 1 to many 後再 1 to many
+            - Inverted index
+                |              | SK                  | PK              |
+                |--------------|---------------------|-----------------|
+                | User         | #PROFILE#<username> | USER#<username> |
+                | User Address | N/A                 | N/A             |
+                | Order        | #ORDER#<orderId>    | USER#<username> |
+                | Order Item   | #ORDER#<orderId>    | ITEM#<itemId>   |
+                - 此時 用 #ORDER#<orderId>
+                    - 可以得到 User + Order Item  ！！！！！！！
+        - Recap One to many releationship patterns
+            1. Attribute (list or map)
+            2. Primary Key + query
+            3. Secondary index + query
+    - Filtering
+        - Filter expressions
+            1. Read items from table (1 MB Limt)
+            2. If Filterexpression, filter out items that don't match
+            3. Return items
+        - Filtering access patterns
+            1. Get orders for user
+                - “PK = USER#alexdebrieAND BEGINS_WITH(SK, ‘ORDER#’)”
+                    - (傳統寫法) SELECT * FROM ORDERS WHERE USERNAME = ‘alexdebrie’
+            2. Get orders by status for user 
+                - Filtering patterns: Composite sort key “PK = USER#alexdebrieAND BEGINS_WITH(OrderStatusDate, ‘SHIPPED#’)”
+                    - (傳統寫法) SELECT * FROM ORDERS WHERE USERNAME = ‘alexdebrie’ AND STATUS = ‘SHIPPED’
+                - 製作新的 欄位
+                    - 狀態 ＋ 日期 --> 狀態#日期 / Status ＋ Date --> OrderStateDate
+                        - SHIPPED#2021-09-01
+                        - PLACED#2021-08-24
+                    - 還可以控制區間
+            3. Get open orders
+                - Sparse index
+                    - (傳統寫法) SELECT * FROM ORDERS WHERE STATUS = ‘PLACED’
+                - 製作新的 欄位
+                    - PlacedId
+            1. Primary key
+            2. Composite sort key
+            3. Sparse index
+
+
+        
+
+
 
 
 # The DynamoDB Book by Alex DeBrie

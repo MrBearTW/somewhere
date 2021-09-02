@@ -33,3 +33,10 @@ http://wizardamigos.com
 
 https://javascript30.com  
 
+- 學習資源
+    - 捲捲毛 [Advance Your JavaScript Skills by ericelliottjs](https://ericelliottjs.com/)
+
+- [react-ultimate-resume by WeLoveDevs.com](https://github.com/welovedevs/react-ultimate-resume)
+    - react-ultimate-resume is an open-source customizable software developer resume to highlight your skills and experiences.
+
+- [JavaScript Standard Style](https://github.com/standard/standard/blob/master/docs/README-zhtw.md)
