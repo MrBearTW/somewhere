@@ -289,13 +289,14 @@
                         - PLACED#2021-08-24
                     - 還可以控制區間
             3. Get open orders
-                - Sparse index
+                - Sparse(稀疏的) index
                     - (傳統寫法) SELECT * FROM ORDERS WHERE STATUS = ‘PLACED’
-                - 製作新的 欄位
-                    - PlacedId
-            1. Primary key
-            2. Composite sort key
-            3. Sparse index
+                - 當符合條件 STATUS = ‘PLACED’ 時，多製作一個新的 欄位 ，值是亂數 
+                    - PlacedId 
+            - Filtering pattern
+                1. Primary key
+                2. Composite sort key
+                3. Sparse index
 
 
         
