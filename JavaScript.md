@@ -40,3 +40,5 @@ https://javascript30.com
     - react-ultimate-resume is an open-source customizable software developer resume to highlight your skills and experiences.
 
 - [JavaScript Standard Style](https://github.com/standard/standard/blob/master/docs/README-zhtw.md)
+
+- [Interactive Learning Tools For Front-End Developers](https://www.smashingmagazine.com/2021/09/interactive-learning-tools-front-end-developers/#design-patterns-game)

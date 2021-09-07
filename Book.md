@@ -299,3 +299,4 @@ https://landing.google.com/sre/books/
 - [FinTech金融科技聖經：全球86位FinTech先驅，第一手公開「金融科技做什麼？怎麼做？」](https://www.books.com.tw/products/0010737301?loc=P_asb_001)
 - [笑談軟體工程：敏捷開發法的逆襲](https://www.books.com.tw/products/0010549884)
 - [Continuous Delivery中文版：利用自動化的建置、測試與部署完美創造出可信賴的軟體發佈](https://www.books.com.tw/products/0010653820)
+- [Amazon Unbound: Jeff Bezos and the Invention of a Global Empire](https://www.facebook.com/214469585231819/posts/4616384428373624/?d=n)
