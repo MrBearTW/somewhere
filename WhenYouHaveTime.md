@@ -1,3 +1,5 @@
+- 台股雷達圖 [Biggest 7 Day Taiwanese (TAIEX) Market Cap Gainers](https://simplywall.st/stocks/tw)
+
 - [CAP定理](https://zh.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86)
 - [Zettelkasten](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
 - [joelonsoftware](https://www.joelonsoftware.com/)

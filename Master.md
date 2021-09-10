@@ -158,7 +158,11 @@
 
 - [選校網站](https://www.mastersportal.com/)
     - 須註冊
+- [選校網站 ](https://www.findamasters.com/)
+
 - [【美國研究所申請】我如何申請上西北大學IMC？（一）](https://samanthahuang821.medium.com/)
+
+- 德法 email 內有 投影片
 
 # 廣告看到記一下
 - [澳洲卡內基美隆大學(CMU-A)](https://www.iae-taiwan.net/hot/detail/1454?fbclid=PAAaZZ-MC5l2TBAdWKh5CeDF8BqHMRU5R4XwpnTbi7j6YxUJWFDfO8OAQ7Cy0_aem_AYBLKm4XZqDxwnRbUlTUP5bZfIT8wgtF9dGCtf8pZrb7PlnCISqknkVOd4YSdobdBAgoXtO8jNITCe3C344eqTAoRGD0y5k4ZtIzIxaELw2H7ql67fz_NEH-l0amUmdxGbk)
