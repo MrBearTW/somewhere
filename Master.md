@@ -72,10 +72,20 @@
         - 藝術經營
 
 # 20210812 前進歐洲矽谷愛爾蘭，開啟多彩海外職涯
-
 - UCD
     - GPA 3 以上，非熱門科系有一些空間
     - 紀錄上 台灣 最低錄取表準 74 分
+
+# 【愛爾蘭UCD（都柏林大學）校友分享講座】
+- [UCD MICHAEL SMURFIT GRADUATE BUSINESS SCHOOL](https://www.smurfitschool.ie/programmes/masters/)
+    - MSc in Financial Data Science
+    - MSc in Quantitative Finance
+- 商學院
+    - 不在主校區
+    - 學校宿舍一個月 1000 歐
+    - 履歷還沒開學就在催
+    - 實習
+    - 非常在意就業導向
 
 # 20210814 加拿大 BCIT
 
