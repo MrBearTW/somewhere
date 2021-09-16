@@ -46,7 +46,6 @@ https://www.pcparty.com.tw/products/%E5%89%B5%E5%82%91-ducky-skyline%E5%A4%A9%E9
     - `junction "C:\Users\user\AppData\Roaming\Apple Computer\MobileSync" "E:\iPhonebackup\MobileSync"`
     - `mklink /j “C:\Users\user\AppData\Roaming\Apple Computer\MobileSync” [E:\iPhonebackup\MobileSync]`
 
-
 - 擷取工具可以直接按 `Shift + Win + S` 截圖之後也可以從通知中心直接進到編輯
 - `Win + .` 可以叫出表情符號喔
 
