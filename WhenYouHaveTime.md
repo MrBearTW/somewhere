@@ -1,6 +1,12 @@
-- 台股雷達圖 [Biggest 7 Day Taiwanese (TAIEX) Market Cap Gainers](https://simplywall.st/stocks/tw)
 
+- 台股雷達圖 [Biggest 7 Day Taiwanese (TAIEX) Market Cap Gainers](https://simplywall.st/stocks/tw)
+- [直覺思維和分析思維：是否應相信自己的直覺](https://www.bbc.com/ukchina/trad/vert-fut-44562249)
+
+- [談談最早的軟體測試](https://medium.com/@loverjersey/%E8%AB%87%E8%AB%87%E6%9C%80%E6%97%A9%E7%9A%84%E8%BB%9F%E9%AB%94%E6%B8%AC%E8%A9%A6-485de662d98f)
+
+- [The Guide of Product Analytics](https://px6vg4ekvl21gtxs836x5jyx-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/Guide-to-Product-Analytics-Worksheet.pdf)
 - [[架站] GitHub Pages 也可拿來架設HTML靜態網站，與綁定網域名稱](https://www.minwt.com/website/server/18522.html)
+- [https://ed521.github.io/2019/07/hexo-install/](https://ed521.github.io/2019/07/hexo-install/)
 - [CAP定理](https://zh.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86)
 - [Zettelkasten](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
 - [joelonsoftware](https://www.joelonsoftware.com/)
