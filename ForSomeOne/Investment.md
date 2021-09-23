@@ -90,6 +90,9 @@
         - [鄉民分享](https://www.ptt.cc/bbs/Soft_Job/M.1590756781.A.008.html?fbclid=IwAR2I9C_5E9mNdsuiX5NhWEA_qF_yORwWcRPp-vkcugSeLDtJ5wop7-I9ig4)
     - 股票投資入門架構影片
         - Lindsay说 [最干货的一期｜专业股票投资人怎么看门道？](https://youtu.be/xnIYIpXKvNM)
+    - 詐騙
+        - [那些年我與「龐茲們」同行的日子 by 吳珊珊](https://www.facebook.com/permalink.php?story_fbid=4916021708412201&id=100000132604046)
+        - [虛擬的夢]https://www.facebook.com/book.chien/posts/10223058953435132()
     
 
 - 不錯的粉絲頁
