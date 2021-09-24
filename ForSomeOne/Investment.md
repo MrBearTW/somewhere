@@ -52,6 +52,7 @@
         - 房貸速算 每一百萬
             - 貸 20 年，每月 5000
             - 貸 30 年，每月 4000
+        - [為何政府不敢推囤房稅？房價問題解方？經濟學家破解房市神話，揭露高房價真相！房地產資本主義VS.居住正義|書來面對EP25 Josh Ryan-Collins《為何你買不起房子》](https://youtu.be/xfkGFHcR9zc)
     - 晚上睡得著 vs. 一些焦躁的 LINE 群組
     - 一夜致富的可能性
     - 量級的問題
@@ -93,7 +94,6 @@
     - 詐騙
         - [那些年我與「龐茲們」同行的日子 by 吳珊珊](https://www.facebook.com/permalink.php?story_fbid=4916021708412201&id=100000132604046)
         - [虛擬的夢]https://www.facebook.com/book.chien/posts/10223058953435132()
-    
 
 - 不錯的粉絲頁
     - [財報狗](https://www.facebook.com/statementdog/)
