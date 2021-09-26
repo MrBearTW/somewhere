@@ -9,3 +9,5 @@
 - [搭河上渡輪遊歐洲](https://www.facebook.com/felix.hong/posts/10159464894785516)
 
 - [莫羽静與她的墨水故事 臺菜](https://www.facebook.com/TaiwanInkStory/posts/599208731442683#)
+
+- 杉林溪飯店餐點雷雷，晚餐最好吃是板條，早餐最好吃是荷包蛋和奇美包子。
