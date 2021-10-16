@@ -116,6 +116,34 @@
 - 查清楚截止時間
 - 校區要看清楚
 
+## 【Intake Study World 國際留遊學展】實體展巡迴日 2021/10/16 13:30 - 18:00 臺北文創 6F 
+
+- [活動網站](https://web.intake.education/tw/events/market.php)
+- University of Westminster
+    - GPA 卡卡，SOP 可能要加強
+    - 7.0
+- University College Dublin
+    - 工作滿五年後再申請
+- Queen Mary University of London
+    - 應該是成績不夠，掰
+- Loughborough University
+    - 6.5(6.0)
+    - 機會比較大的兩個系
+        - Artificial Intelligence and Data Analytics MSc
+        - Cyber Security and Data Analytics MSc
+- University of Hertfordshire
+    - 6.0(5.5)
+    - 有一種含一年實習的課程
+- Birmingham City University
+    - GPA 2.5
+    - 6.0
+- Aston University
+    - 門檻在邊緣
+        - 投了之後請通知
+    - 可能會考數學
+    - 6.0(5.5)
+
+
 # 四處收集
 
 - 前輩
