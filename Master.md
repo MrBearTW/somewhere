@@ -192,6 +192,9 @@
 - [两周备战雅思7.5经验分享！阅读满分 | 超有用网站 | 我是如何自学雅思的](https://www.youtube.com/watch?v=s1c0nF5DoCQ)
     - [【免費課程】IELTS Writing如何從6分進步到9分？](https://mteducationielts.com/course/free-improvement-course/)
 
+# 20211020 EF 海外升學系列講座：德國升學全攻略 免費讀大學/碩士！德國升學攻略
+- 德文
+
 # 申請學校
 
 - [選校網站](https://www.mastersportal.com/)
