@@ -195,6 +195,47 @@
 # 20211020 EF 海外升學系列講座：德國升學全攻略 免費讀大學/碩士！德國升學攻略
 - 德文
 
+# 20211024 IDP 英美加愛教育展
+- 牛津國際教育集團 Oxford International Education Group
+    - 格林威治大學 (University of Greenwich)
+        - 英 94
+        - pre-master 
+            - 7495 英鎊 (1500 獎學金)
+            - 10 週
+            - IELTS 6(5.5)
+        - 14000
+        - 生活費 1000~8000 / 月
+    - 鄧迪大學 (The University of Dundee)
+        - 英 19
+        - pre-master
+            - 10995 英鎊 (1500 獎學金)
+            - 10 週
+            - IELTS 6.5
+        - 18950 (5000 獎學金)
+        - 8 週實習
+        - 生活費 600~700 / 月
+- 開普蘭教育集團英國大學銜接課程 Kaplan International Pathways
+    - 埃賽克斯大學 (University of Essex)
+        - pre-master
+            - 六個月 JAN 2022 ~ AUG 2022
+            - 要考 IELTS UKVI
+            - 18800
+            - 5.5(5.0)
+- 劍橋教育集團大學銜接課程 ONCAMPUS UK & USA
+    - 伊利諾理工學院 (Illinois Institute of Technology)
+        - 學費 29000 美金/ 年
+        - 加生活費後預計要花 260 萬
+        - 學生畢業後薪水
+            - 短期 61000
+            - 中期 15300
+        - IGY 國際學生入學方案？
+            - 第一年要多上英文課
+        - 美國排名 81
+- INTO教育集團銜接暨學位課程 INTO University Partnerships
+    - University of Stirling 斯特陵大學
+        - Artificial Intelligence MSc
+        - Big Data MSc
+
 # 申請學校
 
 - [選校網站](https://www.mastersportal.com/)
