@@ -143,6 +143,21 @@
     - 可能會考數學
     - 6.0(5.5)
 
+# 20211101
+- https://www.hotcoursesabroad.com/
+    - 查名次
+- 總費用預估 一年
+    - 英國
+        - London 180
+        - 大城市 160~150
+        - 更小 130~140
+    - 愛爾蘭
+        - Dublin 130~140
+        - 非 Dublin 100
+- 愛爾蘭也可以看一下的學校
+    - Maynoth
+    - NUI Galway
+
 
 # 四處收集
 

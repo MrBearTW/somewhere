@@ -244,6 +244,7 @@
     - [買下全世界](https://www.facebook.com/FinanceAndGoodSociety/posts/207215110767233)
     - [股市真規則](https://www.facebook.com/redhousei/posts/3817042148335324)
     - [致富的特權](https://www.facebook.com/FreddyBizAndRsch/photos/a.3673427542705712/3906017566113374/)
+    - [機率思考](https://www.facebook.com/thomasleesharings/posts/2178496832290928)
     - 以下為社會類
         - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
     
