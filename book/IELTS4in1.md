@@ -60,8 +60,24 @@
 ## │概述│
 - [] Chapter 1 關於雅思寫作 About the IELTS Writing Test
 - [] Chapter 2 關於寫作任務一（學術組）About Writing Task One (Academic)
+    1. Basic information
+        - 4W What Whom Where When
+    2. Overview
+        - Summary
+            - Main Trends
+            - Main Differences
+            - Main Changes
+        - Signposting
+            - Overall, ...
+            - In general, ....
+            - In brief, ....
+    3. Body / Key features(including data) / one or two paragraphs
+        - Description supported with data
+    - 不要寫下預測，不相關，個人意見，由來
+    - Task two 分數比較高。
 - [] Chapter 3 關於寫作任務一（一般組）About Writing Task One (General Training)
 - [] Chapter 4 關於寫作任務二 About Writing Task Two
+    - 
 - [] Chapter 5 想法及靈感 Ideas and Inspiration
   
 ## │學術組（一）│
