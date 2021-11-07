@@ -77,7 +77,38 @@
     - Task two 分數比較高。
 - [] Chapter 3 關於寫作任務一（一般組）About Writing Task One (General Training)
 - [] Chapter 4 關於寫作任務二 About Writing Task Two
-    - 
+    - Type of test 2
+        - 有一些題目只有一個 requirement
+        - 有一些題目有兩個 requirement
+            - positive and negative (advantages and disadvantages)
+            - causes and effects
+            - causes and solutions
+        - Three requirement
+            - two contradictory opinions and what your view is
+            - advantages and disadvantages and which side is more importment
+            - postive and negative effects and do you agree or disagree
+        - Four requirements
+            - e.g. Telecommuting employees work from home 
+                1. advantages
+                2. disadvantages
+                3. employees
+                4. their family
+            - Don't include advantages and disadvantages for other group
+            - no need to give an opinion
+        - Read question and requirements three times
+        - British English
+        - Read carefully
+            - What causes this problem?
+                - focus on the cause and solutions 
+            - What problem does this cause?
+                - focus on the negative effects of water pollution (NOT cause) and solutions
+    - Structure
+        1. Introduction
+            - Introduce the topic
+            - Give your opinion (not always necessary)
+            - Explain the focus of the essay
+        2. Body paragraphs
+        3. Conclusion
 - [] Chapter 5 想法及靈感 Ideas and Inspiration
   
 ## │學術組（一）│

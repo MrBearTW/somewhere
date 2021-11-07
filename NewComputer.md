@@ -11,11 +11,9 @@
   
 - CMD軟體 ConEmu   
 
-
 - Chrome設定
-    - 凍結沒什麼用到的分頁https://3c.ltn.com.tw/news/39012
-
-
+    - 凍結沒什麼用到的分頁 https://3c.ltn.com.tw/news/39012
+    - 新增分頁時可以設定一些功能 [New Tab Studio: 倒計時，習慣，背景](https://chrome.google.com/webstore/detail/new-tab-studio-countdown/epngggilgnflanfabeldfpbgponcgpgl/related?hl=zh-CN)
 
 # 鍵盤
 - 台北可試打  https://www.facebook.com/pg/B18TW/about/?ref=page_internal

@@ -303,6 +303,9 @@
 - [LINE TECH FRESH OpenTelemetry初體驗：實踐Chaos Engineering來Drive the Observability’s best practice by JOHNNY PAN](https://engineering.linecorp.com/zh-hant/blog/opentelemetry-chaos-engineering-drive-the-observability-best-practice/)
 - [中英文有兩種人格？旅外設計師聊聊全英語環境下的挑戰與反思](https://medium.com/uxeastmeetswest/%E4%B8%AD%E8%8B%B1%E6%96%87%E6%9C%89%E5%85%A9%E7%A8%AE%E4%BA%BA%E6%A0%BC-%E6%97%85%E5%A4%96%E8%A8%AD%E8%A8%88%E5%B8%AB%E8%81%8A%E8%81%8A%E5%85%A8%E8%8B%B1%E8%AA%9E%E7%92%B0%E5%A2%83%E4%B8%8B%E7%9A%84%E6%8C%91%E6%88%B0%E8%88%87%E5%8F%8D%E6%80%9D-552041b2a8d9)
 
+
+- [資夢](https://shaform.com/csdream/docs/ocw/)
+
 # QQ
 69.7 / GPA 2.7
 
