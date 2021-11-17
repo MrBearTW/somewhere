@@ -34,6 +34,67 @@
         - Introduction to your ideas
 
 # IELTS Online by Macquarie University
+Improve your IELTS Academic Reading score
+2% Complete
+Last activity on November 17, 2021
+WELCOME
+Welcome to IELTS Online Academic Reading
+Meet Your Course Trainers
+Course Overview
+Using the platform
+IELTS ACADEMIC READING TEST
+IELTS Academic Reading Test
+2 Topics
+Check your Knowledge
+IELTS Academic Reading Test Explained
+READING SKILLS & STRATEGIES
+Introduction to Skills and Strategies
+Reading Techniques
+5 Topics
+Check Your Knowledge
+Paragraph Structure
+Skimming
+Scanning
+Reading Intensively
+Guessing Unknown Vocabulary
+Identifying Opinions
+Lesson summary
+QUESTION TYPES
+Introduction to Question Types
+Multiple Choice
+6 Topics
+Identifying Information
+6 Topics
+Identifying a Writer's Views
+6 Topics
+Matching Information
+6 Topics
+Matching Headings
+6 Topics
+Matching Features
+6 Topics
+Matching Sentence Endings
+6 Topics
+Sentence Completion
+6 Topics
+Summary Completion
+8 Topics
+Note Completion
+6 Topics
+Table Completion
+6 Topics
+Flow-chart Completion
+6 Topics
+Diagram Label Completion
+6 Topics
+Short-answer
+6 Topics
+IELTS PRACTICE TESTS
+IELTS Academic Reading Mock Tests
+2 Topics
+COURSE CONCLUSION
+Overall Tips for a Greater Score
+Congratulations on Course Completion!
 
 # IELTS Daily
 
