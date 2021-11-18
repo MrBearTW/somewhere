@@ -52,4 +52,10 @@ GMAT 610 600商業類
 
 有台灣專門獎學金
 
+# Online webinar Information Technology - Software Engineering and Business Informatics
+- Software Engineering and Business Informatics (Venlo)
+    - Venlo
+        - 
+
+
 # 愛爾蘭
