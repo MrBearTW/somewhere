@@ -55,7 +55,14 @@ GMAT 610 600商業類
 # Online webinar Information Technology - Software Engineering and Business Informatics
 - Software Engineering and Business Informatics (Venlo)
     - Venlo
-        - 
+        - 生活費 700 ~ 900 monthly
+        - 房租 380 ~ 500 monthly
 
+# Get to know Information & Communication Technology (Eindhoven)
+- ICT: Information & Communication Technology (English) (Information & Communication Technology (Eindhoven))
+    - 課程很多彈性
+
+# Webinar Accelerated bachelor ICT & Software Engineering - Campus Eindhoven
+- 
 
 # 愛爾蘭
