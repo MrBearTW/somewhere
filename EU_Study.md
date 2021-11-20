@@ -63,6 +63,32 @@ GMAT 610 600商業類
     - 課程很多彈性
 
 # Webinar Accelerated bachelor ICT & Software Engineering - Campus Eindhoven
-- 
+- 第一學期自行先修
+- 第四學期分散在其他學期同步上課
+
+# University of Twente
+- housing
+    - https://www.esntwente.nl/housing
+    - https://www.utwente.nl/en/campus/facilities/housing/students/
+    - 第一年 非EU 學生有保證住宿
+- scholarship
+    - https://www.utwente.nl/en/education/scholarship-finder/?country=NL
+- 學歷
+    - https://www.utwente.nl/en/education/bachelor/admission/diplomas/
+
+
+ https://www.utwente.nl/tcs/enrolment
+
+su.utwente.nl/en/rooms/student-houses/
+
+Inter-Actief
+
+
+Study adviser TCS <studyadviser-tcs@utwente.nl>
+
+
+- BIT
+    - You can find more information about the minor here: utwente.nl/en/education/bachelor/programmes/business-information-technology/study-programme/third-year/ (look for Module 9 & 10)
+    - 應該是比較難成為工程師。
 
 # 愛爾蘭

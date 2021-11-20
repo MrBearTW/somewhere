@@ -12,6 +12,7 @@
 - [亞馬遜逆向工作法](https://www.facebook.com/uyiewnil/posts/4836786116340218)
 - [The RIght It](https://www.facebook.com/DavidLearningJourney/posts/897754334467033)
     - 做對的產品
+- [為工作而活](https://www.facebook.com/NeanderthalArtisan/posts/4658999497525804)
 
 # 這樣開會效益最高
 - 經營架構

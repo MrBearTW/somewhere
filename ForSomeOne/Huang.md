@@ -153,3 +153,9 @@
     - 先存一下
         - https://shopee.tw/%E8%A8%AD%E8%A8%88-%E7%94%9F%E6%97%A5%E7%A6%AE%E7%89%A9-%E7%B9%A1%E5%AD%97-%E6%A3%92%E7%90%83%E5%B8%BD-%E8%80%81%E5%B8%BD-%E5%88%BA%E7%B9%A1-%E5%B8%BD%E5%AD%90-%E6%83%85%E4%BE%B6%E5%B8%BD-%E4%B8%AD%E6%96%87-%E5%AE%A2%E8%A3%BD-%E7%A6%AE%E7%89%A9-%E5%80%8B%E6%80%A7%E5%8C%96-%E5%9C%98%E9%AB%94%E8%A8%82%E8%A3%BD-%E7%90%83%E9%9A%8A-%E5%85%AC%E5%8F%B8%E8%A1%8C%E8%99%9F-%E6%B4%BB%E5%8B%95-i.5320134.791234006
         - https://www.embroiderydesign.com.tw/blog/temple-caps/
+    - 中華職棒
+        - 樂天
+            - [47](https://www.rakuten.com.tw/shop/monkeyshop/product/djvqfoigr/?l-id=tw_shopcategory_grid_product_19)
+            - [紅](https://www.rakuten.com.tw/shop/monkeyshop/product/5t05hbmkf/?l-id=tw_shopcategory_grid_product_4)
+        - 兄弟
+            - [黑](https://www.brothers-shop.com.tw/brothers/product.php?cid=367&pid=3314)
