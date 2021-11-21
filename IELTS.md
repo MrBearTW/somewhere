@@ -41,10 +41,7 @@
 - 
 
 ## Improve your IELTS Academic Reading score
-2% Complete
-Last activity on November 17, 2021
-WELCOME
-Welcome to IELTS Online Academic Reading
+- Welcome to IELTS Online Academic Reading
 Meet Your Course Trainers
 Course Overview
 Using the platform
@@ -101,6 +98,18 @@ IELTS Academic Reading Mock Tests
 COURSE CONCLUSION
 Overall Tips for a Greater Score
 Congratulations on Course Completion!
+
+## Improve your IELTS Academic Writing score
+- Task 1
+    - Simple Present
+    - Simple Past - 過去到過去
+    - Present Perfect - 過去到現在
+    - Future Forms
+
+- Using synonyms
+    - [Collins Dictionary](https://www.collinsdictionary.com/dictionary/english-thesaurus)
+    - [Merriam-Webster](https://www.merriam-webster.com/thesaurus)
+    - [Macmillan](https://www.macmillanthesaurus.com/)
 
 # IELTS Daily
 

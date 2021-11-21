@@ -63,10 +63,16 @@ GMAT 610 600商業類
     - 課程很多彈性
 
 # Webinar Accelerated bachelor ICT & Software Engineering - Campus Eindhoven
-- 第一學期自行先修
-- 第四學期分散在其他學期同步上課
+- 加速的方式
+    - 第一學期入學前自行先修
+    - 第四學期分散在其他學期同步上課
+
+- 期限
+    - 15 May
 
 # University of Twente
+- TCS 有入學考試
+    - 要提早申請
 - housing
     - https://www.esntwente.nl/housing
     - https://www.utwente.nl/en/campus/facilities/housing/students/
@@ -75,7 +81,8 @@ GMAT 610 600商業類
     - https://www.utwente.nl/en/education/scholarship-finder/?country=NL
 - 學歷
     - https://www.utwente.nl/en/education/bachelor/admission/diplomas/
-
+- 實習
+    - An internship is one of the choices you can make. We don't have a "generic internship", and each internship is unique, so it's up to you to choose the one you like. Same for design project and final project
 
  https://www.utwente.nl/tcs/enrolment
 
@@ -86,6 +93,12 @@ Inter-Actief
 
 Study adviser TCS <studyadviser-tcs@utwente.nl>
 
+
+- chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fapi-info.studielink.nl%2Fmedia%2F3bwdzkks%2F181008-stappenplan-verzoek-tot-inschrijving-fixusopleiding-en.pdf&clen=329394&chunk=true
+
+
+- [簡體中文 UT Facebook 粉絲專業](https://www.facebook.com/UT.China)
+- [INTERNATIONAL STUDENT TEAM](https://www.utwente.nl/en/education/master/testimonials/)
 
 - BIT
     - You can find more information about the minor here: utwente.nl/en/education/bachelor/programmes/business-information-technology/study-programme/third-year/ (look for Module 9 & 10)

@@ -262,3 +262,6 @@ Laravel
 少那一點  
 
 突如其來的機會
+
+- [聽說你最近在刷題- 軟體工程師的面試一定會遇到的資料結構及演算法關卡 (& 分享 LeetCode 折扣）& LeetCode Premium 抽獎啦 (2021- 9 月更新）
+](https://brianhsublog.blogspot.com/2020/12/AlgorithmDataStructureLeetCode.html)
