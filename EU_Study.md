@@ -67,8 +67,10 @@ GMAT 610 600商業類
     - 第一學期入學前自行先修
     - 第四學期分散在其他學期同步上課
 
-- 期限
+- 2022 九月入學申請期限
     - 15 May
+
+- https://fontys.edu/Bachelors-Masters/Bachelors/Information-Communication-Technology-Eindhoven/Courses/Accelerated-Bachelor-ICT-Software-Engineering-1.htm
 
 # University of Twente
 - TCS 有入學考試
