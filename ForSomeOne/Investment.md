@@ -111,6 +111,8 @@
     - [畢德歐夫](https://www.facebook.com/bidoffer.com.tw/)
     - [雷浩斯價值投資網](https://www.facebook.com/redhousei/)
     - [怪老子理財](https://www.facebook.com/masterhsiao/)
+    - 升宏投資
+    - 清流君
     - [股癌 Gooaye](https://www.facebook.com/Gooaye/)
     - [明日四維羅的價值筆記 Los PE](https://www.facebook.com/lospefund)
         - [推薦的 Telegram](https://www.facebook.com/lospefund/posts/2783624481963144)
