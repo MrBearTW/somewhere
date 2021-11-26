@@ -100,9 +100,10 @@
     - [財報狗](https://www.facebook.com/statementdog/)
         - [Marketing Manager 林威宇](https://www.facebook.com/uyiewnil)
     - [StockFeel 股感，來自生活](https://www.facebook.com/StockFeel.page/) 圖片精美
-    - [綠角](https://www.facebook.com/GreenHornFans/posts/2408725559157188?__xts__%5B0%5D=68.ARByrfp-ta01ERHZMiT2MoVb-Busx82t7NvZvLWasOgGE-HYNyiajBFntJzdIh-YsBU22w6opgsRM5H-_khjUskKyWkZmueABY6n7fVFKmeqEoTXmzBNgtMFAbuZXtrL5qnRUydihc149Z1mREsbT-GVgpZIzG60s7e2JT_J3stn-DjkDQ-HiHIa23cTDWMQ5H41tCyyrQKGUQpaC6Ck86VDhPJIKb5cAhwE0pdBM2OTZMKNeuaSdDOyVGNThndWlAW6CSXzPy_0lnGNl4vmP-s8-crfTiAkalQTe0FLpqBjrBCsPDCqvHJe8T4f2S3Wckjg5FAhyEbYLrgvJVdGpD3B6A&__tn__=-R)
+    - [綠角](https://www.facebook.com/GreenHornFans/posts/2408725559157188)
         - [綠角推薦書單](https://greenhornfinancefootnote.blogspot.com/2008/10/blog-post.html)
-    - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2692820447495975?__xts__%5B0%5D=68.ARAvdw1M1S6mZG1litAolyvbDZcCXLQYwsvPkPfKaCRD7UQ6LE2B5xe3XnOoeVXZE6sEQGdA0fb2GseI7ZhwrrxzVnOw_wF32di0n-XPS0N-RyNDnk1IU-KWwBT0zrYdMAIkkOQGvv_UjfYuVLvr3Xf8iKjEdB-fvBGj_7yishPdRYXQP-Q3JaD8b-KN8Q7wMeOLQuBrWjJDsRO2DWvcfZXkVIzzB_Gu5hurd8XuAgwlc24oJ_UcT1KJ-i3wcdxc5C6GhoBRPUjAwQMve6wMRe9NgldFDGzGFFr3HSwBzwfCJqAparcHncinDq1xVMlFQdrHCEMfYefgBv_tSP7GwJ7zNtdM5ZtEquwLuudO2xBNc-iQBsM&__tn__=-R)
+    - [清流君](https://www.facebook.com/InvestYourLifeActively)
+    - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2692820447495975)
     - [MacroMicro 財經M平方](https://www.facebook.com/macromicro.me/)
     - [基金黑武士](https://www.facebook.com/fundblacksamurai/photos/a.1036482816368765/3521359891214366/?type=3&theater)
     - 產業分析 [寫點科普，請給指教。](https://www.facebook.com/kopuchat/)
@@ -111,8 +112,7 @@
     - [畢德歐夫](https://www.facebook.com/bidoffer.com.tw/)
     - [雷浩斯價值投資網](https://www.facebook.com/redhousei/)
     - [怪老子理財](https://www.facebook.com/masterhsiao/)
-    - 升宏投資
-    - 清流君
+    - [升鴻投資](https://www.facebook.com/%E5%8D%87%E9%B4%BB%E6%8A%95%E8%B3%87-108234220675813)
     - [股癌 Gooaye](https://www.facebook.com/Gooaye/)
     - [明日四維羅的價值筆記 Los PE](https://www.facebook.com/lospefund)
         - [推薦的 Telegram](https://www.facebook.com/lospefund/posts/2783624481963144)
@@ -122,17 +122,17 @@
         - 楊文宏‎ 宏觀國際經濟  [粉專](https://www.facebook.com/MacroEconomicAndGeopolitical/)  [社團](https://www.facebook.com/groups/147293452597272/?ref=group_header)
         - [IEObserve 國際經濟觀察](https://www.facebook.com/intleconobserve/)
         - [Joe's investment](https://www.facebook.com/joejoeyourmoney/)
-            - [只能做不能說](https://www.facebook.com/joejoeyourmoney/posts/10157238784927276?__xts__%5B0%5D=68.ARDSBqYVgAJIl-FhymPaazpb3-_mdjtIvYtVBb_6lNaZOSKoeHQ9TTDwM8oKIY-8tRjQyWjZjLyqZKCFAkV4g_AkIPI3NU5hETSRtPYuU7kRlLokALOm9Rw-yaU_qUuLv5dU44vD26jmJLBNs8vBZtSP8piQHvlY28V0hykOdsLDdO61WRntEzUk-n3K9PrrQl7TzI4BuO7ZXcrraLSIYJrv7eGEua--LnHO8EgLWPNVmhLQ1irR1uAlWZuL9u4GgJ5IMiERav3KEB1A77CIjhLNS8fUtNU9y1QCBeY9G8PwIZvPuVwg_1bFTs2tai_TELb8L2S-mNvMEPnY&__tn__=-R)
+            - [只能做不能說](https://www.facebook.com/joejoeyourmoney/posts/10157238784927276)
         - [橋水基金創辦人 经济机器是怎样运行的 (时长30分钟) Ray Dalio](https://youtu.be/rFV7wdEX-Mo)
-    - [銀行家尼莫](https://www.facebook.com/bankernemo/posts/1497461480427590?__xts__%5B0%5D=68.ARBsY51gy-aqXEW9gs_y1Mq1mdxrMJ8iIXRoCOZfZfUg8rnARwh_utUR_x4li_notPuBVJ9b1Cwmj1EYejpTiOmJXURkPX8BDahleWnBvC8QX22KmmbkShx-QiU9vWCNDlxZjS5Wdb3cobJsEp2QnvgCXziZF1w6OewmwT9MGT-sEGbpefPVWJXuEI5eY3GOERsQqA7qlelw0ylX0MF5aZ-9fRMHBq8BiVPh4C6VptqXbGNSkiatIViPERVqDaju7jGfe-9q0EDgzJ3Nk2cLfhboqGVRL8Nj1XHoUVqT_koMAU-GT28VqUlk9gmiYlZ1-93frv2qU14oscEWyQ1NqrqOPg&__tn__=-R)
-        - [尼莫談人脈](https://bankernemo.blogspot.com/2018/07/blog-post_5.html?fbclid=IwAR2p5MENKB0yy7cyjddEYzG6h3IPxmtGxAQ03-5x70x35thwXPqvKvgUMdk)
+    - [銀行家尼莫](https://www.facebook.com/bankernemo/posts/1497461480427590)
+        - [尼莫談人脈](https://bankernemo.blogspot.com/2018/07/blog-post_5.html)
     - 前公司相關
         - [期貨老爹 許績慶](https://www.facebook.com/futuresdaddy)
         - [群益期貨首席經濟學家/范振鴻Rico 暫時關掉?]()
     - 世新
         - [梁彥平 專欄](https://money.udn.com/author/articles/119)
         - [陳唯泰-跟著我擇機入市](https://www.facebook.com/ted24888/)
-    - [報紙推薦的 Youtuber](https://money.udn.com/money/story/7794/4289421?fbclid=IwAR2FoA_dv5cGd2lgzF7XphJS9GXT_ojtsSSsvk29_ZqVxNw0UNKD88wVCII)
+    - [報紙推薦的 Youtuber](https://money.udn.com/money/story/7794/4289421)
     - 反指標
         - 谷月涵，可惜已退休 [疫情四月初發言](https://ec.ltn.com.tw/article/breakingnews/3126989)
         - [謝金河](https://www.facebook.com/people/%E8%AC%9D%E9%87%91%E6%B2%B3/100002304327218)
