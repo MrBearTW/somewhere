@@ -1,5 +1,7 @@
 # IELTS Liz
 
+- 官網很多資料
+
 ## IELTS Writing
 
 ### IELTS Writing Task 1
@@ -32,6 +34,7 @@
     - Thesis statement
         - Answer
         - Introduction to your ideas
+
 
 # IELTS Online by Macquarie University
 
@@ -113,5 +116,8 @@ Congratulations on Course Completion!
 
 # IELTS Daily
 
+- 口說
+
 # E2 IELTS
-    
+
+- 聽說讀寫都有
