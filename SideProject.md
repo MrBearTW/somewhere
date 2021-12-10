@@ -27,7 +27,6 @@ IG統計
 高雄市政府視覺化  
 https://noob.tw/1999-dashboard/  
 
-
 倍哥參考資料
 https://electronjs.org  
 https://www.typescriptlang.org  
@@ -224,10 +223,6 @@ https://www.instagram.com/yuna921/
 工作日誌  
 改時間
 
-12/5googlemap後台維修  
-部落格
-
-
 # 2018/11/27 iChief LINE@入門班
 
 抖音
@@ -266,5 +261,15 @@ Laravel
 - [聽說你最近在刷題- 軟體工程師的面試一定會遇到的資料結構及演算法關卡 (& 分享 LeetCode 折扣）& LeetCode Premium 抽獎啦 (2021- 9 月更新）
 ](https://brianhsublog.blogspot.com/2020/12/AlgorithmDataStructureLeetCode.html)
 
-爬蟲
+- 爬蟲
     - 定期爬一個資料做成報告每日寄 Email 通知業主
+
+- 部落格
+    - 透過 github 架
+    - hugo hexl
+    - 熟悉一種前端框架
+
+- 後端
+    - 資料庫選擇
+    - 自動發文
+        - 部落格 -> 連動 IG -> FB
