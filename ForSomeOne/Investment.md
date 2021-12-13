@@ -200,6 +200,7 @@
         - [常山七次郎](https://www.facebook.com/ss7bl/)
     - 地獄反指標
         - 谷月涵，可惜已退休
+            - [Re: [新聞] 台股2萬點泡沫將至　谷月涵：最後一波不](https://www.ptt.cc/bbs/Stock/M.1639388317.A.B9B.html)
         - [謝金河](https://www.facebook.com/profile.php?id=100002304327218)
         - [文茜的世界周報 Sisy's World News](https://www.facebook.com/SisyWorldNews/videos/330652910880203/)
         
