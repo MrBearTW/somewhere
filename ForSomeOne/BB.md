@@ -118,3 +118,7 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
 - [Cakeresume](https://www.cakeresume.com/zh-TW)
     - [Podcast 節目 科技職涯 Talent ConnectCakeResume](https://open.spotify.com/show/2xRC0yrttcbVGNvl7xmWpV)
 - [glassdoor](https://www.glassdoor.com/)
+
+# 矽谷類
+- [台北遇上西雅圖](https://www.facebook.com/seattao/)
+    - [Notion 整理](https://bityl.co/7FZP)

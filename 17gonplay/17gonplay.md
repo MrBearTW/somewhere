@@ -1,3 +1,6 @@
+# 20211221
+- 計畫要有結果
+
 # 文案 W7 20211125
 # 文案 W6 20211116
 # 文案 W5 20211109
@@ -330,3 +333,6 @@
 3. 轉機 / 脫困(心情上)
     - Athena Q 
     - 遇到困難時，把危機當成轉機
+
+# 一起出來玩行銷
+- [播放清單](https://www.youtube.com/playlist?list=PLrQG_tYv82k42jZQTof9nWI0GIh4Ud0yp)
