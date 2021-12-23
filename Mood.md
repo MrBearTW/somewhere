@@ -7,3 +7,10 @@
 
 - 蕾神之錘
     - 公關教材
+
+- 錢
+    - 500 交換禮物
+    - 爸媽買電腦
+
+- [BenQ電腦螢幕10大推薦這台超猛！台灣品牌的護眼LCD專家](https://guidepals.com/reviews/best-benq-monitor/)
+- [4K螢幕推薦【2021年度最強評比】15大必買懶人包](https://guidepals.com/reviews/best-4k-monitor/)
