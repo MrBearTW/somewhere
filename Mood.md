@@ -12,6 +12,8 @@
     - 500 交換禮物
     - 爸媽買電腦
 
+- 飯錢酒錢分離
+
 - 買房使人脾氣變好
 
 - [BenQ電腦螢幕10大推薦這台超猛！台灣品牌的護眼LCD專家](https://guidepals.com/reviews/best-benq-monitor/)
