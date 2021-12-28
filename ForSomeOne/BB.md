@@ -67,6 +67,7 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
     - 一直進修
 - 技能樹參考
     - [網站工程師技能樹參考](https://github.com/goodjack/developer-roadmap-chinese)
+- [想學程式究竟該自學還是上課？](https://medium.com/appworks-school/%E6%83%B3%E5%AD%B8%E7%A8%8B%E5%BC%8F%E7%A9%B6%E7%AB%9F%E8%A9%B2%E8%87%AA%E5%AD%B8%E9%82%84%E6%98%AF%E4%B8%8A%E8%AA%B2-b40637337320)
 
 ---
 # 貝卡
