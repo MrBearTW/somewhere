@@ -76,6 +76,7 @@
             - [悼！台灣人工智慧學校執行長陳昇瑋辭世](https://aiacademy.tw/tribute-to-swchen/)
     - 前端大大
         - Kuro 有出書 [0 陷阱！0 誤解！8 天重新認識 JavaScript！（iT邦幫忙鐵人賽系列書 - 02）](https://www.books.com.tw/products/0010832387)
+        - Google Developers Expert on Web Technologies [Paul Li](https://www.facebook.com/mei.studio.li)
     - 微軟派
         - [保哥](https://www.facebook.com/will.fans)
         - [安德魯的部落格](https://columns.chicken-house.net/2018/12/12/microservice11-lineup/)
