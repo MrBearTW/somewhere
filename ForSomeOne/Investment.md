@@ -214,12 +214,12 @@
 
 - 美股
     - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)
-    - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2655795991198421?__xts__%5B0%5D=68.ARCCmqVz7F51pof4GyiZavGSifKanQ6mCRIS64viGvN1M50A-QwDOPCUcxF1RmlpkFmaqf1FsFFyCwkux8LLuldXvh0pWIy7j4DHf_MLo5e9HALLlq6oljWPla0cueXoHenNkrnO9XEAXt__AZYoH0vLcpKSnMFkbo3zsxt3M9il16bo3mpqupzhUuQY1ePDYudm_DZG8APpg0ubIEGi7RPcRBitH3caWAvTMLrUg6KCFU8ZBwp6h3YtastQwacwLYPbMlt-wY91220l49xHp0oZpJr4mGoBdX9-L3_YGF7MTSKzwE03nDZM_MPCbPElif_y41_gGY7Yak0o_wp1QIBmow&__tn__=-R)
+    - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2655795991198421)
     - [貓的成長美股異想世界](https://www.facebook.com/CatonGrowthStocks/)
     - [美國金融日記](https://www.facebook.com/FinanceAndGoodSociety/)
-    - [美股隊長](https://www.facebook.com/usstockcap/photos/a.293479554193743/1185063261702030/?type=3&__xts__%5B0%5D=68.ARCig5i1AvW8ZZMonKYgRNyTGCZE1EpGLBLRgDot3UNbT4tURSJiEdZTG9d1QNYWtfNQec3QaSjqkIL5sTb2KrL0tTsICmOt5_Ukyb-4SUPhnpO1lD53_ITnbRGie8YxxiDL7IsP7Vcw69wf77suOpow3VfyZVvozcNL-_HF3rXU1-VODdsZIJmhYiwum1Mhn4vxXo-siNWa19VHwtDo-FapGPqCCIL1aIDcbOi8p6ivDeQCJPDbz4SXJjFRKM5YrG70NKXMK0G1sxVVv-9WK-hgINjEjtKI-grZBtsQmVDMu33IogTbGpomfJGculbljcGGtMrHZ4m4ftrYt-VJ-gDXb_Amr3umA08wOMPS8KV-QU1QfpOGjcre&__tn__=-R)
-    - [百舜的美股&投資專欄](https://www.facebook.com/Seraphthought/posts/3099569673397622?__xts__%5B0%5D=68.ARD0tinqOvQJ-PWDC2i3aUH5KcTkwirfynSTHZr13V6FdlrjKXlQjnSDWyfglizdAfvfpvmjIDN0S5Ze73v4BCRulUuCGTj13vhyoAvKWPCKDoU57gHcSBx9umhnQmyhZ5z-RdrAwsP_yF3uZ5gdLUN9lQkkGkf_Y9B-GmjTQXg6twAc5fpn5qoR7dpgj3zuP6IJaJwKpWiIlNy4qjAULeUeHj2qmke3Hcd9bRMzu0h4gCU4x6iNwH8Q5fCGbJVSwaNW15G7BQcPGFdM-HqEut7eCSE6C6EBtxXD-o5omXmJS3wGlC47Szd2zXtErR7QqiPekuqi91usp0hc5veeaeq3G1qPJBE28uRg5R1ClVT6AQUg1ds&__tn__=-R)
-    - [冏冏子(冏星人)](https://www.facebook.com/shintaroReview/photos/a.194699507351581/1505302442957941/?type=3&__xts__%5B0%5D=68.ARDKrwrc9sWJTo5tozkXRpRaEL0YcpcW3znTfCqE2HZVyDjQpRREta1TbAkrcKXF-aJYLoTMf7p82UzqGc0VRAfuI3VrzCr57JZ9po-XaP2mPHcBz8RrhOsSxa0saonU85YZ-BZzF_RLUTE57slrtkdjmPimcfR-eOuo5cq-X_oAEFThqpB8Zf-gCn0_-WRS2Ej0bZYLyccqU3sxWOJcOvkft77dmzWvuYfXYbz5e__oRIYrheuu5yRWPyhPYCxUfbEi4Wk9zlSN3TkQxWCXtRCUQ06U0-KAy88YoRMQilBd0bOC8vTrVhv2kGauAYKye_C9CtDDlkw9iD6WQgBmGuTDbHfwfXAmVy1iGIuOdeNtJ0zL5qh8nw&__tn__=-R)
+    - [美股隊長](https://www.facebook.com/usstockcap/photos/a.293479554193743/1185063261702030/)
+    - [百舜的美股&投資專欄](https://www.facebook.com/Seraphthought/posts/3099569673397622)
+    - [冏冏子(冏星人)](https://www.facebook.com/shintaroReview/photos/a.194699507351581/1505302442957941/)
     - 某一些觀點
         - [美國是一個盛行訴訟的地方](https://www.ptt.cc/bbs/Stock/M.1591449252.A.FD6.html)
         - [單就毛利率來看](https://www.facebook.com/yupupin/posts/3796908833658186)
