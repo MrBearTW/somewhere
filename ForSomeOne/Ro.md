@@ -117,7 +117,8 @@
         - 大O是什麼 / 時間複雜度
         - 排序
     - 黑客松
-    - markdown可以學一下
+    - markdown 可以學一下
+        - [用 Markdown 寫技術文件 - 編輯工具與平台選擇](https://blog.darkthread.net/blog/tech-doc-with-hugo/)
     - 電玩 / 博奕
 
 - UIUX 人機互動

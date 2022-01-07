@@ -46,6 +46,8 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
 - 好想工作室  
     - [好想工作室 – 讓自己選擇想做的事 (學習機會 2018年7月) (截止)](https://blog.devdon.com/?p=4283)  
 
+- [台灣大學資訊系統訓練班](https://train.csie.ntu.edu.tw/train/courses.php)
+
 - MBA  
     - bloomberg  
     - twitter  
@@ -68,6 +70,7 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
 - 技能樹參考
     - [網站工程師技能樹參考](https://github.com/goodjack/developer-roadmap-chinese)
 - [想學程式究竟該自學還是上課？](https://medium.com/appworks-school/%E6%83%B3%E5%AD%B8%E7%A8%8B%E5%BC%8F%E7%A9%B6%E7%AB%9F%E8%A9%B2%E8%87%AA%E5%AD%B8%E9%82%84%E6%98%AF%E4%B8%8A%E8%AA%B2-b40637337320)
+- [PTT 鄉民 Java 參考](https://www.ptt.cc/bbs/Soft_Job/search?q=thread%3A[%E8%AB%8B%E7%9B%8A]%20%E4%BB%A5java%E4%BD%9C%E7%82%BA%E6%8A%80%E8%83%BD%E7%9A%84%E6%9C%80%E4%BD%8E%E5%85%A5%E8%A1%8C%E9%96%80%E6%AA%BB(%E6%9B%B4%E6%96%B0%E5%9B%9E%E6%87%89)&fbclid=IwAR2mLphQrGd2Z1rtqG1XTMKJDz331bfP6uimR-Yr34d-DSQssFq4vc_su2k)
 
 ---
 # 貝卡
