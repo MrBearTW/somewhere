@@ -1,3 +1,3 @@
-- Fitbit 和 iOS 的 Health app 是沒有連接的
+- Fitbit 和 iOS 的 Health app 是沒有串連的
 
 - LINE Android 轉到 iOS 沒有方法轉...
