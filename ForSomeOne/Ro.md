@@ -74,6 +74,8 @@
         - [中研院 陳昇瑋](https://www.facebook.com/swchen11)
             - 有出書 [人工智慧在台灣：產業轉型的契機與挑戰](https://www.books.com.tw/products/0010821934?sloc=main)
             - [悼！台灣人工智慧學校執行長陳昇瑋辭世](https://aiacademy.tw/tribute-to-swchen/)
+        - 蔡炎龍
+            - [設計思考與人工智慧](https://www.facebook.com/yenlung/posts/10224132574394617)
     - 前端大大
         - Kuro 有出書 [0 陷阱！0 誤解！8 天重新認識 JavaScript！（iT邦幫忙鐵人賽系列書 - 02）](https://www.books.com.tw/products/0010832387)
         - Google Developers Expert on Web Technologies [Paul Li](https://www.facebook.com/mei.studio.li)
