@@ -48,7 +48,10 @@ https://www.pcparty.com.tw/products/%E5%89%B5%E5%82%91-ducky-skyline%E5%A4%A9%E9
 - `Win + .` 可以叫出表情符號喔
 
 - 多合一轉 type-C
-    - [【QPNP】Type C3.1 極速PD七合一HUB for macbook / Surface / ipad pro](https://24h.pchome.com.tw/prod/DCADJ5-A900A2QVT)
+    - 雷雷爛爛
+        - [【QPNP】Type C3.1 極速PD七合一HUB for macbook / Surface / ipad pro](https://24h.pchome.com.tw/prod/DCADJ5-A900A2QVT)
+    - 應該比較沒問題
+        - [【Opro9 】USB-C 10合1 4K2K高解析多功能HUB](https://24h.pchome.com.tw/prod/DCACSL-A900B3IDG?fq=/S/DCADNE)
 
 - 剛好看到記錄一下
     - [工程師適合什麼鍵盤？HHKB體驗心得，2021年它還是鍵皇嗎？](https://medium.com/mr-efacani-teatime/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%81%A9%E5%90%88%E4%BB%80%E9%BA%BC%E9%8D%B5%E7%9B%A4-hhkb%E9%AB%94%E9%A9%97%E5%BF%83%E5%BE%97-2021%E5%B9%B4%E5%AE%83%E9%82%84%E6%98%AF%E9%8D%B5%E7%9A%87%E5%97%8E-d3a4ef7969a3)
