@@ -13,6 +13,9 @@ https://oomusou.io/docker/docker-for-windows/
 
 ## 第1章 Docker的能與不能
 - 本章將先來瞭解Docker的優點與缺點和限制，以便幫助你以更有效率和精準的善用Docker的優點，並避免將 Docker 應用在不適合的應用中。
+    - Container：共用 Linux 核心
+    - 虛擬機器：模擬硬體來達到虛擬機器可以獨立執行各種系統和軟體
+    - 游泳池比較：Container 海綿放入池中，可大可小。虛擬機器 將鐵框放入池中
 
 ## 第2章 必學的Docker功能與指令
 - 本章將針對常用且實用的Docker指令，以及選項的操作方式逐一說明並舉例示範。
