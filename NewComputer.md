@@ -24,8 +24,8 @@ https://www.pcparty.com.tw/products/%E5%89%B5%E5%82%91-ducky-skyline%E5%A4%A9%E9
     - [官方連結](https://www.duckychannel.com.tw/tw/Ducky-One2-RGB-TKL)
     - 設定顏色
         - Fn + F10
-            - 有很12種
-            - 若是可以自己調色的則在F5 F6 F7 會出現RGB三色
+            - 有很 12 種
+            - 若是可以自己調色的則在 F5 F6 F7 會出現 RGB 三色
     - 設定功能
         - Windows + 空白健三秒 清空之前設定
         - 挑選要調整的組別 Fn + 2~6 (1為預設值)
