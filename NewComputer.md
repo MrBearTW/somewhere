@@ -59,3 +59,4 @@ https://www.pcparty.com.tw/products/%E5%89%B5%E5%82%91-ducky-skyline%E5%A4%A9%E9
 # NAS
 - [synology 比較 DS218	DS218play	DS220+	DS220j](https://www.synology.com/zh-tw/products/compare/DS218/DS218play/DS220+/DS220j)
 - [蘋果仁 用 NAS 擴充容量！Synology DS218+ 開箱，同場加映Time Machine備份教學](https://applealmond.com/posts/58030)
+    - [Yahoo DS220+](https://tw.buy.yahoo.com/gdsale/Synology-%E7%BE%A4%E6%9A%89%E7%A7%91%E6%8A%80-DS220-NAS-%E5%90%AB-WD%E7%B4%85%E6%A8%99Plus-4TB%E5%85%A9%E9%A1%86-%E9%80%814G%E8%A8%98%E6%86%B6%E9%AB%94-9850568.html)
