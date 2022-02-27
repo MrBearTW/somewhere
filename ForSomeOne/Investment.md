@@ -1,5 +1,5 @@
 1. 存夠6個月的生活費
-2. 除了儲蓄險和投資型保單之外的，[保險](https://www.facebook.com/329896911051695/photos/a.358878471486872/510654386309279/?type=3&__xts__%5B0%5D=68.ARBuyMOo1kILUtABl2KfLzx67nHlTwqcSiJ6dwyP3JiNgTZKZceVqiCqYJLY4SF57zfBaaxd_bcwWGSlmHR0AqwVN06Nya4FAHimNRcpoq3mSZETahTWn1NkcQeVrjXDxwtSpZFqJP3Jjx6jub_fdk5IhZ11IuzpMAYRq1VlGfXzKmrlwj0jeW7sNj8sfUtauglPZlJHU6XymsMgH-guK8eTsuyXV1uogMkZ5lD-qM_PAIWaDcKaMwn6Z4BACWLwS7s-SRfPVMkaejSl1t2tKb3UNa_2QMnvQzSzeF2DQBtNz2R_dUVF63SuKvzGbfYt1S2AzjPRJKqdgspfVOtG81kc0y18T3FC6c5zHOQGf_O7x5hCCDC9qQ&__tn__=-R)買一買
+2. 除了儲蓄險和投資型保單之外的，[保險](https://www.facebook.com/329896911051695/photos/a.358878471486872/510654386309279/)買一買
 3. 年金 勞保 勞退 健保
 4. 自己要住的房貸 / 車貸
 5. 可投資的錢
@@ -22,7 +22,7 @@
     - 定期收錢
         - 富爸爸與窮爸爸
             - 現金流遊戲
-        - [國民年金](https://www.facebook.com/mohw.gov.tw/photos/a.484593545040402/1522567501242996/?type=3&__xts__%5B0%5D=68.ARAYl9IojS9uam2H6R1UrZpg4jdhnGT6BKsrtLIzvxQouPgN7iiclzugEUck98dNvCqeTMonVTAQrUeP1ACMDuG4MnojdJtcmfZxR-FSVUM5QLMlzELAM7uUSC1dWV-CkWyZZMvggZMCB02J5zNmk4h5RwiJ-6NKndgpGNTzNVrTJtP2lr81RTWwBJx4peOqJlrO8EVDizgsB1rCuVaa9DgGSsnBbAaxF5EAuwLq1pL-HyWiD-vZVMKkiIV9Vm-ZCOTNA4aJT01Je6-mWvjGBszej5BCQ77ydIPAzj_957VUi6_g15Pz5Bltz9IkrlQ3DCDz_kpBJ_03hyAsWfAkz2HYlA&__tn__=-R)
+        - [國民年金](https://www.facebook.com/mohw.gov.tw/photos/a.484593545040402/1522567501242996/)
     - 收時間價值(這個比較難一點)
     - [投資 vs. 創業](https://www.facebook.com/mitterchiang/posts/10158307255228939)
 
@@ -46,9 +46,9 @@
         - [國安基金](https://www.facebook.com/photo.php?fbid=10221773720547783&set=a.1820416905735&type=3)
     - 緩漲快跌
     - 房地產，房地產證券化
-        - [近期房價走勢](https://www.facebook.com/joejoeyourmoney/photos/a.10150326769327276/10158407533842276/?type=3&__xts__%5B0%5D=68.ARC86xn_rMeAyKWZdV0vG6kPfXutH7KrpmOFDOG9jjKSBukwZNC0fcn_bCXjhz24tc7W-xIRglyTF0U23sj0w_MI4Uars9wrede7oUYBWXiICVNNeotfO26tNcqVKYyxLoq6ZOq1Vyjep0GraykDmYFU76g-XI6BbBWtJPftpGp6nHYahdylV084c53tfQ-RF0lfsOneH9Ayn1qXR7rFzVqy447ergopYnW2gqU52wqAlH2LGd4GCR88mVWm_jPboXKcVWOc-A6HWsniAsFciS0DX-L8U8mC2Ghsu4ebdRlO00IS899UktzjXjz0bhrG_vtNu-kBUjfy4NnAchDs&__tn__=-R)
+        - [近期房價走勢](https://www.facebook.com/joejoeyourmoney/photos/a.10150326769327276/10158407533842276/)
         - [剛性需求](https://www.facebook.com/icheng.liu/posts/10220737721900257)
-        - [台美房屋稅制差異](https://www.facebook.com/permalink.php?story_fbid=2637905226452104&id=1545911848984786&__xts__%5B0%5D=68.ARAzGiCSL1E4xnRLONrcsltCQgILxpDqi2IjuvPHWJjEFFo2VGZcH1V9BDDHRkB7cZaSuwcJvJYa5PANpl_hMb2SNDd2eaRUVf-y-yB7xt-BdPNiSwEmlgBLv3wzv_RnKDwmfzkLrLeX8Nc9ylBICxh2itjoccsFYzPjVNdLMTSJwyIIrQd5vJ8juUQU7FNempkerP_TLTQmFWPAga7r-8eaepl3rxFAPx1xD-dVHfn6CHKHFRqboStOKi03lMgzHJVhy8p3xNTCcwdnXuZ_8FFxpZ6OMgwoIdrJRYK-O6yq8g8s-nZKY_SWcG1mwE3OX6fl_GUAkQje7QP5tzGF0X7E6yVs&__tn__=-R)
+        - [台美房屋稅制差異](https://www.facebook.com/permalink.php?story_fbid=2637905226452104&id=1545911848984786)
         - [FB 社群：房子賠售就是爽](https://www.facebook.com/groups/325025801461377/)
         - 房租約是 XXX萬 * 2~2.5% /12
         - 房貸速算 每一百萬
@@ -78,10 +78,10 @@
     - 推理上
         - 失業人很多，前景不好，股價應該要跌
             - But
-                - [美國金融日記 失業率創新高，美股卻漲爆了? 這要說說我川推出的 SBA超級貸款，簡單來說：借錢免還啦 (Debt Forgiveness)](https://www.facebook.com/FinanceAndGoodSociety/photos/a.124599779028767/151987456289999/?type=3&__xts__%5B0%5D=68.ARCRdoOqwEidmBQ8W2hK-LYQIj-8S6hz_40CNF0jwda_kukx4rd87xOP9vE7dwI6mLyWPIQxRRyS3hf_FvCjwvG6JviEbdB_Q7Uepj2X3R5JzldCr510BaFPdOD-Jd8izV0u0WyYyBJw6n0bHrSvGm519LY5Vyv7vNLENzF5xpekRWmhJeZBwDjWoClcFf1b9zm3MHzXgbUqe_d6JQi32tMWvm7UTBpay0qyxm5XkZntbgstdQ6oXL-5xT3ksCwyfrvIjS_1X8-1c_T6pTrxIJWF9TSCNH3Co1744BAxyfOocGz1hus5-dmjtGUP-WRZYlpzpK3tp0TJX62m3DsRd7c&__tn__=-R)
+                - [美國金融日記 失業率創新高，美股卻漲爆了? 這要說說我川推出的 SBA超級貸款，簡單來說：借錢免還啦 (Debt Forgiveness)](https://www.facebook.com/FinanceAndGoodSociety/photos/a.124599779028767/151987456289999/)
                 - [再下一周又翻倍](https://www.facebook.com/wzagdrz/videos/2520469344936314/)
         - [未平倉範例](https://www.stockpro.tw/2019/10/option-indicator-1.html)
-        - [未平倉範例 2](https://www.facebook.com/huangdazo/photos/a.1392248191006168/2713007192263588/?type=3&__xts__%5B0%5D=68.ARDlx2MdwsZV5b4_jfi0t1dbyjalbOHOZzSaD70N0D_r92WFf3Ebf5Tf1-cTuPSdzG8DGuDnAYwSbEm6JAaZF7UFNhjcFvv1FD0jYtyNfsLVGlhWOWe8EzngDr8QCVJQ8uZP42Gaz5R9f3KOAPn7ANA5_2zMCDpiCobosArmE2akEkreetcLL3gq700iERlUMXPSURi0-F3en85nyEjNVqeIM6DuRnDUUCzlw0_8ACnRSU71RWck40TeHFnccMJ36zqgFuBjYrmuqSyqqJtVEaf4AhLBwvvEbhpA5hElUCB0ckF0CFgAKvCS6CqBqe6D8tfo8iXoiu3C0vti8rme6wcrOySy4acy40ZDHsIh9D91FPjJaO3pudIo-W8&__tn__=-R)
+        - [未平倉範例 2](https://www.facebook.com/huangdazo/photos/a.1392248191006168/2713007192263588/)
     - 風險投資
         - [詹宏志：我太晚認知到資本的力量了！](https://www.inside.com.tw/article/13190-pchome-pk-shopee-2)
             - [因為本夠厚](https://www.facebook.com/xmy1108/posts/10223496796507304)
@@ -192,7 +192,7 @@
         - [林宜敬](https://www.facebook.com/yijing1/posts/10157497072094495)
         - [李忠孝](https://www.facebook.com/SmartLCH/)
         - [Miula的M觀點](https://www.facebook.com/miulaperspective/)
-    - 這些蠻偏頗的比較偏向邏輯訓練
+    - 這些蠻偏頗的比較偏向自我邏輯訓練
         - [用名牌講解金融市場](https://www.facebook.com/csteve360/posts/10153964138317600)
         - 技術分析 
             - [蔡森](https://www.facebook.com/ts88888)
