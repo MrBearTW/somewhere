@@ -129,6 +129,15 @@
     5. 接球方 OK
     6. 發球號碼
     7. 發球方 OK
+- 連擊參考資料
+    - [Volleyball Rules | What's Legal (and What Isn't) with Hand Setting?](https://youtu.be/YbNrVOBV5D0)
+    - [Stop using spin to determine if a hand set is bad in Beach Volleyball](https://youtu.be/wd6gl83WABY)
+        - 長版 [Extended Version: Stop using ball rotation as an indicator of a bad set in beach volleyball!](https://youtu.be/98v6neAtmpI)
+- 教練指導時機是在死囚與發球鳴笛之間。
+- 持球連擊要敢吹。
+- 適時彎腰來看球員動作，是用手指？有無僵硬且併攏？
+- 註記球衣顏色用鉛筆，結束時擦掉
+
 
 # 2021/3/12~16 109學年度全國第12屆中等學校沙灘排球錦標賽競賽
 - 口罩除了一二裁之外都戴口罩
