@@ -143,6 +143,10 @@
 - 不可場外指導，一裁需適時提醒隊長。（大會秩序冊中有說明）
 - 備註欄需寫詳細一點。寫錯的地方在？正確的應為？
 - 司線攔網有看到觸球時，暗示的提醒記得要做出來。
+- 風大的時候，可能會有類似哨音的聲音，選手可能會聽錯。
+- FIVB 資源
+    - [Official Beach Volleyball Rules 2021-2024](https://www.fivb.com/en/beachvolleyball/thegame_bvb_glossary/officialrulesofthegames)
+    - [CASEBOOK 2020](https://www.fivb.com/-/media/2020/fivb%20corporate/beach%20volley/the%20game%20section/rules%20of%20the%20game/beach%20volleyball%20casebook%202020%20-%20english%20version.pdf?la=en&hash=FB03BB6C467A42E778D4CC48059FCD32)
 
 
 # 2021/3/12~16 109學年度全國第12屆中等學校沙灘排球錦標賽競賽
