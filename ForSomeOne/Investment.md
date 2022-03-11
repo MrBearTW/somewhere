@@ -224,6 +224,8 @@
         - [美國是一個盛行訴訟的地方](https://www.ptt.cc/bbs/Stock/M.1591449252.A.FD6.html)
         - [單就毛利率來看](https://www.facebook.com/yupupin/posts/3796908833658186)
         - [真人美股配置](https://www.facebook.com/jacky.hsueh.52/posts/3101186613267618)
+    - PTT 多啦王 ffaarr 
+        - https://www.ptt.cc/bbs/Foreign_Inv/M.1646877874.A.29E.html
 
 - 下次再說
     - 收時間價值

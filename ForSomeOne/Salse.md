@@ -1,0 +1,4 @@
+- [水泥工](https://www.facebook.com/nijohn886/)
+- [保險業](https://www.facebook.com/jingsyuane)
+- 計程車司機
+- 汽車
