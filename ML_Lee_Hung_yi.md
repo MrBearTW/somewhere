@@ -1,0 +1,64 @@
+# Machine Learning (2021) Mandarin Version
+- https://www.youtube.com/playlist?list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
+
+# 【機器學習2021】預測本頻道觀看人數 (上) - 機器學習基本概念簡介
+- [Slides](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkVKWHF0bndkbmVBQTdMdVlfMVhuNko0dzRld3xBQ3Jtc0tsRzhvbDRuMGE0ckRGOUxCQ1pVUGtzVnNSUDdEQWU4eTJTMEJCTmRzZkpWSXM1LTRGbUdxaV9wSXZjMml4bTN2ZS1mVU1HOElHX21reHFDbUlvX0JvX2dEc0hfSWxOWmxPYkFCenMyS1hfU25wTTVwbw&q=https%3A%2F%2Fspeech.ee.ntu.edu.tw%2F%7Ehylee%2Fml%2Fml2021-course-data%2Fregression%2520%28v16%29.pdf) 
+- Looking for a function
+    - Regression: outputs a scalar (數字)
+        - PM2.5
+    - Classification: Given options(Classes)
+        - 圍棋
+    - Structured Learning
+        - 學會創造
+- Training
+    1. Model:Function with unknown Parameters
+        - y = b + wx1
+            - w: weight
+            - b: bias 
+    2. Define Loss from Training Data 
+        - Loss: how good a set of value is
+            - MAE mean absolute error (取絕對值)
+            - MSE mean square error (取平方)
+            - Cross-entropy (計算機率分布)
+        - Error Surface
+    3. Optimization
+        - Gradient Descent (取斜率)
+            - learning rate η
+        - hyperparameters (是自己決定的)
+        - 計算上限
+            - 自己設定計算次數上限
+            - 微分為 0 的時候
+                - 可能只找到 local minima，而沒有找到 global minim a
+- Linear model
+    - Model Bias 有很大的限制
+
+# 【機器學習2021】預測本頻道觀看人數 (下) - 深度學習基本概念簡介
+
+- [Slides](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnBtQlVlTFlpWXVhQ0dnU2R4MHNRcUxfanhVQXxBQ3Jtc0tra2tMYlFJQ3FxZmMzWkNOUW5FMXVSUTQxYVNrcnhreVMxTlZsVVV4VG1WeEJXTjF4SHNfQnVUUzhDMVpqLTNMd2h0alNmbHktcUppNVB4Vmt2OFBRZVFRZ08wYWg1eC1HYll4bzBFaE1EOTJXQTRoSQ&q=https%3A%2F%2Fspeech.ee.ntu.edu.tw%2F%7Ehylee%2Fml%2Fml2021-course-data%2Fregression%2520%28v16%29.pdf)
+- Piecewise Linear curves
+- Sigmoid function
+    - S 型的 function
+    - y = c sigmoid(b + wx1)
+        - w slope 斜率
+        - b shift 穿過Y軸位置
+        - c height 高度
+    - Hard sigmoid(直線的 sigmoid)
+- 公式進化 
+    - y = b + wx1 --> y = b + ∑ci sigmoid(bi + wix1)
+    - y = b + ∑wjxj --> y = b + ∑ci sigmoid(bi + ∑wijx1)
+    - 推倒後簡寫成向量
+        - r = b + w x (b 是向量，這幾個變數都是向量)
+        - a = σ (r)
+        - y = b + c^T a (b 是數值)
+        - 整合成 y = b + c^T σ ( b + w x)
+            - 未知的 b c^T b w 全部整合成一個向量 θ
+- Loss
+    - 目標要找到 θ^* 最小，實務上不太可能找到 0
+    - Pick initial values θ^0
+    - compute gradient g = ▽L(θ)
+    - θ^1 ← θ^0 - ηg
+- Optimization of New Model
+    - 將全部 N 分成幾個 batch 的 B
+        - 一個 batch 可以 update 一次參數
+        - 1 epoch = see all the batches once
+            - 1 epoch 更新幾次取決於 Batch 大小
