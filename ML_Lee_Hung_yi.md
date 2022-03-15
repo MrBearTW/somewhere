@@ -36,13 +36,17 @@
 
 - [Slides](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnBtQlVlTFlpWXVhQ0dnU2R4MHNRcUxfanhVQXxBQ3Jtc0tra2tMYlFJQ3FxZmMzWkNOUW5FMXVSUTQxYVNrcnhreVMxTlZsVVV4VG1WeEJXTjF4SHNfQnVUUzhDMVpqLTNMd2h0alNmbHktcUppNVB4Vmt2OFBRZVFRZ08wYWg1eC1HYll4bzBFaE1EOTJXQTRoSQ&q=https%3A%2F%2Fspeech.ee.ntu.edu.tw%2F%7Ehylee%2Fml%2Fml2021-course-data%2Fregression%2520%28v16%29.pdf)
 - Piecewise Linear curves
-- Sigmoid function
-    - S 型的 function
-    - y = c sigmoid(b + wx1)
-        - w slope 斜率
-        - b shift 穿過Y軸位置
-        - c height 高度
-    - Hard sigmoid(直線的 sigmoid)
+- Activation function
+    - Sigmoid function
+        - S 型的 function
+        - y = c sigmoid(b + wx1)
+            - w slope 斜率
+            - b shift 穿過Y軸位置
+            - c height 高度
+    - ReLu   Hard sigmoid(直線的 sigmoid)
+        - ReLu Rectified Linear Unit 折線
+            - c max(0, b + w x1)
+
 - 公式進化 
     - y = b + wx1 --> y = b + ∑ci sigmoid(bi + wix1)
     - y = b + ∑wjxj --> y = b + ∑ci sigmoid(bi + ∑wijx1)
@@ -62,3 +66,24 @@
         - 一個 batch 可以 update 一次參數
         - 1 epoch = see all the batches once
             - 1 epoch 更新幾次取決於 Batch 大小
+- Step
+    1. function with unknown
+    2. define loss from training data
+    3. optimization
+- Deep learning
+    - 一個 sigmoid 視為一個 Neuron
+    - Neural Network
+    - hidden layers
+    - Overfitting 很適合訓練資料，但新資料預測效果就不好
+- 延伸學習
+    - Basic Introduction https://youtu.be/Dr-WRlEFefw
+    - Backpropagation https://youtu.be/ibJpTrp5mcE
+
+# ML Lecture 7: Backpropagation
+- Gradient Descent
+    - Network parameters θ = { w1, w2 ,w3, ... ,b1, b2, b3, ...}
+- To compute the gradient efficiently, we use backpropagation.
+- Chain Rule
+    - 
+- Forward pass
+- Backward pass
