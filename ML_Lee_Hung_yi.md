@@ -22,7 +22,7 @@
             - Cross-entropy (計算機率分布)
         - Error Surface
     3. Optimization
-        - Gradient Descent (取斜率)
+        - Gradient Descent (梯度下降 / 取斜率)
             - learning rate η
         - hyperparameters (是自己決定的)
         - 計算上限
@@ -44,7 +44,7 @@
             - b shift 穿過Y軸位置
             - c height 高度
     - ReLu   Hard sigmoid(直線的 sigmoid)
-        - ReLu Rectified Linear Unit 折線
+        - ReLu Rectified Linear Unit 折線 / 整流線性單元
             - c max(0, b + w x1)
 
 - 公式進化 
