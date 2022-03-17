@@ -87,3 +87,11 @@
     - 
 - Forward pass
 - Backward pass
+
+# NHL Stenden
+- 作業之三 https://ayearofai.com/rohan-lenny-1-neural-networks-the-backpropagation-algorithm-explained-abf4609d4f9d
+    - 更多學習
+        - [Stanford’s CS231n](http://cs231n.stanford.edu/)
+            - http://cs231n.stanford.edu/syllabus.html
+        - [MIT 6.034](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
+            - https://www.youtube.com/watch?v=q0pm3BrIUFo
