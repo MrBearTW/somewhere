@@ -95,3 +95,5 @@
             - http://cs231n.stanford.edu/syllabus.html
         - [MIT 6.034](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
             - https://www.youtube.com/watch?v=q0pm3BrIUFo
+- Google 資源
+    - https://developers.google.com/machine-learning/gan/generative
