@@ -32,6 +32,7 @@ Core + Vuex + Vue-Router
     - Inject &provide
     - Lazy loading 
 - 主題 II: 前端好朋友 - TailwindCSS / 奶綠茶 - PositiveGrid - Staff Frontend Engineer
+    - [Slide](https://speakerdeck.com/milkmidi/qian-duan-hao-peng-you-tailwindcss)
     - 所見即所得
     - apply
     - Peer
