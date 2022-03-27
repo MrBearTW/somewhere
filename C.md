@@ -10,3 +10,5 @@ https://youtu.be/fJ2iq1Ye5MU
 GCC  
 Codeblocks  
 Xcode  
+
+- [神人工程師不只用 C 語言建 SQLite 資料庫，現在還用一個檔案寫出網路伺服器](https://buzzorange.com/techorange/2021/06/18/sqlite_engineer_richard_hipp/)
