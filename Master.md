@@ -365,6 +365,16 @@
     - 學費
     - 計分制的移民政策
 
+# Intake
+
+- 英國
+    - Cardiff MSc Computing 兩年帶實習 雅思6.5單科不低於5.5 https://www.cardiff.ac.uk/study/postgraduate/taught/courses/course/computing-with-placement-msc
+    - Swansea 雅思要求6.0 https://www.swansea.ac.uk/postgraduate/taught/maths-comp-sci/computer-science/msc-computer-science/
+    - Strathclyde 軟體研發 雅思6.0 https://www.strath.ac.uk/courses/postgraduatetaught/softwaredevelopment/#entryrequirements
+    - UEA 雅思要求6.0 https://www.uea.ac.uk/course/postgraduate/msc-computing-science
+
+- 加拿大
+    - Douglas College
 
 # 確認 GG
 - NHL Stenden 20220331
