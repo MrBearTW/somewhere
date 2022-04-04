@@ -368,6 +368,8 @@
 # Oh Studay
 
 - 加拿大
+    - 每一省的移民方式不同
+    - 
 
 # Intake
 
@@ -393,5 +395,18 @@
 - 平均薪資
 - 稅
 - 移民條件
+
+# Terry
+- 刷題另外推薦
+    - LintCode
+    - HackerRank
+    - Leetcode
+        - Easy 30%
+        - Medium 60%
+        - Hard 10%
+- 系統設計推薦書
+    - Grokking the system Design Interview by Educative.io
+- 談薪水參考網站
+    - levels.fyi
 
 # 博士
