@@ -368,8 +368,20 @@
 # Oh Studay
 
 - 加拿大
-    - 每一省的移民方式不同
-    - 
+    - 來看看
+        - Georgian college
+        - Niagara College
+        - Southern Alberta Institute of Tecnology
+            - [Software Development](https://www.sait.ca/programs-and-courses/diplomas/software-development)
+                - LENGTH: 2 Years
+                - CREDENTIAL: Diploma
+    - 問題
+        - 每一省的移民方式不同
+            - BC 省和 安大略省 移民差異
+        - 一年學制和兩年學制
+        - 申請
+            - 沒看到英文要求？ http://cat.georgiancollege.ca/programs/mdev/#text
+        - 
 
 # Intake
 
@@ -390,6 +402,7 @@
 - 複雜度
 - 演算法
 - 資料結構
+- 區塊鏈
 
 # 就業
 - 平均薪資
