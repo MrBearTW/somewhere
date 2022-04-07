@@ -368,20 +368,40 @@
 # Oh Studay
 
 - 加拿大
-    - 來看看
+    - 科系比較
         - Georgian college
+            - 再思考一下 [Mobile Application Development](http://cat.georgiancollege.ca/programs/mdev/#text)
+                - Duration: 1 Year
+                - Graduate Certificates (1 years)
+                - Admission Requirements: Post-secondary diploma or degree with a focus in computer studies, or equivalent work experience in software development.
+                - Apple Mac least 8GB of memory, 256GB of disk space 課程 iOS 和 Android 都有學
+                - 9282~8682  加幣/一學期 (有 Winter 2023)
+            - OK [Computer Programming Ontario College Diploma, Co-op program](http://cat.georgiancollege.ca/programs/cmpg/)
+                - Diplomas (2 years)
+                - either PC or Mac architecture / 課程是我要的
+                - 8634.2 8096.74 加幣/一學期 (有 Winter 2023)
         - Niagara College
-        - Southern Alberta Institute of Tecnology
-            - [Software Development](https://www.sait.ca/programs-and-courses/diplomas/software-development)
+            - 先不要 [Computer Programming and Analysis (Co-op)](https://www.niagaracollege.ca/media/program/programming-analysis/#courses)
+                - 3 Year Diploma
+                - 要上到 2024 Fall 先不要
+            - 先不要 [Computer Programming](https://www.niagaracollege.ca/media/program/programming/#courses)
+                - 2 Year Diploma
+                - This program is a PC-based program as several key software used in the program are not available for a Mac operating system.
+        - Southern Alberta Institute of Technology
+            - OK [Software Development](https://www.sait.ca/programs-and-courses/diplomas/software-development)
                 - LENGTH: 2 Years
                 - CREDENTIAL: Diploma
+                - 課程有 Cooperative Work Term (optional)
+                - $23,637 加幣/一年 (有 Winter 2023)
+            - 先不要 [Information Technology Services](https://www.sait.ca/programs-and-courses/diplomas/information-technology-services)
+                - 偏 IT 網管 先不要
     - 問題
         - 每一省的移民方式不同
-            - BC 省和 安大略省 移民差異
+            - 安大略省 和 亞伯達省 移民差異
         - 一年學制和兩年學制
         - 申請
             - 沒看到英文要求？ http://cat.georgiancollege.ca/programs/mdev/#text
-        - 
+        - 語言不足的補救？
 
 # Intake
 
