@@ -369,7 +369,7 @@
 
 - 加拿大
     - 科系比較
-        - Georgian college
+        - Georgian college 喬治亞學院
             - 再思考一下 [Mobile Application Development](http://cat.georgiancollege.ca/programs/mdev/#text)
                 - Duration: 1 Year
                 - Graduate Certificates (1 years)
@@ -380,14 +380,14 @@
                 - Diplomas (2 years)
                 - either PC or Mac architecture / 課程是我要的
                 - 8634.2 8096.74 加幣/一學期 (有 Winter 2023)
-        - Niagara College
+        - Niagara College  公立尼加拉學院
             - 先不要 [Computer Programming and Analysis (Co-op)](https://www.niagaracollege.ca/media/program/programming-analysis/#courses)
                 - 3 Year Diploma
                 - 要上到 2024 Fall 先不要
             - 先不要 [Computer Programming](https://www.niagaracollege.ca/media/program/programming/#courses)
                 - 2 Year Diploma
                 - This program is a PC-based program as several key software used in the program are not available for a Mac operating system.
-        - Southern Alberta Institute of Technology
+        - Southern Alberta Institute of Technology 聖力嘉學院
             - OK [Software Development](https://www.sait.ca/programs-and-courses/diplomas/software-development)
                 - LENGTH: 2 Years
                 - CREDENTIAL: Diploma
@@ -395,6 +395,40 @@
                 - $23,637 加幣/一年 (有 Winter 2023)
             - 先不要 [Information Technology Services](https://www.sait.ca/programs-and-courses/diplomas/information-technology-services)
                 - 偏 IT 網管 先不要
+        - 多倫多四大學院
+            - Seneca College (聖力嘉學院)
+                - OK [Computer Programming (CPP)](https://www.senecacollege.ca/programs/fulltime/CPP.html#menu)
+                    - two-year diploma program
+                    - 課程有 C 語言
+                    - $16,114 (Winter 2023????) / 半小時走路可到地鐵
+            - Humber College(漢博學院)
+                - OK [Computer Programming](https://appliedtechnology.humber.ca/programs/computer-programming.html)
+                    - international: $17,618.00 /  for two semesters
+                    - Humber College North Campus 離機場很近但無地鐵
+                - [Web Development](https://mediaarts.humber.ca/programs/web-development.html)
+                    - Credential: Ontario Graduate Certificate
+                    - Program Length: 3 semesters
+                    - international: $30,850.50 for three semesters
+                    - Admission Requirements 要再確認
+                    - 第三學期 Work Placement in Web Development
+            - Centennial College(百年理工學院)
+                - 半小時走路可到地鐵
+                - [HEALTH INFORMATICS TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/health-informatics-technology-fast-track)
+                    - Academic Requirements 不符合 GG
+                - OK [SOFTWARE ENGINEERING TECHNICIAN](https://www.centennialcollege.ca/programs-courses/full-time/software-engineering-technician)
+                    - Credential Ontario College Diploma
+                    - Program Length 2 years/ 4 semesters 
+                    - $18,151.59 (2 Semesters) 
+                - [ARTIFICIAL INTELLIGENCE - SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-fast-track)
+                    - Academic Requirements 不符合 GG
+                - [SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/software-engineering-technology-fast-track)
+                    - Academic Requirements 不符合 GG
+            - George Brown College(喬治布朗學院)
+                - 地鐵 6 分鐘
+                - 再思考一下 [COMPUTER PROGRAMMING AND ANALYSIS PROGRAM (T177)](https://www.georgebrown.ca/programs/computer-programming-and-analysis-program-t177#how-to-apply)
+                    - 是六學期的課
+                - [MOBILE APPLICATION DEVELOPMENT AND STRATEGY PROGRAM (POSTGRADUATE) (T440)](https://www.georgebrown.ca/programs/mobile-application-development-and-strategy-program-postgraduate-t440#how-to-apply)
+                    - Admission Requirements 不符合 GG
     - 問題
         - 每一省的移民方式不同
             - 安大略省 和 亞伯達省 移民差異
@@ -402,6 +436,17 @@
         - 申請
             - 沒看到英文要求？ http://cat.georgiancollege.ca/programs/mdev/#text
         - 語言不足的補救？
+        - 時程規劃
+    - 移民
+        - [官方分數試算 Express Entry](https://www.cic.gc.ca/english/immigrate/skilled/crs-tool.asp)
+        - 聯邦技術移民 (Federal Skilled Workers, FSW)
+        - 其他
+            - LMIA 全稱 Labour Market Impact Assessment 加拿大勞動力市場影響評估批文
+            - AIPP 全稱 Atlantic Immigration Pilot Program 加拿大大西洋省份移民試點項目
+    - Youtuber 參考
+        - [https://www.youtube.com/watch?v=235yTbt1Cy0](《加拿大移民🇨🇦》如何3年時間取得加拿大永久居民(PR)? | 心路歷程 & 建議 |)
+            - 他還有買車和多倫多租屋分享
+        
 
 # Intake
 
