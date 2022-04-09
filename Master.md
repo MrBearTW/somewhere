@@ -413,36 +413,47 @@
                     - 第三學期 Work Placement in Web Development
             - Centennial College(百年理工學院)
                 - 半小時走路可到地鐵
-                - [HEALTH INFORMATICS TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/health-informatics-technology-fast-track)
+                - GG [HEALTH INFORMATICS TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/health-informatics-technology-fast-track)
                     - Academic Requirements 不符合 GG
                 - OK [SOFTWARE ENGINEERING TECHNICIAN](https://www.centennialcollege.ca/programs-courses/full-time/software-engineering-technician)
                     - Credential Ontario College Diploma
                     - Program Length 2 years/ 4 semesters 
                     - $18,151.59 (2 Semesters) 
-                - [ARTIFICIAL INTELLIGENCE - SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-fast-track)
+                - GG [ARTIFICIAL INTELLIGENCE - SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/artificial-intelligence-fast-track)
                     - Academic Requirements 不符合 GG
-                - [SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/software-engineering-technology-fast-track)
+                - GG [SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/software-engineering-technology-fast-track)
                     - Academic Requirements 不符合 GG
             - George Brown College(喬治布朗學院)
                 - 地鐵 6 分鐘
                 - 再思考一下 [COMPUTER PROGRAMMING AND ANALYSIS PROGRAM (T177)](https://www.georgebrown.ca/programs/computer-programming-and-analysis-program-t177#how-to-apply)
                     - 是六學期的課
-                - [MOBILE APPLICATION DEVELOPMENT AND STRATEGY PROGRAM (POSTGRADUATE) (T440)](https://www.georgebrown.ca/programs/mobile-application-development-and-strategy-program-postgraduate-t440#how-to-apply)
+                - GG [MOBILE APPLICATION DEVELOPMENT AND STRATEGY PROGRAM (POSTGRADUATE) (T440)](https://www.georgebrown.ca/programs/mobile-application-development-and-strategy-program-postgraduate-t440#how-to-apply)
                     - Admission Requirements 不符合 GG
     - 問題
         - 每一省的移民方式不同
             - 安大略省 和 亞伯達省 移民差異
         - 一年學制和兩年學制
+            - PGWP(Post-Graduation Work Permit Program) 長度不同
         - 申請
             - 沒看到英文要求？ http://cat.georgiancollege.ca/programs/mdev/#text
         - 語言不足的補救？
         - 時程規劃
+        
     - 移民
+        - 先 PR (永久居民) 再 Citizen (公民)
+            - 公民才可以 TN 簽證進美國工作
         - [官方分數試算 Express Entry](https://www.cic.gc.ca/english/immigrate/skilled/crs-tool.asp)
+        - 加拿大經驗類（Canadian Experience Class)
         - 聯邦技術移民 (Federal Skilled Workers, FSW)
-        - 其他
+        - 有兩套計分系統 一種 100 分 一種 600 分
+        - 專有名詞
             - LMIA 全稱 Labour Market Impact Assessment 加拿大勞動力市場影響評估批文
             - AIPP 全稱 Atlantic Immigration Pilot Program 加拿大大西洋省份移民試點項目
+            - PGWP (Post-Graduation Work Permit Program)
+        - IELTS 用的是一般，不是學術
+            - [官方資訊](https://tw.ieltsasia.org/%E9%81%B8%E6%93%87%E9%9B%85%E6%80%9D-%E9%9B%85%E6%80%9D%E5%B0%B1%E6%A5%AD%E5%8F%8A%E7%A7%BB%E6%B0%91)
+            - [分數計算 學術 vs 一般 非官方](https://www.hellostudy.com.tw/why-hello-study/resources/935/listening-reading-ielts-band-score/)
+        - [持續有在更新移民分數的網頁](https://taiwan.admissionhub.com/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%A7%BB%E6%B0%91-ee-%E5%BF%AB%E9%80%9F%E9%80%9A%E9%81%93-%E5%88%86%E6%95%B8/)
     - Youtuber 參考
         - [https://www.youtube.com/watch?v=235yTbt1Cy0](《加拿大移民🇨🇦》如何3年時間取得加拿大永久居民(PR)? | 心路歷程 & 建議 |)
             - 他還有買車和多倫多租屋分享
@@ -488,3 +499,10 @@
     - levels.fyi
 
 # 博士
+
+# US 移民
+- 兄弟姊妹屬於 F4
+    - 大概要排 14~20 年
+- 申請費五百多美金
+- [官方進度公告](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html)
+    - [中文第三方解析](https://greencard.guruin.com/)
