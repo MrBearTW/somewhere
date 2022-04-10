@@ -387,7 +387,7 @@
             - 先不要 [Computer Programming](https://www.niagaracollege.ca/media/program/programming/#courses)
                 - 2 Year Diploma
                 - This program is a PC-based program as several key software used in the program are not available for a Mac operating system.
-        - Southern Alberta Institute of Technology 聖力嘉學院
+        - Southern Alberta Institute of Technology 南亞伯達理工學院
             - OK [Software Development](https://www.sait.ca/programs-and-courses/diplomas/software-development)
                 - LENGTH: 2 Years
                 - CREDENTIAL: Diploma
@@ -401,7 +401,7 @@
                     - two-year diploma program
                     - 課程有 C 語言
                     - $16,114 (Winter 2023????) / 半小時走路可到地鐵
-            - Humber College(漢博學院)
+            - Humber College (漢博學院)
                 - OK [Computer Programming](https://appliedtechnology.humber.ca/programs/computer-programming.html)
                     - international: $17,618.00 /  for two semesters
                     - Humber College North Campus 離機場很近但無地鐵
@@ -411,7 +411,7 @@
                     - international: $30,850.50 for three semesters
                     - Admission Requirements 要再確認
                     - 第三學期 Work Placement in Web Development
-            - Centennial College(百年理工學院)
+            - Centennial College (百年理工學院)
                 - 半小時走路可到地鐵
                 - GG [HEALTH INFORMATICS TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/health-informatics-technology-fast-track)
                     - Academic Requirements 不符合 GG
@@ -423,7 +423,7 @@
                     - Academic Requirements 不符合 GG
                 - GG [SOFTWARE ENGINEERING TECHNOLOGY (FAST-TRACK) (OPTIONAL CO-OP)](https://www.centennialcollege.ca/programs-courses/full-time/software-engineering-technology-fast-track)
                     - Academic Requirements 不符合 GG
-            - George Brown College(喬治布朗學院)
+            - George Brown College (喬治布朗學院)
                 - 地鐵 6 分鐘
                 - 再思考一下 [COMPUTER PROGRAMMING AND ANALYSIS PROGRAM (T177)](https://www.georgebrown.ca/programs/computer-programming-and-analysis-program-t177#how-to-apply)
                     - 是六學期的課
@@ -450,13 +450,21 @@
             - LMIA 全稱 Labour Market Impact Assessment 加拿大勞動力市場影響評估批文
             - AIPP 全稱 Atlantic Immigration Pilot Program 加拿大大西洋省份移民試點項目
             - PGWP (Post-Graduation Work Permit Program)
-        - IELTS 用的是一般，不是學術
-            - [官方資訊](https://tw.ieltsasia.org/%E9%81%B8%E6%93%87%E9%9B%85%E6%80%9D-%E9%9B%85%E6%80%9D%E5%B0%B1%E6%A5%AD%E5%8F%8A%E7%A7%BB%E6%B0%91)
-            - [分數計算 學術 vs 一般 非官方](https://www.hellostudy.com.tw/why-hello-study/resources/935/listening-reading-ielts-band-score/)
+        - 英文檢定
+            - 思培好像簡單一點
+                - 參考 [《加拿大移民Q&A》考雅思還是思培 ？哪一個更簡單？考試經驗分享！]()
+                - 聽力 全選擇 / 轉折較少
+                - 寫作 有自動修正 / 有自動算字數
+            - IELTS
+                - 用的是一般，不是學術
+                - [官方資訊](https://tw.ieltsasia.org/%E9%81%B8%E6%93%87%E9%9B%85%E6%80%9D-%E9%9B%85%E6%80%9D%E5%B0%B1%E6%A5%AD%E5%8F%8A%E7%A7%BB%E6%B0%91)
+                - [分數計算 學術 vs 一般 非官方](https://www.hellostudy.com.tw/why-hello-study/resources/935/listening-reading-ielts-band-score/)
         - [持續有在更新移民分數的網頁](https://taiwan.admissionhub.com/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%A7%BB%E6%B0%91-ee-%E5%BF%AB%E9%80%9F%E9%80%9A%E9%81%93-%E5%88%86%E6%95%B8/)
     - Youtuber 參考
         - [https://www.youtube.com/watch?v=235yTbt1Cy0](《加拿大移民🇨🇦》如何3年時間取得加拿大永久居民(PR)? | 心路歷程 & 建議 |)
             - 他還有買車和多倫多租屋分享
+        - [陪我找到工作的書 適合初學者的演算法書籍 軟體工程 程式設計 好書推薦 | My 3 Favorite CS Books](https://www.youtube.com/watch?v=JbGzt_sxU3s)
+            - 很多面試技巧相關
         
 
 # Intake
