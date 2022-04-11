@@ -405,7 +405,7 @@
                 - OK [Computer Programming](https://appliedtechnology.humber.ca/programs/computer-programming.html)
                     - international: $17,618.00 /  for two semesters
                     - Humber College North Campus 離機場很近但無地鐵
-                - [Web Development](https://mediaarts.humber.ca/programs/web-development.html)
+                - 先不要 [Web Development](https://mediaarts.humber.ca/programs/web-development.html)
                     - Credential: Ontario Graduate Certificate
                     - Program Length: 3 semesters
                     - international: $30,850.50 for three semesters
