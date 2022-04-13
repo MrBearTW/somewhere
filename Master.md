@@ -452,7 +452,7 @@
             - PGWP (Post-Graduation Work Permit Program)
         - 英文檢定
             - 思培好像簡單一點
-                - 參考 [《加拿大移民Q&A》考雅思還是思培 ？哪一個更簡單？考試經驗分享！]()
+                - 參考 [《加拿大移民Q&A》考雅思還是思培 ？哪一個更簡單？考試經驗分享！](https://www.youtube.com/watch?v=Z5e9gbRAe5Q)
                 - 聽力 全選擇 / 轉折較少
                 - 寫作 有自動修正 / 有自動算字數
             - IELTS
@@ -470,6 +470,8 @@
             - Terry
             - [陪我找到工作的書 適合初學者的演算法書籍 軟體工程 程式設計 好書推薦 | My 3 Favorite CS Books](https://www.youtube.com/watch?v=JbGzt_sxU3s)
                 - 很多面試技巧相關
+    - 時程
+        - 2022/4/23 送出學校申請
 
 # Intake
 
