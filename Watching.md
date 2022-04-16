@@ -590,3 +590,9 @@
 - 20220409
     - 銀翼殺手 2049
         - 有三個前導短片
+
+- 20220415
+    - 怪獸與鄧布利多的秘密
+        - 腳色演員擺得太明顯了
+        - 跟 X 戰警討論的內容有點像
+        - [電影短評\【怪獸與鄧不利多的秘密】Fantastic Beasts: The Secrets of Dumbledore by 半瓶醋](https://www.facebook.com/VinegarFilmCafe/posts/534092568069565)
