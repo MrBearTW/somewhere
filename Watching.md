@@ -596,3 +596,4 @@
         - 腳色演員擺得太明顯了
         - 跟 X 戰警討論的內容有點像
         - [電影短評\【怪獸與鄧不利多的秘密】Fantastic Beasts: The Secrets of Dumbledore by 半瓶醋](https://www.facebook.com/VinegarFilmCafe/posts/534092568069565)
+        - [怪獸與鄧不利多的秘密 by 白色豆腐蛋糕電影日記](https://www.facebook.com/kevin.chen.fanclub/posts/pfbid035XMua6ify1mTKBf2u7aG7Qar6W4qHftUvJXLJf9hLV8SG7pXt74HvTEPHLH2MvHNl)

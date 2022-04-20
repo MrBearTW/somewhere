@@ -470,10 +470,7 @@
             - Terry
             - [陪我找到工作的書 適合初學者的演算法書籍 軟體工程 程式設計 好書推薦 | My 3 Favorite CS Books](https://www.youtube.com/watch?v=JbGzt_sxU3s)
                 - 很多面試技巧相關
-    - 時程
-        - 2022/4/23 請代辦送出學校申請
-        - 2022/4/14 23:22 Your Seneca Login Information - Action Required (收到學校的信箱帳號密碼)
-        - 2022/4/15 13:03 Seneca College Application Acknowledgement (提醒你常常收信)
+
 
 # Intake
 
@@ -491,8 +488,9 @@
 
 # 想學
 - C
-- 複雜度
+    - [Mosky 大 VIM 帝國](https://www.facebook.com/mosky.liu/posts/10218954593477622)
 - 演算法
+    - 複雜度
 - 資料結構
 - 區塊鏈
 
