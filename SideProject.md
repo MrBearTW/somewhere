@@ -286,3 +286,6 @@ Laravel
 
 - 每天寫 code
 - 找案子來實作
+
+- 參考
+    - 所得地圖 https://www.facebook.com/takeshisamurai/posts/pfbid023aYpuftwuiLwzArvN5wsSaXAnwGtsRMjBCE7YRUkAPgrEBeK4NcAvT4E2Y4gv56ql
