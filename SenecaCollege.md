@@ -5,3 +5,8 @@
 
 - Some opportunity
     - [AWS Educate Ambassador in Taiwan](https://www.facebook.com/awseducatestudentambassadortaiwan/)
+
+- 生活
+    - 網路
+    - 交通
+        - [FB 汽車服務推薦](https://www.facebook.com/groups/68426949235/)
