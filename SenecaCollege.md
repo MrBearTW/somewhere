@@ -3,6 +3,8 @@
     - 2022/4/14 23:22 Your Seneca Login Information - Action Required (收到學校的信箱帳號密碼)
     - 2022/4/15 13:03 Seneca College Application Acknowledgement (提醒你常常收信)
 
+- [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
+
 - Some opportunity
     - [AWS Educate Ambassador in Taiwan](https://www.facebook.com/awseducatestudentambassadortaiwan/)
 

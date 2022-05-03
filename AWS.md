@@ -1,3 +1,5 @@
+- 學習資源 https://explore.skillbuilder.aws/learn
+
 # 2021/3/18 AWS USER GROUP
 - How to analyze CloudFront Logs like AWS Ninja
     - Cloudfront logs

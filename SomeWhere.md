@@ -1,3 +1,7 @@
+# Open Carousell 旋轉拍賣測試團隊開箱
+
+
+
 # 轉職進入矽谷科技公司產品經理 - 線上座談會
 - Copy from the best
 - 舉手說要做 / 試著幫忙做
