@@ -1,5 +1,8 @@
 # Open Carousell 旋轉拍賣測試團隊開箱
-
+- 60% Cover
+- 有量化統計資料可以追蹤
+    - 用 Google data studio 整理
+- 架構圖在 slide 中
 
 
 # 轉職進入矽谷科技公司產品經理 - 線上座談會
