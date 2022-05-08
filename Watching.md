@@ -614,6 +614,7 @@
         - 影評
             - [《奇異博士2：失控多重宇宙》（Doctor Strange in the Multiverse of Madness）是一部被漫威放棄而讓山姆雷吉惡搞的B級爛片？ by Ian討厭想標題](https://medium.com/@ianchen_42562/%E5%A5%87%E7%95%B0%E5%8D%9A%E5%A3%AB2-%E5%A4%B1%E6%8E%A7%E5%A4%9A%E9%87%8D%E5%AE%87%E5%AE%99-doctor-strange-in-the-multiverse-of-ad3be9127576)
             - [「愈是強大，愈沒有人願意了解你的脆弱。」 by 北藍先生](https://www.facebook.com/mr.henblue.VIC/posts/pfbid02cNnBJSfR3TGBEMffNf3oSRK51T522ahooa7HdZQ2zCTStERXhRnTYWLTCYPKxFmQl)
+            - [奇異博士2：失控多重宇宙 by 白色豆腐蛋糕電影日記](https://www.facebook.com/kevin.chen.fanclub/posts/pfbid02zEGpSK33DjnU9F7cYNcKipcHHXiGfvuJVGm88GN9KpsCDUH5KRhZ5wGRoMppwwbTl)
     - 追愛總動員之相愛百分百 How I Met Your Father
         - 少了 Barney Stinson
         - 想開酒吧
