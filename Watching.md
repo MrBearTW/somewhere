@@ -618,6 +618,7 @@
             - [奇異博士的不可承受之愛 「我在每一個宇宙都愛妳」 by 白色豆腐蛋糕電影日記](https://www.facebook.com/kevin.chen.fanclub/posts/pfbid0wCLWD34H3nNfw9aymBCJ3pFyGEZuQyeV38QuXRmwnNpAowf5PMWzbdv9coK4qNh5l)
                 - Time will tell how much I love you
             - [《奇異博士2：失控多重宇宙》：成為最好的自己 by Lizzy聊電影](https://filmaholic.tw/films/6278cefefd897800012f230a/)
+            - [幸福有沒有在你身邊？《奇異博士2：失控多重宇宙》從追尋幸福的代價，到跨越宇宙大亂鬥也無法阻擋的多元選擇](https://www.nego.com.tw/LatestArticles_con?id=849C9FD5C7F8449695A44F5DF4CC0C28)
     - 追愛總動員之相愛百分百 How I Met Your Father
         - 少了 Barney Stinson
         - 想開酒吧
