@@ -1,3 +1,43 @@
+# 2022/05/10 Test Corner #32 - LINE 的社內測試
+https://testcorner.kktix.cc/events/20220510
+
+1. 我的聰明，讓你知道
+
+講者：Caleb Lin / Yi-Han Hsiao
+
+簡述：LINE 購物作為一個導購及回饋點數的行動電商聯盟平台，該如何將所有的合作電商的優惠，即時地推送給使用者呢？
+
+LINE 總部提供的聰明頻道 (Smart Channel) 就成為非常有用的渠道，能將新、舊使用者一網打盡。
+
+而聰明頻道也因為 LINE QA 們的聰明，才能確保每一項推薦可以準時啟動，並提供服務的穩定，我們是如何做到的？
+- feature toggle 
+- Kafaka 收集要推的資料
+- Jenkins parameters 調整參數
+ 
+
+2. "Cross-country"專案測試心法  
+
+講者：Hank Chen
+
+簡述：疫情嚴峻的此刻，你曾想加入跨國專案，透過與不同國家的開發團隊交流合作，來體驗偽出國的氛圍嗎？除了大家熟知的正規軍 Scrum team 開發維運專案外，其實 LINE 台灣的 QA 也是有強力的支援部隊，隨時準備好為各專案，甚至是他國專案提供測試協助。其中與別國團隊合作的眉眉角角宛如跑越野賽(Cross-country)一樣，在起點與終點之間囊括了各種艱難崎嶇的障礙地形挑戰，就讓我來分享我們是如何克服重重障礙的。期待與各位產生共鳴，更希望大家能從中獲取到一些寶貴的經驗。
+- 每收禮五人就有一人轉為買禮物的人
+- 收禮人可編輯地址
+- FAS 團隊，外部溝通
+ 
+
+3. 遇到大排長榮,怎麼發大財啊?
+
+講者：JJ Lai
+
+簡述：貨出去，錢進來，發大財！超有感的口號，想要發大財最重要的是貨先能出去，當團隊對著即將出貨的產品滿懷信心和期待（財富自由就靠這一把了），可曾想過它會被卡在半路上？（大牌長榮又是你？）又或者是被卡住早就是常態？順利的完成每一次交付，才能得到想要的報酬和回饋，大家都希望交付的週期越快越好...聽聽看 LINE TODAY 在加速產品交付的週期中遇到了哪些問題，以及我們想要怎麼解決，來跟我們一起成長吧！！
+
+- google state of develop 2021
+- 影片the pipeline driven organization 
+- I would if I could, but I can’t so I wouldn’t.
+- Release Trains + Features toggles
+- AC Acceptance Criteria 轉成 automations 
+
+
 # 2020/11/25 Test Corner #28 @ Cathay DDT(國泰金控數數發中心) 國泰軟體測試工程團隊大揭密
 - New Hjghs 計畫
 

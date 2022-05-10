@@ -6,6 +6,10 @@
 
 - [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
+- Residence
+    - [residence](https://senecaresidence.ca/faq/)
+    - [Summer 2022 Orientation- Residence](https://www.instagram.com/p/CdYk7O5Jgv9/)
+
 - Some opportunity
     - [AWS Educate Ambassador in Taiwan](https://www.facebook.com/awseducatestudentambassadortaiwan/)
 
