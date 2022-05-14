@@ -258,6 +258,7 @@
     - [當代財經大師的估值課](https://www.facebook.com/penny.yang.5055/posts/10217291108412612)
     - [隨機騙局](https://www.facebook.com/GreenHornFans/posts/4983841051645613)
     - [Free to Choose 選擇的自由](https://www.facebook.com/GreenHornFans/posts/5176279835735066)
+    - [風險之書](https://www.facebook.com/FreddyBizAndRsch/posts/pfbid0ciszzYUDXitULBMEgRHfwWxf4iYkYp5P6DXCVAbSn9issjeZ5Pc7qhbAo5PtMsGpl)
     - 以下為社會類
         - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
     
