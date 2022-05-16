@@ -3,6 +3,9 @@
     - 2022/04/14 23:22 Your Seneca Login Information - Action Required (收到學校的信箱帳號密碼)
     - 2022/04/15 13:03 Seneca College Application Acknowledgement (提醒你常常收信)
     - 2022/05/05 20:22 Congratulations, this is your Seneca offer to Computer Programming (上 Student Home 確認申請)
+    - 2022/05/16 郵局申請存款證明
+        - 存款證明是用前一天的數字，需要的金額需提前至少一天存入。
+        - 要有匯率數字
 
 - [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
