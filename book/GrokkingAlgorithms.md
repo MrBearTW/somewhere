@@ -1,7 +1,18 @@
 # 白話演算法！培養程式設計的邏輯思考
 # Grokking Algorithms: An illustrated guide for programmers and other curious people
 
+- [相關教材](https://www.flag.com.tw/bk/st/F1709)
 ## Ch01 二元搜尋法 (Binary Search) 與演算法執行時間
+- 被搜尋的清單內容必須先排序過
+- Big O notation
+    - Big O notation 代表的是最差情況的質時間
+    - 不是以秒計算，而是用運算次數來計算
+    - 常見的幾種（由快到慢）
+        1. O(log n) 二元搜尋法 / 對數時間
+        2. O(n) 簡易搜尋法 / 線性時間
+        3. O(n*log n) 快速排序法
+        4. O(n^2) 慢速排序法漢選擇排序法
+        5. O(n!) 旅行推銷員 / 階乘時間
 ## Ch02 選擇排序法 (Selection Sort)
 ## Ch03 遞迴 (Recursion)
 ## Ch04 Divide-and-Conquer 與快速排序法 (Quicksort)

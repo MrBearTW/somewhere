@@ -1,5 +1,6 @@
 1. 存夠6個月的生活費
 2. 除了儲蓄險和投資型保單之外的，[保險](https://www.facebook.com/329896911051695/photos/a.358878471486872/510654386309279/)買一買
+    - [台灣平均每人每年保費支出高達15萬元新台幣，但是台灣每人死亡的壽險理賠金額還不到60萬元。](https://www.facebook.com/firefly88/posts/pfbid026QNyLuPQrFLoYv2vju54ZLZcykSgVH9t7Fa8am2ggjmDaB2koWYxYZDKS2TiMXcZl)
 3. 年金 勞保 勞退 健保
 4. 自己要住的房貸 / 車貸
 5. 可投資的錢
@@ -123,7 +124,9 @@
     - [幣圖誌Bituzi](https://www.facebook.com/bituzi/)
     - 經濟類的
         - 經濟這一件事情
-        - 楊文宏‎ 宏觀國際經濟  [粉專](https://www.facebook.com/MacroEconomicAndGeopolitical/)  [社團](https://www.facebook.com/groups/147293452597272/?ref=group_header)
+        - 楊文宏 宏觀國際經濟  
+            - [粉專](https://www.facebook.com/MacroEconomicAndGeopolitical/)  
+            - [社團](https://www.facebook.com/groups/147293452597272/?ref=group_header)
         - [IEObserve 國際經濟觀察](https://www.facebook.com/intleconobserve/)
         - [Joe's investment](https://www.facebook.com/joejoeyourmoney/)
             - [只能做不能說](https://www.facebook.com/joejoeyourmoney/posts/10157238784927276)
@@ -259,6 +262,7 @@
     - [隨機騙局](https://www.facebook.com/GreenHornFans/posts/4983841051645613)
     - [Free to Choose 選擇的自由](https://www.facebook.com/GreenHornFans/posts/5176279835735066)
     - [風險之書](https://www.facebook.com/FreddyBizAndRsch/posts/pfbid0ciszzYUDXitULBMEgRHfwWxf4iYkYp5P6DXCVAbSn9issjeZ5Pc7qhbAo5PtMsGpl)
+    - [大賣空](https://www.facebook.com/cindywork/posts/pfbid0327NweN3ztwtup3tWh3SdPPH2LtXMHqHRW8wn8MsCqquGqXCFm7dWFuzyj3tKZqgsl)
     - 以下為社會類
         - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
     

@@ -501,6 +501,7 @@
         - 只要沒人知道就好，那就不重要了
         - 我會裝作不知道的
         - 需要幫忙帶什麼回家嗎？
+        - [對朴東勳來說一起吃飯喝酒就是喜歡 by 雞皮 GP Photography](https://www.facebook.com/GP.foto/posts/pfbid021o2roYA2MoWzFNGYiCsde6784TnW6VcCEgHCfLisDx17DbAetyz2E6aLR8PDh8Bsl)
 
 - 20220211
     - 謀殺小鎮 
@@ -638,3 +639,11 @@
         - 那個鎖門？
         - 日本也侵略別人的部分
         - 願你在這瘋狂的世界裡，平凡的活到最後一刻
+
+- 20220517
+    - 鼠膽英雄
+        - 別花時間看
+    - 派對咖孔明
+        - 很有趣的設定
+    - 間諜家家酒
+        - 
