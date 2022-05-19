@@ -3,7 +3,9 @@
 
 - [相關教材](https://www.flag.com.tw/bk/st/F1709)
 ## Ch01 二元搜尋法 (Binary Search) 與演算法執行時間
-- 被搜尋的清單內容必須先排序過
+- Binary Search
+    - 被搜尋的清單內容必須先排序過
+    - 對切，再比較
 - Big O notation
     - Big O notation 代表的是最差情況的質時間
     - 不是以秒計算，而是用運算次數來計算
@@ -14,6 +16,16 @@
         4. O(n^2) 慢速排序法漢選擇排序法
         5. O(n!) 旅行推銷員 / 階乘時間
 ## Ch02 選擇排序法 (Selection Sort)
+- 陣列 Array vs. 鏈結串列 Linked list
+    - |   | Array | Linked list |
+        |---|---|---|
+        | 讀取 | O(1) | O(n) |
+        | 插入 | O(n) | O(1) |
+        | 刪除 | O(n) | O(1) |
+- 資料的存取方式
+    - 循序存取 Sequential access
+    - 隨機存取 Random access
+- [VISUALIZE CODE EXECUTION](https://pythontutor.com/)
 ## Ch03 遞迴 (Recursion)
 ## Ch04 Divide-and-Conquer 與快速排序法 (Quicksort)
 ## Ch05 雜湊表 (Hash table)
