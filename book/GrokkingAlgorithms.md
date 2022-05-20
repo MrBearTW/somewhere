@@ -27,6 +27,15 @@
     - 隨機存取 Random access
 - [VISUALIZE CODE EXECUTION](https://pythontutor.com/)
 ## Ch03 遞迴 (Recursion)
+- 遞迴組成
+    - Base Case 基本情況 / 當成是不在呼叫自己的時候
+    - Recursive Case 遞迴情況
+- 堆疊 Stack
+    - 類似便利貼
+        - Push 放在最上面
+        - Pop 從最上面取下
+- 呼叫堆疊 Call Stack
+    - 呼叫堆疊的［呼叫］不是動詞，是指呼叫函式時使用的堆疊，而不是去呼叫一個堆疊。
 ## Ch04 Divide-and-Conquer 與快速排序法 (Quicksort)
 ## Ch05 雜湊表 (Hash table)
 ## Ch06 廣度優先搜尋 (Breadth-First Search)
