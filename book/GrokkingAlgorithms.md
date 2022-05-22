@@ -37,6 +37,15 @@
 - 呼叫堆疊 Call Stack
     - 呼叫堆疊的［呼叫］不是動詞，是指呼叫函式時使用的堆疊，而不是去呼叫一個堆疊。
 ## Ch04 Divide-and-Conquer 與快速排序法 (Quicksort)
+- Euclid's Algorithm 歐基里德演算法
+    - [Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm)
+- 用遞迴取帶迴圈
+- Pivot 基準值
+- Inductive Proof 歸納證明法 = Base case 基本情況 + Inductive Case 歸納情況
+- Merge 合併搜尋法
+- Quicksort
+    - 最差情況下 O(n^2)
+    - 平均情況下 O(n log n)
 ## Ch05 雜湊表 (Hash table)
 ## Ch06 廣度優先搜尋 (Breadth-First Search)
 ## Ch07 戴克斯特拉 (Dijkstra) 演算法
