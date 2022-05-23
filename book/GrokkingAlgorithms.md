@@ -42,11 +42,21 @@
 - 用遞迴取帶迴圈
 - Pivot 基準值
 - Inductive Proof 歸納證明法 = Base case 基本情況 + Inductive Case 歸納情況
-- Merge 合併搜尋法
+- 比較
+    - Quicksort：取隨機一個數
+    - Merge 合併搜尋法：分割(不是數字，數字與數字之間)
 - Quicksort
     - 最差情況下 O(n^2)
     - 平均情況下 O(n log n)
 ## Ch05 雜湊表 (Hash table)
+- 雜湊函式 + 陣列組合 = Hash table
+- 適合用在
+    - 建立一個元素與另一個元素的對應關係
+    - 篩選重複項目
+    - 快取或紀錄資訊，以減輕伺服器的工作量
+- Collision 碰撞
+- Load factor 負載係數 = 雜湊表內的元素數量 / 雜湊表內的儲存槽數
+    - 大於 0.7 時就應調整大小
 ## Ch06 廣度優先搜尋 (Breadth-First Search)
 ## Ch07 戴克斯特拉 (Dijkstra) 演算法
 ## Ch08 貪婪演算法 (Greedy Algorithm)
