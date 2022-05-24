@@ -2,6 +2,8 @@
 # Grokking Algorithms: An illustrated guide for programmers and other curious people
 
 - [相關教材](https://www.flag.com.tw/bk/st/F1709)
+- [作者的網站](https://adit.io/)
+
 ## Ch01 二元搜尋法 (Binary Search) 與演算法執行時間
 - Binary Search
     - 被搜尋的清單內容必須先排序過
@@ -58,6 +60,16 @@
 - Load factor 負載係數 = 雜湊表內的元素數量 / 雜湊表內的儲存槽數
     - 大於 0.7 時就應調整大小
 ## Ch06 廣度優先搜尋 (Breadth-First Search)
+- 找最短路徑
+- Queue 佇列
+    - FIFO
+    - vs. 推疊是 LIFO
+- O( V +E )
+    - V: Vertx 頂點
+    - E: Edge 邊
+- Topological Sort 拓樸排序
+- Tree 樹：沒有任何邊往回指
+    - e.g. 家庭祖譜
 ## Ch07 戴克斯特拉 (Dijkstra) 演算法
 ## Ch08 貪婪演算法 (Greedy Algorithm)
 ## Ch09 動態規劃演算法 (Dynamic Programming Algorithm)
