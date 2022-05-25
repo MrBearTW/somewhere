@@ -71,6 +71,10 @@
 - Tree 樹：沒有任何邊往回指
     - e.g. 家庭祖譜
 ## Ch07 戴克斯特拉 (Dijkstra) 演算法
+- 比較
+    - 廣度優先搜尋 Breadth-First Search -> 得到路段較少的路徑
+    - 戴克斯特拉 Dijkstra -> 總權重最小
+- 權重是負的時 -> Bellman-Ford 貝爾曼福特
 ## Ch08 貪婪演算法 (Greedy Algorithm)
 ## Ch09 動態規劃演算法 (Dynamic Programming Algorithm)
 ## Ch10 K-最近鄰演算法 (K-Nearest Neighbors Algorithm)
