@@ -36,7 +36,7 @@ LINE 總部提供的聰明頻道 (Smart Channel) 就成為非常有用的渠道�
 - I would if I could, but I can’t so I wouldn’t.
 - Release Trains + Features toggles
 - AC Acceptance Criteria 轉成 automations 
-
+-[投影片與網誌](https://engineering.linecorp.com/zh-hant/blog/line-today-release-pipline-test-corner/?fbclid=IwAR1Gvj7DxtxHepmVcVctPGmKLHWbkUpDS5DHnbIVErXkwviZK0s0mjM8QaI)
 
 # 2020/11/25 Test Corner #28 @ Cathay DDT(國泰金控數數發中心) 國泰軟體測試工程團隊大揭密
 - New Hjghs 計畫

@@ -6,6 +6,9 @@
     - 2022/05/16 郵局申請存款證明
         - 存款證明是用前一天的數字，需要的金額需提前至少一天存入。
         - 要有匯率數字
+    - 2022/05/26 申請 Flywire 繳款單學費
+    - 2022/05/27 元大繳款
+    - 2022/05/28 健康檢查 
 
 - [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
