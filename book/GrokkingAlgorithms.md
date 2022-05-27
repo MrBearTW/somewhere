@@ -76,6 +76,11 @@
     - 戴克斯特拉 Dijkstra -> 總權重最小
 - 權重是負的時 -> Bellman-Ford 貝爾曼福特
 ## Ch08 貪婪演算法 (Greedy Algorithm)
+- NP-Complete 無法透過快速演算來得到答案
+    - 可以歸類為
+        1. 集合覆蓋
+        2. 旅行員推銷(含有序列 Sequence)
+- Approximation Algorithm 近似演算法
 ## Ch09 動態規劃演算法 (Dynamic Programming Algorithm)
 ## Ch10 K-最近鄰演算法 (K-Nearest Neighbors Algorithm)
 ## Ch11 進階之路：推薦十種演算法

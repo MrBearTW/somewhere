@@ -263,6 +263,9 @@
     - [Free to Choose 選擇的自由](https://www.facebook.com/GreenHornFans/posts/5176279835735066)
     - [風險之書](https://www.facebook.com/FreddyBizAndRsch/posts/pfbid0ciszzYUDXitULBMEgRHfwWxf4iYkYp5P6DXCVAbSn9issjeZ5Pc7qhbAo5PtMsGpl)
     - [大賣空](https://www.facebook.com/cindywork/posts/pfbid0327NweN3ztwtup3tWh3SdPPH2LtXMHqHRW8wn8MsCqquGqXCFm7dWFuzyj3tKZqgsl)
+    - [投資超級英雄進化論](https://www.facebook.com/FreddyBizAndRsch/posts/pfbid0yUGo5W8Sff2fMfiPFKvVGEhHCfnr1J5NmhczDydqz1Duh7fbUiygZQnhKEz75real)
+    - [投資最重要的事](https://www.facebook.com/1611community/posts/pfbid032uUHqwsCaet5DoLH7HZzSivMPVLCXA8VSFjcEjKKJh2SxiQ6vDPaqH3AunmGxcRWl)
+    - [不太好笑的人生](https://www.facebook.com/bigpoet813/posts/pfbid02wWUYALSDiS4Pv4ykDYxRuCrrsLfHwH8P7QNBpuYKs2mK4dFoKqz87KRLhSgCfC33l)
     - 以下為社會類
         - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
     
