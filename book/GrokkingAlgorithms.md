@@ -82,6 +82,15 @@
         2. 旅行員推銷(含有序列 Sequence)
 - Approximation Algorithm 近似演算法
 ## Ch09 動態規劃演算法 (Dynamic Programming Algorithm)
+- 用表格做紀錄
+- 從之前的陣列算出後面的問題，所以較大的問題不用從頭算起。
+- 每次 Iteration 疊代都會儲存目前的最高估值。
+- 順序不會影響最終答案
+- 只適用每個獨立的小問題，無法解決有相依性 depend 的小問題
+- 動態演算法的設計，最多只允許結合兩個子背包
+    - 但是子背包內可以有自己的子背包
+- 延伸：Levenshtein Distance 編輯距離演算法
+    - 拼字檢查，著作權保護
 ## Ch10 K-最近鄰演算法 (K-Nearest Neighbors Algorithm)
 ## Ch11 進階之路：推薦十種演算法
 ## 附錄 習題與解答
