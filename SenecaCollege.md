@@ -8,8 +8,11 @@
         - 要有匯率數字
     - 繳學費
         - 2022/05/26 申請 Flywire 繳款單學費
+            - 8287.61 加幣 (ˊ6614 USD)
         - 2022/05/27 元大繳款
+            - 手續費 800 NTT
         - 2022/05/28 收到上方有 Seneca 的 收到款項通知
+            - PDF 上有 PAID
 
 - [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 

@@ -92,5 +92,14 @@
 - 延伸：Levenshtein Distance 編輯距離演算法
     - 拼字檢查，著作權保護
 ## Ch10 K-最近鄰演算法 (K-Nearest Neighbors Algorithm)
+- 基本上進行
+    - Classification 分類：歸類成群組
+    - Regression 迴歸：預測結果
+- Feature Extraction 特徵萃取
+- OCR Optical Character Recognition 光學字元辨識
+- Naive Bayes classifier 單純背式分類器
+- 延伸
+    - Collaborative Filtering 協同過濾
+    - Cosine Similarity 餘弦相似度
 ## Ch11 進階之路：推薦十種演算法
 ## 附錄 習題與解答
