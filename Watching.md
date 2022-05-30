@@ -653,6 +653,8 @@
 - 20220519
     - 新創大騙局 The Dropout
         - 中文熱
+        - 一種快被搓破的羞愧
+        - 小孩開大車
 
 - 20220522
     - 特種部隊：蛇眼之戰 Snake Eyes: G.I.Joe Origins
@@ -661,3 +663,4 @@
 - 20220527
     - Obi-Wan Kenobi 歐比王·肯諾比
         - 小莉亞公主
+        - The Force
