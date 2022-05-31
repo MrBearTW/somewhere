@@ -92,6 +92,7 @@
         - 0050 0056
         - [【ETF是第一季最大鬧劇】](https://www.facebook.com/mnAsia1/posts/10157886539355482)
         - [從前人經驗學習，而不是以自己的資產為代價在金融市場中"學習"，才是保護自己的最佳方式。](https://www.facebook.com/GreenHornFans/posts/5010571325639252)
+        - [只看燈號買大盤的投資策略](https://www.facebook.com/stocksardine/posts/pfbid0rHXguXu53ctwtF7yqb1cp1DQhgY4LJ8aLY4aegiBoZHeQ2CYmgkxEcDwDxmEJhoEl)
     - 程式交易
         - [鄉民分享](https://www.ptt.cc/bbs/Soft_Job/M.1590756781.A.008.html?fbclid=IwAR2I9C_5E9mNdsuiX5NhWEA_qF_yORwWcRPp-vkcugSeLDtJ5wop7-I9ig4)
     - 股票投資入門架構影片
@@ -266,6 +267,7 @@
     - [投資超級英雄進化論](https://www.facebook.com/FreddyBizAndRsch/posts/pfbid0yUGo5W8Sff2fMfiPFKvVGEhHCfnr1J5NmhczDydqz1Duh7fbUiygZQnhKEz75real)
     - [投資最重要的事](https://www.facebook.com/1611community/posts/pfbid032uUHqwsCaet5DoLH7HZzSivMPVLCXA8VSFjcEjKKJh2SxiQ6vDPaqH3AunmGxcRWl)
     - [不太好笑的人生](https://www.facebook.com/bigpoet813/posts/pfbid02wWUYALSDiS4Pv4ykDYxRuCrrsLfHwH8P7QNBpuYKs2mK4dFoKqz87KRLhSgCfC33l)
+    - [財富是這樣養成的](https://www.facebook.com/jetleenotes/posts/pfbid0kefRJUhQkn7xuGdA1HmTYdLhLWx7cNj2i2K2sXxj7KK7YdhVcbWFeDEuViXncWUMl)
     - 以下為社會類
         - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
     

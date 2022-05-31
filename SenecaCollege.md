@@ -13,6 +13,11 @@
             - 手續費 800 NTT
         - 2022/05/28 收到上方有 Seneca 的 收到款項通知
             - PDF 上有 PAID
+    - 20220531 健康檢查
+        - 台北馬偕健檢中心在 16 樓
+        - 要帶護照
+        - 4100 NT 可刷卡
+        - 抽血 驗尿 眼睛 血壓 身高 體重 胸部X光 醫師問診
 
 - [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
