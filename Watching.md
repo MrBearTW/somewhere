@@ -667,4 +667,12 @@
 
 - 20220531
     - Top Gun 2
-        - 
+        - 貼背感
+        - Not Today
+        - 最強軍事招募片
+        - 影評
+            - [《捍衛戰士：獨行俠》好看嗎？好看。但我一直在想為什麼好看？by 周欽華](https://www.facebook.com/chouchinhua/posts/pfbid025ETaWK6WMVJtA6crvwC9iLjGSpPcKhZAduyKYGLeYXyhms8qCaoZSLu4Di4cwyeUl)
+                - 真的可以感受到那種單純的、源自身體對駕馭速度的興奮。
+            - [《捍衛戰士》（Top Gun）其實是同志片？讓昆汀塔倫提諾（Quentin Tarantino）分析（腦補）給你聽](https://www.facebook.com/filmisland/posts/pfbid03129whirWACv8bd1pCUVzK9zTxgQB2kN7kcayHQCbNCf45WWKMKEa2U9SF8VagfUul)
+            - [電影短評\【捍衛戰士：獨行俠】Top Gun: Maverick by 半瓶醋](https://www.facebook.com/VinegarFilmCafe/posts/pfbid0367TcEyJCK62BmMc66XvepcHwLeWy7atE3bu8GHrsJ7Xr632vwHpzhbUNpGjsuQ2wl)
+            - [Jennifer Connelly 蓋大樓](https://www.facebook.com/takecareofyourknee/posts/pfbid02mANLG61FMyxmBpnxzaTYn9UQNSwo1unqVGj2QNiRwm7gNHzCYnTno5RRrTSgRfmyl)

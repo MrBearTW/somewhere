@@ -268,8 +268,12 @@
     - [投資最重要的事](https://www.facebook.com/1611community/posts/pfbid032uUHqwsCaet5DoLH7HZzSivMPVLCXA8VSFjcEjKKJh2SxiQ6vDPaqH3AunmGxcRWl)
     - [不太好笑的人生](https://www.facebook.com/bigpoet813/posts/pfbid02wWUYALSDiS4Pv4ykDYxRuCrrsLfHwH8P7QNBpuYKs2mK4dFoKqz87KRLhSgCfC33l)
     - [財富是這樣養成的](https://www.facebook.com/jetleenotes/posts/pfbid0kefRJUhQkn7xuGdA1HmTYdLhLWx7cNj2i2K2sXxj7KK7YdhVcbWFeDEuViXncWUMl)
+    - [大賣空](https://www.facebook.com/jesse.sam.52/posts/pfbid02jZydqs91oPBWYDYUi5F91NfzWfdAQWQf1ZxxJW2ztbHEaWah3W6NnJCRrZbeSTWtl)
     - 以下為社會類
         - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
+        - 國父的真相
+            - [推薦文 1 富察](https://www.facebook.com/fu.cha.31/posts/pfbid0mgjKatMriZTLjwY6t9VVLdUCdazB6R8kYFSMY8deo1G8eaQv25BE8PoZppXgrVadl)
+            - [推薦文 2 王家軒](https://www.facebook.com/joshu.wang1978/posts/pfbid02eA7D6dfqWDauSyvqPgr1GzwxmHaR38Apwbz7LacyS81tzSVKGtjgpuyA9Y6QDy3Tl)
     
 - 有趣的創業
     - [男前豆腐](https://www.facebook.com/wakaba.hiroshi/posts/3032644923531612)

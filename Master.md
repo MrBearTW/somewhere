@@ -442,6 +442,7 @@
     - 移民
         - 先 PR (永久居民) 再 Citizen (公民)
             - 公民才可以 TN 簽證進美國工作
+            - 美加邊境 NEXUS card
         - [官方分數試算 Express Entry](https://www.cic.gc.ca/english/immigrate/skilled/crs-tool.asp)
         - 加拿大經驗類（Canadian Experience Class)
         - 聯邦技術移民 (Federal Skilled Workers, FSW)
