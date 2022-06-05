@@ -682,3 +682,9 @@
             - [《捍衛戰士》（Top Gun）其實是同志片？讓昆汀塔倫提諾（Quentin Tarantino）分析（腦補）給你聽](https://www.facebook.com/filmisland/posts/pfbid03129whirWACv8bd1pCUVzK9zTxgQB2kN7kcayHQCbNCf45WWKMKEa2U9SF8VagfUul)
             - [電影短評\【捍衛戰士：獨行俠】Top Gun: Maverick by 半瓶醋](https://www.facebook.com/VinegarFilmCafe/posts/pfbid0367TcEyJCK62BmMc66XvepcHwLeWy7atE3bu8GHrsJ7Xr632vwHpzhbUNpGjsuQ2wl)
             - [Jennifer Connelly 蓋大樓](https://www.facebook.com/takecareofyourknee/posts/pfbid02mANLG61FMyxmBpnxzaTYn9UQNSwo1unqVGj2QNiRwm7gNHzCYnTno5RRrTSgRfmyl)
+            - [[雷] 《捍衛戰士：獨行俠》細節討論 by n0venblue](https://www.ptt.cc/bbs/movie/M.1653670823.A.863.html)
+
+- 20220605
+    - The Matrix Resurrections 駭客任務：復活
+        - 設定很有趣
+        - 愛
