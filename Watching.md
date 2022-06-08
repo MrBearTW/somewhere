@@ -690,3 +690,8 @@
     - The Matrix Resurrections 駭客任務：復活
         - 設定很有趣
         - 愛
+
+- 20220608
+    - Jurassic World Dominion 侏羅紀世界：統霸天下
+        - 跑贏恐龍？
+        - 馴龍馴人
