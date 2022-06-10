@@ -696,3 +696,5 @@
         - 跑贏恐龍？
         - 馴龍馴人
         - 影評
+            - [電影短評\【侏羅紀世界：統霸天下】Jurassic World Dominion by 半瓶醋](https://www.facebook.com/VinegarFilmCafe/posts/pfbid02oTcLWATW3hMwGkyUhs9rREcZUGNrY15JmYZNdCWcktTVGtpNjQhaw7BGwZuz662Wl)
+            - [「生命自會找到出路」是佛系共存的理由嗎？ by 影劇好有梗 FILMemes](https://www.facebook.com/FILMemesTW/posts/pfbid0QReJ89gejQYmPdCp8ydQtA9C5BmEzWvEJgem1pVyZQySMqLXVAxzhfB1hsvt4yGnl)
