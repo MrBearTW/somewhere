@@ -18,6 +18,7 @@
         - 要帶護照
         - 4100 NT 可刷卡
         - 抽血 驗尿 眼睛 血壓 身高 體重 胸部X光 醫師問診
+    - 20220607 健康檢查複檢
 
 - [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
