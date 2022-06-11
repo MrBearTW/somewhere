@@ -14,11 +14,13 @@
         - 2022/05/28 收到上方有 Seneca 的 收到款項通知
             - PDF 上有 PAID
     - 20220531 健康檢查
-        - 台北馬偕健檢中心在 16 樓
-        - 要帶護照
-        - 4100 NT 可刷卡
-        - 抽血 驗尿 眼睛 血壓 身高 體重 胸部X光 醫師問診
-    - 20220607 健康檢查複檢
+        - 第一次檢查
+            - 台北馬偕健檢中心在 16 樓
+            - 要帶護照
+            - 4100 NT 可刷卡
+            - 抽血 驗尿 眼睛 血壓 身高 體重 胸部X光 醫師問診
+        - 2022060 因 XXX 因素，需來複檢，須預約時間
+        - 20220607 健康檢查複檢
 
 - [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
@@ -38,4 +40,4 @@
     - 加拿大駕照
     - 台灣手機門號
     - 保險
-        - [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
+        - 參考 [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
