@@ -41,3 +41,7 @@
     - 台灣手機門號
     - 保險
         - 參考 [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
+
+- 問問問
+    - 是否提供電腦
+    - 宿舍選擇
