@@ -211,3 +211,5 @@ https://www.toodyao.com/?p=1156
     - reset ?
         - `git reset --soft HEAD~1`
     - drop ?
+
+- upstream 消失
