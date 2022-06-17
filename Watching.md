@@ -685,6 +685,7 @@
             - [電影短評\【捍衛戰士：獨行俠】Top Gun: Maverick by 半瓶醋](https://www.facebook.com/VinegarFilmCafe/posts/pfbid0367TcEyJCK62BmMc66XvepcHwLeWy7atE3bu8GHrsJ7Xr632vwHpzhbUNpGjsuQ2wl)
             - [Jennifer Connelly 蓋大樓](https://www.facebook.com/takecareofyourknee/posts/pfbid02mANLG61FMyxmBpnxzaTYn9UQNSwo1unqVGj2QNiRwm7gNHzCYnTno5RRrTSgRfmyl)
             - [[雷] 《捍衛戰士：獨行俠》細節討論 by n0venblue](https://www.ptt.cc/bbs/movie/M.1653670823.A.863.html)
+            - [《捍衛戰士》不只是偉大的軍武娛樂電影，它也是史上最偉大的主流商業 gay 片，為什麼？ by 龍貓大王通信](https://news.agentm.tw/224402/%e6%8d%8d%e8%a1%9b%e6%88%b0%e5%a3%ab-%e5%bd%b1%e5%8f%b2-%e6%9c%80%e5%81%89%e5%a4%a7-%e4%b8%bb%e6%b5%81%e5%95%86%e6%a5%ad-%e5%90%8c%e5%bf%97%e9%9b%bb%e5%bd%b1-%e5%8e%9f%e5%9b%a0/)
 
 - 20220605
     - The Matrix Resurrections 駭客任務：復活
