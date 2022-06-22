@@ -678,6 +678,7 @@
         - 貼背感
         - Not Today
         - 最強軍事招募片
+        - [有人說《捍衛戰士》灑狗血。確實。但如果在台灣，狗血應該是這樣灑法。 by 王家軒](https://www.facebook.com/joshu.wang1978/posts/pfbid02qry8VJ6SErGGyquMrM34DSPJEs7qGYwrf1WJnng9ZkKpFDPy4aTz5R8wmkTTinR7l)
         - 影評
             - [《捍衛戰士：獨行俠》好看嗎？好看。但我一直在想為什麼好看？by 周欽華](https://www.facebook.com/chouchinhua/posts/pfbid025ETaWK6WMVJtA6crvwC9iLjGSpPcKhZAduyKYGLeYXyhms8qCaoZSLu4Di4cwyeUl)
                 - 真的可以感受到那種單純的、源自身體對駕馭速度的興奮。
