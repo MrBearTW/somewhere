@@ -653,6 +653,7 @@
         - 很有趣的設定
     - 間諜家家酒
         - 成熟的微笑
+        - [但我覺得故事人設中真正天菜的，是他們天賦異秉、出類拔萃的同時，竟又如此善良隨和且真誠利他。](https://www.facebook.com/breath35c/posts/pfbid0345rWKTZFAUUqDnZe2iW1zXbKf9jhTh8qoxCHboyfDQJAzsQ6oYZKCRgfgnybpqLbl)
 
 - 20220519
     - 新創大騙局 The Dropout
@@ -702,3 +703,8 @@
         - 影評
             - [電影短評\【侏羅紀世界：統霸天下】Jurassic World Dominion by 半瓶醋](https://www.facebook.com/VinegarFilmCafe/posts/pfbid02oTcLWATW3hMwGkyUhs9rREcZUGNrY15JmYZNdCWcktTVGtpNjQhaw7BGwZuz662Wl)
             - [「生命自會找到出路」是佛系共存的理由嗎？ by 影劇好有梗 FILMemes](https://www.facebook.com/FILMemesTW/posts/pfbid0QReJ89gejQYmPdCp8ydQtA9C5BmEzWvEJgem1pVyZQySMqLXVAxzhfB1hsvt4yGnl)
+
+- 20220626
+    - Ms. Marvel 驚奇少女
+        - 巴基斯坦裔
+        - 回教

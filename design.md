@@ -24,6 +24,8 @@ https://www.shutterstock.com/zh-Hant/blog/top-free-fonts-designers?utm_content=t
 
 - [麥當勞薯條體](https://github.com/mcdtaiwan/McDonalds_Fries_Font)
 
+- [內海字體：瀨戶字體繁體中文字型免費下載，五種字重可做商業用途](https://free.com.tw/naikaifont/)
+
 # 查螢幕解析度
 [statcounter](https://gs.statcounter.com/screen-resolution-stats/desktop/taiwan)
 可以解析度裝置瀏覽器等資訊
