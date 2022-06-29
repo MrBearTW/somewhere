@@ -6,6 +6,8 @@
 
 - 義大利
 
+- 牙買加
+
 - [聖彼得堡](https://www.facebook.com/mtcintaipei/posts/4194850173884871)
 
 - [搭河上渡輪遊歐洲](https://www.facebook.com/felix.hong/posts/10159464894785516)
