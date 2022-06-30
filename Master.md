@@ -472,6 +472,8 @@
             - [陪我找到工作的書 適合初學者的演算法書籍 軟體工程 程式設計 好書推薦 | My 3 Favorite CS Books](https://www.youtube.com/watch?v=JbGzt_sxU3s)
                 - 很多面試技巧相關
             - [2021底-2022初 Senior Backend Software Engineer Interview 常見考題](https://angelswengineer.medium.com/2021%E5%BA%95-2022%E5%88%9D-backend-software-engineer-interview-%E5%B8%B8%E8%A6%8B%E8%80%83%E9%A1%8C-92d5c6ba384c)
+        - 就業
+            - [臉書討論](https://www.facebook.com/groups/canada.tw/posts/10160165117683279/)
 
 
 # Intake
