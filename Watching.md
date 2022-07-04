@@ -709,7 +709,27 @@
         - 巴基斯坦裔
         - 回教
         - 親人和解
+
 - 20220701
     - 愛情發生在三天後
         - 配角氣勢有點沒跟上
+        - 累不累
+        - 可否同理
+        - [偶像劇的浪漫總是很豐滿，現實的愛情總是很骨感 ft.劉冠廷＆陳庭妮 by 不正常愛情研究所](https://youtu.be/0OUV2Fligak)
+
 - 20220702 金曲獎
+    - 發言
+        - [★ 最佳台語女歌手：江惠儀《空》](https://www.facebook.com/pnnpts/posts/pfbid0dQzFmD33pBaQgT9M7WArkRjPdFnD7v9D1yvEMV6kNyPgeeMTaWwxgC7vXYmdeiMPl)
+            - 我很喜歡唱台語歌，因為我希望台語可以傳承和進步，但是無論我現在是用什麼語言在講話，都跟我是不是希望台灣越來越好，沒有直接的關係，我真的很希望每一個人、每一個不同立場的人，都能夠尊重而且珍惜這個我們很重要的民主和自由真正的精神。
+            - 藝術文化層面的所有前輩、朋友，無論你用什麼語言、什麼方式，都感謝你記錄台灣以前、現在以及未來的模樣，我也會堅持做我應該做的事情。
+        - [《特別貢獻獎》陳復明](https://www.facebook.com/GMAGMF/posts/pfbid02MqGoauhr8AQS2gBcosGwC1aKXw3JfbDpFAPazVkk5eC1Ajvq28D7zCtB2XyZkaoul)
+            - 年輕一代的音樂人，你們很棒很棒，但是請你們記得，無論你們現在在什麼地方，或是遭遇到什麼挫折，你們的創作不要停，即便你們的作品只感動了一個人，它就是有價值了，何況你們的現在跟未來是一個無遠弗屆的世界，你們可以感動千千萬萬個人，所以繼續創作，不要停，加油，祝福你們！
+        - []()
+        - []()
+        - []()
+        - []()
+        - []()
+    - 評論
+        - [【金曲二三事】 by 李律](https://www.facebook.com/acidjam703/posts/pfbid02TNu1P13E1iUgpPFy27ayqunVS4GM6rinaHQuszaRaTvAVW9xgEe23gDLaAxrtLn1l)
+            - 華語包含？
+            - 就因為一張專輯的銷量非常有可能可以突破一百萬張，整體的總銷售額可能達到三億台幣，光是媒體的宣傳經費動輒就是幾千萬。
