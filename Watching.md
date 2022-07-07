@@ -709,6 +709,7 @@
         - 巴基斯坦裔
         - 回教
         - 親人和解
+        - 英國殖民 200 年
 
 - 20220701
     - 愛情發生在三天後
@@ -733,3 +734,5 @@
         - [【金曲二三事】 by 李律](https://www.facebook.com/acidjam703/posts/pfbid02TNu1P13E1iUgpPFy27ayqunVS4GM6rinaHQuszaRaTvAVW9xgEe23gDLaAxrtLn1l)
             - 華語包含？
             - 就因為一張專輯的銷量非常有可能可以突破一百萬張，整體的總銷售額可能達到三億台幣，光是媒體的宣傳經費動輒就是幾千萬。
+- 20220706
+    - 雷神索爾 3
