@@ -57,6 +57,7 @@
             - 貸 30 年，每月 4000
         - [為何政府不敢推囤房稅？房價問題解方？經濟學家破解房市神話，揭露高房價真相！房地產資本主義VS.居住正義|書來面對EP25 Josh Ryan-Collins《為何你買不起房子》](https://youtu.be/xfkGFHcR9zc)
         - [他抽的菸誰請客？──兼談張金鶚老師的《居住正義》](https://opinion.cw.com.tw/amp/article/5324)
+        - [在新加坡房子的擁有權有三大類，永久擁有、擁有999年，還有擁有99年。](https://www.facebook.com/yves.lin888/posts/pfbid02ixWEkXCCDd7PNFvb27GAXynuZyrRTQAW7Kv3XBgWuiieRannXqiHXbrZMvaeGmyZl)
     - 晚上睡得著 vs. 一些焦躁的 LINE 群組
     - 一夜致富的可能性
     - 量級的問題
