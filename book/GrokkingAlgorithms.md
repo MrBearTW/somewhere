@@ -102,4 +102,18 @@
     - Collaborative Filtering 協同過濾
     - Cosine Similarity 餘弦相似度
 ## Ch11 進階之路：推薦十種演算法
+- Binary Search Tree 二元搜尋樹
+    - 陣列 vs. 二元搜尋樹
+        - |   | Array | Binary Search Tree |
+            |---|---|---|
+            | 搜尋 | O(Log n) | O(Log n) |
+            | 插入 | O(n) | O(Log n) |
+            | 刪除 | O(n) | O(Log n) |
+    - 缺點：不能隨機存取
+        - 不能用索引 Index 存取資料
+    - 進階
+        - B-Tree B-樹
+        - red-black tree 紅黑樹
+        - heap tree 堆積樹
+        - splay trees 伸展樹/展開樹
 ## 附錄 習題與解答
