@@ -48,6 +48,10 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
 
 - [台灣大學資訊系統訓練班](https://train.csie.ntu.edu.tw/train/courses.php)
 
+- [花九個月，靠自學轉行軟體工程師 -- 我所用的網路資源](https://findcareerpassion.blogspot.com/2019/08/blog-post_24.html)
+- [《常聽人說「人人都要學會 coding」-- 但到底是要學什麼？從何開始？去哪裡學？ by 工程師作家的轉行人生》](https://www.facebook.com/careerpassion/posts/pfbid06BR3awXeFfj78Kc3aCoh4C5sss8GPmdpqgAp11z6vyAYRdPDkDksu36XDTL7ucYfl)
+- [各國名校的免費線上課程 by The Bilingual Lens 雙語視界](https://www.facebook.com/ericsenglishlounge/posts/pfbid0hL3JQ9Ac8VAoMA8F7bciJp5gTuT5Q8hPxVNSbytZNzMJXgFi67Yab1sf6SDtwjCTl)
+
 - MBA  
     - bloomberg  
     - twitter  

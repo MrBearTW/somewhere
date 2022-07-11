@@ -1,6 +1,7 @@
 1. 存夠6個月的生活費
 2. 除了儲蓄險和投資型保單之外的，[保險](https://www.facebook.com/329896911051695/photos/a.358878471486872/510654386309279/)買一買
     - [台灣平均每人每年保費支出高達15萬元新台幣，但是台灣每人死亡的壽險理賠金額還不到60萬元。](https://www.facebook.com/firefly88/posts/pfbid026QNyLuPQrFLoYv2vju54ZLZcykSgVH9t7Fa8am2ggjmDaB2koWYxYZDKS2TiMXcZl)
+    - [其實我很常奉勸大家一定要買保險，意外險、醫療險，尤其有在騎車開車或賺錢養家的人更是要買好買滿。](https://www.facebook.com/permalink.php?story_fbid=pfbid02rp2BJKUN8N9tTPZ2eKDt8GEUK9pw3vaGyEKaVzTWJTbT64CF34kzb9XY2Pu7sRY6l&id=102194515670298)
 3. 年金 勞保 勞退 健保
 4. 自己要住的房貸 / 車貸
 5. 可投資的錢
