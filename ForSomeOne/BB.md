@@ -120,6 +120,7 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
 - [linkedin](https://www.linkedin.com/)（國際）
     - 值得參考的校友們
         - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
+            - 
         - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
 - [Youator](https://www.yourator.co/)（新創）
 - [meetjobs](https://meet.jobs/)（韓國來的）

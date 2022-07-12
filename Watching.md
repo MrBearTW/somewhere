@@ -743,3 +743,12 @@
         - 反轉
         - 移工
         - 客語
+
+- 20220711
+    - 咒
+        - 視覺那招太哭爸了
+        - 影評
+            - 羅卓仁謙
+                - 第一篇 https://www.facebook.com/lodrorinchen.org/posts/pfbid0eCkbpBaviWKnttkd3J8V597z1HkaSaN3F7Ry11ZjJxb8DmEDoU7L6hDxZHmaGZZ1l
+                - 第二篇 https://www.facebook.com/lodrorinchen.org/posts/pfbid0jA5pYAesR8M5B8wiMsGR8Lwk9hzxHzRA1JNZ7X44xJLcqMeuikZB5YGGM5CtsVvzl
+                - 第三篇 富奸中
