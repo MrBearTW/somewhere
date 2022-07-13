@@ -1,3 +1,16 @@
+# 求職網站通通都註冊一波
+- 老牌就不說了 104 111 591
+- [linkedin](https://www.linkedin.com/)（國際）
+    - 值得參考的校友們
+        - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
+            - [經營LinkedIn 4大心法：3個月贏得6次主管職面試](https://www.cw.com.tw/article/5120733)
+        - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
+- [Youator](https://www.yourator.co/)（新創）
+- [meetjobs](https://meet.jobs/)（韓國來的）
+- [Cakeresume](https://www.cakeresume.com/zh-TW)
+    - [Podcast 節目 科技職涯 Talent ConnectCakeResume](https://open.spotify.com/show/2xRC0yrttcbVGNvl7xmWpV)
+- [glassdoor](https://www.glassdoor.com/)
+
 # 好像很厲害的人和公司
 
 - [貝殼放大](https://www.facebook.com/backerfounder/posts/932419113592581  )  
@@ -23,7 +36,6 @@ https://www.facebook.com/groups/twstartupjobs/
 https://tims.etraining.gov.tw/timsonline/index.aspx  
 
 ## 轉寫程式
-
 
 免費課程
 - [轉職APP工程師](https://www.facebook.com/AppWorksSchool/posts/1608575209249419)
@@ -115,18 +127,6 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
         - [kiki](https://www.instagram.com/song.kiki/)
         - [justina_922](https://www.instagram.com/justina_922/)
 ---
-# 求職網站通通都註冊一波
-- 老牌就不說了 104 111 591
-- [linkedin](https://www.linkedin.com/)（國際）
-    - 值得參考的校友們
-        - [GiGi Huang](https://www.linkedin.com/in/gigihuang/)
-            - 
-        - [Kai-Min Tsao](https://www.linkedin.com/in/kai-min-tsao-a5078385/)
-- [Youator](https://www.yourator.co/)（新創）
-- [meetjobs](https://meet.jobs/)（韓國來的）
-- [Cakeresume](https://www.cakeresume.com/zh-TW)
-    - [Podcast 節目 科技職涯 Talent ConnectCakeResume](https://open.spotify.com/show/2xRC0yrttcbVGNvl7xmWpV)
-- [glassdoor](https://www.glassdoor.com/)
 
 # 矽谷類
 - [台北遇上西雅圖](https://www.facebook.com/seattao/)
