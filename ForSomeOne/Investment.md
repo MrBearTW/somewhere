@@ -92,6 +92,7 @@
         - [林宜敬 - 具有中國特色的社會主義煉金術](https://www.facebook.com/yijing1/posts/10157551818639495)
     - ETF
         - 0050 0056
+        - [Re: [標的] 006203是否比0050更好？ BY 多拉王](https://www.ptt.cc/bbs/Stock/M.1652962722.A.2ED.html)
         - [【ETF是第一季最大鬧劇】](https://www.facebook.com/mnAsia1/posts/10157886539355482)
         - [從前人經驗學習，而不是以自己的資產為代價在金融市場中"學習"，才是保護自己的最佳方式。](https://www.facebook.com/GreenHornFans/posts/5010571325639252)
         - [只看燈號買大盤的投資策略](https://www.facebook.com/stocksardine/posts/pfbid0rHXguXu53ctwtF7yqb1cp1DQhgY4LJ8aLY4aegiBoZHeQ2CYmgkxEcDwDxmEJhoEl)
