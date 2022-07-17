@@ -738,6 +738,8 @@
 - 20220706
     - 雷神索爾 愛與雷霆
         - 最後到底怎麼贏的？
+        - 影評
+            - [我在《雷神索爾：愛與雷霆》中看到最多的元素不是尬聊，也不是愛，而是「舞台」 by 大俠導](https://www.facebook.com/Director.judgehou/posts/pfbid02xtzVSTXsB4ASjxsYDpFLirDAw1yPoo8yAsf4h7EX8F3MoM9vJjsCWvjR6raDvbvkl)
 
 - 20220707
     - 正義的算法

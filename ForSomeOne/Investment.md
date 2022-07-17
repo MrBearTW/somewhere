@@ -111,6 +111,7 @@
     - [綠角](https://www.facebook.com/GreenHornFans/posts/2408725559157188)
         - [綠角推薦書單](https://greenhornfinancefootnote.blogspot.com/2008/10/blog-post.html)
         - [存股的嚴重後果](https://www.facebook.com/GreenHornFans/posts/5061234453906272)
+        - [認為5-10%比較合理](https://www.facebook.com/GreenHornFans/posts/pfbid023hohmrdYtq3NDGTiLoRg7R9n6dwUta8FTfpEbrH4WBtSwArS6HKfTTPFeW3Fuc6ul)
     - [清流君](https://www.facebook.com/InvestYourLifeActively)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2692820447495975)
     - [MacroMicro 財經M平方](https://www.facebook.com/macromicro.me/)
