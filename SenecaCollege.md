@@ -21,7 +21,10 @@
             - 抽血 驗尿 眼睛 血壓 身高 體重 胸部X光 醫師問診
         - 2022060 因 XXX 因素，需來複檢，須預約時間
         - 20220607 健康檢查複檢
-        - 20220708 送出簽證申請
+    - 20220712 送出簽證申請
+    - 20220718 生物特徵建立
+        - 準時
+        - 約十幾二十分鐘就結束
 
 - [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 

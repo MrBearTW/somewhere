@@ -224,6 +224,7 @@
 - 美股
     - [Freddy Business & Research](https://www.facebook.com/FreddyBizAndRsch/)
     - [JC 趨勢財經觀點](https://www.facebook.com/JustinInvesting/posts/2655795991198421)
+    - [Jay的全球交易室](https://www.facebook.com/jctradingroom/posts/pfbid0C8rGsrsbQMaKgSGLsAmW7Qb7w8rAAiNRWPmWcWeft2sb2eGmLpRCxPtL4GCTwyetl)
     - [貓的成長美股異想世界](https://www.facebook.com/CatonGrowthStocks/)
     - [美國金融日記](https://www.facebook.com/FinanceAndGoodSociety/)
     - [美股隊長](https://www.facebook.com/usstockcap/photos/a.293479554193743/1185063261702030/)
@@ -273,6 +274,7 @@
     - [不太好笑的人生](https://www.facebook.com/bigpoet813/posts/pfbid02wWUYALSDiS4Pv4ykDYxRuCrrsLfHwH8P7QNBpuYKs2mK4dFoKqz87KRLhSgCfC33l)
     - [財富是這樣養成的](https://www.facebook.com/jetleenotes/posts/pfbid0kefRJUhQkn7xuGdA1HmTYdLhLWx7cNj2i2K2sXxj7KK7YdhVcbWFeDEuViXncWUMl)
     - [大賣空](https://www.facebook.com/jesse.sam.52/posts/pfbid02jZydqs91oPBWYDYUi5F91NfzWfdAQWQf1ZxxJW2ztbHEaWah3W6NnJCRrZbeSTWtl)
+    - [先鋒榮譽董事長談投資](https://www.facebook.com/GreenHornFans/posts/pfbid023hohmrdYtq3NDGTiLoRg7R9n6dwUta8FTfpEbrH4WBtSwArS6HKfTTPFeW3Fuc6ul)
     - 以下為社會類
         - [絕望者之歌](https://www.facebook.com/permalink.php?story_fbid=153361666399086&id=109620590773194)
         - 國父的真相
