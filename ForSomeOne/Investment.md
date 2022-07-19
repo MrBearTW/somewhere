@@ -96,6 +96,7 @@
         - [【ETF是第一季最大鬧劇】](https://www.facebook.com/mnAsia1/posts/10157886539355482)
         - [從前人經驗學習，而不是以自己的資產為代價在金融市場中"學習"，才是保護自己的最佳方式。](https://www.facebook.com/GreenHornFans/posts/5010571325639252)
         - [只看燈號買大盤的投資策略](https://www.facebook.com/stocksardine/posts/pfbid0rHXguXu53ctwtF7yqb1cp1DQhgY4LJ8aLY4aegiBoZHeQ2CYmgkxEcDwDxmEJhoEl)
+        - [【幸好股市沒有表現得太好】](https://www.facebook.com/FactorSystematicInvesting/posts/pfbid02xKFJTYEopp6d5tUyvZCLWiR7tz78HsZqz4ZsML6GHHsQk2Bey7V6DATGLYQhBJuGl)
     - 程式交易
         - [鄉民分享](https://www.ptt.cc/bbs/Soft_Job/M.1590756781.A.008.html?fbclid=IwAR2I9C_5E9mNdsuiX5NhWEA_qF_yORwWcRPp-vkcugSeLDtJ5wop7-I9ig4)
     - 股票投資入門架構影片
