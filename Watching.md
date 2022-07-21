@@ -764,7 +764,7 @@
         - 有點接近破產姊妹
         - 後面有俗女養成季的感覺
             - 原聲帶又沒跟上...
-        - 編劇本人[]
+        - 編劇本人[老編很有事](https://www.facebook.com/BingStorytime/)
             - [《如果牆會說話》](https://www.facebook.com/BingStorytime/posts/pfbid0M1tNVM837WQ3JTpCFYfHTFL1aMcxTi2B3Hf8pzDHcufS8GrHzuSv3hWYtXMiMVaUl)
         - 影評
 
