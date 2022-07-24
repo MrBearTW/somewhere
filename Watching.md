@@ -770,6 +770,7 @@
             - [《如果牆會說話》](https://www.facebook.com/BingStorytime/posts/pfbid0M1tNVM837WQ3JTpCFYfHTFL1aMcxTi2B3Hf8pzDHcufS8GrHzuSv3hWYtXMiMVaUl)
             - [《今晚，我想來點⋯》](https://www.facebook.com/BingStorytime/posts/pfbid0FKxtn2dHsKNZbCQm3TtGqg3Zr1QvXwcB2PEk7CDdNdpPn8tkeJ17X66HPQK7r5pZl)
             - [講到名字，我將陳爸對金庸的熱愛，借用金庸人物，嵌入兩個女兒的名字裡，#賈靜雯 飾「陳如蓉」（黃蓉）、#柯佳嬿 飾「陳若敏」（趙敏）。](https://www.facebook.com/BingStorytime/posts/pfbid0TW1PB3M9wDKRofDUkJoP3mokr8A2K2VCpBs9FRWxMuXSYE6NxJd2UCcvFerZS5npl)
+            - [《借來的故事》](https://www.facebook.com/BingStorytime/posts/pfbid0H5XgnWXhFXFXFt4b3mDY8zS3Y5qcmmoLKMGSqcnVkbRNS7i7SRKtvb5Fo4dThZySl)
         - 影評
             - [只要回家就好了](https://www.facebook.com/hou.chijan/posts/pfbid0K4JtgH7j8Jey1afKwVQhtfwjfv7NuS9dYntiKTwMZEvRkfA14BWXNVsstsx4agT3l)
             - [這部片集結了台灣史上的各個資深藝人，幾乎達到復仇者聯盟的等級](https://www.facebook.com/walterweiwei/posts/pfbid021m6zmMDqh7FCwEVt47EDxFuU2BMphrvw73rdPYTpjSzfG2M1cpyB196neF2U3nPTl)
