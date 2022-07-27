@@ -775,6 +775,7 @@
             - [只要回家就好了](https://www.facebook.com/hou.chijan/posts/pfbid0K4JtgH7j8Jey1afKwVQhtfwjfv7NuS9dYntiKTwMZEvRkfA14BWXNVsstsx4agT3l)
             - [這部片集結了台灣史上的各個資深藝人，幾乎達到復仇者聯盟的等級](https://www.facebook.com/walterweiwei/posts/pfbid021m6zmMDqh7FCwEVt47EDxFuU2BMphrvw73rdPYTpjSzfG2M1cpyB196neF2U3nPTl)
             - [有一次在餐廳吃飯我媽碎念「現在年輕人就是不夠努力才會買不起房子」整個讓喝醉的我大暴走一邊大罵我爸一邊母女大吵架](https://www.facebook.com/charlie.huang.1126/posts/pfbid0ZL1iPXtj5ZMy6UtydfBHZPRnbvpvn7ugPyWubWyPixsdT4k1wUoqxrVhsJ7tJj8wl)
+            - [最難入口的死亡啊，上包覆纏繞了一層一層，讓我們願意看下去的喜劇元素、女性議題、母女議題等等。](https://www.facebook.com/SusanLoveYou/posts/pfbid028PkB3nsnHhnkW3ijpDX2whaDiXKR2ZYbPMAgVohc277Uf4uintg4Q2Azy6rehcf9l)
 
 - 20220716
     - 石子與羽男：這種事能告嗎?
@@ -789,3 +790,4 @@
 - 20220725
     - 他其實沒有那麼喜歡妳
         - 史嘉莉喬韓森正正
+        - 小妹妹前途不可限量
