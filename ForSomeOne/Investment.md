@@ -67,6 +67,8 @@
         - 複利的力量
         - 連跌停五天再連漲停五天，差距是？
         - 常小賠但一次大賺，常小賺但一次大賠
+        - [一種絕對能打敗大盤的投資方式 by 李柏鋒的擴大機](https://www.facebook.com/buffettism/posts/pfbid02TSBrDqnnZskhJy8ZWxnWXfNGj2VA9Xa2wkZJHsqC633MH5rXTZv9SH1bpYuJYNXXl)
+            - 不過上述這兩種投資人，其實都得花大量的時間，甚至還得花大量的金錢，所以成本並不低，而這些付出是否真的有價值，就得好好算一算了。
     - 左派和右派，哪有這麼簡單。
         - [來實測一下](https://www.idrlabs.com/cn/political-coordinates/test.php)
         - 書 [激進市場](https://www.facebook.com/joshu.wang1978/posts/10220937684565615)
