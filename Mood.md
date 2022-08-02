@@ -87,3 +87,5 @@
 - 安倍先生掰掰
     - [相信許多朋友們不只是震驚而已，而是這種抵抗意志被插了一刀，卻知道自己也還是會繼續走下去的沉痛感。](https://www.facebook.com/pumashen/posts/pfbid02jZ1s9oL5RT6HvmyDjR8z8XSajGBMn6ZEzirAEFrpxRvRYWXSGeK4TyVtzHZrQ5V3l)
     - [輸血100單位有多少？所謂的1單位是指平常捐血200ml可精製出的血液，約140ml，因此100單位即等於14,000ml，幾乎等於3個成年人的血量](https://www.facebook.com/nothingbutissue/posts/pfbid02XDudyxxvJC1S9BQKupefzzGq9HgUDjgjCPDn4FNu5hjjmsQETXAh1sURwswqPSLbl)
+
+- 辣個議長降落拉
