@@ -48,6 +48,8 @@
         - 參考 [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
 
 - 問問問
-    - 是否提供電腦
+    - 買電腦建議
     - 宿舍選擇
     - 交通卡
+    - 選課
+    - 雪季

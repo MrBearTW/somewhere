@@ -102,6 +102,8 @@ https://tims.etraining.gov.tw/timsonline/index.aspx
     - [Techcrunch 的 Marketing 分類](https://techcrunch.com/tag/marketing/)
     - [TNW](https://thenextweb.com/conference)
 - 網路上相關的大大
+    - 傑哥
+    - 電商人妻
     - [邱煜庭](https://www.facebook.com/backtrue)
         - [行銷細節控](https://www.facebook.com/groups/696663054205139)
     - [Ken Hsu](https://www.facebook.com/ken.hsu08)
