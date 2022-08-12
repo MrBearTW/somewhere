@@ -25,9 +25,9 @@
     - 20220712 送出簽證申請
     - 20220718 生物特徵建立
         - 準時
-        - 約十幾二十分鐘就結束
+        - 約十～二十分鐘就結束
 
-- [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
+- 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
 - Residence
     - [residence](https://senecaresidence.ca/faq/)
@@ -35,6 +35,12 @@
 
 - Some opportunity
     - [AWS Educate Ambassador in Taiwan](https://www.facebook.com/awseducatestudentambassadortaiwan/)
+    - Google 學生社群 https://gdsc.community.dev/
+        - 四月左右開始申請 https://developers.googleblog.com/2022/04/google-developer-student-club-2022-lead.html
+    - 和趨勢合作？https://www.trendmicro.com/zh_tw/about/customer-stories/seneca-college.html
+
+- 社團
+    - [聖力嘉學院台灣學生交流群 Seneca College Taiwan Students](https://www.facebook.com/groups/227360092568016)
 
 - 生活
     - 網路
