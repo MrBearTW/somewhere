@@ -29,6 +29,8 @@
 
 - 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
+- 行事曆 [Winter 2023 Term](https://students.senecacollege.ca/spaces/135/important-academic-dates/wiki/view/730/winter-2023-term)
+
 - Residence
     - [residence](https://senecaresidence.ca/faq/)
     - [Summer 2022 Orientation- Residence](https://www.instagram.com/p/CdYk7O5Jgv9/)
@@ -41,6 +43,7 @@
 
 - 社團
     - [聖力嘉學院台灣學生交流群 Seneca College Taiwan Students](https://www.facebook.com/groups/227360092568016)
+    - [Dcard 討論串](https://www.dcard.tw/f/studyabroad/p/236928011)
 
 - 生活
     - 網路
@@ -61,3 +64,7 @@
     - 選課
         - LINE 群組
     - 雪季
+
+- 前輩分享
+    - [[心得] 加拿大College 心得 (轉CS)](https://www.ptt.cc/bbs/studyabroad/M.1551031686.A.38D.html)
+    - [[心得] 台北市青年留學生就學貸款 - 專技證照](https://www.ptt.cc/bbs/studyabroad/M.1524495324.A.609.html)

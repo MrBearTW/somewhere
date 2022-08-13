@@ -48,6 +48,7 @@
         - [國安基金](https://www.facebook.com/photo.php?fbid=10221773720547783&set=a.1820416905735&type=3)
     - 緩漲快跌
     - 房地產，房地產證券化
+        - [28歲的買房規劃 by Ａ大的理財心得分享＿ameryu](https://www.facebook.com/ameryu.asm/posts/2577098369090498)
         - [近期房價走勢](https://www.facebook.com/joejoeyourmoney/photos/a.10150326769327276/10158407533842276/)
         - [剛性需求](https://www.facebook.com/icheng.liu/posts/10220737721900257)
         - [台美房屋稅制差異](https://www.facebook.com/permalink.php?story_fbid=2637905226452104&id=1545911848984786)
