@@ -258,8 +258,7 @@ Laravel
 
 突如其來的機會
 
-- [聽說你最近在刷題- 軟體工程師的面試一定會遇到的資料結構及演算法關卡 (& 分享 LeetCode 折扣）& LeetCode Premium 抽獎啦 (2021- 9 月更新）
-](https://brianhsublog.blogspot.com/2020/12/AlgorithmDataStructureLeetCode.html)
+- [聽說你最近在刷題- 軟體工程師的面試一定會遇到的資料結構及演算法關卡 (& 分享 LeetCode 折扣）& LeetCode Premium 抽獎啦 (2021- 9 月更新）](https://brianhsublog.blogspot.com/2020/12/AlgorithmDataStructureLeetCode.html)
 
 - 爬蟲
     - 定期爬一個資料做成報告每日寄 Email 通知業主
@@ -297,3 +296,5 @@ Laravel
     - https://www.irasutoya.com/
 
 - [Carbon Language:An experimental successor to C++](https://github.com/carbon-language/carbon-lang)
+- [技術寫作六步驟 讓工程師撰寫流暢的技術部落格](https://tw.alphacamp.co/blog/2018-06-14-18352)
+- [群益 API 串接](https://www.ptt.cc/bbs/Soft_Job/M.1590756781.A.008.html)

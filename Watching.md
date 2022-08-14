@@ -811,7 +811,7 @@
         - 有點昆汀感覺
         - 葉佩文視角
         - 影評
-            - []()
+            - [《子彈列車》裡真田廣之的姿態讓人折服，不是因為揮舞武士刀的架式，而是他對於「命運」的沉穩態度，散發一種歲月淬鍊出來的智慧。 by 老爹談影](https://www.facebook.com/ancyken/posts/pfbid0wTa87JqqZF1QcCeubDLsxrGaw2J7NNgdWGue2CjzPj5LnHx7Z12EmvAUbSvQZbLgl)
 
 - 20220809
     - Prey 終極戰士：獸獵者

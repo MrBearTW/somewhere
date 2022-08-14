@@ -213,3 +213,5 @@ https://www.toodyao.com/?p=1156
     - drop ?
 
 - upstream 消失
+
+- 參考圖 [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
