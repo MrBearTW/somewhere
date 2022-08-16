@@ -41,6 +41,7 @@
         - 出貨媒體
             - 書
             - 電視台
+        - [公益信託大騙局](https://seygai.tw/i/tw-trust/charitable-trust-scam)
     - 國際觀
         - 香港，新加坡
         - [Bloomberg](https://www.bloomberg.com/live/us)
@@ -106,7 +107,9 @@
         - Lindsay说 [最干货的一期｜专业股票投资人怎么看门道？](https://youtu.be/xnIYIpXKvNM)
     - 詐騙
         - [那些年我與「龐茲們」同行的日子 by 吳珊珊](https://www.facebook.com/permalink.php?story_fbid=4916021708412201&id=100000132604046)
-        - [虛擬的夢]https://www.facebook.com/book.chien/posts/10223058953435132()
+        - [虛擬的夢](https://www.facebook.com/book.chien/posts/10223058953435132)
+    - 借貸
+        - [有錢人很少害怕借貸的，特別是當他們有把握借出資金的成本完全可以被運用這邊錢的報酬抵銷的話，那借錢對他們來說甚至是天經地義的事情](https://www.facebook.com/manlivesinoffshore/posts/pfbid0jwGxhYmdd4GvsqLs42gAAbkv6XnNu96ckwWNLgBowZMaDBsBC3Sf4LyxVD1T6VAVl)
 
 - 不錯的粉絲頁
     - [財報狗](https://www.facebook.com/statementdog/)
