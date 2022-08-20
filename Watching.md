@@ -778,6 +778,9 @@
             - [有一次在餐廳吃飯我媽碎念「現在年輕人就是不夠努力才會買不起房子」整個讓喝醉的我大暴走一邊大罵我爸一邊母女大吵架](https://www.facebook.com/charlie.huang.1126/posts/pfbid0ZL1iPXtj5ZMy6UtydfBHZPRnbvpvn7ugPyWubWyPixsdT4k1wUoqxrVhsJ7tJj8wl)
             - [最難入口的死亡啊，上包覆纏繞了一層一層，讓我們願意看下去的喜劇元素、女性議題、母女議題等等。](https://www.facebook.com/SusanLoveYou/posts/pfbid028PkB3nsnHhnkW3ijpDX2whaDiXKR2ZYbPMAgVohc277Uf4uintg4Q2Azy6rehcf9l)
             - [《媽，別鬧了》留下的記憶只希望你能一直愛，一直愛 by 白色豆腐蛋糕電影日記](https://www.facebook.com/kevin.chen.fanclub/posts/pfbid0oKzfKxPBk4E3DPhG1ULicce3uSWg59XdERbxfUM7TtjHmEAua4vfqwq6CRzW5vTcl)
+            - [很難用言語說得清楚，我到底有多喜歡「媽，別鬧了」這部戲。 by 蘇姍與貓 Susan and cats](https://www.facebook.com/SusanLoveYou/posts/pfbid028DbtNo1j1s2S42QLjj6NLLjpkj1FcgdGSYZoUkiAbMfQvPAL6C5jcH9a4yyd7Zkxl)
+                - 一開始，媽別鬧了看起來好像是在在講女性勇敢追愛，再看下去，好似包含了女性自主，最後，我覺得，這部戲，在講死亡與告別。
+                - 那個夢的場景，分為左邊與右邊兩道門，夢中玫玫拖著行李，要從左邊代表過去紫粉色的門，走到右邊橘色黃未來的門，我真的覺得這個場景設計美到爆！我沒想到他們家的動線可以創造出這樣的寓意！真的好用心好美，我真的有看懂！！！
 
 - 20220716
     - 石子與羽男：這種事能告嗎?
@@ -815,6 +818,9 @@
         - 葉佩文視角
         - 影評
             - [《子彈列車》裡真田廣之的姿態讓人折服，不是因為揮舞武士刀的架式，而是他對於「命運」的沉穩態度，散發一種歲月淬鍊出來的智慧。 by 老爹談影](https://www.facebook.com/ancyken/posts/pfbid0wTa87JqqZF1QcCeubDLsxrGaw2J7NNgdWGue2CjzPj5LnHx7Z12EmvAUbSvQZbLgl)
+            - [《子彈列車》與導演大衛雷奇過去的電影一樣，充滿了繽紛的色彩、幽默的對話、可愛的幸運娃娃、身手矯健的打鬥、還有熱情的音樂。 by 電影文學希米露](https://www.facebook.com/ximilusee/posts/pfbid0s24DCMjfpTAdR852M8rHGwUxKofkKwaTHQAQNUnxvLbx9YJQm9r5G9Y5XQMvNfnpl)
+                - 英國的心臟保護協會，就曾經以〈Styin’ Alive〉作為 CPR 的訓練教學音樂，以〈Stayin’ Alive〉為背景，教導英國民眾如何在生命的緊急時刻，先打 999，再以〈Stayin’ Alive〉的節奏實行 CPR。
+            - [一個密閉的空間，多路人馬同時進入其中，彼此各懷鬼胎、勾心鬥角互相爭鬥。 by 半瓶醋](https://www.facebook.com/VinegarFilmCafe/posts/pfbid02zYTBtUAQZBuHhP5JJT8yCKf5SLKighhTXDmhw5REsaSjssXCBf1bmREcNSsSxLKRl)
 
 - 20220809
     - Prey 終極戰士：獸獵者
