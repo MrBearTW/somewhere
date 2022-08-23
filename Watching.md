@@ -651,6 +651,7 @@
         - 別花時間看
     - 派對咖孔明
         - 很有趣的設定
+        - 計謀
     - 間諜家家酒
         - 成熟的微笑
         - [但我覺得故事人設中真正天菜的，是他們天賦異秉、出類拔萃的同時，竟又如此善良隨和且真誠利他。](https://www.facebook.com/breath35c/posts/pfbid0345rWKTZFAUUqDnZe2iW1zXbKf9jhTh8qoxCHboyfDQJAzsQ6oYZKCRgfgnybpqLbl)
