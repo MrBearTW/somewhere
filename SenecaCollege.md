@@ -68,3 +68,6 @@
 - 前輩分享
     - [[心得] 加拿大College 心得 (轉CS)](https://www.ptt.cc/bbs/studyabroad/M.1551031686.A.38D.html)
     - [[心得] 台北市青年留學生就學貸款 - 專技證照](https://www.ptt.cc/bbs/studyabroad/M.1524495324.A.609.html)
+
+- 工作
+    - [績效考核](https://youtu.be/LpoQcGRRLdE)
