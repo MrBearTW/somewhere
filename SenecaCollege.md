@@ -60,10 +60,14 @@
     - 買電腦建議
     - 宿舍選擇
         - 大概區域：North York / Markham / Richmond Hill / Vaughan
+        - 地下室？
     - 交通卡
     - 選課
         - LINE 群組
     - 雪季
+    - 課本
+    - 實習機會
+    - 就業博覽會
 
 - 前輩分享
     - [[心得] 加拿大College 心得 (轉CS)](https://www.ptt.cc/bbs/studyabroad/M.1551031686.A.38D.html)
