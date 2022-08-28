@@ -116,7 +116,13 @@
         - red-black tree 紅黑樹
         - heap tree 堆積樹
         - splay trees 伸展樹/展開樹
-- 
-- 
-- 
+- Inverted index 反向索引
+    - 做搜尋相關
+- Furier transform 傅立葉轉換
+    - [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+    - Shazam 音樂辨識軟體
+    - 音樂簡化成 mp3
+- Parallel Algorithm 平行演算法
+    - 排序演算法最快的速度為 O(n log n)，除非是使用 Parallel Algorithm 平行演算法，否則要在 O(m) 的時間內完成陣列排序是不可能的
+    - 
 ## 附錄 習題與解答
