@@ -123,6 +123,11 @@
     - Shazam 音樂辨識軟體
     - 音樂簡化成 mp3
 - Parallel Algorithm 平行演算法
-    - 排序演算法最快的速度為 O(n log n)，除非是使用 Parallel Algorithm 平行演算法，否則要在 O(m) 的時間內完成陣列排序是不可能的
-    - 
+    - 排序演算法最快的速度為 O(n log n)，除非是使用 Parallel Algorithm 平行演算法，否則要在 O(n) 的時間內完成陣列排序是不可能的
+    - 快速排序法 (Quick Sort) 有平行化的版本，可以在 O(n) 的時間內完成陣列排序。
+    - 即使核心一升為二，並不代表平行演算法的速度會提升為兩倍
+        - 平行性的管理上限：
+        - 負載平衡 Load balancing：
+            - 效能和可擴展性 (Scalablility)
+- MapReduce
 ## 附錄 習題與解答
