@@ -61,6 +61,8 @@
     - 宿舍選擇
         - 大概區域：North York / Markham / Richmond Hill / Vaughan
         - 地下室？
+        - https://house.51.ca/rental/map?rentalTypes=room
+            - Seneca College Newnham Campus
     - 交通卡
     - 選課
         - LINE 群組

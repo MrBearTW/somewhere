@@ -129,5 +129,14 @@
         - 平行性的管理上限：
         - 負載平衡 Load balancing：
             - 效能和可擴展性 (Scalablility)
-- MapReduce
+    - MapReduce
+        - 分散式演算法 Distributed Algorithm
+        - Hadoop
+        - Map 任務交辦
+        - Reduce 將資料彙總
+        - 分散 Map / 重新組合 Reduce
+- 布隆過濾器 Bloom filter 和 HyperLogLog
+    - 布隆過濾器 Bloom filter 是一種 機率過濾器 Probabilistic Data Structure
+    
+
 ## 附錄 習題與解答
