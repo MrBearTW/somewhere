@@ -136,7 +136,25 @@
         - Reduce 將資料彙總
         - 分散 Map / 重新組合 Reduce
 - 布隆過濾器 Bloom filter 和 HyperLogLog
-    - 布隆過濾器 Bloom filter 是一種 機率過濾器 Probabilistic Data Structure
-    
+    - 布隆過濾器 Bloom filter 是一種 機率資料結構 Probabilistic Data Structure
+        - 提供可能正確答案，適合提供不需要精準答案的場合
+        - 可能會發生 誤肯定 false positive are possible
+        - 不可能發生 誤否定 false negative aren't possible
+    - HyperLogLog
+        - 只提供非常近似的答案
+- SHA 安全雜湊算法 Secure Hash Algorithm
+    - SHA 是一種單向雜湊
+    - 務必使用 SHA-2 SHA-3
+    - 局部敏感雜湊 Locality-Sensitive Hashing
+        - Simhash 類似雜湊
+        - 比對兩個項目的相似度
+- 迪菲赫爾曼金鑰交換 Diffie-Hellman Key exchange
+    - 公鑰 + 私鑰
+    - 後來被 RSA 取代
+    - https://adit.io/errata.html
+- 線性規劃  Linear Programming
+    - 所有圖形演算法都可以用線性規劃來取代。
+    - 線性規劃就像一個廣義的架構，圖形問題是這個架構下的一個子集。
+    - 單形演算法/單純形化 (Simplex Algorithm)
 
 ## 附錄 習題與解答
