@@ -24,8 +24,9 @@
             - 350 元
     - 20220712 送出簽證申請
     - 20220718 生物特徵建立
-        - 準時
+        - 準時抵達即可，也不會先讓你進去
         - 約十～二十分鐘就結束
+    - 20220907 收到代辦通知，拿到 PDF
 
 - 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
