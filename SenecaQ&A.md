@@ -1,16 +1,19 @@
 - 問問問
-    - 買電腦建議
-    - 宿舍選擇
-        - 大概區域：North York / Markham / Richmond Hill / Vaughan
-        - 地下室？
-        - https://house.51.ca/rental/map?rentalTypes=room
-            - Seneca College Newnham Campus
-    - 交通卡
-    - 選課
+    - CPP CPA 相關
+        - 買電腦建議
+        - 選課
         - LINE 群組
-        - 課表
-    - 雪季
-        - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
-    - 課本
-    - 實習機會
-    - 就業博覽會
+            - 課表
+        - 實習機會
+    - Seneca College 相關
+        - 宿舍選擇
+            - 大概區域：North York / Markham / Richmond Hill / Vaughan
+            - 地下室？
+            - https://house.51.ca/rental/map?rentalTypes=room
+                - Seneca College Newnham Campus
+        - 交通卡
+        - 就業博覽會
+    - 加拿大相關
+        - 雪季
+            - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
+        - 課本
