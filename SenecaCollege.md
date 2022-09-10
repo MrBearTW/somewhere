@@ -43,8 +43,9 @@
     - 和趨勢合作？https://www.trendmicro.com/zh_tw/about/customer-stories/seneca-college.html
 
 - 社團
-    - [聖力嘉學院台灣學生交流群 Seneca College Taiwan Students](https://www.facebook.com/groups/227360092568016)
+    - FB [聖力嘉學院台灣學生交流群 Seneca College Taiwan Students](https://www.facebook.com/groups/227360092568016)
     - [Dcard 討論串](https://www.dcard.tw/f/studyabroad/p/236928011)
+    - LINE 群組
 
 - 生活
     - 網路
