@@ -304,3 +304,5 @@ Laravel
 - 很多簡中的自學資料整理 [Coding Interview University](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-cn.md)
 
 - [陳鍾誠的《演算法》課程 -- 111 學年上學期 ](https://gitlab.com/cccnqu111/alg)
+
+- [AWS Learning Badges](https://aws.amazon.com/tw/training/badges/)

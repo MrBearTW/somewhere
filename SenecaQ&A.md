@@ -8,7 +8,7 @@
     - Seneca College 相關
         - 宿舍選擇
             - 大概區域：North York / Markham / Richmond Hill / Vaughan
-            - 地下室？
+            - 地下室
             - https://house.51.ca/rental/map?rentalTypes=room
                 - Seneca College Newnham Campus
             - 租外面和租學校差異？
@@ -20,3 +20,5 @@
             - 走路距離：看個人可以承受程度。
             - 雪靴去再買
         - 課本
+            - 2 手
+            - Amazon
