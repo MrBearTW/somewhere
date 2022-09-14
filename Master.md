@@ -524,3 +524,7 @@
 - 申請費五百多美金
 - [官方進度公告](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html)
     - [中文第三方解析](https://greencard.guruin.com/)
+
+
+# Doctor
+- 
