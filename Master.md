@@ -516,8 +516,6 @@
 - 談薪水參考網站
     - levels.fyi
 
-# 博士
-
 # US 移民
 - 兄弟姊妹屬於 F4
     - 大概要排 14~20 年
@@ -526,5 +524,6 @@
     - [中文第三方解析](https://greencard.guruin.com/)
 
 
-# Doctor
-- 
+# Ph.D 博士
+- Linkedin
+- 是工作非學生
