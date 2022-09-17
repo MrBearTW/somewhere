@@ -19,7 +19,7 @@
             - 要帶護照
             - 4100 NT 可刷卡
             - 抽血 驗尿 眼睛 血壓 身高 體重 胸部X光 醫師問診
-        - 2022060 通知：因 XXX 因素，需來複檢，須預約時間
+        - 20220605 通知：因 XXX 因素，需來複檢，須預約時間
         - 20220607 健康檢查複檢
             - 350 元
     - 20220712 送出簽證申請
@@ -61,6 +61,8 @@
 - 前輩分享
     - [[心得] 加拿大College 心得 (轉CS)](https://www.ptt.cc/bbs/studyabroad/M.1551031686.A.38D.html)
     - [[心得] 台北市青年留學生就學貸款 - 專技證照](https://www.ptt.cc/bbs/studyabroad/M.1524495324.A.609.html)
+    - [成大碩士生來加拿大的求學就業之路](https://www.facebook.com/canadajulianne/posts/pfbid0CxPg5dVaHnFQPHGcaFYfiiLKXXNvBpfQ3kZEaPv9QR1jKFhHLSc1mpHrwrHtoghRl)
+        - 交朋友也很重要
 
 - 工作
     - [績效考核](https://youtu.be/LpoQcGRRLdE)
