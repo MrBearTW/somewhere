@@ -63,6 +63,7 @@
     - [[心得] 台北市青年留學生就學貸款 - 專技證照](https://www.ptt.cc/bbs/studyabroad/M.1524495324.A.609.html)
     - [成大碩士生來加拿大的求學就業之路](https://www.facebook.com/canadajulianne/posts/pfbid0CxPg5dVaHnFQPHGcaFYfiiLKXXNvBpfQ3kZEaPv9QR1jKFhHLSc1mpHrwrHtoghRl)
         - 交朋友也很重要
+        - 蒙特婁也是可以考慮
 
 - 工作
     - [績效考核](https://youtu.be/LpoQcGRRLdE)
