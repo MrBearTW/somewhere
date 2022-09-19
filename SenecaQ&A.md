@@ -6,7 +6,10 @@
             - 課表
         - 實習機會
     - Seneca College 相關
-        - 宿舍選擇
+        - Residence
+            - [residence](https://senecaresidence.ca/faq/)
+            - [Summer 2022 Orientation- Residence](https://www.instagram.com/p/CdYk7O5Jgv9/)
+        - 住宿選擇
             - 大概區域：North York / Markham / Richmond Hill / Vaughan
             - 地下室
             - https://house.51.ca/rental/map?rentalTypes=room

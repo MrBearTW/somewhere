@@ -32,10 +32,6 @@
 
 - 行事曆 [Winter 2023 Term](https://students.senecacollege.ca/spaces/135/important-academic-dates/wiki/view/730/winter-2023-term)
 
-- Residence
-    - [residence](https://senecaresidence.ca/faq/)
-    - [Summer 2022 Orientation- Residence](https://www.instagram.com/p/CdYk7O5Jgv9/)
-
 - Some opportunity
     - [AWS Educate Ambassador in Taiwan](https://www.facebook.com/awseducatestudentambassadortaiwan/)
     - Google 學生社群 https://gdsc.community.dev/
