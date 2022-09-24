@@ -45,6 +45,7 @@
 
 - 生活
     - 網路
+        - Google Fi
     - 交通
         - [FB 汽車服務推薦](https://www.facebook.com/groups/68426949235/)
 

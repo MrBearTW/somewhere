@@ -15,6 +15,7 @@
             - https://house.51.ca/rental/map?rentalTypes=room
                 - Seneca College Newnham Campus
             - 租外面和租學校差異？
+                - 下雪天很方便
         - 交通卡
         - 就業博覽會
     - 加拿大相關
