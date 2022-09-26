@@ -48,6 +48,7 @@
         - Google Fi
     - 交通
         - [FB 汽車服務推薦](https://www.facebook.com/groups/68426949235/)
+        - EVA Air BR0036 TPE 19:40 --> YYZ 20:30
 
 - 出國前處理一下
     - 加拿大駕照
