@@ -9,6 +9,9 @@
         - Residence
             - [residence](https://senecaresidence.ca/faq/)
             - [Summer 2022 Orientation- Residence](https://www.instagram.com/p/CdYk7O5Jgv9/)
+            - Winter Semester 2023
+                - Move-In Day: January 7, 2023
+                - Move-Out Day: April 22, 2023
         - 住宿選擇
             - 大概區域：North York / Markham / Richmond Hill / Vaughan
             - 地下室

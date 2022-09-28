@@ -36,6 +36,7 @@
             - 新看到的[Pezzaloan 經濟體股份有限公司](https://www.pezzaloan.com/borrower-listing)
             - [入門教學](https://www.abfunds.com.tw/APAC/TW/Quiz/Stories/bond_quiz.htm)    
             - [債券 ETF](https://www.facebook.com/FfaarrFinance/posts/pfbid02gaNkh95ReXPnn7CeyecGrJQDEbqee7iFUCimkUdRkzzTZDKr7CbuEq47EDtRExdpl)
+            - [60比40的股債比投資組合，在過去將近一百年的歷史中，只有大約兩成的年度是負報酬。by 李柏鋒的擴大機](https://www.facebook.com/buffettism/posts/pfbid02j74vjaj3psG6Aw598eetU54TJBTzVVHtNp8B4gxRuxgSAKm4wgCarL6EvNBA5M2el)
         - 保護消費者
             - [eToro](https://tw.appledaily.com/property/20200714/JJ47Q3X7SRBN7FU767RRNBDHVA/)
         - [退休計畫](https://www.facebook.com/libertarianguyguy/posts/2909422712430283)
