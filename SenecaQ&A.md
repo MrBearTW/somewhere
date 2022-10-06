@@ -36,3 +36,9 @@
             - 濾水器
 - A 親友提供：
 - A 自己 Google 整理：
+
+- 移動到學校？
+    - [Toronto Pearson Airport Guide](https://www.sleepinginairports.net/guides/toronto-pearson-airport-guide.htm)
+- 租車
+
+- Check List
