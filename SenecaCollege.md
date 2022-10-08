@@ -27,6 +27,8 @@
         - 準時抵達即可，也不會先讓你進去
         - 約十～二十分鐘就結束
     - 20220907 收到代辦通知，拿到 PDF
+    - 20221007 宿舍申請
+        - 100 加幣，可刷卡，還要加稅
 
 - 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
