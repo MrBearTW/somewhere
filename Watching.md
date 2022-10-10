@@ -410,7 +410,9 @@
     - 茶金
         - 中美角力
         - 華盛頓是大家的好朋友
-        - [從《茶金》看見女人揮灑出的一片天](https://opinion.cw.com.tw/blog/profile/513/article/11777)
+        - 影評
+            - [從《茶金》看見女人揮灑出的一片天](https://opinion.cw.com.tw/blog/profile/513/article/11777)
+            - [「東方美人茶是被蟲咬過的茶，它天生就是受過傷的茶。」薏心 by 香功堂主](https://www.facebook.com/woomovies/posts/pfbid0xkJb28Z6ZzfoUKR4rhxgZzTACzjfAms3LFYkrR8mygdRfQcu64T9rzjVvM7NNfCXl)
 
 - 20211226
     - 千萬別抬頭
