@@ -283,6 +283,8 @@ Laravel
     - 接 API 進一個 框架
     - 畫面要長什麼樣子，和設計師溝通
 
+- 寫一個 Google Chrome Plugin
+
 - 每天寫 code
 - 找案子來實作
 
