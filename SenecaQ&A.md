@@ -30,6 +30,7 @@
             - 走路距離：看個人可以承受程度。
             - 防水登山靴去再買
             - 防水外套
+            - 防水外套
             - 頭部保護
         - 飲用水
             - 自來水？
@@ -38,11 +39,12 @@
 - A 自己 Google 整理：
 
 - 移動到學校？
-    - [Toronto Pearson Airport Guide](https://www.sleepinginairports.net/guides/toronto-pearson-airport-guide.htm)
+    - 可否睡機場
+        - [Toronto Pearson Airport Guide](https://www.sleepinginairports.net/guides/toronto-pearson-airport-guide.htm)
 - 租車
 
 - Check List
-    - 現金
+    - 現金 1000 加幣 / 支票？
     - 信用卡 PIN 碼確認
     - 保險
     - 駕照
