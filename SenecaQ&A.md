@@ -4,6 +4,7 @@
         - 選課
         - LINE 群組
             - 課表
+                - Rank your prof?
         - 實習機會
     - Seneca College 相關
         - Residence
@@ -44,7 +45,7 @@
 - 租車
 
 - Check List
-    - 現金 1000 加幣 / 支票？
+    - 現金 10000 加幣 / 支票？
     - 信用卡 PIN 碼確認
     - 保險
     - 駕照
