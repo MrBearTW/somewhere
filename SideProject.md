@@ -308,3 +308,5 @@ Laravel
 - [陳鍾誠的《演算法》課程 -- 111 學年上學期 ](https://gitlab.com/cccnqu111/alg)
 
 - [AWS Learning Badges](https://aws.amazon.com/tw/training/badges/)
+
+- [工程師們刷題刷起來 — CodeWars 刷題心得分享](https://www.technice.com.tw/experience/13122/)
