@@ -30,6 +30,7 @@
     - 20221007 宿舍申請
         - 100 加幣，可刷卡，還要加稅
     - 20221012 訂機票 / 剩候補...
+        - 長榮里程兌換可以先預定，但同時也排候補。
 
 - 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
