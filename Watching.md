@@ -923,3 +923,8 @@
     - 流麻溝十五號 Untold herstory
         - 很不狗血
         - 凡殺不死我的，必死我更強大。若是她死了呢？
+        - 影評
+            - [影片沒有出現槍聲，但我卻感覺槍打在我身上。](https://www.facebook.com/peijenyu/posts/pfbid0332SSbV3WDstr2t8UKrptvesx8gBumjoSeJbw5Gg53fTo3WvPm5SqfbdFspQPDFz9l)
+            - [關於片中所述的議題，是確實發生過的事情，不是急於否認它就不存在。至於要怎麼解讀當然是每個人的自由 by 時尚編輯的真心話](https://www.facebook.com/permalink.php?story_fbid=pfbid0zEUvoPJziocQDjogDB2PcKCNbjBAbSwgdpfwBzRhrdHFgHUmPRXn8QCY4pY9hiPvl&id=100044118471879&__cft__[0]=AZWg274mXh9O1W8rin7R60M3lTHsJbFJS9m5SUKFn_MLjAEBwehLPlzj4-8OOzT3co9xLroI6ZWqnGIP4qWyIfFd8ffRGzsa9OmMpz1rCqVyfYUuucLUvbtAHYVjVu8VWQtq6nDRWTYH--qd9IdqmmkdJ70W9yRXaD2lKHwwumujMcZjRxHXwhEDizCDdrk18fE&__tn__=%2CO%2CP-R)
+            - [【 “流麻溝15號” 觀後 】 by 段震宇](https://www.facebook.com/jiverduann/posts/pfbid02m4ED2f8tihfoijTcDpFKiPKDJkZzQTEE7jJQNnfbPwApizXQ5iiWoKQdVG7PzwAFl)
+                - 另外，我原先（當時電影還正在拍）一想到就替這部片子煩惱的“各種語言，南腔北調”的問題，也明顯的成功解決，並成為此片的亮點與成就之一！這個，當然也非$莫辦（姚文智説了：光是請語言老師，就所費不貲！）。
