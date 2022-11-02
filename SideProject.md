@@ -312,5 +312,7 @@ Laravel
 - [工程師們刷題刷起來 — CodeWars 刷題心得分享](https://www.technice.com.tw/experience/13122/)
 
 - [MIT CSAIL 推薦9堂最好的CS核心課程: 從底層邏輯再出發 9 個關鍵的 CS 主題](https://www.facebook.com/richie.tsai/posts/pfbid0312gH8MwhfqPSoiLsbfSeeCzfEguaQCiHM1JcARkrSzshv2LKD2hBQKJnfp51QuXbl)
-    - 
+    - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+
+- [計算機科學之美](https://github.com/ianchen0119/AwesomeCS/wiki)
 

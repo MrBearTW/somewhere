@@ -930,6 +930,17 @@
                 - 另外，我原先（當時電影還正在拍）一想到就替這部片子煩惱的“各種語言，南腔北調”的問題，也明顯的成功解決，並成為此片的亮點與成就之一！這個，當然也非$莫辦（姚文智説了：光是請語言老師，就所費不貲！）。
             - [<流麻溝十五號>觀後感  by 劉文勝](https://www.facebook.com/Dr.liu.wensheng/posts/pfbid0vvbneXt5R9ufYqsSchCenxQsbt46PekzHyVHQCXiheCubBp15YmQenWmBAeY6UwLl)
                 - 而我覺得裡面最可怕的刑求 是拿著小孩的照片 對著受刑人媽媽說  認罪就可以見小孩 跟媽媽說 小孩在學校被欺負 因為爸媽是匪諜 不流血 卻讓人心都碎了
+            - [流麻溝15號厲害的是，片中臺灣人之間用台語混著日語交談，此外還有更多各省口音、方言的使用也是恰到好處，呈現當時的氛圍。而且片中不會有明確的黑白與好壞，而是呈現大時代下小人物的悲哀與無奈。 BY 陳力航](https://www.facebook.com/permalink.php?story_fbid=pfbid0jzxtV8BthCDqovrLzXKDjMqxw9JVqCK3uHwNyLUjPDnezZM7zfPTWnxxCwD7axpPl&id=100000100550876&__cft__[0]=AZVYhYjaojmmWXCacIkcfykg7vgj-WlHl5f1UlmW-ySJWiMHOkEz7HB0qWoaZliErbDTxTOsb1mzfL07otLGQWJpg4IJKzJZ4dXXAP_Guya90-5C5wCmHqWhjGVe8UYXGxM&__tn__=%2CO%2CP-R)
+            - [希望這部電影，能讓你我回想起這些無辜的受難者，了解在威權統治下的每一天都是戰爭，沒有誰是真正安全的。 BY 林艾德](https://www.facebook.com/sunnyhengchun/posts/pfbid02Q5X7WSZ5GrMoEqNUTS4qCzpsqsQcrwbSA1jabX6gCZo1fhrJTqtbkAzuH9oHkyaYl)
+            - [《流麻溝十五號》 BY 詹雅仁](https://www.facebook.com/permalink.php?story_fbid=pfbid0A8GrPtsFV6tFWHNshW8Ex2acUqqcjjsMjjzkYTKMap4eJFbaQadcubAgHeaGoyYJl&id=100009538154103&__cft__[0]=AZUL1WsGFkx00S6wOSYGKKhhNz6VFliwMAtcftmdmTJYyCQzCaM4VcZXRjTyKEAnRFNOYPbmrece2eTGzY-Ij99x06sACbhBUsM5HcT1zaarIpJclPExz0kxEby4o1phCe8&__tn__=%2CO%2CP-R)
+            https://www.facebook.com/permalink.php?story_fbid=pfbid0A8GrPtsFV6tFWHNshW8Ex2acUqqcjjsMjjzkYTKMap4eJFbaQadcubAgHeaGoyYJl&id=100009538154103&__cft__[0]=AZWUdSPQbKE0z3x-vWRXwiqM-QQwuRjHKZ0BUllblRdfHEFUZicOYlLy1ujCwqLC0ELE3z93x8DmQwUlaUS1Ro6BqW9_KB3JdPHu_BEWHhVUOKxZWvgSox0r9ZfWziy-fDrHs1fR0m4pnX6-l4t2PTybJuogmhM2GVDfdSiIyUugXA&__tn__=%2CO%2CP-R
+                - 真相、良知或正義的追求，原非罪衍...也許有一種東西方知識階層的性格差異，西方總唯恐自己不夠深刻，東方則唯恐自己過於涉入....
+            - 我懷疑他在反串
+                - [【任由這樣的電影代言歷史，才是毫無尊嚴的自卑】 by 韋晢](https://www.facebook.com/jaywei0818/posts/pfbid0g53SaA4FBiwLLfsj7FeshqjUNEtXZDgZH7vaFUjVzCcPKTuCE2cTg4owZwJwCUWzl)
+                    - [我覺得民主的走向是讓人不會不敢講話，這部片帶給我的感覺是時代被禁聲，對權威的質疑。其實跟台獨差蠻遠的。](https://www.facebook.com/TsingianTan/posts/pfbid0379wPPe6ZeyLQiQSFXFDoYfXUbRVuRw8en1E7CdTMacPzuSHun2un9MxrgAs8Vvr3l)
+                    - [我幫台大那位韋晢總結一下，綜觀他所有對於「流麻溝十五號」的問題，基本上可歸納成：「這是姚文智拍的電影」。](https://www.facebook.com/wonderverge/posts/pfbid026sfepfYJkwYLxutHFhnC28UWmmfvQcc8y7C1jrYFV5hio3325Axj2q8RhFTXx4f3l)
+                    - [通篇其實可以歸結成一句：「這部史實電影拍得不好，我不認同其敘事與價值觀，這部電影對台灣社會和電影有傷害。」](https://www.facebook.com/jack.dai.18/posts/pfbid0q9es2BkPwmmp1iTVxUd2383wGcHUdo7rZEWo3shYm72tU7NSnFawvW94D9JweKeWl)
+                    - 
 
 - 20221101
     - 畢凱
