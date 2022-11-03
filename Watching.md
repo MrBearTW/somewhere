@@ -942,6 +942,12 @@
                     - [通篇其實可以歸結成一句：「這部史實電影拍得不好，我不認同其敘事與價值觀，這部電影對台灣社會和電影有傷害。」](https://www.facebook.com/jack.dai.18/posts/pfbid0q9es2BkPwmmp1iTVxUd2383wGcHUdo7rZEWo3shYm72tU7NSnFawvW94D9JweKeWl)
                     - 
 
+- 20221103
+    - 新世紀福音戰士劇場版：序
+    - 新世紀福音戰士劇場版：破
+
 - 20221101
     - 畢凱
         - 人造人
+        - 承諾
+        - 復仇
