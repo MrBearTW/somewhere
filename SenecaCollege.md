@@ -1,6 +1,7 @@
 - 時程
     - 2022/04/23 請代辦送出學校申請
     - 2022/04/14 23:22 Your Seneca Login Information - Action Required (收到學校的信箱帳號密碼)
+        - 90 加幣 = 2113 台幣
     - 2022/04/15 13:03 Seneca College Application Acknowledgement (提醒你常常收信)
     - 2022/05/05 20:22 Congratulations, this is your Seneca offer to Computer Programming (上 Student Home 確認申請)
     - 2022/05/16 郵局申請存款證明
@@ -23,6 +24,7 @@
         - 20220607 健康檢查複檢
             - 350 元
     - 20220712 送出簽證申請
+        - 235 加幣 = 5503 台幣
     - 20220718 生物特徵建立
         - 準時抵達即可，也不會先讓你進去
         - 約十～二十分鐘就結束
