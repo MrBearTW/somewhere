@@ -29,10 +29,12 @@
         - 準時抵達即可，也不會先讓你進去
         - 約十～二十分鐘就結束
     - 20220907 收到代辦通知，拿到 PDF
+        - 學簽是包含 ETA 的，不需要另外再申請
     - 20221007 宿舍申請
         - 100 加幣，可刷卡，還要加稅
     - 20221012 訂機票 / 剩候補...
         - 長榮里程兌換可以先預定，但同時也排候補。
+    - 20221105 代辦結案
 
 - 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
