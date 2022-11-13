@@ -26,6 +26,7 @@
             - 2 手
             - Amazon
         - 抵免學分
+            - https://www.senecacollege.ca/registrar/transfer-credit.html
     - 加拿大相關
         - 雪季
             - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
