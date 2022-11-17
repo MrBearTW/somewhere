@@ -215,3 +215,5 @@ https://www.toodyao.com/?p=1156
 - upstream 消失
 
 - 參考圖 [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+
+- [如何使用 Git? (遠端篇)](https://hackmd.io/@U0TRn8JAT-S9Y8cK9znmxA/SkMkplt1N?print-pdf#/)
