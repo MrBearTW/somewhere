@@ -992,3 +992,10 @@
 
     - 讓子彈飛
         - [微評「讓子彈飛」：子彈還沒飛之前，張麻子的來歷往事 by 金老ㄕ的教學日誌](https://www.facebook.com/permalink.php?story_fbid=pfbid02Ffo2s69Cc9JqsgkcnNWMQme9wnTmCyaF7SaQxXsftAUpifVYXBD8B5oChsoLeLN1l&id=1376997779230805&__cft__[0]=AZWH_TbmUxTdkJre9nGQJTYdUtBbwna8ioKsr3YM-kYAtkSKoT6CKSJy8G9juSqvNw1mZTCk7tOdsITLpEZKC12MiLh4wrTaoq7U0OmKa73XDR9_Djpyc58d0Th6B7N7tStwIKVT1H7XDucR1pm6qlH1&__tn__=%2CO%2CP-R)
+
+- 20221119
+    - 魔仿犯
+        - 最後回家不帶警察是...
+    
+    - 59 屆金馬獎
+        - 冠廷我覺得這樣頒獎致詞不行
