@@ -938,12 +938,12 @@
             - [《流麻溝十五號》 BY 詹雅仁](https://www.facebook.com/permalink.php?story_fbid=pfbid0A8GrPtsFV6tFWHNshW8Ex2acUqqcjjsMjjzkYTKMap4eJFbaQadcubAgHeaGoyYJl&id=100009538154103&__cft__[0]=AZUL1WsGFkx00S6wOSYGKKhhNz6VFliwMAtcftmdmTJYyCQzCaM4VcZXRjTyKEAnRFNOYPbmrece2eTGzY-Ij99x06sACbhBUsM5HcT1zaarIpJclPExz0kxEby4o1phCe8&__tn__=%2CO%2CP-R)
             https://www.facebook.com/permalink.php?story_fbid=pfbid0A8GrPtsFV6tFWHNshW8Ex2acUqqcjjsMjjzkYTKMap4eJFbaQadcubAgHeaGoyYJl&id=100009538154103&__cft__[0]=AZWUdSPQbKE0z3x-vWRXwiqM-QQwuRjHKZ0BUllblRdfHEFUZicOYlLy1ujCwqLC0ELE3z93x8DmQwUlaUS1Ro6BqW9_KB3JdPHu_BEWHhVUOKxZWvgSox0r9ZfWziy-fDrHs1fR0m4pnX6-l4t2PTybJuogmhM2GVDfdSiIyUugXA&__tn__=%2CO%2CP-R
                 - 真相、良知或正義的追求，原非罪衍...也許有一種東西方知識階層的性格差異，西方總唯恐自己不夠深刻，東方則唯恐自己過於涉入....
+            - [《流麻溝十五號》：發生在平行時空的「白色恐怖」](https://www.facebook.com/coolloud/posts/pfbid0LHapC5KxUbPqC9U9bB2C6AVyr2az7VJHcMLLafS3xFvMytnMKiLVsPCtxps39Q7bl)
             - 我懷疑他在反串
                 - [【任由這樣的電影代言歷史，才是毫無尊嚴的自卑】 by 韋晢](https://www.facebook.com/jaywei0818/posts/pfbid0g53SaA4FBiwLLfsj7FeshqjUNEtXZDgZH7vaFUjVzCcPKTuCE2cTg4owZwJwCUWzl)
                     - [我覺得民主的走向是讓人不會不敢講話，這部片帶給我的感覺是時代被禁聲，對權威的質疑。其實跟台獨差蠻遠的。](https://www.facebook.com/TsingianTan/posts/pfbid0379wPPe6ZeyLQiQSFXFDoYfXUbRVuRw8en1E7CdTMacPzuSHun2un9MxrgAs8Vvr3l)
                     - [我幫台大那位韋晢總結一下，綜觀他所有對於「流麻溝十五號」的問題，基本上可歸納成：「這是姚文智拍的電影」。](https://www.facebook.com/wonderverge/posts/pfbid026sfepfYJkwYLxutHFhnC28UWmmfvQcc8y7C1jrYFV5hio3325Axj2q8RhFTXx4f3l)
                     - [通篇其實可以歸結成一句：「這部史實電影拍得不好，我不認同其敘事與價值觀，這部電影對台灣社會和電影有傷害。」](https://www.facebook.com/jack.dai.18/posts/pfbid0q9es2BkPwmmp1iTVxUd2383wGcHUdo7rZEWo3shYm72tU7NSnFawvW94D9JweKeWl)
-                    - 
 
 - 20221103
     - 新世紀福音戰士劇場版：序
@@ -1007,3 +1007,7 @@
 - 20221120
     - 獨活女子的守則
         - 認真拍的業配文
+
+- 20221122
+    - 她和她的她
+        - 
