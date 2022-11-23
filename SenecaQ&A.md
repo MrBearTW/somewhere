@@ -13,6 +13,7 @@
             - Winter Semester 2023
                 - Move-In Day: January 7, 2023
                 - Move-Out Day: April 22, 2023
+            - 2022/11/18 4,325加幣 (106,883 NT)
         - 住宿選擇
             - 大概區域：North York / Markham / Richmond Hill / Vaughan
             - 地下室
@@ -27,7 +28,10 @@
             - Amazon
         - 抵免學分
             - https://www.senecacollege.ca/registrar/transfer-credit.html
-            - 選 ICAP
+                - 選 ICAP
+            - 2022/11/23 刷卡 299 加幣
+            - 郵局國際快捷 432 NT
+                - DHL 好像要 15?? NT
     - 加拿大相關
         - 雪季
             - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
@@ -55,3 +59,8 @@
     - 保險
     - 駕照
     - 各種文件影本
+
+- 參考資料
+    - 郵局 box5
+        - 海運 約 500多 MT 一個半月或更久才會到
+        - 空運 約 3000多 NT
