@@ -39,6 +39,7 @@
         - [俗女養成記2 所謂閃閃發亮的大人（內有《俗女養成記2》完結篇雷） by  白色豆腐蛋糕電影日記](https://www.facebook.com/kevin.chen.fanclub/posts/4759761204048543)
     - 影評
         - [《俗女養成記 2》陳嘉玲給我的啟示：真正的「在一起」不只是浪漫戲碼，更需要同步建立「我群感」](https://crossing.cw.com.tw/article/15408)
+        - [大齡女子的《俗女養成記》，「人生長到可以做夢再醒過來，短到沒時間討厭、勉強自己」](https://www.vogue.com.tw/culture/content-49115)
 
 - 逆局
     - 看到仔仔不免想起痞子英雄
