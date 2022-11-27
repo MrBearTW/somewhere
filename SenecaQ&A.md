@@ -27,6 +27,7 @@
             - 2 手
             - Amazon
         - 抵免學分
+            - 有 E-mail 提醒
             - https://www.senecacollege.ca/registrar/transfer-credit.html
                 - 選 ICAP
             - 2022/11/23 刷卡 299 加幣
