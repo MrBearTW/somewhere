@@ -2,7 +2,7 @@
 - F2E 前端挑戰
 - 外包案件
 - Youtube 產生器
-- 刷 LeetCode
+- 刷 [LeetCode](https://leetcode.com/subscribe/?discount_event_referral=jamieperng)
 
 # IG抽獎
 - 免登入
@@ -317,4 +317,6 @@ Laravel
 - [計算機科學之美](https://github.com/ianchen0119/AwesomeCS/wiki)
 
 - [陽春版 Bloomberg！免費投資研究工具介紹，一站串聯各大股市分析網站 – OpenBB](https://singledoggy.investments/2022/11/24/openbb/)
+
+- [各種圖示 Roadmap](https://roadmap.sh/)
 

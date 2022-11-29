@@ -17,7 +17,7 @@
         - [工程師星箭日誌：Build #18318 Mosky（劉依語）](https://medium.com/starrocket/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E6%98%9F%E7%AE%AD%E6%97%A5%E8%AA%8C-build-18318-mosky-%E5%8A%89%E4%BE%9D%E8%AA%9E-942f8e673241)
 
 - 刷題網站
-    - [leetcode](https://leetcode.com/)
+    - [leetcode](https://leetcode.com/subscribe/?discount_event_referral=jamieperng)
     - [91APP 的面試題目](https://docs.google.com/forms/d/e/1FAIpQLSfuEelhIQU8gRTOtaFKZigy6n7GDQTnhnWJVrtD3NZHhuNVJg/viewform)
 
 - 自學

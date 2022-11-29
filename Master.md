@@ -507,7 +507,7 @@
 - 刷題另外推薦
     - LintCode
     - HackerRank
-    - Leetcode
+    - [Leetcode](https://leetcode.com/subscribe/?discount_event_referral=jamieperng)
         - Easy 30%
         - Medium 60%
         - Hard 10%
