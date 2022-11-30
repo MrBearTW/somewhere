@@ -61,6 +61,10 @@
 - 出國前處理一下
     - 加拿大駕照
     - 台灣手機門號
+        - 中華電信預付卡
+        - 台灣之星 
+            - [官方連結](https://www.tstartel.com/CWS/estore_payasyougo.php)
+            - [網友教學](https://aillynotes.com/t-star/)
     - 保險
         - 參考 [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
 
