@@ -78,3 +78,9 @@
 - 工作
     - [績效考核](https://youtu.be/LpoQcGRRLdE)
 
+
+
+- 2022/12/3 LinkedIn Workshop
+    1. https://students.senecacollege.ca/spaces/138/seneca-works/home
+    2. You can book a virtual appointment with a Career Strategist at https://sw.senecacollege.ca/home.htm  click career development > appointments > book by service provider
+    3. https://students.senecacollege.ca/spaces/115/linkedin-learning/
