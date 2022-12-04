@@ -77,6 +77,7 @@
 
 - 工作
     - [績效考核](https://youtu.be/LpoQcGRRLdE)
+    - [軟體工程師升等之路：Google 評級的三加一項考核領域 by 灣區下午茶](https://holyisland.blog/google-swe-rating-factors/)
 
 
 
