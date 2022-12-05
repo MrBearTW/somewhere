@@ -1,3 +1,17 @@
+# 2022/12/05
+- 職涯
+    - Follow the trend
+    - Relearn from the scratch
+    - Pick one and move on
+
+- 趨勢
+    - 標準制定的加速
+    - AI
+        - Inhence
+        - 推薦
+        - 內容整理
+
+
 # 2019/12/27
 - KKstream
 DEMUXED 2018
