@@ -35,6 +35,8 @@
     - 20221012 訂機票 / 剩候補...
         - 長榮里程兌換可以先預定，但同時也排候補。
     - 20221105 代辦結案
+    - 20221206 選課
+        - [RMP](https://www.ratemyprofessors.com/)
 
 - 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
