@@ -37,6 +37,7 @@
     - 20221105 代辦結案
     - 20221206 選課
         - [RMP](https://www.ratemyprofessors.com/)
+    - 20221208 INTERNATIONAL VIRTUAL ORIENTATION
 
 - 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
