@@ -1,7 +1,7 @@
 # Made by Google: Meet Googlers Behind Pixel 7
 - 從黑客松開始的專案
     - 有人用的真心感謝
-- 手動都發給外包
+- 手動都發給外包，正職都要會寫自動化
 
 # 2020/01/21 GDGCloud Taipei x Elastic Meetup #51
 - 19:40 - 20:20 Building a Search Engine on Google Cloud with Elasticsearch  Fermi Fang / Elastic
