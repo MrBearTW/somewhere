@@ -1,6 +1,7 @@
 - Q 想問的問題
     - CPP / CPA 相關
         - 買電腦建議
+            - Win / Mac 沒差
         - 選課
         - LINE 群組
             - 課表
@@ -22,17 +23,19 @@
             - 租外面和租學校差異？
                 - 下雪天很方便
         - 交通卡
+            - 好像是用 APP
         - 就業博覽會
         - 課本
-            - 2 手
-            - Amazon
+            - CPP / CPA 幾乎不用買課本
         - 抵免學分
             - 有 E-mail 提醒
             - https://www.senecacollege.ca/registrar/transfer-credit.html
                 - 選 ICAP
             - 2022/11/23 刷卡 299 加幣
-            - 郵局國際快捷 432 NT
+            - 2022/11/23 郵局國際快捷 432 NT
                 - DHL 好像要 15?? NT
+                - 2022/12/02 寄到 WES
+            - 2022/12/06 WES 來信：The estimated completion date for your report is December 15, 2022
     - 加拿大相關
         - 雪季
             - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
@@ -57,9 +60,9 @@
 - 租車
 
 - Check List
-    - 現金 10000 加幣 / 支票？
+    - 現金 10000 加幣 / 支票
         - 匯票
-            - 臺灣銀行 --> TD 銀行
+            - 臺灣銀行 --> TD 銀行 (朋友經驗：手續費 400 台幣)
     - 信用卡 PIN 碼確認
     - 保險
     - 駕照

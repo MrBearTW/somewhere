@@ -48,10 +48,13 @@
         - 四月左右開始申請 https://developers.googleblog.com/2022/04/google-developer-student-club-2022-lead.html
     - 和趨勢合作？https://www.trendmicro.com/zh_tw/about/customer-stories/seneca-college.html
 
-- 社團
-    - FB [聖力嘉學院台灣學生交流群 Seneca College Taiwan Students](https://www.facebook.com/groups/227360092568016)
+- 社群
+    - Facebook 
+        - [聖力嘉學院台灣學生交流群 Seneca College Taiwan Students](https://www.facebook.com/groups/227360092568016)
+        - [Seneca College Students](https://www.facebook.com/groups/3603905606376973)
     - [Dcard 討論串](https://www.dcard.tw/f/studyabroad/p/236928011)
-    - LINE 群組
+    - [LINE 群組](https://line.me/ti/g/X06wsj--OP)
+    - [Reddit](https://www.reddit.com/r/Seneca/) 
 
 - 生活
     - 網路
