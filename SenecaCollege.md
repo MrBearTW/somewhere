@@ -84,13 +84,13 @@
     - [績效考核](https://youtu.be/LpoQcGRRLdE)
     - [軟體工程師升等之路：Google 評級的三加一項考核領域 by 灣區下午茶](https://holyisland.blog/google-swe-rating-factors/)
 
-- 
-- [軟體工程面試 5件該做 & 5件不該做的事 刷題技巧 面試禁忌 | Coding Interview Dos & Don'ts](https://youtu.be/N8Gt-E1N9Bc)
-    - 不要太愛用 IDE / 用手寫
-    - 做模擬面試
-        - 模擬面試媒合網頁 pramp (有另外一個影片介紹)
-    - 不要面試前做新題目
-    - 不要太亂穿衣服
+- Untype 對啊我是工程師
+    - [軟體工程面試 5件該做 & 5件不該做的事 刷題技巧 面試禁忌 | Coding Interview Dos & Don'ts](https://youtu.be/N8Gt-E1N9Bc)
+        - 不要太愛用 IDE / 用手寫
+        - 做模擬面試
+            - 模擬面試媒合網頁 pramp (有另外一個影片介紹)
+        - 不要面試前做新題目
+        - 不要太亂穿衣服
 
 - 2022/12/3 LinkedIn Workshop
     1. https://students.senecacollege.ca/spaces/138/seneca-works/home

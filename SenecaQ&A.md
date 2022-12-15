@@ -6,7 +6,8 @@
         - LINE 群組
             - 課表
                 - Rank your prof?
-        - 實習機會
+        - Co-op 機會
+            - 要看前幾個學期的成績
     - Seneca College 相關
         - Residence
             - [residence](https://senecaresidence.ca/faq/)
