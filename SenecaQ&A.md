@@ -37,6 +37,7 @@
                 - DHL 好像要 15?? NT
                 - 2022/12/02 寄到 WES
             - 2022/12/06 WES 來信：The estimated completion date for your report is December 15, 2022
+            - 2022/12/20 課程大綱需要補學校印章。
     - 加拿大相關
         - 雪季
             - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
