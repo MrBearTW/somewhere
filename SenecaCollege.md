@@ -94,6 +94,19 @@
         - 不要面試前做新題目
         - 不要太亂穿衣服
 
+- Terry
+    - 刷題另外推薦
+        - LintCode
+        - HackerRank
+        - [Leetcode](https://leetcode.com/subscribe/?discount_event_referral=jamieperng)
+            - Easy 30%
+            - Medium 60%
+            - Hard 10%
+    - 系統設計推薦書
+        - Grokking the system Design Interview by Educative.io
+    - 談薪水參考網站
+        - levels.fyi
+
 - 2022/12/3 LinkedIn Workshop
     1. https://students.senecacollege.ca/spaces/138/seneca-works/home
     2. You can book a virtual appointment with a Career Strategist at https://sw.senecacollege.ca/home.htm  click career development > appointments > book by service provider

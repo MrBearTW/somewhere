@@ -503,18 +503,6 @@
 - 稅
 - 移民條件
 
-# Terry
-- 刷題另外推薦
-    - LintCode
-    - HackerRank
-    - [Leetcode](https://leetcode.com/subscribe/?discount_event_referral=jamieperng)
-        - Easy 30%
-        - Medium 60%
-        - Hard 10%
-- 系統設計推薦書
-    - Grokking the system Design Interview by Educative.io
-- 談薪水參考網站
-    - levels.fyi
 
 # US 移民
 - 兄弟姊妹屬於 F4
