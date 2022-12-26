@@ -16,6 +16,7 @@
                 - Move-In Day: January 7, 2023
                 - Move-Out Day: April 22, 2023
             - 2022/11/18 4,325加幣 (106,883 NT)
+            - 2022/12/25 收到室友 Email 可以聯繫
         - 住宿選擇
             - 大概區域：North York / Markham / Richmond Hill / Vaughan
             - 地下室

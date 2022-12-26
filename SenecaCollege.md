@@ -38,6 +38,7 @@
     - 20221206 選課
         - [RMP](https://www.ratemyprofessors.com/)
     - 20221208 INTERNATIONAL VIRTUAL ORIENTATION
+    - 20221221 收到機場接送相關訊息
 
 - 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
