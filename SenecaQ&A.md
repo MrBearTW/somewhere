@@ -32,7 +32,7 @@
             - 有 E-mail 提醒
             - https://www.senecacollege.ca/registrar/transfer-credit.html
                 - 選 ICAP
-            - 2022/11/23 刷卡 299 加幣
+            - 2022/11/23 刷卡 299 加幣 (6997 台幣)
             - 2022/11/23 郵局國際快捷 432 NT
                 - DHL 好像要 15?? NT
                 - 2022/12/02 寄到 WES
