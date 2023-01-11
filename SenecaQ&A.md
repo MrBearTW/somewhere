@@ -114,7 +114,6 @@
 - 22:35  海關問完問題蓋章
     - 拿完行李要出去時會交出過海關時印出來的那張紙。
 
-
 - 22:58 等車處報到
 - 23:03 上車
     - 司機是一位中東男士包頭的中年先生
@@ -134,3 +133,11 @@
         - 淋浴間很小，一坪左右
         - 蓮蓬頭是固定式
         - 燈光是適合睡覺偏暗的黃光，需要檯燈支援
+
+# 搭 shttle bus
+- [路線與時刻表](https://students.senecacollege.ca/spaces/59/transportation/wiki/view/265/campus-shuttle)
+- 準時發車
+- Newnham Campus --> Markham Campus 要繞一圈掉頭會稍微慢一點
+- Markham Campus --> Newnham Campus 順向很快就到
+
+# Food Plan
