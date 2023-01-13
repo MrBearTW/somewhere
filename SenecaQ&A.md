@@ -26,7 +26,7 @@
                 - 下雪天很方便
         - 交通卡
             - 好像是用 APP
-            - 學生折扣申請 https://www.gotransit.com/en/trip-planning/going-to-school/student-id
+            - [學生折扣申請](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
         - 就業博覽會
         - 課本
             - CPP / CPA 幾乎不用買課本
@@ -39,10 +39,11 @@
                 - DHL 好像要 15?? NT
                 - 2022/12/02 寄到 WES
             - 2022/12/06 WES 來信：The estimated completion date for your report is December 15, 2022
-            - 2022/12/20 課程大綱需要補學校蓋章。
-            - 補件
-            - 收到補件
-            - 完成請到 MySeneca 檢查
+            - 2022/12/20 Seneca 表示課程大綱需要補學校蓋章。
+            - 2023/12/27 送出有加印章的補件
+            - 2023/1/5 回信收到補件
+            - 2023/1/7 完成請到 MySeneca 檢查
+            - 2023/1/11 應該是 1521.4 加幣(COM111)
     - 加拿大相關
         - 雪季
             - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
@@ -136,6 +137,7 @@
             - 馬芬、爆甜的麵包
             - 優格、蘋果
         - 一分鐘就走進校園建築
+        - 各種不定期活動可以參加
     - 缺點
         - 淋浴間很小，一坪左右
         - 蓮蓬頭是固定式

@@ -39,6 +39,7 @@
         - [RMP](https://www.ratemyprofessors.com/)
     - 20221208 INTERNATIONAL VIRTUAL ORIENTATION
     - 20221221 收到機場接送相關訊息
+    - 20220111 學費金額不太對
 
 - 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
@@ -61,6 +62,9 @@
 - 生活
     - 網路
         - Google Fi
+        - Virgin plus 推薦連結 [https://refer.virginplus.ca/chiweip-1](https://refer.virginplus.ca/chiweip-1)
+            - 你我每月都各賺 5 加幣共 10 個月。
+            - 辦完後再點選即可
     - 交通
         - [FB 汽車服務推薦](https://www.facebook.com/groups/68426949235/)
         - EVA Air BR0036 TPE 19:40 --> YYZ 20:30
