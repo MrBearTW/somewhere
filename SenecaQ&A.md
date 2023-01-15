@@ -83,7 +83,7 @@
 
 
 # 入境後拿 Study permit
-- 長榮 BR36 表定 20:30
+- 長榮 BR36 表定 20:30 到多倫多 YYZ
 - 實際 20:49 抵達多倫多 YYZ 下飛機後
     - 沿路會有兩個土炮站立告示牌用黃色 A3 紙寫著 New Student 的指示
 1. 我看到第一個就停下來被指引到第一個空間等待（就是兩大排椅子坐著一直看著其他人往前走）
@@ -150,6 +150,9 @@
     - 其他
         - 只有冰箱，微波爐，電視。
         - 洗衣和烘衣各兩塊，第一次買卡五塊。
+            - 洗衣 45 分鐘
+                - 熱水或溫水要加 0.5 加幣
+            - 烘衣 60 分鐘
 
 # 搭 shttle bus
 - [路線與時刻表](https://students.senecacollege.ca/spaces/59/transportation/wiki/view/265/campus-shuttle)
@@ -157,5 +160,18 @@
 - Newnham Campus --> Markham Campus 要繞一圈掉頭會稍微慢一點
 - Markham Campus --> Newnham Campus 順向很快就到
 
-# Food Plan
-- 免費的湯
+# 食物
+- 學校
+    - Food Plan 免費的湯 / 天
+- SSF
+    - Food bank / 月
+        - 2023 一月
+            - 米一包
+            - 義大利麵一包
+            - 麵粉一包
+            - 鸚嘴豆一罐
+            - 混合豆一罐
+            - 扁豆一罐
+            - 壓碎番茄一罐
+            - 餅乾一包
+    - 週一
