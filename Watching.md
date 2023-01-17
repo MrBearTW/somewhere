@@ -1038,6 +1038,14 @@
         - 富含環保意識？
         - 壞人藏都不藏？
 
-- 20220105
+- 20230105
     - 星期三
         - 狼女好Q
+
+- 20230111
+    - Star Wars: The Bad Batch 星際大戰：瑕疵小隊
+        - 帶小孩
+
+- 20230114
+    - Everything Everywhere All at Once 媽的多重宇宙
+        - Be kind

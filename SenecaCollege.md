@@ -65,6 +65,8 @@
         - Virgin plus 推薦連結 [https://refer.virginplus.ca/chiweip-1](https://refer.virginplus.ca/chiweip-1)
             - 你我每月都各賺 5 加幣共 10 個月。
             - 辦完後再點選即可
+            - 申辦費 50，現場工作人員可以幫你去掉 25，拿到第一筆帳單後聯絡克服可以在去除 25，有點麻煩但省錢重要。
+            - 20GB / 40CA / 月，加拿大電信費真的貴。
     - 交通
         - [FB 汽車服務推薦](https://www.facebook.com/groups/68426949235/)
         - EVA Air BR0036 TPE 19:40 --> YYZ 20:30
@@ -79,7 +81,7 @@
             - [官方連結](https://www.tstartel.com/CWS/estore_payasyougo.php)
             - [網友教學](https://aillynotes.com/t-star/)
                 - 預設會開啟簡訊和語音漫遊
-                - 接電話也是要付漫遊費
+                - 在加拿大接電話也是要付漫遊費
     - 保險
         - 參考 [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
 
