@@ -156,6 +156,7 @@
             - 洗衣 45 分鐘
                 - 熱水或溫水要加 0.5 加幣
             - 烘衣 60 分鐘
+        - 房間窗戶是面東邊或西邊，就是會看到日出或是夕陽
 
 # 搭 shttle bus
 - [路線與時刻表](https://students.senecacollege.ca/spaces/59/transportation/wiki/view/265/campus-shuttle)
@@ -184,7 +185,16 @@
 - W0
     - 選課記得先加入 Adviser 的 Teams 群組，會公告哪幾堂課有加開位置。
         - 但是我沒加也是選完了
+    - 天氣只有兩天是晴天，其他時間都陰陰的或下雨
 - W1 
     - 看清楚交作業期限
+    - 下雪了
+    - 學費和註冊時有一些差異 131.18CA
 - W2
     - 
+
+# 關於要不要選這個 CPP 課程
+- 第一學期的一些課程網頁，不需要 VPN 也可以看
+    - 沒有人要蕉的都放到這一堂 https://cpr101.ca/
+    - C 語言 https://intro2c.sdds.ca/
+    - UNIX 入門 https://wiki.cdot.senecacollege.ca/wiki/ULI101_Weekly_Schedule
