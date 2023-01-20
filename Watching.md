@@ -1045,6 +1045,7 @@
 - 20230111
     - Star Wars: The Bad Batch 星際大戰：瑕疵小隊
         - 帶小孩
+        - 帝國
 
 - 20230114
     - Everything Everywhere All at Once 媽的多重宇宙

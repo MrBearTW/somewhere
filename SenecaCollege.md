@@ -41,7 +41,7 @@
     - 20221221 收到機場接送相關訊息
     - 20220111 學費金額不太對
 
-- 餘額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
+- 課程名額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
 - 行事曆 [Winter 2023 Term](https://students.senecacollege.ca/spaces/135/important-academic-dates/wiki/view/730/winter-2023-term)
 
