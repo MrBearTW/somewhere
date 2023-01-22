@@ -1046,6 +1046,7 @@
     - Star Wars: The Bad Batch 星際大戰：瑕疵小隊
         - 帶小孩
         - 帝國
+        - 效忠的對象是誰？
 
 - 20230114
     - Everything Everywhere All at Once 媽的多重宇宙

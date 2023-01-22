@@ -77,7 +77,8 @@
     - 信用卡 PIN 碼確認
     - 保險
     - 駕照
-        - [](https://woori.com.tw/ontario-drivers-licence/)
+        - 參考 [【加拿大】國際駕照申請&台灣駕照換安省駕照(2021最新教學)-WOORI](https://woori.com.tw/ontario-drivers-licence/)
+        - 台灣部分
         - 2023/1/3 現場交件，預計一個月
         - 2023/1/18 10:57 收到 Email 通知可以去拿
         - 
@@ -164,7 +165,9 @@
             - 洗衣 45 分鐘
                 - 熱水或溫水要加 0.5 加幣
             - 烘衣 60 分鐘
-        - 房間窗戶是面東邊或西邊，就是會看到高速公路&日出或是校園&夕陽
+        - 商店，都不是 24 hr
+            - 一間超商 [M&M Food Market](https://goo.gl/maps/6LafWNfNs7zCKfzz6)
+            - 一間 [Subway](https://goo.gl/maps/Rc8Az3zRHFbMKmX16)
 
 # 搭 shttle bus
 - [路線與時刻表](https://students.senecacollege.ca/spaces/59/transportation/wiki/view/265/campus-shuttle)
@@ -175,6 +178,7 @@
 # 食物
 - 學校
     - Food Plan 免費的湯 / 天
+        - 看收據好像其實是 200 塊，一碗含稅 1.33
 - SSF
     - Food bank / 月
         - 2023 一月
@@ -189,7 +193,7 @@
     - 週一起司三明治 1$ CA
     - 週五鬆餅日 1$ CA
 
-# 心得
+# 雜記
 
 - 開學前
     - 選課
@@ -199,7 +203,7 @@
         - 但是我沒加也是選完了
     - 天氣只有兩天是晴天，其他時間都陰陰的或下雨
     - 有[LinkedIn Learning](https://students.senecacollege.ca/spaces/115/linkedin-learning/home) 可以用，超多課可以上。
-- W1 
+- W1 2023/01/09~15
     - 每一堂課都會用到的共同事前安裝準備 https://gettingstarted.sdds.ca/
     - 看清楚交作業期限
     - 下雪了
@@ -207,13 +211,17 @@
     - Email 和教室有貼請戴口罩，但應該不到三分之一的人有戴。
     - SLG Study Learning Group 是學長姐給問問題。
     - CPR101 尬聊課
-- W2
+- W2 2023/01/16~22
     - 和 Amazon 客服爭取為何多收我運費？
     - SSF 辦公室可以買 10 CA 電影票
+    - 拿到保險卡。
     - 週四風很大
+    - CPR101 老師請假
+    - 週末只有 A 棟的大門口有開
+- W3 2023/01/23~29
 
 # 關於要不要選這個 CPP 課程
-- [課綱看一下]()
+- [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
 - 第一學期的一些課程網頁，不需要 VPN 也可以看
     - 沒有人要蕉的都放到這一堂 https://cpr101.ca/
     - C 語言 https://intro2c.sdds.ca/
