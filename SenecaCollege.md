@@ -38,7 +38,7 @@
     - 20221206 選課
         - [RMP](https://www.ratemyprofessors.com/)
     - 20221208 INTERNATIONAL VIRTUAL ORIENTATION
-    - 20221221 收到機場接送相關訊息
+    - 20221221 收到機場接送相關訊息（出發前十天）
     - 20220111 學費金額不太對
 
 - 課程名額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
@@ -67,6 +67,7 @@
             - 辦完後再點選即可
             - 申辦費 50，現場工作人員可以幫你去掉 25，拿到第一筆帳單後聯絡克服可以在去除 25，有點麻煩但省錢重要。
             - 20GB / 40CA / 月，加拿大電信費真的貴。
+                - 加完稅後逼近 50 CA。
     - 交通
         - [FB 汽車服務推薦](https://www.facebook.com/groups/68426949235/)
         - EVA Air BR0036 TPE 19:40 --> YYZ 20:30
@@ -122,3 +123,16 @@
     1. https://students.senecacollege.ca/spaces/138/seneca-works/home
     2. You can book a virtual appointment with a Career Strategist at https://sw.senecacollege.ca/home.htm  click career development > appointments > book by service provider
     3. https://students.senecacollege.ca/spaces/115/linkedin-learning/
+
+- 
+    - Networking 可以發現很多沒被貼出來的工作
+
+- 2023/01/23 
+    - 六成把握就衝了
+    - 不要隨意提供個人資料
+    - 合約應該要有審閱期，不用馬上簽
+    - First name
+    - Weather, plan for weekend
+        - Avoid: Personal salary, polical, religion
+    - Linkedin / [Indeed](https://ca.indeed.com/)
+    - You can book a virtual appointment with a Career Strategist at https://sw.senecacollege.ca/home.htm  click career development > appointments > book by service provider
