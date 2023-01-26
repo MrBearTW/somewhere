@@ -26,7 +26,7 @@
                 - 下雪天很方便
         - 交通卡
             - 先買卡，才能拿來綁定 APP
-            - 才能申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
+            - 再來才能申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
                 - 需學校信箱
                 - 1~30 40% OFF，31~40 95% OFF，之後不用錢
                     - [Post-Secondary Student](https://www.gotransit.com/en/trip-planning/presto/fare-discounts-with-presto#youthstudent)
@@ -148,6 +148,7 @@
         - 各種不定期活動可以參加
         - 24 小時保全
     - 缺點
+        - 明顯較貴，平均每月超過 1000CA，已可在外租個人套房。
         - 淋浴間很小
             - 和室友的洗髮乳沐浴乳要每天拿進拿出
             - 浴簾要自行購買
@@ -209,20 +210,60 @@
     - 下雪了
     - 學費和註冊時有一些差異 131.18CA
     - Email 和教室有貼請戴口罩，但應該不到三分之一的人有戴。
-    - SLG Study Learning Group 是學長姐給問問題。
+    - SLG (Study Learning Group) 是學長姐給問問題，不需要其實可以完全不出席。
     - CPR101 尬聊課
 - W2 2023/01/16~22
+    - 很多和工作有關的講座活動開始報名
     - 和 Amazon 客服爭取為何多收我運費？
     - SSF 辦公室可以買 10 CA 電影票
     - 拿到保險卡。
     - 週四風很大
-    - CPR101 老師請假
-    - 週末只有 A 棟的大門口有開
+    - APS145 要自己付錢上網學數學，之後費用會被加到學費中
+    - CPR101 老師請假，只用 Teams 通知，沒有用 Email，沒跟到的就 GG。
+    - 週末只有 A 棟的停車場大門口有開
+    - SIA = Markham 校區北邊就有個小機場
 - W3 2023/01/23~29
+    - SIN 學校駐點，Newnham 名額瞬間爆滿，跑到 Markham 去申請
+    - 飲水機感應器壞掉的話，下面通常還有一個實體按鈕可以用。
+    - 原來 School of Software Design & Data Science office 在 A 棟
+    - Newnham 和 Markham 校區旁邊的高速公路是 404
+    - Seneca College Downtown 超清幽的，在 17 樓，感受一下市中心高樓的感覺。
+        - 在台灣駐多倫多辦公室後面兩個街區。
+    - 多倫多有 Five Guys，漢堡推推
+    - 週三暴風雪，中午後所有課程轉線上
+        - 有一點輕度颱風的感覺
+
 
 # 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
 - 第一學期的一些課程網頁，不需要 VPN 也可以看
-    - 沒有人要蕉的都放到這一堂 https://cpr101.ca/
-    - C 語言 https://intro2c.sdds.ca/
-    - UNIX 入門 https://wiki.cdot.senecacollege.ca/wiki/ULI101_Weekly_Schedule
+    - CPR101 --> 深入版的計算機概論/沒有人要教的都放到這一堂 https://cpr101.ca/
+    - IPC144 --> C 語言 https://intro2c.sdds.ca/
+        - Workshop https://github.com/Seneca-144100/IPC-Workshops
+    - ULI101 --> UNIX/Linux 入門 https://wiki.cdot.senecacollege.ca/wiki/ULI101_Weekly_Schedule
+        - https://github.com/ULI101
+- 教太慢
+- 可以接受丟一堆東西自己看嗎？
+- 是否願意參與一些當下看起來很不重要的討論？
+- 簡化的結論
+- 一直沒拿到分數 / 惱羞成怒的同學
+
+# 老師特色
+- IPC144
+    - 悠哉的感覺
+    - 冷笑話
+    - Quiz 會發回來
+- ULI101
+    - 會走到你面前
+    - 會點名
+    - 上課希望你專心聽講不要做別的事
+- CPR101
+    - 顧問業
+    - 成為一個專業的工程師
+    - 極度技術
+        - 應該用快捷鍵
+        - 應該用什麼軟體
+    - 覺得 Visual Studio 是業界標準
+- APS145
+    - 上課到超時
+    - 會點名
