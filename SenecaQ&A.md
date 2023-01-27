@@ -198,7 +198,7 @@
 
 - 開學前
     - 選課
-        - 
+        - 先看一下哪幾堂是開給自己系選的，系統不會幫你過濾...
         - 
     - 選課記得先加入 Adviser 的 Teams 群組，會公告哪幾堂課有加開位置。
         - 但是我沒加也是選完了
@@ -254,10 +254,12 @@
     - 冷笑話
     - Quiz 會發回來
 - ULI101
+    - [Syed Misbahuddin](https://www.linkedin.com/in/syed-misbahuddin-57262316/)
     - 會走到你面前
-    - 會點名
+    - 幾乎每一堂會點名
     - 上課希望你專心聽講不要做別的事
 - CPR101
+    - [Tim McKenna](https://www.linkedin.com/in/timmckenna/)
     - 顧問業
     - 成為一個專業的工程師
     - 極度技術
