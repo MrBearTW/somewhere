@@ -42,10 +42,13 @@
                 - DHL 好像要 15?? NT
                 - 2022/12/02 寄到 WES
             - 2022/12/06 WES 來信：The estimated completion date for your report is December 15, 2022
+            - 2022/12/14 WES 通知完成
             - 2022/12/20 Seneca 表示課程大綱需要補學校蓋章。
             - 2023/12/27 送出有加印章的補件
             - 2023/1/5 回信收到補件
             - 2023/1/7 收到完成通知，請到 MySeneca 檢查
+            - 2023/1/8 寄 Email 問 Adviser 後續如何處理（開學第一週）
+                - 2023/1/10 收到 Adviser 確認，放心把課退掉
             - 2023/1/11 應該是 1521.4 加幣(COM111)
     - 加拿大相關
         - 雪季
@@ -124,7 +127,6 @@
 
 - 22:35  海關問完問題蓋章
     - 拿完行李要出去時會交出過海關時印出來的那張紙。
-
 - 22:58 等車處報到
 - 23:03 上車
     - 司機是一位中東男士包頭的中年先生
@@ -138,10 +140,9 @@
     - 晚上 6:00 線上介紹
 - 優缺點
     - 優點
-        - 整理得很乾淨
-        - 東西都很新
+        - 整理得很乾淨，東西都算新
         - 有人代收包裹
-            - 但工作人員寄信給你才可以去拿，Amazon APP 顯示到貨和工作人員寄信大概會差半天
+            - 但要等工作人員寄信給你才可以去拿，Amazon APP 顯示到貨和工作人員寄信大概會差半天
         - 每週三 9:00~11:00 有早餐活動
             - 咖啡、茶包、巧克力
             - 馬芬、爆甜的麵包
@@ -170,7 +171,16 @@
             - 烘衣 60 分鐘
         - 商店，都不是 24 hr
             - 一間超商 [M&M Food Market](https://goo.gl/maps/6LafWNfNs7zCKfzz6)
+                - 東西沒有比較便宜
             - 一間 [Subway](https://goo.gl/maps/Rc8Az3zRHFbMKmX16)
+    - 活動紀錄
+        - 去市區溜冰
+            - 可以不溜
+        - 去 [Walmart](https://goo.gl/maps/mbTGaMuAv315CdZD9) 採買
+            - 其實說是去 [Scarborough Town Centre](https://goo.gl/maps/AJcJrwfdtp2dktYB9) 比較對
+                - 有 Dollarama / Decathlon
+                - 未來會有一個 IKEA
+                - 看 Google map 發現旁邊是地鐵藍線終站
 
 # 搭 shttle bus
 - [路線與時刻表](https://students.senecacollege.ca/spaces/59/transportation/wiki/view/265/campus-shuttle)
@@ -193,6 +203,7 @@
             - 扁豆一罐
             - 壓碎番茄一罐
             - 餅乾一包
+        - 2023 二月
     - 週一起司三明治 1$ CA
     - 週五鬆餅日 1$ CA
 
@@ -228,17 +239,25 @@
 - W3 2023/01/23~29
     - SIN 學校駐點，Newnham 名額瞬間爆滿，跑到 Markham 去申請
         - 我室友有 Co-op ，好像可以入境時就一起辦
-        - 需要填寫父母英文姓名，可以先準備一下
-        - ServiceOntario 和 ServiceCanada 是不一樣的單位，科科
+        - 需要填寫父母英文姓名，可以先準備
+        - 發現 ServiceOntario 和 ServiceCanada 是不一樣的單位，科科
     - 飲水機感應器壞掉的話，下面通常還有一個實體按鈕可以用。
     - 原來 School of Software Design & Data Science office 在 A 棟
-    - Newnham 和 Markham 校區旁邊的高速公路是 404
+    - Newnham 和 Markham 校區旁邊的高速公路是 404 號
     - Seneca College Downtown 超清幽的，在 17 樓，感受一下市中心高樓的感覺。
         - 在台灣駐多倫多辦公室後面兩個街區。
     - 多倫多有 Five Guys，漢堡推推
     - 週三暴風雪，中午後所有課程轉線上
         - 有一點輕度颱風的感覺
+    - gametime 買 NBA 門票是美金
     - 辦了加拿大好市多卡。
+    - 還是喝到珍奶了，哈哈哈
+    - Walmart 刷信用卡超過 200 過不了有夠尷尬，好險有帶 Debit Card
+
+- W4 1/30~2/5
+    - 作業遲交。
+    - 加拿大居然沒有鼎泰豐
+    - 同學好像開始變少？教室座位空比較多
 
 # 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -259,13 +278,14 @@
     - Robert Robson
     - 悠哉的感覺
     - 冷笑話
-    - Quiz 會發回來
-    - 考試用紙本，單選
+    - Quiz 用紙本，單選和多選，會發回來
+        - 是考當週會教的，要比已上課的部分提早一些進度預習
 - ULI101
     - [Syed Misbahuddin](https://www.linkedin.com/in/syed-misbahuddin-57262316/)
-    - 會走到你面前
+    - 會走到你面前問問題
     - 幾乎每一堂會點名
     - 上課希望你專心聽講不要做別的事
+    - Quiz 用 Blackboard 系統
 - CPR101
     - [Tim McKenna](https://www.linkedin.com/in/timmckenna/)
     - 顧問業
@@ -275,9 +295,12 @@
         - 應該用什麼軟體
     - 覺得 Visual Studio 是業界標準
     - 考試用 Blackboard 系統，單選、多選、簡答
-    - Get it done
+    - Professional / Get it done
+    - 對 Mac 使用者不是很友善的作業內容
+        - 用學校 Win 電腦做應該比較方便
 - APS145
     - Cameron Gray
     - 上課到超時
     - 會點名
     - 分組作業隊友完全就是運氣。
+        - 群組作業會直接寫名字，沒做可以不寫上去
