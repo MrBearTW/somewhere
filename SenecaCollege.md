@@ -1,4 +1,5 @@
-- 時程
+# Seneca CPP C
+-  申請時程
     - 2022/04/23 備齊文件請代辦送出學校申請
     - 2022/04/14 23:22 Your Seneca Login Information - Action Required (收到學校的信箱帳號密碼)
         - 90 加幣 = 2113 台幣
@@ -6,22 +7,23 @@
     - 2022/05/05 20:22 Congratulations, this is your Seneca offer to Computer Programming (上 Student Home 確認申請)
     - 2022/05/16 郵局申請存款證明
         - 存款證明是用前一天的數字，需要的金額需提前至少一天存入。
-        - 要有匯率數字，美金匯率
+        - 要有匯率數字，用美金匯率即可
     - 繳學費
         - 2022/05/26 申請 Flywire 繳款單學費
-            - 8287.61 加幣 (ˊ6614 USD)
+            - 8287.61 加幣 (6614 USD)
         - 2022/05/27 元大繳款
-            - 手續費 800 NTT
-        - 2022/05/28 收到上方有 Seneca Logo 的收到款項通知
-            - PDF 上有 PAID
+            - 手續費 800 NT
+        - 2022/05/28 收到收到款項通知
+            - 上方有 Seneca Logo 的
+            - 中間有浮水印 PAID
     - 20220531 健康檢查
-        - 第一次檢查
+        - 檢查
             - 台北馬偕健檢中心在 16 樓
             - 要帶護照
             - 4100 NT 可刷卡
             - 抽血 驗尿 眼睛 血壓 身高 體重 胸部X光 醫師問診
         - 20220605 通知：因 XXX 因素，需來複檢，須預約時間
-        - 20220607 健康檢查複檢 350 元
+            - 20220607 健康檢查複檢 350 元
     - 20220712 完成自傳等文件，送出簽證申請
         - 235 加幣 = 5503 台幣
     - 20220718 生物特徵建立
@@ -58,6 +60,7 @@
     - [Dcard 討論串](https://www.dcard.tw/f/studyabroad/p/236928011)
     - [LINE 群組](https://line.me/ti/g/X06wsj--OP)
     - [Reddit](https://www.reddit.com/r/Seneca/) 
+    - CPP 這個比較有人活動 [Discord](https://discord.gg/seneca)
 
 - 生活
     - 網路
@@ -98,26 +101,331 @@
     - [軟體工程師升等之路：Google 評級的三加一項考核領域 by 灣區下午茶](https://holyisland.blog/google-swe-rating-factors/)
     - [levels.fyi - Software Engineer Salary in Canada](https://www.levels.fyi/t/software-engineer/locations/canada)
 
-- Untype 對啊我是工程師
-    - [軟體工程面試 5件該做 & 5件不該做的事 刷題技巧 面試禁忌 | Coding Interview Dos & Don'ts](https://youtu.be/N8Gt-E1N9Bc)
-        - 不要太愛用 IDE / 用手寫
-        - 做模擬面試
-            - 模擬面試媒合網頁 pramp (有另外一個影片介紹)
-        - 不要面試前做新題目
-        - 不要太亂穿衣服
+- Youyuber
+    - Untype 對啊我是工程師
+        - [軟體工程面試 5件該做 & 5件不該做的事 刷題技巧 面試禁忌 | Coding Interview Dos & Don'ts](https://youtu.be/N8Gt-E1N9Bc)
+            - 不要太愛用 IDE / 用手寫
+            - 做模擬面試
+                - 模擬面試媒合網頁 pramp (有另外一個影片介紹)
+            - 不要面試前做新題目
+            - 不要太亂穿衣服
+    - Terry
+        - 刷題另外推薦
+            - LintCode
+            - HackerRank
+            - [Leetcode](https://leetcode.com/subscribe/?discount_event_referral=jamieperng)
+                - Easy 30%
+                - Medium 60%
+                - Hard 10%
+        - 系統設計推薦書
+            - Grokking the system Design Interview by Educative.io
+        - 談薪水參考網站
+            - levels.fyi
 
-- Terry
-    - 刷題另外推薦
-        - LintCode
-        - HackerRank
-        - [Leetcode](https://leetcode.com/subscribe/?discount_event_referral=jamieperng)
-            - Easy 30%
-            - Medium 60%
-            - Hard 10%
-    - 系統設計推薦書
-        - Grokking the system Design Interview by Educative.io
-    - 談薪水參考網站
-        - levels.fyi
+## Q 想問的問題
+- CPP / CPA 相關
+    - 買電腦建議
+        - Win / Mac 沒差
+    - 選課
+    - LINE 群組
+        - 課表
+            - Rank your prof?
+    - Co-op 機會
+        - 要看前幾個學期的成績
+- Seneca College 相關
+    - Residence
+        - [residence](https://senecaresidence.ca/faq/)
+        - [Summer 2022 Orientation- Residence](https://www.instagram.com/p/CdYk7O5Jgv9/)
+        - Winter Semester 2023
+            - Move-In Day: January 7, 2023
+            - Move-Out Day: April 22, 2023
+        - 2022/11/18 4,325加幣 (106,883 NT)
+        - 2022/12/25 收到室友 Email 可以聯繫
+    - 住宿選擇
+        - 大概區域：North York / Markham / Richmond Hill / Vaughan
+        - 地下室
+        - https://house.51.ca/rental/map?rentalTypes=room
+            - Seneca College Newnham Campus
+        - 租外面和租學校差異？
+            - 下雪天很方便
+    - 交通卡
+        - 先買卡，才能拿來綁定 APP
+        - 再來才能申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
+            - 需學校信箱
+            - 1~30 40% OFF，31~40 95% OFF，之後不用錢
+                - [Post-Secondary Student](https://www.gotransit.com/en/trip-planning/presto/fare-discounts-with-presto#youthstudent)
+    - 就業博覽會
+    - 課本
+        - CPP / CPA 幾乎不用買課本
+    - 抵免學分
+        - 有 E-mail 提醒
+        - https://www.senecacollege.ca/registrar/transfer-credit.html
+            - 選 ICAP
+        - 2022/11/23 刷卡 299 加幣 (6997 台幣)
+        - 2022/11/23 郵局國際快捷 432 NT
+            - DHL 好像要 15?? NT
+            - 2022/12/02 寄到 WES
+        - 2022/12/06 WES 來信：The estimated completion date for your report is December 15, 2022
+        - 2022/12/14 WES 通知完成
+        - 2022/12/20 Seneca 表示課程大綱需要補學校蓋章。
+        - 2023/12/27 送出有加印章的補件
+        - 2023/1/5 回信收到補件
+        - 2023/1/7 收到完成通知，請到 MySeneca 檢查
+        - 2023/1/8 寄 Email 問 Adviser 後續如何處理（開學第一週）
+            - 2023/1/10 收到 Adviser 確認，放心把課退掉
+        - 2023/1/11 應該是 1521.4 加幣(COM111)
+- 加拿大相關
+    - 雪季
+        - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
+            - 下雪就 GG
+        - 走路距離：看個人可以承受程度。
+            - 很看人
+        - 防水登山靴去再買
+        - 防水外套
+        - 防水外套
+        - 頭部保護
+    - 飲用水
+        - 自來水？
+        - 濾水器
+    - 銀行
+        - 信用卡
+- 移動到學校？
+    - 可否睡機場
+        - [Toronto Pearson Airport Guide](https://www.sleepinginairports.net/guides/toronto-pearson-airport-guide.htm)
+- 租車
+
+- Check List
+    - 現金 10000 加幣 / 支票
+        - 匯票
+            - 臺灣銀行 --> TD 銀行 (朋友經驗：手續費 400 台幣)
+    - 信用卡 PIN 碼確認
+    - 保險
+    - 駕照
+        - 參考 [【加拿大】國際駕照申請&台灣駕照換安省駕照(2021最新教學)-WOORI](https://woori.com.tw/ontario-drivers-licence/)
+        - 台灣部分
+        - 2023/1/3 現場交件，預計一個月
+        - 2023/1/18 10:57 收到 Email 通知可以去拿
+        - 2023/1/24 取件，立刻到附近的 ServiceOntario 辦理
+            - 會測試看英文字母和眼角餘光旁邊光點看不看的到
+            - 預計 3~6 週會寄到你填寫的地址
+    - 各種文件影本
+
+- 參考資料
+    - 郵局 box5 / 五公斤
+        - 海運 約 500多 MT 90 天或更久才會到
+        - 空運 約 3000多 NT
+
+
+## 入境後拿 Study permit
+- 長榮 BR36 表定 20:30 到多倫多 YYZ
+- 實際 20:49 抵達多倫多 YYZ 下飛機後
+    - 沿路會有兩個土炮站立告示牌用黃色 A3 紙寫著 New Student 的指示
+1. 我看到第一個就停下來被指引到第一個空間等待（就是兩大排椅子坐著一直看著其他人往前走）
+    - 等等等約半小時
+    - 越來越多學生加入等待，約 20 位
+2. 一起走路到第二個房間（有政府海關人員和機器）
+    - 排隊排排排
+    - 排隊時有一位 Security 會先和你收第一張 VISA 同意書
+    - 使用自動護照辨識機台，刷護照，拍照後得到一張列印出來的紙
+        - 選簡中介面只有一個中國可以選，選英文就不是很確定
+    - 到中央區坐著等待
+        - 等等等（久到我有拿到一瓶水）
+    - 剛剛那位 Security 拿回一疊 Study permit，會對一下名字和生日後發給你
+3. 排隊給海關蓋章
+    - Security 是說只需要 護照、印出來的紙、Study permit
+    - 實際上我還有用到 Offer of the Admission、第一學期繳款證明、財產證明
+    - 海關問題參考(含排隊時聽前面的人被問)
+        - 念什麼學校？什麼校區？什麼科系？
+        - 如何付學費？
+        - 畢業後有什麼打算？
+- 心得
+    - 感覺同時有南亞籍航空到，排隊超多看起來是南亞的朋友。
+        - 另有注意到一位菲律賓，一位日本，一位中國，一位越南
+    - Security 講話有點小聲和口音，後來我在排海關時另一位有比較大聲一點
+    - Security 和機場人員指示可能不一致，就在隨機應變
+    - 排隊的過程中，不斷會重新洗牌，要很有耐心。
+    - 感覺第一個空間排隊是沒必要的，可以從第二個房間直接開始。
+
+- 22:35  海關問完問題蓋章
+    - 拿完行李要出去時會交出過海關時印出來的那張紙。
+- 22:58 等車處報到
+- 23:03 上車
+    - 司機是一位中東男士包頭的中年先生
+    - 我地址是錯的，QQ
+    - 好險距離大約 10 分鐘不到的車程。
+
+## 入住 Newnham Residence 2023 Winter
+- 入住週六當天
+    - 驗身份（護照），拿房卡
+    - 有人可以詢問問題
+    - 晚上 6:00 線上介紹
+- 優缺點
+    - 優點
+        - 整理得很乾淨，東西都算新
+        - 有人代收包裹
+            - 但要等工作人員寄信給你才可以去拿，Amazon APP 顯示到貨和工作人員寄信大概會差半天
+        - 每週三 9:00~11:00 有早餐活動
+            - 咖啡、茶包、巧克力
+            - 馬芬、爆甜的麵包
+            - 優格、蘋果
+        - 一分鐘就走進校園建築
+        - 各種不定期活動可以參加
+        - 24 小時保全
+    - 缺點
+        - 明顯較貴，平均每月超過 1000CA，已可在外租個人套房。
+        - 淋浴間很小
+            - 和室友的洗髮乳沐浴乳要每天拿進拿出
+            - 浴簾要自行購買
+        - 蓮蓬頭是固定式，只能微調一些角度
+        - 燈光是適合睡覺偏暗的黃光，需要檯燈支援
+        - 兩位室友的房間是沒有鎖的。
+        - 廚房只有一樓有，有五組大烤箱和不是明火的電磁爐(IH 爐？)
+        - 空調控制器是在其中一個室友的房間內
+        - 兩位室友的空調是通的，所以隱約可以聽到對方房內的聲音
+            - 但隔壁間就真的是聽不太到。
+        - 沒有健身房
+    - 其他
+        - 只有冰箱，微波爐，電視。
+        - 洗衣和烘衣各兩塊，第一次買卡五塊。
+            - 洗衣 45 分鐘
+                - 熱水或溫水要加 0.5 加幣
+            - 烘衣 60 分鐘
+        - 商店，都不是 24 hr
+            - 一間超商 [M&M Food Market](https://goo.gl/maps/6LafWNfNs7zCKfzz6)
+                - 東西沒有比較便宜
+            - 一間 [Subway](https://goo.gl/maps/Rc8Az3zRHFbMKmX16)
+    - 活動紀錄
+        - 去市區溜冰
+            - 可以不溜
+        - 去 [Walmart](https://goo.gl/maps/mbTGaMuAv315CdZD9) 採買
+            - 其實說是去 [Scarborough Town Centre](https://goo.gl/maps/AJcJrwfdtp2dktYB9) 比較對
+                - 有 Dollarama / Decathlon
+                - 未來會有一個 IKEA
+                - 看 Google map 發現旁邊是地鐵藍線終站
+
+## 搭 shttle bus
+- [路線與時刻表](https://students.senecacollege.ca/spaces/59/transportation/wiki/view/265/campus-shuttle)
+- 準時發車
+- Newnham Campus --> Markham Campus 要繞一圈掉頭會稍微慢一點
+- Markham Campus --> Newnham Campus 順向很快就到
+
+## 食物
+- 學校
+    - Food Plan 免費的湯 / 天
+        - 看收據好像其實是 200 塊，一碗含稅 1.33
+- SSF
+    - Food bank / 月
+        - 2023 一月
+            - 米一包
+            - 義大利麵一包
+            - 麵粉一包
+            - 鸚嘴豆一罐
+            - 混合豆一罐
+            - 扁豆一罐
+            - 壓碎番茄一罐
+            - 餅乾一包
+        - 2023 二月
+    - 週一起司三明治 1$ CA
+    - 週五鬆餅日 1$ CA
+
+## 雜記
+
+- 開學前
+    - 選課
+        - 先看一下哪幾堂是開給自己系選的，系統不會幫你過濾...
+        - 因為選一堂之後就會卡住時間，所以就一堂一堂選下去，越後面通常就剩沒幾種選擇可以選。
+            - IPC144 應該是第一學期最重要的課吧？
+    - 選課記得先加入 Adviser 的 Teams 群組，會公告哪幾堂課有加開位置。
+        - 但是我沒加也是選完了
+    - 天氣只有兩天是晴天，其他時間都陰陰的或下雨
+    - 有[LinkedIn Learning](https://students.senecacollege.ca/spaces/115/linkedin-learning/home) 可以用，超多課可以上。
+- W1 2023/01/09~15
+    - 每一堂課都會用到的共同事前安裝準備 https://gettingstarted.sdds.ca/
+    - 看清楚交作業期限
+    - 下雪了
+    - 學費和註冊時有一些差異 131.18CA
+    - Email 和教室有貼請戴口罩，但應該不到三分之一的人有戴。
+    - SLG (Study Learning Group) 是學長姐給問問題，不需要其實可以完全不出席。
+    - CPR101 尬聊課
+- W2 2023/01/16~22
+    - 很多和工作有關的講座活動開始報名
+    - 和 Amazon 客服爭取為何多收我運費？
+    - SSF 辦公室可以買 10 CA 電影票
+    - 拿到保險卡號。
+    - 週四風很大
+    - APS145 要自己付錢上網學數學，之後費用會被加到學費中
+    - CPR101 老師請假，只用 Teams 通知，沒有用 Email，沒跟到的就 GG。
+    - 週末只有 A 棟的停車場大門口有開
+    - SIA = Markham 校區北邊就有個小機場
+- W3 2023/01/23~29
+    - SIN 學校駐點，Newnham 名額瞬間爆滿，跑到 Markham 去申請
+        - 我室友有 Co-op ，好像可以入境時就一起辦
+        - 需要填寫父母英文姓名，可以先準備
+        - 發現 ServiceOntario 和 ServiceCanada 是不一樣的單位，科科
+    - 飲水機感應器壞掉的話，下面通常還有一個實體按鈕可以用。
+    - 原來 School of Software Design & Data Science office 在 A 棟
+    - Newnham 和 Markham 校區旁邊的高速公路是 404 號
+    - Seneca College Downtown 超清幽的，在 17 樓，感受一下市中心高樓的感覺。
+        - 在台灣駐多倫多辦公室後面兩個街區。
+    - 多倫多有 Five Guys，漢堡推推
+    - 週三暴風雪，中午後所有課程轉線上
+        - 有一點輕度颱風的感覺
+    - gametime 買 NBA 門票是美金
+    - 辦了加拿大好市多卡。
+    - 還是喝到珍奶了，哈哈哈
+    - Walmart 刷信用卡超過 200 過不了有夠尷尬，好險有帶 Debit Card
+- W4 1/30~2/5
+    - 作業遲交。
+    - 加拿大居然沒有鼎泰豐
+    - 同學好像開始變少？教室座位空比較多
+    - -20 幾度真的冷
+
+# 關於要不要選這個 CPP 課程
+- [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
+- 第一學期的一些課程網頁，不需要 VPN 也可以看
+    - CPR101 --> 深入版的計算機概論/沒有人要教的都放到這一堂 https://cpr101.ca/
+    - IPC144 --> C 語言 https://intro2c.sdds.ca/
+        - Workshop https://github.com/Seneca-144100/IPC-Workshops
+    - ULI101 --> UNIX/Linux 入門 https://wiki.cdot.senecacollege.ca/wiki/ULI101_Weekly_Schedule
+        - https://github.com/ULI101
+- 教太慢
+- 可以接受丟一堆東西自己看嗎？
+- 是否願意參與一些當下看起來很不重要的討論？
+- 簡化的結論
+- 一直沒拿到分數 / 惱羞成怒的同學
+
+# 老師特色
+- IPC144
+    - Robert Robson
+    - 悠哉的感覺
+    - 冷笑話
+    - Quiz 用紙本，單選和多選，會發回來
+        - 是考當週會教的，要比已上課的部分提早一些進度預習
+- ULI101
+    - [Syed Misbahuddin](https://www.linkedin.com/in/syed-misbahuddin-57262316/)
+    - 會走到你面前問問題，近到口水可能會被噴到那種
+    - 幾乎每一堂會點名
+    - 上課希望你專心聽講不要做別的事，適合喜歡超專心上課的人
+    - Quiz 用 Blackboard 系統
+- CPR101
+    - [Tim McKenna](https://www.linkedin.com/in/timmckenna/)
+    - 顧問業
+    - 成為一個專業的工程師
+    - 極度技術
+        - 應該用快捷鍵
+        - 應該用什麼軟體
+    - 覺得 Visual Studio 是業界標準
+    - 考試用 Blackboard 系統，單選、多選、簡答
+    - Professional / Get it done
+    - 對 Mac 使用者不是很友善的作業內容
+        - 用學校 Win 電腦做應該比較方便
+- APS145
+    - [Cameron Gray](https://github.com/CameronGray1210)
+    - 上課到超時
+    - 用簽到點名
+    - 分組作業隊友完全就是運氣。
+        - 群組作業會直接寫名字，沒做可以不寫上去
+        - 第四週重新分組
 
 - 2022/12/3 LinkedIn Workshop
     1. https://students.senecacollege.ca/spaces/138/seneca-works/home
