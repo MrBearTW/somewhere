@@ -149,10 +149,11 @@
         - 租外面和租學校差異？
             - 下雪天很方便
     - 交通卡
-        - 先買卡，才能拿來綁定 APP
-        - 再來才能申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
+        - PRESTO 要先買卡，才能拿來綁定 APP
+        - TTC (地鐵和最市區的公車)沒有要辦月卡的話，大於 19 歲學生其實沒優惠
+        - GO (類似城際火車？)申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
             - 需學校信箱
-            - 1~30 40% OFF，31~40 95% OFF，之後不用錢
+            - 1~30 趟 40% OFF，31~40 趟 95% OFF，之後不用錢
                 - [Post-Secondary Student](https://www.gotransit.com/en/trip-planning/presto/fare-discounts-with-presto#youthstudent)
     - 就業博覽會
     - 課本
@@ -188,11 +189,16 @@
         - 自來水？
         - 濾水器
     - 銀行
-        - 信用卡
+        - 記得開戶先預約，有一些可以指定中文行員服務。
+        - TD 可以當天拿 Debit 卡。RBC 不可。
+        - TD 信用卡一開始只給每個月 500 CA
+    - 口罩：公共運輸有貼建議戴，也蠻多人戴的
 - 移動到學校？
+    - Seneca 有提供第一次入境接送
     - 可否睡機場
         - [Toronto Pearson Airport Guide](https://www.sleepinginairports.net/guides/toronto-pearson-airport-guide.htm)
 - 租車
+    - 雪雪地開車沒經驗還是先不要
 
 - Check List
     - 現金 10000 加幣 / 支票
@@ -299,7 +305,7 @@
             - 可以不溜
         - 去 [Walmart](https://goo.gl/maps/mbTGaMuAv315CdZD9) 採買
             - 其實說是去 [Scarborough Town Centre](https://goo.gl/maps/AJcJrwfdtp2dktYB9) 比較對
-                - 有 Dollarama / Decathlon
+                - 有 Dollarama / Decathlon 迪卡農 / MUJI 無印良品
                 - 未來會有一個 IKEA
                 - 看 Google map 發現旁邊是地鐵藍線終站
 
@@ -325,6 +331,7 @@
             - 壓碎番茄一罐
             - 餅乾一包
         - 2023 二月
+    - 早餐：麥片 + 牛奶/杏仁奶 + 水果
     - 週一起司三明治 1$ CA
     - 週五鬆餅日 1$ CA
 
@@ -346,7 +353,7 @@
     - 學費和註冊時有一些差異 131.18CA
     - Email 和教室有貼請戴口罩，但應該不到三分之一的人有戴。
     - SLG (Study Learning Group) 是學長姐給問問題，不需要其實可以完全不出席。
-    - CPR101 尬聊課
+    - CPR101 尬聊課(為了考試還是要背一些)
 - W2 2023/01/16~22
     - 很多和工作有關的講座活動開始報名
     - 和 Amazon 客服爭取為何多收我運費？
@@ -379,6 +386,15 @@
     - 加拿大居然沒有鼎泰豐
     - 同學好像開始變少？教室座位空比較多
     - -20 幾度真的冷
+    - 宿舍在最冷的那一天火災警報響起
+    - 宿舍網路週六壞整天
+    - 退貨亞馬遜，抱到附近的 CanadaPost
+- 一月檢討
+    - 有睡飽
+    - 沒運動
+    - 沒 LeetCode
+- W5 2/6~2/12
+    - 終於吃到學生會早餐，可以拿個水果還不錯
 
 # 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -417,6 +433,8 @@
     - 覺得 Visual Studio 是業界標準
     - 考試用 Blackboard 系統，單選、多選、簡答
     - Professional / Get it done
+    - 快捷鍵愛好者
+    - 多看新聞懂行話
     - 對 Mac 使用者不是很友善的作業內容
         - 用學校 Win 電腦做應該比較方便
 - APS145
