@@ -395,6 +395,13 @@
     - 沒 LeetCode
 - W5 2/6~2/12
     - 終於吃到學生會早餐，可以拿個水果還不錯
+    - NBA
+        - 最便宜的票坐最上面，視野比想像中清楚
+        - 只可帶很小的包包進入
+        - 不可帶食物進場
+        - 有安檢
+        - 場內飲食大概貴兩倍
+        - 賽前要唱國歌，美國加拿大都唱。
 
 # 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -409,6 +416,7 @@
 - 是否願意參與一些當下看起來很不重要的討論？
 - 簡化的結論
 - 一直沒拿到分數 / 惱羞成怒的同學
+- 可以的話盡量選 Newnham 校區，SIA Markham 校區只有一棟建築。Newnham 比較有校園的感覺。
 
 # 老師特色
 - IPC144
@@ -423,6 +431,7 @@
     - 幾乎每一堂會點名
     - 上課希望你專心聽講不要做別的事，適合喜歡超專心上課的人
     - Quiz 用 Blackboard 系統
+    - 會一直重複複習
 - CPR101
     - [Tim McKenna](https://www.linkedin.com/in/timmckenna/)
     - 顧問業
