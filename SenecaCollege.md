@@ -1,8 +1,9 @@
-# Seneca CPP C
+# Seneca CPP Computer Programming
+
 -  申請時程
     - 2022/04/23 備齊文件請代辦送出學校申請
     - 2022/04/14 23:22 Your Seneca Login Information - Action Required (收到學校的信箱帳號密碼)
-        - 90 加幣 = 2113 台幣
+        - 費用 90 加幣 = 2113 台幣
     - 2022/04/15 13:03 Seneca College Application Acknowledgement (提醒你常常收信)
     - 2022/05/05 20:22 Congratulations, this is your Seneca offer to Computer Programming (上 Student Home 確認申請)
     - 2022/05/16 郵局申請存款證明
@@ -10,7 +11,7 @@
         - 要有匯率數字，用美金匯率即可
     - 繳學費
         - 2022/05/26 申請 Flywire 繳款單學費
-            - 8287.61 加幣 (6614 USD)
+            - 費用 8287.61 加幣 (6614 USD)
         - 2022/05/27 元大繳款
             - 手續費 800 NT
         - 2022/05/28 收到收到款項通知
@@ -20,18 +21,18 @@
         - 檢查
             - 台北馬偕健檢中心在 16 樓
             - 要帶護照
-            - 4100 NT 可刷卡
+            - 費用 4100 NT 可刷卡
             - 抽血 驗尿 眼睛 血壓 身高 體重 胸部X光 醫師問診
         - 20220605 通知：因 XXX 因素，需來複檢，須預約時間
             - 20220607 健康檢查複檢 350 元
     - 20220712 完成自傳等文件，送出簽證申請
-        - 235 加幣 = 5503 台幣
+        - 費用 235 加幣 = 5503 台幣
     - 20220718 生物特徵建立
-        - 準時抵達即可，也不會先讓你進去
+        - 準時抵達即可，提早到也不會先讓你進去
         - 約十～二十分鐘就結束
     - 20220907 收到代辦通知簽證申請完成，拿到 PDF
-        - 學簽是包含 ETA 的，不需要另外再申請
-    - 20221007 宿舍申請
+        - 學簽是包含加拿大 ETA 的，不需要另外再申請
+    - 20221007 宿舍申請預定
         - 100 加幣，可刷卡，還要加稅
     - 20221012 訂機票 / 剩候補...
         - 長榮里程兌換可以先預定，但同時也排候補。
@@ -40,20 +41,18 @@
     - 20221206 選課
         - [RMP](https://www.ratemyprofessors.com/)
     - 20221208 INTERNATIONAL VIRTUAL ORIENTATION
-    - 20221221 收到機場接送相關訊息（出發前十天）
-    - 20220111 學費金額不太對
+    - 20221221 收到機場接送相關訊息（大約是起飛前九天）
+    - 20230111 發現有一個繳款請求
+        - 學費金額不太對 
+        - 差 131.18 加幣
+        - 沒找到 Email 通知
+        - 也沒問到很明確的說明，應該就是 2022 繳費時的預估和後來實際核定的金額不一樣？
 
-- 課程名額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
+- 每期課程名額查詢 [Program Availability for International Applicants](https://www.senecacollege.ca/international/programs/list.html)
 
-- 行事曆 [Winter 2023 Term](https://students.senecacollege.ca/spaces/135/important-academic-dates/wiki/view/730/winter-2023-term)
+- 行事曆 [Important Academic Dates](https://students.senecacollege.ca/spaces/135/important-academic-dates/wiki/view/728/important-academic-dates)
 
-- Some opportunity
-    - [AWS Educate Ambassador in Taiwan](https://www.facebook.com/awseducatestudentambassadortaiwan/)
-    - Google 學生社群 https://gdsc.community.dev/
-        - 四月左右開始申請 https://developers.googleblog.com/2022/04/google-developer-student-club-2022-lead.html
-    - 和趨勢合作？https://www.trendmicro.com/zh_tw/about/customer-stories/seneca-college.html
-
-- 社群
+- 各種社群
     - Facebook 
         - [聖力嘉學院台灣學生交流群 Seneca College Taiwan Students](https://www.facebook.com/groups/227360092568016)
         - [Seneca College Students](https://www.facebook.com/groups/3603905606376973)
@@ -61,10 +60,10 @@
     - [LINE 群組](https://line.me/ti/g/X06wsj--OP)
     - [Reddit](https://www.reddit.com/r/Seneca/) 
     - CPP 這個比較有人活動 [Discord](https://discord.gg/seneca)
+        - 不過好像是尬聊比較多，沒看也不會怎麼樣。
 
 - 生活
     - 網路
-        - Google Fi
         - Virgin plus 推薦連結 [https://refer.virginplus.ca/chiweip-1](https://refer.virginplus.ca/chiweip-1)
             - 你我每月都各賺 5 加幣共 10 個月。
             - 辦完後再點選即可
@@ -78,16 +77,15 @@
         - 12/ 25 26 放假
 
 - 出國前處理一下
-    - 加拿大駕照
+    - 換加拿大安省駕照
+        - 參考 [【加拿大】國際駕照申請&台灣駕照換安省駕照(2021最新教學)-WOORI](https://woori.com.tw/ontario-drivers-licence/)
     - 台灣手機門號
-        - ~中華電信預付卡~ 無法國外收簡訊
+        - 不可行 ~中華電信預付卡~ 無法國外收簡訊
         - 台灣之星 
             - [官方連結](https://www.tstartel.com/CWS/estore_payasyougo.php)
             - [網友教學](https://aillynotes.com/t-star/)
                 - 預設會開啟簡訊和語音漫遊
                 - 在加拿大接電話也是要付漫遊費
-    - 保險
-        - 參考 [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
 
 - 前輩分享
     - [[心得] 加拿大College 心得 (轉CS)](https://www.ptt.cc/bbs/studyabroad/M.1551031686.A.38D.html)
@@ -122,14 +120,17 @@
         - 談薪水參考網站
             - levels.fyi
 
+- Some opportunity
+    - [AWS Educate Ambassador in Taiwan](https://www.facebook.com/awseducatestudentambassadortaiwan/)
+    - Google 學生社群 https://gdsc.community.dev/
+        - 四月左右開始申請 https://developers.googleblog.com/2022/04/google-developer-student-club-2022-lead.html
+    - 和趨勢合作？https://www.trendmicro.com/zh_tw/about/customer-stories/seneca-college.html
+
 ## Q 想問的問題
 - CPP / CPA 相關
     - 買電腦建議
         - Win / Mac 沒差
-    - 選課
-    - LINE 群組
-        - 課表
-            - Rank your prof?
+        - 學校公用電腦是 Win
     - Co-op 機會
         - 要看前幾個學期的成績
 - Seneca College 相關
@@ -142,7 +143,7 @@
         - 2022/11/18 4,325加幣 (106,883 NT)
         - 2022/12/25 收到室友 Email 可以聯繫
     - 住宿選擇
-        - 大概區域：North York / Markham / Richmond Hill / Vaughan
+        - 大概區域：North York / 沿著 Finch Ave E 
         - 地下室
         - https://house.51.ca/rental/map?rentalTypes=room
             - Seneca College Newnham Campus
@@ -150,6 +151,7 @@
             - 下雪天很方便
     - 交通卡
         - PRESTO 要先買卡，才能拿來綁定 APP
+            - 到地鐵站或 Shooper 購買
         - TTC (地鐵和最市區的公車)沒有要辦月卡的話，大於 19 歲學生其實沒優惠
         - GO (類似城際火車？)申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
             - 需學校信箱
@@ -174,20 +176,21 @@
         - 2023/1/7 收到完成通知，請到 MySeneca 檢查
         - 2023/1/8 寄 Email 問 Adviser 後續如何處理（開學第一週）
             - 2023/1/10 收到 Adviser 確認，放心把課退掉
-        - 2023/1/11 應該是 1521.4 加幣(COM111)
+        - 2023/1/11 COM111 這一堂應該是 1521.4 加幣
 - 加拿大相關
     - 雪季
         - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
             - 下雪就 GG
         - 走路距離：看個人可以承受程度。
             - 很看人
-        - 防水登山靴去再買
+        - 防水登山靴到加拿大再買
         - 防水外套
-        - 防水外套
+            - 好像也沒有很必要，就撐傘就好。
         - 頭部保護
+            - 保護耳朵和鼻子，買了類似搶匪用的頭套
     - 飲用水
-        - 自來水？
-        - 濾水器
+        - 自來水可直接喝
+        - 可自備濾水器或電水壺
     - 銀行
         - 記得開戶先預約，有一些可以指定中文行員服務。
         - TD 可以當天拿 Debit 卡。RBC 不可。
@@ -195,7 +198,7 @@
     - 口罩：公共運輸有貼建議戴，也蠻多人戴的
 - 移動到學校？
     - Seneca 有提供第一次入境接送
-    - 可否睡機場
+    - （沒用到）可否睡機場
         - [Toronto Pearson Airport Guide](https://www.sleepinginairports.net/guides/toronto-pearson-airport-guide.htm)
 - 租車
     - 雪雪地開車沒經驗還是先不要
@@ -204,26 +207,29 @@
     - 現金 10000 加幣 / 支票
         - 匯票
             - 臺灣銀行 --> TD 銀行 (朋友經驗：手續費 400 台幣)
-    - 信用卡 PIN 碼確認
-    - 保險
+            - 在中國城的分行成功兌換 [TD Canada Trust Branch and ATM](https://goo.gl/maps/DikbHGLN2fzsfr4o7)
+    - 確認信用卡 PIN 碼和可在國外刷
     - 駕照
         - 參考 [【加拿大】國際駕照申請&台灣駕照換安省駕照(2021最新教學)-WOORI](https://woori.com.tw/ontario-drivers-licence/)
-        - 台灣部分
-        - 2023/1/3 現場交件，預計一個月
+            - 台灣部分要先辦一個文件！
+        - 2023/1/3 多倫多台灣辦事處現場交件，預計一個月
         - 2023/1/18 10:57 收到 Email 通知可以去拿
         - 2023/1/24 取件，立刻到附近的 ServiceOntario 辦理
             - 會測試看英文字母和眼角餘光旁邊光點看不看的到
             - 預計 3~6 週會寄到你填寫的地址
-    - 各種文件影本
+        - 2023/2/9 收到卡片
+    - 各種文件影本備份
+    - 保險
+        - Seneca 是這一家 [Morcare](https://morcare.ca/)
+        - (沒用到)參考 [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
 
 - 參考資料
-    - 郵局 box5 / 五公斤
+    - 郵局 box5 / 五公斤 到加拿大
         - 海運 約 500多 MT 90 天或更久才會到
         - 空運 約 3000多 NT
 
-
 ## 入境後拿 Study permit
-- 長榮 BR36 表定 20:30 到多倫多 YYZ
+- 長榮 BR36 表定 20:30 到多倫多 YYZ 機場
 - 實際 20:49 抵達多倫多 YYZ 下飛機後
     - 沿路會有兩個土炮站立告示牌用黃色 A3 紙寫著 New Student 的指示
 1. 我看到第一個就停下來被指引到第一個空間等待（就是兩大排椅子坐著一直看著其他人往前走）
@@ -260,7 +266,7 @@
     - 我地址是錯的，QQ
     - 好險距離大約 10 分鐘不到的車程。
 
-## 入住 Newnham Residence 2023 Winter
+## Seneca Newnham Residence 2023 Winter
 - 入住週六當天
     - 驗身份（護照），拿房卡
     - 有人可以詢問問題
@@ -271,10 +277,8 @@
         - 有人代收包裹
             - 但要等工作人員寄信給你才可以去拿，Amazon APP 顯示到貨和工作人員寄信大概會差半天
         - 每週三 9:00~11:00 有早餐活動
-            - 咖啡、茶包、巧克力
-            - 馬芬、爆甜的麵包
-            - 優格、蘋果
-        - 一分鐘就走進校園建築
+            - 出現過的品項：咖啡、茶包、熱巧克力、馬芬、爆甜的麵包、可鬆、優格、蘋果、水果杯
+        - 不到一分鐘就走進校園建築
         - 各種不定期活動可以參加
         - 24 小時保全
     - 缺點
@@ -290,8 +294,9 @@
         - 兩位室友的空調是通的，所以隱約可以聽到對方房內的聲音
             - 但隔壁間就真的是聽不太到。
         - 沒有健身房
+            - 要走到校內去
     - 其他
-        - 只有冰箱，微波爐，電視。
+        - 電器只有冰箱，微波爐，電視。
         - 洗衣和烘衣各兩塊，第一次買卡五塊。
             - 洗衣 45 分鐘
                 - 熱水或溫水要加 0.5 加幣
@@ -300,40 +305,53 @@
             - 一間超商 [M&M Food Market](https://goo.gl/maps/6LafWNfNs7zCKfzz6)
                 - 東西沒有比較便宜
             - 一間 [Subway](https://goo.gl/maps/Rc8Az3zRHFbMKmX16)
+        - 火災警報很大聲，一定會叫醒人大聲
     - 活動紀錄
-        - 去市區溜冰
-            - 可以不溜
+        - 去市區 [Nathan Phillips Square](https://goo.gl/maps/3TPqgerw92ajaib59) 溜冰
+            - 也可以去但不溜冰，四處逛一逛再回來搭車
+            - 也可以不一起回來
         - 去 [Walmart](https://goo.gl/maps/mbTGaMuAv315CdZD9) 採買
             - 其實說是去 [Scarborough Town Centre](https://goo.gl/maps/AJcJrwfdtp2dktYB9) 比較對
-                - 有 Dollarama / Decathlon 迪卡農 / MUJI 無印良品
-                - 未來會有一個 IKEA
-                - 看 Google map 發現旁邊是地鐵藍線終站
+                - 有 Dollarama / Decathlon 迪卡農 / MUJI 無印良品 和很多其他
+                    - 未來會有一個 IKEA
+                - 看 Google map 發現旁邊是地鐵 3 號藍線終站
+        - 去 [Distillery District](https://goo.gl/maps/BLdpCZSGoXxiyPjZ8)
+            - 有種華山的感覺，但其實無法逛很久
+            - 室友說晚上去氣氛比較好，有燈有酒
+            - 有間很像誠品的店
+            - 附近很多工地，感覺是重新督更開發的區域
+            - 後來走到附近的 [St. Lawrence Market](https://goo.gl/maps/WX3bHb6upajpGhuk9)
+                - 美式的傳統集中市場？
+                - 沒做功課，就跟著人潮排隊就對了。
+        - 各種小活動可參考 [Newnham 宿舍的 Instagram](https://instagram.com/senecanewnhamresidence)
 
-## 搭 shttle bus
+
+## 搭 Seneca shttle bus
 - [路線與時刻表](https://students.senecacollege.ca/spaces/59/transportation/wiki/view/265/campus-shuttle)
 - 準時發車
 - Newnham Campus --> Markham Campus 要繞一圈掉頭會稍微慢一點
 - Markham Campus --> Newnham Campus 順向很快就到
 
-## 食物
-- 學校
-    - Food Plan 免費的湯 / 天
-        - 看收據好像其實是 200 塊，一碗含稅 1.33
-- SSF
-    - Food bank / 月
-        - 2023 一月
-            - 米一包
-            - 義大利麵一包
-            - 麵粉一包
-            - 鸚嘴豆一罐
-            - 混合豆一罐
-            - 扁豆一罐
-            - 壓碎番茄一罐
-            - 餅乾一包
-        - 2023 二月
-    - 早餐：麥片 + 牛奶/杏仁奶 + 水果
-    - 週一起司三明治 1$ CA
-    - 週五鬆餅日 1$ CA
+## Seneca 食物相關
+- 免費
+    - 學校
+        - Food Plan 免費的湯 / 天
+            - 看收據好像其實是 200 塊，一碗含稅 1.33
+    - SSF 學生會
+        - Food bank / 月
+            - 2023 一月
+                - 米一包、義大利麵一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、壓碎番茄一罐、餅乾一包
+            - 2023 二月
+        - 早餐：麥片 + 牛奶/杏仁奶 + 水果
+        - 週一起司三明治 1$ CA
+        - 週五鬆餅日 1$ CA
+        - SSF 行事曆參考 [calendar](https://ssfinc.ca/calendar/)
+- 付費(Newnham campus)
+    - 一間 Tim Hortons，兩間 Starbucks。
+    - 有沙拉約 10.5 、義大利麵約 10 、Pizza 約 6 、沙威馬約 8 、不定期異國料理約 10，漢堡、三明治、蛋糕，冰淇淋等等 沒點過沒有非常確定
+    - 若是有購買 [Campus Meal Plans](https://students.senecacollege.ca/spaces/61/onecard/wiki/view/285/campus-meal-plans)
+        - 消費就變成免稅
+        - 但是一次要存蠻多的，感覺要多人合用比較划算
 
 ## 雜記
 
@@ -344,19 +362,21 @@
             - IPC144 應該是第一學期最重要的課吧？
     - 選課記得先加入 Adviser 的 Teams 群組，會公告哪幾堂課有加開位置。
         - 但是我沒加也是選完了
-    - 天氣只有兩天是晴天，其他時間都陰陰的或下雨
+    - 開學前一週天氣只有兩天是晴天，其他時間都陰陰的或下雨
+    - 每一堂課都會用到的共同事前安裝準備 https://gettingstarted.sdds.ca/
     - 有[LinkedIn Learning](https://students.senecacollege.ca/spaces/115/linkedin-learning/home) 可以用，超多課可以上。
 - W1 2023/01/09~15
-    - 每一堂課都會用到的共同事前安裝準備 https://gettingstarted.sdds.ca/
     - 看清楚交作業期限
     - 下雪了
     - 學費和註冊時有一些差異 131.18CA
+        - 但沒收到 Email，是進 MySeneca 剛好看到
     - Email 和教室有貼請戴口罩，但應該不到三分之一的人有戴。
-    - SLG (Study Learning Group) 是學長姐給問問題，不需要其實可以完全不出席。
+    - SLG (Study Learning Group) 是學長姐給問問題，沒問題的話其實可以完全不出席。
     - CPR101 尬聊課(為了考試還是要背一些)
 - W2 2023/01/16~22
     - 很多和工作有關的講座活動開始報名
     - 和 Amazon 客服爭取為何多收我運費？
+        - 後來沒退運費但是給了 10CA 補償
     - SSF 辦公室可以買 10 CA 電影票
     - 拿到保險卡號。
     - 週四風很大
@@ -392,16 +412,21 @@
 - 一月檢討
     - 有睡飽
     - 沒運動
-    - 沒 LeetCode
+    - 沒刷 LeetCode
 - W5 2/6~2/12
     - 終於吃到學生會早餐，可以拿個水果還不錯
     - NBA
+        - 售票網站標示的是美金
         - 最便宜的票坐最上面，視野比想像中清楚
         - 只可帶很小的包包進入
         - 不可帶食物進場
         - 有安檢
         - 場內飲食大概貴兩倍
         - 賽前要唱國歌，美國加拿大都唱。
+    - workshop 和 week 命名很容易搞混
+    - 好市多信用卡被拒
+- W6 2/13~2/19
+    - 
 
 # 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -421,6 +446,8 @@
 # 老師特色
 - IPC144
     - Robert Robson
+    - 開學前有加開一節課是教你安裝 Visual Studio 和 VPN
+        - 這個網頁 [Getting Started](https://gettingstarted.sdds.ca/) 都看得懂的話，其實不用去
     - 悠哉的感覺
     - 冷笑話
     - Quiz 用紙本，單選和多選，會發回來
@@ -453,13 +480,14 @@
     - 分組作業隊友完全就是運氣。
         - 群組作業會直接寫名字，沒做可以不寫上去
         - 第四週重新分組
+    - Quiz 記得帶鉛筆和橡皮擦
 
 - 2022/12/3 LinkedIn Workshop
     1. https://students.senecacollege.ca/spaces/138/seneca-works/home
     2. You can book a virtual appointment with a Career Strategist at https://sw.senecacollege.ca/home.htm  click career development > appointments > book by service provider
     3. https://students.senecacollege.ca/spaces/115/linkedin-learning/
 
-- 
+- Networking
     - Networking 可以發現很多沒被貼出來的工作
 
 - 2023/01/23 
