@@ -1,5 +1,20 @@
 - 學習資源 https://explore.skillbuilder.aws/learn
 
+## 2023/02/15 Amazon EKS: does "managed" cluster mean "secure" cluster? by Clarissa B. and Irina @Onica by Rackspace Technology
+
+- Container: isolated set of resource consumption 
+- Share kernel
+
+- Scan the image before push in production.
+- OWASP TOP 10 for Kubernetes-2022
+    - [Top 10 Kubernetes Risks - 2022](https://owasp.org/www-project-kubernetes-top-ten/) 
+    - K3 - Overly Permissive  RBAC configuration
+       - List  
+        - Develop
+        - Impersonate
+    - K07 -Missing Network Segmentation 
+- SSRF - Server-Side Request Forgery
+
 # 2021/3/18 AWS USER GROUP
 - How to analyze CloudFront Logs like AWS Ninja
     - Cloudfront logs
