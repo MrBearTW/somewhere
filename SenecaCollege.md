@@ -34,6 +34,7 @@
         - 學簽是包含加拿大 ETA 的，不需要另外再申請
     - 20221007 宿舍申請預定
         - 100 加幣，可刷卡，還要加稅
+        - 好像很熱門還需要排隊
     - 20221012 訂機票 / 剩候補...
         - 長榮里程兌換可以先預定，但同時也排候補。
             - 2022/12/16 有候補到更近的時間，但是住宿已訂就先算了。
@@ -153,6 +154,9 @@
         - PRESTO 要先買卡，才能拿來綁定 APP
             - 到地鐵站或 Shooper 購買
         - TTC (地鐵和最市區的公車)沒有要辦月卡的話，大於 19 歲學生其實沒優惠
+            - TTC 地鐵和公車都是進佔和上車刷卡，出站和下車不用刷。
+            - Finch 公車站和地鐵站是合在一起，公車一下車就是已經算在地鐵站內了。
+                - 939 Finch 到 Seneca Newnham 四站就到了。
         - GO (類似城際火車？)申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
             - 需學校信箱
             - 1~30 趟 40% OFF，31~40 趟 95% OFF，之後不用錢
@@ -184,19 +188,22 @@
         - 走路距離：看個人可以承受程度。
             - 很看人
         - 防水登山靴到加拿大再買
+            - 好像也沒有說真的比較便宜，台台灣買帶過來就是比較重比較占空間
+            - 但下雪天確實食用可以避免鞋子濕掉
         - 防水外套
             - 好像也沒有很必要，就撐傘就好。
         - 頭部保護
             - 保護耳朵和鼻子，買了類似搶匪用的頭套
     - 飲用水
         - 自來水可直接喝
-        - 可自備濾水器或電水壺
+        - 可自備濾水器或電水壺燒開再喝
     - 銀行
         - 記得開戶先預約，有一些可以指定中文行員服務。
         - TD 可以當天拿 Debit 卡。RBC 不可。
+            - 2023/2/14 收到要證明持續是學生的 Eamil
         - TD 信用卡一開始只給每個月 500 CA
     - 口罩：公共運輸有貼建議戴，也蠻多人戴的
-- 移動到學校？
+- 機場移動到學校？
     - Seneca 有提供第一次入境接送
     - （沒用到）可否睡機場
         - [Toronto Pearson Airport Guide](https://www.sleepinginairports.net/guides/toronto-pearson-airport-guide.htm)
@@ -222,6 +229,14 @@
     - 保險
         - Seneca 是這一家 [Morcare](https://morcare.ca/)
         - (沒用到)參考 [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
+        - 看牙醫記錄
+            - [HK Dental Centre](https://goo.gl/maps/jp5L8c4cJLsj9CdCA)
+                - 基礎治療和洗牙，保險可抵免 80%，有部分還有優惠 20%（就是免費）。
+                    - 一個保險週期可以洗牙一次。
+                - 這間除了牙醫之外都可以說中文`,有需要的話牙助可以幫忙翻譯，非常中文友善。
+                - 只收 Debit 和現金和支付寶
+                - 參考價格，做牙冠 1200 CA，做植牙 4000 CA (拔牙手術費另計)
+                - 洗牙也分很多細項，可依保險剩餘金額規劃，記得先預約。
 
 - 參考資料
     - 郵局 box5 / 五公斤 到加拿大
@@ -262,9 +277,10 @@
     - 拿完行李要出去時會交出過海關時印出來的那張紙。
 - 22:58 等車處報到
 - 23:03 上車
-    - 司機是一位中東男士包頭的中年先生
+    - 司機是一位印度式包頭的中年先生
     - 我地址是錯的，QQ
-    - 好險距離大約 10 分鐘不到的車程。
+        - 上車時請認真確認一次
+        - 好險距離大約 10 分鐘不到的車程，司機先生人很好的還是把我載到正確的位置。
 
 ## Seneca Newnham Residence 2023 Winter
 - 入住週六當天
@@ -295,6 +311,7 @@
             - 但隔壁間就真的是聽不太到。
         - 沒有健身房
             - 要走到校內去
+        - 到週末垃圾管線好像就會爆滿
     - 其他
         - 電器只有冰箱，微波爐，電視。
         - 洗衣和烘衣各兩塊，第一次買卡五塊。
@@ -315,7 +332,7 @@
                 - 有 Dollarama / Decathlon 迪卡農 / MUJI 無印良品 和很多其他
                     - 未來會有一個 IKEA
                 - 看 Google map 發現旁邊是地鐵 3 號藍線終站
-        - 去 [Distillery District](https://goo.gl/maps/BLdpCZSGoXxiyPjZ8)
+        - 去 [Distillery District](https://goo.gl/maps/BLdpCZSGoXxiyPjZ8) 觀光
             - 有種華山的感覺，但其實無法逛很久
             - 室友說晚上去氣氛比較好，有燈有酒
             - 有間很像誠品的店
@@ -425,10 +442,13 @@
         - 賽前要唱國歌，美國加拿大都唱。
     - workshop 和 week 命名很容易搞混
     - 好市多信用卡被拒
+    - 加拿大和美國真的是兩個國家
+        - 銀行不同，電信不同，Amazon 也是分 .com 和 .ca
 - W6 2/13~2/19
-    - 
+    - 在台灣應該把牙齒問題都弄一弄
+    - 插隊讓人不爽
 
-# 關於要不要選這個 CPP 課程
+## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
 - 第一學期的一些課程網頁，不需要 VPN 也可以看
     - CPR101 --> 深入版的計算機概論/沒有人要教的都放到這一堂 https://cpr101.ca/
@@ -439,11 +459,13 @@
 - 教太慢
 - 可以接受丟一堆東西自己看嗎？
 - 是否願意參與一些當下看起來很不重要的討論？
-- 簡化的結論
+- 課程中是一個簡化的世界
 - 一直沒拿到分數 / 惱羞成怒的同學
-- 可以的話盡量選 Newnham 校區，SIA Markham 校區只有一棟建築。Newnham 比較有校園的感覺。
+- 可以的話盡量選 Newnham 校區
+    - SIA Markham 校區只有一棟建築。Newnham 比較有校園的感覺。
+    - SIA Markham 校區已超出 TTC 服務範圍，公車轉乘要再收一次錢
 
-# 老師特色
+## 老師特色
 - IPC144
     - Robert Robson
     - 開學前有加開一節課是教你安裝 Visual Studio 和 VPN
@@ -481,6 +503,8 @@
         - 群組作業會直接寫名字，沒做可以不寫上去
         - 第四週重新分組
     - Quiz 記得帶鉛筆和橡皮擦
+
+## 工作求職類的講座紀錄
 
 - 2022/12/3 LinkedIn Workshop
     1. https://students.senecacollege.ca/spaces/138/seneca-works/home
