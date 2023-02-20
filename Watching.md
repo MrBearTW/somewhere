@@ -1051,3 +1051,10 @@
 - 20230114
     - Everything Everywhere All at Once 媽的多重宇宙
         - Be kind
+
+- 蟻人與黃蜂女：量子狂熱 Ant-Man and the Wasp: Quantumania
+    - 第一次在電影院看完全沒中文字幕
+    - 久違的 3D，加拿大 3D 眼鏡真的就是眼鏡，比較不會起霧
+    - 父愛
+    - 征服別人的慾望
+        - 和平是槍比較大？
