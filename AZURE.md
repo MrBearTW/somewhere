@@ -1,3 +1,52 @@
+## 2023/03/4 Global AI Bootcamp @ Toronto Microsoft Office
+
+- Azure Open AI
+    - Geo request
+    - Security 
+- Content monitoring 
+    - Medical
+    - Ethical
+        - Better societies 
+- GitHub code pilot lab
+
+### Al pair programming tools by Max Yermakhanov
+- cautionary notes
+    - stay in control and always review AI code suggestions
+    - Make sure that your code editor does not automatically compile or run generated code
+    - Make sure to test and check for vulnerabilities Al code suggestions
+    - Review suggestion matching policy for GitHub Pilot in your organization
+
+- Demo
+    - code pilot lab
+        - Explain the code
+        - Translate in to different languages 
+    - Write test code 
+- Open AI  
+    - Time complexity
+
+### Building a Churn Predictive Model using AutoML in Power BI by Ashraf Ghonaim
+- Compare 
+  - Traditional programming: Data + Program —> Output 
+  - ML: Data + Output —> Program
+- AutoML
+- Churn Predictive Model 
+  - churn 可能離開的客戶
+  - Not Yes or No, is probability 0~100%
+    - Set the baseline (Choose “Yes” not “No”)
+    - Threshold
+- Confusion Matrix 
+  - False Positives (type 1 error)
+  - False Negative (type 2 error)
+- Training time
+- Cost-Benefit Analysis 
+
+### Self-service Al Capabilities in Power Bi by Ashraf Ghonaim
+- 
+
+### How I used ChaptGPT To Create An Azure DevOps Pipeline with Terraform To Deploy Azure Resources by Roy Kim
+- 80% help
+- Still need experts
+
 # 2019/11/07 AZURE TAIWAN #23 智慧客服在雲端
 智能客服
 Call center
