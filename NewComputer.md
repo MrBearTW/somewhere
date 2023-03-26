@@ -3,6 +3,9 @@
     - 比較好懂得中文說明 https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
     - 比較好懂得英文說明 https://github.com/amowu/dotfiles
 - [ALT + Tab](https://alt-tab-macos.netlify.app/)
+- Mac Drop-down terminal
+    - [Drop-down terminal in macOS with iTerm2](https://blog.mestwin.net/drop-down-terminal-in-macos-with-iterm2/)
+    - [How to Use a Drop Down Terminal in macOS with iTerm2](https://youtu.be/ulafo-7Eipw)
 
 # Windows
 - 寫code字體  
