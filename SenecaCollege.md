@@ -131,15 +131,16 @@
 - CPP / CPA 相關
     - 買電腦建議
         - Win / Mac 沒差
-        - 學校公用電腦是 Win
+        - 學校公用電腦大部分是 Win
     - CPA 相關
         - 第二學期結束後，可以去申請 WIL
+            - 第二學期時會有 WIL 說明會
             - 才能爭取 Co-op 機會
         - 要看前幾個學期的成績
             - 抵免的學分不回計算在 GPA 內
         - 要念 CPP 還是 CPA 其實可以等第二學期時參加完 WIP 說明會後再決定
             - [Work-Integrated Learning](https://www.senecacollege.ca/employers/seneca-works/work-integrated-learning.html)
-            - 當然成績要維持一下啦。
+            - 當然成績 GPA 要維持不能太爛。
 - Seneca College 相關
     - Residence
         - [residence](https://senecaresidence.ca/faq/)
@@ -163,7 +164,7 @@
             - TTC 地鐵和公車都是進佔和上車刷卡，出站和下車不用刷。
             - Finch 公車站和地鐵站是合在一起，公車一下車就是已經算在地鐵站內了。
                 - 939 Finch 到 Seneca Newnham 四站就到了。
-        - GO (類似城際火車？)申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
+        - GO (類似城際火車？好像也有經營客運)申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
             - 需學校信箱
             - 1~30 趟 40% OFF，31~40 趟 95% OFF，之後不用錢
                 - [Post-Secondary Student](https://www.gotransit.com/en/trip-planning/presto/fare-discounts-with-presto#youthstudent)
@@ -416,7 +417,7 @@
         - SSF 行事曆參考 [calendar](https://ssfinc.ca/calendar/)
 - 付費(Newnham campus)
     - 一間 Tim Hortons，兩間 Starbucks。
-    - 有沙拉約 10.5 、義大利麵約 10 、Pizza 約 6 、沙威馬約 8 、不定期異國料理約 10，漢堡、三明治、蛋糕，冰淇淋等等 沒點過沒有非常確定
+    - 有沙拉約 10.5 、義大利麵約 10 、Pizza 約 6 、沙威馬單點約 8 、漢堡+薯條+鋁罐飲料約 12 不定期異國料理約 10，蛋糕，冰淇淋等等 沒點過沒有非常確定
     - 若是有購買 [Campus Meal Plans](https://students.senecacollege.ca/spaces/61/onecard/wiki/view/285/campus-meal-plans)
         - 消費就變成免稅
         - 但是一次要存蠻多的，感覺要多人合用比較划算
@@ -569,7 +570,8 @@
     - 我又把人惹毛了
     - 2023 Summer 7947.5 （扣掉一堂通識是 6732.15，所以通識課是 1215.35）
 - W11 3/27~4/2
-
+    - 週三一場不到一小時的暴風雪
+- 三月檢討
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -579,6 +581,9 @@
         - Workshop https://github.com/Seneca-144100/IPC-Workshops
     - ULI101 --> UNIX/Linux 入門 https://wiki.cdot.senecacollege.ca/wiki/ULI101_Weekly_Schedule
         - https://github.com/ULI101
+    - APS145
+        - 思考如何寫程式
+        - 教畫流程圖和 PSEUDO CODE
 - 教太慢
 - 可以接受丟一堆東西自己看嗎？
 - 是否願意參與一些當下看起來很不重要的討論？
@@ -588,18 +593,23 @@
 - 可以的話盡量選 Newnham 校區
     - SIA Markham 校區只有一棟建築。Newnham 比較有校園的感覺。
     - SIA Markham 校區已超出 TTC 服務範圍，公車轉乘要再收一次錢
+    - SIA Markham 校區優點是人比較少，熱門的事情比較搶的到，排隊時間比較短
 
 ## 老師特色
 - IPC144
     - Robert Robson
     - 開學前有加開一節課是教你安裝 Visual Studio 和 VPN
         - 這個網頁 [Getting Started](https://gettingstarted.sdds.ca/) 都看得懂的話，其實不用去
-    - 悠哉的感覺
+    - 很 Chill 的感覺
     - 冷笑話
-    - Quiz 用紙本，單選和多選，會發回來
+    - Quiz 用紙本，單選和多選，會發回來，不一定會公布答案，可以自己去問
         - 是考當週會教的，要比已上課的部分提早一些進度預習
+    - 期中考是用紙本
     - 期中考後狂考 quiz
-
+    - 作業 
+        - WS3 有一點煩
+        - WS7 小難
+        - WS8 這難度...
 - ULI101
     - [Syed Misbahuddin](https://www.linkedin.com/in/syed-misbahuddin-57262316/)
     - 會走到你面前問問題，近到口水可能會被噴到那種
@@ -607,6 +617,7 @@
     - 上課希望你專心聽講不要做別的事，適合喜歡超專心上課的人
     - Quiz 用 Blackboard 系統
     - 會一直重複複習
+    - 期中考試用 Lab 電腦考
 - CPR101
     - [Tim McKenna](https://www.linkedin.com/in/timmckenna/)
     - 顧問業
@@ -621,7 +632,7 @@
     - 多看新聞懂行話
     - 對 Mac 使用者不是很友善的作業內容
         - 用學校 Win 電腦做應該比較方便
-    - 作業惠要求字數
+    - 作業會要求字數
 - APS145
     - [Cameron Gray](https://github.com/CameronGray1210)
     - 上課到超時
@@ -630,7 +641,11 @@
         - 群組作業會直接寫名字，沒做可以不寫上去
         - 第四週重新分組
     - Quiz 記得帶鉛筆和橡皮擦
-    - 從開學 35人到 第二次考試時剩 17人
+    - Quiz
+        - 有簡答題
+        - Quiz 1 是考 PSEUDO CODE
+        - Quiz 2 是考 FLOWCHART 
+    - 從開學 35人到，第二次考試時剩 17人
 
 ## 工作求職類的講座紀錄
 
