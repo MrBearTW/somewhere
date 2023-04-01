@@ -1,6 +1,6 @@
 # Seneca CPP Computer Programming
 
--  申請時程
+-  申請時程記錄
     - 2022/04/23 備齊文件請代辦送出學校申請
     - 2022/04/14 23:22 Your Seneca Login Information - Action Required (收到學校的信箱帳號密碼)
         - 費用 90 加幣 = 2113 台幣
@@ -138,9 +138,14 @@
             - 才能爭取 Co-op 機會
         - 要看前幾個學期的成績
             - 抵免的學分不回計算在 GPA 內
+            - [GPA 要求網頁](https://www.senecacollege.ca/employers/seneca-works/work-integrated-learning/eligibility.html)
         - 要念 CPP 還是 CPA 其實可以等第二學期時參加完 WIP 說明會後再決定
             - [Work-Integrated Learning](https://www.senecacollege.ca/employers/seneca-works/work-integrated-learning.html)
             - 當然成績 GPA 要維持不能太爛。
+        - 畢業證書(應該是這樣)
+            - 兩年畢業 --> CPP
+            - 三年畢業 --> CPA
+            - 三年 + 有 Co-op --> CPA-C
 - Seneca College 相關
     - Residence
         - [residence](https://senecaresidence.ca/faq/)
@@ -182,6 +187,7 @@
             4. 用學生 Email ，將上面 1 2 3 寄給學校
                 - 信件內容加一個表格說明哪一堂課要抵 Seneca 的什麼課
             5. 有缺的話學校就會回信給你不要擔心
+            - 文件備齊就可以先寄信給 Seneca 了，WES 認證可以晚一點沒關係。
         - 有 E-mail 提醒
         - https://www.senecacollege.ca/registrar/transfer-credit.html
             - 選 ICAP
@@ -571,7 +577,14 @@
     - 2023 Summer 7947.5 （扣掉一堂通識是 6732.15，所以通識課是 1215.35）
 - W11 3/27~4/2
     - 週三一場不到一小時的暴風雪
+    - 有同學開始在討論分數夠了的話要跳過最後幾個作業？
+    - 聽國際交換的說明會
+        - CPA 可以有整學期的交換
+        - 暑假可以去國外兩週修掉一堂的通識課
+    - APS 剩 15 位同學
 - 三月檢討
+    - 太多想做的事情
+    - 該來設定一下目標
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -645,7 +658,7 @@
         - 有簡答題
         - Quiz 1 是考 PSEUDO CODE
         - Quiz 2 是考 FLOWCHART 
-    - 從開學 35人到，第二次考試時剩 17人
+    - 從開學 35人到，第二次考試時剩 17人，第十一週時剩下 15 位
 
 ## 工作求職類的講座紀錄
 
@@ -666,3 +679,27 @@
         - Avoid: Personal salary, polical, religion
     - Linkedin / [Indeed](https://ca.indeed.com/)
     - You can book a virtual appointment with a Career Strategist at https://sw.senecacollege.ca/home.htm  click career development > appointments > book by service provider
+
+- 2023/03/30 School of Software Design and Data Science (SDDS) Alumni Panel
+    - 有一位來自中國的學長
+        - 在中國就有相關 DevOp 經驗
+        - 英文不太流利
+        - 在 WIL 課程協助下找到政府的 Co-op
+        - 後來又因為這個政府工作找到現在的工作
+        - 畢業前就拿到合約
+    - 學姊
+        - Seneca 提供的都找不到，就自己找小新創，小公司比較有機會
+    - 以前有一個組織叫 C-DOT，和學校教授有關，疫情前收掉。
+        - 兩位學長曾在這個單位實習
+        - https://cdot.senecacollege.ca/
+        - 一位學長為了繼續實習，變成修四年的課 CPA --> BSA（很愛 Seneca）
+        - 這個單位會和業界有一些開源專案合作
+    - 一位提問的女生
+        - 投了 150 個都沒回應
+        - 可能學歷太好 應用數學碩士，所以找不到實習工作？
+            - 拿掉一些履歷
+        - 需客製化寫 cover letter
+        - 再找專家幫忙看看
+    - 多利用 GitHub 展現學習成果
+    - 一位學長提到專案管理那一堂課他覺得很實用（疑？）
+    - 一位學長工作從網頁轉職後變到資料處理，覺得在 Senca 學的課程多少都有用到。
