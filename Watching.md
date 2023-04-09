@@ -1065,3 +1065,10 @@
     - 一個機歪的強者
         - 變兩個
     -  威脅人這麼有用嗎?
+    - 真的就是這樣想
+
+- 20230401 捍衛任務4 John Wick: Chapter 4
+    - 真田廣之太帥了
+
+- 20230408 龍與地下城：盜賊榮耀 Dungeons & Dragons: Honor Among Thieves
+    - 德魯伊好可愛

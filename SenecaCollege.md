@@ -146,6 +146,10 @@
             - 兩年畢業 --> CPP
             - 三年畢業 --> CPA
             - 三年 + 有 Co-op --> CPA-C
+        - 聽國際交換的說明會
+            - CPA 可以有整學期的交換
+            - 暑假可以去國外兩週修掉一堂的通識課？
+            - [交換相關資訊網頁](https://students.senecacollege.ca/spaces/195/global-learning-and-engagement/current-opportunities-listings#sap)
 - Seneca College 相關
     - Residence
         - [residence](https://senecaresidence.ca/faq/)
@@ -579,9 +583,6 @@
     - 在學生會撞球場看到快衝突打架
     - 週三一場不到一小時的暴風雪
     - 有同學開始在討論分數夠了的話要跳過最後幾個作業？
-    - 聽國際交換的說明會
-        - CPA 可以有整學期的交換
-        - 暑假可以去國外兩週修掉一堂的通識課
     - APS 剩 15 位同學
     - 看電影帶外食被擋，QQ
 - 三月檢討
@@ -594,6 +595,10 @@
     - 做夢被氣到起床
     - 加拿大好市多運費是另計的，跟台灣不一樣。
     - 無法理解南亞朋友的約看電影和約聚餐的約法
+    - 聽教授尬聊：他的學生時代，1980 年代 地下室房租一個月 100，本地生學費一年 700
+    - APS 組員都選擇跳過第 10 次作業
+    - 週五放假，但是上課進度都繼續，跟沒放差不多。
+- W13
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
