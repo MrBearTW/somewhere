@@ -1069,6 +1069,9 @@
 
 - 20230401 捍衛任務4 John Wick: Chapter 4
     - 真田廣之太帥了
+    - 英文太爛有點跟不上
 
 - 20230408 龍與地下城：盜賊榮耀 Dungeons & Dragons: Honor Among Thieves
     - 德魯伊好可愛
+
+- 20230415 美國眾神
