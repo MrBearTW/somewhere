@@ -422,6 +422,7 @@
                 - 是不是該登記早一點拿東西比較齊全？
         - 早餐：麥片 + 牛奶/杏仁奶 + 水果
             - 麥片一碗吃不夠可以吃下一碗
+            - 三月中後沒有提供水果
         - 週一起司三明治 1$ CA
         - 週五鬆餅日 1$ CA
         - SSF 行事曆參考 [calendar](https://ssfinc.ca/calendar/)
@@ -609,7 +610,12 @@
         - 也有類似紅包的習慣，但是試用一種樹葉包起來，不是信封。
     - ULI 的複習有點難，感恩讚嘆 Discord 和 ChatGPT
 - W14 4/14~4/23 期末考週
-    - 
+    - 考試週學生會會發餅乾和飲料，有咖啡茶熱巧克力
+    - 終於逛到了 Home depot，都是建財，可以自己組的家具比較少
+    - 蹭接駁車去逛了一圈 York 校區
+        - 建築感覺比 Newnham 老一些，但比 SIA 新
+        - 公用電腦有三四成是 Mac
+        - 想逛 York 大學看櫻花，但是只有五六株有開吧，科科
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
