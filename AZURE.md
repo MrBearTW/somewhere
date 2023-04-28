@@ -8,6 +8,14 @@
 - Prometheus / Graphna
 - https://www.openpolicyagent.org/
 
+## 2023/04/26 VS Code Day
+
+- Ship monthly
+  - Week 1 Plan, Debt
+  - Week 2~3 Run
+  - Week 4 End Game
+  - Week 5 Ship == Week 1 Plan, Debt
+
 ## 2023/03/30 Forget about infrastructure and boost your productivity with serverless
 
 - 講者剛被裁員 QQ
