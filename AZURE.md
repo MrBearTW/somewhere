@@ -1,3 +1,13 @@
+## 2023/04/27 Deployment Best Practices in Kubernetes
+
+- https://spinnaker.io/
+- armory / plugin/ observation 
+    - CDaaS
+- ArgoCD
+- Jenkins
+- Prometheus / Graphna
+- https://www.openpolicyagent.org/
+
 ## 2023/03/30 Forget about infrastructure and boost your productivity with serverless
 
 - 講者剛被裁員 QQ
