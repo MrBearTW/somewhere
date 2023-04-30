@@ -62,6 +62,7 @@
     - [Reddit](https://www.reddit.com/r/Seneca/) 
     - CPP 這個比較有人活動 [Discord](https://discord.gg/seneca)
         - 不過好像是尬聊比較多，沒看也不會怎麼樣。
+        - 有時也會討論作業， ULI 期末複習蠻需要的。
 
 - 生活
     - 網路
@@ -131,11 +132,13 @@
 - CPP / CPA 相關
     - 買電腦建議
         - Win / Mac 沒差
-        - 學校公用電腦大部分是 Win
+        - （不太正確）學校公用電腦大部分是 Win
+            - York 校區公用電腦就有許多 Mac
     - CPA 相關
         - 第二學期結束後，可以去申請 WIL
             - 第二學期時會有 WIL 說明會
             - 才能爭取 Co-op 機會
+            - 第三學期才能申請
         - 要看前幾個學期的成績
             - 抵免的學分不回計算在 GPA 內
             - [GPA 要求網頁](https://www.senecacollege.ca/employers/seneca-works/work-integrated-learning/eligibility.html)
@@ -169,10 +172,11 @@
     - 交通卡
         - PRESTO 要先買卡，才能拿來綁定 APP
             - 到地鐵站或 Shooper 購買
+            - APP 可以設定自動儲值
         - TTC (地鐵和最市區的公車)沒有要辦月卡的話，大於 19 歲學生其實沒優惠
             - TTC 地鐵和公車都是進佔和上車刷卡，出站和下車不用刷。
             - Finch 公車站和地鐵站是合在一起，公車一下車就是已經算在地鐵站內了。
-                - 939 Finch 到 Seneca Newnham 四站就到了。
+                - 939A Finch 到 Seneca Newnham 四站就到了。
         - GO (類似城際火車？好像也有經營客運)申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
             - 需學校信箱
             - 1~30 趟 40% OFF，31~40 趟 95% OFF，之後不用錢
@@ -197,7 +201,7 @@
             - 選 ICAP
         - 2022/11/23 刷卡 299 加幣 (6997 台幣)
         - 2022/11/23 郵局國際快捷 432 NT
-            - DHL 好像要 15?? NT
+            - DHL 好像要 1500 NT 上下
             - 2022/12/02 寄到 WES
         - 2022/12/06 WES 來信：The estimated completion date for your report is December 15, 2022
         - 2022/12/14 WES 通知完成
@@ -215,10 +219,10 @@
         - 走路距離：看個人可以承受程度。
             - 很看人
         - 防水登山靴到加拿大再買
-            - 好像也沒有說真的比較便宜，台台灣買帶過來就是比較重比較占空間
+            - 好像也沒有說真的比較便宜，台台灣買帶過來就是有點重且占用行李空間
             - 但下雪天確實食用可以避免鞋子濕掉
         - 防水外套
-            - （錯誤）好像也沒有很必要，就撐傘就好。
+            - （不太正確）好像也沒有很必要，就撐傘就好。
             - 風太大的時還是需要
         - 頭部保護
             - 保護耳朵和鼻子，買了類似搶匪用的頭套
@@ -235,6 +239,7 @@
         - TD 信用卡一開始只給每個月 500 CA
         - TD 大筆資金（未來幾學期的學費之類）可以做 GIC 定存，最低 100 天可操作。
             - 利息的部分，行員好像有一些權限可以比公告的高一點點
+        - TD 學生方案有送 100 塊電子禮券，可以選 Amazon 或其他
     - 口罩：公共運輸有貼建議戴，也蠻多人戴的
     - 攜帶物品
         - 帶承重效果比較好的購物袋
@@ -246,7 +251,7 @@
     - （沒用到）可否睡機場
         - [Toronto Pearson Airport Guide](https://www.sleepinginairports.net/guides/toronto-pearson-airport-guide.htm)
 - 租車
-    - 雪雪地開車沒經驗還是先不要
+    - 雪地開車沒經驗還是先不要
 
 - Check List
     - 現金 10000 加幣 / 支票
@@ -330,18 +335,18 @@
 - 入住週六當天
     - 驗身份（護照），拿房卡
     - 有人可以詢問問題
-    - 房間有一包師紙巾和一個布袋（應該是裝髒衣服？）
+    - 房間有一包濕紙巾和一個布袋（應該是裝髒衣服？）
     - 晚上 6:00 線上介紹
 - 優缺點
     - 優點
-        - （不完全正確）整理得很乾淨，東西都算新
+        - 整理得很乾淨，東西都算新（不完全正確）
             - 冬季的房間比較新
             - 夏季住到的房間就都比較有使用過的痕跡
         - 有人代收包裹
             - 但要等工作人員寄信給你才可以去拿，Amazon APP 顯示到貨和工作人員寄信大概會差半天
         - 每週三 9:00~11:00 有早餐活動
             - 出現過的品項：咖啡、茶包、熱巧克力、馬芬、爆甜的麵包、可鬆、優格、蘋果、水果杯
-            - 夏季學期好像沒有
+            - 夏季學期好像沒有？
         - 不到一分鐘就走進校園建築
         - 各種不定期活動可以參加
         - 24 小時保全
@@ -412,6 +417,7 @@
             - 微波爐比較舊
             - 高樓層景色很好
             - 天花板較高
+            - 馬桶水箱容易卡住
 
 ## 搭 Seneca shttle bus
 - [路線與時刻表](https://students.senecacollege.ca/spaces/59/transportation/wiki/view/265/campus-shuttle)
@@ -457,7 +463,7 @@
         - 但是我沒加也是選完了
     - 開學前一週天氣只有兩天是晴天，其他時間都陰陰的或下雨
     - 每一堂課都會用到的共同事前安裝準備 https://gettingstarted.sdds.ca/
-    - 有[LinkedIn Learning](https://students.senecacollege.ca/spaces/115/linkedin-learning/home) 可以用，超多課可以上。
+    - 學校有簽約[LinkedIn Learning](https://students.senecacollege.ca/spaces/115/linkedin-learning/home) 可以用，超多課可以上。
 - W1 2023/01/09~15
     - 看清楚交作業期限
     - 下雪了
@@ -664,12 +670,35 @@
 
 ### 第一學期 2023 Winter
 
-- 原始課表
-
-- 真實課表
-
+- 課表
+    - IPC144 / Introduction to Programming Using C
+        - 一般教室 Mon: 9:50 AM to 11:35 AM
+        - 電腦教室 Tue: 2:25 PM to 4:10 PM
+        - 線上 SLG Thu: 2:25 PM to 4:10 PM
+    - ULI101 /  Introduction to UNIX/Linux and the Internet
+        - 一般教室 Mon: 1:30 PM to 3:15 PM 
+        - 電腦教室 Wed: 1:30 PM to 3:15 PM
+        - 線上 SLG Thu: 10:45 AM to 12:30 PM
+    - CPR101 / Computer Principles for Programmers
+        - 電腦教室 Fri: 12:35 PM to 3:15 PM
+    - APS145 / Applied Problem Solving
+        - 一般教室 Fri: 8:55 AM to 11:35 AM
+    - COM101 COM111
+        - 學分抵免掉，沒有這一門
+- 成績
+    - APS145 B
+    - CPR101 A
+    - IPC144 B+
+    - ULI101 A+
 - 心得
-
+    - IPC144 對有學過其他語言的應該是普通，作業小考都有跟上應該就順順的，Pointer 多看一下，應該就還好。
+    - ULI101 對有經驗的學生應該有點太簡單，只教使用者端，管理端完全沒碰到。
+    - CPR101 是一門很看自己要學多少的課，不過跟選到什麼老師也差異蠻大的。
+    - APS145 有大量和同學討論互動的機會，要儘早找到老師的標準是在哪，摸不到毛會有點煩。
+    - 綜合
+        - 期中考我懷疑都有故意壓縮時間，記得寫快一點。
+        - 大部分的作業其實當週都可以提早看到，可以提前做應該是不錯的選擇。
+        - Reflection 要怎麼樣寫出高分我也不是很確定？我後來就都寫真心話，題目問什麼寫什麼，遇到什麼寫什麼。
 
 ## 老師特色
 - IPC144
@@ -681,7 +710,7 @@
     - Quiz 用紙本，單選和多選，會發回來，不一定會公布答案，可以自己去問
         - 是考當週會教的，要比已上課的部分提早一些進度預習，都有公告在 BlackBord
     - 期中考是用紙本
-    - 期中考後狂考 quiz
+    - 期中考後狂考 Quiz
     - 作業 
         - WS3 有一點煩
         - WS7 小難
@@ -704,7 +733,8 @@
         - 應該用快捷鍵
         - 應該用什麼軟體
     - 覺得 Visual Studio 是業界標準
-    - 考試用 Blackboard 系統，單選、多選、簡答
+    - Quiz 用 Blackboard 系統，單選、多選、簡答
+        - 會要求用 Lab 的電腦，記得帶手機不然無法登入。
     - Professional / Get it done
     - 快捷鍵愛好者
     - 多看新聞懂行話
@@ -716,7 +746,7 @@
     - 期末作業是一個角色扮演的作業。
 - APS145
     - [Cameron Gray](https://github.com/CameronGray1210)
-    - 上課到超時
+    - 前幾堂上課到超時
     - 用簽到點名
     - 分組作業
         - 第一次隊友完全就是運氣。
@@ -729,7 +759,7 @@
         - Quiz 1 是考 PSEUDO CODE
         - Quiz 2 是考 FLOWCHART 
         - Quiz 3 都考
-            - 其實就是期末考
+            - Quiz 3 其實就是期末考
     - 從開學 35人到，第二次考試時剩 17人，第十一週時剩下 15 位
 
 ## 工作求職類的講座紀錄
@@ -766,6 +796,7 @@
         - https://cdot.senecacollege.ca/
         - 一位學長為了繼續實習，變成修四年的課 CPA --> BSA（很愛 Seneca）
         - 這個單位會和業界有一些開源專案合作
+        - ULI 的課程資料好像就是這個單位做的？
     - 一位提問的女生
         - 投了 150 個都沒回應
         - 可能學歷太好 應用數學碩士，所以找不到實習工作？
