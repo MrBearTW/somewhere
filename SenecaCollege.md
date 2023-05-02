@@ -58,7 +58,7 @@
         - [聖力嘉學院台灣學生交流群 Seneca College Taiwan Students](https://www.facebook.com/groups/227360092568016)
         - [Seneca College Students](https://www.facebook.com/groups/3603905606376973)
     - [Dcard 討論串](https://www.dcard.tw/f/studyabroad/p/236928011)
-    - [LINE 群組](https://line.me/ti/g/X06wsj--OP)
+    - [LINE 群組 Seneca College 台灣同鄉會](https://line.me/ti/g/X06wsj--OP)
     - [Reddit](https://www.reddit.com/r/Seneca/) 
     - CPP 這個比較有人活動 [Discord](https://discord.gg/seneca)
         - 不過好像是尬聊比較多，沒看也不會怎麼樣。
@@ -133,8 +133,8 @@
 - CPP / CPA 相關
     - 買電腦建議
         - Win / Mac 沒差
-        - （不太正確）學校公用電腦大部分是 Win
-            - York 校區公用電腦就有許多 Mac
+            - Newnham 校區公用電腦大部分是 Win
+            - York 校區公用電腦有許多 Mac
     - CPA 相關
         - 要念 CPP 還是 CPA 其實可以等第二學期時參加完 WIP 說明會後再決定
             - WIL 就是 [Work-Integrated Learning](https://www.senecacollege.ca/employers/seneca-works/work-integrated-learning.html)
@@ -142,9 +142,9 @@
         - 第二學期結束後，可以去申請第三學期參加 WIL
             - 第二學期時會有 WIL 說明會
             - 參加 WIL 才能爭取學校 Co-op 機會
-            - 第三學期邊參加 WIL 課程，邊申請 Co-op 機會
+            - 第三學期一邊參加 WIL 課程，一邊申請 Co-op 機會
         - 要看前幾個學期的成績
-            - 抵免的學分不回計算在 GPA 內
+            - 抵免的學分不會計算在 GPA 內
             - [GPA 要求網頁](https://www.senecacollege.ca/employers/seneca-works/work-integrated-learning/eligibility.html)
         - 畢業證書(應該是這樣)
             - 兩年畢業 --> CPP
@@ -162,7 +162,8 @@
             - Move-In Day: January 7, 2023
             - Move-Out Day: April 22, 2023
     - 住宿選擇
-        - 大概區域：North York / 沿著 Finch Ave E 
+        - 大概區域：North York / 沿著 Finch Ave E
+            - 願意通車的話也可以住市區
         - 地下室
         - https://house.51.ca/rental/map?rentalTypes=room
             - Seneca College Newnham Campus
@@ -173,7 +174,7 @@
             - 到地鐵站或 Shooper 購買
             - APP 可以設定自動儲值
         - TTC (地鐵和最市區的公車)沒有要辦月卡的話，大於 19 歲學生其實沒優惠
-            - TTC 地鐵和公車都是進佔和上車刷卡，出站和下車不用刷。
+            - TTC 地鐵和公車都是進站和上車刷卡，出站和下車不用刷。
             - Finch 公車站和地鐵站是合在一起，公車一下車就是已經算在地鐵站內了。
                 - 939A Finch 到 Seneca Newnham 四站就到了。
         - GO (類似城際火車？好像也有經營客運)申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
@@ -194,8 +195,8 @@
             4. 用學生 Email ，將上面 1 2 3 寄給學校
                 - 信件內容加一個表格說明哪一堂課要抵 Seneca 的什麼課
             5. 有缺的話學校就會回信給你不要擔心
-            - 文件備齊就可以先寄信給 Seneca 了，WES 認證可以晚一點沒關係。
-        - 有 E-mail 提醒
+            - 拿到 WES 編號＋文件備齊就可以先寄信給 Seneca 了，WES 完成認證可以晚一點沒關係。
+        - 有 E-mail 提醒是否要辦理學分抵免
         - https://www.senecacollege.ca/registrar/transfer-credit.html
             - 選 ICAP
         - 2022/11/23 刷卡 299 加幣 (6997 台幣)
@@ -216,10 +217,9 @@
         - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
             - 下雪就 GG
         - 走路距離：看個人可以承受程度。
-            - 很看人
         - 防水登山靴到加拿大再買
             - 好像也沒有說真的比較便宜，台台灣買帶過來就是有點重且占用行李空間
-            - 但下雪天確實食用可以避免鞋子濕掉
+            - 但下雪天確實可以避免鞋子沾到雪然後濕掉
         - 防水外套
             - （不太正確）好像也沒有很必要，就撐傘就好。
             - 風太大的時還是需要
@@ -250,7 +250,7 @@
     - （沒用到）可否睡機場
         - [Toronto Pearson Airport Guide](https://www.sleepinginairports.net/guides/toronto-pearson-airport-guide.htm)
 - 租車
-    - 雪地開車沒經驗還是先不要
+    - 沒有下雪天氣開車沒經驗還是先不要
 
 - Check List
     - 現金 10000 加幣 / 支票
@@ -323,7 +323,7 @@
 - 22:35 海關問完問題蓋章
     - 拿完行李要出去時會交出過海關時印出來的那張紙。
 - 22:58 等車處報到
-- 23:03 上車
+- 23:03 上 Seneca 提供的接駁車
     - 司機是一位錫克教式包頭的中年先生
     - 我地址是錯的，QQ
         - 上車時請認真確認一次
@@ -366,7 +366,7 @@
         - 各種不定期活動可以參加
         - 24 小時保全
         - 熱水供應穩定
-            - 停止供應會發 Email 通知，都是停一個白天而已
+            - 暫停供應的話會發 Email 通知，都是停一個白天而已
     - 缺點
         - （不完全正確）較貴，平均每月超過 1000CA，已可在外租辦地下室個人套房。
             - 好像是秋冬一樣，夏季稍微便宜？
@@ -375,13 +375,13 @@
             - 浴簾要自行購買
         - 蓮蓬頭是固定式，只能微調一些角度
         - 燈光是適合睡覺偏暗的黃光，需要檯燈支援
-        - 兩位室友的房間是沒有鎖的。
+        - 兩位室友各自的房間是沒有鎖的。
         - 廚房只有一樓有，有五組大烤箱和不是明火的電磁爐(IH 爐？)
         - 空調控制器是在其中一個室友的房間內
         - 兩位室友的空調是通的，所以隱約可以聽到對方房內的聲音
             - 但隔壁間就真的是聽不太到。
-        - 沒有健身房
-            - 要走到校內去
+        - 有健身房但疫情時關閉就沒有再打開
+            - 要健身要走到校內去用學校的
         - 到週末垃圾管線好像就會爆滿
     - 其他
         - 電器只有冰箱，微波爐，電視。
@@ -390,12 +390,13 @@
                 - 熱水或溫水要加 0.5 加幣
                 - 膠囊式洗衣精丟滾筒式記得丟進去一點
             - 烘衣 60 分鐘
+            - 洗衣間只有偶數樓層有。
         - 商店，都不是 24 hr
             - 一間超商 [M&M Food Market](https://goo.gl/maps/6LafWNfNs7zCKfzz6)
                 - 東西沒有比較便宜
             - 一間 [Subway](https://goo.gl/maps/Rc8Az3zRHFbMKmX16)
         - 火災警報很大聲，一定會叫醒人大聲
-        - 風景很看運氣，運氣好住高樓層看遠方，運氣不好低樓層被冬季體育場帳篷擋住景觀還強烈反射楊光
+        - 風景很看運氣，運氣好住高樓層看遠方，運氣不好低樓層被冬季體育場帳篷擋住景觀還強烈反射陽光
         - 三不五時走廊聞到大麻味
     - 活動紀錄
         - 去市區 [Nathan Phillips Square](https://goo.gl/maps/3TPqgerw92ajaib59) 溜冰
@@ -407,7 +408,7 @@
                     - 未來會有一個 IKEA
                 - 看 Google map 發現旁邊是地鐵 3 號藍線終站
         - 去 [Distillery District](https://goo.gl/maps/BLdpCZSGoXxiyPjZ8) 觀光
-            - 有種華山的感覺，但其實無法逛很久
+            - 有種台北華山的感覺，但其實無法逛很久
             - 室友說晚上去氣氛比較好，有燈有酒
             - 有間很像誠品的店
             - 附近很多工地，感覺是重新督更開發的區域
@@ -422,7 +423,7 @@
         - 各種小活動可參考 [Newnham 宿舍的 Instagram](https://instagram.com/senecanewnhamresidence)
 - 續住相關
     - 2023/3/14 收到可以登記下一學期（2923 May）和下一學年的信件（2023 Sep + 2024 Jan）
-        - 100 + 11.5TAX The status of your application is 002. Applicant Paid.
+        - 要再繳一次申請費，100 + 11.5TAX The status of your application is 002. Applicant Paid.
     - 冬夏學期間換房間
         - 移出日(週六)後的第三天(週一)收到通知週二可以拿新房間的鑰匙卡
             - 也有朋友是移出日後六天都還沒收到通知說新房間要移去哪裡
@@ -436,12 +437,15 @@
             - 馬桶水箱容易卡住
 
 ## 搭 Seneca shttle bus
+
 - [路線與時刻表](https://students.senecacollege.ca/spaces/59/transportation/wiki/view/265/campus-shuttle)
+- 上車時要給司機看一眼 OneCard
 - 準時發車
 - Newnham Campus --> Markham Campus 要繞一圈掉頭會稍微慢一點
 - Markham Campus --> Newnham Campus 順向很快就到
 
 ## Seneca 食物相關
+
 - 免費
     - 學校
         - Food Plan 免費的湯 / 天
@@ -460,7 +464,7 @@
             - 三月中後沒有提供水果
         - 週一起司三明治 1$ CA
         - 週五鬆餅日 1$ CA
-        - SSF 行事曆參考 [calendar](https://ssfinc.ca/calendar/)
+        - SSF 活動行事曆參考 [calendar](https://ssfinc.ca/calendar/)
 - 付費(Newnham campus)
     - 一間 Tim Hortons，兩間 Starbucks。
     - 有沙拉約 10.5 、義大利麵約 10 、Pizza 約 6 、沙威馬單點約 8 、漢堡+薯條+鋁罐飲料約 12 不定期異國料理約 10，蛋糕，冰淇淋等等 沒點過不太確定
@@ -507,7 +511,7 @@
     - SIA = Markham 校區北邊就有個小機場
 - W3 2023/01/23~29
     - SIN 學校駐點，Newnham 名額瞬間爆滿，跑到 Markham 去申請
-        - 我室友有 Co-op ，好像入境時就會一起辦
+        - 我室友的課程是強制有 Co-op，好像入境時就會一起辦
         - 需要填寫父母英文姓名，可以先準備
         - 發現 ServiceOntario 和 ServiceCanada 是不一樣的單位，科科
     - 飲水機感應器壞掉的話，下面通常還有一個實體按鈕可以用。
@@ -659,7 +663,7 @@
 - W14 4/14~4/23 期末考週
     - 選課關係，週一考兩科，週五考一科，很不平均。
     - 考試週學生會會發餅乾和飲料，有咖啡茶熱巧克力
-    - 終於逛到了 Home depot，都是建財，可以自己組的家具比較少
+    - 終於逛到了 Home depot，都是建材，可以自己組的家具比較少
     - 蹭接駁車去逛了一圈 York 校區
         - 建築整體感覺比 Newnham 老一些，但比 SIA 新
         - 公用電腦有三四成是 Mac
@@ -716,7 +720,7 @@
     - APS145 / Applied Problem Solving
         - 一般教室 Fri: 8:55 AM to 11:35 AM
     - COM101 COM111
-        - 學分抵免掉，沒有這一門
+        - 學分抵免掉，沒修這一門
 - 成績
     - APS145 B
     - CPR101 A
