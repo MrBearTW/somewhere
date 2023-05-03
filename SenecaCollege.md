@@ -43,7 +43,7 @@
         - [RMP](https://www.ratemyprofessors.com/)
     - 20221208 INTERNATIONAL VIRTUAL ORIENTATION
     - 20221221 收到機場接送相關訊息（大約是起飛前九天）
-    - 20230111 發現有一個繳款請求
+    - 20230111 發現 MySeneca 中有一個繳款請求
         - 學費金額不太對 
         - 差 131.18 加幣
         - 沒找到 Email 通知
@@ -273,6 +273,7 @@
         - (沒用到)參考 [溫哥華](https://www.facebook.com/CISMTW/posts/pfbid0GRVaopBmtd4DJ4wckGGyPbPhTsgeKN2k6JbMEHz4WxLGc9g3VRhXwBM9KURERg1Ul)
         - 看牙醫記錄
             - [HK Dental Centre](https://goo.gl/maps/jp5L8c4cJLsj9CdCA)
+                - 收 Seneca 學生保險
                 - 基礎治療和洗牙，保險可抵免 80%，有部分還有優惠 20%（就是免費）。
                     - 一個保險週期可以洗牙一次。
                 - 這間除了牙醫之外都可以說中文,有需要的話牙助可以幫忙翻譯，非常中文友善。
@@ -280,10 +281,10 @@
                 - 參考價格，做牙冠 1200 CA，做植牙 4000 CA (拔牙手術費另計)
                 - 洗牙也分很多細項，可依保險剩餘金額規劃，記得先預約。
             - [Orchid Tooth Dental 蘭牙齒科](https://goo.gl/maps/LeaP6Aiba9wXnQ9n9)
+                - 收 Seneca 學生保險
                 - 全程可講中文
                 - 牙醫師是台灣人
-                - 收 Seneca 學生保險
-                - 蛀牙洗牙拔牙可抵 80％，需自付 20%。
+                - 蛀牙洗牙拔牙保險可支付 80％，需自付 20%。
 
 - 參考資料
     - 郵局 box5 / 五公斤 到加拿大
@@ -422,7 +423,7 @@
                 - 一直嫌貴到東西都不好吃了
         - 各種小活動可參考 [Newnham 宿舍的 Instagram](https://instagram.com/senecanewnhamresidence)
 - 續住相關
-    - 2023/3/14 收到可以登記下一學期（2923 May）和下一學年的信件（2023 Sep + 2024 Jan）
+    - 2023/3/14 收到可以登記下一學期（2023 May）和下一學年的信件（2023 Sep + 2024 Jan）
         - 要再繳一次申請費，100 + 11.5TAX The status of your application is 002. Applicant Paid.
     - 冬夏學期間換房間
         - 移出日(週六)後的第三天(週一)收到通知週二可以拿新房間的鑰匙卡
@@ -677,7 +678,7 @@
     - 還是沒運動
     - LeetCode 都用抄的沒在想...到底在幹嘛
 - 冬夏之間第二週
-    - 
+    - 外出用餐貴貴
     
 
 ## 關於要不要選這個 CPP 課程
@@ -722,6 +723,7 @@
     - COM101 COM111
         - 學分抵免掉，沒修這一門
 - 成績
+    - Term GPA 3.6
     - APS145 B
     - CPR101 A
     - IPC144 B+
@@ -734,6 +736,7 @@
     - 綜合
         - 期中考我懷疑都有故意壓縮時間，記得寫快一點。
         - 大部分的作業其實當週都可以提早看到，可以提前做應該是不錯的選擇。
+            - 作業大部分可以多次重複繳交，所先交一版之後再慢慢修改進步，期限前再上傳最後一版。
         - Reflection 要怎麼樣寫出高分我也不是很確定？我後來就都寫真心話，題目問什麼寫什麼，遇到什麼寫什麼。
 
 ## 老師特色
@@ -778,8 +781,8 @@
         - 用學校 Win 電腦做應該比較方便
     - 作業會要求字數
     - 最後幾週因身體健康因素更換老師
-        - 發現遠本的老師是一位很好的演講者
-    - 期末作業是一個角色扮演的作業。
+        - 發現原本的老師是一位很好的演講者
+    - 期末團體作業是一個角色扮演的作業。
 - APS145
     - [Cameron Gray](https://github.com/CameronGray1210)
     - 前幾堂上課到超時
@@ -854,7 +857,7 @@
     - 學校有 Linkedin Learning 的合作，上面超多課可以自學。
         - https://students.senecacollege.ca/spaces/115/linkedin-learning/home
     - 關於實習 Co-op
-        - 應該後面學期時會有一些教你們怎麼找工作的活動或課程
+        - 參加 WIL 時會有一些教你們怎麼找工作的活動或課程
         - CPA (CPP 三年版)學生有要求一定要上 WIL Work-Integrated Learning （就是 Co-Op 預備課程）
             - https://www.senecacollege.ca/employers/seneca-works/work-integrated-learning.html
             - 這個還要另外交一些錢 500 多加幣
@@ -913,4 +916,5 @@
         - 可能因為口說常常跟不上想講的事情，需要再多練練
     - 沒有學期前做功課哪位教授教得比較好，和給分嚴格程度
         - 前面幾週有的時候拿到成績會擔心會不會被當...
-    - 期中學習週沒有安排出遊？
+    - 期中學習週沒有安排出遊？哈哈
+        - 留個兩天做作業，其他放心出去玩。  
