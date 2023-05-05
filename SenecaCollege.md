@@ -383,6 +383,7 @@
             - 但隔壁間就真的是聽不太到。
         - 有健身房但疫情時關閉就沒有再打開
             - 要健身要走到校內去用學校的
+        - 電梯要用聽聲辨位哪一個會開門
         - 到週末垃圾管線好像就會爆滿
     - 其他
         - 電器只有冰箱，微波爐，電視。
@@ -568,7 +569,7 @@
         - 應該是 -10 度左右是一個警戒吧？
     - 感謝學姊無私分享
     - APS 作業討論三點五小時還沒做完，強者我組員。
-    - BesyBuy 真的各種宅宅的玩具
+    - BestBuy 真的各種宅宅的玩具
 - Study Week 2/27~3/5 
     - 各種神祕轉換 CPP CPA 的謎之路線
     - 第一天就把功課做完的學姊
@@ -678,7 +679,9 @@
     - 還是沒運動
     - LeetCode 都用抄的沒在想...到底在幹嘛
 - 冬夏之間第二週
+    - KKBOX 梁靜茹勇氣居然下架中...
     - 外出用餐貴貴
+    - Comfort food 真的是抒壓
     
 
 ## 關於要不要選這個 CPP 課程
@@ -747,7 +750,7 @@
     - 很 Chill 的感覺
     - 冷笑話
     - Quiz 用紙本，單選和多選，會發回來，不一定會公布答案，可以自己去問
-        - 是考當週會教的，要比已上課的部分提早一些進度預習，都有公告在 BlackBord
+        - 是考當週會教的，要比已上課的部分提早一些進度預習，都有公告在 BlackBoard
     - 期中考是用紙本
     - 期中考後狂考 Quiz
     - 作業 
@@ -817,7 +820,7 @@
     - 合約應該要有審閱期，不用馬上簽
     - First name
     - Weather, plan for weekend
-        - Avoid: Personal salary, polical, religion
+        - Avoid: Personal salary, political, religion
     - Linkedin / [Indeed](https://ca.indeed.com/)
     - You can book a virtual appointment with a Career Strategist at https://sw.senecacollege.ca/home.htm  click career development > appointments > book by service provider
 
@@ -844,7 +847,7 @@
         - 再找專家幫忙看看
     - 多利用 GitHub 展現學習成果
     - 一位學長提到專案管理那一堂課他覺得很實用（疑？）
-    - 一位學長工作從網頁轉職後變到資料處理，覺得在 Senca 學的課程多少都有用到。
+    - 一位學長工作從網頁轉職後變到資料處理，覺得在 Seneca 學的課程多少都有用到。
 
 ## 網友提問整理
 
@@ -916,5 +919,6 @@
         - 可能因為口說常常跟不上想講的事情，需要再多練練
     - 沒有學期前做功課哪位教授教得比較好，和給分嚴格程度
         - 前面幾週有的時候拿到成績會擔心會不會被當...
+    - 刷太多小紅書造成焦慮？
     - 期中學習週沒有安排出遊？哈哈
-        - 留個兩天做作業，其他放心出去玩。  
+        - 留個兩天做作業，其他放心出去玩。
