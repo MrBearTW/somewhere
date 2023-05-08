@@ -682,7 +682,8 @@
     - KKBOX 梁靜茹勇氣居然下架中...
     - 外出用餐貴貴
     - Comfort food 真的是抒壓
-    
+    - 開放入住第二天就停電一個早上
+    - 大學生怎麼可能想得清楚...好像也是
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
