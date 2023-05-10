@@ -678,12 +678,17 @@
 - 四月檢討
     - 還是沒運動
     - LeetCode 都用抄的沒在想...到底在幹嘛
-- 冬夏之間第二週
+- 冬夏之間第二週 5/1~5/7
     - KKBOX 梁靜茹勇氣居然下架中...
     - 外出用餐貴貴
     - Comfort food 真的是抒壓
     - 開放入住第二天就停電一個早上
     - 大學生怎麼可能想得清楚...好像也是
+- S2W1 5/8~5/14
+    - 有沒有社交超標？
+    - 週三火災警報又叫了！
+    - OOP 老師看起來好年輕
+    - 早八真的很硬
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -696,6 +701,16 @@
     - APS145
         - 思考如何寫程式
         - 教畫流程圖和 PSEUDO CODE
+- 第二學期的一些課程網頁，不需要 VPN 也可以看的內容
+    - OOP244
+        - https://ict.senecacollege.ca/~oop244/pages/content/langu.html
+        - https://github.com/Seneca-244200
+    - WEB222
+        - https://web222.ca/
+    - DBS211
+        - http://dbs211.ca/courses/dbs211/
+    - SFT221
+        - https://software-testing.sdds.ca/
 - 覺得教太慢
 - 可以接受丟一堆東西自己看嗎？
 - 是否願意參與一些當下看起來很不重要的討論？
@@ -796,6 +811,18 @@
         - 群組作業會直接寫名字，沒做可以不寫上去
         - 第二次之後分組是依成績分
             - 第 4 6 9 11 週重新分組
+    - Pseudo Code
+        - Individual
+            - 任意編輯器方便就好
+        - Sub-Group
+            - 推薦 https://hackmd.io/
+            - 共同編輯時，排版比較不會亂掉
+    - Flowchart
+        - Individual
+            - 用 draw.io （好像已改名叫 Diagrams.net）
+        - Sub-Group
+            - 共同編輯時，放在 Google drive 再分享，跟個人版用起來一樣。
+            - 用 Microsoft OneDrive 分享，會有一種功能半殘的感覺，不推。
     - Quiz 記得一定要帶鉛筆和橡皮擦
     - Quiz
         - 有簡答題
@@ -804,6 +831,8 @@
         - Quiz 3 都考
             - Quiz 3 其實就是期末考
     - 從開學 35人到，第二次考試時剩 17人，第十一週時剩下 15 位
+- OOP244
+    - [Hong Zhan (Michael) Huang](https://www.linkedin.com/in/hong-zhan-michael-huang-b130698b/)
 
 ## 工作求職類的講座紀錄
 
