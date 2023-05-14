@@ -1,3 +1,57 @@
+# AZURE
+
+## 2023/05/13 Global Azure Bootcamp 2023 Greater Toronto Area Microsoft Canada Toronto HQ
+
+- Securing sensitive data in a Modern Data Warehouse by using Azure Synapse by Diponkar Paul
+    - Dynamic data masking 
+    - SQL auditing ledger
+
+- Everyone can microservice with serverless on Azure by Alex Pshul
+    - scale & binding 
+    - scale 
+        - 0 to crazy
+        - Monitor 
+    - Dapr
+        - serverless containers 
+    - binding & triggers 
+    - Durable function 
+
+
+- Unlock the Power of Serverless: building a serverless Resume API by Rishab Kumar
+
+- Serverless Everything! by Ricardo Covo
+    - Azure Static Web Apps
+    - Azure Function
+    - Cosmos DB
+    - Azure sample GitHub 
+
+- Azure Test Plan Best Practices by Dave Lloyd
+    - Azure Test Plans
+    - Plugin
+
+## 2023/05/11 Global Azure 2023 at North Toronto Cloud & DevOps User Group
+
+- Session 1: Automating Azure Infrastructure with Bicep and Terraform Presenter: Jack Lee (Microsoft MVP)
+- IaC
+- Azure Resource Manager (ARM) Templates 
+- Terraform 
+    - Cons
+        - Always lag behind native providers 
+        - State file
+        - Tracking Terraform versioning
+        - Secret management
+ - Azure Bicep 
+    - Cons
+        - Limited to ARM
+        - Azure only
+- Organizational fit
+    - Depending on what are you solve for
+    - Use the right tool to the right jobs 
+- Tools are evolving 
+
+Session 2: Let's code a drone using ChatGPT and Azure Presenter: Bruno Capuano (Microsoft Senior Cloud Advocate)
+
+
 ## 2023/04/27 Deployment Best Practices in Kubernetes
 
 - https://spinnaker.io/
