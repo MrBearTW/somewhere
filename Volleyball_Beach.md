@@ -1,3 +1,24 @@
+# Local Beach Referee Clinic - Toronto
+- Net Heights(m)
+- Female
+    - 14U: 2.15
+    - 15U & 16U: 2.20
+    - Senior: 2.24
+- Male
+    - 14U: 2.20
+    - 15U & 16U: 2.35
+    - Senior: 2.43
+- Faults in Playing the Ball
+    1. Four Hits: A team hits the ball four times before returning it.
+    2. Assisted Hit: A player takes support from a team-mate or any structure/object in order to hit the ball within the playing area.
+    3. Catch: The ball is caught and/or thrown; it does not rebound from the hit (exception: Rule 9.2.2.1 and 9.2.2.2).
+    4. Double Contact: A player hits the ball twice in succession or the ball contacts various parts of his/her body in succession.
+- Improper Requests
+    1. during a rally or at the moment of, or after the whistle to serve
+    2. by a non-authorized team member
+    3. after having exhausted the authorized number of time-outs
+    4. during all regular interruptions (including Technical Time-outs) and set intervals, players must go to the designated players' area
+
 # B 沙裁判講習
 - 性平教育
 - 強攻球
