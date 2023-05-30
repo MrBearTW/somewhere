@@ -185,21 +185,31 @@
     - 課本
         - CPP / CPA 幾乎不用買課本
     - 抵免學分
+        - 依[學校公告](https://students.senecacollege.ca/spaces/128/transfer-credits/wiki/view/4874/international-from-institutions-outside-of-canada)為主，以下是參考經驗
+            - 大概可以抵的就是
+                - [COM101/111](https://www.senecacollege.ca/school/els/courses/communications-courses.html) 對應台灣大一英文(聽說其他外語課也可以抵，但我沒申請過不確定)
+                - [General Education Courses](https://www.senecacollege.ca/school/els/courses/general-education-courses.html) 對應台灣通識課程 
+                    - Sciences & Social Sciences
+                    - Arts & Humanities
         - 大概流程
-            1. WES 申請認證
-            2. 該課程的課綱英文版要有學校蓋章
-                - 應該不用第三方認證。就是網頁暴力翻譯就好
-                - 印出紙本蓋完後掃描
+            1. 上 WES 網站，申請認證，其中一步是要求學校成績單。
+                - 其中某一步是選 ICAP。
+                - 有一些學校有和 WES 合作有機制可以直接傳資料。
+                - 有一些學校可以給你彌封的信件，你再自己去寄。
+            2. 準備想抵免的台灣課程的課綱英文版給 Seneca，要有台灣學校蓋章
+                - 應該是不用第三方認證。就是網頁暴力 Google 翻譯就好
+                - 印出紙本蓋完學校印章後再掃描
                 - 蓋章的可能是教務處或系辦或通識中心，每個學校不一樣
             3. 填寫官網上提供的 PDF 檔案
-            4. 用學生 Email ，將上面 1 2 3 寄給學校
-                - 信件內容加一個表格說明哪一堂課要抵 Seneca 的什麼課
+                - PDF --> https://students.senecacollege.ca/spaces/134/forms/files/2157/transfer-credit-request
+            4. 用學生 Email ，將這三項一起寄給學校
+                1. WES 編號
+                2. 課綱蓋章後掃描檔案
+                3. 填寫完的 PDF 檔案
             5. 有缺的話學校就會回信給你不要擔心
-            - 拿到 WES 編號＋文件備齊就可以先寄信給 Seneca 了，WES 完成認證可以晚一點沒關係。
-        - 有 E-mail 提醒是否要辦理學分抵免
-        - https://www.senecacollege.ca/registrar/transfer-credit.html
-            - 選 ICAP
-        - 2022/11/23 刷卡 299 加幣 (6997 台幣)
+            - 拿到 WES 編號 ＋ 文件備齊就可以先寄信給 Seneca 了，WES 完成認證可以晚一點沒關係。
+        - 其實會有 E-mail 提醒是否要辦理學分抵免
+        - 2022/11/23 WES 刷卡 299 加幣 (6997 台幣)
         - 2022/11/23 郵局國際快捷 432 NT
             - DHL 好像要 1500 NT 上下
             - 2022/12/02 寄到 WES
@@ -293,7 +303,7 @@
 
 ## 入境後拿 Study permit
 - 長榮 BR36 表定 20:30 到多倫多 YYZ 機場
-- 實際 20:49 抵達多倫多 YYZ 下飛機後
+- 實際 2022/12/30 20:49 抵達多倫多 YYZ 下飛機後
     - 沿路會有兩個土炮站立告示牌用黃色 A3 紙寫著 New Student 的指示
 1. 我看到第一個就停下來被指引到第一個空間等待（就是兩大排椅子坐著一直看著其他人往前走）
     - 等等等約半小時
@@ -346,7 +356,7 @@
     - Winter Residence Term 2023/1/7~4/22 $4,325
     - Extended Term 2023/4/22~5/7 $525 
     - Summer Residence Term 2023/5/7~8/19 $3,640
-    - Extended Term ???
+    - Extended Term 2023/8/19~9/3 $525
     - Academic Year 2023/9/3~2024/4/20 $8,970
 - 入住週六當天
     - 驗身份（護照），拿房卡
@@ -362,7 +372,6 @@
             - 但要等工作人員寄信給你才可以去拿，Amazon APP 顯示到貨和工作人員寄信大概會差半天
         - 每週三 9:00~11:00 有早餐活動
             - 出現過的品項：咖啡、茶包、熱巧克力、馬芬、爆甜的麵包、可鬆、優格、蘋果、水果杯
-            - 夏季學期好像沒有週三早餐？
         - 不到一分鐘就走進校園建築
         - 各種不定期活動可以參加
         - 24 小時保全
@@ -423,6 +432,7 @@
             - 觀光區式的偏貴
                 - 一直嫌貴到東西都不好吃了
         - 各種小活動可參考 [Newnham 宿舍的 Instagram](https://instagram.com/senecanewnhamresidence)
+            - 但是圖片上的可能還要打個七折就是，呵呵
 - 續住相關
     - 2023/3/14 收到可以登記下一學期（2023 May）和下一學年的信件（2023 Sep + 2024 Jan）
         - 要再繳一次申請費，100 + 11.5TAX The status of your application is 002. Applicant Paid.
@@ -438,6 +448,7 @@
             - 天花板較高
             - 馬桶水箱容易卡住
     - 2023/05/20 申請續住 2023/9~2024/04 100CA
+        - Academic Year + Extended Term 繳費期限 6/16 共 9495
 
 ## 搭 Seneca shttle bus
 
@@ -706,6 +717,16 @@
     - Facebook 切成當地英文廣告了？
     - Web 老師又遲到了
     - 上課一直講話到底是在幹嘛...
+    - 到處都是蒲公英
+    - 決定繼續住宿舍
+- S2W3 5/22~5/29
+    - Victor Day 會有煙火，記得先查一下地點
+    - 看了太陽馬戲團，感謝 SSF 補助部分票價
+        - 解鎖第一次在加拿大開車，和高速公路
+    - SFT 真的是哭出來
+    - 沙灘排球裁判講座
+- S2W4 5/30~6/4
+    - SFT 作業遲交兩天
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -734,6 +755,7 @@
 - 課程中是一個簡化的世界
 - 一直沒拿到分數 / 惱羞成怒的同學 / 對分數斤斤計較的同學
 - 這裡不是 University of Toronto 或 University of Waterloo
+- 遇到很雷的老師可以接受嗎？
 - 可以的話盡量選 Newnham 校區
     - SIA Markham 校區只有一棟建築。Newnham 比較有校園的感覺。
     - SIA Markham 校區已超出 TTC 服務範圍，公車轉乘要再收一次錢
@@ -776,80 +798,100 @@
         - Reflection 要怎麼樣寫出高分我也不是很確定？我後來就都寫真心話，題目問什麼寫什麼，遇到什麼寫什麼。
 
 ## 老師特色
-- IPC144
-    - Robert Robson
-    - 開學前有加開一節課是教你安裝 Visual Studio 和 VPN
-        - 這個網頁 [Getting Started](https://gettingstarted.sdds.ca/) 都看得懂的話，其實不用去
-    - 很 Chill 的感覺
-    - 冷笑話
-    - Quiz 用紙本，單選和多選，會發回來，不一定會公布答案，可以自己去問
-        - 是考當週會教的，要比已上課的部分提早一些進度預習，都有公告在 BlackBoard
-    - 期中考是用紙本
-    - 期中考後狂考 Quiz
-    - 作業 
-        - WS3 有一點煩
-        - WS7 小難
-        - WS8 這難度...
-- ULI101
-    - [Syed Misbahuddin](https://www.linkedin.com/in/syed-misbahuddin-57262316/)
-    - 會走到你面前問問題，近到口水可能會被噴到那種
-    - 幾乎每一堂會點名
-    - 上課希望你專心聽講不要做別的事，適合喜歡超專心上課的人
-    - Quiz 用 Blackboard 系統
-    - 會一直重複複習
-    - 期中考試用 Lab 電腦考
-    - 期末考用紙本
-        - 可帶一張 A4 大抄
-- CPR101
-    - [Tim McKenna](https://www.linkedin.com/in/timmckenna/)
-    - 顧問業
-    - 成為一個專業的工程師的素養
-    - 極度技術
-        - 應該用快捷鍵
-        - 應該用什麼軟體
-    - 覺得 Visual Studio 是業界標準
-    - Quiz 用 Blackboard 系統，單選、多選、簡答
-        - 會要求用 Lab 的電腦，記得帶手機不然無法登入。
-    - Professional / Get it done
-    - 快捷鍵愛好者
-    - 多看新聞懂行話
-    - 對 Mac 使用者不是很友善的作業內容
-        - 用學校 Win 電腦做應該比較方便
-    - 作業會要求字數
-    - 最後幾週因身體健康因素更換老師
-        - 發現原本的老師是一位很好的演講者
-    - 期末團體作業是一個角色扮演的作業。
-- APS145
-    - [Cameron Gray](https://github.com/CameronGray1210)
-    - 前幾堂上課到超時
-    - 用簽到點名
-    - 分組作業
-        - 第一次隊友完全就是運氣。
-        - 群組作業會直接寫名字，沒做可以不寫上去
-        - 第二次之後分組是依成績分
-            - 第 4 6 9 11 週重新分組
-    - Pseudo Code
-        - Individual
-            - 任意編輯器方便就好
-        - Sub-Group
-            - 推薦 https://hackmd.io/
-            - 共同編輯時，排版比較不會亂掉
-    - Flowchart
-        - Individual
-            - 用 draw.io （好像已改名叫 Diagrams.net）
-        - Sub-Group
-            - 共同編輯時，放在 Google drive 再分享，跟個人版用起來一樣。
-            - 用 Microsoft OneDrive 分享，會有一種功能半殘的感覺，不推。
-    - Quiz 記得一定要帶鉛筆和橡皮擦
-    - Quiz
-        - 有簡答題
-        - Quiz 1 是考 PSEUDO CODE
-        - Quiz 2 是考 FLOWCHART 
-        - Quiz 3 都考
-            - Quiz 3 其實就是期末考
-    - 從開學 35人到，第二次考試時剩 17人，第十一週時剩下 15 位
-- OOP244
-    - [Hong Zhan (Michael) Huang](https://www.linkedin.com/in/hong-zhan-michael-huang-b130698b/)
+- S1
+    - IPC144
+        - Robert Robson
+        - 開學前有加開一節課是教你安裝 Visual Studio 和 VPN
+            - 這個網頁 [Getting Started](https://gettingstarted.sdds.ca/) 都看得懂的話，其實不用去
+        - 很 Chill 的感覺
+        - 冷笑話
+        - Quiz 用紙本，單選和多選，會發回來，不一定會公布答案，可以自己去問
+            - 是考當週會教的，要比已上課的部分提早一些進度預習，都有公告在 BlackBoard
+        - 期中考是用紙本
+        - 期中考後狂考 Quiz
+        - 作業 
+            - WS3 有一點煩
+            - WS7 小難
+            - WS8 這難度...
+    - ULI101
+        - [Syed Misbahuddin](https://www.linkedin.com/in/syed-misbahuddin-57262316/)
+        - 會走到你面前問問題，近到口水可能會被噴到那種
+        - 幾乎每一堂會點名
+        - 上課希望你專心聽講不要做別的事，適合喜歡超專心上課的人
+        - Quiz 用 Blackboard 系統
+        - 會一直重複複習
+        - 期中考試用 Lab 電腦考
+        - 期末考用紙本
+            - 可帶一張 A4 大抄
+    - CPR101
+        - [Tim McKenna](https://www.linkedin.com/in/timmckenna/)
+        - 顧問業
+        - 成為一個專業的工程師的素養
+        - 極度技術
+            - 應該用快捷鍵
+            - 應該用什麼軟體
+        - 覺得 Visual Studio 是業界標準
+        - Quiz 用 Blackboard 系統，單選、多選、簡答
+            - 會要求用 Lab 的電腦，記得帶手機不然無法登入。
+        - Professional / Get it done
+        - 快捷鍵愛好者
+        - 多看新聞懂行話
+        - 對 Mac 使用者不是很友善的作業內容
+            - 用學校 Win 電腦做應該比較方便
+        - 作業會要求字數
+        - 最後幾週因身體健康因素更換老師
+            - 發現原本的老師是一位很好的演講者
+        - 期末團體作業是一個角色扮演的作業。
+    - APS145
+        - [Cameron Gray](https://github.com/CameronGray1210)
+        - 前幾堂上課到超時
+        - 用簽到點名
+        - 分組作業
+            - 第一次隊友完全就是運氣。
+            - 群組作業會直接寫名字，沒做可以不寫上去
+            - 第二次之後分組是依成績分
+                - 第 4 6 9 11 週重新分組
+        - Pseudo Code
+            - Individual
+                - Windows 使用者推薦 [Notepad++](https://notepad-plus-plus.org/downloads/)
+            - Sub-Group
+                - 推薦 https://hackmd.io/
+                - 共同編輯時，排版比較不會亂掉
+        - Flowchart
+            - Individual
+                - 用 draw.io （好像已改名叫 Diagrams.net）
+            - Sub-Group
+                - 共同編輯時，放在 Google drive 再分享，跟個人版用起來一樣。
+                - 用 Microsoft OneDrive 分享，會有一種功能半殘的感覺，不推。
+        - Quiz 記得一定要帶鉛筆和橡皮擦
+        - Quiz
+            - 有簡答題
+            - Quiz 1 是考 PSEUDO CODE
+            - Quiz 2 是考 FLOWCHART 
+            - Quiz 3 都考
+                - Quiz 3 其實就是期末考
+        - 從開學 35人到，第二次考試時剩 17人，第十一週時剩下 15 位
+- S2
+    - OOP244
+        - [Hong Zhan (Michael) Huang](https://www.linkedin.com/in/hong-zhan-michael-huang-b130698b/)
+        - 流利使用 VIM
+        - 講話速度很快
+        - Quiz 線上自己在家考
+    - DBS211
+        - [Clint MacDonald](https://www.linkedin.com/in/clintmacdonald/)
+        - 作業遲交要 24 小時前通知，和未來工作業提前通知老闆一樣，可以不附理由
+        - 記得預習
+        - Oracle 比較難用，所以學得會的話其他也沒有問題
+        - Quiz 線上自己在家考，可以考兩次，取高分
+            - 兩次題目會不一樣
+    - WEB222
+        - [Suluxan Mohanraj LinkedIn](https://www.linkedin.com/in/suluxan/)
+        - [Suluxan Mohanraj GitHub](https://github.com/helloprof/web222-nee-class-notes)
+        - 會把教室調成暗暗的
+        - Quiz 在教室考，約半小時，Open book
+    - SFT221
+        - [Robin Huang](https://github.com/robinhuang-ut)
+        - 每一堂課都會錄影
 
 ## 工作求職類的講座紀錄
 
@@ -895,6 +937,10 @@
     - 多利用 GitHub 展現學習成果
     - 一位學長提到專案管理那一堂課他覺得很實用（疑？）
     - 一位學長工作從網頁轉職後變到資料處理，覺得在 Seneca 學的課程多少都有用到。
+- 2023/05/25 Building a Professional LinkedIn Profile by Cory Boatwright from LinkedIn
+    - 50 個技能填好填滿
+    - 常常上線逛一下，公司方介面會看到
+    - 對有興趣的公司，在 About 下有一個有興趣的按鈕，記得點一下，公司方介面會看到
 
 ## 網友提問整理
 
@@ -969,3 +1015,10 @@
     - 刷太多小紅書造成焦慮？
     - 期中學習週沒有安排出遊？哈哈
         - 留個兩天做作業，其他放心出去玩。
+- Visual Studio(紫色) 和  VS Code(藍色) 是不一樣的
+    - Visual Studio(紫色) 是完整 IDE。
+    - VS Code(藍色) 是可以裝很多外掛的編輯器。
+- 上課同時打工/遠端台灣上班？
+    - 學校功課和小考大考真的是不斷
+    - 可能就比較沒有時間出去玩和好好休息和交朋友
+    - 第一學期有相關經驗的應該是可以
