@@ -165,10 +165,19 @@
         - 大概區域：North York / 沿著 Finch Ave E
             - 願意通車的話也可以住市區
         - 地下室
-        - https://house.51.ca/rental/map?rentalTypes=room
-            - Seneca College Newnham Campus
+        - 租屋來源
+            - kijiji --> https://www.kijiji.ca/b-for-rent/city-of-toronto/c30349001l1700273
+            - 51 --> https://house.51.ca/ontario/toronto?houseDetailType=lease
+            - 請房仲業務幫忙找（應該是房東付費）
+            - Facebook Markplace
+            - Facebook 各種社團 
+                - hhttps://m.facebook.com/groups/torentals/
+                - https://m.facebook.com/groups/140360422735205/
+                - 點幾個之後演算法應該會一直推薦更多社團
+                - Toronto / Rent / Apartment 關鍵字去找應也蠻多的
         - 租外面和租學校差異？
             - 下雪天很方便
+            - 節省通勤時間
     - 交通卡
         - PRESTO 要先買卡，才能拿來綁定 APP
             - 到地鐵站或 Shooper 購買
