@@ -155,6 +155,7 @@
             - 另一種是：暑假可以去國外兩週修掉一堂的通識課？
             - [國際交換學生相關資訊網頁](https://students.senecacollege.ca/spaces/195/global-learning-and-engagement/current-opportunities-listings#sap)
 - Seneca College 相關
+    - [各種官方文件連結](https://students.senecacollege.ca/spaces/134/forms/home)
     - Residence
         - [residence](https://senecaresidence.ca/faq/)
         - [Summer 2022 Orientation- Residence](https://www.instagram.com/p/CdYk7O5Jgv9/)
@@ -171,8 +172,9 @@
             - 請房仲業務幫忙找（應該是房東付費）
             - Facebook Markplace
             - Facebook 各種社團 
-                - hhttps://m.facebook.com/groups/torentals/
-                - https://m.facebook.com/groups/140360422735205/
+                - [Toronto Apartment and House Rentals](https://m.facebook.com/groups/torentals/)
+                - [加拿大打工度假資訊-租屋版](https://m.facebook.com/groups/140360422735205/)
+                - [Toronto For Rent By Owner](https://m.facebook.com/groups/torontoforrent/)
                 - 點幾個之後演算法應該會一直推薦更多社團
                 - Toronto / Rent / Apartment 關鍵字去找應也蠻多的
         - 租外面和租學校差異？
@@ -185,7 +187,8 @@
         - TTC (地鐵和最市區的公車)沒有要辦月卡的話，大於 19 歲學生其實沒優惠
             - TTC 地鐵和公車都是進站和上車刷卡，出站和下車不用刷。
             - Finch 公車站和地鐵站是合在一起，公車一下車就是已經算在地鐵站內了。
-                - 939A Finch 到 Seneca Newnham 四站就到了。
+                - 939 A & C Finch 到 Seneca Newnham 四站就到了。
+                - 939 A & B & C  Seneca Newnham 到 Finch
         - GO (類似城際火車？好像也有經營客運)申請 [學生折扣](https://www.gotransit.com/en/trip-planning/going-to-school/student-id)
             - 需學校信箱
             - 1~30 趟 40% OFF，31~40 趟 95% OFF，之後不用錢
@@ -475,17 +478,13 @@
             - 看收據好像其實是 200 塊，一碗含稅 1.33
     - SSF 學生會
         - Food bank / 月
-            - 2023 一月
-                - 米一袋、義大利麵一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、壓碎番茄一罐、餅乾一包
-            - 2023 二月
-                - 米一包、義大利麵一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、番茄醬一條、餅乾一包
-            - 2023 三月
-                - 米一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、番茄醬一條、餅乾一包
-                - 是不是該登記早一點拿東西比較齊全？
-            - 2023 四月
-                - 忘了記，但差不多這一些品項
-            - 2023 五月
-                - 米一包、義大利麵一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、番茄醬一罐、餅乾一包
+            - 2023 一月：米一袋、義大利麵一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、壓碎番茄一罐、餅乾一包
+            - 2023 二月：米一包、義大利麵一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、番茄醬一條、餅乾一包
+            - 2023 三月：米一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、番茄醬一條、餅乾一包
+              - 是不是該登記早一點拿東西比較齊全？
+            - 2023 四月：忘了記，但差不多這一些品項
+            - 2023 五月：米一包、義大利麵一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、番茄醬一罐、餅乾一包
+            - 2023 六月：米一包、義大利麵一包、麵粉一包、鸚嘴豆一罐、混合豆一罐、扁豆一罐、番茄醬一罐、餅乾一包
         - 早餐：麥片 + 牛奶/杏仁奶/脫脂奶 + 水果
             - 麥片一碗吃不夠可以吃下一碗
             - 三月中後沒有提供水果
@@ -735,7 +734,47 @@
     - SFT 真的是哭出來
     - 沙灘排球裁判講座
 - S2W4 5/30~6/4
-    - SFT 作業遲交兩天
+    - SFT 作業遲交很多天
+        - 不會就擺爛
+    - Optimum 客服回得蠻快的
+- S2W5 6/5~6/11
+    - ChatGPT 是恩人
+    - 同學說不會做投影片 & 沒看過紅綠燈也太瞎了吧
+    - 森林火災空氣品質警報
+    - 終於裝了 GitHub Copilot，根本魔戒...
+- S2W6 6/12~6/18
+    - SSF 早餐又有蘋果了，但只出現一天
+    - AWS Summit 試著多聊天
+    - 電腦教室內老師是可以看你的螢幕的
+    - DBS 和 WEB 老師，一位事假一位病假
+    - 繳下學年的房租
+    - 成年人的崩潰就在那一瞬間
+- S2W7 6/19~6/25 Midterm week
+    - 哈利波特舞台劇，值得看一下
+        - 但期中考前一天還是有點硬
+    - 做大抄也是一門學問
+    - SFT221 本週課程終於有點 QA 的東西
+    - 同志遊行
+        - 和台北的不太一樣，遊行和圍觀的人是用柵欄分開的
+        - 從 Bloor-Yonge 走到 Nathan Phillips Square
+        - 遊行的位子應該是可以買的，所以有市長候選人也可以有位子參加
+- 期中檢討
+    - 要自我要求背一些，不能都用抄的，不然考試寫不出來
+    - 課文都沒有空看完
+    - 好像外務可以再精簡一些
+- S2 6/26~7/2 Study week
+    - CANADA'S WONDERLAND
+        - 雲霄飛車蠻多種的
+    - Collision Conf 志工
+        - 應該是一個以創業為主的短演講綜合活動
+        - 社交比想像中更多更有趣
+        - 不想跟這樣的人上班
+            - Amazing 變得這麼不可愛
+        - 手機管理執著
+    - 裁判制服有點貴，加鞋子應該要兩三次勤務才能打平
+    - 宿舍健身房終於開了
+        - 但是沒幾台機器是好的
+- S2W8 7/3~7/9
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -748,9 +787,9 @@
     - APS145
         - 思考如何寫程式
         - 教畫流程圖和 PSEUDO CODE
-- 第二學期的一些課程網頁，不需要 VPN 也可以看的內容
+- 第二學期課文網頁
     - OOP244
-        - https://ict.senecacollege.ca/~oop244/pages/content/langu.html
+        - （需要 VPN）https://ict.senecacollege.ca/~oop244/pages/content/langu.html
         - https://github.com/Seneca-244200
     - WEB222
         - https://web222.ca/
@@ -758,6 +797,13 @@
         - http://dbs211.ca/courses/dbs211/
     - SFT221
         - https://software-testing.sdds.ca/
+- 第三學期課文網頁
+    - OOP345
+        - https://advoop.sdds.ca/
+    - WEB322
+        - https://web322.ca/
+    - DBS311
+        - http://dbs211.ca/courses/dbs311/
 - 覺得教太慢
 - 可以接受丟一堆東西自己看嗎？
 - 是否願意參與一些當下看起來很不重要的討論？
@@ -765,6 +811,7 @@
 - 一直沒拿到分數 / 惱羞成怒的同學 / 對分數斤斤計較的同學
 - 這裡不是 University of Toronto 或 University of Waterloo
 - 遇到很雷的老師可以接受嗎？
+- 喜歡解 Bug 的感覺嗎？
 - 可以的話盡量選 Newnham 校區
     - SIA Markham 校區只有一棟建築。Newnham 比較有校園的感覺。
     - SIA Markham 校區已超出 TTC 服務範圍，公車轉乘要再收一次錢
@@ -851,6 +898,7 @@
         - 最後幾週因身體健康因素更換老師
             - 發現原本的老師是一位很好的演講者
         - 期末團體作業是一個角色扮演的作業。
+        - 影片資源：[Computer Principles for Programmers - CPR101 - Seneca College](https://www.youtube.com/playlist?list=PLqoEf1r6QZ--UBt_ZeR63omAzlzoMEBzs) by Hamed Osouli Tabrizi
     - APS145
         - [Cameron Gray](https://github.com/CameronGray1210)
         - 前幾堂上課到超時
@@ -886,6 +934,11 @@
         - 流利使用 VIM
         - 講話速度很快
         - Quiz 線上自己在家考
+        - 只有 Visual Studio 卡住能讓老師慢下來
+        - 課文網站要開 VPN 才能看
+        - 期中考前有重點整理，和練習題
+        - 期中考是紙本，可帶雙面 A4 大抄
+        - 影片資源：[OOP244 NAA 2231](https://www.youtube.com/playlist?list=PLxB4x6RkylovWKnn9EoJ7_ByHlqGTDEr7) by Fardad Soleimanloo
     - DBS211
         - [Clint MacDonald](https://www.linkedin.com/in/clintmacdonald/)
         - 作業遲交要 24 小時前通知，和未來工作業提前通知老闆一樣，可以不附理由
@@ -893,14 +946,24 @@
         - Oracle 比較難用，所以學得會的話其他也沒有問題
         - Quiz 線上自己在家考，可以考兩次，取高分
             - 兩次題目會不一樣
+        - 三不五時恐嚇你一下
+        - 期中考，一部分選擇。另一部分發紙本考題，用 Lab 電腦作答，可連上資料庫測試。
     - WEB222
         - [Suluxan Mohanraj LinkedIn](https://www.linkedin.com/in/suluxan/)
         - [Suluxan Mohanraj GitHub](https://github.com/helloprof/web222-nee-class-notes)
         - 會把教室調成暗暗的
         - Quiz 在教室考，約半小時，Open book
+            - WEB 考試前會點名，但是不算分數？
+        - 覺得做出答案比最佳做法重要
+        - 會視情況延遲作業繳交期限
+        - 影片資源：[David Humphrey](https://www.youtube.com/playlist?list=PLJgO3yLojCBM3paJ5Ar7qvc_eyX9OoxLk)
     - SFT221
         - [Robin Huang](https://github.com/robinhuang-ut)
         - 每一堂課都會錄影
+        - SFT WS3 WS5 只能用 Visual Studio 做
+        - Teams 回覆超快
+        - 對深色模式很有堅持
+        - Quiz1 完全是課文上的題目
 
 ## 工作求職類的講座紀錄
 
@@ -999,7 +1062,10 @@
                 - [Handshake](https://joinhandshake.com/)
                 - 政府職缺的網站
                 - 各產業的指標大公司通常也會有一些學生活動可以參加
-                    - 銀行類看到蠻多有在辦校園活動
+                    - 銀行類看到蠻多有在辦校園活動 
+    - 記錄一下前輩做得美美的個人網頁
+        - [Victor](https://vkrenz.github.io/portfolio/)
+        - [Jungjoo Kim](https://jaykim.tistory.com/)
 - 學校學習氛圍好嗎？
     - 整體應該算蠻 OK 的
         - 真的會當人
