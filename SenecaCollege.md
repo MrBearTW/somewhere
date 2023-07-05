@@ -234,6 +234,15 @@
         - 2023/1/8 寄 Email 問 Adviser 後續如何處理（開學第一週）
             - 2023/1/10 收到 Adviser 確認，放心把課退掉
         - 2023/1/11 COM111 這一堂應該是 1521.4 加幣
+  - 第二學期 2023 Summer 選課相關日期紀錄
+        - 2023/3/27 學校信箱收到一封 Action required for your enrolment at Seneca for May 2023
+        - 2023/3/27 按完  intent to enrol 後收到 Confirmation of Intent to Enroll
+        - 2023/4/03 收到 Your early enrolment appointment
+            - Your early enrolment window to select your May 2023 class schedule will open Monday, April 10 at 4 PM EDT and will remain open until 11:59 p.m.
+            - 每個人好像會不太一樣
+        - 2023/4/10 收到 advisor 的信 - Important Information for the Summer 2023 semester
+        - 2023/4/10 選課
+        - 2023/5/8 下學期開始
 - 加拿大相關
     - 雪季
         - 腳踏車通勤上下課，在下雪時是不太可行，輪胎須為特別寬的，路面會結冰。
@@ -508,8 +517,8 @@
         - 先看一下哪幾堂是開給自己系和自己校區選的，系統不會幫你過濾...
         - 因為選一堂之後就會卡住時間，所以就一堂一堂選下去，越後面通常就剩沒幾種選擇可以選。
             - IPC144 應該是第一學期最重要的課吧？
-    - 選課記得先加入 Adviser 的 Teams 群組，會公告哪幾堂課有加開位置。
-        - 但是我沒加也是選完了
+        - 選課記得先加入 Adviser 的 Teams 群組，會公告哪幾堂課有加開位置。
+            - 但是我沒加也是選完了
     - 開學前一週天氣只有兩天是晴天，其他時間都陰陰的或下雨
     - 每一堂課都會用到的共同事前安裝準備 https://gettingstarted.sdds.ca/
     - 學校有簽約[LinkedIn Learning](https://students.senecacollege.ca/spaces/115/linkedin-learning/home) 可以用，超多課可以上。
