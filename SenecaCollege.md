@@ -784,6 +784,30 @@
     - 宿舍健身房終於開了
         - 但是沒幾台機器是好的
 - S2W8 7/3~7/9
+    - TWICE 票價觀察，前幾週都 200 出頭，前一天有看到 160 左右的
+    - 下雨天人行道會有小蝸牛
+    - OOP 聽到有一人滿分
+    - DBS 老師說有兩人滿分，兩人四十幾分
+- S2W9 7/10~7/16
+    - Amazon Prime Day 賣爆
+    - 手作熊熊真是充滿儀式感，但大家都很開心
+    - 繳費什麼提醒都沒有真的是很哭
+    - 聽說以前學期間會有 git 課程
+    - 作業遲交，QQ，原來 23:59 就超時了
+    - 繳下學年押金期限，都沒通知真的是很雷
+- S2W10 7/17~7/23
+    - 路上有棉絮在飄
+    - 一週內被時間打敗兩次
+    - 不可能任務系列還是不錯
+- S2W11 7/24~7/30
+    - Intent to Enroll 衝衝衝
+    - 歐本海默，政治很難
+    - 漢米爾頓音樂劇 應該看過簡介再去看，可能看得比較懂
+    - 國華的即期品其實是過期品
+    - 學校一週登出一次真的太煩了
+    - 大谷翔平沒有主投，票價直線下降，哈哈好險沒買
+    - 床架壞掉
+- S2W12 7/31~8/6
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -799,6 +823,7 @@
 - 第二學期課文網頁
     - OOP244
         - （需要 VPN）https://ict.senecacollege.ca/~oop244/pages/content/langu.html
+            - Discord 上看到學生做的 [免 VPN 鏡像網站](https://lctoye.github.io/OOP244-Notes/pages/content/)
         - https://github.com/Seneca-244200
     - WEB222
         - https://web222.ca/
@@ -813,6 +838,11 @@
         - https://web322.ca/
     - DBS311
         - http://dbs211.ca/courses/dbs311/
+- WEB 課程規劃
+    - WEB222 Frontend 為主
+    - WEB322 Backend 為主(Node.js + Express.js)
+        - 公有雲建議在 WEB322 後自己學
+    - WEB422 會教 Frontend-framework (React.js)
 - 覺得教太慢
 - 可以接受丟一堆東西自己看嗎？
 - 是否願意參與一些當下看起來很不重要的討論？
@@ -939,24 +969,27 @@
         - 從開學 35人到，第二次考試時剩 17人，第十一週時剩下 15 位
 - S2
     - OOP244
-        - [Hong Zhan (Michael) Huang](https://www.linkedin.com/in/hong-zhan-michael-huang-b130698b/)
-        - 流利使用 VIM
+        - [Hong Zhan (Michael) Huang LinkedIn](https://www.linkedin.com/in/hong-zhan-michael-huang-b130698b/)
+        - [Hong Zhan (Michael) Huang GitHub](https://github.com/joulecpa)
+        - 流利使用 VIM 編輯 C++
         - 講話速度很快
         - Quiz 線上自己在家考
         - 只有 Visual Studio 卡住能讓老師慢下來
         - 課文網站要開 VPN 才能看
         - 期中考前有重點整理，和練習題
         - 期中考是紙本，可帶雙面 A4 大抄
+        - 會講解作業
+        - 會講廣東話
         - 影片資源：[OOP244 NAA 2231](https://www.youtube.com/playlist?list=PLxB4x6RkylovWKnn9EoJ7_ByHlqGTDEr7) by Fardad Soleimanloo
     - DBS211
         - [Clint MacDonald](https://www.linkedin.com/in/clintmacdonald/)
         - 作業遲交要 24 小時前通知，和未來工作業提前通知老闆一樣，可以不附理由
-        - 記得預習
+        - 記得預習，不然會被嗆一下
         - Oracle 比較難用，所以學得會的話其他也沒有問題
         - Quiz 線上自己在家考，可以考兩次，取高分
-            - 兩次題目會不一樣
+            - 兩次題目通常會不一樣
         - 三不五時恐嚇你一下
-        - 期中考，一部分選擇。另一部分發紙本考題，用 Lab 電腦作答，可連上資料庫測試。
+        - 期中考，一部分選擇（從 Quiz 出）。另一部分發紙本考題，用 Lab 電腦作答，可連上資料庫測試。
     - WEB222
         - [Suluxan Mohanraj LinkedIn](https://www.linkedin.com/in/suluxan/)
         - [Suluxan Mohanraj GitHub](https://github.com/helloprof/web222-nee-class-notes)
@@ -969,10 +1002,12 @@
     - SFT221
         - [Robin Huang](https://github.com/robinhuang-ut)
         - 每一堂課都會錄影
-        - SFT WS3 WS5 只能用 Visual Studio 做
+        - SFT WS3 WS5 和期末專案只能用 Visual Studio 做
         - Teams 回覆超快
         - 對深色模式很有堅持
-        - Quiz1 完全是課文上的題目
+        - Quiz1 完全是課文上的題目，Openbook
+        - Quiz2 只有半小時，Openbook
+        - 後半學期都是團體作業，組員很重要
 
 ## 工作求職類的講座紀錄
 
@@ -1106,3 +1141,11 @@
     - 學校功課和小考大考真的是不斷
     - 可能就比較沒有時間出去玩和好好休息和交朋友
     - 第一學期有相關經驗的應該是可以
+- 關於新學年度的押金 4000（整理自實體 Service Hub 詢問 & 與 Student Adviser Email 詢問）
+    - 先講結論：
+        - 繼續讀的國際學生要先繳 4000 CA deposit 才可以 enrol in classes。
+        - 沒有 Email，MySeneca --> Student Home 那邊也不會有提醒。
+    - 詳細大概是：
+        - 新生報名時就繳學費了，所以不用繳這個 4000。（不過加退選完後要檢查一下 Student Home 有沒有要補繳錢，一樣沒有通知。）
+        - https://students.senecacollege.ca/spaces/71/fees-and-payments/wiki/view/2231/fee-payments
+            - 可以看到：If you are an international student continuing or returning in your same program of study, or are beginning a new program after completing your first Seneca credential, you must pay a non-refundable deposit of $4,000 for your first term in the academic year (September to August) to be eligible to enrol in classes.
