@@ -316,6 +316,7 @@
                 - 全程可講中文
                 - 牙醫師是台灣人
                 - 蛀牙洗牙拔牙保險可支付 80％，需自付 20%。
+            - 加拿大牙醫是可以索取 X 光照片帶到另外一個牙醫診所的。
 
 - 參考資料
     - 郵局 box5 / 五公斤 到加拿大
@@ -808,6 +809,23 @@
     - 大谷翔平沒有主投，票價直線下降，哈哈好險沒買
     - 床架壞掉
 - S2W12 7/31~8/6
+    - 所有作業都這週就 Final 是在幹嘛...
+    - 加勒比海相關活動，週末有遊行，學生會也有活動
+    - 想講的好像沒講完
+    - 國泰好市多信用卡停卡了
+    - 申請維修床架順便修水龍頭，才發現用了整個學期的低水量
+    - Co-op 轉回 CPP 之路要被堵起來了嗎？
+- S2W13 8/7~8/13
+    - 停掉 Amazon prime ，影集沒看完 QQ
+    - 選課前忘了研究 Discord
+    - 選課衝衝衝，感恩惜福
+    - 地鐵綠線週日八點才開門
+    - 學期檢討
+    - 精神喊話
+- S2W14 8/14~8/20
+    - OOP 應該算是正常出題
+    - SFT 還是不能回頭寫很煩
+    - DBS 沒寫完...
 
 ## 關於要不要選這個 CPP 課程
 - [課綱看一下](https://www.senecacollege.ca/programs/fulltime/CPP/courses.html#menu)
@@ -978,7 +996,7 @@
         - 課文網站要開 VPN 才能看
         - 期中考前有重點整理，和練習題
         - 期中考是紙本，可帶雙面 A4 大抄
-        - 會講解作業
+        - 會講解作業和期末專案
         - 會講廣東話
         - 影片資源：[OOP244 NAA 2231](https://www.youtube.com/playlist?list=PLxB4x6RkylovWKnn9EoJ7_ByHlqGTDEr7) by Fardad Soleimanloo
     - DBS211
@@ -990,6 +1008,7 @@
             - 兩次題目通常會不一樣
         - 三不五時恐嚇你一下
         - 期中考，一部分選擇（從 Quiz 出）。另一部分發紙本考題，用 Lab 電腦作答，可連上資料庫測試。
+        - 期末考，10 題選擇。一題正規劃，一題 ERD。
     - WEB222
         - [Suluxan Mohanraj LinkedIn](https://www.linkedin.com/in/suluxan/)
         - [Suluxan Mohanraj GitHub](https://github.com/helloprof/web222-nee-class-notes)
@@ -998,15 +1017,17 @@
             - WEB 考試前會點名，但是不算分數？
         - 覺得做出答案比最佳做法重要
         - 會視情況延遲作業繳交期限
+        - Ass4 和 Ass5 有關係，可以一起看
         - 影片資源：[David Humphrey](https://www.youtube.com/playlist?list=PLJgO3yLojCBM3paJ5Ar7qvc_eyX9OoxLk)
     - SFT221
         - [Robin Huang](https://github.com/robinhuang-ut)
         - 每一堂課都會錄影
-        - SFT WS3 WS5 和期末專案只能用 Visual Studio 做
+        - SFT WS3 WS5 和期末團體作業只能用 Visual Studio 做
         - Teams 回覆超快
         - 對深色模式很有堅持
         - Quiz1 完全是課文上的題目，Openbook
         - Quiz2 只有半小時，Openbook
+        - Quiz3 三題選擇，四題簡答。
         - 後半學期都是團體作業，組員很重要
 
 ## 工作求職類的講座紀錄
