@@ -1,5 +1,31 @@
 - 學習資源 https://explore.skillbuilder.aws/learn
 
+## Compute Cost Optimization Developer Day - New York
+- (9:00AM - 9:45AM) Keynote: Compute Cost Optimization Developer Day
+    - M7
+    - 90 % 時間都是夠的
+    - 幫你選
+    - Attribute selection
+    - Automated recommendation 
+    - AWS Karpenter (#1)
+    - Open source (支援 K8s？)
+    - 可以用不同種處理器
+    - Serverless
+    - S3
+    - Intelligent-Tiering 省錢
+    - EBS
+    - Scale
+    - AWS Graviton (#2)
+        - AMD 架構
+
+- (9:45AM - 11:15AM) Option 1: Spot the Savings
+    -EC2 can synicarnie
+    - Optimize for cost and availability with capacity management
+        - AWS Compute Optimizer
+            - run time / compute resources 
+            - ODCR On-Demand Capacity Reservation
+
+
 ## 2023/02/15 Amazon EKS: does "managed" cluster mean "secure" cluster? by Clarissa B. and Irina @Onica by Rackspace Technology
 
 - Container: isolated set of resource consumption 
