@@ -1,3 +1,19 @@
+# Dell Technologies Forum Toronto 2023
+
+- Zero trust 
+    1. Protection 
+    2. Resilience 
+    3. Confidence
+- 5 challenge 
+    1. AI
+    2. Multi cloud 
+    3. Edge 
+    4. Work
+    5. Security 
+  
+- Red hat Stop open source 
+- NVIDIA co-op
+
 # Open Carousell 旋轉拍賣測試團隊開箱
 - 60% Cover
 - 有量化統計資料可以追蹤
