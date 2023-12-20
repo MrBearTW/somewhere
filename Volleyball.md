@@ -1,8 +1,194 @@
+# 2023 OVA Local Referee Clinic - Kitchener-Waterloo
+- Female
+    - 14 and Under	        2.15
+    - 15U	                2.20
+    - 16U/17U/18U & Adult	2.24
+- Male
+    - 14 and Under	    2.20
+    - 15U/16U	        2.35
+    - 17U/18U & Adult	2.43
+- The Ball
+    - Its circumference is 65 cm to 67 cm
+    - Its weight is 260 g to 280 g
+    - The inside pressure of the ball shall be 0.30 kg/cm2 to 0.325 kg/cm2 (4.26 psi to 4.61 psi) (294.3 mbar or hPA to 318.82 mbar or hPa)
+
+- The team captain must have on his/her jersey a stripe of **8 cm by 2 cm underlining** the number
+
+- The four faults in playing the ball are:
+    1. four hits
+    2. assisted hit (no official hand signal for assisted hit, R1 will indicate the team to serve, show the “out” signal)
+    3. catch or thrown ball
+    4. double contact
+    
+- All of the foot completely crosses the centre line and contacts the opponents court
+
+- Faults Of The Attack Hit
+    1. A player hits the ball within the playing space of the opposing team
+    2. A player hits the ball out
+    3. A back-row player completes an attack hit from the front zone, if at the moment of the hit the ball is entirely higher than the top of the net
+    4. A player completes an attack hit on the opponent’s service, when the ball is in the front zone and entirely higher than the top of the net
+    5. A Libero completes an attack hit if at the moment of the hit the ball is entirely higher than the top of the net
+    6. A player completes an attack hit from higher than the top of the net when the ball is coming from an overhand finger pass by a Libero in his/her front zone
+
+- Blocking Faults
+    1. Blocker touches the ball in the opponent’s space either before or simultaneously to the opponent’s attack hit
+    2. Back-row player completes or participates in a completed block
+    3. Blocking the opponent’s service
+    4. Ball is sent out off the block
+    5. Blocking the ball in the opponent’s space from outside the antenna
+    6. Libero attempts an individual or collective block
+
+- 14U, 15U boys and girls allow 12 substitutions (limited) - because there is no libero
+
+- Improper Requests: It is improper to request a regular game interruption:
+    1. during a rally or at the moment of, or after the whistle to serve
+    2. by a non-authorized team member
+    3. for a second request for substitution by the same team during the same interruption
+    4. after having exhausted the authorized number of time-outs and substitutions
+    5. by a coach that is not at the end of the bench nearest the scorer when sitting or from the extension of the attack line in the free  zone when standing or walking.
+
+- Reasons for a Delay
+    1. Delaying regular game interruptions 
+    2. Prolonging interruptions, after having been instructed to resume the game
+    3. Requesting an illegal substitution
+    4. Repeating an improper request
+    5. Delaying the game by a team member
+
+- Delay Warning
+- Delay Sanction
+
+- All intervals between sets last three minutes – blow your whistle at 2m30s
+
+- Injury
+    - Recovery time can only be given to the same player once in the match
+
+- Blood
+    - A one minute technical time-out is applied
+    - If the situation cannot be rectified, a legal substitution firstly, exceptional substitution secondly or recovery time thirdly, would be applied
+    - Legal Substitution:
+        - the injured player could return to the set providing the return is legal
+    - Exceptional Substitution:
+        - legal substitution is not possible
+        - injured player could not return for the remainder of the set
+        - note: different than in the case of exceptional substitution for an injury
+    - Recovery Time:
+        - a three minute recovery time is given in order to stop the bleeding, and to cover the affected area
+
+- Player's Right To Return
+    - Injury: No (if exceptional substitution)	
+    - Blood: In a subsequent set (if exceptional substitution)
+
+- Libero
+    - Can not complete an attack from anywhere (including playing court and free zone) if at the moment of contact, the ball is entirely higher than the top of the net
+    - A player may not complete an attack hit when the ball is entirely higher than the top of the net, if the ball is coming from an overhand finger pass by a Libero in his/her front zone.
+
+- unsportsmanlike behaviour.”
+- misconduct
+
+- Incorrect conduct is classified in three categories according to the seriousness of the offence:
+    - Rude Conduct: action contrary to good manners or moral principles
+    - Offensive Conduct: defamatory or insulting words or gestures, or any expression of contempt
+    - Aggression: actual physical attack or aggressive or threatening behaviour
+
+- sanctions
+    - Penalty
+    - Expulsion
+    - Disqualification
+
+- During the match, the first referee decides upon:
+    1. the faults of the server and of the positions of the serving team, including the screen
+    2. the faults in playing the ball
+    3. the faults above the net, and the faulty contact of the player with the net, primarily on the attacker’s side
+    4. the attack hit faults of the Libero and back-row players
+    5. the completed attack hit made by a player on a ball above the net height coming from an overhand pass with fingers by the Libero in his/her front zone
+    6. the ball crossing completely the lower space under the net
+    7. the completed block by back row players or the attempted block by the Libero
+    8. Authorizes the re-designation of the game captain when the team captain is not on the court.
+
+- During the match, the second referee whistles and signals:
+    1. penetration into the opponent’s court, and the space under the net
+    2. positional faults of the receiving team
+    3. the faulty contact of the player with the net primarily on the blocker’s side and with the antenna on his/her side of the court
+    4. the completed block by back row players or the attempted block by the Libero; or the attack hit fault by back row players or by the Libero
+- During the match, the second referee whistles and signals:
+    1. the contact of the ball with an outside object on their side of the net (post, ropes, antenna)
+    2. contact of the ball with the floor when the first referee is not in position to see the contact
+    3. the ball that crosses the net totally or partly outside of the crossing space to the opponent court or contacts the antenna on his/her side of the court
+
+- Sanctions
+    - #= player number
+    - C = coach
+    - AC = assistant coach
+    - T = trainer
+    - M = medical staff
+
+- Ceiling Rule Modifications
+- Fair Play Rule 
+    - Any player on the starting scoresheet who does not start the first set must start the second set
+    - In the case of a team with less than 12 players on the game roster, players who played the first set and who are starting the second set can be substituted at any time during the second set (Ontario only) 
+    - In the case of an injury, an Exceptional Substitution maybe made. The injured/ill player may not return to the same set but may return to play in subsequent sets
+    - Fair Play Clarification due to addition of 14 player roster
+        - Only 14 players can be on the scoresheet for any given match. These 14 players registered on the scoresheet are the only ones eligible to participate in the match. The 14 players registered on the scoresheet may vary from match to match.
+        - 12 different players must start either the first or second set there are no restrictions on who can play in the third set. The remaining 2 players MUST start the third set or start the first set of the next match.
+- Fair Play 2
+    - A player who did not play the first set cannot be substituted in the second set 
+    - Substitutions follow the normal substitution rules. Twelve (12) sub limited (one entry and one exit per player) rule will be in effect for the third set for 6v6 rallyball-15U and 6 sub limited for 16U.
+    - Fair play rules will be in effect for the following age divisions:
+        - • 6v6 Rallyball Boys and Girls.
+        - • TLS Boys and Girls.
+        - • 15U Boys and Girls for pool play matches only (including Day 1 & 2 of Ontario. Championships) (Ontario only).
+        - • 16U Boys and Girls for pool play matches only in the Trillium Divisions at regular season events (does NOT include Ontario Championships) (Ontario only).
+        - o Note: The libero is considered as a starting position within the fair play rule.
+- Quiz
+    - (T) If a roster player does not start set 1 they must start set 2
+    - (F) Players may be substituted after 15 points in a set
+    - (T) Any roster player may start the deciding set
+    - (T) A team with less than 12 roster players may substitute any player that has already played set one and is starting set two
+
+- Warm-up Protocol
+    - Primary Warm-up Protocol – (5-4-4): For all teams first match of the day ▪ Five (5) minutes of shared court time for ballhandling ▪ Four (4) minutes of exclusive time for the serving team ▪ Four (4) minutes of exclusive court time for the receiving team ▪ No shared hitting and serving
+    - Secondary Warm-up Protocol – (2-4-4): For all other Matches within the tournament ▪ Two (2) minutes of shared court time for ball handling ▪ Four (4) minutes of exclusive court time for serving team ▪ Four (4) minutes of exclusive court time for the receiving team ▪ No shared hitting and serving
+
+- Referee Responsibilities During Warm-up
+    - Shared Court (2 mins. or 5 mins.)
+        - Referee(s): check net height, then conduct coin toss.Head coaches prepare lineup forms
+        - Teams: on court activities (stretching/pepper), designated sides ONLY 
+    - Serving team warm-up (4 mins.)
+        - Referee(s): whistle start of the 4 min. warm-up for serving team. Conducts instructions for score keepers and lines persons, inspects equipment and playing surface
+        - Teams: serving team has entire court; receiving team is off the court with NO volleyball use (suggestion - the receiving team may help shag balls during the serving team's warm-up) 
+    - Receiving team warm-up (4 mins.)
+        - Referee(s): whistle the end of the 4 min. warm-up for serving team and start of the 4 min. warm-up for receiving team. Line ups are collected from both coaches
+        - Teams: serving team has entire court; receiving team is off the court with NO volleyball use (suggestion - The receiving team may help shag balls during the serving team's warm-up)
+
+- Purple Card Introduction Sanction Policy
+    - Prohibited Behavior: 
+        - a) Prohibited behavior would include, but not limited to, any comment(s) made or action(s) displayed, deemed by others as rude, profane, disrespectful, disruptive or aggressive, which interferes with the normal progress of a tournament match. 
+        - b) Any behavior prohibited by Volleyball Canada and the Ontario Volleyball Code of Conduct policies.
+        - c) Any misconduct deemed contrary to normally accepted behavior.
+
+- 6v6 Rallyball
+    - 1 2 3 
+
+- Rule Modifications for 4v4 Rallyball:
+    - Male/Coed, and Female divisions
+    - 14m x 7m court (or as close as possible)
+    - MVA Lite ball
+    - Net height: 2.10m (Female), 2.20m (Male/Coed)
+
+- OVA U14
+    - If a player serves 5 ball continuously, the referee will blow the whistle rotate the players to next position.
+    - Can NOT use open hand to receive the serve ball.
+
+- Twit
+    - 2:30
+    - 0:55
+
+
 # 2022 A 裁研習
 
 - 規則講解與裁判法
     - 比賽區域 = 比賽場地(區) + 無障礙區
-    - Playing Aera = Playing Court + Free zone
+    - Playing Area = Playing Court + Free zone
 
 - 司線
     - 用砍刀式
