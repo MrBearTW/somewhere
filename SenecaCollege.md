@@ -1046,8 +1046,70 @@
 
 ### 第三學期 2023 Fall
 
+- 參考 Term GPA 4.0
+    - OOP345 A
+    - DBS311 A
+    - WEB322 A+
+    - SYD366 A
 
-
+- 心得
+    - 綜合
+        - 線上上課真的很容易分心
+            - 不過大部分老師都有錄影，可以一直重複複習
+        - OOP WEB DBS 都有延續，第二學期有沒學好的地方，要自己補上
+        - 有延續的課都是一樣的老師，沒有太多適應問題
+        - 課程都擠在同一天的話，期中期末連續接著考會昏頭
+        - [ByteByteGo](https://www.linkedin.com/company/bytebytego/posts/) 追起來，WEB 和 DBS 都有一些圖解蠻實用好懂
+        - 有種漸漸要分道揚鑣的感覺，有一些同學第三學期休息，有一些同學下學期要去做 Co-op
+        - 莫名忙碌疲勞，沒有像第二學期還有精力到處旁聽
+        - 成績大概二分之一都要感謝 Generative AI 和各路 LLM 模型和 GitHub Copilot 以及前輩和同學在網路上的各種參考
+        - 假如有想要自己找實習（不是 Co-op）的話
+            - 理論上是可以，Seneca 一學年有上滿兩學期就可以
+            - 要從學校拿到 Scheduled break
+            - 簽證上這應該是屬於放假（寒暑假），所以可以做全職工作
+            - 細節可以詢問學校的國際生/簽證顧問，在 Service Hub 後面的小房間，可以去那邊詢問
+    - OOP345
+        - 前三分之一感覺是 OOP244 再延伸一些
+        - 期末重點 Containers / Algorithms / Multi-Threading
+            - 前兩個重點會在期中考那幾週教，很容易因為想準備期中考然後錯過沒學好...
+        - 每週課程切割分配不是很平均，有些很長有些很短
+        - 每週 Workshop Part1, 2 份量不一定一樣
+            - 不要做完 Part1 就放鬆
+        - Workshop 都不用打 Input 讚讚
+        - 老師很認真 Workshop 都是新版本的
+        - 期中考後好像蠻適合開始用 C++ 刷題
+        - Pointer 到期末考都還可能會出現喔！
+        - 我覺得我腦霧很多週沒有學很好...
+    - DBS311
+        - 期中考範圍
+            1. Grouping
+            2. Sub-Queries
+            3. Set Operators
+        - 期末考範圍
+            1. PL/SQL
+            2. MongoDB
+        - 老師預期學完期中考部分後可以處理大多數中小企業的 SQL 問題
+        - Assignment 2 佔分很高，可以多花一些心思，隊友很重要
+        - MongoDB 佔比不到整學期三分之一，沒有教很深
+    - WEB322
+        - 不是只教純後端，也有一些前端(Tailwind CSS)的東西
+        - PostgreSQL 和 MongoDB 都有帶到一些
+        - 作業和課文搭配交錯看會比較好懂
+        - 作業可以的話找一些有經驗的同學幫忙除錯，這蠻吃經驗的
+        - 公版作業是一個關於樂高的網站，從 1 到 6 一直延續做下去
+            - 作業5 和 作業6 要串資料庫，難度會高一點
+    - SYD366
+        - S 是 Software，不是 System 不要有錯誤期待
+        - 軟體（Visual Paradigm）很難用...不舒服
+        - 有學過[網站的 MVC 架構](https://developer.mozilla.org/en-US/docs/Glossary/MVC)可能會比較好懂
+        - 有點類似 APS145，教一點點，一整學期一直重複一直重複。
+        - 後半學期偏悠閒
+            - 硬要和其他科目擠期中考，我不懂
+        - 後三分之一都是團體作業，隊友很重要
+        - 最後一個個人作業要用學術寫作 APA 格式（應該是 COM101 有教過？）
+        - 這兩個作業要花很多時間請提早做
+            1. Week6 Inventory Lab 真是懷疑人生 （至少 8 hr）
+            2. 期末個人作業
 
 ## 老師特色
 - S1
@@ -1168,6 +1230,43 @@
         - Quiz2 只有半小時，Openbook
         - Quiz3 三題選擇，四題簡答。
         - 後半學期都是團體作業，組員很重要
+- S3
+    - OOP345 [Hong Zhan (Michael) Huang GitHub](https://github.com/joulecpa)
+        - 會解說 Workshop
+        - 可尬聊電玩議題
+        - C++17
+            - [Mac VS code C++ 版本調整方法](https://stackoverflow.com/a/75291187/11377343)
+        - 重要日期都有在 Blackboard 上看的到。
+        - Quiz 又變提前考，考預習
+        - Part1 Part2 每一個 Workshop 比例都不一樣，不要傻傻做完 Part1 就放鬆
+        - Walkthrough 更接近是寫出 Output
+        - 全新版本的作業
+        - 延後期限不一定真的會延喔
+        - 期中考紙本
+    - WEB322 [Suluxan Mohanraj LinkedIn](https://www.linkedin.com/in/suluxan/)
+        - 老師時間很彈性，有反應有機會
+        - 作業有連續性
+            - 一行一行做，不要跳
+        - 其他請參考上學期
+    - DBS311 [Clint MacDonald](https://www.linkedin.com/in/clintmacdonald/)
+        - 課文超不齊全
+        - 期中考的時候，應可處理中小型公司的所有 Query 問題
+            - 期中考前 [LeetCode SQL50](https://leetcode.com/studyplan/top-sql-50/) 可以衝一下
+        - VS code 套件可以用
+        - 星戰粉？
+        - 促咪的直撥背景
+        - 期中期末都電腦考
+        - 團體作業很重要
+    - SYD366 [Cassandra Laffan](https://www.linkedin.com/in/cassandra-laffan/)
+        - 該做的做，不該做的不做，不確定的就問
+        - 做自己
+        - Week6 Inventory Lab 真是懷疑人生 （至少 8 hr）
+        - 沒有 Teams 群組，要溝通只能用 Email
+        - 截圖前記得檢查一次，不然會截到點點點 或 直接用輸出功能
+        - 有點像遇到一位 PM Spec 沒寫清楚
+        - 紙本考試，記得帶尺
+        - 示範的圖上課沒解釋，課後才上傳
+        - 成績超綠但沒有拿 A+
 
 ## 工作求職類的講座紀錄
 
