@@ -1,0 +1,10 @@
+- Mac 指令
+    - 安裝 ffmpeg
+    - 收集檔案名稱
+        - `for i in *.TS; do echo "file '$i'" >> mylist.txt; done`
+    - 合併檔案
+        - `ffmpeg -f concat -safe 0 -i mylist.txt -c:v libx264 -c:a copy output.TS`
+    - Reference: 
+        - https://youtu.be/sj-EpJheoZQ?si=9JVzOz6aIjnQOeq1
+        - https://www.mobile01.com/topicdetail.php?f=510&t=5086731&p=1
+        - https://www.mobile01.com/topicdetail.php?f=510&t=5255842
